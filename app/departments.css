@@ -111,3 +111,7 @@ html:has(.catalog-motion[data-motion=running]){scroll-behavior:smooth}
   .catalog-motion *, .catalog-motion *:before,.catalog-motion *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .catalog-motion .department-copy{transform:none!important;opacity:1!important}
 }
+
+@media(min-width:761px){.catalog-motion .recovery-options,.catalog-motion .gym-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.gym-browse-section{border-top:1px solid var(--line);padding-top:4px}
+.breadcrumb-reset{color:inherit;font:inherit;background:none;border:0;padding:0;cursor:pointer}.breadcrumb-reset:hover{text-decoration:underline}

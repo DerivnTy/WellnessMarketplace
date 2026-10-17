@@ -13,7 +13,7 @@ const {normalizeProduct}=compile('lib/catalog-data.ts',{'@/data/catalog.json':{d
 let checks=0;const check=(ok,label)=>{assert.ok(ok,label);checks++;};
 const find=(category,query={})=>filterProducts(products,parseBrowse(category,query));
 check(added.length===22,'22 distinct researched additions');
-check(products.length===108&&new Set(products.map(p=>p.id)).size===108,'108 unique catalog products');
+check(products.length>=108&&new Set(products.map(p=>p.id)).size===products.length,'catalog IDs stay unique as new collections are added');
 for(const [category,count] of Object.entries({recovery:10,apparel:4,supplements:4,drinks:3,nutrition:1}))check(added.filter(p=>p.category===category).length===count,category+' expansion count');
 for(const p of added){
  check(productSchema.safeParse(p).success,p.id+' valid schema');
@@ -56,7 +56,7 @@ const db={
  insert(table){return {values(input){const incoming=Array.isArray(input)?input:[input];return {async onConflictDoNothing(){insertedCalls++;check(table!==tables.products||incoming.length<=20,'D1 bind limit respected');const rows=records.get(table)||[];for(const r of incoming){const key=table===tables.settings?'key':'id';if(!rows.some(x=>x[key]===r[key]))rows.push(r);}records.set(table,rows);}};}};}
 };
 const {catalog}=compile('lib/server.ts',{'@/db':{getDb:()=>db},'@/db/schema':tables,'@/data/catalog.json':{default:products},'drizzle-orm':{eq:(key,value)=>({key,value})},'@/app/chatgpt-auth':{getChatGPTUser:()=>null},'./catalog-data':{normalizeProduct}});
-const visible=await catalog();check(visible.length===107,'new import preserves editorial draft');check(!visible.some(p=>p.id===edited.id),'draft stays hidden');
-const all=await catalog(true);check(all.length===108,'all new products imported once');check(all.find(p=>p.id===edited.id).price===123.45,'editorial price is not overwritten');
+const visible=await catalog();check(visible.length===products.length-1,'new import preserves editorial draft');check(!visible.some(p=>p.id===edited.id),'draft stays hidden');
+const all=await catalog(true);check(all.length===products.length,'all new products imported once');check(all.find(p=>p.id===edited.id).price===123.45,'editorial price is not overwritten');
 const before=insertedCalls;await catalog();check(insertedCalls===before,'completed import does not write on repeat');
 console.log(`${checks} catalog expansion assertions passed.`);

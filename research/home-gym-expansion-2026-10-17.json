@@ -1,0 +1,257 @@
+{
+  "checked": "2026-10-17",
+  "affiliateTrackingLinksInstalled": 0,
+  "note": "Ten independently listed products. No invented scores or approved affiliate relationships. Price bands are computed from the catalog price. Footprint calculations describe equipment only, not usable exercise space. Conflicting or missing dimensions are excluded from size filters.",
+  "products": [
+    {
+      "productId": "powerblock-elite-usa-90",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Selected model and specifications",
+          "url": "https://powerblock.com/products/elite-usa-90-adjustable-dumbbells?variant=43064462213311"
+        },
+        {
+          "label": "Current price and stock",
+          "url": "https://powerblock.com/products/elite-usa-90-adjustable-dumbbells.js"
+        },
+        {
+          "label": "Component warranty",
+          "url": "https://powerblock.com/pages/warranty"
+        }
+      ]
+    },
+    {
+      "productId": "ironmaster-quick-lock-75",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Selected model and specifications",
+          "url": "https://ironmaster.com/products/quick-lock-adjustable-dumbbells-75-original"
+        },
+        {
+          "label": "Current price and stock",
+          "url": "https://ironmaster.com/products/quick-lock-adjustable-dumbbells-75-original.js"
+        },
+        {
+          "label": "Operating manual",
+          "url": "https://ironmaster.com/cdn/shop/files/Quick-Lock-Dumbbells-6-16.pdf?v=1154377138371265873"
+        },
+        {
+          "label": "Warranty coverage",
+          "url": "https://ironmaster.com/pages/warranty"
+        }
+      ]
+    },
+    {
+      "productId": "smrtft-nuobell-80",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Selected model and specifications",
+          "url": "https://smrtft.com/products/nuobell-80lb"
+        },
+        {
+          "label": "Current price and stock",
+          "url": "https://smrtft.com/products/nuobell-80lb.js"
+        },
+        {
+          "label": "Warranty and exclusions",
+          "url": "https://smrtft.com/pages/warranty"
+        },
+        {
+          "label": "Return conditions",
+          "url": "https://smrtft.com/pages/returns-refunds"
+        }
+      ]
+    },
+    {
+      "productId": "rogue-sml2-squat-stand",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "US product, price and specifications",
+          "url": "https://www.roguefitness.com/sml-2-rogue-90-monster-lite-squat-stand"
+        },
+        {
+          "label": "Assembly instructions",
+          "url": "https://assets.roguefitness.com/instructions/IS0071/IS0071_CUST_INSTR_V1"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://www.roguefitness.com/warranty"
+        },
+        {
+          "label": "Affiliate program \u2014 approval required",
+          "url": "https://www.roguefitness.com/rogue-affiliate-program"
+        }
+      ]
+    },
+    {
+      "productId": "rep-pr4100-folding-rack-41",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "41-inch variant, dimensions and mounting instructions",
+          "url": "https://repfitness.com/products/pr-4100-folding-wall-mount-squat-power-rack?variant=41067585732766"
+        },
+        {
+          "label": "Official current variant feed",
+          "url": "https://repfitness.com/products/pr-4100-folding-wall-mount-squat-power-rack.js"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://repfitness.com/pages/warranty-information"
+        },
+        {
+          "label": "Included rack components",
+          "url": "https://ca.repfitness.com/collections/folding-rack"
+        },
+        {
+          "label": "Affiliate program \u2014 approval required",
+          "url": "https://repfitness.com/pages/affiliate-program-rep-fitness"
+        }
+      ]
+    },
+    {
+      "productId": "bells-of-steel-all-in-one-stack",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "US complete weight-stack variant and specifications",
+          "url": "https://bellsofsteel.us/products/all-in-one-trainer?variant=50655811240133"
+        },
+        {
+          "label": "Official current US variant feed",
+          "url": "https://bellsofsteel.us/products/all-in-one-trainer.js"
+        },
+        {
+          "label": "Official dimensions diagram",
+          "url": "https://bellsofsteel.us/cdn/shop/files/ss-fct-prnt-specs_mxl676.jpg?v=1791198518"
+        },
+        {
+          "label": "SEL-SS-FCT2 assembly manual",
+          "url": "https://bellsofsteel.au/cdn/shop/files/PM_SEL-SS-FCT2-SET_20-_202025.11.01-v1.pdf?v=8002334375000364001"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://bellsofsteel.us/pages/warranty"
+        },
+        {
+          "label": "US shipping",
+          "url": "https://bellsofsteel.us/policies/shipping-policy"
+        },
+        {
+          "label": "Affiliate program \u2014 approval required",
+          "url": "https://bellsofsteel.us/pages/affiliate-program"
+        }
+      ]
+    },
+    {
+      "productId": "rep-fb5000-flat-bench",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and configuration",
+          "url": "https://repfitness.com/products/fb-5000-competition-flat-bench?variant=41499496382622"
+        },
+        {
+          "label": "How REP defines bench load capacity",
+          "url": "https://repfitness.com/blogs/lifestyle/best-weight-benches-sale"
+        },
+        {
+          "label": "Assembly manual",
+          "url": "https://repcustomerfiles.blob.core.windows.net/publicfiles/FB-5002.pdf"
+        },
+        {
+          "label": "US warranty coverage and exclusions",
+          "url": "https://repfitness.com/pages/warranty-information"
+        },
+        {
+          "label": "US returns and delivery terms",
+          "url": "https://repfitness.com/pages/us-returns-and-cancellations"
+        }
+      ]
+    },
+    {
+      "productId": "rep-blackwing-adjustable-bench",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and configuration",
+          "url": "https://repfitness.com/products/blackwing-adjustable-bench?variant=42458934804638"
+        },
+        {
+          "label": "How REP defines bench load capacity",
+          "url": "https://repfitness.com/blogs/lifestyle/best-weight-benches-sale"
+        },
+        {
+          "label": "Assembly manual",
+          "url": "https://repcustomerfiles.blob.core.windows.net/publicfiles/AB-5300-BlackWing-Assembly.pdf"
+        },
+        {
+          "label": "US warranty coverage and exclusions",
+          "url": "https://repfitness.com/pages/warranty-information"
+        },
+        {
+          "label": "US returns and delivery terms",
+          "url": "https://repfitness.com/pages/us-returns-and-cancellations"
+        }
+      ]
+    },
+    {
+      "productId": "rep-colorado-20kg-barbell",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and configuration",
+          "url": "https://repfitness.com/products/colorado-bar-20kg?variant=42538384064670"
+        },
+        {
+          "label": "US warranty coverage and exclusions",
+          "url": "https://repfitness.com/pages/warranty-information"
+        },
+        {
+          "label": "US returns and delivery terms",
+          "url": "https://repfitness.com/pages/us-returns-and-cancellations"
+        }
+      ]
+    },
+    {
+      "productId": "rep-black-bumper-260lb-set",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and configuration",
+          "url": "https://repfitness.com/products/black-bumper-plate-pairs"
+        },
+        {
+          "label": "Exact 260 lb set price and availability (official product feed)",
+          "url": "https://repfitness.com/products/black-bumper-plate-sets.js"
+        },
+        {
+          "label": "US warranty coverage and exclusions",
+          "url": "https://repfitness.com/pages/warranty-information"
+        },
+        {
+          "label": "US returns and delivery terms",
+          "url": "https://repfitness.com/pages/us-returns-and-cancellations"
+        }
+      ]
+    }
+  ],
+  "commercialResearch": [
+    {
+      "area": "dumbbells",
+      "notes": "ADJUSTABLE DUMBBELL RESEARCH \u2014 checked 2026-10-17\n\nFACT\nThree complete catalog records are in work/gym-dumbbells.json. Official product HTML and public product JSON were fetched today; selected variants all returned available:true. Their price values in cents agree with advertised pages. Pair pricing is explicit, with no stand bundled. Exact variant IDs are in entries. All media were downloaded from the official product galleries into work/gym-assets and visually inspected against the product/model. Image provenance: work/gym-dumbbells-images.json. Raw research remains in work/gym-pages and should not be published.\n\nMATERIAL CAVEATS\nPowerBlock: the current component warranty is more limited than the product-page headline. The record retains the pin/micro-weight exceptions. Choose the full 90 LBS variant, not the lower-priced 50 LBS starter. No commercial-use claim.\nIronmaster: the primary www search result showed stale out-of-stock content, while current canonical ironmaster.com HTML and live variant JSON agree on availability. Current product page excludes the stand; an older manual lists it as potentially separate. The weight-range distinction between bare handle and assembled handle is preserved. Current plate alloy is unconfirmed.\nSMRTFT: technical specifications say aluminum grip while the same product comparison table says steel; the entry preserves this conflict. Do not publish an all-steel claim. Optional extended coverage is excluded from the listed price. Current photos are seller's own gallery and depict the selected Classic Black 80 model.\n\nAFFILIATE ROUTES (NO APPLICATIONS SENT)\nPowerBlock: https://powerblock.com/pages/affiliate-registration \u2014 official form; approval required, sales-percentage arrangement confirmed, specific rate/cookie/payout terms not published. Do not invent commission estimates.\nIronmaster: https://ironmaster.com/pages/faq mentions an affiliate program but does not currently expose an application or terms in the page body. Program availability, commission rate, cookie and approval requirements remain unconfirmed. No third-party rate claims used.\nSMRTFT: https://smrtft.com/pages/affiliate-registration-page \u2014 official brand-ambassador inquiry form, but commission availability/rate/cookie/approval terms not published. An ambassador form is not proof of an approved paid affiliate relationship.\nAll catalog affiliate fields remain false because no user-specific tracking URLs exist.\n\nINFERENCE / RECOMMENDATION\nThe three mechanisms give shoppers a practical comparison instead of duplicating near-identical products. Next: integrate all three with pair pricing, weight-per-hand labels, warranty exceptions, and source links. Measure retailer clicks before spending on a deeper catalog. The principal revenue unknown is approved merchant economics, not product list price.\n"
+    },
+    {
+      "area": "racks",
+      "notes": "GYM RACK / TRAINER CANDIDATES \u2014 checked 2026-10-17\n\nDELIVERABLE\n3 Product-schema records in gym-racks.json; official photographs in gym-assets. Image source manifest gym-racks-image-sources.json. Photographs visually inspected. Shared site/catalog untouched. All affiliate=false; no score/review records created. New brand IDs: rogue-fitness, rep-fitness, bells-of-steel. Both rack entries use type power-rack; the cable unit uses functional-trainer.\n\nFACT\nRogue SML-2: US page displays $525 with Add to Cart. Stand only, selected Single Skinny pull-up bar; separately priced SAML-24 safeties excluded. Product page explicitly supplies a 1,000 lb+ stand capacity. This is not inferred from steel gauge and is not a separate bodyweight/pull-up limit. Page/manual do not establish an exercise-specific anchoring rule; record says so. Photo includes a barbell and plates: excluded and labeled.\nSource: https://www.roguefitness.com/sml-2-rogue-90-monster-lite-squat-stand\n\nREP PR-4100: official feed exact variant 41067585732766, 41-inch depth, $579.99, available=true. Mounted interior length, nominal depth and folded projection are distinguished. Wall anchoring is required; wood stringers are excluded. Official page provides different mounting recommendations for stud/stringer versus concrete installation. Stringer mounting must be verified by installer, not assumed from a product image. Image is associated with exact 41-inch variant; wood stringers excluded and labeled.\nSource: https://repfitness.com/products/pr-4100-folding-wall-mount-squat-power-rack.js\n\nBells of Steel: exact US variant 50655811240133, weight stack 210 lb WITH footplate, $1,899.99, available=true. The .com Canadian feed differs: not used for price. The cheaper plate-loaded machine and conversion kits are different SKUs. The main technical illustration is saved as gym-assets/bos-specs.jpg for review, not a listing hero. Actual machine hero shows the included weight stack and footplate. Manufacturer manual SEL-SS-FCT2 is hosted on its Australian CDN but identifies both .com and .us on cover and matches the v2 model. Reviewed its indoor/surface/clearance guidance, not Australian commercial terms.\nSource: https://bellsofsteel.us/products/all-in-one-trainer.js\n\nUNKNOWN / CONFLICT\nBells main product page lists 54.6 L x 59 W x 82 H while FAQ says 44 3/8 depth and 60 width. Technical diagram labels 54.6 along an angled side rather than a clean rectangular depth. Do not silently resolve this with invented geometry: candidate explicitly discloses conflict and asks shopper to confirm floorplan. FAQ says 88-inch assembly ceiling; manual additionally says 2 ft surrounding clearance. No separate maximum barbell/pull-up/attachment loading found, and steel gauge not confirmed. No J-cups or safeties inclusion assumed. This remains an optional cable-trainer listing with those explicit gaps, not a full-rack recommendation for a specific load.\n\nAFFILIATE EVIDENCE \u2014 programs available, no active affiliation\nRogue official program: 4% qualifying merchandise value; tax/shipping/returns excluded; manager review and completed W-9 required. Certain products excluded; full exclusions and attribution duration need confirmation before monetizing. At current $525, 4% arithmetic is $21 before reversals; not expected revenue.\nhttps://www.roguefitness.com/rogue-affiliate-program\n\nREP official program: up to 5%, 21-day tracking, currently US applicants with fitness content; approval required. $100 payout threshold; minimum $1,500 sales in rolling six months to remain active. Returns, tax, shipping, wholesale and non-REP products excluded. Important editorial constraint: published terms request notice before negative product reviews and include non-disparagement/termination language. Review compatibility with independent trust-scoring model before applying. At 5% on $579.99, maximum illustrative gross is $29; actual agreed rate unknown.\nhttps://repfitness.com/pages/affiliate-program-rep-fitness\n\nBells of Steel official US affiliate page: program exists, public percentage not stated. It claims indefinite cookie/IP retention; that does not guarantee perpetual credited commissions. Content-creator eligibility and restrictions on affiliate-marketing/PPC/non-authentic-content companies mean acceptance of this marketplace is UNKNOWN. $100 payout threshold. Do not project cash commission until rate, eligible business model and attribution terms are confirmed.\nhttps://bellsofsteel.us/pages/affiliate-program\n\nINFERENCE / RECOMMENDATION\nThese three establish a practical stand/folding-rack/cable-trainer comparison. The two racks have modest dollars per conversion despite meaningful order values. Treat buyer fit and actual partner approval as the business crux, not catalog price alone. Next move: merge the two well-defined rack records and the transparently qualified optional trainer, then obtain approved program terms before adding tracking links. Kill commission assumptions immediately if excluded products/business eligibility or editorial restrictions conflict with the marketplace.\n\nNOT SELECTED\nREP PR-4000 and Altitude were researched but their public feed represented color/builder starting prices without fully selected height/configuration totals. Those prices should not be presented as exact complete configurations. No assets or records for either included.\n\nFILTER NORMALIZATION: PR-4100 setup=wall-mounted. Warranty facets omitted on all three because minimum coverage of every included component is not established; detailed component terms remain in attributes.\n"
+    },
+    {
+      "area": "benches-weights",
+      "notes": "Home gym product research \u2014 checked 2026-10-17 (US / USD)\n\nDeliverable: gym-benches-weights.json contains four REP Fitness products. These are source-backed catalog records, not brand Trust Standards scores or consumer reviews. Affiliate links are not active; every record has affiliate=false. No application, purchase or outreach was performed.\n\nExact configurations\n\u2022 rep-fb5000-flat-bench \u2014 $244.99, Matte Black / Narrow 12-inch pad, variant 41499496382622.\n  https://repfitness.com/products/fb-5000-competition-flat-bench?variant=41499496382622\n\u2022 rep-blackwing-adjustable-bench \u2014 $599.99, Matte Black / Standard 12.2-inch pads, variant 42458934804638.\n  https://repfitness.com/products/blackwing-adjustable-bench?variant=42458934804638\n\u2022 rep-colorado-20kg-barbell \u2014 $299.99, 20 kg / Hard Chrome shaft and sleeves, variant 42538384064670.\n  https://repfitness.com/products/colorado-bar-20kg?variant=42538384064670\n\u2022 rep-black-bumper-260lb-set \u2014 $582.99, ten plates totaling 260 lb, one pair each of 10/15/25/35/45 lb, set variant 41067601854622.\n  Public shopping link: https://repfitness.com/products/black-bumper-plate-pairs\n  Exact set price/availability: https://repfitness.com/products/black-bumper-plate-sets.js\n\nAvailability and selection caveats\nAll selected variants were orderable in official product data. BlackWing Matte Black/Standard live HTML identifies variant 42458934804638 and dispatch within 24\u201348 hours, with no preorder notice. The default Metallic Black variant was a November 3 preorder and was deliberately replaced. FB-5000 also lists 24\u201348 hour dispatch. Barbell and plates are orderable; no delivery date is promised.\nThe public plate builder opens with no set selected: the shopper must choose 260 lb. Its live HTML contains the same $582.99 set price and variant as the feed. The hidden plate-set page redirects to account login, so it is not used as the shopping destination. Raw product feeds can remain internal research links if public evidence buttons should be human-readable.\n\nSpecification interpretation\nREP's bench guide defines load capacity as user plus external load: https://repfitness.com/blogs/lifestyle/best-weight-benches-sale . Both benches list 1,000 lb. The Colorado bar's 1,500 lb rating is explicitly STATIC; 190,000 psi is tensile strength. Neither establishes a dynamic working-load limit. Therefore the bar has no shared loadCapacity facet.\nThe plate page confirms Olympic 2-inch fit and 1-inch thickness for the 10 lb plate. Remaining plate dimensions were not confirmed in readable current official material. The embedded dimension graphic was inspected and is unreadable; no dimensions were inferred from another bumper model.\nBench geometry is the selected standard/narrow pad configuration. BlackWing supports flat, incline and decline, plus upright storage; optional leg attachments are not included.\n\nManual and policy provenance\nBench manual links come from the official assembly hub: https://repfitness.com/pages/how-to-build-your-bench\nFB-5000 manual: https://repcustomerfiles.blob.core.windows.net/publicfiles/FB-5002.pdf\nBlackWing manual: https://repcustomerfiles.blob.core.windows.net/publicfiles/AB-5300-BlackWing-Assembly.pdf\nWarranty details: https://repfitness.com/pages/warranty-information\nCoverage varies by component; lifetime structural weld coverage is not lifetime coverage for an entire bench. Plate coverage also varies by size and use. The records preserve these distinctions. Manufacturer conditions and geographic restrictions apply.\nReturns: https://repfitness.com/pages/us-returns-and-cancellations\nRecords summarize current conditions; free outbound shipping does not mean free returns.\n\nCommercial route \u2014 research only\nOfficial affiliate page: https://repfitness.com/pages/affiliate-program-rep-fitness\nOfficial linked portal: https://repfitness.postaffiliatepro.com/affiliates/\nMain REP page advertises up to 5% commission and a 21-day cookie. The linked portal instead advertises up to 30-day tracking. Cookie duration is unresolved until accepted program terms are verified. Rates are conditional, not an earnings forecast.\nMain page limits applications to US applicants with an appropriate fitness audience; approval is required. It requires PayPal, excludes coupon/PPC sites and paid advertising, and adjusts commission for returns. Non-REP products and self-referrals are excluded. It states a $1,500 sales minimum within a rolling six months. No user-specific account, approval or tracking URL is known.\n\nImages and local evidence\nFour exact final product images were downloaded from official REP Shopify assets and visually inspected. The BlackWing final image is Matte Black, not the earlier unused Metallic Black image. Use only:\n\u2022 gym-assets/rep-fb5000-matte-black.jpg\n\u2022 gym-assets/rep-blackwing-matte-black.jpg\n\u2022 gym-assets/rep-colorado-chrome-20kg.jpg\n\u2022 gym-assets/rep-black-bumper-260lb.jpg\nImage URLs and variant details are retained in gym-benches-images.json. Raw HTML, product JSON and manuals are in gym-pages/. Do not ship the unused Metallic Black image or the unreadable plate dimension drawing.\n\nNext move: integrate these four records and their final images, preserving exact configurations, the plate-set selection instruction and unconfirmed dimensions. Commercial enrollment and cookie verification are separate follow-up work before affiliate monetization.\n"
+    }
+  ]
+}

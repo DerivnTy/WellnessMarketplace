@@ -9,13 +9,13 @@ import { normalizeProduct } from './catalog-data';
 export async function catalog(includeDrafts=false): Promise<Product[]> {
   const db=getDb();
   // Seed data independently of schema migrations; existing editorial records are never overwritten.
-  if(!await setting('catalog-premium-expansion-2026-10-17')) {
+  if(!await setting('catalog-home-gym-10-products-2026-10-17')) {
     // D1 accepts at most 100 bound values per statement. Each product uses four.
     // A retry is safe even if an earlier request stopped partway through the seed.
     for(let offset=0;offset<seed.length;offset+=20) {
       await db.insert(products).values(seed.slice(offset,offset+20).map(p=>({id:p.id,data:JSON.stringify(p),status:p.status,updated:p.checked}))).onConflictDoNothing();
     }
-    await db.insert(settings).values({key:'catalog-premium-expansion-2026-10-17',value:'true'}).onConflictDoNothing();
+    await db.insert(settings).values({key:'catalog-home-gym-10-products-2026-10-17',value:'true'}).onConflictDoNothing();
   }
   const rows=await db.select().from(products);
   return rows.filter(r=>includeDrafts||r.status==='published').map(r=>normalizeProduct({...JSON.parse(r.data),status:r.status}));

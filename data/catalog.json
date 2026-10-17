@@ -6065,5 +6065,756 @@
         "performance"
       ]
     }
+  },
+  {
+    "id": "powerblock-elite-usa-90",
+    "slug": "powerblock-elite-usa-90",
+    "name": "Elite USA 90 Adjustable Dumbbells",
+    "brand": "PowerBlock",
+    "brandId": "powerblock",
+    "category": "recovery",
+    "type": "adjustable-dumbbells",
+    "description": "A nested weight-stack pair with magnetic selector pins and removable micro weights. This configuration includes the expansion stages needed to reach 90 lb per hand.",
+    "image": "/products/powerblock-elite-usa-90.jpg",
+    "price": 867,
+    "qty": "Pair \u2014 2 dumbbells",
+    "variant": "90 lb per hand \u2014 pair",
+    "source": "https://powerblock.com/products/elite-usa-90-adjustable-dumbbells",
+    "url": "https://powerblock.com/products/elite-usa-90-adjustable-dumbbells?variant=43064462213311",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "90 lb per hand",
+      "Magnetic selector pin"
+    ],
+    "attributes": {
+      "Weight range": "5\u201390 lb per dumbbell; manufacturer lists 2.5 and 5 lb adjustment increments.",
+      "Dimensions": "Each dumbbell at 90 lb: 16.25 \u00d7 6 \u00d7 6 in (L \u00d7 W \u00d7 H). Stand and exercise clearance extra.",
+      "Construction": "Welded steel weight plates, black powder coat, 32 mm knurled stainless-steel grip; plates made in USA, other components imported.",
+      "Warranty": "Home use: 5 years limited for handle assembly and plates; 1 year for selector pins and micro weights. Dropping and outdoor storage excluded.",
+      "Included": "Two 90 lb dumbbells with expansion stages, two selector pins and four 2.5 lb micro weights. Stand sold separately.",
+      "Price basis": "$867 for the 90 LBS pair, variant 43064462213311; taxes extra.",
+      "Setup type": "Freestanding nested stacks; magnetic selector pin plus removable micro weights.",
+      "Placement": "Indoor home gym; residential warranty only.",
+      "Delivery": "Free standard shipping to contiguous 48 US states; seller lists 2\u20134 business days to process and ship.",
+      "Power requirements": "No electrical power required.",
+      "Source: Selected model and specifications": "https://powerblock.com/products/elite-usa-90-adjustable-dumbbells?variant=43064462213311",
+      "Source: Component warranty": "https://powerblock.com/pages/warranty",
+      "Equipment footprint": "Approx. 1.4 sq ft, calculated from listed dimensions. Two dumbbells side by side; stand and handling space excluded."
+    },
+    "ingredients": "Not applicable \u2014 fitness equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "adjustable-dumbbells"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "weightRange": [
+        "5\u201390 lb each"
+      ],
+      "adjustment": [
+        "magnetic-pin"
+      ],
+      "construction": [
+        "steel-plates"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "under-10-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ironmaster-quick-lock-75",
+    "slug": "ironmaster-quick-lock-75",
+    "name": "Quick-Lock Adjustable Dumbbell System 75 lb Set",
+    "brand": "Ironmaster",
+    "brandId": "ironmaster",
+    "category": "recovery",
+    "type": "adjustable-dumbbells",
+    "description": "A plate-loaded pair with locking screws and knurled handles. The selected set reaches 75 lb per hand; the stand and heavier expansion kits are separate purchases.",
+    "image": "/products/ironmaster-quick-lock-75.jpg",
+    "price": 699,
+    "qty": "Pair \u2014 2 dumbbells",
+    "variant": "75 lb per hand \u2014 pair; stand excluded",
+    "source": "https://ironmaster.com/products/quick-lock-adjustable-dumbbells-75-original",
+    "url": "https://ironmaster.com/products/quick-lock-adjustable-dumbbells-75-original?variant=42986163601485",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "75 lb per hand",
+      "Plate-loaded adjustment"
+    ],
+    "attributes": {
+      "Weight range": "5\u201375 lb per dumbbell advertised; bare handle is 5 lb, or 10 lb with both locking screws. Manufacturer lists 2.5 lb increments.",
+      "Dimensions": "Each at 75 lb: 14.5 in long \u00d7 6.7 in square. Length is 9 in at 20 lb.",
+      "Construction": "Chrome-plated steel handles with knurled grips; separate weight plates and metal locking screws. Plate alloy not confirmed on current product page.",
+      "Warranty": "Lifetime for structural and functional dumbbell components, original purchaser, personal home use. Shipping and labor excluded; misuse and normal wear excluded.",
+      "Included": "Two handles, four locking screws, twenty-four 5 lb plates and four 2.5 lb plates. Stand excluded.",
+      "Price basis": "$699 for the 75 lb set/pair, variant 42986163601485; taxes extra.",
+      "Setup type": "Manual plate loading with partial-turn locking screws; no assembly tools required for dumbbells.",
+      "Placement": "Indoor home gym; warranty covers personal home use.",
+      "Power requirements": "No electrical power required.",
+      "Source: Selected model and specifications": "https://ironmaster.com/products/quick-lock-adjustable-dumbbells-75-original",
+      "Source: Operating manual": "https://ironmaster.com/cdn/shop/files/Quick-Lock-Dumbbells-6-16.pdf?v=1154377138371265873",
+      "Source: Warranty coverage": "https://ironmaster.com/pages/warranty",
+      "Equipment footprint": "Approx. 1.3 sq ft, calculated from listed dimensions. Two fully loaded dumbbells side by side; stand and plate-changing space excluded."
+    },
+    "ingredients": "Not applicable \u2014 fitness equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "adjustable-dumbbells"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "weightRange": [
+        "5\u201375 lb each"
+      ],
+      "adjustment": [
+        "locking-screw"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ],
+      "construction": [
+        "steel-handles"
+      ],
+      "footprint": [
+        "under-10-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "smrtft-nuobell-80",
+    "slug": "smrtft-nuobell-80",
+    "name": "N\u00dcOBELL 80 lb Classic Black Adjustable Dumbbells",
+    "brand": "SMRTFT",
+    "brandId": "smrtft",
+    "category": "recovery",
+    "type": "adjustable-dumbbells",
+    "description": "A pair with rotating-handle weight selection and individual storage cradles. Sixteen settings cover 5\u201380 lb per hand in 5 lb steps.",
+    "image": "/products/smrtft-nuobell-80.png",
+    "price": 845,
+    "qty": "Pair \u2014 2 dumbbells",
+    "variant": "Classic Black \u2014 80 lb per hand \u2014 pair",
+    "source": "https://smrtft.com/products/nuobell-80lb",
+    "url": "https://smrtft.com/products/nuobell-80lb?variant=32180342554660",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "80 lb per hand",
+      "Rotating-handle adjustment"
+    ],
+    "attributes": {
+      "Weight range": "5\u201380 lb per dumbbell in 5 lb steps; 16 settings.",
+      "Dimensions": "Each dumbbell: 17 \u00d7 7.5 \u00d7 7.5 in (L \u00d7 W \u00d7 H). Cradle footprint not separately confirmed.",
+      "Construction": "Machined steel plates, reinforced polymer components and aluminum connectors. Knurled 32 mm grip; official page conflicts on aluminum versus steel handle material.",
+      "Warranty": "2-year limited warranty for normal residential use; excludes accidental damage, commercial use and hard-surface impact. Optional paid SMRTCARE extension not included.",
+      "Included": "Two dumbbells, two portable cradles and quick-start guide. Raised stand excluded.",
+      "Price basis": "$845 for Classic Black pair, variant 32180342554660; advertised insured shipping included, destination eligibility and taxes checked at checkout.",
+      "Setup type": "Freestanding cradles with rotating-handle weight selection.",
+      "Placement": "Indoor home gym; standard warranty is residential-use only.",
+      "Power requirements": "No electrical power required.",
+      "Returns": "Within 30 days of delivery with approved RMA; unused, undamaged and original packaging. Original and return shipping deducted.",
+      "Source: Selected model and specifications": "https://smrtft.com/products/nuobell-80lb",
+      "Source: Warranty and exclusions": "https://smrtft.com/pages/warranty",
+      "Source: Return conditions": "https://smrtft.com/pages/returns-refunds"
+    },
+    "ingredients": "Not applicable \u2014 fitness equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "adjustable-dumbbells"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "weightRange": [
+        "5\u201380 lb each"
+      ],
+      "adjustment": [
+        "rotating-handle"
+      ],
+      "construction": [
+        "steel-plates"
+      ],
+      "warranty": [
+        "2-year"
+      ]
+    }
+  },
+  {
+    "id": "rogue-sml2-squat-stand",
+    "slug": "rogue-sml2-squat-stand",
+    "name": "SML-2 Monster Lite Squat Stand",
+    "brand": "Rogue Fitness",
+    "brandId": "rogue-fitness",
+    "category": "recovery",
+    "type": "power-rack",
+    "description": "Open squat stand with a pull-up bar and adjustable J-cups. Add compatible safety spotter arms separately for the lifting setup you need.",
+    "image": "/products/rogue-sml2.jpg",
+    "price": 525,
+    "qty": "1 unit",
+    "variant": "Black / Single Skinny pull-up bar / stand only",
+    "source": "https://www.roguefitness.com/sml-2-rogue-90-monster-lite-squat-stand",
+    "url": "https://www.roguefitness.com/sml-2-rogue-90-monster-lite-squat-stand",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Squat stand",
+      "Spotter arms separate"
+    ],
+    "attributes": {
+      "Weight capacity": "Manufacturer-listed stand rating: 1,000 lb+; not a separate pull-up user rating.",
+      "Dimensions": "48 in L \u00d7 49 in W \u00d7 92.25 in H; maximum Single Skinny pull-up bar height 88 in.",
+      "Construction": "3 \u00d7 3 in, 11-gauge steel uprights; 2 \u00d7 3 in, 11-gauge base; 5/8 in hardware.",
+      "Warranty": "Limited lifetime: frame and structural welds; original user; misuse exclusions apply.",
+      "Setup type": "Bolt-together assembly. Floor-mounting feet are optional; the reviewed manual gives no exercise-specific anchoring rule. Confirm stabilization for intended movements.",
+      "Included": "Stand frame, assembly hardware, two UHMW-lined J-cups, selected pull-up bar.",
+      "Not included": "Barbell, plates, bench, safety spotter arms, floor-mounting feet and wheels.",
+      "Price basis": "USD $525 base stand; no bar, bench or plates selected. Shipping and tax extra.",
+      "Safety accessories": "SAML-24 spotter arms: separately listed at $195 per pair.",
+      "Placement": "Indoor training area; allow additional space for barbell loading and overhead movement.",
+      "Image shows": "Barbell and weight plates are display accessories and are excluded.",
+      "Source: US product, price and specifications": "https://www.roguefitness.com/sml-2-rogue-90-monster-lite-squat-stand",
+      "Source: Assembly instructions": "https://assets.roguefitness.com/instructions/IS0071/IS0071_CUST_INSTR_V1",
+      "Source: Warranty": "https://www.roguefitness.com/warranty",
+      "Equipment footprint": "Approx. 16.3 sq ft, calculated from listed dimensions. Stand base only; loaded barbell, safety arms and lifting clearance require more room."
+    },
+    "ingredients": "Steel training equipment. See construction and included components; this is not a consumable product.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "power-rack"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "loadCapacity": [
+        "1000-lb-plus-stand-rating"
+      ],
+      "construction": [
+        "11-gauge-steel"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "gymFeature": [
+        "pull-up-bar",
+        "j-cups-included"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "rep-pr4100-folding-rack-41",
+    "slug": "rep-pr4100-folding-rack-41",
+    "name": "PR-4100 Folding Squat Rack \u2014 41-inch depth",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "category": "recovery",
+    "type": "power-rack",
+    "description": "Wall-mounted folding rack for a garage or indoor training space. The 41-inch option provides more working depth and folds to 24 inches from the wall.",
+    "image": "/products/rep-pr4100-41.jpg",
+    "price": 579.99,
+    "qty": "1 unit",
+    "variant": "41-inch depth / black / SKU PR-4110",
+    "source": "https://repfitness.com/products/pr-4100-folding-wall-mount-squat-power-rack?variant=41067585732766",
+    "url": "https://repfitness.com/products/pr-4100-folding-wall-mount-squat-power-rack?variant=41067585732766",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Folding rack",
+      "Wall anchoring required"
+    ],
+    "attributes": {
+      "Weight capacity": "1,000 lb rackable capacity when properly mounted.",
+      "Dimensions": "92.3 in upright height \u00d7 48 in overall width; 41 in nominal depth. Inside: 37.4 in length \u00d7 42.1 in width.",
+      "Folded dimensions": "41-inch version folds left/right to 24 in from wall; allow lateral swing space.",
+      "Construction": "3 \u00d7 3 in, 11-gauge steel uprights; 1 in hole spacing in bench zone, 2 in elsewhere.",
+      "Warranty": "Lifetime rack-frame and structural-weld coverage for original purchaser; wear/misuse excluded. REP policy excludes products leaving lower 48 states.",
+      "Setup type": "Wall anchoring required. Suitable studs/stringers or concrete mounting required; installer must verify wall, fasteners and clearance.",
+      "Included": "Rack, J-cups, pull-up bar and rack hardware; mounting components vary by wall construction.",
+      "Not included": "Wood stringers, installation, barbell, plates, bench and optional spotter arms.",
+      "Price basis": "USD $579.99 for 41-inch variant; free shipping advertised; tax and installation extra.",
+      "Placement": "Indoor; wall structure and full folding path must suit installation.",
+      "Image shows": "Wood mounting stringers pictured are excluded.",
+      "Source: 41-inch variant, dimensions and mounting instructions": "https://repfitness.com/products/pr-4100-folding-wall-mount-squat-power-rack?variant=41067585732766",
+      "Source: Warranty": "https://repfitness.com/pages/warranty-information",
+      "Source: Included rack components": "https://ca.repfitness.com/collections/folding-rack",
+      "Equipment footprint": "Approx. 13.7 sq ft, calculated from listed dimensions. Nominal unfolded dimensions; mounting offset and full folding/lifting clearance are extra."
+    },
+    "ingredients": "Steel training equipment. See construction and included components; this is not a consumable product.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "power-rack"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "loadCapacity": [
+        "1000-lb-rack-rating"
+      ],
+      "construction": [
+        "11-gauge-steel"
+      ],
+      "setup": [
+        "wall-mounted"
+      ],
+      "gymFeature": [
+        "folding",
+        "pull-up-bar",
+        "j-cups-included"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "bells-of-steel-all-in-one-stack",
+    "slug": "bells-of-steel-all-in-one-stack",
+    "name": "All-in-One Trainer \u2014 210 lb weight stack",
+    "brand": "Bells of Steel",
+    "brandId": "bells-of-steel",
+    "category": "recovery",
+    "type": "functional-trainer",
+    "description": "Selectorized cable trainer with a 210 lb central stack and adjustable side pulleys. This listing is the complete weight-stack machine, not the plate-loaded version or an upgrade kit.",
+    "image": "/products/bos-all-in-one-stack.jpg",
+    "price": 1899.99,
+    "qty": "1 unit",
+    "variant": "Weight Stack (210 LB) / with Footplate / v2",
+    "source": "https://bellsofsteel.us/products/all-in-one-trainer?variant=50655811240133",
+    "url": "https://bellsofsteel.us/products/all-in-one-trainer?variant=50655811240133",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "210 lb stack included",
+      "Anchoring required"
+    ],
+    "attributes": {
+      "Weight capacity": "210 lb included weight stack. Separate maximum barbell, pull-up and attachment loads not confirmed in reviewed sources.",
+      "Cable ratio": "Center: 1:1; side pulleys: 2:1, per manufacturer.",
+      "Dimensions": "Published layout: 54.6 in L \u00d7 59 in W \u00d7 82 in H. Confirm footprint: FAQ instead gives 44\u215c in depth and 60 in width.",
+      "Clearance": "88 in ceiling clearance for assembly. Manual specifies at least 2 ft free space around equipment.",
+      "Construction": "Steel frame; 2.3 \u00d7 2.3 in uprights, 5/8 in holes. Steel gauge not confirmed.",
+      "Warranty": "Limited lifetime frame/welds; 90 days for pins, handles, cables and pulleys. Original purchaser; exclusions apply.",
+      "Setup type": "Two-person assembly recommended; anchor to floor for full stability. Confirm suitable anchor hardware with manufacturer.",
+      "Included": "210 lb stack, trainer frame/cables, footplate, two nylon handles, lat bar and straight bar.",
+      "Not included": "Barbell, plates and bench. J-cups/spotter arms are not confirmed included.",
+      "Price basis": "USD $1,899.99; complete weight-stack variant. Free lower-48 shipping; tax and installation extra.",
+      "Placement": "Indoor, flat surface, cool and dry conditions.",
+      "Source: US complete weight-stack variant and specifications": "https://bellsofsteel.us/products/all-in-one-trainer?variant=50655811240133",
+      "Source: Official dimensions diagram": "https://bellsofsteel.us/cdn/shop/files/ss-fct-prnt-specs_mxl676.jpg?v=1791198518",
+      "Source: SEL-SS-FCT2 assembly manual": "https://bellsofsteel.au/cdn/shop/files/PM_SEL-SS-FCT2-SET_20-_202025.11.01-v1.pdf?v=8002334375000364001",
+      "Source: Warranty": "https://bellsofsteel.us/pages/warranty",
+      "Source: US shipping": "https://bellsofsteel.us/policies/shipping-policy",
+      "Weight range": "210 lb selectorized stack; center cable 1:1, side cables 2:1. Handle resistance differs by pulley ratio.",
+      "Equipment footprint": "Not assigned a size filter: manufacturer dimensions conflict. Confirm the current v2 floorplan and operating clearance before purchase."
+    },
+    "ingredients": "Steel training equipment. See construction and included components; this is not a consumable product.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "functional-trainer"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "construction": [
+        "steel"
+      ],
+      "setup": [
+        "anchoring-required"
+      ],
+      "gymFeature": [
+        "weight-stack",
+        "adjustable-pulleys",
+        "pull-up-bar"
+      ],
+      "warranty": [
+        "90-day"
+      ],
+      "weightRange": [
+        "210-lb-stack"
+      ]
+    }
+  },
+  {
+    "id": "rep-fb5000-flat-bench",
+    "slug": "rep-fb5000-flat-bench",
+    "name": "FB-5000 Competition Flat Bench",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "category": "recovery",
+    "type": "bench",
+    "description": "A fixed flat bench with a 12-inch-wide pad, tripod base and transport wheels. The listed configuration uses a matte black frame and the standard narrow pad.",
+    "image": "/products/rep-fb5000-matte-black.jpg",
+    "price": 244.99,
+    "qty": "1 bench",
+    "variant": "Matte Black / Narrow 12-inch pad",
+    "source": "https://repfitness.com/products/fb-5000-competition-flat-bench?variant=41499496382622",
+    "url": "https://repfitness.com/products/fb-5000-competition-flat-bench?variant=41499496382622",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Flat bench",
+      "1,000 lb total load"
+    ],
+    "attributes": {
+      "Weight capacity": "1,000 lb combined user and external load, per REP bench guidance",
+      "Dimensions": "50.5 in L \u00d7 21 in W \u00d7 16.9 in H",
+      "Product weight": "62 lb",
+      "Pad dimensions": "48 in L \u00d7 12 in W; 4 in thick",
+      "Construction": "3 \u00d7 3 in, 11-gauge steel frame; CleanGrip vinyl pad; rubber feet",
+      "Bench positions": "Flat only",
+      "Warranty": "Frame: 10 years; structural welds: limited lifetime; upholstery: 30 days. Normal wear and misuse excluded.",
+      "Placement": "Indoors, on a level floor",
+      "Setup type": "Assembly required; manufacturer instructions linked",
+      "Included": "One frame with narrow pad, handle, transport wheels and assembly hardware",
+      "Price basis": "USD; one complete bench in the selected color/pad; tax and optional assembly extra",
+      "Delivery": "Selected variant orderable; brand lists dispatch within 24\u201348 hours and free shipping",
+      "Returns": "30 days; original packaging and resalable condition required. Return shipping deducted; accepted incomplete/unpackaged returns may incur 15% restocking.",
+      "Source: Official product and configuration": "https://repfitness.com/products/fb-5000-competition-flat-bench?variant=41499496382622",
+      "Source: How REP defines bench load capacity": "https://repfitness.com/blogs/lifestyle/best-weight-benches-sale",
+      "Source: Assembly manual": "https://repcustomerfiles.blob.core.windows.net/publicfiles/FB-5002.pdf",
+      "Source: US warranty coverage and exclusions": "https://repfitness.com/pages/warranty-information",
+      "Source: US returns and delivery terms": "https://repfitness.com/pages/us-returns-and-cancellations",
+      "Equipment footprint": "Approx. 7.4 sq ft, calculated from listed dimensions. Flat bench only; allow working space and room for a rack or dumbbells."
+    },
+    "ingredients": "Not applicable \u2014 fitness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "bench"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "benchPosition": [
+        "flat"
+      ],
+      "adjustment": [
+        "fixed"
+      ],
+      "loadCapacity": [
+        "1000-lb-total-load"
+      ],
+      "construction": [
+        "steel"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "gymFeature": [
+        "transport-wheels"
+      ],
+      "warranty": [
+        "30-day"
+      ],
+      "footprint": [
+        "under-10-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "rep-blackwing-adjustable-bench",
+    "slug": "rep-blackwing-adjustable-bench",
+    "name": "BlackWing Adjustable Bench",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "category": "recovery",
+    "type": "bench",
+    "description": "A flat, incline and decline bench with a sliding seat to close the pad gap. It stores upright and has transport wheels; optional leg attachments are sold separately.",
+    "image": "/products/rep-blackwing-matte-black.jpg",
+    "price": 599.99,
+    "qty": "1 bench",
+    "variant": "Matte Black / Standard 12.2-inch pads",
+    "source": "https://repfitness.com/products/blackwing-adjustable-bench?variant=42458934804638",
+    "url": "https://repfitness.com/products/blackwing-adjustable-bench?variant=42458934804638",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Flat, incline & decline",
+      "Stores upright"
+    ],
+    "attributes": {
+      "Weight capacity": "1,000 lb combined user and external load, per REP bench guidance",
+      "Dimensions": "59.5 in L \u00d7 25.8 in W \u00d7 17.2 in H (flat)",
+      "Product weight": "131 lb",
+      "Pad dimensions": "Back: 38.2 \u00d7 12.2 in; seat: 15.6 in long, 12.2 to 8.5 in wide",
+      "Construction": "11-gauge steel frame; CleanGrip vinyl pads; knurled stainless-steel handles",
+      "Bench positions": "12 back angles from -8\u00b0 to 85\u00b0; six seat angles from -10\u00b0 to 45\u00b0",
+      "Storage": "Built-in vertical storage stand; 3.1 sq ft stored footprint",
+      "Warranty": "Frame: 10 years; structural welds: limited lifetime; upholstery: 30 days; pop-pins: 1 year. Exclusions apply.",
+      "Placement": "Indoors, on a level floor",
+      "Setup type": "Assembly required; arrives in separate frame and pad boxes",
+      "Included": "One matte black bench frame with standard pads and assembly hardware; leg attachments not included",
+      "Price basis": "USD; complete bench with standard pads; tax and optional assembly/attachments extra",
+      "Delivery": "This Matte Black/Standard variant lists dispatch within 24\u201348 hours; free shipping. Other colors may be preorders.",
+      "Returns": "30 days; original packaging and resalable condition required. Return shipping deducted; accepted incomplete/unpackaged returns may incur 15% restocking.",
+      "Source: Official product and configuration": "https://repfitness.com/products/blackwing-adjustable-bench?variant=42458934804638",
+      "Source: How REP defines bench load capacity": "https://repfitness.com/blogs/lifestyle/best-weight-benches-sale",
+      "Source: Assembly manual": "https://repcustomerfiles.blob.core.windows.net/publicfiles/AB-5300-BlackWing-Assembly.pdf",
+      "Source: US warranty coverage and exclusions": "https://repfitness.com/pages/warranty-information",
+      "Source: US returns and delivery terms": "https://repfitness.com/pages/us-returns-and-cancellations",
+      "Equipment footprint": "Approx. 10.7 sq ft, calculated from listed dimensions. Bench in flat position; exercise and adjustment clearance are extra. Upright storage is listed separately."
+    },
+    "ingredients": "Not applicable \u2014 fitness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "bench"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "benchPosition": [
+        "flat",
+        "incline",
+        "decline"
+      ],
+      "adjustment": [
+        "adjustable"
+      ],
+      "loadCapacity": [
+        "1000-lb-total-load"
+      ],
+      "construction": [
+        "steel"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "gymFeature": [
+        "vertical-storage",
+        "transport-wheels",
+        "zero-gap"
+      ],
+      "warranty": [
+        "30-day"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "rep-colorado-20kg-barbell",
+    "slug": "rep-colorado-20kg-barbell",
+    "name": "Colorado Bar \u2014 20 kg",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "category": "recovery",
+    "type": "barbell",
+    "description": "A general-purpose 20 kg Olympic bar with a 28.5 mm shaft, dual knurl markings and smooth rotating sleeves. This configuration has hard chrome on both shaft and sleeves.",
+    "image": "/products/rep-colorado-chrome-20kg.jpg",
+    "price": 299.99,
+    "qty": "1 barbell",
+    "variant": "20 kg / Hard Chrome shaft / Hard Chrome sleeves",
+    "source": "https://repfitness.com/products/colorado-bar-20kg?variant=42538384064670",
+    "url": "https://repfitness.com/products/colorado-bar-20kg?variant=42538384064670",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "20 kg bar",
+      "50 mm sleeves"
+    ],
+    "attributes": {
+      "Weight range": "Bar weight: 20 kg (44.1 lb); plates sold separately",
+      "Weight capacity": "1,500 lb manufacturer static rating; a dynamic working-load limit is not published",
+      "Dimensions": "86.6 in overall length; 28.5 mm shaft; 50 mm sleeves",
+      "Loadable sleeve length": "16.1 in per side",
+      "Plate compatibility": "Olympic plates and collars for nominal 2-inch / 50 mm sleeves",
+      "Construction": "Steel with hard-chrome shaft and sleeves; composite bushings",
+      "Tensile strength": "190,000 psi; material strength, not a working weight capacity",
+      "Knurling": "Medium volcano texture; dual IPF/IWF markings; no center knurl",
+      "Warranty": "Limited lifetime against material/function/workmanship defects for the original purchaser; normal wear, maintenance and misuse excluded",
+      "Placement": "Indoors; protect from moisture and maintain per manufacturer",
+      "Setup type": "Ready to use; load compatible plates and secure with collars",
+      "Included": "One 20 kg barbell; weight plates and collars not included",
+      "Price basis": "USD; one hard-chrome 20 kg barbell; tax extra",
+      "Delivery": "Selected variant orderable; brand lists free shipping",
+      "Returns": "30 days; original packaging and resalable condition required. Return shipping deducted; accepted incomplete/unpackaged returns may incur 15% restocking.",
+      "Source: Official product and configuration": "https://repfitness.com/products/colorado-bar-20kg?variant=42538384064670",
+      "Source: US warranty coverage and exclusions": "https://repfitness.com/pages/warranty-information",
+      "Source: US returns and delivery terms": "https://repfitness.com/pages/us-returns-and-cancellations"
+    },
+    "ingredients": "Not applicable \u2014 fitness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "barbell"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "construction": [
+        "steel"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ],
+      "weightRange": [
+        "20-kg-bar"
+      ]
+    }
+  },
+  {
+    "id": "rep-black-bumper-260lb-set",
+    "slug": "rep-black-bumper-260lb-set",
+    "name": "Black Bumper Plates \u2014 260 lb Set",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "category": "recovery",
+    "type": "weight-plates",
+    "description": "Ten rubber bumper plates totaling 260 lb, with steel center inserts for Olympic bars. The set includes a pair of each size: 10, 15, 25, 35 and 45 lb.",
+    "image": "/products/rep-black-bumper-260lb.jpg",
+    "price": 582.99,
+    "qty": "10 plates / 260 lb total",
+    "variant": "260 lb set / pairs of 10, 15, 25, 35 and 45 lb",
+    "source": "https://repfitness.com/products/black-bumper-plate-pairs",
+    "url": "https://repfitness.com/products/black-bumper-plate-pairs",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "260 lb total",
+      "10 plates"
+    ],
+    "attributes": {
+      "Weight range": "10\u201345 lb per plate; 260 lb total set weight",
+      "Dimensions": "Fits 2-inch Olympic sleeves. 10 lb plates are 1 in thick; remaining dimensions not confirmed in readable current specs.",
+      "Construction": "Rubber bumper plates with steel center inserts",
+      "Included": "2 \u00d7 10 lb, 2 \u00d7 15 lb, 2 \u00d7 25 lb, 2 \u00d7 35 lb and 2 \u00d7 45 lb plates; no barbell, collars or storage rack",
+      "Weight tolerance": "Manufacturer states 1%",
+      "Warranty": "10/15 lb plates: 6 months. 25/35/45 lb plates: 3 years home use, 1 year commercial. Mixing with Hi-Temp plates voids coverage.",
+      "Placement": "Indoor gym; use suitable lifting flooring",
+      "Setup type": "No assembly; load on a compatible Olympic bar and secure with collars",
+      "Price basis": "USD; complete 260 lb set, not a pair or per-pound price; tax extra",
+      "Merchant selection": "Select the 260 lb set in the merchant\u2019s set builder. The public link opens with no set selected.",
+      "Delivery": "260 lb set is orderable in the official feed; brand lists free shipping",
+      "Returns": "30 days; original packaging and resalable condition required. Return shipping deducted; accepted incomplete/unpackaged returns may incur 15% restocking.",
+      "Source: Official product and configuration": "https://repfitness.com/products/black-bumper-plate-pairs",
+      "Source: US warranty coverage and exclusions": "https://repfitness.com/pages/warranty-information",
+      "Source: US returns and delivery terms": "https://repfitness.com/pages/us-returns-and-cancellations"
+    },
+    "ingredients": "Not applicable \u2014 fitness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "weight-plates"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "weightRange": [
+        "10\u201345 lb per plate",
+        "260-lb-set"
+      ],
+      "construction": [
+        "rubber",
+        "steel"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "6-month"
+      ]
+    }
   }
 ]
