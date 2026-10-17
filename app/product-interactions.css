@@ -46,3 +46,7 @@
 @media(max-width:760px){
  .preference-filters:not([data-collapsible]){display:block;position:static;width:100%;max-width:none;max-height:none;border:1px solid #e1e7eb;border-radius:10px}
 }
+
+.attribute-source{display:inline-flex;align-items:center;gap:5px;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+
+.product-sources{padding:24px 0;border-bottom:1px solid var(--line,#e4e6e5)}.product-sources h3{font-size:15px;margin:0 0 12px}.product-sources a{display:flex;align-items:center;gap:8px;margin:10px 0;font-size:13px;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}

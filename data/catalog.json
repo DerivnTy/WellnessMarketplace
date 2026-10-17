@@ -4622,5 +4622,1448 @@
         "unsweetened"
       ]
     }
+  },
+  {
+    "id": "pod-icepod-pro-standard-chiller",
+    "slug": "pod-icepod-pro-standard-chiller",
+    "name": "IcePod Pro + Standard Chiller",
+    "brand": "The Pod Company",
+    "brandId": "the-pod-company",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "An inflatable round tub paired with a separate Standard Chiller. A compact entry point for a home setup; verify the usable water volume and delivery timing before ordering.",
+    "image": "/products/pod-icepod-pro-standard-chiller.jpg",
+    "price": 693,
+    "qty": "1 cold-plunge system",
+    "variant": "IcePod Pro / Standard Chiller",
+    "source": "https://podcompany.com/products/the-ice-pod",
+    "url": "https://podcompany.com/products/the-ice-pod?variant=44455811317926",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Chiller included",
+      "Inflatable tub"
+    ],
+    "attributes": {
+      "Capacity": "Water volume not confirmed: the product page lists both 106 and 110 gallons. Occupancy limit not confirmed.",
+      "Temperature range": "Standard Chiller minimum: 41\u00b0F; upper setpoint not confirmed.",
+      "Heat type": "Cooling-only configuration; no heater included.",
+      "Power requirements": "Regular 110V US plug; Standard Chiller rated 280W.",
+      "Dimensions": "Tub: 32 in diameter \u00d7 30 in high. Chiller: 12 \u00d7 12 \u00d7 13 in.",
+      "Warranty": "2-year limited warranty for orders on/after January 15, 2026; maintenance and exclusions apply.",
+      "Placement": "Indoor or outdoor; protect chiller from freezing and use a shaded, covered location.",
+      "Setup type": "Inflatable tub with support legs; external chiller connected by hoses.",
+      "Price basis": "IcePod Pro plus Standard Chiller, variant 44455811317926. Taxes and any destination fees extra.",
+      "Returns": "Pod: 30 days from delivery, unused and never filled. Chiller: 30 days from shipment. Return freight paid by buyer; sale-item exclusion requires confirmation.",
+      "Delivery": "US delivery estimates and destination fees must be confirmed at checkout.",
+      "Ongoing costs": "Electricity, water care, and replacement filters; annual cost not confirmed.",
+      "Source: Model, selected bundle and specifications": "https://podcompany.com/products/the-ice-pod?variant=44455811317926",
+      "Source: Current variant price and availability": "https://podcompany.com/products/the-ice-pod.js",
+      "Source: Current warranty terms": "https://podcompany.com/pages/warranty",
+      "Source: Return conditions and exclusions": "https://podcompany.com/policies/refund-policy",
+      "Equipment footprint": "Approx. 7.1 sq ft, calculated from listed external dimensions. Tub bounding footprint; separate chiller and access space extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications and setup instructions.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "40f-and-above"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "inflatable"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "footprint": [
+        "under-10-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "icebarrel-500-chiller-bundle",
+    "slug": "icebarrel-500-chiller-bundle",
+    "name": "500 Barrel + Chiller Bundle",
+    "brand": "Ice Barrel",
+    "brandId": "ice-barrel",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "An insulated upright barrel with built-in entry steps and a separate cooling unit. The barrel and chiller have different warranty periods; allow space for both components.",
+    "image": "/products/icebarrel-500-chiller-bundle.jpg",
+    "price": 5749.98,
+    "qty": "1 cold-plunge system",
+    "variant": "Ice Barrel 500 Bundle \u2014 barrel and external chiller",
+    "source": "https://icebarrel.com/products/ice-barrel-500-bundle",
+    "url": "https://icebarrel.com/products/ice-barrel-500-bundle?variant=42383541010499",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Chiller included",
+      "Upright design"
+    ],
+    "attributes": {
+      "Capacity": "94 gallons; manufacturer lists fit for users up to 6 ft 9 in. Occupancy limit not confirmed.",
+      "Temperature range": "Minimum 37\u00b0F; upper setpoint not confirmed.",
+      "Heat type": "Cooling system; no heating function confirmed.",
+      "Power requirements": "Chiller: approximately 115V, 60Hz; 15A maximum overcurrent protection. Dedicated-circuit requirement not confirmed.",
+      "Dimensions": "Barrel: 57.6 L \u00d7 30.7 W \u00d7 42.1 H in. Chiller: 18.63 L \u00d7 16.40 W \u00d7 20.40 H in.",
+      "Warranty": "Barrel limited-lifetime coverage is capped at 3 years in the terms; chiller 1 year. Exclusions and shipping charges apply.",
+      "Placement": "Indoor or outdoor with ventilation and drainage; follow winter storage instructions.",
+      "Setup type": "Rigid barrel with separate chiller; drain-spout assembly and hose connection required.",
+      "Price basis": "Includes one Ice Barrel 500 and one Ice Barrel Chiller. Taxes and freight extra.",
+      "Returns": "US: 30-day policy, 30% return/restocking fee; original condition and packaging required. Original shipping is nonrefundable.",
+      "Delivery": "US barrel/chiller estimate: 7\u201313 days from order. Flat paved access; chiller pallet cannot go up steps.",
+      "Ongoing costs": "Electricity, water treatment, and monthly filter cleaning/replacement; annual cost not confirmed.",
+      "Source: Bundle contents, specifications and price": "https://icebarrel.com/products/ice-barrel-500-bundle",
+      "Source: Current variant price and availability": "https://icebarrel.com/products/ice-barrel-500-bundle.js",
+      "Source: Chiller specifications and maintenance": "https://icebarrel.com/products/ice-barrel-chiller",
+      "Source: Indoor and outdoor placement": "https://icebarrel.com/pages/faq/can-i-use-the-ice-barrel-chiller-indoors-or-only-outdoors",
+      "Source: Chiller setup instructions": "https://support.icebarrel.com/hc/en-us/articles/31701618976403-Setting-Up-Your-Chiller",
+      "Source: Warranty terms and duration limits": "https://icebarrel.com/pages/warranty",
+      "Source: Return and cancellation terms": "https://icebarrel.com/policies/refund-policy",
+      "Source: Shipping and delivery": "https://icebarrel.com/pages/shipping-and-delivery",
+      "Equipment footprint": "Approx. 12.3 sq ft, calculated from listed external dimensions. Barrel only; separate chiller and access space extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications and setup instructions.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "portable-rigid"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "plunge-all-in-gen2-cold",
+    "slug": "plunge-all-in-gen2-cold",
+    "name": "All-In Gen 2 \u2014 Cold Only",
+    "brand": "Plunge",
+    "brandId": "plunge",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A residential cold plunge with its cooling system built into the tub. App control and an included insulated cover support everyday operation; this configuration excludes the optional heater.",
+    "image": "/products/plunge-all-in-gen2-cold.png",
+    "price": 7990,
+    "qty": "1 cold-plunge system",
+    "variant": "Cold Only \u2014 All-In Gen 2, variant 43900857745565",
+    "source": "https://plunge.com/products/plunge-all-in",
+    "url": "https://plunge.com/products/plunge-all-in?variant=43900857745565",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Integrated chiller",
+      "Residential model"
+    ],
+    "attributes": {
+      "Capacity": "105 gallons; manufacturer lists fit for users up to 6 ft 9 in. Occupancy limit not confirmed.",
+      "Temperature range": "Cools to 37\u00b0F; upper setpoint for Cold Only not confirmed.",
+      "Heat type": "Cold Only; optional heater is excluded.",
+      "Power requirements": "Dedicated 120V, 15A circuit; supplied cord has GFCI protection.",
+      "Dimensions": "76.75 L \u00d7 31.5 W \u00d7 28.75 H in; additional ventilation clearance required.",
+      "Warranty": "1-year base warranty. Any promotional extended coverage must be confirmed with the order.",
+      "Placement": "Indoor or outdoor; residential use only.",
+      "Setup type": "Integrated chiller; fill with water and connect to required power.",
+      "Price basis": "Current $7,990 advertised sale after automatic $2,000 discount. Cold Only; integrated chiller included. Taxes and delivery-zone fees extra.",
+      "Returns": "30-day return policy; 25% restocking fee after shipment includes return shipping. Authorization and condition rules apply.",
+      "Delivery": "Lower-48 options include curbside and entry-level in-home placement; zone eligibility and fees shown at checkout. Setup is excluded.",
+      "Ongoing costs": "Electricity, water care, and replacement filters; annual cost not confirmed.",
+      "Source: Current sale, configuration and specifications": "https://plunge.com/products/plunge-all-in?variant=43900857745565",
+      "Source: Variant identifier, base price and availability": "https://plunge.com/products/plunge-all-in.js",
+      "Source: Return and cancellation policy": "https://help.plunge.com/hc/en-us/articles/18313083815444-Return-Policy-for-Plunge-Products",
+      "Source: All-In delivery service details": "https://help.plunge.com/hc/en-us/articles/20090809625236-Delivery-Details-for-the-Lower-48-Plunge-All-In",
+      "Equipment footprint": "Approx. 16.8 sq ft, calculated from listed external dimensions. Cabinet only; ventilation and access space extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications and setup instructions.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-dedicated"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "integrated"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "sunhome-cold-plunge-pro",
+    "slug": "sunhome-cold-plunge-pro",
+    "name": "Cold Plunge Pro",
+    "brand": "Sun Home Saunas",
+    "brandId": "sun-home-saunas",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A stainless-steel plunge with integrated cooling, filtration, and an ice-making mode. The cabinet arrives assembled; plan the delivery route, floor loading, ventilation, and electrical supply before purchase.",
+    "image": "/products/sunhome-cold-plunge-pro.png",
+    "price": 13999,
+    "qty": "1 cold-plunge system",
+    "variant": "Cold Plunge Pro \u2014 standard Pro, not Apex or Titan",
+    "source": "https://sunhomesaunas.com/products/sun-home-cold-plunge-tub",
+    "url": "https://sunhomesaunas.com/products/sun-home-cold-plunge-tub?variant=42675373736129",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Integrated chiller",
+      "Ice-making mode"
+    ],
+    "attributes": {
+      "Capacity": "1 person; 150 gallons.",
+      "Temperature range": "28\u201370\u00b0F setpoint; cooling only. Minimum is a manufacturer equipment specification, not a recommended bathing temperature.",
+      "Heat type": "Cooling only; no water heater.",
+      "Power requirements": "Dedicated 120V, 15A GFCI circuit; NEMA 5-15 receptacle; 1,200W rated power.",
+      "Dimensions": "78.7 L \u00d7 33.5 W \u00d7 34.2 H in on casters; 400 lb empty. Follow manual ventilation clearances.",
+      "Warranty": "1-year residential limited warranty. Parts, labor and shipping included for first 90 days; customer pays labor/shipping thereafter.",
+      "Placement": "Indoor or outdoor; winter protocol required at freezing temperatures.",
+      "Setup type": "Integrated, fully assembled cabinet; uncrate, position, fill and plug in. At least two people for setup.",
+      "Price basis": "Standard Cold Plunge Pro with integrated chiller. Taxes and optional delivery upgrades extra.",
+      "Returns": "Within 30 days of delivery only if unused, unassembled and unopened. 25% restocking fee plus outbound and return freight.",
+      "Delivery": "Standard delivery is curbside. Arrange any room-of-choice service beforehand; freight delivery estimate 2\u20134 weeks.",
+      "Ongoing costs": "Electricity, water care and sediment filters; annual cost not confirmed.",
+      "Source: Model and current displayed price": "https://sunhomesaunas.com/products/sun-home-cold-plunge-tub",
+      "Source: Current variant price and availability": "https://sunhomesaunas.com/products/sun-home-cold-plunge-tub.js",
+      "Source: September 2026 owner manual: current technical specifications": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-COLD_PLUNGE_PRO-OWNERS_MANUAL-v4.0-2026-09.pdf?v=1791413072",
+      "Source: Warranty terms": "https://sunhomesaunas.com/pages/warranty-information",
+      "Source: Return conditions and fees": "https://sunhomesaunas.com/policies/refund-policy",
+      "Source: Delivery services and estimates": "https://sunhomesaunas.com/blogs/help-center/shipping-delivery-faq",
+      "Equipment footprint": "Approx. 18.3 sq ft, calculated from listed external dimensions. Cabinet only; ventilation and access space extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications and setup instructions.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-dedicated"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "integrated"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "sun-home-equinox-2",
+    "slug": "sun-home-equinox-2",
+    "name": "Equinox 2 Indoor Infrared Sauna",
+    "brand": "Sun Home Saunas",
+    "brandId": "sun-home-saunas",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A two-person indoor cabin with full-spectrum and far-infrared heaters, color lighting and Bluetooth audio. Its dedicated 120V circuit and installation clearances need planning before delivery.",
+    "image": "/products/sun-home-equinox-2.png",
+    "price": 6099,
+    "qty": "1 sauna",
+    "variant": "2-person / indoor",
+    "source": "https://sunhomesaunas.com/products/sun-home-equinox-2-person-full-spectrum-infrared-sauna",
+    "url": "https://sunhomesaunas.com/products/sun-home-equinox-2-person-full-spectrum-infrared-sauna?variant=48850304925889",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "2-person",
+      "Indoor",
+      "Dedicated 120V"
+    ],
+    "attributes": {
+      "Capacity": "2 people",
+      "Temperature range": "Maximum 165\u00b0F; minimum setting not confirmed",
+      "Heat type": "Full-spectrum infrared plus far-infrared",
+      "Power requirements": "Dedicated 120V / 20A GFCI circuit; NEMA 5-20R. Rated 1,880W.",
+      "Dimensions": "50.9 W \u00d7 45.9 D \u00d7 77.7 H inches (exterior)",
+      "Warranty": "Residential: 7 years cabinetry/heaters; 3 years controls; 1 year glass/audio. Terms and exclusions apply.",
+      "Placement": "Indoor only; dry, level surface with required clearance",
+      "Setup type": "Panel assembly; dedicated circuit required",
+      "Price basis": "Listed sale price for cabin with heaters. Shipping advertised free; tax and electrical work extra.",
+      "Included": "4 far-infrared heaters, 2 full-spectrum heaters, color lighting, Bluetooth audio",
+      "Delivery": "Freight; confirm destination eligibility and current lead time with seller",
+      "Returns": "Request within 30 days of delivery; unopened, unused, unassembled only. 25% restocking plus outbound and return shipping.",
+      "Ongoing costs": "Electricity and maintenance; monthly cost not published",
+      "Source: Product, price and configuration": "https://sunhomesaunas.com/products/sun-home-equinox-2-person-full-spectrum-infrared-sauna",
+      "Source: Dimensions and electrical specifications": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-EQUINOX_2-SPEC_SHEET-2026-09-14.pdf?v=1789433532",
+      "Source: Owner manual": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-EQUINOX_2_AND_3-OWNERS_MANUAL-2026-10-07.pdf?v=1791413098",
+      "Source: Assembly guide": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/Equinox_II_Assembly_Guide_2026-09-11.pdf?v=1789160851",
+      "Source: Manufacturer warranty": "https://sunhomesaunas.com/pages/warranty-information",
+      "Source: Return conditions": "https://sunhomesaunas.com/blogs/help-center/return-policy-overview",
+      "Equipment footprint": "Approx. 16.2 sq ft, calculated from listed external dimensions. Cabin only; installation clearance extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "2-person"
+      ],
+      "heatType": [
+        "full-spectrum-infrared"
+      ],
+      "power": [
+        "120v-dedicated"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "panel-assembly"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "sun-home-luminar-2",
+    "slug": "sun-home-luminar-2",
+    "name": "Luminar 2 Outdoor Infrared Sauna",
+    "brand": "Sun Home Saunas",
+    "brandId": "sun-home-saunas",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A two-person infrared cabin with a cedar interior, aluminum exterior and app controls. Plan for a supported, draining foundation and a dedicated 240V circuit before ordering.",
+    "image": "/products/sun-home-luminar-2.png",
+    "price": 10999,
+    "qty": "1 sauna",
+    "variant": "2-person / standard package",
+    "source": "https://sunhomesaunas.com/products/2-person-outdoor-infrared-sauna",
+    "url": "https://sunhomesaunas.com/products/2-person-outdoor-infrared-sauna?variant=42717908762817",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "2-person",
+      "Outdoor-capable",
+      "Dedicated 240V"
+    ],
+    "attributes": {
+      "Capacity": "2 people",
+      "Temperature range": "90\u2013170\u00b0F control range; warm-up varies with weather",
+      "Heat type": "Full-spectrum infrared plus far-infrared",
+      "Power requirements": "Dedicated 240V / 20A GFCI circuit; NEMA L6-20R. Rated 4,800W; electrician required.",
+      "Dimensions": "57 W \u00d7 51.5 D \u00d7 82.7 H inches (spec-sheet exterior)",
+      "Warranty": "Residential: limited lifetime cabinetry/heaters (defined as 7 years); 3 years exterior/controls; 1 year lights/glass/audio. Parts, labor and shipping covered for first 90 days only.",
+      "Placement": "Indoor or outdoor per manual; level, draining foundation and clearance required",
+      "Setup type": "Panel assembly by 2+ people; licensed electrician for circuit",
+      "Price basis": "Listed sale price with heaters and cover; red-light panel optional and extra. Shipping advertised free; tax and site work extra.",
+      "Included": "6 full-spectrum heaters, 3 far-infrared heaters, fitted weather cover",
+      "Delivery": "Palletized curbside freight; confirm destination and lead time",
+      "Returns": "Request within 30 days of delivery; unopened, unused, unassembled only. 25% restocking plus outbound and return shipping.",
+      "Ongoing costs": "Electricity and maintenance; monthly cost not published",
+      "Source: Product, price and included equipment": "https://sunhomesaunas.com/products/2-person-outdoor-infrared-sauna",
+      "Source: Dimensions, power and foundation specifications": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-LUMINAR_2-SPEC_SHEET-2026-09-14.pdf?v=1790034064",
+      "Source: Owner manual: placement and control range": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-LUMINAR_2_AND_5-OWNERS_MANUAL-2026-09-25.pdf?v=1790312366",
+      "Source: Assembly guide": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-LUMINAR_2-ASSEMBLY_GUIDE-v2.1-2026-09-09.pdf",
+      "Source: Manufacturer warranty": "https://sunhomesaunas.com/pages/warranty-information",
+      "Source: Return conditions": "https://sunhomesaunas.com/blogs/help-center/return-policy-overview",
+      "Equipment footprint": "Approx. 20.4 sq ft, calculated from listed external dimensions. Cabin only; installation clearance extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "2-person"
+      ],
+      "heatType": [
+        "full-spectrum-infrared"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "panel-assembly",
+        "professional-install"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "plunge-sauna-standard",
+    "slug": "plunge-sauna-standard",
+    "name": "The Sauna \u2014 Standard",
+    "brand": "Plunge",
+    "brandId": "plunge",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A cedar traditional sauna for four to five people, with a HUUM stone heater and folding benches. Compare the complete installation cost, including electrical work, delivery and the separately sold power cord.",
+    "image": "/products/plunge-sauna-standard.png",
+    "price": 11040,
+    "qty": "1 sauna",
+    "variant": "Standard / residential",
+    "source": "https://plunge.com/products/sauna",
+    "url": "https://plunge.com/products/sauna?variant=43108498505885",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4\u20135 people",
+      "Traditional electric",
+      "Dedicated 240V"
+    ],
+    "attributes": {
+      "Capacity": "4\u20135 people",
+      "Temperature range": "Maximum 230\u00b0F; minimum setting not confirmed",
+      "Heat type": "Traditional electric stone heater (HUUM Drop)",
+      "Power requirements": "Dedicated 240V / 30A circuit; NEMA L14-30 outlet; electrician required",
+      "Dimensions": "68 W \u00d7 71 D \u00d7 95 H inches (exterior)",
+      "Warranty": "2-year residential limited warranty. Labor, heating elements and other exclusions apply.",
+      "Placement": "Indoor or outdoor",
+      "Setup type": "Modular panel assembly, 2+ people; licensed electrician required",
+      "Price basis": "Displayed fall-sale offer, $11,040; product feed base $12,990. Heater included; power cord, freight, tax and installation extra. Confirm final checkout price.",
+      "Included": "HUUM heater/controller, sauna stones, waterproof roof; power cord excluded",
+      "Delivery": "Curbside: $250 in-area, $449\u2013$599 beyond, $999 remote (lower 48); checkout determines zone",
+      "Returns": "30-day policy; no return after uncrating. 25% restocking after shipment; 5% cancellation fee before shipment.",
+      "Ongoing costs": "Electricity, cleaning and replacement consumables; monthly cost not published",
+      "Source: Product, displayed offer and specifications": "https://plunge.com/products/sauna",
+      "Source: Variant availability and base price": "https://plunge.com/products/sauna.js",
+      "Source: Current manual index": "https://help.plunge.com/hc/en-us/articles/18266289883284-Sauna-Product-Manuals",
+      "Source: Standard sauna manual": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/Sauna_Standard_Manual_1_19_24_1.pdf?v=1706827177",
+      "Source: Current residential warranty": "https://help.plunge.com/hc/en-us/articles/32530511210004-Plunge-Standard-Sauna-Warranty",
+      "Source: Residential return conditions": "https://plunge.com/policies/refund-policy",
+      "Source: Delivery zones and prices": "https://plunge.com/pages/delivery",
+      "Equipment footprint": "Approx. 33.5 sq ft, calculated from listed external dimensions. Cabin only; installation clearance extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "5-person"
+      ],
+      "heatType": [
+        "traditional-electric"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "panel-assembly",
+        "professional-install"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "footprint": [
+        "over-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "human-touch-novo-flex-gray",
+    "slug": "human-touch-novo-flex-gray",
+    "name": "Novo Flex Massage Chair",
+    "brand": "Human Touch",
+    "brandId": "human-touch",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "A reclining massage chair with 16 programs, adjustable intensity, lumbar and leg heat, and a flat-recline setting.",
+    "image": "/products/human-touch-novo-flex-gray.jpg",
+    "price": 7999,
+    "qty": "1 chair",
+    "variant": "Gray \u00b7 new \u00b7 standard delivery \u00b7 base warranty",
+    "source": "https://www.humantouch.com/products/novo-flex-massage-chair?variant=44911119335601",
+    "url": "https://www.humantouch.com/products/novo-flex-massage-chair?variant=44911119335601",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "16 programs",
+      "8 in rear clearance"
+    ],
+    "attributes": {
+      "Capacity": "1 person; maximum user weight 285 lb. Height fit should be confirmed with Human Touch.",
+      "Heat type": "Lumbar, foot and calf heat; temperature range not published.",
+      "Power requirements": "Grounded 120 V outlet; manual specifies AC 110\u2013120 V and 1.0 A.",
+      "Dimensions": "Upright 63 L \u00d7 34 W \u00d7 47 H in; reclined 74 L \u00d7 34 W \u00d7 33 H in.",
+      "Clearance": "8 in behind and 8 in in front, per manual.",
+      "Weight": "282 lb",
+      "Placement": "Indoors, flat surface, away from direct heat and sunlight.",
+      "Setup type": "Delivered assembled; plug in. Two or more people needed to move it.",
+      "Warranty": "5 years structure, 3 years parts, 1 year in-home labor; residential limited warranty.",
+      "Delivery": "Free first-floor front-door delivery in the contiguous U.S.; $499 white glove option includes placement, assembly and packaging removal.",
+      "Returns": "Within 30 days after receipt with authorization, original packaging and like-new condition. 15% restocking/inspection fee; customer pays shipping; original shipping charges deducted.",
+      "Included": "Chair with power cord and controls.",
+      "Price basis": "USD one-time chair price; optional white glove and extended warranty excluded. Tax calculated by seller.",
+      "Ongoing costs": "Electricity and cleaning supplies; actual cost depends on use.",
+      "Source: Current price and specifications": "https://www.humantouch.com/products/novo-flex-massage-chair?variant=44911119335601",
+      "Source: Use and care manual": "https://www.humantouch.com/cdn/shop/files/Novo_Flex_UC_Manual_Aug1424.pdf?v=11305980322970880376",
+      "Source: Warranty coverage breakdown": "https://www.humantouch.com/pages/consumer-warranties",
+      "Source: Returns and fees": "https://www.humantouch.com/pages/return-policy",
+      "Equipment footprint": "Approx. 17.5 sq ft, calculated from listed external dimensions. Reclined chair only; front and rear clearance extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "human-touch-super-novo-2-espresso",
+    "slug": "human-touch-super-novo-2-espresso",
+    "name": "Super Novo 2.0 Massage Chair",
+    "brand": "Human Touch",
+    "brandId": "human-touch",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "A full-body massage chair with 38 programs, adjustable intensity, heated foot and calf massage, and two-inch rear clearance.",
+    "image": "/products/human-touch-super-novo-2-espresso.jpg",
+    "price": 10999,
+    "qty": "1 chair",
+    "variant": "Espresso \u00b7 new \u00b7 standard delivery \u00b7 base warranty",
+    "source": "https://www.humantouch.com/products/super-novo-2-0-massage-chair?variant=44727078617265",
+    "url": "https://www.humantouch.com/products/super-novo-2-0-massage-chair?variant=44727078617265",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "38 programs",
+      "2 in rear clearance"
+    ],
+    "attributes": {
+      "Capacity": "1 person; maximum user weight 285 lb. Height fit should be confirmed with Human Touch.",
+      "Heat type": "Lumbar, foot and calf heat; temperature range not published.",
+      "Power requirements": "Grounded 120 V outlet; manual specifies AC 110\u2013120 V, 60 Hz and 0.87 A.",
+      "Dimensions": "Product page: upright 63 L \u00d7 33 W \u00d7 46 H in; reclined 74 L \u00d7 33 W \u00d7 32 H in.",
+      "Fit check": "Manufacturer manual lists 34 in width instead of 33 in. Confirm exact dimensions and delivery clearance before ordering.",
+      "Clearance": "2 in behind and 24 in in front, per manual.",
+      "Weight": "313 lb",
+      "Placement": "Indoors on a flat surface, away from direct heat and sunlight.",
+      "Setup type": "Delivered assembled; plug in. Two or more people needed to move it.",
+      "Warranty": "5 years structure, 3 years parts, 1 year in-home labor; residential limited warranty.",
+      "Delivery": "Free first-floor front-door delivery in the contiguous U.S.; $499 white glove option includes placement, assembly and packaging removal.",
+      "Returns": "Within 30 days after receipt with authorization, original packaging and like-new condition. 15% restocking/inspection fee; customer pays shipping; original shipping charges deducted.",
+      "Included": "Chair, controls and removable softening pad. Backup requires four 9 V batteries, sold separately.",
+      "Price basis": "USD one-time chair price; optional white glove and extended warranty excluded. Tax calculated by seller.",
+      "Ongoing costs": "Electricity, cleaning supplies and backup batteries; costs depend on use.",
+      "Source: Current price and specifications": "https://www.humantouch.com/products/super-novo-2-0-massage-chair?variant=44727078617265",
+      "Source: Manufacturer use and care instructions": "https://support.humantouch.com/hc/en-us/articles/44877543844237-Super-Novo-2-0-Use-Care-Manual-PDF",
+      "Source: Manufacturer specification sheet": "https://www.humantouch.com/cdn/shop/files/Sell_Sheet_Super_Novo_2.0.pdf?v=14143022393360983747",
+      "Source: Warranty coverage breakdown": "https://www.humantouch.com/pages/consumer-warranties",
+      "Source: Returns and fees": "https://www.humantouch.com/pages/return-policy",
+      "Equipment footprint": "Approx. 17.5 sq ft, calculated from listed external dimensions. Reclined; uses wider 34 in manual dimension. Confirm fit; clearance extra."
+    },
+    "ingredients": "Not applicable \u2014 equipment.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "hyperice-normatec-elite-standard",
+    "slug": "hyperice-normatec-elite-standard",
+    "name": "Normatec Elite Legs",
+    "brand": "Hyperice",
+    "brandId": "hyperice",
+    "category": "recovery",
+    "type": "compression-boots",
+    "description": "A pair of battery-powered compression boots with integrated controls, five compression zones and seven intensity settings. No separate hoses or control box.",
+    "image": "/products/hyperice-normatec-elite.png",
+    "price": 1099,
+    "qty": "1 pair of boots",
+    "variant": "Standard \u00b7 fits 5 ft 7 in\u20136 ft 4 in \u00b7 pair",
+    "source": "https://hyperice.com/products/normatec-elite?variant=47703733797078",
+    "url": "https://hyperice.com/products/normatec-elite?variant=47703733797078",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Cordless boots",
+      "7 intensity levels"
+    ],
+    "attributes": {
+      "Capacity": "1 person; Standard size listed for heights 5 ft 7 in\u20136 ft 4 in. Check the manufacturer inseam guide.",
+      "Heat type": "Air compression; no heating function listed.",
+      "Power requirements": "Rechargeable batteries; included charger outputs 12 V DC, 4 A and supports 100\u2013240 V input.",
+      "Dimensions": "Size-specific Standard dimensions not confirmed. Product page lists 15.5 \u00d7 50.4 in without a size qualification.",
+      "Placement": "Keep in a clean, dry location; avoid water.",
+      "Setup type": "Charge, put on boots, fully zip and choose settings; no installation.",
+      "Warranty": "1-year U.S. limited manufacturing-defect coverage for Normatec controls and accessories, including covered parts/labor and repair shipping.",
+      "Delivery": "Seller advertises free shipping above $49; current delivery timing is confirmed at checkout.",
+      "Returns": "30 days from delivery for direct purchases; original packaging, accessories and new/undamaged condition required. $15 deducted; return shipping is not covered.",
+      "Included": "Two Normatec Elite leg units, 12 V wall charger and drawstring bag.",
+      "Price basis": "USD one-time price for Standard pair; tax calculated by seller.",
+      "Ongoing costs": "Charging electricity; no routine servicing specified beyond cleaning/care.",
+      "Battery": "Manufacturer product page advertises up to 4 hours; support article specifies 3+ hours continuous use.",
+      "Source: Current price, size guide and contents": "https://hyperice.com/products/normatec-elite?variant=47703733797078",
+      "Source: Electrical specifications and base warranty": "https://hyperice.zendesk.com/hc/en-us/articles/26260630317211-Specifications-Normatec-Elite",
+      "Source: Warranty coverage": "https://hyperice.zendesk.com/hc/en-us/articles/360035138853-Domestic-Hyperice-Warranty-Information-USA",
+      "Source: Returns and fees": "https://hyperice.zendesk.com/hc/en-us/articles/360056880353-Hyperice-return-policy",
+      "Source: Care and maintenance": "https://hyperice.zendesk.com/hc/en-us/articles/26261378790299-Caring-for-your-Normatec-Normatec-Elite"
+    },
+    "ingredients": "Not applicable \u2014 equipment.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "compression-boots"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "power": [
+        "battery-powered"
+      ]
+    }
+  },
+  {
+    "id": "woolly-boxer-brief-3pack",
+    "slug": "woolly-boxer-brief-3pack",
+    "name": "Everyday Merino Boxer Brief 3 Pack",
+    "brand": "Woolly",
+    "brandId": "woolly",
+    "category": "apparel",
+    "type": "underwear",
+    "description": "Three black boxer briefs with a merino main fabric and a separate elastane waistband. This listing selects the longer 7-inch inseam.",
+    "image": "/products/woolly-boxer-brief-3pack.jpg",
+    "price": 112.0,
+    "qty": "3 pairs",
+    "variant": "Small / 7 Inch / Black 3 Pack",
+    "source": "https://www.woolly.clothing/products/boxer-brief-3pack",
+    "url": "https://www.woolly.clothing/products/boxer-brief-3pack?variant=54777556828532",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "100% merino main fabric",
+      "Elastane waistband",
+      "3 pairs"
+    ],
+    "attributes": {
+      "Main fabric": "100% Australian merino wool",
+      "Fabric weight": "175 GSM",
+      "Waistband": "Contains elastane; percentage not published",
+      "Trims and stitching": "Fiber composition not separately quantified",
+      "Fit": "Men\u2019s athletic fit; manufacturer suggests checking sizing",
+      "Inseam": "7 inches",
+      "Color": "Black",
+      "Care": "Machine wash cold; tumble dry low or hang dry",
+      "Source: Manufacturer product and fabric details": "https://www.woolly.clothing/products/boxer-brief-3pack",
+      "Source: Selected variant price and availability": "https://www.woolly.clothing/products/boxer-brief-3pack.js"
+    },
+    "ingredients": "Main fabric composition is listed above. Material filters apply to the main fabric only; waistband, panels, trims and stitching are separately noted where documented.",
+    "filters": {
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "underwear"
+      ],
+      "material": [
+        "wool"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "mate-full-length-legging",
+    "slug": "mate-full-length-legging",
+    "name": "Organic Stretch Full Length Legging",
+    "brand": "MATE the Label",
+    "brandId": "mate-the-label",
+    "category": "apparel",
+    "type": "leggings",
+    "description": "Full-length cotton stretch leggings with a 27.5-inch inseam. The disclosed main fabric includes spandex; this listing is Jet Black in Medium.",
+    "image": "/products/mate-full-length-legging.jpg",
+    "price": 98.0,
+    "qty": "1 garment",
+    "variant": "JET BLACK / M",
+    "source": "https://matethelabel.com/products/organic-stretch-full-length-legging-jet-black",
+    "url": "https://matethelabel.com/products/organic-stretch-full-length-legging-jet-black?variant=44692790542514",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "92% organic cotton",
+      "8% spandex"
+    ],
+    "attributes": {
+      "Main fabric": "92% organic cotton, 8% spandex",
+      "Fabric weight": "300 GSM",
+      "Inseam": "27.5 inches",
+      "Fit": "Women\u2019s; close-fitting",
+      "Color": "Jet Black",
+      "Made in": "India",
+      "Trims and stitching": "Fiber composition not separately quantified",
+      "Care": "Machine wash cold; tumble dry low",
+      "Source: Manufacturer product and fabric details": "https://matethelabel.com/products/organic-stretch-full-length-legging-jet-black",
+      "Source: Selected variant price and availability": "https://matethelabel.com/products/organic-stretch-full-length-legging-jet-black.js"
+    },
+    "ingredients": "Main fabric composition is listed above. Material filters apply to the main fabric only; waistband, panels, trims and stitching are separately noted where documented.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": false,
+      "allNaturalMain": false
+    },
+    "facets": {
+      "garment": [
+        "leggings"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "jungmaven-yelapa-sweatpant",
+    "slug": "jungmaven-yelapa-sweatpant",
+    "name": "Yelapa Fleece Sweatpant",
+    "brand": "Jungmaven",
+    "brandId": "jungmaven",
+    "category": "apparel",
+    "type": "joggers",
+    "description": "Classic-fit fleece sweatpants with hemp and organic cotton main fabric, an adjustable drawcord and three pockets. Elastic appears at the waist and cuffs; its composition is not specified.",
+    "image": "/products/jungmaven-yelapa-sweatpant.jpg",
+    "price": 176.0,
+    "qty": "1 garment",
+    "variant": "Black / S",
+    "source": "https://jungmaven.com/products/hemp-sweatpant-fleece-yelapa",
+    "url": "https://jungmaven.com/products/hemp-sweatpant-fleece-yelapa?variant=45170496340166",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Hemp & organic cotton",
+      "Elastic waist and cuffs"
+    ],
+    "attributes": {
+      "Main fabric": "55% hemp, 45% organic cotton",
+      "Fabric weight": "9.6 oz, manufacturer specification",
+      "Fit": "Classic fit; men\u2019s sizing",
+      "Waistband and cuffs": "Elastic; fiber composition not separately quantified",
+      "Trims and stitching": "Fiber composition not separately quantified",
+      "Color": "Black",
+      "Assembly": "Cut and sewn in Los Angeles, per manufacturer",
+      "Care": "Machine wash cool and gentle; tumble dry low",
+      "Source: Manufacturer product and fabric details": "https://jungmaven.com/products/hemp-sweatpant-fleece-yelapa",
+      "Source: Selected variant price and availability": "https://jungmaven.com/products/hemp-sweatpant-fleece-yelapa.js"
+    },
+    "ingredients": "Main fabric composition is listed above. Material filters apply to the main fabric only; waistband, panels, trims and stitching are separately noted where documented.",
+    "filters": {
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true,
+      "cotton": true,
+      "organicCotton": true
+    },
+    "facets": {
+      "garment": [
+        "joggers"
+      ],
+      "material": [
+        "hemp",
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "woolly-fleece-long-hoodie",
+    "slug": "woolly-fleece-long-hoodie",
+    "name": "Merino Fleece Long Zip Hoodie",
+    "brand": "Woolly",
+    "brandId": "woolly",
+    "category": "apparel",
+    "type": "hoodie",
+    "description": "A long, full-zip fleece hoodie with heavyweight merino main fabric. The manufacturer describes a slim fit and recommends sizing up for this less-stretchy fabric.",
+    "image": "/products/woolly-fleece-long-hoodie.jpg",
+    "price": 248,
+    "qty": "1 garment",
+    "variant": "Medium / Black",
+    "source": "https://www.woolly.clothing/products/w-fleece-hoodie-longzip",
+    "url": "https://www.woolly.clothing/products/w-fleece-hoodie-longzip?variant=51670760522100",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "100% merino main fabric",
+      "400 GSM"
+    ],
+    "attributes": {
+      "Main fabric": "100% Australian merino wool",
+      "Fabric weight": "400 GSM",
+      "Fit": "Women\u2019s; slim/modern; manufacturer recommends sizing up",
+      "Color": "Black",
+      "Panels, trims and stitching": "Separate fiber composition not published on product page",
+      "Care": "Machine wash cold; tumble dry low or hang dry",
+      "Source: Manufacturer product and fabric details": "https://www.woolly.clothing/products/w-fleece-hoodie-longzip",
+      "Source: Selected variant price and availability": "https://www.woolly.clothing/products/w-fleece-hoodie-longzip.js"
+    },
+    "ingredients": "Main fabric composition is listed above. Material filters apply to the main fabric only; waistband, panels, trims and stitching are separately noted where documented.",
+    "filters": {
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "hoodie"
+      ],
+      "material": [
+        "wool"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "puori-m3-magnesium",
+    "slug": "puori-m3-magnesium",
+    "brand": "Puori",
+    "brandId": "puori",
+    "name": "M3 Magnesium Complex",
+    "category": "supplements",
+    "type": "magnesium-supplement",
+    "description": "A capsule blend of magnesium taurinate and gluconate with zinc, vitamin B6 and malic acid. Compare its 300 mg elemental magnesium serving and three-capsule format; batch reports are linked separately.",
+    "image": "/products/puori-m3-magnesium.png",
+    "price": 37.0,
+    "qty": "120 capsules",
+    "servings": 40,
+    "variant": "120 capsules",
+    "source": "https://puori.com/products/m3-high-quality-organic-magnesium-in-vegan-capsule",
+    "url": "https://puori.com/products/m3-high-quality-organic-magnesium-in-vegan-capsule?variant=30342590824541",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Taurinate + gluconate",
+      "40 servings",
+      "Batch reports linked"
+    ],
+    "attributes": {
+      "Price basis": "One-time purchase; subscription discounts excluded. Tax and shipping may apply.",
+      "Magnesium": "300 mg / 3 capsules (taurinate and gluconate)",
+      "Vitamin B6": "5 mg / serving (pyridoxal-5\u2032-phosphate)",
+      "Zinc": "15 mg / serving (picolinate)",
+      "Malic acid": "300 mg / serving",
+      "Serving size": "3 capsules",
+      "Label source": "https://cdn.shopify.com/s/files/1/0273/2802/0573/files/Puori_M3_Nutrients-fact_102166-1_US_1500x1500_PNG.webp?v=1786024240",
+      "Batch results source": "https://cleanlabelproject.org/transparency-project-puori/m3-magnesium/",
+      "Testing scope": "Brand links to batch-specific Clean Label Project reports; match your lot number. No marketplace sample verification."
+    },
+    "ingredients": "Magnesium taurinate and magnesium gluconate, vitamin B6 (pyridoxal-5\u2032-phosphate), zinc picolinate, malic acid. Other ingredients: vegetarian capsule (HPMC), inulin, organic rice extract blend, organic rice hull concentrate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "testing": true,
+      "vegan": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm",
+        "performance"
+      ],
+      "ingredient": [
+        "magnesium",
+        "zinc",
+        "vitamin-b6"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan"
+      ]
+    }
+  },
+  {
+    "id": "naked-pea-5lb",
+    "slug": "naked-pea-5lb",
+    "brand": "Naked Nutrition",
+    "brandId": "naked-nutrition",
+    "name": "Naked Pea Unflavored Protein \u2014 5 lb",
+    "category": "supplements",
+    "type": "protein-powder",
+    "description": "A single-ingredient yellow-pea protein powder in a 76-serving tub. Each labeled serving provides 27 g protein and 2 g total sugar with no added sugar; compare the larger pack cost and pea-based formula.",
+    "image": "/products/naked-pea-5lb.jpg",
+    "price": 57.99,
+    "qty": "5 lb tub",
+    "servings": 76,
+    "variant": "5 lb tub",
+    "source": "https://nakednutrition.com/products/pea-protein-powder",
+    "url": "https://nakednutrition.com/products/pea-protein-powder?variant=842165455",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "27g protein",
+      "Single ingredient",
+      "76 servings"
+    ],
+    "attributes": {
+      "Price basis": "One-time purchase; subscription discounts excluded. Tax and shipping may apply.",
+      "Protein": "27 g / serving",
+      "Serving size": "30 g (about 2 scoops)",
+      "Calories": "120 / serving",
+      "Total sugar": "2 g / serving",
+      "Added sugar": "0 g / serving",
+      "Sweeteners": "None listed",
+      "Ingredients source": "https://cdn.shopify.com/s/files/1/0645/6465/files/naked-pea-unflavored-5lb-nutrition-facts.jpg?v=1791708807",
+      "Certification scope": "Brand displays NSF Contents Certified. This is different from NSF Certified for Sport and is not a marketplace lot verification.",
+      "Ingredient / material origins": "Yellow split peas grown in the United States and Canada, per brand."
+    },
+    "ingredients": "Yellow pea protein.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "noAddedSugar": true,
+      "zeroSugar": false,
+      "noStevia": true,
+      "noSucralose": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "pea-protein"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "momentous-magnesium-bisglycinate",
+    "slug": "momentous-magnesium-bisglycinate",
+    "brand": "Momentous",
+    "brandId": "momentous",
+    "name": "Magnesium Bisglycinate Capsules",
+    "category": "supplements",
+    "type": "magnesium-supplement",
+    "description": "A two-capsule serving supplies 200 mg elemental magnesium as bisglycinate. An unflavored capsule alternative to sweetened powders; compare serving cost, added ingredients and the current certification label.",
+    "image": "/products/momentous-magnesium-bisglycinate.png",
+    "price": 16.99,
+    "qty": "60 capsules",
+    "servings": 30,
+    "variant": "60 capsules",
+    "source": "https://www.livemomentous.com/products/magnesium-bisglycinate",
+    "url": "https://www.livemomentous.com/products/magnesium-bisglycinate?variant=47085654704311",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "200mg magnesium",
+      "Bisglycinate",
+      "30 servings"
+    ],
+    "attributes": {
+      "Price basis": "One-time purchase; subscription discounts excluded. Tax and shipping may apply.",
+      "Magnesium": "200 mg / serving (as magnesium bisglycinate)",
+      "Serving size": "2 capsules",
+      "Supplement form": "Capsules",
+      "Certification scope": "NSF Certified for Sport mark shown on the current manufacturer label; no marketplace lot verification.",
+      "Ingredients source": "https://www.livemomentous.com/products/magnesium-bisglycinate"
+    },
+    "ingredients": "Magnesium (as magnesium bisglycinate). Other ingredients: hypromellose (capsule), silica, magnesium stearate, microcrystalline cellulose.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "magnesium"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "thorne-magnesium-bisglycinate",
+    "slug": "thorne-magnesium-bisglycinate",
+    "name": "Magnesium Bisglycinate",
+    "brand": "Thorne",
+    "brandId": "thorne",
+    "category": "supplements",
+    "type": "magnesium-supplement",
+    "description": "A magnesium bisglycinate powder with 200 mg of elemental magnesium per scoop and monk fruit as a sweetener. The tub contains 60 servings.",
+    "image": "/products/thorne-magnesium-bisglycinate.png",
+    "price": 52,
+    "qty": "60 scoops",
+    "variant": "60-serving powder",
+    "servings": 60,
+    "source": "https://www.thorne.com/products/dp/magnesium-bisglycinate",
+    "url": "https://www.thorne.com/products/dp/magnesium-bisglycinate",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "200 mg magnesium",
+      "60 servings"
+    ],
+    "attributes": {
+      "Amount per serving": "200 mg elemental magnesium as magnesium bisglycinate",
+      "Serving size": "1 scoop",
+      "Form": "Powder",
+      "Servings per container": "60",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Gluten-free, dairy-free, soy-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; 60-serving tub",
+      "Independent listing": "NSF Certified for Sport registry lists this powder; verify the purchased lot against the registry.",
+      "Source: Official product, price and ingredients": "https://www.thorne.com/products/dp/magnesium-bisglycinate",
+      "Source: NSF powder listing and eligible lots": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1507934"
+    },
+    "ingredients": "Magnesium (as magnesium bisglycinate). Other ingredients: citric acid, monk fruit concentrate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "magnesium"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "nuun-sport-caffeine-cherry",
+    "slug": "nuun-sport-caffeine-cherry",
+    "name": "Sport +Caffeine \u2014 Cherry Limeade",
+    "brand": "Nuun",
+    "brandId": "nuun",
+    "category": "drinks",
+    "type": "electrolyte-tablet",
+    "description": "An effervescent electrolyte tablet with 40 mg caffeine from green tea extract. Dissolve one tablet in 16 fl oz water; this listing is the single 10-tablet tube.",
+    "image": "/products/nuun-sport-caffeine-cherry.png",
+    "price": 7.49,
+    "qty": "10 tablets",
+    "variant": "Cherry Limeade + Caffeine / single tube / one-time purchase",
+    "servings": 10,
+    "source": "https://nuunlife.com/products/nuun-sport-caffeine-1",
+    "url": "https://nuunlife.com/products/nuun-sport-caffeine-1?variant=46208107511995",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "40 mg caffeine",
+      "10 tablets"
+    ],
+    "attributes": {
+      "Serving size": "1 tablet (5.4 g)",
+      "Caffeine": "40 mg / serving",
+      "Caffeine source": "Organic green tea extract",
+      "Total sugar": "1 g / serving",
+      "Added sugar": "1 g / serving",
+      "Calories": "15 / serving",
+      "Sodium": "300 mg / serving",
+      "Potassium": "150 mg / serving",
+      "Magnesium": "25 mg / serving",
+      "Sweeteners": "Dextrose, stevia leaf extract",
+      "Mixing": "1 tablet in 16 fl oz (475 mL) water",
+      "Price basis": "USD; single tube; one-time purchase; shipping and tax extra",
+      "Ingredient documentation": "Flavor-specific list from the linked 8-tube pack; single-tube ingredient panel is incomplete. Check received packaging.",
+      "Source: Single-tube price, availability and nutrition": "https://nuunlife.com/products/nuun-sport-caffeine-1?variant=46208107511995",
+      "Source: Cherry Limeade ingredient list \u2014 same product, 8-tube pack": "https://nuunlife.com/products/nuun-sport-8-pack-caffeine?variant=46470479741115"
+    },
+    "ingredients": "Citric Acid, Dextrose, Sodium Carbonate, Sodium Bicarbonate, Potassium Bicarbonate, Natural Flavors, Potassium Chloride, Beet Powder Color, Malic Acid, Organic Green Tea Extract, Magnesium Oxide, Calcium Carbonate, Stevia Leaf Extract, Avocado Oil.",
+    "filters": {
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "caffeineFree": false
+    },
+    "facets": {
+      "drinkType": [
+        "sport",
+        "energy"
+      ],
+      "form": [
+        "tablet"
+      ],
+      "caffeine": [
+        "low"
+      ],
+      "sweetener": [
+        "sugar",
+        "stevia"
+      ]
+    }
+  },
+  {
+    "id": "nuun-zero-strawberry",
+    "slug": "nuun-zero-strawberry",
+    "name": "Zero Sugar \u2014 Wild Strawberry",
+    "brand": "Nuun",
+    "brandId": "nuun",
+    "category": "drinks",
+    "type": "electrolyte-tablet",
+    "description": "A strawberry-flavored electrolyte tablet sweetened with stevia. The current label lists zero total and added sugars, with 15 calories per tablet.",
+    "image": "/products/nuun-zero-strawberry.png",
+    "price": 7.49,
+    "qty": "10 tablets",
+    "variant": "Wild Strawberry / single tube / one-time purchase",
+    "servings": 10,
+    "source": "https://nuunlife.com/products/nuun-zero",
+    "url": "https://nuunlife.com/products/nuun-zero?variant=46388077625531",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "0 g total sugar",
+      "10 tablets"
+    ],
+    "attributes": {
+      "Serving size": "1 tablet (5 g)",
+      "Total sugar": "0 g / serving",
+      "Added sugar": "0 g / serving",
+      "Calories": "15 / serving",
+      "Sodium": "200 mg / serving",
+      "Potassium": "125 mg / serving",
+      "Magnesium": "20 mg / serving",
+      "Calcium": "30 mg / serving",
+      "Chloride": "75 mg / serving",
+      "Sweetener": "Stevia leaf extract",
+      "Caffeine": "No caffeine ingredients listed; amount not published",
+      "Mixing": "1 tablet in 16 fl oz water",
+      "Ingredient note": "Label rounds added sugars to 0 g, but tapioca syrup solids are included. Does not qualify for the marketplace\u2019s No added sugar preference.",
+      "Price basis": "USD; single tube; one-time purchase; shipping and tax extra",
+      "Source: Wild Strawberry price, ingredients and nutrition": "https://nuunlife.com/products/nuun-zero?variant=46388077625531"
+    },
+    "ingredients": "Citric Acid, Tapioca Syrup Solids, Sodium Bicarbonate, Potassium Bicarbonate, Sea Salt, and less than 2% of Calcium Bicarbonate, Magnesium Oxide, Stevia Leaf Extract, Sodium Carbonate, Olive Oil, Natural Flavor, Beet Juice (For Color).",
+    "filters": {
+      "zeroSugar": true,
+      "noAddedSugar": false,
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true
+    },
+    "facets": {
+      "drinkType": [
+        "hydration"
+      ],
+      "form": [
+        "tablet"
+      ],
+      "sweetener": [
+        "stevia"
+      ]
+    }
+  },
+  {
+    "id": "lmnt-sparkling-citrus-36",
+    "slug": "lmnt-sparkling-citrus-36",
+    "name": "Sparkling Citrus Salt \u2014 36-can case",
+    "brand": "LMNT",
+    "brandId": "lmnt",
+    "category": "drinks",
+    "type": "sparkling-electrolyte-drink",
+    "description": "Ready-to-drink carbonated electrolyte water with stevia and no caffeine. The $90 case contains three 12-packs; select Citrus Salt for all three boxes at the merchant.",
+    "image": "/products/lmnt-sparkling-citrus-tray.webp",
+    "price": 90,
+    "qty": "36 \u00d7 16 fl oz cans",
+    "variant": "Citrus Salt / three 12-packs / one-time purchase",
+    "servings": 36,
+    "source": "https://drinklmnt.com/products/lmnt-sparkling?variant=41058153889815",
+    "url": "https://drinklmnt.com/products/lmnt-sparkling?variant=41058153889815",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "0 g total sugar",
+      "Caffeine-free"
+    ],
+    "attributes": {
+      "Serving size": "1 can (16 fl oz / 473 mL)",
+      "Caffeine": "Caffeine-free",
+      "Total sugar": "0 g / can",
+      "Calories": "5 / can",
+      "Total carbohydrate": "1 g / can",
+      "Sodium": "1,000 mg / can",
+      "Potassium": "200 mg / can",
+      "Magnesium": "60 mg / can",
+      "Sweetener": "Stevia leaf extract",
+      "Case selection": "Choose three Citrus Salt 12-packs at the merchant; the link opens its case builder.",
+      "Price basis": "USD; 36 cans; one-time purchase; tax extra",
+      "Delivery": "Free shipping in the contiguous US only",
+      "Image shows": "One 12-pack tray; listed price covers three trays",
+      "Source: 36-can case price, selection and shipping": "https://drinklmnt.com/products/lmnt-sparkling?variant=41058153889815",
+      "Source: 16 oz Citrus Salt ingredients": "https://help.drinklmnt.com/en-US/what-are-the-ingredients-in-each-flavor-of-lmnt-494344",
+      "Source: Official 16 oz nutrition panel": "https://res.cloudinary.com/drinklmnt/image/upload/f_auto,q_auto/v1711760289/lmnt-sparkling-variety-nutrition_zxromn.webp",
+      "Source: Official can with no-caffeine statement": "https://res.cloudinary.com/drinklmnt/image/upload/f_auto,q_auto/v1710267033/lmnt-sparkling-can-full-citrus-salt_kmhxex.webp"
+    },
+    "ingredients": "Sparkling Water, Salt (Sodium Chloride), Citric Acid, Magnesium Malate, Potassium Chloride, Natural Lemon & Lime Flavors, Stevia Leaf Extract.",
+    "filters": {
+      "zeroSugar": true,
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "drinkType": [
+        "hydration",
+        "sport"
+      ],
+      "form": [
+        "can"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ],
+      "sweetener": [
+        "stevia"
+      ]
+    }
+  },
+  {
+    "id": "maurten-gel-100-box",
+    "slug": "maurten-gel-100-box",
+    "name": "Gel 100 \u2014 12-pack",
+    "brand": "Maurten",
+    "brandId": "maurten",
+    "category": "nutrition",
+    "type": "energy-gel",
+    "description": "Single-serving carbohydrate gels for endurance activity. Each 40 g sachet contains 25 g carbohydrate from glucose and fructose; the US box contains 12 sachets.",
+    "image": "/products/maurten-gel100.jpg",
+    "price": 45,
+    "qty": "12 \u00d7 40 g sachets",
+    "variant": "Gel 100 / US box of 12 / one-time purchase",
+    "servings": 12,
+    "source": "https://www.maurten.com/products/us/gel-100-box-us",
+    "url": "https://www.maurten.com/products/us/gel-100-box-us",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "25 g carbohydrate",
+      "12 sachets"
+    ],
+    "attributes": {
+      "Serving size": "1 sachet (40 g)",
+      "Calories": "100 / sachet",
+      "Total carbohydrate": "25 g / sachet",
+      "Total sugar": "25 g / sachet",
+      "Added sugar": "25 g / sachet",
+      "Sodium": "20 mg / sachet",
+      "Protein": "0 g / sachet",
+      "Caffeine": "No caffeine ingredients listed",
+      "Flavor": "No added flavor listed",
+      "Sweeteners": "Glucose, fructose",
+      "Price basis": "USD; 12-sachet box; one-time purchase; shipping and tax extra",
+      "Label scope": "Nutrition values are per 40 g sachet. The linked US panel depicts a 48-sachet outer case; the product page sells 12.",
+      "Source: US 12-pack price, ingredients and product details": "https://www.maurten.com/products/us/gel-100-box-us",
+      "Source: Official US nutrition per 40 g sachet": "https://maurten.imgix.net/branding/Nutrition-facts/GEL100_US.jpg?auto=compress%2Cformat&fit=max&q=80&w=1000&s=3e42cf93d36b0790052de802bda5e2c8"
+    },
+    "ingredients": "Water, glucose, fructose, sodium alginate, gluconic acid, calcium carbonate.",
+    "filters": {
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "noSucralose": true,
+      "noStevia": true,
+      "stevia": false,
+      "caffeineFree": true
+    },
+    "facets": {
+      "foodType": [
+        "energy-gel"
+      ],
+      "form": [
+        "gel"
+      ],
+      "sweetener": [
+        "sugar"
+      ],
+      "goals": [
+        "performance"
+      ]
+    }
   }
 ]

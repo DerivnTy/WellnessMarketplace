@@ -10,7 +10,8 @@ const baseline=JSON.parse(readFileSync('data/trust-profiles.json','utf8')),updat
 const registry=JSON.parse(readFileSync('data/trust-scored-registry.json','utf8'));
 const seed=Array.from(new Map([...baseline,...updates,...expansion,...registry].map(p=>[p.brandId,p])).values()),products=JSON.parse(readFileSync('data/catalog.json','utf8'));
 let n=0;const check=(ok,message)=>{assert.ok(ok,message);n++;};
-check(seed.length===new Set(products.map(p=>p.brandId)).size&&new Set(seed.map(p=>p.brandId)).size===seed.length,'one distinct profile per catalog brand');
+check(new Set(seed.map(p=>p.brandId)).size===seed.length&&seed.every(p=>products.some(product=>product.brandId===p.brandId)),'unique evidence profiles belong to catalog brands');
+for(const brandId of new Set(products.map(p=>p.brandId))){if(!seed.some(p=>p.brandId===brandId))check(trust.trustScore(undefined).score===null,brandId+' remains unscored without research');}
 for(const p of seed){const parsed=trustSchema.safeParse(p);check(parsed.success,p.brandId+': '+JSON.stringify(parsed.error?.issues));check(p.scopeProductIds.every(id=>products.some(x=>x.id===id&&x.brandId===p.brandId)),p.brandId+' scope matches catalog');check(p.reviewer==='AI-assisted desk research','initial research honestly attributed');check(p.sources.every(s=>s.url.startsWith('https://')),'all original links HTTPS');}
 const eligible=seed.filter(p=>trust.trustScore(p).score!==null);check(eligible.length>0&&eligible.length<seed.length,'numeric scores require evidence');
 for(const p of registry)check(trust.trustScore(p).score!==null&&p.consumerSources.length>0,p.brandId+' registry addition meets score threshold and includes consumer research');

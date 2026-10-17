@@ -3,7 +3,9 @@ import {readFileSync,existsSync} from 'node:fs';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
-const seed=JSON.parse(readFileSync('data/catalog.json','utf8'));
+const expansionIds=new Set(JSON.parse(readFileSync('research/catalog-expansion-2026-10-17.json','utf8')).products.map(p=>p.productId));
+// Keep baseline regressions stable; additions have separate full-catalog coverage.
+const seed=JSON.parse(readFileSync('data/catalog.json','utf8')).filter(p=>!expansionIds.has(p.id));
 function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);return module.exports;}
 const {productSchema}=compile('lib/validation.ts');
 const {normalizeProduct}=compile('lib/catalog-data.ts',{'@/data/catalog.json':{default:seed},'./validation':{productSchema}});
