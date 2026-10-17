@@ -32,6 +32,8 @@ check(filter({deviceType:'massage-chair',footprint:'10-25-sq-ft'}).length===8,'a
 const sleep=get('ht-eight-sleep-pod6-queen'),row=equipment.recoverySpecs.find(r=>r.id==='ongoing');
 check(equipment.specValue(sleep,row).includes('$299/year'),'singular ongoing cost preserved');
 check(equipment.specValue(p,row)===p.attributes['Ongoing costs'],'plural ongoing costs aligned');
+check(equipment.ownershipNotes(p)[0].source.url.includes('Delivery-Details'),'delivery facts link to delivery details before return policy');
+check(!equipment.ownershipNotes(p)[3].source.url.includes('Delivery-Details'),'delivery service does not masquerade as warranty source');
 check(equipment.specValue(get('hooga-hg300'),equipment.recoverySpecs.find(r=>r.id==='power'))===undefined,'wattage does not substitute for voltage requirements');
 check(equipment.comparisonRows([p,q]).some(r=>r.id==='temperature'),'plunge comparison includes temperature');
 check(equipment.comparisonRows([get('rep-arcadia-trainer')]).some(r=>r.id==='resistance'),'home gym resistance row retained');

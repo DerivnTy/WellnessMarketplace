@@ -48,9 +48,9 @@ export const decisionFacts=(p:Product)=>[
 export function ownershipNotes(p:Product){
  const sources=sourceLinks(p);const source=(pattern:RegExp)=>sources.find(s=>pattern.test(s.label))||sources[0];
  return [
- {title:'Delivery & access',fact:p.attributes['Delivery']||p.attributes['Returns'],check:'Confirm delivery to your address, curbside versus room placement, return freight and the route through doorways or stairs.',source:source(/delivery|shipping|return/i)},
+ {title:'Delivery & access',fact:p.attributes['Delivery']||p.attributes['Returns'],check:'Confirm delivery to your address, curbside versus room placement, return freight and the route through doorways or stairs.',source:source(p.attributes['Delivery']?/delivery|shipping/i:/return/i)},
  {title:'Installation & space',fact:p.attributes['Clearance']||p.attributes['Equipment footprint']||p.attributes['Footprint basis'],check:'Allow operating clearance beyond the product footprint. Confirm assembly, floor support and any electrical or plumbing work using the exact model manual.',source:source(/manual|installation|specification/i)},
  {title:'Upkeep & running costs',fact:p.attributes['Ongoing cost']||p.attributes['Ongoing costs']||p.attributes['Subscription'],check:p.type==='cold-plunge'?'Check water care, filter replacements, cleaning intervals, electricity use and freeze-protection instructions.':p.type==='sauna'?'Check ventilation, cleaning, timber care, heater maintenance and electricity use.':'Check maintenance, replacement parts, energy use and any required membership or consumables.',source:source(/care|manual|setup/i)},
- {title:'Service & reliability',fact:p.attributes['Warranty'],check:'Check coverage for parts, labor and shipping, the service process and local support. Warranty length alone does not establish long-term reliability.',source:source(/warranty|service/i)},
+ {title:'Service & reliability',fact:p.attributes['Warranty'],check:'Check coverage for parts, labor and shipping, the service process and local support. Warranty length alone does not establish long-term reliability.',source:source(/warrant|guarantee|after.sales|repair policy/i)},
  ];
 }

@@ -29,6 +29,8 @@
 .recovery-catalog .facet-block>legend{font-size:13px;font-weight:600}
 .recovery-catalog .facet-hint{font-size:11px;line-height:1.65}
 .recovery-catalog .facet-check{min-height:35px;font-size:12px}
+@media(min-width:761px){.catalog-page .preference-filters .filter-heading{top:-17px;margin-top:-17px;padding-top:17px}}
+@media(min-width:761px) and (max-width:1100px){.catalog-page .preference-filters .filter-heading{top:-14px;margin-top:-14px;padding-top:14px}}
 /* Persistent shortlist, with a removable item for every selection. */
 .has-comparison-tray{padding-bottom:calc(var(--comparison-tray-height,190px) + 28px)}
 .research-compare-tray{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:46;width:min(1040px,calc(100% - 40px));padding:15px 20px;background:#fff;border:1px solid #cfd6db;border-radius:14px;box-shadow:0 10px 60px #18243124}
