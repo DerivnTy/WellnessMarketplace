@@ -36,6 +36,15 @@ check(equipment.ownershipNotes(p)[0].source.url.includes('Delivery-Details'),'de
 check(!equipment.ownershipNotes(p)[3].source.url.includes('Delivery-Details'),'delivery service does not masquerade as warranty source');
 check(equipment.specValue(get('hooga-hg300'),equipment.recoverySpecs.find(r=>r.id==='power'))===undefined,'wattage does not substitute for voltage requirements');
 check(equipment.comparisonRows([p,q]).some(r=>r.id==='temperature'),'plunge comparison includes temperature');
+const chiller=equipment.comparisonRows([p,q]).find(r=>r.id==='chiller');
+check(chiller&&equipment.specValue(p,chiller)==='Chiller included','recorded chiller facet is a comparison row');
+const panelRows=equipment.comparisonRows([get('hooga-hg300')]);
+check(panelRows.some(r=>r.id==='footprint')&&equipment.specValue(get('hooga-hg300'),panelRows.find(r=>r.id==='power'))===undefined,'unlisted panel power and footprint stay visible as unknown');
+const matters=equipment.purchaseMatters(p);
+check(matters.map(m=>m.label).join(',')==='Space,Power,Installation,Delivery,Maintenance,Warranty','purchase notes cover space through warranty');
+check(matters.find(m=>m.label==='Space').fact!=='Not listed by brand','listed plunge dimensions are repeated, not replaced');
+check(equipment.purchaseMatters(get('hooga-hg300')).find(m=>m.label==='Power').fact==='Not listed by brand','wattage is not treated as a supply requirement');
+check(!matters.some(m=>/high-ticket|premium tier|source standard/i.test(m.fact+' '+m.note)),'purchase notes do not add commercial labels');
 check(equipment.comparisonRows([get('rep-arcadia-trainer')]).some(r=>r.id==='resistance'),'home gym resistance row retained');
 check(equipment.specValue(get('rep-arcadia-trainer'),equipment.recoverySpecs.find(r=>r.id==='resistance')).includes('2:1'),'stack mass and effective resistance remain distinct');
 const normalize=compile('lib/catalog-data.ts',{'@/data/catalog.json':{default:products},'./validation':compile('lib/validation.ts')}).normalizeProduct;

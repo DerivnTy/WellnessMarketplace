@@ -5,12 +5,27 @@ import updates from '@/data/trust-research-update.json';
 import expansion from '@/data/trust-specialist-expansion.json';
 import registry from '@/data/trust-scored-registry.json';
 import {researchUpdateState} from './trust-updates';
+function staticTrustProfiles(includeDrafts=false):TrustProfile[]{
+ const baselines=new Map(seed.map(raw=>{const profile=trustSchema.parse(raw);return [profile.brandId,profile] as const;}));
+ const current=new Map<string,{data:string;status:string;profile:TrustProfile}>();
+ for(const profile of baselines.values())current.set(profile.brandId,{data:JSON.stringify(profile),status:profile.status,profile});
+ for(const wave of [updates,expansion,registry]){
+  for(const raw of wave){
+   const next=trustSchema.parse(raw);
+   const existing=current.get(next.brandId);
+   const action=researchUpdateState(existing?{data:existing.data,status:existing.status}:undefined,baselines.get(next.brandId),next);
+   if(action==='insert'||action==='update')current.set(next.brandId,{data:JSON.stringify(next),status:next.status,profile:next});
+  }
+ }
+ return [...current.values()].map(row=>row.profile).filter(profile=>includeDrafts||profile.status==='published');
+}
 import {eq,desc,and} from 'drizzle-orm';
 import {trustSchema} from './trust-validation';
 import {trustScore,type TrustProfile,type TrustHistory,type StoredReview} from './trust';
 import {setting} from './server';
 import {settings} from '@/db/schema';
 export async function trustProfilesList(includeDrafts=false):Promise<TrustProfile[]> {
+ if(process.env.VERCEL)return staticTrustProfiles(includeDrafts);
  const db=getDb();
  if(seed.length&&!await setting('trust-profiles-v2-initial')){
   const profiles=seed.map(p=>trustSchema.parse(p));
@@ -41,6 +56,7 @@ export async function trustProfilesList(includeDrafts=false):Promise<TrustProfil
  return (await db.select().from(trustProfiles)).filter(r=>includeDrafts||r.status==='published').map(r=>({...JSON.parse(r.data),status:r.status}));
 }
 export async function trustHistory(brandId:string):Promise<TrustHistory[]> {
+ if(process.env.VERCEL)return [];
  return (await getDb().select().from(trustVersions).where(eq(trustVersions.brandId,brandId)).orderBy(desc(trustVersions.created))).flatMap(r=>{const p=JSON.parse(r.data) as TrustProfile;return p.status==='published'?[{id:r.id,brandId:r.brandId,created:r.created,note:p.changeNote,score:trustScore(p,p.reviewed).score,version:p.version,reviewer:p.reviewer}]:[];}).slice(0,20);
 }
 export async function brandReviewRows(brandId:string):Promise<StoredReview[]> {return getDb().select().from(consumerReviews).where(eq(consumerReviews.brandId,brandId)).orderBy(desc(consumerReviews.updated));}

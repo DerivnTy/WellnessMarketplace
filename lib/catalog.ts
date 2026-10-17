@@ -15,11 +15,11 @@ export type Assessment = {
   status: string; methodology: string;
 };
 export const categories = [
+  { id:'recovery', name:'Recovery & devices', caption:'Space, power and warranty', image:'hooga-hg300' },
   { id:'drinks', name:'Drinks & hydration', caption:'Hydrate, energize, unwind', image:'cure-tropical-punch' },
   { id:'nutrition', name:'Food & nutrition', caption:'Fuel for your everyday', image:'btr-cinnamon' },
   { id:'supplements', name:'Supplements', caption:'Know what goes in', image:'puori-unflavored' },
   { id:'apparel', name:'Natural-fiber apparel', caption:'A closer look at materials', image:'wama-boxer' },
-  { id:'recovery', name:'Recovery & devices', caption:'Make space to recharge', image:'hooga-hg300' },
 ];
 export const money = (n: number) => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2}).format(n);
 export const filterLabels: Record<string,string> = {noAddedSugar:'0g added sugar',zeroSugar:'0g total sugar',stevia:'Contains stevia',cotton:'Cotton in main fabric',testing:'Brand links to batch results'};

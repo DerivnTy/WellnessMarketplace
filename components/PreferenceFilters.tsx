@@ -8,6 +8,7 @@ export type PreferenceFilterGroup = {
   label: string;
   options: {id: string; label: string; count?: number}[];
   hint?: string;
+  section?: string;
 };
 
 type Props = {
@@ -15,6 +16,7 @@ type Props = {
   activeFilters: Record<string, string[]>;
   onChange: (filters: Record<string, string[]>) => void;
   onReset?: () => void;
+  intro?: ReactNode;
   beforeGroups?: ReactNode;
   afterGroups?: ReactNode;
   footer?: ReactNode;
@@ -23,7 +25,7 @@ type Props = {
   panelRef?: Ref<HTMLElement>;
 };
 
-export default function PreferenceFilters({groups, activeFilters, onChange, onReset, beforeGroups, afterGroups, footer, mobileOpen = false, onClose, panelRef}: Props) {
+export default function PreferenceFilters({groups, activeFilters, onChange, onReset, intro, beforeGroups, afterGroups, footer, mobileOpen = false, onClose, panelRef}: Props) {
   const toggle = (group: string, option: string) => {
     const selected = activeFilters[group] || [];
     onChange({...activeFilters, [group]: selected.includes(option)
@@ -41,8 +43,15 @@ export default function PreferenceFilters({groups, activeFilters, onChange, onRe
       {onClose && <button type="button" className="mobile-filter-close" aria-label="Close filters" onClick={onClose}><X size={20}/></button>}
     </div>
     <div className="filter-inner">
+      {intro}
       {beforeGroups}
-      {groups.map(group => <FilterGroup key={group.id} group={group} selected={activeFilters[group.id] || []} onToggle={id => toggle(group.id, id)}/>)}
+      {groups.map((group, index) => {
+        const section = group.section && group.section !== groups[index - 1]?.section ? group.section : '';
+        return <div className="filter-group-wrap" key={group.id}>
+          {section && <h4 className="filter-section">{section}</h4>}
+          <FilterGroup group={group} selected={activeFilters[group.id] || []} onToggle={id => toggle(group.id, id)}/>
+        </div>;
+      })}
       {afterGroups}
     </div>
     {footer && <div className="mobile-filter-footer">{footer}</div>}
