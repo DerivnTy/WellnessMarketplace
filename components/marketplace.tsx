@@ -55,7 +55,8 @@ export default function Marketplace({path,initialQuery,products,assessments,trus
   const toggleSave=(id:string)=>{setSaved(s=>s.includes(id)?s.filter(x=>x!==id):[...s,id]);if(!saved.includes(id))event('save',id);};
   const toggleCompare=(p:Product)=>{if(!comparison.ready)return;if(compared.includes(p.id)){setCompared(compared.filter(x=>x!==p.id));return;}if(!canCompare(products.filter(x=>compared.includes(x.id)),p)){setNotice(compared.length>=4?'Compare up to 4 products at a time.':'Choose products of the same type for a useful comparison. Clear your current selection to start another.');return;}setCompared([...compared,p.id]);event('compare',p.id);};
   const searchSubmit=(e:FormEvent)=>{e.preventDefault();event('search');const q=new URLSearchParams();if(search.trim())q.set('q',search.trim());if(searchCat)q.set('category',searchCat);setFocused(false);window.location.assign('/shop'+(q.size?'?'+q:''));};
-  const card=(p:Product, variant?:'listing')=><ProductCard key={p.id} variant={variant} product={p} evidence={trustSummaries.find(s=>s.brandId===p.brandId)} saved={saved.includes(p.id)} compared={compared.includes(p.id)} cartDisabled={!cart.ready||(cart.items.find(x=>x.id===p.id)?.quantity||0)>=MAX_QUANTITY} onSave={toggleSave} onCompare={toggleCompare} onAddToCart={addToCart}/>;
+  const cardFor=(variant?:'listing')=>(p:Product)=><ProductCard key={p.id} variant={variant} product={p} evidence={trustSummaries.find(s=>s.brandId===p.brandId)} saved={saved.includes(p.id)} compared={compared.includes(p.id)} cartDisabled={!cart.ready||(cart.items.find(x=>x.id===p.id)?.quantity||0)>=MAX_QUANTITY} onSave={toggleSave} onCompare={toggleCompare} onAddToCart={addToCart}/>;
+  const card=cardFor(),listingCard=cardFor('listing');
   const titleRow=(title:string,sub:string,href?:string)=><div className="section-title"><div><h2>{title}</h2><p>{sub}</p></div>{href&&<a className="text-link" href={href}>Explore all <ArrowRight size={17}/></a>}</div>;
   const form=(type:'brand'|'correction'|'experience')=><Submission type={type} product={String(initialQuery.product||'')}/>;
   let content;
@@ -71,7 +72,7 @@ export default function Marketplace({path,initialQuery,products,assessments,trus
     <section data-reveal className="trust-banner"><div className="trust-symbol"><ShieldCheck size={58} strokeWidth={1}/></div><div><span className="eyebrow">TRUST IS EARNED. NOT ASSUMED.</span><h2>More signal. Less guesswork.</h2><p>Community experiences tell one story. Laboratory evidence tells another.<br/>We keep both visible—and the difference clear.</p></div><a className="button light" href="/research">Inside our research <ArrowUpRight size={17}/></a></section>
   </HomeMotion>;
   else if(path==='shop'||path==='search'||path.startsWith('category/')||path==='supplements'||path==='drinks'){
-    content=<CatalogBrowser key={initialCategory+JSON.stringify(initialQuery)} products={products} category={initialCategory} query={initialQuery} renderCard={p=>card(p,'listing')} onCategoryChange={setCategory}/>;
+    content=<CatalogBrowser key={initialCategory+JSON.stringify(initialQuery)} products={products} category={initialCategory} query={initialQuery} renderCard={listingCard} onCategoryChange={setCategory}/>;
   }else if(path.startsWith('product/')){
     const p=products.find(x=>x.id===path.split('/')[1])!;
     content=<ProductDetails product={p} products={products} profile={brandProfile} summary={trustSummaries.find(s=>s.brandId===p.brandId)} saved={saved.includes(p.id)} compared={compared.includes(p.id)} cartDisabled={!cart.ready||(cart.items.find(x=>x.id===p.id)?.quantity||0)>=MAX_QUANTITY} onSave={()=>toggleSave(p.id)} onCompare={()=>toggleCompare(p)} onAddToCart={()=>addToCart(p)} renderCard={card}/>;
