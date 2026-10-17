@@ -6,8 +6,19 @@ import { getChatGPTUser } from '@/app/chatgpt-auth';
 import type { Product, Assessment } from './catalog';
 import { normalizeProduct } from './catalog-data';
 
+function publishedSeed(includeDrafts: boolean): Product[] {
+  return (seed as unknown as Product[]).filter(product => includeDrafts || product.status === 'published').map(product => normalizeProduct(product));
+}
+function database() {
+  try { return getDb(); }
+  catch (error) {
+    if (error instanceof Error && error.message.includes('D1 binding')) return null;
+    throw error;
+  }
+}
 export async function catalog(includeDrafts=false): Promise<Product[]> {
-  const db=getDb();
+  const db=database();
+  if(!db) return publishedSeed(includeDrafts);
   // Seed data independently of schema migrations; existing editorial records are never overwritten.
   if(!await setting('catalog-high-ticket-expansion-2026-10-17')) {
     // D1 accepts at most 100 bound values per statement. Each product uses four.
@@ -21,7 +32,9 @@ export async function catalog(includeDrafts=false): Promise<Product[]> {
   return rows.filter(r=>includeDrafts||r.status==='published').map(r=>normalizeProduct({...JSON.parse(r.data),status:r.status}));
 }
 export async function research(): Promise<Assessment[]> {
-  return (await getDb().select().from(assessments).where(eq(assessments.status,'published'))).map(r=>({...JSON.parse(r.data),id:r.id,entity:r.entity,scope:r.scope,status:r.status}));
+  const db=database();
+  if(!db) return [];
+  return (await db.select().from(assessments).where(eq(assessments.status,'published'))).map(r=>({...JSON.parse(r.data),id:r.id,entity:r.entity,scope:r.scope,status:r.status}));
 }
 export async function setting(key: string) { return (await getDb().select().from(settings).where(eq(settings.key,key)))[0]?.value; }
 export async function adminUser() {
