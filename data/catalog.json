@@ -6816,5 +6816,3667 @@
         "6-month"
       ]
     }
+  },
+  {
+    "id": "ht-plunge-plunge-air",
+    "slug": "ht-plunge-plunge-air",
+    "name": "Plunge Air \u2014 Cold Only",
+    "brand": "Plunge",
+    "brandId": "plunge",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "An inflatable lay-down tub paired with an external chiller. The tub packs down for storage; the cooling system still needs a powered, ventilated location.",
+    "image": "/products/ht-plunge-plunge-air.jpg",
+    "price": 5490.0,
+    "qty": "Tub + external chiller",
+    "variant": "Air / Cold Only",
+    "source": "https://plunge.com/products/plunge-air",
+    "url": "https://plunge.com/products/plunge-air?variant=45750075687069",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Inflatable tub",
+      "Chiller included"
+    ],
+    "attributes": {
+      "Capacity": "105 gallons; individual fit should be checked against tub dimensions.",
+      "Temperature range": "Current Air comparison lists a 39\u00b0F minimum. Exact chiller generation for this selected variant is not confirmed.",
+      "Heat type": "Cooling only; heating upgrade excluded.",
+      "Power requirements": "110V outlet; manufacturer recommends a dedicated 15A circuit.",
+      "Dimensions": "Tub: 61 L \u00d7 32 W \u00d7 28 H in. Allow additional room for the external chiller and airflow.",
+      "Warranty": "Chiller: 1 year. Inflatable tub: 90 days. Coverage conditions and exclusions apply.",
+      "Placement": "Indoor or outdoor; protect equipment from freezing conditions.",
+      "Setup type": "Inflate tub, attach chiller hoses, fill and connect power.",
+      "Included": "Tub, external chiller, insulated cover, pump, ground cover, repair kit and backpack.",
+      "Price basis": "USD; selected Cold Only system. Shipping, tax and heating upgrade may cost extra.",
+      "Source: Official product and selected configuration": "https://plunge.com/products/plunge-air?variant=45750075687069"
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "inflatable"
+      ],
+      "warranty": [
+        "90-day"
+      ]
+    }
+  },
+  {
+    "id": "ht-plunge-plunge",
+    "slug": "ht-plunge-plunge",
+    "name": "The Plunge Original + Pro Chiller \u2014 Cold Only",
+    "brand": "Plunge",
+    "brandId": "plunge",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A rigid acrylic and fiberglass lay-down tub with a separate Pro Chiller. This configuration supplies cooling without the optional heating upgrade.",
+    "image": "/products/ht-plunge-plunge.jpg",
+    "price": 6790,
+    "qty": "Tub + Pro Chiller",
+    "variant": "Original / Cold Only",
+    "source": "https://plunge.com/products/plunge",
+    "url": "https://plunge.com/products/plunge?variant=46130585108637",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "37\u00b0F minimum",
+      "Pro Chiller included"
+    ],
+    "attributes": {
+      "Capacity": "105 gallons; manufacturer describes fit up to 6 ft 8 in.",
+      "Temperature range": "37\u00b0F minimum; performance depends on ambient conditions.",
+      "Heat type": "Cooling only.",
+      "Power requirements": "Dedicated 120V, 15A circuit.",
+      "Dimensions": "Tub: 66\u215d L \u00d7 31\u00bd W \u00d7 26 H in; separate chiller requires additional space.",
+      "Warranty": "1-year base warranty. Promotional extensions are separate from standard coverage.",
+      "Placement": "Indoor or outdoor; follow freeze-protection instructions.",
+      "Setup type": "Rigid tub plus external chiller; connect hoses, fill and power.",
+      "Included": "Original tub, Pro Chiller and insulated lid; optional heat upgrade excluded.",
+      "Price basis": "USD; current advertised $6,790 automatic sale price, reduced from the $8,490 feed price. Shipping and tax extra.",
+      "Source: Official product and selected configuration": "https://plunge.com/products/plunge?variant=46130585108637"
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-dedicated"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "portable-rigid"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "ht-plunge-the-infrared-sauna",
+    "slug": "ht-plunge-the-infrared-sauna",
+    "name": "The Infrared Sauna \u2014 Standard",
+    "brand": "Plunge",
+    "brandId": "plunge",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A two-person indoor hemlock sauna combining far-infrared panels with full-spectrum towers. Standard uses a dedicated 120V circuit and excludes the Pro red-light panel.",
+    "image": "/products/ht-plunge-the-infrared-sauna.webp",
+    "price": 7190,
+    "qty": "2-person sauna",
+    "variant": "Standard",
+    "source": "https://plunge.com/products/the-infrared-sauna",
+    "url": "https://plunge.com/products/the-infrared-sauna?variant=48137850912925",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "2-person",
+      "Full-spectrum infrared"
+    ],
+    "attributes": {
+      "Capacity": "2 people in Standard configuration.",
+      "Temperature range": "Up to 160\u00b0F; selected Standard model.",
+      "Heat type": "Far-infrared panels and full-spectrum incandescent towers.",
+      "Power requirements": "Dedicated 120V, 20A circuit; NEMA 5-20 outlet.",
+      "Dimensions": "53\u215b W \u00d7 55\u00b9\u2044\u2081\u2086 D \u00d7 79 H in; allow 26.5 in door clearance.",
+      "Warranty": "5 years cabinetry/heaters; 2 years electronics/controls; 1 year glass/power supplies. Limited coverage.",
+      "Placement": "Indoor only.",
+      "Setup type": "Panel assembly; manufacturer estimates about one hour. Electrical work may be necessary.",
+      "Included": "Standard cabin, infrared heating system and controls; Pro red-light panel excluded.",
+      "Price basis": "USD; current $7,190 advertised sale price, from $7,690. Standard curbside delivery starts at $250; tax and site work extra.",
+      "Source: Official product and selected configuration": "https://plunge.com/products/the-infrared-sauna?variant=48137850912925",
+      "Source: Standard configuration and occupancy": "https://business.plunge.com/products/infrared-sauna-standard?redirect=infrared-sauna-pro",
+      "Footprint basis": "Calculated from listed outside dimensions: 53.125 \u00d7 55.0625 in \u2248 20.3 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "2-person"
+      ],
+      "heatType": [
+        "full-spectrum-infrared"
+      ],
+      "power": [
+        "120v-dedicated"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "panel-assembly"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-plunge-the-sauna-mini",
+    "slug": "ht-plunge-the-sauna-mini",
+    "name": "The Sauna Mini",
+    "brand": "Plunge",
+    "brandId": "plunge",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A compact two-person cedar sauna with a HUUM Steel Mini heater, stone basket and weatherproof roof. A suitable electrical circuit and power cord are separate requirements.",
+    "image": "/products/ht-plunge-the-sauna-mini.png",
+    "price": 10620,
+    "qty": "2-person sauna + heater",
+    "variant": "Mini / included HUUM Steel Mini 4",
+    "source": "https://plunge.com/products/the-sauna-mini",
+    "url": "https://plunge.com/products/the-sauna-mini?variant=46024564310173",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "2-person",
+      "Heater included"
+    ],
+    "attributes": {
+      "Capacity": "2 people.",
+      "Temperature range": "Manufacturer lists up to 210\u00b0F.",
+      "Heat type": "Traditional electric; HUUM Steel Mini 4 heater.",
+      "Power requirements": "Dedicated 220\u2013240V, 20A circuit; NEMA L14-20 outlet. Power cord sold separately.",
+      "Dimensions": "52 W \u00d7 57 D \u00d7 94 H in.",
+      "Warranty": "2-year base warranty; terms and exclusions apply.",
+      "Placement": "Outdoor; weatherproof roof included.",
+      "Setup type": "Sauna assembly and suitable electrical installation required.",
+      "Included": "Cabin, HUUM heater, Wi-Fi controller, 132 lb stones and waterproof roof; power cord excluded.",
+      "Price basis": "USD; current $10,620 advertised sale price, from $12,490. Cord, shipping, tax and site preparation extra.",
+      "Source: Official product and selected configuration": "https://plunge.com/products/the-sauna-mini?variant=46024564310173",
+      "Footprint basis": "Calculated from listed outside dimensions: 52 \u00d7 57 in \u2248 20.6 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "2-person"
+      ],
+      "heatType": [
+        "traditional-electric"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "outdoor"
+      ],
+      "setup": [
+        "assembly-required",
+        "professional-install"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-sunhome-portable-cold-plunge-tub",
+    "slug": "ht-sunhome-portable-cold-plunge-tub",
+    "name": "Horizontal Cold Plunge + Smart Chiller",
+    "brand": "Sun Home Saunas",
+    "brandId": "sun-home-saunas",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A long inflatable tub paired with a 1 HP smart chiller that heats and cools. Its current specification sheet lists a 128-gallon water capacity.",
+    "image": "/products/ht-sunhome-portable-cold-plunge-tub.jpg",
+    "price": 3999.0,
+    "qty": "Tub + 1 HP smart chiller",
+    "variant": "Horizontal / included smart chiller",
+    "source": "https://sunhomesaunas.com/products/portable-cold-plunge-tub",
+    "url": "https://sunhomesaunas.com/products/portable-cold-plunge-tub?variant=48677668389057",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Chiller included",
+      "Heating + cooling"
+    ],
+    "attributes": {
+      "Capacity": "128 gallons. Occupancy is unconfirmed: variant title says 2-person; current specification panel says 1 person.",
+      "Temperature range": "32\u2013104\u00b0F manufacturer setpoints.",
+      "Heat type": "Electric chiller with heating mode.",
+      "Power requirements": "120V, rated 11A; dedicated 15A GFCI circuit, NEMA 5-15.",
+      "Dimensions": "Tub: 77.2 L \u00d7 27.6 W \u00d7 24.4 H in. Chiller: 21.2 \u00d7 15.7 \u00d7 21.7 in; keep fan 3 ft clear.",
+      "Warranty": "1-year residential limited warranty for manufacturing defects.",
+      "Placement": "Indoor or outdoor with ventilation and freeze protection.",
+      "Setup type": "Inflate, connect external chiller, fill and power.",
+      "Included": "Horizontal tub and 1 HP smart chiller.",
+      "Price basis": "USD; selected Horizontal system with chiller. Optional accessories and tax extra.",
+      "Source: Official product and selected configuration": "https://sunhomesaunas.com/products/portable-cold-plunge-tub?variant=48677668389057",
+      "Source: September 2026 model specification sheet": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-COLD_PLUNGE_HORIZONTAL-SPEC_SHEET-2026-09-14.pdf?v=1789436213",
+      "Source: Warranty coverage": "https://sunhomesaunas.com/pages/warranty-information"
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-dedicated"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "inflatable"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "ht-sunhome-sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna",
+    "slug": "ht-sunhome-sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna",
+    "name": "Equinox 3 Full-Spectrum Infrared Sauna",
+    "brand": "Sun Home Saunas",
+    "brandId": "sun-home-saunas",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A three-person indoor eucalyptus sauna with five far-infrared heaters and two full-spectrum heaters. The current specification requires a dedicated 20A circuit.",
+    "image": "/products/ht-sunhome-sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna.png",
+    "price": 6999.0,
+    "qty": "3-person sauna",
+    "variant": "Equinox 3",
+    "source": "https://sunhomesaunas.com/products/sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna",
+    "url": "https://sunhomesaunas.com/products/sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna?variant=48850305351873",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "3-person",
+      "Full-spectrum infrared"
+    ],
+    "attributes": {
+      "Capacity": "3 people.",
+      "Temperature range": "Up to 165\u00b0F under suitable ambient conditions.",
+      "Heat type": "5 far-infrared heaters plus 2 full-spectrum heaters.",
+      "Power requirements": "120V, 2,020W, 16.83A; dedicated 20A GFCI circuit and NEMA 5-20.",
+      "Dimensions": "62.3 W \u00d7 45.9 D \u00d7 77.7 H in; allow 4 in around sides and 12 in above.",
+      "Warranty": "Residential: 7 years cabinet/heaters, 3 controls, 1 glass/audio. Controls coverage is prorated after year 1; see policy.",
+      "Placement": "Indoor only.",
+      "Setup type": "Panel assembly; 642 lb assembled. Suitable outlet required.",
+      "Included": "Eucalyptus cabin, infrared heaters and controls.",
+      "Price basis": "USD; complete Equinox 3. Electrical work, tax and optional accessories extra.",
+      "Source: Official product and selected configuration": "https://sunhomesaunas.com/products/sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna?variant=48850305351873",
+      "Source: October 2026 model specification sheet": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-EQUINOX_3-SPEC_SHEET-2026-10-06.pdf?v=1791325110",
+      "Source: Warranty coverage": "https://sunhomesaunas.com/pages/warranty-information",
+      "Footprint basis": "Calculated from listed outside dimensions: 62.3 \u00d7 45.9 in \u2248 19.9 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "3-person"
+      ],
+      "heatType": [
+        "full-spectrum-infrared"
+      ],
+      "power": [
+        "120v-dedicated"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "panel-assembly"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-sunhome-5personoutdoorinfraredsauna",
+    "slug": "ht-sunhome-5personoutdoorinfraredsauna",
+    "name": "Luminar 5 Outdoor Infrared Sauna",
+    "brand": "Sun Home Saunas",
+    "brandId": "sun-home-saunas",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A five-person outdoor infrared sauna with a cedar interior and metal exterior. The 15-heater system requires a dedicated 240V circuit and substantial placement space.",
+    "image": "/products/ht-sunhome-5personoutdoorinfraredsauna.png",
+    "price": 13899.0,
+    "qty": "5-person sauna",
+    "variant": "Luminar 5",
+    "source": "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna",
+    "url": "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna?variant=50149635948737",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5-person",
+      "Outdoor infrared"
+    ],
+    "attributes": {
+      "Capacity": "5 people.",
+      "Temperature range": "Up to 170\u00b0F under suitable ambient conditions.",
+      "Heat type": "10 full-spectrum and 5 far-infrared heaters.",
+      "Power requirements": "240V, 7,200W; dedicated 30A GFCI circuit, NEMA L6-30.",
+      "Dimensions": "82.25 W \u00d7 51.75 D \u00d7 84 H in; 1,070 lb assembled.",
+      "Warranty": "Residential: limited lifetime cabinet/heaters; 3 years exterior/controls; 1 year LED/glass/audio. Labor/shipping included only first 90 days.",
+      "Placement": "Outdoor on a level, draining foundation; follow roof and ventilation clearances.",
+      "Setup type": "Panel assembly with professional electrical preparation.",
+      "Included": "Cabin, infrared heaters, controls and protective cover. Optional red-light upgrade excluded.",
+      "Price basis": "USD; Luminar 5 base system. Tax, electrical work and optional upgrades extra.",
+      "Source: Official product and selected configuration": "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna?variant=50149635948737",
+      "Source: September 2026 model specification sheet": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-LUMINAR_5-SPEC_SHEET-2026-09-14.pdf?v=1790034064",
+      "Source: Warranty for orders after March 2, 2026": "https://sunhomesaunas.com/pages/warranty-information",
+      "Footprint basis": "Calculated from listed outside dimensions: 82.25 \u00d7 51.75 in \u2248 29.6 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "5-person"
+      ],
+      "heatType": [
+        "full-spectrum-infrared"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "outdoor"
+      ],
+      "setup": [
+        "panel-assembly",
+        "professional-install"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "over-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-icebarrel-ice-barrel-300-bundle",
+    "slug": "ht-icebarrel-ice-barrel-300-bundle",
+    "name": "Ice Barrel 300 + Chiller Bundle",
+    "brand": "Ice Barrel",
+    "brandId": "ice-barrel",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A low-profile insulated barrel paired with Ice Barrel\u2019s external chiller. The selected bundle includes the cooling equipment rather than a tub alone.",
+    "image": "/products/ht-icebarrel-ice-barrel-300-bundle.jpg",
+    "price": 5149.98,
+    "qty": "Barrel 300 + chiller",
+    "variant": "300 bundle",
+    "source": "https://icebarrel.com/products/ice-barrel-300-bundle",
+    "url": "https://icebarrel.com/products/ice-barrel-300-bundle?variant=42387813105731",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Chiller included",
+      "37\u00b0F minimum"
+    ],
+    "attributes": {
+      "Capacity": "77 gallons; manufacturer describes fit for most users up to 6 ft tall.",
+      "Temperature range": "37\u00b0F minimum; cooling only.",
+      "Heat type": "No heating mode confirmed.",
+      "Power requirements": "115V, 60Hz; maximum overcurrent protection 15A. Dedicated-circuit requirement not confirmed.",
+      "Dimensions": "Tub: 35.5 \u00d7 35.5 \u00d7 30.5 H in. Chiller: 18.63 L \u00d7 16.40 W \u00d7 20.40 H in.",
+      "Warranty": "Barrel: limited lifetime wording, expressly limited to 3 years in policy. Chiller: 1 year. Original residential purchaser only.",
+      "Placement": "Indoor or outdoor; freezing damage excluded from warranty.",
+      "Setup type": "Rigid barrel plus separate chiller; connect plumbing, fill and power.",
+      "Included": "Ice Barrel 300 and Ice Barrel Chiller.",
+      "Price basis": "USD; complete 300 + chiller bundle. Tax and delivery charges may apply.",
+      "Source: Official product and selected configuration": "https://icebarrel.com/products/ice-barrel-300-bundle?variant=42387813105731",
+      "Source: Barrel and chiller warranty": "https://icebarrel.com/pages/warranty"
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "portable-rigid"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "ht-inergize-inergize-cold-plunge-tub",
+    "slug": "ht-inergize-inergize-cold-plunge-tub",
+    "name": "Inergize Elite Tub + Chiller",
+    "brand": "Inergize",
+    "brandId": "inergize",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A portable inflatable tub with a separate 0.8 HP heating and cooling unit. It includes the pump, hoses and locking lid needed for normal setup.",
+    "image": "/products/ht-inergize-inergize-cold-plunge-tub.webp",
+    "price": 2990.0,
+    "qty": "Elite tub + 0.8 HP chiller",
+    "variant": "Elite / tub and chiller",
+    "source": "https://inergizehealth.com/products/inergize-cold-plunge-tub",
+    "url": "https://inergizehealth.com/products/inergize-cold-plunge-tub?variant=47852806111465",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Chiller included",
+      "Heating + cooling"
+    ],
+    "attributes": {
+      "Capacity": "Manufacturer fit limit: up to 6 ft 5 in and 300 lb. Water volume not confirmed.",
+      "Temperature range": "37\u2013104\u00b0F manufacturer setpoints.",
+      "Heat type": "0.8 HP electric heating/cooling unit.",
+      "Power requirements": "120V, 60Hz grounded 15A outlet; 890W. Dedicated circuit recommended.",
+      "Dimensions": "Tub footprint: 53 L \u00d7 29.5 W in; interior depth 30 in. Exterior height unconfirmed. Setup area: 89 \u00d7 41.5 in.",
+      "Warranty": "1 year on tub, chiller and electronics against manufacturing defects.",
+      "Placement": "Indoor or outdoor in non-freezing conditions; chiller is IPX4 splash resistant.",
+      "Setup type": "Inflate tub, connect hoses, fill and power.",
+      "Included": "Tub, chiller, locking lid, hoses, 2 filters, hand pump and backpack.",
+      "Price basis": "USD; current live Elite system price. Optional warranty extensions excluded.",
+      "Source: Official product and selected configuration": "https://inergizehealth.com/products/inergize-cold-plunge-tub?variant=47852806111465"
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "inflatable"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "ht-renu-cold-stoic-2-0",
+    "slug": "ht-renu-cold-stoic-2-0",
+    "name": "Cold Stoic 2.0",
+    "brand": "Renu Therapy",
+    "brandId": "renu-therapy",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A rigid cold plunge with an integrated quarter-horsepower chiller. This configuration combines a black cabinet with a redwood deck and excludes the optional interior light.",
+    "image": "/products/ht-renu-cold-stoic-2-0.jpg",
+    "price": 9499.0,
+    "qty": "Integrated cold plunge",
+    "variant": "Meterous Black / California Redwood / Without Light",
+    "source": "https://www.renutherapy.com/products/cold-stoic-2-0",
+    "url": "https://www.renutherapy.com/products/cold-stoic-2-0?variant=39974599786542",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Integrated chiller",
+      "39\u00b0F minimum"
+    ],
+    "attributes": {
+      "Capacity": "95-gallon normal fill; 134-gallon maximum volume.",
+      "Temperature range": "39\u00b0F minimum; cooling only.",
+      "Heat type": "0.25 HP integrated chiller; no heating mode.",
+      "Power requirements": "Standard 120V, 15A outlet; 450W.",
+      "Dimensions": "70 L \u00d7 33 W \u00d7 35 H in; interior 40 \u00d7 25 \u00d7 31 in. Empty weight: 365 lb.",
+      "Warranty": "5 years components, except chiller limited to 1 year; customer pays warranty shipping. Freezing damage excluded.",
+      "Placement": "Indoor or outdoor; prevent freezing.",
+      "Setup type": "Integrated chiller; place on suitable base, fill and connect power.",
+      "Included": "Cold Stoic 2.0 with integrated chiller and selected redwood deck; light excluded.",
+      "Price basis": "USD; exact selected color/deck/no-light configuration. Tax and delivery extra.",
+      "Delivery": "Manufacturer estimates 3\u20135 weeks; selected variant is orderable.",
+      "Source: Official product and selected configuration": "https://www.renutherapy.com/products/cold-stoic-2-0?variant=39974599786542",
+      "Source: Residential limited warranty": "https://www.renutherapy.com/pages/renu-therapy-cold-plunge-tank-limited-warranty-home-use-only",
+      "Source: Model specification sheet": "https://cdn.shopify.com/s/files/1/0250/3183/5694/files/the_cold_stoic_2_cut_sheet.pdf?v=1781801811",
+      "Footprint basis": "Calculated from listed outside dimensions: 70 \u00d7 33 in \u2248 16.0 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "integrated"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-dynamic-dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge",
+    "slug": "ht-dynamic-dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge",
+    "name": "304 Stainless Steel Barrel + 0.8 HP Chiller",
+    "brand": "Dynamic Cold Therapy",
+    "brandId": "dynamic-cold-therapy",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A seated stainless-steel barrel with a cedar exterior and an external heating and cooling unit. The selected configuration includes the 0.8 HP chiller.",
+    "image": "/products/ht-dynamic-dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge.png",
+    "price": 7599.0,
+    "qty": "Barrel + 0.8 HP chiller",
+    "variant": "Barrel 304 / 0.8 HP chiller",
+    "source": "https://dynamiccoldtherapy.com/products/dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge",
+    "url": "https://dynamiccoldtherapy.com/products/dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge?variant=46639140569237",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Chiller included",
+      "Stainless-steel tub"
+    ],
+    "attributes": {
+      "Capacity": "Occupancy and tub volume not confirmed. Chiller\u2019s 135-gallon compatibility rating is not tub capacity.",
+      "Temperature range": "37\u201385\u00b0F settings for the selected 0.8 HP unit.",
+      "Heat type": "0.8 HP heating/cooling unit, model DCT-SY-08-PRO.",
+      "Power requirements": "Standard 120V outlet with GFCI protection. Required circuit amperage not confirmed for 0.8 HP.",
+      "Dimensions": "Barrel: 42 in wide \u00d7 39.5 in high. Chiller: 14 L \u00d7 19 W \u00d7 22 H in.",
+      "Warranty": "1-year limited warranty on parts for manufacturing defects.",
+      "Placement": "Indoor or covered outdoor; chiller is not waterproof.",
+      "Setup type": "Rigid barrel plus external chiller; connect hoses, fill and power.",
+      "Included": "304 stainless barrel, cedar step, cover and 0.8 HP chiller.",
+      "Price basis": "USD; complete selected 0.8 HP system, not the lower-priced tub-only option. Tax/delivery may be extra.",
+      "Source: Official product and selected configuration": "https://dynamiccoldtherapy.com/products/dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge?variant=46639140569237",
+      "Source: Selected 0.8 HP chiller specifications": "https://dynamiccoldtherapy.com/products/cold-plunge-chiller"
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "placement": [
+        "indoor",
+        "outdoor"
+      ],
+      "setup": [
+        "portable-rigid"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "ht-almostheaven-salem-2-person-barrel-sauna",
+    "slug": "ht-almostheaven-salem-2-person-barrel-sauna",
+    "name": "Salem 2-Person Barrel Sauna",
+    "brand": "Almost Heaven Saunas",
+    "brandId": "almost-heaven-saunas",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A compact outdoor cedar barrel sauna with a glass door and a 6 kW Harvia KIP heater. This configuration has manual heater dials and no rear window.",
+    "image": "/products/ht-almostheaven-salem-2-person-barrel-sauna.jpg",
+    "price": 4485.0,
+    "qty": "2-person sauna + 6 kW heater",
+    "variant": "Rustic Red Cedar / Glass Door, No Window / 6 kW KIP Dials",
+    "source": "https://almostheaven.com/products/salem-2-person-barrel-sauna",
+    "url": "https://almostheaven.com/products/salem-2-person-barrel-sauna?variant=46268207300826",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "2-person",
+      "Heater included"
+    ],
+    "attributes": {
+      "Capacity": "2 people.",
+      "Temperature range": "Model-specific maximum not confirmed; selected heater is traditional electric.",
+      "Heat type": "6 kW Harvia KIP electric heater with manual dials.",
+      "Power requirements": "Heater: hardwired 240V, 30A. Lighting: 110V, 15A plug-in service.",
+      "Dimensions": "78 W \u00d7 47 D \u00d7 75\u215c H in assembled.",
+      "Warranty": "Sauna room: limited lifetime manufacturing-defect coverage. Harvia heating elements: 1 year; other heater parts: 5 years. Installation labor excluded.",
+      "Placement": "Outdoor; follow foundation and weather-care instructions.",
+      "Setup type": "Barrel assembly and licensed electrical installation required.",
+      "Included": "Cedar sauna kit, glass door and selected 6 kW heater.",
+      "Price basis": "USD; complete selected cedar/no-window/6 kW package. Shipping, tax and electrical work extra.",
+      "Source: Official product and selected configuration": "https://almostheaven.com/products/salem-2-person-barrel-sauna?variant=46268207300826",
+      "Source: Warranty coverage": "https://almostheaven.com/pages/warranty",
+      "Source: Barrel assembly manual": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Barrel_Instruction_Manual_2024.pdf?v=1724266120",
+      "Footprint basis": "Calculated from listed outside dimensions: 78 \u00d7 47 in \u2248 25.5 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "2-person"
+      ],
+      "heatType": [
+        "traditional-electric"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "outdoor"
+      ],
+      "setup": [
+        "assembly-required",
+        "professional-install"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "over-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-almostheaven-grayson-4-person-indoor-sauna",
+    "slug": "ht-almostheaven-grayson-4-person-indoor-sauna",
+    "name": "Grayson 4-Person Indoor Sauna",
+    "brand": "Almost Heaven Saunas",
+    "brandId": "almost-heaven-saunas",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A four-person indoor cedar sauna with an 8 kW Harvia KIP heater. The assembled room uses the existing floor and needs professional electrical preparation.",
+    "image": "/products/ht-almostheaven-grayson-4-person-indoor-sauna.jpg",
+    "price": 7255.0,
+    "qty": "4-person sauna + 8 kW heater",
+    "variant": "Traditional / Rustic Red Cedar / Glass Door / 8 kW KIP Dials",
+    "source": "https://almostheaven.com/products/grayson-4-person-indoor-sauna",
+    "url": "https://almostheaven.com/products/grayson-4-person-indoor-sauna?variant=46268217458906",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4-person",
+      "Heater included"
+    ],
+    "attributes": {
+      "Capacity": "4 people.",
+      "Temperature range": "Manufacturer describes approximately 180\u00b0F at the upper bench.",
+      "Heat type": "8 kW Harvia KIP electric heater with manual dials.",
+      "Power requirements": "Heater: hardwired 240V, 40A. Lighting: 110V, 15A plug-in service.",
+      "Dimensions": "71\u00bd W \u00d7 71\u00bd D \u00d7 77\u215d H in assembled.",
+      "Warranty": "Sauna room: limited lifetime manufacturing-defect coverage. Harvia heating elements: 1 year; other heater parts: 5 years. Installation labor excluded.",
+      "Placement": "Indoor only; suitable existing floor required.",
+      "Setup type": "Room assembly and professional electrical installation.",
+      "Included": "Cedar sauna room, glass door and 8 kW heater; flooring is not supplied.",
+      "Price basis": "USD; selected traditional cedar sauna with 8 kW heater. Delivery, tax and site preparation extra.",
+      "Source: Official product and selected configuration": "https://almostheaven.com/products/grayson-4-person-indoor-sauna?variant=46268217458906",
+      "Source: Warranty coverage": "https://almostheaven.com/pages/warranty",
+      "Source: Grayson assembly manual": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Rainelle_Grayson_Manual.pdf?v=1724343737",
+      "Footprint basis": "Calculated from listed outside dimensions: 71.5 \u00d7 71.5 in \u2248 35.5 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "4-person"
+      ],
+      "heatType": [
+        "traditional-electric"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "panel-assembly",
+        "professional-install"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "over-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-redwood-cabin-outdoor-sauna-4-person",
+    "slug": "ht-redwood-cabin-outdoor-sauna-4-person",
+    "name": "4-Person Cabin Sauna + 6 kW KIP Heater",
+    "brand": "Redwood Outdoors",
+    "brandId": "redwood-outdoors",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "An outdoor cabin sauna with two-level benches and heat-treated hemlock construction. The base configuration includes a 6 kW Harvia KIP heater.",
+    "image": "/products/ht-redwood-cabin-outdoor-sauna-4-person.png",
+    "price": 6549.0,
+    "qty": "4-person sauna + 6 kW heater",
+    "variant": "Cabin 4 / default Harvia KIP 6 kW",
+    "source": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person",
+    "url": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person?variant=53184721944890",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4-person",
+      "Heater included"
+    ],
+    "attributes": {
+      "Capacity": "4 people.",
+      "Temperature range": "Maximum temperature not confirmed for selected package.",
+      "Heat type": "Traditional electric; included 6 kW Harvia KIP heater.",
+      "Power requirements": "Heater: 240V, 30A circuit. Separate 120V supply for lighting; professional wiring required.",
+      "Dimensions": "78 L \u00d7 67 W \u00d7 92\u00bd H in.",
+      "Warranty": "Wooden room: 1 year. Included Harvia heater: 1 year elements, 5 years other non-consumable parts. Residential use; installation/labor excluded.",
+      "Placement": "Outdoor on an appropriately prepared foundation.",
+      "Setup type": "Cabin assembly and electrical installation.",
+      "Included": "Cabin kit and default 6 kW Harvia KIP heater. Heater upgrades cost extra.",
+      "Price basis": "USD; base cabin kit plus default heater, shown as a $0 bundled selection. Tax, freight and site work extra.",
+      "Source: Official product and selected configuration": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person?variant=53184721944890",
+      "Source: Included default heater": "https://www.redwoodoutdoors.com/products/harvia-kip-wall-mounted-sauna-heater-bundle-6kw",
+      "Source: Wooden sauna warranty": "https://www.redwoodoutdoors.com/pages/warranty-saunas",
+      "Source: Harvia heater warranty": "https://www.redwoodoutdoors.com/pages/warranty-harvia-electric-heater",
+      "Footprint basis": "Calculated from listed outside dimensions: 78 \u00d7 67 in \u2248 36.3 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "4-person"
+      ],
+      "heatType": [
+        "traditional-electric"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "outdoor"
+      ],
+      "setup": [
+        "assembly-required",
+        "professional-install"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "over-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-redwood-6-person-barrel-sauna",
+    "slug": "ht-redwood-6-person-barrel-sauna",
+    "name": "6-Person Barrel Sauna + 6 kW KIP Heater",
+    "brand": "Redwood Outdoors",
+    "brandId": "redwood-outdoors",
+    "category": "recovery",
+    "type": "sauna",
+    "description": "A heat-treated hemlock barrel sauna for outdoor installation. The base kit includes a 6 kW Harvia KIP heater, with larger heater options priced separately.",
+    "image": "/products/ht-redwood-6-person-barrel-sauna.jpg",
+    "price": 5549.0,
+    "qty": "4\u20136-person sauna + 6 kW heater",
+    "variant": "Barrel 6 / default Harvia KIP 6 kW",
+    "source": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna",
+    "url": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna?variant=51858636996922",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Up to 6 people",
+      "Heater included"
+    ],
+    "attributes": {
+      "Capacity": "4\u20136 people, depending on seating arrangement.",
+      "Temperature range": "Maximum temperature not confirmed for selected package.",
+      "Heat type": "Traditional electric; included 6 kW Harvia KIP heater.",
+      "Power requirements": "Heater: 240V, 30A circuit. Separate 120V lighting supply; professional wiring required.",
+      "Dimensions": "71 L \u00d7 72\u00be W \u00d7 76\u00bd H in.",
+      "Warranty": "Wooden room: 1 year. Included Harvia heater: 1 year elements, 5 years other non-consumable parts. Residential use; installation/labor excluded.",
+      "Placement": "Outdoor on a level, prepared foundation.",
+      "Setup type": "Barrel assembly and electrical installation.",
+      "Included": "Barrel sauna kit and default 6 kW Harvia KIP heater.",
+      "Price basis": "USD; base kit including default heater. Optional upgrades, tax, freight and site work extra.",
+      "Source: Official product and selected configuration": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna?variant=51858636996922",
+      "Source: Included default heater": "https://www.redwoodoutdoors.com/products/harvia-kip-wall-mounted-sauna-heater-bundle-6kw",
+      "Source: Wooden sauna warranty": "https://www.redwoodoutdoors.com/pages/warranty-saunas",
+      "Source: Harvia heater warranty": "https://www.redwoodoutdoors.com/pages/warranty-harvia-electric-heater",
+      "Footprint basis": "Calculated from listed outside dimensions: 71 \u00d7 72.75 in \u2248 35.9 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "capacity": [
+        "4-person",
+        "6-person"
+      ],
+      "heatType": [
+        "traditional-electric"
+      ],
+      "power": [
+        "240v-dedicated"
+      ],
+      "placement": [
+        "outdoor"
+      ],
+      "setup": [
+        "assembly-required",
+        "professional-install"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "over-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "ht-redwood-alaskan-all-in-one-cold-plunge-kit",
+    "slug": "ht-redwood-alaskan-all-in-one-cold-plunge-kit",
+    "name": "Alaskan All-In-One Cold Plunge \u2014 Standard",
+    "brand": "Redwood Outdoors",
+    "brandId": "redwood-outdoors",
+    "category": "recovery",
+    "type": "cold-plunge",
+    "description": "A one-person acrylic-lined plunge with the heating and cooling unit concealed inside its step. The Standard controller is included; Wi-Fi is a paid upgrade.",
+    "image": "/products/ht-redwood-alaskan-all-in-one-cold-plunge-kit.jpg",
+    "price": 6999.0,
+    "qty": "Tub + integrated chiller/heater",
+    "variant": "Standard model / no Wi-Fi upgrade",
+    "source": "https://www.redwoodoutdoors.com/products/alaskan-all-in-one-cold-plunge-kit",
+    "url": "https://www.redwoodoutdoors.com/products/alaskan-all-in-one-cold-plunge-kit?variant=54040036639034",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Integrated chiller",
+      "Heating + cooling"
+    ],
+    "attributes": {
+      "Capacity": "1 person; 104 gallons.",
+      "Temperature range": "37\u2013104\u00b0F setpoints; operating ambient range 32\u2013110\u00b0F. Winterize before freezing conditions.",
+      "Heat type": "Balboa Clim8zone Deluxe integrated heating/cooling unit.",
+      "Power requirements": "120V, 60Hz; maximum 12A; GFCI-protected outlet.",
+      "Dimensions": "57 L \u00d7 37 W \u00d7 44 H in; empty weight 360 lb.",
+      "Warranty": "1 year on tub and chiller for manufacturing defects. Labor excluded; improper chemistry and freezing damage excluded.",
+      "Placement": "Outdoor; do not operate or leave filled at or below 32\u00b0F without required winterization.",
+      "Setup type": "Integrated unit; prepare base, fill and connect power.",
+      "Included": "Acrylic-lined Thermowood tub, integrated chiller, steps, lid and UV sanitation.",
+      "Price basis": "USD; Standard controller configuration. Optional Wi-Fi upgrade costs extra; tax/freight extra.",
+      "Source: Official product and selected configuration": "https://www.redwoodoutdoors.com/products/alaskan-all-in-one-cold-plunge-kit?variant=54040036639034",
+      "Source: Tub warranty and freeze restrictions": "https://www.redwoodoutdoors.com/pages/warranty-cold-plunge-tubs",
+      "Source: Chiller warranty": "https://www.redwoodoutdoors.com/pages/warranty-chiller-systems",
+      "Footprint basis": "Calculated from listed outside dimensions: 57 \u00d7 37 in \u2248 14.6 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 equipment. See manufacturer specifications.",
+    "filters": {},
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "temperature": [
+        "below-40f"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "placement": [
+        "outdoor"
+      ],
+      "setup": [
+        "integrated"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "concept2-rowerg-standard",
+    "slug": "concept2-rowerg-standard",
+    "name": "RowErg \u2014 Standard Legs",
+    "brand": "Concept2",
+    "brandId": "concept2",
+    "category": "recovery",
+    "type": "rowing-machine",
+    "description": "Air-resistance rower with a PM5 monitor and a frame that separates into two pieces for storage. The standard-leg configuration has a 14-inch seat.",
+    "image": "/products/ht-concept2-rowerg.png",
+    "price": 990,
+    "qty": "1 unit",
+    "variant": "Standard legs / 14-inch seat / PM5",
+    "source": "https://www.concept2.com/ergs/rowerg",
+    "url": "https://www.concept2.com/ergs/rowerg",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Air resistance",
+      "PM5 included"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "500 lb manufacturer-tested limit; 300 lb rating under EN 20957-7. These are different testing bases.",
+      "Dimensions": "96 \u00d7 24 in (L \u00d7 W); 14 in seat height. Recommended working area: 9 \u00d7 4 ft.",
+      "Storage dimensions": "Two-piece storage: 25 \u00d7 33 \u00d7 54 in.",
+      "Product weight": "57 lb.",
+      "Construction": "Aluminum frame and front legs; steel rear legs; nickel-plated steel chain.",
+      "Power requirements": "PM5 uses two D-cell batteries, assisted by the flywheel during use; no AC outlet.",
+      "Warranty": "Limited warranty: frame parts 5 years; moving parts and monitor 2 years. Defects coverage subject to manufacturer terms.",
+      "Returns": "Direct US/Canada purchases: return within 30 days of shipment; customer pays all shipping.",
+      "Setup type": "Assembly required; tools and instructions included.",
+      "Included": "RowErg, PM5, device holder and assembly materials.",
+      "Price basis": "USD $990; lower-48 shipping $55; tax extra. Tall-leg option excluded.",
+      "Source: Official product, configuration and specifications": "https://www.concept2.com/ergs/rowerg",
+      "Source: Warranty and returns": "https://www.concept2.com/support/indoor-rowers/rowerg/warranty",
+      "Footprint basis": "Calculated from listed outside dimensions: 96 \u00d7 24 in \u2248 16.0 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "rowing-machine"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "resistance": [
+        "air"
+      ],
+      "userCapacity": [
+        "500-lb-user"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "gymFeature": [
+        "space-saving"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "concept2-bikeerg-standard",
+    "slug": "concept2-bikeerg-standard",
+    "name": "BikeErg \u2014 Standard Seat",
+    "brand": "Concept2",
+    "brandId": "concept2",
+    "category": "recovery",
+    "type": "exercise-bike",
+    "description": "Air-resistance indoor bike with a belt drive and PM5 monitor. The seat and handlebars adjust independently for rider fit.",
+    "image": "/products/ht-concept2-bikeerg.png",
+    "price": 1100,
+    "qty": "1 unit",
+    "variant": "Standard seat / PM5",
+    "source": "https://www.concept2.com/ergs/bikeerg",
+    "url": "https://www.concept2.com/ergs/bikeerg",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Air resistance",
+      "PM5 included"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "350 lb maximum user weight.",
+      "Dimensions": "48 \u00d7 24 in (L \u00d7 W). Recommended working area: 60 \u00d7 48 in. Overall height not specified.",
+      "Seat adjustment": "Standard seat-to-pedal range: 30.75\u201341 in.",
+      "Product weight": "68 lb.",
+      "Construction": "Welded aluminum frame, steel feet and polygroove belt drive.",
+      "Power requirements": "PM5 uses two D-cell batteries with flywheel assistance; no AC outlet.",
+      "Warranty": "Limited warranty: frame parts 5 years; moving parts and monitor 2 years. Defects coverage subject to manufacturer terms.",
+      "Returns": "Direct US/Canada purchases: return within 30 days of shipment; customer pays all shipping.",
+      "Setup type": "Assembly required; tools and illustrated instructions included.",
+      "Included": "BikeErg with standard seat, PM5 and device holder.",
+      "Price basis": "USD $1,100; delivery and tax additional as shown at checkout. Low-seat option excluded.",
+      "Source: Official product, configuration and specifications": "https://www.concept2.com/ergs/bikeerg",
+      "Source: Warranty and returns": "https://www.concept2.com/support/bikeerg/warranty",
+      "Footprint basis": "Calculated from listed outside dimensions: 48 \u00d7 24 in \u2248 8.0 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "exercise-bike"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "resistance": [
+        "air"
+      ],
+      "userCapacity": [
+        "350-lb-user"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "footprint": [
+        "under-10-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "concept2-skierg-wall",
+    "slug": "concept2-skierg-wall",
+    "name": "SkiErg \u2014 Wall Mounted",
+    "brand": "Concept2",
+    "brandId": "concept2",
+    "category": "recovery",
+    "type": "ski-trainer",
+    "description": "Wall-mounted ski trainer using air resistance and independent handles. Includes the PM5; the optional freestanding base is a separate purchase.",
+    "image": "/products/ht-concept2-skierg.png",
+    "price": 850,
+    "qty": "1 unit",
+    "variant": "Wall-mount configuration / PM5 / no floor stand",
+    "source": "https://www.concept2.com/ergs/skierg",
+    "url": "https://www.concept2.com/ergs/skierg",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Air resistance",
+      "Wall mount"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Dimensions": "85 H \u00d7 16 D in; width 19 in at bottom and 20.5 in at top. Exercise clearance is additional.",
+      "User capacity": "No user-weight limit published on the reviewed product page.",
+      "Product weight": "41 lb without optional floor stand.",
+      "Construction": "Aluminum frame and synthetic drive cords.",
+      "Power requirements": "Two D-cell batteries; flywheel assists PM5 power during use. No AC outlet.",
+      "Warranty": "Limited warranty: frame parts 5 years; moving parts and monitor 2 years. Defects coverage subject to manufacturer terms.",
+      "Returns": "Direct US/Canada purchases: return within 30 days of shipment; customer pays all shipping.",
+      "Setup type": "Assembly and secure wall mounting required; confirm wall suitability and mounting instructions before purchase.",
+      "Included": "SkiErg, PM5, phone cradle, handle hooks, tools and instructions.",
+      "Price basis": "USD $850; lower-48 shipping $55; tax and installation extra. Floor stand excluded.",
+      "Source: Official product, configuration and specifications": "https://www.concept2.com/ergs/skierg",
+      "Source: Warranty and returns": "https://www.concept2.com/support/skierg/skierg2/warranty"
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "ski-trainer"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "wall-mounted"
+      ],
+      "resistance": [
+        "air"
+      ],
+      "warranty": [
+        "2-year"
+      ]
+    }
+  },
+  {
+    "id": "concept2-strengtherg-pm5",
+    "slug": "concept2-strengtherg-pm5",
+    "name": "StrengthErg \u2014 With PM5",
+    "brand": "Concept2",
+    "brandId": "concept2",
+    "category": "recovery",
+    "type": "strength-machine",
+    "description": "Air-resistance strength machine with leg-press, chest-press and seated-row positions. Resistance changes with effort; it does not use a weight stack.",
+    "image": "/products/ht-concept2-strengtherg.png",
+    "price": 1500,
+    "qty": "1 unit",
+    "variant": "With Performance Monitor / device holder",
+    "source": "https://www.concept2.com/ergs/strengtherg",
+    "url": "https://www.concept2.com/ergs/strengtherg",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Air resistance",
+      "PM5 included"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "350 lb maximum user weight; this is not a resistance rating.",
+      "Resistance": "User-driven air resistance; force readings are not interchangeable with free-weight loading.",
+      "Dimensions": "61 \u00d7 26 \u00d7 48 in assembled; working clearance 80 \u00d7 38 \u00d7 48 in.",
+      "Storage": "Store fully assembled; manufacturer says not to store on end.",
+      "Product weight": "90 lb.",
+      "Construction": "Aluminum construction.",
+      "Power requirements": "D-cell batteries; no AC connection specified.",
+      "Warranty": "Limited warranty: frame parts 5 years; moving parts and monitor 2 years. Defects coverage subject to manufacturer terms.",
+      "Returns": "Direct US/Canada purchases: return within 30 days of shipment; customer pays all shipping.",
+      "Setup type": "Assembly required; ships in two boxes.",
+      "Included": "StrengthErg, PM5 and device holder.",
+      "Price basis": "USD $1,500 with PM5. Shipping and tax extra; lower-priced monitor-free configuration excluded.",
+      "Source: Official product, configuration and specifications": "https://www.concept2.com/ergs/strengtherg",
+      "Source: Warranty and returns": "https://www.concept2.com/support/strengtherg/warranty",
+      "Footprint basis": "Calculated from listed outside dimensions: 61 \u00d7 26 in \u2248 11.0 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "strength-machine"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "resistance": [
+        "air"
+      ],
+      "userCapacity": [
+        "350-lb-user"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "rogue-echo-bike-v3",
+    "slug": "rogue-echo-bike-v3",
+    "name": "Echo Bike V3.0",
+    "brand": "Rogue Fitness",
+    "brandId": "rogue-fitness",
+    "category": "recovery",
+    "type": "exercise-bike",
+    "description": "Belt-driven fan bike with moving handles and an adjustable seat. The standard V3 console supports Bluetooth and ANT+; the M2 monitor is an extra-cost upgrade.",
+    "image": "/products/ht-rogue-echo-bike.jpg",
+    "price": 945,
+    "qty": "1 unit",
+    "variant": "V3.0 / standard connected LCD console",
+    "source": "https://www.roguefitness.com/rogue-echo-bike",
+    "url": "https://www.roguefitness.com/rogue-echo-bike",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Air resistance",
+      "330 lb user limit"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "330 lb maximum user weight.",
+      "Dimensions": "55 L \u00d7 29.5 W \u00d7 52.25 H in overall; base footprint 44.5 \u00d7 23.75 in.",
+      "Product weight": "123 lb.",
+      "Construction": "Powder-coated steel frame and belt-driven steel fan.",
+      "Power requirements": "Battery-powered standard LCD; batteries included. No AC outlet required.",
+      "Warranty": "2 years for defects under normal use, subject to the Echo Bike warranty.",
+      "Setup type": "Assembly required; hardware and assembly tools included.",
+      "Included": "V3.0 bike with standard connected console.",
+      "Not included": "M2 monitor upgrade, wind guard, phone holder, bottle cage and tire/handle kit.",
+      "Price basis": "USD $945; free shipping advertised; tax extra.",
+      "Source: Official product, configuration and specifications": "https://www.roguefitness.com/rogue-echo-bike",
+      "Source: Warranty": "https://www.roguefitness.com/warranty",
+      "Footprint basis": "Calculated from listed outside dimensions: 55 \u00d7 29.5 in \u2248 11.3 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "exercise-bike"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "resistance": [
+        "air"
+      ],
+      "userCapacity": [
+        "330-lb-user"
+      ],
+      "construction": [
+        "steel-frame"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "rogue-echo-rower",
+    "slug": "rogue-echo-rower",
+    "name": "Echo Rower",
+    "brand": "Rogue Fitness",
+    "brandId": "rogue-fitness",
+    "category": "recovery",
+    "type": "rowing-machine",
+    "description": "Air-resistance rower with a folding frame, transport wheels and a self-powered console. Its display supports Bluetooth and ANT+ connections.",
+    "image": "/products/ht-rogue-echo-rower.jpg",
+    "price": 925,
+    "qty": "1 unit",
+    "variant": "Standard Echo Rower / LCD console",
+    "source": "https://www.roguefitness.com/rogue-echo-rower",
+    "url": "https://www.roguefitness.com/rogue-echo-rower",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Air resistance",
+      "Folding frame"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "500 lb maximum user weight; maximum inseam 38 in.",
+      "Dimensions": "99 \u00d7 26 in floor footprint; 16 in seat height. Folded footprint: 38 \u00d7 26 in.",
+      "Product weight": "72.6 lb.",
+      "Construction": "Aluminum frame and slide rail; nickel-plated chain.",
+      "Power requirements": "Self-generating console with two D-cell backup batteries included; no AC outlet.",
+      "Warranty": "Frame 5 years; moving parts and monitor 2 years, subject to normal-use conditions.",
+      "Setup type": "Assembly required; folds for storage without disassembly.",
+      "Included": "Rower, LCD console, device holder and transport wheels.",
+      "Price basis": "USD $925; free lower-48 shipping. Tax extra; optional apps/programming may cost more.",
+      "Source: Official product, configuration and specifications": "https://www.roguefitness.com/rogue-echo-rower",
+      "Footprint basis": "Calculated from listed outside dimensions: 99 \u00d7 26 in \u2248 17.9 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "rowing-machine"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "resistance": [
+        "air"
+      ],
+      "userCapacity": [
+        "500-lb-user"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "gymFeature": [
+        "folding"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "rogue-rml390f-rack",
+    "slug": "rogue-rml390f-rack",
+    "name": "RML-390F Flat Foot Rack",
+    "brand": "Rogue Fitness",
+    "brandId": "rogue-fitness",
+    "category": "recovery",
+    "type": "power-rack",
+    "description": "Freestanding four-post rack with J-cups and pin-and-pipe safeties. The flat-foot base avoids floor bolting for the manufacturer\u2019s intended configuration.",
+    "image": "/products/ht-rogue-rml390f.jpg",
+    "price": 935,
+    "qty": "1 unit",
+    "variant": "Complete rack / Single Skinny pull-up bar / no barbell, bench or plates",
+    "source": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+    "url": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Freestanding rack",
+      "Safeties included"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Weight capacity": "No numerical rackable-load rating confirmed on the reviewed official product page.",
+      "Dimensions": "48 L \u00d7 49 W \u00d7 92.25 H in; interior depth 30 in.",
+      "Product weight": "295 lb.",
+      "Construction": "3 \u00d7 3 in 11-gauge uprights; 2 \u00d7 3 in 11-gauge bases; 5/8 in hardware.",
+      "Power requirements": "None.",
+      "Warranty": "Frame and structural welds: limited lifetime. Accessory/component coverage varies; wear and misuse excluded.",
+      "Setup type": "Assembly required; flat-foot rack does not need floor bolts. Manufacturer prohibits band pegs and external safety spotter arms on this rack.",
+      "Included": "Rack, selected Single Skinny pull-up bar, J-cups and pin/pipe safeties.",
+      "Price basis": "USD $935; free shipping advertised; tax extra. Barbell, plates and bench excluded.",
+      "Image shows": "Barbell and plates are demonstration accessories, excluded from this price.",
+      "Source: Official product, configuration and specifications": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+      "Source: Warranty": "https://www.roguefitness.com/warranty",
+      "Source: Assembly instructions": "https://assets.roguefitness.com/instructions/IS0097/IS0097_CUST_INSTR_V1",
+      "Footprint basis": "Calculated from listed outside dimensions: 48 \u00d7 49 in \u2248 16.3 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "power-rack"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "construction": [
+        "11-gauge-steel"
+      ],
+      "gymFeature": [
+        "pull-up-bar",
+        "j-cups-included"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "titan-x3-flatfoot-82",
+    "slug": "titan-x3-flatfoot-82",
+    "name": "X-3 Flat Foot Rack \u2014 82-inch",
+    "brand": "Titan Fitness",
+    "brandId": "titan-fitness",
+    "category": "recovery",
+    "type": "power-rack",
+    "description": "Four-post steel rack with a freestanding base and two pull-up bars. This configuration includes J-hooks; safeties are a separate purchase.",
+    "image": "/products/ht-titan-x3.jpg",
+    "price": 759.97,
+    "qty": "1 unit",
+    "variant": "82-inch height / no weight plate holders / SKU 401391",
+    "source": "https://titan.fitness/products/x3-series-flat-foot-power-rack",
+    "url": "https://titan.fitness/products/x3-series-flat-foot-power-rack?variant=47796663615765",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Freestanding rack",
+      "11-gauge steel"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Weight capacity": "1,650 lb rackable capacity; 6,170 lb whole-rack capacity. These are different manufacturer ratings.",
+      "Dimensions": "82 in overall height; 50 \u00d7 48 in footprint; interior 42 W \u00d7 30 D in.",
+      "Product weight": "280 lb.",
+      "Construction": "3 \u00d7 3 in 11-gauge steel with black powder coat and UHMW-lined J-hooks.",
+      "Power requirements": "None.",
+      "Warranty": "1-year manufacturer warranty; optional extended coverage excluded.",
+      "Setup type": "Assembly required; flat-foot design intended for use without floor bolts.",
+      "Included": "Rack, skinny and fat pull-up bars, two J-hooks and assembly hardware.",
+      "Not included": "Safeties, spotter arms, plate holders, barbell, plates and bench.",
+      "Price basis": "USD $759.97 current manufacturer variant price; free shipping advertised; tax extra.",
+      "Source: Official product, configuration and specifications": "https://titan.fitness/products/x3-series-flat-foot-power-rack?variant=47796663615765",
+      "Footprint basis": "Calculated from listed outside dimensions: 50 \u00d7 48 in \u2248 16.7 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "power-rack"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "construction": [
+        "11-gauge-steel"
+      ],
+      "loadCapacity": [
+        "1650-lb-rack-rating"
+      ],
+      "gymFeature": [
+        "pull-up-bar",
+        "j-cups-included"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "rep-arcadia-trainer",
+    "slug": "rep-arcadia-trainer",
+    "name": "Arcadia Functional Trainer",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "category": "recovery",
+    "type": "functional-trainer",
+    "description": "Compact dual-stack cable trainer with 32 pulley-height positions and a multi-grip pull-up bar. Standard stacks provide up to 85 lb felt resistance on each side at 2:1.",
+    "image": "/products/ht-rep-arcadia.jpg",
+    "price": 2199.99,
+    "qty": "1 unit",
+    "variant": "Standard dual 170 lb stacks / no stack upgrade",
+    "source": "https://repfitness.com/products/arcadia-functional-trainer",
+    "url": "https://repfitness.com/products/arcadia-functional-trainer?variant=42771866648734",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Dual weight stacks",
+      "32 pulley positions"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Resistance": "Two 170 lb stacks; 2:1 ratio gives 10\u201385 lb usable resistance per side. Stack mass is not handle resistance.",
+      "Dimensions": "55.3 W \u00d7 35.8 D \u00d7 80.8 H in; 78 in height with pull-up bar inverted.",
+      "Construction": "Hot-rolled steel stack plates, aluminum pulleys and galvanized steel-core cables.",
+      "Power requirements": "None.",
+      "Warranty": "Frame/structural welds: limited lifetime. Cables, pulleys, bearings and pop-pins: 1 year; normal wear excluded.",
+      "Setup type": "Assembly required. Installer must follow the linked manual; floor-anchoring requirement not confirmed.",
+      "Included": "Trainer with standard stacks, two D-handles and built-in pull-up bar.",
+      "Not included": "220 lb stack upgrades, bands and additional cable attachments.",
+      "Price basis": "USD $2,199.99; advertised free shipping; tax and optional installation extra.",
+      "Source: Official product, configuration and specifications": "https://repfitness.com/products/arcadia-functional-trainer?variant=42771866648734",
+      "Source: Assembly manual": "https://repcustomerfiles.blob.core.windows.net/publicfiles/ArcadiaAssembly.pdf",
+      "Source: Warranty": "https://repfitness.com/pages/warranty-information",
+      "Footprint basis": "Calculated from listed outside dimensions: 55.3 \u00d7 35.8 in \u2248 13.7 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "functional-trainer"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "gymFeature": [
+        "weight-stack",
+        "adjustable-pulleys",
+        "pull-up-bar"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ],
+      "weightRange": [
+        "170-lb-per-stack"
+      ]
+    }
+  },
+  {
+    "id": "rep-pepin-fast-125",
+    "slug": "rep-pepin-fast-125",
+    "name": "REP \u00d7 P\u00c9PIN FAST \u2014 125 lb Pair",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "category": "recovery",
+    "type": "adjustable-dumbbells",
+    "description": "A heavy adjustable pair with sliding magnetic pop-pins and small add-on plates. The selected set reaches 125 lb per hand and includes its resting cradles.",
+    "image": "/products/ht-rep-pepin125.jpg",
+    "price": 1499.99,
+    "qty": "Pair \u2014 2 dumbbells",
+    "variant": "125 lb pair / LB version",
+    "source": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell",
+    "url": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell?variant=43428954964126",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "125 lb per hand",
+      "Magnetic pop-pins"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Weight range": "10\u2013125 lb per dumbbell; 10 lb selector steps plus 2.5 lb micro plates for finer adjustments.",
+      "Dimensions": "18.3 in maximum dumbbell length. Width, height and cradle footprint not reliably confirmed.",
+      "Construction": "Steel plates, metal cradle, aluminum headplates, nickel-plated 34 mm handles and UHMW contact liners.",
+      "Power requirements": "None.",
+      "Warranty": "Limited lifetime for defects to original purchaser; normal wear, accidents, repeated drops and abuse excluded.",
+      "Setup type": "Unpack, arrange cradles and follow the weight-selection instructions before lifting.",
+      "Included": "Two dumbbells, cradles and selected weight plates/micro plates.",
+      "Price basis": "USD $1,499.99 for the 125 lb pair; shipping advertised free; tax extra. Storage stand excluded.",
+      "Source: Official product, configuration and specifications": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell?variant=43428954964126",
+      "Source: Warranty": "https://repfitness.com/pages/warranty-information"
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "adjustable-dumbbells"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "weightRange": [
+        "125-lb-per-hand"
+      ],
+      "adjustment": [
+        "magnetic-pin"
+      ],
+      "construction": [
+        "steel-plates"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ],
+      "gymFeature": [
+        "quick-adjust",
+        "space-saving"
+      ]
+    }
+  },
+  {
+    "id": "powerblock-pro100-exp",
+    "slug": "powerblock-pro100-exp",
+    "name": "Pro 100 EXP \u2014 100 lb Pair",
+    "brand": "PowerBlock",
+    "brandId": "powerblock",
+    "category": "recovery",
+    "type": "adjustable-dumbbells",
+    "description": "Expandable adjustable dumbbells with urethane-coated plates and knurled grips. This exact pair includes every expansion needed to reach 100 lb per hand.",
+    "image": "/products/ht-powerblock-pro100.jpg",
+    "price": 1196,
+    "qty": "Pair \u2014 2 dumbbells",
+    "variant": "Knurled / 100 LBS / expansion stages 2\u20134 included",
+    "source": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells",
+    "url": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells?variant=43064448286911",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "100 lb per hand",
+      "Urethane-coated plates"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Weight range": "5\u2013100 lb per dumbbell; 2.5 or 5 lb increments using removable micro weights.",
+      "Dimensions": "Each dumbbell at full size: 19.21 L \u00d7 7.63 W \u00d7 7.72 H in.",
+      "Construction": "Urethane-coated steel plates; knurled stainless-steel 38 mm handles; magnetic selector pins.",
+      "Power requirements": "None.",
+      "Warranty": "Residential only: handles and plates 5 years; selector pins and micro weights 1 year. Commercial use excluded.",
+      "Setup type": "Unpack and fit the included expansion stages; follow selector-pin instructions.",
+      "Included": "Pair, expansion stages 2\u20134, two selector pins and four 2.5 lb micro weights.",
+      "Price basis": "USD $1,196 pair, knurled grips; free shipping advertised. Stand and attachments excluded; tax extra.",
+      "Source: Official product, configuration and specifications": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells?variant=43064448286911",
+      "Source: Component warranty": "https://powerblock.com/pages/warranty"
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "adjustable-dumbbells"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "weightRange": [
+        "100-lb-per-hand"
+      ],
+      "adjustment": [
+        "magnetic-pin"
+      ],
+      "construction": [
+        "urethane-coated"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "gymFeature": [
+        "quick-adjust",
+        "space-saving"
+      ]
+    }
+  },
+  {
+    "id": "ironmaster-superbench-pro-v2",
+    "slug": "ironmaster-superbench-pro-v2",
+    "name": "Super Bench PRO V2",
+    "brand": "Ironmaster",
+    "brandId": "ironmaster",
+    "category": "recovery",
+    "type": "bench",
+    "description": "Adjustable bench with a removable incline seat and 11 backrest angles. Transport wheels and a handle help move it between exercises.",
+    "image": "/products/ht-ironmaster-bench.jpg",
+    "price": 449,
+    "qty": "1 unit",
+    "variant": "PRO V2 bench / standard pad and incline seat",
+    "source": "https://ironmaster.com/products/super-bench-pro-v2",
+    "url": "https://ironmaster.com/products/super-bench-pro-v2?variant=42986283040845",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "11 backrest angles",
+      "Incline seat included"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Weight capacity": "1,000 lb in flat position; 600 lb in incline/upright positions. Position-specific manufacturer ratings.",
+      "Dimensions": "47 in total length; widest foot 21 in; flat pad height 17.2 in. Pad: 44 in long, 10.25/12.25 in wide.",
+      "Product weight": "65 lb without incline seat; 69 lb with seat.",
+      "Construction": "11/12-gauge steel frame and vinyl upholstery.",
+      "Adjustment": "11 angles from 0\u00b0 to 85\u00b0; decline use needs separate Crunch Situp attachment for recommended support.",
+      "Power requirements": "None.",
+      "Warranty": "Home use: structural/functional parts 10 years; wear items and upholstery 1 year. Shipping/labor excluded.",
+      "Setup type": "Foot assembly required.",
+      "Included": "Bench, incline seat, wheels and transport handle.",
+      "Price basis": "USD $449; continental-US shipping advertised free. Attachments and weights excluded; checkout determines taxes.",
+      "Source: Official product, configuration and specifications": "https://ironmaster.com/products/super-bench-pro-v2?variant=42986283040845",
+      "Source: Warranty": "https://ironmaster.com/pages/warranty",
+      "Footprint basis": "Calculated from listed outside dimensions: 47 \u00d7 21 in \u2248 6.9 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "bench"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "benchPosition": [
+        "flat",
+        "incline",
+        "flat-incline"
+      ],
+      "construction": [
+        "steel-frame"
+      ],
+      "warranty": [
+        "1-year"
+      ],
+      "gymFeature": [
+        "vertical-storage"
+      ],
+      "footprint": [
+        "under-10-sq-ft"
+      ],
+      "loadCapacity": [
+        "1000-lb-flat-rating",
+        "600-lb-incline-rating"
+      ]
+    }
+  },
+  {
+    "id": "bells-cable-tower-210",
+    "slug": "bells-cable-tower-210",
+    "name": "Cable Tower \u2014 210 lb Stack",
+    "brand": "Bells of Steel",
+    "brandId": "bells-of-steel",
+    "category": "recovery",
+    "type": "functional-trainer",
+    "description": "Single cable tower with two adjustable handles and a 210 lb stack. Intended mounting and room clearance matter as much as its compact footprint.",
+    "image": "/products/ht-bos-tower210.jpg",
+    "price": 1299.99,
+    "qty": "1 unit",
+    "variant": "210 lb weight stack / without back upright / 80.75-inch",
+    "source": "https://bellsofsteel.us/products/cable-tower",
+    "url": "https://bellsofsteel.us/products/cable-tower?variant=45552311926981",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "210 lb stack",
+      "Aluminum pulleys"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "Resistance": "210 lb stack; default 2:1 pulley ratio, or 1:1 with included adapter. Maximum cable capacity 250 lb.",
+      "Dimensions": "31 L \u00d7 28.5 W \u00d7 80.75 H in, including base, pulleys and mounting brackets.",
+      "Construction": "2.3 \u00d7 2.3 in 14-gauge powder-coated steel; aluminum pulleys on the stack version.",
+      "Power requirements": "None.",
+      "Warranty": "Limited lifetime frame; cables and pulleys 90 days. Wear and cosmetic damage excluded.",
+      "Setup type": "Assembly required; manufacturer recommends securing to wall, floor or rack. This no-back-upright configuration suits wall mounting; verify appropriate anchors.",
+      "Included": "210 lb tower, two handles, carabiners, ratio adapter, labels and wall brackets.",
+      "Not included": "Back upright, installation, surface-specific anchors and optional attachments.",
+      "Price basis": "USD $1,299.99 for selected variant; free shipping advertised; tax extra.",
+      "Source: Official product, configuration and specifications": "https://bellsofsteel.us/products/cable-tower?variant=45552311926981",
+      "Footprint basis": "Calculated from listed outside dimensions: 31 \u00d7 28.5 in \u2248 6.1 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "functional-trainer"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "no-power"
+      ],
+      "setup": [
+        "wall-mounted"
+      ],
+      "gymFeature": [
+        "weight-stack",
+        "adjustable-pulleys"
+      ],
+      "construction": [
+        "steel-frame"
+      ],
+      "footprint": [
+        "under-10-sq-ft"
+      ],
+      "weightRange": [
+        "210-lb-stack"
+      ],
+      "warranty": [
+        "90-day"
+      ]
+    }
+  },
+  {
+    "id": "sole-f80-2026",
+    "slug": "sole-f80-2026",
+    "name": "F80 Treadmill \u2014 2026",
+    "brand": "SOLE Fitness",
+    "brandId": "sole-fitness",
+    "category": "recovery",
+    "type": "treadmill",
+    "description": "Folding treadmill with a 20 \u00d7 60-inch deck, 10.1-inch touchscreen and speed range up to 12 mph. The current 2026 model differs from earlier F80 generations.",
+    "image": "/products/ht-sole-f80.png",
+    "price": 1499.99,
+    "qty": "1 unit",
+    "variant": "2026 model / standard equipment / curbside delivery extra",
+    "source": "https://www.soletreadmills.com/products/sole-f80-treadmill",
+    "url": "https://www.soletreadmills.com/products/sole-f80-treadmill?variant=58071036363055",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Folding deck",
+      "No required subscription"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "350 lb maximum user weight.",
+      "Dimensions": "75 L \u00d7 34 W \u00d7 52 H in; folded 48 \u00d7 36 \u00d7 66 in. Exercise clearance additional.",
+      "Product weight": "218 lb.",
+      "Construction": "Cushioned deck and folding frame; frame alloy/gauge not confirmed on current product page.",
+      "Performance": "3.25 HP brushless motor; 0.5\u201312 mph; 15 incline levels; 20 \u00d7 60 in running surface.",
+      "Power requirements": "AC connection required; exact circuit specification for 2026 model not confirmed. Follow current model manual.",
+      "Warranty": "Lifetime frame/motor; deck, electronics and parts 3 years; labor 1 year; cosmetic coverage 90 days.",
+      "Setup type": "Assembly required; optional paid room delivery and assembly.",
+      "Subscription": "No monthly SOLE subscription required; third-party streaming services may charge separately.",
+      "Price basis": "USD $1,499.99 sale; curbside $49.99, tax extra. Room delivery/assembly upgrades cost more.",
+      "Source: Official product, configuration and specifications": "https://www.soletreadmills.com/products/sole-f80-treadmill?variant=58071036363055",
+      "Source: Current-generation manual": "https://www.soletreadmills.com/cdn/shop/files/2026_F80_OM.pdf?v=5775505894866997471",
+      "Footprint basis": "Calculated from listed outside dimensions: 75 \u00d7 34 in \u2248 17.7 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "treadmill"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "userCapacity": [
+        "350-lb-user"
+      ],
+      "resistance": [
+        "motorized"
+      ],
+      "subscription": [
+        "no-subscription"
+      ],
+      "gymFeature": [
+        "folding"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "sole-e95-2026",
+    "slug": "sole-e95-2026",
+    "name": "E95 Elliptical \u2014 2026",
+    "brand": "SOLE Fitness",
+    "brandId": "sole-fitness",
+    "category": "recovery",
+    "type": "elliptical",
+    "description": "Front-drive elliptical with a 20-inch stride, adjustable pedals and a 13.3-inch touchscreen. Offers 20 resistance settings and 20 power-incline levels.",
+    "image": "/products/ht-sole-e95.png",
+    "price": 2199.99,
+    "qty": "1 unit",
+    "variant": "2026 E95 / standard equipment / curbside delivery extra",
+    "source": "https://www.soletreadmills.com/products/sole-e95",
+    "url": "https://www.soletreadmills.com/products/sole-e95?variant=58499635904815",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Magnetic resistance",
+      "20-inch stride"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "400 lb maximum user weight.",
+      "Dimensions": "83 L \u00d7 34 W \u00d7 70 H in. Allow additional stride, access and overhead clearance.",
+      "Product weight": "253 lb.",
+      "Construction": "Steel frame with dual short-track wheel system; 27 lb flywheel.",
+      "Resistance": "20 ECB magnetic-resistance levels; 20 power-incline levels.",
+      "Power requirements": "AC 120V / 60Hz.",
+      "Warranty": "Frame/flywheel lifetime; magnetic brake, electronics and parts 3 years; labor 1 year; cosmetics 90 days.",
+      "Setup type": "Assembly required; optional paid room delivery and assembly.",
+      "Subscription": "No monthly SOLE subscription required; third-party streaming services may charge separately.",
+      "Price basis": "USD $2,199.99 sale; curbside $99.99, tax extra. Delivery upgrades and assembly cost more.",
+      "Source: Official product, configuration and specifications": "https://www.soletreadmills.com/products/sole-e95?variant=58499635904815",
+      "Footprint basis": "Calculated from listed outside dimensions: 83 \u00d7 34 in \u2248 19.6 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "elliptical"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "userCapacity": [
+        "400-lb-user"
+      ],
+      "resistance": [
+        "magnetic"
+      ],
+      "subscription": [
+        "no-subscription"
+      ],
+      "construction": [
+        "steel-frame"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "horizon-74-at",
+    "slug": "horizon-74-at",
+    "name": "7.4 AT Treadmill",
+    "brand": "Horizon Fitness",
+    "brandId": "horizon-fitness",
+    "category": "recovery",
+    "type": "treadmill",
+    "description": "Folding treadmill with a 22 \u00d7 60-inch running deck and dial controls for changing speed and incline. Connect your own device for compatible training apps.",
+    "image": "/products/ht-horizon74.jpg",
+    "price": 1799,
+    "qty": "1 unit",
+    "variant": "7.4 AT / SKU HTM1380-01",
+    "source": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill",
+    "url": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill?variant=52456611610899",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "22 \u00d7 60-inch deck",
+      "Folding frame"
+    ],
+    "attributes": {
+      "Placement": "Indoor; allow additional space for access and exercise.",
+      "User capacity": "350 lb maximum user weight.",
+      "Dimensions": "76 L \u00d7 37 W \u00d7 63 H in; folded 42 \u00d7 37 \u00d7 71 in.",
+      "Product weight": "318 lb assembled; 386 lb shipping weight.",
+      "Construction": "Folding frame, 0.8 in deck and 1.6 mm silicone belt; frame material grade not confirmed.",
+      "Performance": "0.5\u201312 mph; 0\u201315% incline.",
+      "Power requirements": "120V / 60Hz. Manufacturer states incompatibility with GFCI outlets; confirm room circuit suitability.",
+      "Warranty": "Home-use only: frame/motor lifetime; parts 5 years; labor 2 years.",
+      "Setup type": "Assembly required unless purchased with an assembly delivery tier.",
+      "Included": "Treadmill and Bluetooth heart-rate monitor; personal tablet/phone excluded.",
+      "Price basis": "USD $1,799; tax and selected delivery/assembly charges at checkout. Promotional shipping may change.",
+      "Source: Official product, configuration and specifications": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill?variant=52456611610899",
+      "Source: Specifications, delivery and warranty": "https://help.horizonfitness.com/hc/en-us/articles/53711698018452-Horizon-Fitness-7-4-AT-Treadmill-General-Information",
+      "Footprint basis": "Calculated from listed outside dimensions: 76 \u00d7 37 in \u2248 19.5 sq ft. Does not include access, exercise or installation clearance."
+    },
+    "ingredients": "Not applicable \u2014 exercise equipment. See construction and manufacturer instructions.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "treadmill"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "userCapacity": [
+        "350-lb-user"
+      ],
+      "resistance": [
+        "motorized"
+      ],
+      "warranty": [
+        "2-year"
+      ],
+      "gymFeature": [
+        "folding"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
+      ]
+    }
+  },
+  {
+    "id": "osaki-op4d-ultima",
+    "slug": "osaki-op4d-ultima",
+    "name": "OP-4D Ultima",
+    "brand": "Osaki",
+    "brandId": "osaki",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "A 4D chair with an SL roller track, air massage and heated lumbar and calf zones.",
+    "image": "/products/ht-osaki-ultima-black.jpg",
+    "price": 4999,
+    "qty": "1 chair",
+    "variant": "Black / free curbside / 5-year coverage option",
+    "source": "https://osakimassagechair.com/products/osaki-op-4d-ultima?variant=44731729510708",
+    "url": "https://osakimassagechair.com/products/osaki-op-4d-ultima?variant=44731729510708",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4D rollers",
+      "Heated massage"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Upright: 63 L \u00d7 29.5 W \u00d7 48.5 H in. Reclined: 71 L \u00d7 29.5 W \u00d7 35 H in.",
+      "Capacity": "1 person; maximum 270 lb. Recommended height range: not confirmed.",
+      "User fit": "19 in seat; 21 in shoulder width. Minimum doorway: 29.5 in.",
+      "Heat type": "Lumbar and calf heat",
+      "Power requirements": "110\u2013120 VAC, 60 Hz, 1.6 A; grounded outlet",
+      "Warranty": "Selected 5-year option: 3 years full service, followed by 2 years parts coverage. Review exclusions.",
+      "Setup type": "Assembly required; follow manual and verify delivery path before ordering.",
+      "Included": "Chair and controls; curbside delivery. White-glove setup is an optional $275 upgrade.",
+      "Price basis": "USD; one new black chair with selected coverage and free curbside delivery; tax extra.",
+      "Returns": "30-day window; confirm start date with seller. Policy lists 20% restocking plus round-trip freight for non-Titan chairs; white-glove charges are nonrefundable.",
+      "Source: Official product and selected configuration": "https://osakimassagechair.com/products/osaki-op-4d-ultima?variant=44731729510708",
+      "Source: User manual and specifications": "https://cdn.shopify.com/s/files/1/0086/1297/0558/files/Ultima_User_Manual_warranty_h.pdf?v=1781209605",
+      "Source: Returns and fees": "https://osakimassagechair.com/pages/refund-policy"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "ogawa-masterdrive-ai2",
+    "slug": "ogawa-masterdrive-ai2",
+    "name": "Master Drive AI 2.0",
+    "brand": "Ogawa",
+    "brandId": "ogawa",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "A 4D massage chair with a touchscreen, heated zones and 23 automatic programs.",
+    "image": "/products/ht-ogawa-ai2-black.jpg",
+    "price": 6999.99,
+    "qty": "1 chair",
+    "variant": "Black / new chair",
+    "source": "https://www.ogawaworldusa.com/products/ogawa-master-drive-ai-2-0-massage-chair?variant=40431853699141",
+    "url": "https://www.ogawaworldusa.com/products/ogawa-master-drive-ai-2-0-massage-chair?variant=40431853699141",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4D rollers",
+      "3-year service"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Upright: 62.2 L \u00d7 33.1 W \u00d7 47.6 H in. Reclined: 77.2 L \u00d7 33.1 W \u00d7 41.3 H in.",
+      "Capacity": "1 person; 320 lb maximum; recommended height 5 ft 2 in\u20136 ft 1 in.",
+      "User fit": "18.3 in seat, 25 in shoulder width; allow 4 in behind chair.",
+      "Heat type": "Lumbar, seat and legs",
+      "Power requirements": "110\u2013120 VAC, 60 Hz; 150 W",
+      "Warranty": "3 years parts, labor and in-home service; structural frame coverage extends to 5 years.",
+      "Setup type": "Assembly required. Optional white-glove service is priced separately.",
+      "Included": "New chair, controller and free curbside delivery to the contiguous US.",
+      "Price basis": "USD; Black, new condition; excludes delivery upgrades and tax.",
+      "Returns": "30 days from delivery; $450 chair return fee. Assembly/delivery upgrades are nonrefundable; free promotional white-glove delivery adds a $250 deduction.",
+      "Source: Official product and selected configuration": "https://www.ogawaworldusa.com/products/ogawa-master-drive-ai-2-0-massage-chair?variant=40431853699141",
+      "Source: Warranty terms": "https://www.ogawaworldusa.com/pages/warranty-information",
+      "Source: Returns and delivery fees": "https://www.ogawaworldusa.com/policies/refund-policy",
+      "Source: User and installation manuals": "https://www.ogawaworldusa.com/pages/manuals"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "ogawa-masterdrive-duo",
+    "slug": "ogawa-masterdrive-duo",
+    "name": "Master Drive DUO",
+    "brand": "Ogawa",
+    "brandId": "ogawa",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "Independent upper and lower roller mechanisms provide adjustable massage, with heated lumbar, seat and leg zones.",
+    "image": "/products/ht-ogawa-duo-burgundy.jpg",
+    "price": 6499.99,
+    "qty": "1 chair",
+    "variant": "Black & Burgundy / new chair",
+    "source": "https://www.ogawaworldusa.com/products/ogawa-master-drive-duo-massage-chair?variant=40847157624901",
+    "url": "https://www.ogawaworldusa.com/products/ogawa-master-drive-duo-massage-chair?variant=40847157624901",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Dual rollers",
+      "Heated massage"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Upright: 63.6 L \u00d7 31.9 W \u00d7 50 H in. Reclined: 73.7 L \u00d7 31.9 W \u00d7 41.5 H in.",
+      "Capacity": "1 person; 320 lb maximum; recommended height 5 ft 2 in\u20136 ft 1 in.",
+      "User fit": "20.5 in seat, 22 in shoulder width; 1 in wall clearance; minimum unpacked doorway 32 in.",
+      "Heat type": "Lumbar, seat and legs",
+      "Power requirements": "110\u2013120 VAC, 60 Hz; product page lists 150 W and 2.1 A.",
+      "Warranty": "Product page: 1 year in-home service, 3 years parts, 5 years frame. General policy lists 3 years service; obtain written confirmation of labor coverage.",
+      "Setup type": "Assembly required; white-glove service optional.",
+      "Included": "New chair and controller; free contiguous-US curbside delivery.",
+      "Price basis": "USD; available Black & Burgundy configuration; tax and optional delivery upgrades extra.",
+      "Returns": "30 days from delivery; $450 chair return fee. Assembly/delivery upgrades are nonrefundable; free promotional white-glove delivery adds a $250 deduction.",
+      "Source: Official product and selected configuration": "https://www.ogawaworldusa.com/products/ogawa-master-drive-duo-massage-chair?variant=40847157624901",
+      "Source: Warranty policy and coverage discrepancy": "https://www.ogawaworldusa.com/pages/warranty-information",
+      "Source: Returns and delivery fees": "https://www.ogawaworldusa.com/policies/refund-policy",
+      "Source: User and installation manuals": "https://www.ogawaworldusa.com/pages/manuals"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "brookstone-mach-ix",
+    "slug": "brookstone-mach-ix",
+    "name": "Mach IX (BK-750)",
+    "brand": "Brookstone",
+    "brandId": "brookstone",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "A 4D SL-track massage chair with air compression, heated zones and a reclining design.",
+    "image": "/products/ht-brookstone-mach-blue.jpg",
+    "price": 2999.99,
+    "qty": "1 chair",
+    "variant": "Blue & Black / clearance",
+    "source": "https://www.ogawaworldusa.com/products/brookstone-mach-ix-massage-chair?variant=40856684658757",
+    "url": "https://www.ogawaworldusa.com/products/brookstone-mach-ix-massage-chair?variant=40856684658757",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4D rollers",
+      "Clearance"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Upright: 62.6 L \u00d7 31.9 W \u00d7 46.2 H in. Reclined: 70.9 L \u00d7 31.9 W \u00d7 43.5 H in.",
+      "Capacity": "1 person; maximum 320 lb. Recommended height range: not confirmed.",
+      "User fit": "Manufacturer specifies 1 in of wall clearance.",
+      "Heat type": "Lumbar, seat and legs",
+      "Power requirements": "110\u2013120 VAC, 60 Hz; 180 W",
+      "Warranty": "Product listing states 3 years in-home service and parts. Confirm terms for the clearance unit before purchase.",
+      "Setup type": "Assembly required; optional white-glove delivery.",
+      "Included": "Chair and controls; free contiguous-US curbside delivery.",
+      "Merchant": "Sold by Ogawa World USA, the merchant linked from this listing.",
+      "Price basis": "USD; Blue & Black clearance chair at displayed selling price; no additional discount assumed. Tax extra.",
+      "Returns": "30 days from delivery; $450 chair return fee. Assembly/delivery upgrades are nonrefundable; free promotional white-glove delivery adds a $250 deduction.",
+      "Source: Official product and selected configuration": "https://www.ogawaworldusa.com/products/brookstone-mach-ix-massage-chair?variant=40856684658757",
+      "Source: Returns and delivery fees": "https://www.ogawaworldusa.com/policies/refund-policy",
+      "Source: Official manual": "https://cdn.shopify.com/s/files/1/0553/7307/0405/files/Brookstone-BK-750-Mach-1-Owners-Manual.pdf?v=1774562572"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "infinity-genmax-4d",
+    "slug": "infinity-genmax-4d",
+    "name": "Gen Max 4D",
+    "brand": "Infinity",
+    "brandId": "infinity",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "A reclining 4D chair with lumbar heat, adjustable leg support and a touchscreen controller.",
+    "image": "/products/ht-infinity-genmax-gray.jpg",
+    "price": 12999,
+    "qty": "1 chair",
+    "variant": "Gray / Black",
+    "source": "https://infinitymassagechairs.com/massage-chairs/details/Gen%20Max",
+    "url": "https://infinitymassagechairs.com/massage-chairs/details/Gen%20Max",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4D rollers",
+      "Limited availability"
+    ],
+    "attributes": {
+      "Placement": "Indoor; manual specifies 4 in rear and 24 in front clearance. Product page advertises 2 in rear; follow the manual.",
+      "Dimensions": "Upright: 66 L \u00d7 35 W \u00d7 48 H in. Reclined: 80 L \u00d7 35 W \u00d7 36 H in.",
+      "Capacity": "1 person; maximum 300 lb. Product page height range: 64\u201381 in.",
+      "User fit": "17 in seat depth, 20 in hip width, 23 in shoulder width.",
+      "Heat type": "Lumbar heat",
+      "Power requirements": "110\u2013120 VAC; 1.55 A; 160 W",
+      "Warranty": "Residential use: 1 year labor/in-home service, 3 years parts, 5 years structural frame.",
+      "Setup type": "Assembly required; verify doorway and delivery path.",
+      "Included": "One chair with controller. Delivery/assembly inclusions: not confirmed.",
+      "Price basis": "USD; one Gray/Black chair; limited availability. Tax, delivery and setup charges must be confirmed.",
+      "Returns": "Current return fees and eligibility not confirmed; review with manufacturer before ordering.",
+      "Source: Official product and selected configuration": "https://infinitymassagechairs.com/massage-chairs/details/Gen%20Max",
+      "Source: User manual": "https://res.cloudinary.com/infinity-massage-chairs/image/upload/v1729518351/manuals/UserManual_GenMax__v2.0_e8un38.pdf",
+      "Source: Warranty coverage": "https://infinitymassagechairs.com/warranty-info"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "luraco-i9-max-plus",
+    "slug": "luraco-i9-max-plus",
+    "name": "i9 Max PLUS",
+    "brand": "Luraco",
+    "brandId": "luraco",
+    "category": "recovery",
+    "type": "massage-chair",
+    "description": "A split-track massage chair with powered entry armrests, 3D rollers and heated hand, lower-back and foot zones.",
+    "image": "/products/ht-luraco-i9max-plus.jpg",
+    "price": 13490,
+    "qty": "1 chair",
+    "variant": "Cream / standard edition / no optional features / free curbside",
+    "source": "https://www.usmassagechairs.com/product-page/irobotics-9-max-medical-massage-chair",
+    "url": "https://www.usmassagechairs.com/product-page/irobotics-9-max-medical-massage-chair",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Split roller track",
+      "Heated massage"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Maximum: 48 H \u00d7 38 W in; reclined length 87 in. Upright length and reclined height: not confirmed.",
+      "Capacity": "1 person; up to 300 lb and 6 ft 10 in tall. Minimum height: not confirmed.",
+      "Heat type": "Hands, lower back and feet",
+      "Power requirements": "Approximately 200 W maximum. Required input voltage/circuit: not confirmed in current readable specifications.",
+      "Warranty": "Home use: 3 years in-home labor and parts, 5 years total parts coverage; leather has 10-year no-tear coverage. Normal wear and other exclusions apply.",
+      "Setup type": "Assembly required; chair weighs approximately 310 lb.",
+      "Included": "Standard Cream chair with no optional features; free curbside delivery. Monitoring accessory and extended coverage excluded.",
+      "Price basis": "USD; selected Cream/standard/no-options configuration. Tax extra; choose matching options on merchant page.",
+      "Returns": "30 days from receipt; round-trip freight is not refunded. Original packaging required. Personalized chairs are final sale; geographic exclusions apply.",
+      "Source: Official product and selected configuration": "https://www.usmassagechairs.com/product-page/irobotics-9-max-medical-massage-chair",
+      "Source: Current manufacturer manual": "https://luracochairs.com/wp-content/uploads/2026/02/i9-MAX-PLUS-SERIES-USER-MANUAL-ver2.pdf",
+      "Source: Warranty and return terms": "https://www.usmassagechairs.com/warranty"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "massage-chair"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "heatType": [
+        "heated-massage"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "mitopro-1500x",
+    "slug": "mitopro-1500x",
+    "name": "MitoPRO 1500X",
+    "brand": "Mito Red Light",
+    "brandId": "mito-red-light",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A 300-LED panel with six wavelengths, touchscreen controls and adjustable red and near-infrared channels.",
+    "image": "/products/ht-mitopro1500x.jpg",
+    "price": 1299,
+    "qty": "1 panel",
+    "variant": "One MitoPRO 1500X panel",
+    "source": "https://mitoredlight.com/products/mitopro-x-series?variant=45796723130536",
+    "url": "https://mitoredlight.com/products/mitopro-x-series?variant=45796723130536",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "300 LEDs",
+      "6 wavelengths"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Panel: 43 H \u00d7 10 W in; depth not confirmed. Weight: 25 lb.",
+      "Wavelengths": "590, 630, 660, 810, 830 and 850 nm",
+      "LED count": "300 dual-chip LED packages / 600 chips",
+      "Power requirements": "Listed consumption: 445 W. Input voltage and circuit requirements: not confirmed.",
+      "Warranty": "3-year limited warranty against manufacturing defects; original purchaser and exclusions apply.",
+      "Setup type": "Mount or hang using manufacturer instructions; optional floor stands sold separately.",
+      "Included": "One 1500X panel; stand excluded. Confirm the exact mounting hardware supplied before ordering.",
+      "Price basis": "USD; single 1500X, not a multi-panel bundle; tax and optional stand extra.",
+      "Returns": "Advertised 60-day return window; current shipping deductions and eligibility must be checked with the merchant.",
+      "Source: Official product and selected configuration": "https://mitoredlight.com/products/mitopro-x-series?variant=45796723130536",
+      "Source: Warranty terms": "https://mitoredlight.com/pages/warranty",
+      "Source: Manuals and assembly": "https://mitoredlight.com/pages/user-manual"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "hooga-ultra1500",
+    "slug": "hooga-ultra1500",
+    "name": "ULTRA1500",
+    "brand": "Hooga",
+    "brandId": "hooga",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A 300-LED panel with four wavelengths, separate light channels, dimming and a remote.",
+    "image": "/products/ht-hooga-ultra1500.jpg",
+    "price": 1399,
+    "qty": "1 panel",
+    "variant": "One ULTRA1500 panel / stand excluded",
+    "source": "https://hoogahealth.com/products/ultra-1500",
+    "url": "https://hoogahealth.com/products/ultra-1500",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "300 LEDs",
+      "4 wavelengths"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "39.5 \u00d7 8.6 \u00d7 2.5 in; 28 lb",
+      "Wavelengths": "630, 660, 810 and 850 nm",
+      "LED count": "300 LEDs",
+      "Power requirements": "85\u2013265 VAC; comparison table lists 478.5 W consumption. The technical section separately labels 525 W as output.",
+      "Warranty": "3 years for ULTRA panels, subject to warranty exclusions.",
+      "Setup type": "Install the supplied hanging hardware or a compatible optional stand.",
+      "Included": "Panel, remote, door hanger/hanging kit, US power cord, linking cord, goggles and manual. Stand sold separately.",
+      "Price basis": "USD; one ULTRA1500 panel; stand and tax extra.",
+      "Returns": "60-day window; return shipping cost is deducted from the refund.",
+      "Source: Official product and selected configuration": "https://hoogahealth.com/products/ultra-1500",
+      "Source: Warranty": "https://hoogahealth.com/pages/warranty",
+      "Source: Returns": "https://hoogahealth.com/policies/refund-policy",
+      "Source: ULTRA user manual": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/2025Ultra_Manual_InOrder.pdf?v=1758301012"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "hooga-ultra4500",
+    "slug": "hooga-ultra4500",
+    "name": "ULTRA4500",
+    "brand": "Hooga",
+    "brandId": "hooga",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A 61-inch panel with 900 LEDs and remote-controlled light settings. A compatible stand is required and sold separately.",
+    "image": "/products/ht-hooga-ultra4500.jpg",
+    "price": 3999,
+    "qty": "1 panel",
+    "variant": "One ULTRA4500 panel / required stand sold separately",
+    "source": "https://hoogahealth.com/products/ultra4500-red-light-therapy",
+    "url": "https://hoogahealth.com/products/ultra4500-red-light-therapy",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "900 LEDs",
+      "Stand not included"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "61 \u00d7 16 \u00d7 2.6 in; 63 lb",
+      "Wavelengths": "630, 660, 810 and 850 nm",
+      "LED count": "900 LEDs",
+      "Power requirements": "85\u2013265 VAC; comparison table lists 1,095 W consumption. Technical section separately labels 1,250 W as output.",
+      "Warranty": "3 years for ULTRA panels, subject to warranty exclusions.",
+      "Setup type": "Assembly required with a compatible Hooga stand, purchased separately.",
+      "Included": "Panel, remote, US power cord, linking cord, goggles and manual. Stand shown in the image is not included.",
+      "Price basis": "USD; panel only. Required stand, tax and any shipping charges are additional.",
+      "Returns": "60-day window; return shipping cost is deducted from the refund.",
+      "Source: Official product and selected configuration": "https://hoogahealth.com/products/ultra4500-red-light-therapy",
+      "Source: Warranty": "https://hoogahealth.com/pages/warranty",
+      "Source: Returns": "https://hoogahealth.com/policies/refund-policy",
+      "Source: ULTRA user manual": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/2025Ultra_Manual_InOrder.pdf?v=1758301012"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "platinum-biomax900",
+    "slug": "platinum-biomax900",
+    "name": "BIOMAX 900",
+    "brand": "PlatinumLED",
+    "brandId": "platinumled",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A 300-LED modular panel with seven wavelengths, adjustable red and near-infrared channels and a separate blue-light control.",
+    "image": "/products/ht-biomax900.png",
+    "price": 1299,
+    "qty": "1 panel",
+    "variant": "BIOMAX 900 / one panel",
+    "source": "https://platinumtherapylights.com/products/biomax-rlt?variant=15601444487234",
+    "url": "https://platinumtherapylights.com/products/biomax-rlt?variant=15601444487234",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "300 LEDs",
+      "7 wavelengths"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "35.83 \u00d7 11.81 \u00d7 2.76 in; 33 lb",
+      "Wavelengths": "480, 630, 660, 810, 830, 850 and 1060 nm",
+      "LED count": "300 LEDs",
+      "Power requirements": "Manufacturer lists 380/490 W; 3.45/4.4 A at 110 V or 1.73/2.2 A at 220 V. Mode basis for paired values is not explained.",
+      "Warranty": "3-year limited product warranty; exclusions apply.",
+      "Setup type": "Install hanging hardware or purchase a compatible stand.",
+      "Included": "One panel, eye protection, door hook, power/link cables, hanging hardware and remote. Stand sold separately; confirm remote version.",
+      "Price basis": "USD; single BIOMAX 900, not a paired setup; stand and tax extra.",
+      "Returns": "60 days; 20% restocking fee plus return shipping. Original packaging required; accessory purchases are final sale.",
+      "Source: Official product and selected configuration": "https://platinumtherapylights.com/products/biomax-rlt?variant=15601444487234",
+      "Source: Warranty and returns": "https://platinumtherapylights.com/pages/warranty-refund"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "3-year"
+      ]
+    }
+  },
+  {
+    "id": "joovv-solo3-boot",
+    "slug": "joovv-solo3-boot",
+    "name": "Solo 3.0 + Boot Floor Stand",
+    "brand": "Joovv",
+    "brandId": "joovv",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A 150-LED red and near-infrared panel paired with Joovv\u2019s compact Boot Floor Stand.",
+    "image": "/products/ht-joovv-solo-boot.jpg",
+    "price": 1699,
+    "qty": "1 panel + floor stand",
+    "variant": "Solo 3.0 / Boot Floor Stand",
+    "source": "https://joovv.com/products/joovv-solo-3-0?variant=32072166146166",
+    "url": "https://joovv.com/products/joovv-solo-3-0?variant=32072166146166",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "150 LEDs",
+      "Stand included"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Panel: 36 \u00d7 8.75 \u00d7 2.34 in; 14 lb. Stand footprint: not confirmed.",
+      "Wavelengths": "660 and 850 nm",
+      "LED count": "150 total: 76 red and 74 near-infrared LEDs",
+      "Power requirements": "100\u2013240 VAC, 50/60 Hz, 250 VA",
+      "Warranty": "2-year limited warranty, subject to coverage terms.",
+      "Setup type": "Fit panel into the included Boot stand and connect power.",
+      "Included": "One Solo 3.0 panel, Boot Floor Stand, power cord, eye protection and manual.",
+      "Price basis": "USD; Solo + Boot setup. Wall and door setups have different prices; tax extra.",
+      "Returns": "60-day return window; original packaging required. Customer pays return shipping; inspect full eligibility terms.",
+      "Source: Official product and selected configuration": "https://joovv.com/products/joovv-solo-3-0?variant=32072166146166",
+      "Source: Warranty": "https://joovv.com/pages/warranty",
+      "Source: Returns": "https://joovv.com/pages/returns"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "warranty": [
+        "2-year"
+      ]
+    }
+  },
+  {
+    "id": "theragun-pro-plus",
+    "slug": "theragun-pro-plus",
+    "name": "Theragun PRO Plus",
+    "brand": "Therabody",
+    "brandId": "therabody",
+    "category": "recovery",
+    "type": "percussion-massager",
+    "description": "A rechargeable percussion device with five speeds, interchangeable heads, a heated attachment and a separate vibration attachment.",
+    "image": "/products/ht-theragun-pro-plus.png",
+    "price": 649.99,
+    "qty": "1 massager kit",
+    "variant": "PRO Plus / standard kit",
+    "source": "https://www.therabody.com/products/theragun-pro-plus",
+    "url": "https://www.therabody.com/products/theragun-pro-plus",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Heated attachment",
+      "Cordless"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Not confirmed; current product-page dimensions appear inconsistent. Device weight: 1.65 kg without attachments.",
+      "Power requirements": "Rechargeable battery; USB-C charging. Charger input/output rating not confirmed.",
+      "Heat type": "Heated attachment; cold attachment is a separate purchase.",
+      "Battery life": "Manufacturer estimate: approximately 150 minutes; varies by attachment and use.",
+      "Warranty": "Current listing states a 1-year limited warranty.",
+      "Setup type": "Charge, fit an attachment and select speed; no fixed installation.",
+      "Included": "Five standard heads, heated attachment, vibration attachment, charging cable and QuietForce solution. Cold attachment excluded.",
+      "Price basis": "USD; one PRO Plus standard kit; tax extra. Optional cold attachment not included.",
+      "Returns": "Product page advertises 30 days; eligibility and shipping terms are in the return policy.",
+      "Source: Official product and selected configuration": "https://www.therabody.com/products/theragun-pro-plus",
+      "Source: Warranty terms": "https://www.therabody.com/pages/warranty-terms",
+      "Source: Return policy": "https://www.therabody.com/pages/return-policy"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "percussion-massager"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "battery-powered"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "therabody-jetboots-pro-plus",
+    "slug": "therabody-jetboots-pro-plus",
+    "name": "JetBoots PRO Plus \u2014 Regular",
+    "brand": "Therabody",
+    "brandId": "therabody",
+    "category": "recovery",
+    "type": "compression-boots",
+    "description": "Cordless compression boots with built-in pumps, vibration settings and infrared LEDs. This listing is the Regular-size pair.",
+    "image": "/products/ht-jetboots-pro-plus.png",
+    "price": 1149.99,
+    "qty": "2 boots",
+    "variant": "Regular / pair",
+    "source": "https://www.therabody.com/products/jetboots-pro-plus-regular",
+    "url": "https://www.therabody.com/products/jetboots-pro-plus-regular",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Cordless pair",
+      "20\u2013100 mmHg"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Boot exterior dimensions: not confirmed. Pair weighs 12.4 lb; use manufacturer sizing chart.",
+      "Capacity": "1 person. Regular guide: 34\u201341 in outseam and thigh circumference under 26 in; typical height 5 ft 7 in\u20136 ft 1 in.",
+      "Pressure range": "20\u2013100 mmHg in 5 mmHg steps; session timer 10\u201360 minutes.",
+      "Power requirements": "Rechargeable battery; supplied adapter. Input voltage and charging wattage not confirmed.",
+      "Battery life": "Manufacturer estimate: 150\u2013240 minutes depending on settings.",
+      "Warranty": "Current listing states a 1-year limited warranty.",
+      "Setup type": "Charge and select the correct boot size; no separate pump or hoses.",
+      "Included": "Two boots with built-in pumps, power adapter, charging splitter and travel bag.",
+      "Price basis": "USD; one Regular-size pair, not a single boot; tax extra.",
+      "Returns": "Product page advertises 30 days; eligibility and shipping terms are in the return policy.",
+      "Source: Official product and selected configuration": "https://www.therabody.com/products/jetboots-pro-plus-regular",
+      "Source: Warranty terms": "https://www.therabody.com/pages/warranty-terms",
+      "Source: Return policy": "https://www.therabody.com/pages/return-policy"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "compression-boots"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "battery-powered"
+      ],
+      "capacity": [
+        "1-person"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "hyperice-hypervolt3-pro",
+    "slug": "hyperice-hypervolt3-pro",
+    "name": "Hypervolt 3 Pro",
+    "brand": "Hyperice",
+    "brandId": "hyperice",
+    "category": "recovery",
+    "type": "percussion-massager",
+    "description": "A six-speed cordless percussion massager with five heads, including a heated attachment, and a carrying case.",
+    "image": "/products/ht-hypervolt3-pro.png",
+    "price": 349,
+    "qty": "1 massager kit",
+    "variant": "Matte Black / standard kit",
+    "source": "https://hyperice.com/products/hypervolt-3-pro",
+    "url": "https://hyperice.com/products/hypervolt-3-pro",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "6 speeds",
+      "Heated head"
+    ],
+    "attributes": {
+      "Placement": "Indoor, dry location",
+      "Dimensions": "Not confirmed in current official specifications. Weight: 2.5 lb / 1.1 kg.",
+      "Power requirements": "Rechargeable battery; supplied charger takes 100\u2013240 VAC, 50/60 Hz, 0.7 A and outputs 18 V, 1 A (18 W).",
+      "Heat type": "Included heated head; separate USB-C charging for the attachment.",
+      "Settings": "1,500\u20132,500 percussion pulses/minute; 14 mm stroke.",
+      "Battery life": "Manufacturer estimate: up to 4 hours.",
+      "Warranty": "Official specifications list a 1-year warranty.",
+      "Setup type": "Charge device and attachment; fit desired head. No fixed installation.",
+      "Included": "Device, five heads, 18 V wall charger, USB-C charger for heated head and carry case.",
+      "Price basis": "USD; one new Matte Black Hypervolt 3 Pro kit; tax extra.",
+      "Returns": "Current return window and fees not confirmed; review merchant terms before purchase.",
+      "Source: Official product and selected configuration": "https://hyperice.com/products/hypervolt-3-pro",
+      "Source: Official specifications": "https://hyperice.zendesk.com/hc/en-us/articles/47603346454299-Specifications-Hypervolt-3-Pro"
+    },
+    "ingredients": "Not applicable \u2014 wellness equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "percussion-massager"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "battery-powered"
+      ],
+      "setup": [
+        "ready-to-use"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    }
+  },
+  {
+    "id": "ht-mate-fleece-pocket-hoodie",
+    "slug": "ht-mate-fleece-pocket-hoodie",
+    "name": "Organic Fleece Pocket Hoodie",
+    "brand": "MATE the Label",
+    "brandId": "mate-the-label",
+    "category": "apparel",
+    "type": "hoodie",
+    "description": "A heavyweight cotton fleece hoodie with a kangaroo pocket and relaxed fit. This Leek color is discounted and final sale; the selected size is Small.",
+    "image": "/products/ht-mate-fleece-pocket-hoodie.jpg",
+    "price": 110.0,
+    "qty": "1 garment",
+    "variant": "Leek / Small",
+    "source": "https://matethelabel.com/products/organic-fleece-pocket-hoodie-leek",
+    "url": "https://matethelabel.com/products/organic-fleece-pocket-hoodie-leek?variant=46943589597362",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "100% organic cotton",
+      "370 GSM fleece",
+      "Final sale"
+    ],
+    "attributes": {
+      "Main fabric": "100% organic cotton",
+      "Fabric weight": "370 GSM",
+      "Fit": "Relaxed, slightly oversized; Small chest 48 in and length 23.5 in",
+      "Color": "Leek",
+      "Made in": "India",
+      "Care": "Machine wash cold with like colors; tumble dry low",
+      "Trims and stitching": "Separate fiber percentages not published",
+      "Returns": "Selected sale color is final sale; no returns or exchanges",
+      "Price basis": "USD; selected Small garment, before tax",
+      "Source: Official product and configuration": "https://matethelabel.com/products/organic-fleece-pocket-hoodie-leek"
+    },
+    "ingredients": "Not applicable \u2014 apparel. Main-fabric composition is listed in attributes.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "allNaturalMain": true,
+      "noPolyester": true,
+      "noElastane": true
+    },
+    "facets": {
+      "garment": [
+        "hoodie"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "ht-jungmaven-montauk-hoodie",
+    "slug": "ht-jungmaven-montauk-hoodie",
+    "name": "Montauk Hooded Sweatshirt",
+    "brand": "Jungmaven",
+    "brandId": "jungmaven",
+    "category": "apparel",
+    "type": "hoodie",
+    "description": "Hemp and organic-cotton fleece hoodie with a kangaroo pocket and flat drawcord. Uses men\u2019s sizing; this Navy Medium listing is a final-sale option.",
+    "image": "/products/ht-jungmaven-montauk-hoodie.jpg",
+    "price": 157.0,
+    "qty": "1 garment",
+    "variant": "Navy / Medium",
+    "source": "https://jungmaven.com/products/hemp-sweatshirt-hooded-montauk",
+    "url": "https://jungmaven.com/products/hemp-sweatshirt-hooded-montauk?variant=42750000890054",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Hemp + organic cotton",
+      "Kangaroo pocket",
+      "Final sale"
+    ],
+    "attributes": {
+      "Main fabric": "55% hemp / 45% organic cotton",
+      "Fabric weight": "9.6 oz, as listed by the brand",
+      "Fit": "Classic fit; men\u2019s sizing, check the size chart",
+      "Color": "Navy",
+      "Care": "Machine wash cool and gentle with like colors; tumble dry low",
+      "Trims and stitching": "Ribbed cuffs and waistband; separate composition not quantified",
+      "Manufacturing": "Brand states its clothing is cut and sewn in Los Angeles using globally sourced materials",
+      "Returns": "Sale styles are final sale and cannot be returned or exchanged",
+      "Price basis": "USD; selected Medium garment before tax",
+      "Source: Official product and configuration": "https://jungmaven.com/products/hemp-sweatshirt-hooded-montauk"
+    },
+    "ingredients": "Not applicable \u2014 apparel. Main-fabric composition is listed in attributes.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "allNaturalMain": true,
+      "noPolyester": true,
+      "noElastane": true
+    },
+    "facets": {
+      "garment": [
+        "hoodie"
+      ],
+      "material": [
+        "hemp",
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "ht-organicbasics-weekend-halfzip",
+    "slug": "ht-organicbasics-weekend-halfzip",
+    "name": "Weekend Half Zip Sweatshirt",
+    "brand": "Organic Basics",
+    "brandId": "organic-basics",
+    "category": "apparel",
+    "type": "sweatshirt",
+    "description": "Cotton sweatshirt with a half zip, mock neck and dropped shoulders. The main fabric is all organic cotton; hardware and trims are separate components.",
+    "image": "/products/ht-organicbasics-weekend-halfzip.jpg",
+    "price": 71.2,
+    "qty": "1 garment",
+    "variant": "Black / Medium",
+    "source": "https://us.organicbasics.com/products/mens-weekend-half-zip-sweater-black",
+    "url": "https://us.organicbasics.com/products/mens-weekend-half-zip-sweater-black?variant=49928970207559",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "100% organic cotton",
+      "Half zip"
+    ],
+    "attributes": {
+      "Main fabric": "100% organic cotton",
+      "Fit": "Men\u2019s collection; slightly dropped shoulders",
+      "Color": "Black",
+      "Closure": "Half zip",
+      "Made in": "India",
+      "Trims and stitching": "Zipper and other components are not covered by the main-fabric percentage",
+      "Care": "Machine wash cold on a gentle cycle; see care label",
+      "Price basis": "USD; Black Medium sale price, before shipping and tax",
+      "Source: Official product and configuration": "https://us.organicbasics.com/products/mens-weekend-half-zip-sweater-black"
+    },
+    "ingredients": "Not applicable \u2014 apparel. Main-fabric composition is listed in attributes.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "allNaturalMain": true,
+      "noPolyester": true,
+      "noElastane": true
+    },
+    "facets": {
+      "garment": [
+        "sweatshirt"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "ht-vuori-seaside-fullzip",
+    "slug": "ht-vuori-seaside-fullzip",
+    "name": "Seaside Full Zip Hoodie",
+    "brand": "Vuori",
+    "brandId": "vuori",
+    "category": "apparel",
+    "type": "hoodie",
+    "description": "Full-zip fleece hoodie with hand pockets and an oversized fit. The cotton blend contains 34% polyester, so it does not qualify for the no-polyester or all-natural main-fabric filters.",
+    "image": "/products/ht-vuori-seaside-fullzip.png",
+    "price": 148,
+    "qty": "1 garment",
+    "variant": "Black / Medium",
+    "source": "https://vuoriclothing.com/products/seaside-full-zip-hoodie-black",
+    "url": "https://vuoriclothing.com/products/seaside-full-zip-hoodie-black?objectId=44515230875751",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "66% organic cotton",
+      "Contains polyester",
+      "Full zip"
+    ],
+    "attributes": {
+      "Main fabric": "66% organic cotton / 34% polyester",
+      "Fit": "Oversized; hip length; men\u2019s collection",
+      "Color": "Black",
+      "Care": "Machine wash cold inside out; tumble dry low; no bleach, ironing, dry cleaning or fabric softener",
+      "Trims and stitching": "Separate fiber percentages not published",
+      "Price basis": "USD; Black Medium garment, before tax",
+      "Source: Official product and configuration": "https://vuoriclothing.com/products/seaside-full-zip-hoodie-black"
+    },
+    "ingredients": "Not applicable \u2014 apparel. Main-fabric composition is listed in attributes.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noElastane": true
+    },
+    "facets": {
+      "garment": [
+        "hoodie"
+      ],
+      "material": [
+        "cotton",
+        "polyester"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "ht-momentous-whey-unflavored",
+    "slug": "ht-momentous-whey-unflavored",
+    "name": "Whey Protein Isolate \u2014 Unflavored",
+    "brand": "Momentous",
+    "brandId": "momentous",
+    "category": "supplements",
+    "type": "protein",
+    "description": "Unflavored whey isolate with 20 g protein and 200 mg ProHydrolase per scoop. Contains milk. This is the one-time price for the 25-serving jar.",
+    "image": "/products/ht-momentous-whey-unflavored.png",
+    "price": 69.99,
+    "qty": "25 servings",
+    "variant": "Unflavored / 25-serving jar",
+    "source": "https://www.livemomentous.com/products/essential-whey-protein",
+    "url": "https://www.livemomentous.com/products/essential-whey-protein?variant=43277469548727",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "20 g protein",
+      "Unflavored",
+      "Contains milk"
+    ],
+    "attributes": {
+      "Serving size": "1 scoop (23.7 g)",
+      "Protein": "20 g per serving",
+      "Featured ingredients": "23.4 g grass-fed whey protein isolate; 200 mg ProHydrolase",
+      "Other ingredients": "None listed on the Unflavored label",
+      "Allergens": "Contains milk",
+      "Testing": "Brand labels this formula NSF Certified for Sport; a brand claim is not a lot-specific marketplace test",
+      "Price basis": "USD; one-time purchase. Subscription discounts are not used",
+      "Source: Official product and configuration": "https://www.livemomentous.com/products/essential-whey-protein"
+    },
+    "ingredients": "Grass-fed whey protein isolate; ProHydrolase enzyme blend. Other ingredients: none listed. Contains milk.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "whey"
+      ],
+      "form": [
+        "powder"
+      ]
+    },
+    "servings": 25
+  },
+  {
+    "id": "ht-transparentlabs-whey-4lb",
+    "slug": "ht-transparentlabs-whey-4lb",
+    "name": "Grass-Fed Whey Protein Isolate \u2014 4 lb",
+    "brand": "Transparent Labs",
+    "brandId": "transparent-labs",
+    "category": "supplements",
+    "type": "protein",
+    "description": "Large unflavored whey-isolate container for buyers comparing cost across pack sizes. Contains milk; the price is for a one-time 4 lb purchase, with no subscription discount.",
+    "image": "/products/ht-transparentlabs-whey-4lb.png",
+    "price": 109.99,
+    "qty": "4 lb container",
+    "variant": "Unflavored / 4LB",
+    "source": "https://www.transparentlabs.com/products/whey-protein-isolate",
+    "url": "https://www.transparentlabs.com/products/whey-protein-isolate?variant=42951394590813",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "4 lb container",
+      "Unflavored",
+      "Contains milk"
+    ],
+    "attributes": {
+      "Pack size": "4 lb, as named in the selected merchant variant",
+      "Protein": "Manufacturer lists 28 g per serving; check the current supplied label",
+      "Allergens": "Contains milk",
+      "Sweeteners": "Unflavored option; no sweeteners listed",
+      "Price basis": "USD; one 4LB Unflavored container, one-time purchase",
+      "Testing": "Brand publishes certificates of analysis; no claim that the shipped lot has been independently checked by this marketplace",
+      "Source: Official product and configuration": "https://www.transparentlabs.com/products/whey-protein-isolate"
+    },
+    "ingredients": "Unflavored grass-fed whey protein isolate. Contains milk. Confirm the current container\u2019s full label before use.",
+    "filters": {},
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "whey"
+      ],
+      "form": [
+        "powder"
+      ]
+    }
+  },
+  {
+    "id": "ht-thorne-epa",
+    "slug": "ht-thorne-epa",
+    "name": "Super EPA Pro",
+    "brand": "Thorne",
+    "brandId": "thorne",
+    "category": "supplements",
+    "type": "omega-3",
+    "description": "EPA-forward fish-oil formula with 1,300 mg EPA and 320 mg DHA per two-gelcap serving. Contains fish and bovine gelatin; 120 gelcaps provide 60 labeled servings.",
+    "image": "/products/ht-thorne-epa.png",
+    "price": 93,
+    "qty": "120 gelcaps / 60 servings",
+    "variant": "120 gelcaps",
+    "source": "https://www.thorne.com/products/dp/super-epa-pro-60-s-1",
+    "url": "https://www.thorne.com/products/dp/super-epa-pro-60-s-1",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "1,300 mg EPA",
+      "60 servings",
+      "Contains fish"
+    ],
+    "attributes": {
+      "Serving size": "2 gelcaps",
+      "Featured ingredients": "EPA 1,300 mg and DHA 320 mg per serving",
+      "Dietary details": "Fish-derived omega-3; bovine gelatin capsule",
+      "Price basis": "USD; one-time bottle price",
+      "Label note": "60 labeled servings; manufacturer directions can use more than one serving per day",
+      "Source: Official product and configuration": "https://www.thorne.com/products/dp/super-epa-pro-60-s-1"
+    },
+    "ingredients": "EPA and DHA from fish. Other ingredients: bovine gelatin, purified water and vegetable-source glycerin.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "heart"
+      ],
+      "ingredient": [
+        "omega-3"
+      ],
+      "form": [
+        "softgel"
+      ]
+    },
+    "servings": 60
+  },
+  {
+    "id": "ht-thorne-citrate",
+    "slug": "ht-thorne-citrate",
+    "name": "Magnesium Citrate",
+    "brand": "Thorne",
+    "brandId": "thorne",
+    "category": "supplements",
+    "type": "magnesium",
+    "description": "Powder providing 250 mg magnesium as citrate per scoop, with monk fruit extract. Offers a different magnesium form from the glycinate options; digestive tolerance can vary.",
+    "image": "/products/ht-thorne-citrate.png",
+    "price": 39,
+    "qty": "60 servings",
+    "variant": "Powder / 60 scoops",
+    "source": "https://www.thorne.com/products/dp/magnesium-citrate-m286",
+    "url": "https://www.thorne.com/products/dp/magnesium-citrate-m286",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Magnesium citrate",
+      "250 mg magnesium",
+      "Monk fruit"
+    ],
+    "attributes": {
+      "Serving size": "1 scoop",
+      "Featured ingredients": "Magnesium as citrate: 250 mg per serving",
+      "Dietary details": "Other ingredients: natural flavor, citric acid, monk fruit extract and sodium bicarbonate",
+      "Price basis": "USD; one-time bottle price",
+      "Label note": "Brand notes gas, bloating or diarrhea may occur; review the product label",
+      "Source: Official product and configuration": "https://www.thorne.com/products/dp/magnesium-citrate-m286"
+    },
+    "ingredients": "Magnesium (as magnesium citrate). Other ingredients: natural flavor, citric acid, monk fruit extract, sodium bicarbonate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "gut"
+      ],
+      "ingredient": [
+        "magnesium"
+      ],
+      "form": [
+        "powder"
+      ]
+    },
+    "servings": 60
+  },
+  {
+    "id": "ht-needed-hydration-lime",
+    "slug": "ht-needed-hydration-lime",
+    "name": "Hydration Support \u2014 Lime",
+    "brand": "Needed",
+    "brandId": "needed",
+    "category": "drinks",
+    "type": "electrolyte-powder",
+    "description": "Lime electrolyte packets with monk fruit and 250 mg sodium per packet. The current label includes magnesium citrate and trace minerals. Listed at the one-time 30-packet price.",
+    "image": "/products/ht-needed-hydration-lime.png",
+    "price": 45.99,
+    "qty": "30 packets",
+    "variant": "Lime / 1 Month Supply",
+    "source": "https://thisisneeded.com/products/hydration-support",
+    "url": "https://thisisneeded.com/products/hydration-support?variant=47082713546997",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Monk fruit",
+      "250 mg sodium",
+      "30 packets"
+    ],
+    "attributes": {
+      "Serving size": "1 packet (3.6 g)",
+      "Sodium": "250 mg per packet",
+      "Magnesium": "155 mg per packet, as magnesium citrate and ConcenTrace",
+      "Potassium": "250 mg per packet",
+      "Chloride": "320 mg per packet",
+      "Sweeteners": "Monk fruit extract",
+      "Sugar": "Brand describes the product as sugar-free; numeric nutrition sugar line not independently confirmed",
+      "Caffeine": "Not quantified in the reviewed label",
+      "Price basis": "USD; 30 packets bought once; US shipping shown as an additional $7",
+      "Source: Official product and configuration": "https://thisisneeded.com/products/hydration-support"
+    },
+    "ingredients": "Magnesium citrate and ConcenTrace; potassium chloride; sodium citrate; sea salt; trace mineral concentrate. Other ingredients: crystallized lime (citric acid, lime oil, lime juice), monk fruit extract, citric acid, turmeric and spirulina for color.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": true
+    },
+    "facets": {
+      "drinkType": [
+        "hydration",
+        "sport"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "monk-fruit"
+      ]
+    },
+    "servings": 30
+  },
+  {
+    "id": "ht-eight-sleep-pod6-queen",
+    "slug": "ht-eight-sleep-pod6-queen",
+    "name": "Pod 6 \u2014 Queen + First Year Enhanced",
+    "brand": "Eight Sleep",
+    "brandId": "eight-sleep",
+    "category": "recovery",
+    "type": "sleep-system",
+    "description": "Water-based mattress cover and hub with independent temperature controls for two sleepers. Price includes the Queen system and the first year of Enhanced Autopilot. Preorder; renewal fees apply.",
+    "image": "/products/ht-eight-sleep-pod6-queen.png",
+    "price": 3198,
+    "qty": "System + 1-year plan",
+    "variant": "Queen Standard / Enhanced Autopilot / no add-ons",
+    "source": "https://www.eightsleep.com/product/pod-cover/",
+    "url": "https://www.eightsleep.com/product/pod-cover/",
+    "checked": "2026-10-17",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "First year plan included",
+      "Annual renewal",
+      "Preorder"
+    ],
+    "attributes": {
+      "Included": "Queen Standard Pod 6 Cover and Hub plus first year Enhanced Autopilot; mattress, frame, Base, Blanket and Pillow Cover excluded",
+      "Capacity": "1\u20132 sleepers; Queen full-bed coverage",
+      "Dimensions": "Queen cover fits 60 \u00d7 80 in mattress; cover approx. 1 in thick. Hub: 16.54 L \u00d7 6.50 W \u00d7 7.87 H in",
+      "Temperature range": "Manufacturer lists 55\u2013110\u00b0F; actual temperature depends on room and setup",
+      "Power requirements": "Hub input 120/240V AC; manufacturer lists output 550W, 12V DC",
+      "Construction": "Cover top 100% polyester; sides 46% polyester / 44% rayon / 10% spandex; inner 96% nylon / 4% spandex",
+      "Placement": "Indoor bedroom",
+      "Setup type": "Fit cover over compatible mattress, place hub nearby, fill and prime water system; app and internet required",
+      "Warranty": "2-year limited standard warranty; up to 5 years while Enhanced/Elite membership remains active. Direct original purchases only; exclusions apply",
+      "Price basis": "$2,899 hardware + $299 first year Enhanced Autopilot = $3,198 before tax; no optional add-ons",
+      "Ongoing cost": "Enhanced Autopilot renews at $299/year at the checked rate. The $25/month headline is billed annually",
+      "Availability": "Preorder: displayed shipping window November 13\u201327, 2026; confirm before ordering",
+      "Merchant selection": "Choose Pay now, Queen, Whole bed and Enhanced Autopilot. No add-ons selected",
+      "Source: Official product and configuration": "https://www.eightsleep.com/product/pod-cover/",
+      "Source: Warranty coverage and membership conditions": "https://www.eightsleep.com/warranty/",
+      "Source: Connection and setup requirements": "https://help.eightsleep.com/en_us/what-do-i-need-for-the-pod-to-work-rykoawtaS"
+    },
+    "ingredients": "Not applicable \u2014 equipment.",
+    "filters": {
+      "indoor": true
+    },
+    "facets": {
+      "deviceType": [
+        "sleep-system"
+      ],
+      "placement": [
+        "indoor"
+      ],
+      "power": [
+        "120v-standard"
+      ],
+      "capacity": [
+        "2-person"
+      ],
+      "setup": [
+        "assembly-required"
+      ],
+      "subscription": [
+        "required"
+      ],
+      "heatType": [
+        "water-temperature-control"
+      ]
+    }
   }
 ]

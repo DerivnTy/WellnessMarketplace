@@ -3,7 +3,7 @@ import {readFileSync,existsSync} from 'node:fs';
 import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 const require=createRequire(import.meta.url);
-const expansionIds=new Set(['research/catalog-expansion-2026-10-17.json','research/home-gym-expansion-2026-10-17.json'].flatMap(file=>JSON.parse(readFileSync(file,'utf8')).products.map(p=>p.productId)));
+const expansionIds=new Set(['research/catalog-expansion-2026-10-17.json','research/home-gym-expansion-2026-10-17.json','research/high-ticket-expansion-2026-10-17.json'].flatMap(file=>JSON.parse(readFileSync(file,'utf8')).products.map(p=>p.productId)));
 // Keep baseline regressions stable; additions have separate full-catalog coverage.
 const seed=JSON.parse(readFileSync('data/catalog.json','utf8')).filter(p=>!expansionIds.has(p.id));
 function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);return module.exports;}

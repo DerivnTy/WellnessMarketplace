@@ -1,0 +1,2479 @@
+{
+  "checked": "2026-10-17",
+  "newProductCount": 56,
+  "previousProductCount": 118,
+  "totalProductCount": 174,
+  "countsByCategory": {
+    "recovery": 47,
+    "apparel": 4,
+    "supplements": 4,
+    "drinks": 1
+  },
+  "affiliateTrackingLinksInstalled": 0,
+  "evidencePolicy": "No new scores or consumer reviews created. Existing documented evidence is retained; missing evidence remains Not scored.",
+  "pricePolicy": "Exact configurations in USD, checked on the stated date. Shipping, tax, installation and required recurring costs are disclosed where applicable.",
+  "products": [
+    {
+      "productId": "ht-plunge-plunge-air",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://plunge.com/products/plunge-air?variant=45750075687069"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/Air_Standard.jpg?v=1764029137",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-plunge-plunge",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://plunge.com/products/plunge?variant=46130585108637"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/The_Plunge_Pro_Chiller_af334e0a-0cf8-4a16-8a25-296e45866bec.jpg?v=1774982298",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-plunge-the-infrared-sauna",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://plunge.com/products/the-infrared-sauna?variant=48137850912925"
+        },
+        {
+          "label": "Standard configuration and occupancy",
+          "url": "https://business.plunge.com/products/infrared-sauna-standard?redirect=infrared-sauna-pro"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/IR_Sauna_Standard.webp?v=1782793973",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-plunge-the-sauna-mini",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://plunge.com/products/the-sauna-mini?variant=46024564310173"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/Sauna_Mini_562d478a-2a6b-4983-afd0-bc9f7cb37f83.png?v=1763410903",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-sunhome-portable-cold-plunge-tub",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://sunhomesaunas.com/products/portable-cold-plunge-tub?variant=48677668389057"
+        },
+        {
+          "label": "September 2026 model specification sheet",
+          "url": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-COLD_PLUNGE_HORIZONTAL-SPEC_SHEET-2026-09-14.pdf?v=1789436213"
+        },
+        {
+          "label": "Warranty coverage",
+          "url": "https://sunhomesaunas.com/pages/warranty-information"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/24.8.12-SunhomeSuana4478_a7dd8ece-2d31-416d-a627-da56819b4b4a.jpg?v=1773276814",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-sunhome-sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://sunhomesaunas.com/products/sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna?variant=48850305351873"
+        },
+        {
+          "label": "October 2026 model specification sheet",
+          "url": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-EQUINOX_3-SPEC_SHEET-2026-10-06.pdf?v=1791325110"
+        },
+        {
+          "label": "Warranty coverage",
+          "url": "https://sunhomesaunas.com/pages/warranty-information"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/Amplify3_Eucalyptus_Front_1_1024x1024_7e5a7095-947d-4a24-afd9-ec08b76228da.png?v=1773276898",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-sunhome-5personoutdoorinfraredsauna",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna?variant=50149635948737"
+        },
+        {
+          "label": "September 2026 model specification sheet",
+          "url": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-LUMINAR_5-SPEC_SHEET-2026-09-14.pdf?v=1790034064"
+        },
+        {
+          "label": "Warranty for orders after March 2, 2026",
+          "url": "https://sunhomesaunas.com/pages/warranty-information"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/fix_luminar5_hero.png?v=1780546591",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-icebarrel-ice-barrel-300-bundle",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://icebarrel.com/products/ice-barrel-300-bundle?variant=42387813105731"
+        },
+        {
+          "label": "Barrel and chiller warranty",
+          "url": "https://icebarrel.com/pages/warranty"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0593/8125/2163/files/IceBarrel_LargeImage_Chiller_Mobile_v2.jpg?v=1751031387",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-inergize-inergize-cold-plunge-tub",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://inergizehealth.com/products/inergize-cold-plunge-tub?variant=47852806111465"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0637/4506/5193/files/heroimageelitetub_chiller_tub_2.webp?v=1779632175",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-renu-cold-stoic-2-0",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.renutherapy.com/products/cold-stoic-2-0?variant=39974599786542"
+        },
+        {
+          "label": "Residential limited warranty",
+          "url": "https://www.renutherapy.com/pages/renu-therapy-cold-plunge-tank-limited-warranty-home-use-only"
+        },
+        {
+          "label": "Model specification sheet",
+          "url": "https://cdn.shopify.com/s/files/1/0250/3183/5694/files/the_cold_stoic_2_cut_sheet.pdf?v=1781801811"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0250/3183/5694/files/product_cold_stoic_2__meterous_black_california_redwood.jpg?v=1779982775",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-dynamic-dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://dynamiccoldtherapy.com/products/dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge?variant=46639140569237"
+        },
+        {
+          "label": "Selected 0.8 HP chiller specifications",
+          "url": "https://dynamiccoldtherapy.com/products/cold-plunge-chiller"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0636/2598/6197/files/Firefly_RemoveBackground.png?v=1782932722",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-almostheaven-salem-2-person-barrel-sauna",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://almostheaven.com/products/salem-2-person-barrel-sauna?variant=46268207300826"
+        },
+        {
+          "label": "Warranty coverage",
+          "url": "https://almostheaven.com/pages/warranty"
+        },
+        {
+          "label": "Barrel assembly manual",
+          "url": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Barrel_Instruction_Manual_2024.pdf?v=1724266120"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Salem_HT_White_BG_2048x2048_e8a5a203-eb46-40ae-a91a-f3be9e1d8655.jpg?v=1767386102",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-almostheaven-grayson-4-person-indoor-sauna",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://almostheaven.com/products/grayson-4-person-indoor-sauna?variant=46268217458906"
+        },
+        {
+          "label": "Warranty coverage",
+          "url": "https://almostheaven.com/pages/warranty"
+        },
+        {
+          "label": "Grayson assembly manual",
+          "url": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Rainelle_Grayson_Manual.pdf?v=1724343737"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Hybrid_Grayson_3.jpg?v=1742848403",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-redwood-cabin-outdoor-sauna-4-person",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person?variant=53184721944890"
+        },
+        {
+          "label": "Included default heater",
+          "url": "https://www.redwoodoutdoors.com/products/harvia-kip-wall-mounted-sauna-heater-bundle-6kw"
+        },
+        {
+          "label": "Wooden sauna warranty",
+          "url": "https://www.redwoodoutdoors.com/pages/warranty-saunas"
+        },
+        {
+          "label": "Harvia heater warranty",
+          "url": "https://www.redwoodoutdoors.com/pages/warranty-harvia-electric-heater"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_Cabin_Outdoor_Sauna_Angle_View.png?v=1765501812",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-redwood-6-person-barrel-sauna",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna?variant=51858636996922"
+        },
+        {
+          "label": "Included default heater",
+          "url": "https://www.redwoodoutdoors.com/products/harvia-kip-wall-mounted-sauna-heater-bundle-6kw"
+        },
+        {
+          "label": "Wooden sauna warranty",
+          "url": "https://www.redwoodoutdoors.com/pages/warranty-saunas"
+        },
+        {
+          "label": "Harvia heater warranty",
+          "url": "https://www.redwoodoutdoors.com/pages/warranty-harvia-electric-heater"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_6_Person_Barrel_Outdoor_Sauna_Front_Angle_View_1.jpg?v=1784160022",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "ht-redwood-alaskan-all-in-one-cold-plunge-kit",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.redwoodoutdoors.com/products/alaskan-all-in-one-cold-plunge-kit?variant=54040036639034"
+        },
+        {
+          "label": "Tub warranty and freeze restrictions",
+          "url": "https://www.redwoodoutdoors.com/pages/warranty-cold-plunge-tubs"
+        },
+        {
+          "label": "Chiller warranty",
+          "url": "https://www.redwoodoutdoors.com/pages/warranty-chiller-systems"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_Alaskan_All-In-One_Cold_Punge_Tub_Angle_View.jpg?v=1768337889",
+      "batch": "cold-heat"
+    },
+    {
+      "productId": "concept2-rowerg-standard",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.concept2.com/ergs/rowerg"
+        },
+        {
+          "label": "Warranty and returns",
+          "url": "https://www.concept2.com/support/indoor-rowers/rowerg/warranty"
+        }
+      ],
+      "imageSource": "https://cms.concept2.com/sites/default/files/2024-02/RowERG_Standard_FlyFrontAngle_Gator_1920px.png",
+      "batch": "gym"
+    },
+    {
+      "productId": "concept2-bikeerg-standard",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.concept2.com/ergs/bikeerg"
+        },
+        {
+          "label": "Warranty and returns",
+          "url": "https://www.concept2.com/support/bikeerg/warranty"
+        }
+      ],
+      "imageSource": "https://cms.concept2.com/sites/default/files/2024-02/BIKE_ERG_BLACK_F3Q_1_1920px.png",
+      "batch": "gym"
+    },
+    {
+      "productId": "concept2-skierg-wall",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.concept2.com/ergs/skierg"
+        },
+        {
+          "label": "Warranty and returns",
+          "url": "https://www.concept2.com/support/skierg/skierg2/warranty"
+        }
+      ],
+      "imageSource": "https://cms.concept2.com/sites/default/files/2026-04/SkiErg.png",
+      "batch": "gym"
+    },
+    {
+      "productId": "concept2-strengtherg-pm5",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.concept2.com/ergs/strengtherg"
+        },
+        {
+          "label": "Warranty and returns",
+          "url": "https://www.concept2.com/support/strengtherg/warranty"
+        }
+      ],
+      "imageSource": "https://cms.concept2.com/sites/default/files/2026-07/StrErg_PM_profile.png",
+      "batch": "gym"
+    },
+    {
+      "productId": "rogue-echo-bike-v3",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.roguefitness.com/rogue-echo-bike"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://www.roguefitness.com/warranty"
+        }
+      ],
+      "imageSource": "https://assets.roguefitness.com/f_auto%2Cq_auto%2Cc_fill%2Cg_center%2Cw_768%2Ch_402%2Cb_rgb%3Af8f8f8/v1/catalog/Conditioning/Endurance%20/Bikes/ECHOBIKE/ECHOBIKE-H_t5871p.png",
+      "batch": "gym"
+    },
+    {
+      "productId": "rogue-echo-rower",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.roguefitness.com/rogue-echo-rower"
+        }
+      ],
+      "imageSource": "https://assets.roguefitness.com/f_auto%2Cq_auto%2Cc_limit%2Cw_828%2Cb_rgb%3Af8f8f8/catalog/Conditioning/Endurance%20/Echo%20Rower/On%20White%20Images/Rogue-Rower-web40_sdawcb.png",
+      "batch": "gym"
+    },
+    {
+      "productId": "rogue-rml390f-rack",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://www.roguefitness.com/warranty"
+        },
+        {
+          "label": "Assembly instructions",
+          "url": "https://assets.roguefitness.com/instructions/IS0097/IS0097_CUST_INSTR_V1"
+        }
+      ],
+      "imageSource": "https://assets.roguefitness.com/f_auto%2Cq_auto%2Cc_limit%2Cw_1600%2Cb_rgb%3Affffff/catalog/Rigs%20and%20Racks/Power%20Racks%20/Monster%20Lite%20Racks/XX12047/XX12047-h_r4wtbo_uyzuar.png",
+      "batch": "gym"
+    },
+    {
+      "productId": "titan-x3-flatfoot-82",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://titan.fitness/products/x3-series-flat-foot-power-rack?variant=47796663615765"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0802/1508/1237/files/401391_01.jpg?v=1763669490",
+      "batch": "gym"
+    },
+    {
+      "productId": "rep-arcadia-trainer",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://repfitness.com/products/arcadia-functional-trainer?variant=42771866648734"
+        },
+        {
+          "label": "Assembly manual",
+          "url": "https://repcustomerfiles.blob.core.windows.net/publicfiles/ArcadiaAssembly.pdf"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://repfitness.com/pages/warranty-information"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0574/1215/7598/files/FT3500-Studio-product-Thumbnail_jpg.jpg?v=1698271039",
+      "batch": "gym"
+    },
+    {
+      "productId": "rep-pepin-fast-125",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell?variant=43428954964126"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://repfitness.com/pages/warranty-information"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0574/1215/7598/files/pepin_-_LB_-_125_-_thumbnail.jpg?v=1772140421",
+      "batch": "gym"
+    },
+    {
+      "productId": "powerblock-pro100-exp",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells?variant=43064448286911"
+        },
+        {
+          "label": "Component warranty",
+          "url": "https://powerblock.com/pages/warranty"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0634/6774/9567/files/Pro_100_EXP_product_image.jpg?v=1769717450",
+      "batch": "gym"
+    },
+    {
+      "productId": "ironmaster-superbench-pro-v2",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://ironmaster.com/products/super-bench-pro-v2?variant=42986283040845"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://ironmaster.com/pages/warranty"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0700/6765/0637/files/1001-product-shot-new.jpg?v=1778714871",
+      "batch": "gym"
+    },
+    {
+      "productId": "bells-cable-tower-210",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://bellsofsteel.us/products/cable-tower?variant=45552311926981"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0654/3346/9125/files/stk-pult4-ma-set-revamp-01_d4dc79d5-634c-4a23-b012-ac20403625af.jpg?v=1775609030",
+      "batch": "gym"
+    },
+    {
+      "productId": "sole-f80-2026",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.soletreadmills.com/products/sole-f80-treadmill?variant=58071036363055"
+        },
+        {
+          "label": "Current-generation manual",
+          "url": "https://www.soletreadmills.com/cdn/shop/files/2026_F80_OM.pdf?v=5775505894866997471"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0768/0950/3023/files/SOLE-F80-20260318-15943_a6350b09-2c23-4191-bc95-18e2e82e950f.png?v=1782144249",
+      "batch": "gym"
+    },
+    {
+      "productId": "sole-e95-2026",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.soletreadmills.com/products/sole-e95?variant=58499635904815"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0768/0950/3023/files/e95-2026-01.png?v=1789761854",
+      "batch": "gym"
+    },
+    {
+      "productId": "horizon-74-at",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, configuration and specifications",
+          "url": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill?variant=52456611610899"
+        },
+        {
+          "label": "Specifications, delivery and warranty",
+          "url": "https://help.horizonfitness.com/hc/en-us/articles/53711698018452-Horizon-Fitness-7-4-AT-Treadmill-General-Information"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0930/5558/2483/files/7.4at-02_Hero_grey.jpg?v=1761179548",
+      "batch": "gym"
+    },
+    {
+      "productId": "osaki-op4d-ultima",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://osakimassagechair.com/products/osaki-op-4d-ultima?variant=44731729510708"
+        },
+        {
+          "label": "User manual and specifications",
+          "url": "https://cdn.shopify.com/s/files/1/0086/1297/0558/files/Ultima_User_Manual_warranty_h.pdf?v=1781209605"
+        },
+        {
+          "label": "Returns and fees",
+          "url": "https://osakimassagechair.com/pages/refund-policy"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-op-4d-ultima-black-645639.jpg?v=1787351150",
+      "batch": "tech"
+    },
+    {
+      "productId": "ogawa-masterdrive-ai2",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.ogawaworldusa.com/products/ogawa-master-drive-ai-2-0-massage-chair?variant=40431853699141"
+        },
+        {
+          "label": "Warranty terms",
+          "url": "https://www.ogawaworldusa.com/pages/warranty-information"
+        },
+        {
+          "label": "Returns and delivery fees",
+          "url": "https://www.ogawaworldusa.com/policies/refund-policy"
+        },
+        {
+          "label": "User and installation manuals",
+          "url": "https://www.ogawaworldusa.com/pages/manuals"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0553/7307/0405/products/ogawa-master-drive-2-black-black-3q.jpg?v=1668888741",
+      "batch": "tech"
+    },
+    {
+      "productId": "ogawa-masterdrive-duo",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.ogawaworldusa.com/products/ogawa-master-drive-duo-massage-chair?variant=40847157624901"
+        },
+        {
+          "label": "Warranty policy and coverage discrepancy",
+          "url": "https://www.ogawaworldusa.com/pages/warranty-information"
+        },
+        {
+          "label": "Returns and delivery fees",
+          "url": "https://www.ogawaworldusa.com/policies/refund-policy"
+        },
+        {
+          "label": "User and installation manuals",
+          "url": "https://www.ogawaworldusa.com/pages/manuals"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0553/7307/0405/files/ogawa-master-drive-duo-black-and-burgundy-3q.jpg?v=1701730064",
+      "batch": "tech"
+    },
+    {
+      "productId": "brookstone-mach-ix",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.ogawaworldusa.com/products/brookstone-mach-ix-massage-chair?variant=40856684658757"
+        },
+        {
+          "label": "Returns and delivery fees",
+          "url": "https://www.ogawaworldusa.com/policies/refund-policy"
+        },
+        {
+          "label": "Official manual",
+          "url": "https://cdn.shopify.com/s/files/1/0553/7307/0405/files/Brookstone-BK-750-Mach-1-Owners-Manual.pdf?v=1774562572"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0553/7307/0405/files/brookstone-mach-9-blue-45.jpg?v=1702068164",
+      "batch": "tech"
+    },
+    {
+      "productId": "infinity-genmax-4d",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://infinitymassagechairs.com/massage-chairs/details/Gen%20Max"
+        },
+        {
+          "label": "User manual",
+          "url": "https://res.cloudinary.com/infinity-massage-chairs/image/upload/v1729518351/manuals/UserManual_GenMax__v2.0_e8un38.pdf"
+        },
+        {
+          "label": "Warranty coverage",
+          "url": "https://infinitymassagechairs.com/warranty-info"
+        }
+      ],
+      "imageSource": "https://res.cloudinary.com/infinity-massage-chairs/image/upload/f_auto,q_auto:best/v1632169659/Infinity_Genesis_Max_Gray_Black_Hero_600x600_ufmd28.jpg",
+      "batch": "tech"
+    },
+    {
+      "productId": "luraco-i9-max-plus",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.usmassagechairs.com/product-page/irobotics-9-max-medical-massage-chair"
+        },
+        {
+          "label": "Current manufacturer manual",
+          "url": "https://luracochairs.com/wp-content/uploads/2026/02/i9-MAX-PLUS-SERIES-USER-MANUAL-ver2.pdf"
+        },
+        {
+          "label": "Warranty and return terms",
+          "url": "https://www.usmassagechairs.com/warranty"
+        }
+      ],
+      "imageSource": "https://static.wixstatic.com/media/2cb0cf_97f4461145694127bd50571a7847d1af~mv2.jpg",
+      "batch": "tech"
+    },
+    {
+      "productId": "mitopro-1500x",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://mitoredlight.com/products/mitopro-x-series?variant=45796723130536"
+        },
+        {
+          "label": "Warranty terms",
+          "url": "https://mitoredlight.com/pages/warranty"
+        },
+        {
+          "label": "Manuals and assembly",
+          "url": "https://mitoredlight.com/pages/user-manual"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0097/2986/7876/files/mitopro-x-red-light-therapy-panel-series-6517276.jpg?v=1776458689",
+      "batch": "tech"
+    },
+    {
+      "productId": "hooga-ultra1500",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://hoogahealth.com/products/ultra-1500"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://hoogahealth.com/pages/warranty"
+        },
+        {
+          "label": "Returns",
+          "url": "https://hoogahealth.com/policies/refund-policy"
+        },
+        {
+          "label": "ULTRA user manual",
+          "url": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/2025Ultra_Manual_InOrder.pdf?v=1758301012"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/1500.jpg?v=1775589829",
+      "batch": "tech"
+    },
+    {
+      "productId": "hooga-ultra4500",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://hoogahealth.com/products/ultra4500-red-light-therapy"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://hoogahealth.com/pages/warranty"
+        },
+        {
+          "label": "Returns",
+          "url": "https://hoogahealth.com/policies/refund-policy"
+        },
+        {
+          "label": "ULTRA user manual",
+          "url": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/2025Ultra_Manual_InOrder.pdf?v=1758301012"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/ULTRA4500_On_Vertical_Stand_2025.jpg?v=1790522461",
+      "batch": "tech"
+    },
+    {
+      "productId": "platinum-biomax900",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://platinumtherapylights.com/products/biomax-rlt?variant=15601444487234"
+        },
+        {
+          "label": "Warranty and returns",
+          "url": "https://platinumtherapylights.com/pages/warranty-refund"
+        }
+      ],
+      "imageSource": "https://platinumtherapylights.com/cdn/shop/files/BIOMAX-900_FRONT-v3_blue-and-red-lights-on_1_87650259-d911-487b-b80e-1b74fcf01874.png?v=1790272777",
+      "batch": "tech"
+    },
+    {
+      "productId": "joovv-solo3-boot",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://joovv.com/products/joovv-solo-3-0?variant=32072166146166"
+        },
+        {
+          "label": "Warranty",
+          "url": "https://joovv.com/pages/warranty"
+        },
+        {
+          "label": "Returns",
+          "url": "https://joovv.com/pages/returns"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/1155/1380/products/joovv-solo-3-0-setup-boot-001.jpg?v=1625254731",
+      "batch": "tech"
+    },
+    {
+      "productId": "theragun-pro-plus",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.therabody.com/products/theragun-pro-plus"
+        },
+        {
+          "label": "Warranty terms",
+          "url": "https://www.therabody.com/pages/warranty-terms"
+        },
+        {
+          "label": "Return policy",
+          "url": "https://www.therabody.com/pages/return-policy"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0671/4097/6867/files/Theragun-Pro-Plus-PLP-Thumbnail-1.png?v=1740016183",
+      "batch": "tech"
+    },
+    {
+      "productId": "therabody-jetboots-pro-plus",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://www.therabody.com/products/jetboots-pro-plus-regular"
+        },
+        {
+          "label": "Warranty terms",
+          "url": "https://www.therabody.com/pages/warranty-terms"
+        },
+        {
+          "label": "Return policy",
+          "url": "https://www.therabody.com/pages/return-policy"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0671/4097/6867/files/Jetboots-Pro-Plus-PLP-Thumbnail-1.png?v=1739878412",
+      "batch": "tech"
+    },
+    {
+      "productId": "hyperice-hypervolt3-pro",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product and selected configuration",
+          "url": "https://hyperice.com/products/hypervolt-3-pro"
+        },
+        {
+          "label": "Official specifications",
+          "url": "https://hyperice.zendesk.com/hc/en-us/articles/47603346454299-Specifications-Hypervolt-3-Pro"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0786/1852/5910/files/Hypervolt-3-Pro-pdp-1_f7a957aa-6b41-4754-a5c5-7a98f3f09b34.png?v=1780949692",
+      "batch": "tech"
+    },
+    {
+      "productId": "ht-mate-fleece-pocket-hoodie",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://matethelabel.com/products/organic-fleece-pocket-hoodie-leek"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0518/6281/files/251209_BC_MTL_CLN_CONF_03_ORGANIC_STRETCH_BIKER_SHORT_4_LAGOON_ORGANIC_FLEECE_POCKET_HOODIE_LEEK_0017_916b300e-b8c3-4edf-a1c5-4a02897a05fa.jpg?v=1767896414&width=1000",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-jungmaven-montauk-hoodie",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://jungmaven.com/products/hemp-sweatshirt-hooded-montauk"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/1123/4596/files/Montauk_Navy_1.jpg?v=1765224220&width=1000",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-organicbasics-weekend-halfzip",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://us.organicbasics.com/products/mens-weekend-half-zip-sweater-black"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0677/0340/6886/files/zwzi95tseracn0gkwxgt.jpg?v=1723531482&width=1000",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-vuori-seaside-fullzip",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://vuoriclothing.com/products/seaside-full-zip-hoodie-black"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0022/4008/6074/files/V2162BLK_FA26_M_LAYERS_DETAIL_9.png?v=1789682404&width=1000",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-momentous-whey-unflavored",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://www.livemomentous.com/products/essential-whey-protein"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/1400/2351/files/Whey-Protein_25-Serv_Unflavored.png?v=1782251788&width=1000",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-transparentlabs-whey-4lb",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://www.transparentlabs.com/products/whey-protein-isolate"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0866/7664/files/TL-237_WPI_55S_U_1_5.png?v=1778514724&width=1000",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-thorne-epa",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://www.thorne.com/products/dp/super-epa-pro-60-s-1"
+        }
+      ],
+      "imageSource": "https://d1vo8zfysxy97v.cloudfront.net/media/product/sp610__va6ff2d45812bc9a09fe40db6b5675e05d3a77e3d.png",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-thorne-citrate",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://www.thorne.com/products/dp/magnesium-citrate-m286"
+        }
+      ],
+      "imageSource": "https://d1vo8zfysxy97v.cloudfront.net/media/product/m286__v6af09fdb2e2857c96db390b4648855457bb42797.png",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-needed-hydration-lime",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://thisisneeded.com/products/hydration-support"
+        }
+      ],
+      "imageSource": "https://cdn.shopify.com/s/files/1/0195/3293/9328/files/HydrationSupport_Lime_StickPack_Transparent.png?v=1771539552&width=1000",
+      "batch": "parent"
+    },
+    {
+      "productId": "ht-eight-sleep-pod6-queen",
+      "checked": "2026-10-17",
+      "sources": [
+        {
+          "label": "Official product, selected option and specifications",
+          "url": "https://www.eightsleep.com/product/pod-cover/"
+        },
+        {
+          "label": "Warranty coverage and membership conditions",
+          "url": "https://www.eightsleep.com/warranty/"
+        },
+        {
+          "label": "Connection and setup requirements",
+          "url": "https://help.eightsleep.com/en_us/what-do-i-need-for-the-pod-to-work-rykoawtaS"
+        }
+      ],
+      "imageSource": "https://res.cloudinary.com/eightsleep/image/upload/c_crop,w_2824,h_1215,x_0,y_124/c_fill,g_auto,f_png,dpr_1.0,w_1000,h_430,q_85/v1789596959/pod6-intro-card-header-v2.png",
+      "batch": "parent"
+    }
+  ],
+  "researchNotes": {
+    "cold-heat": {
+      "checked": "2026-10-17",
+      "count": 16,
+      "method": "Official manufacturer pages, live Shopify product feeds and linked current model PDFs; selected variant verified. No checkout, signups or purchases. Images downloaded from official product media and visually inspected in two contact sheets.",
+      "commercialStatus": "All affiliate flags false. Public program availability is not enrollment or commission entitlement.",
+      "products": [
+        {
+          "id": "ht-plunge-plunge-air",
+          "checked": "2026-10-17",
+          "variantId": "45750075687069",
+          "feedPriceUSD": 5490.0,
+          "displayPriceUSD": 5490.0,
+          "availabilitySource": "https://plunge.com/products/plunge-air.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/Air_Standard.jpg?v=1764029137",
+          "imageFile": "work/high-ticket-assets/ht-plunge-plunge-air.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://plunge.com/products/plunge-air?variant=45750075687069"
+            }
+          ],
+          "caveats": [
+            "Chiller generation is not explicit in selected-variant title. Do not promise Pro chiller or 37°F minimum."
+          ]
+        },
+        {
+          "id": "ht-plunge-plunge",
+          "checked": "2026-10-17",
+          "variantId": "46130585108637",
+          "feedPriceUSD": 8490.0,
+          "displayPriceUSD": 6790,
+          "availabilitySource": "https://plunge.com/products/plunge.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/The_Plunge_Pro_Chiller_af334e0a-0cf8-4a16-8a25-296e45866bec.jpg?v=1774982298",
+          "imageFile": "work/high-ticket-assets/ht-plunge-plunge.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://plunge.com/products/plunge?variant=46130585108637"
+            }
+          ],
+          "caveats": [
+            "Live product HTML repeatedly displays $6,790 USD; raw Shopify variant is $8,490 before $1,700 automatic discount. Recheck after sale."
+          ]
+        },
+        {
+          "id": "ht-plunge-the-infrared-sauna",
+          "checked": "2026-10-17",
+          "variantId": "48137850912925",
+          "feedPriceUSD": 7690.0,
+          "displayPriceUSD": 7190,
+          "availabilitySource": "https://plunge.com/products/the-infrared-sauna.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/IR_Sauna_Standard.webp?v=1782793973",
+          "imageFile": "work/high-ticket-assets/ht-plunge-the-infrared-sauna.webp",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://plunge.com/products/the-infrared-sauna?variant=48137850912925"
+            },
+            {
+              "label": "Standard configuration and occupancy",
+              "url": "https://business.plunge.com/products/infrared-sauna-standard?redirect=infrared-sauna-pro"
+            }
+          ],
+          "caveats": [
+            "Use US live product price, not Canadian page currency. Raw feed $7,690; live advertised price $7,190. Standard lacks Pro red-light panel."
+          ]
+        },
+        {
+          "id": "ht-plunge-the-sauna-mini",
+          "checked": "2026-10-17",
+          "variantId": "46024564310173",
+          "feedPriceUSD": 12490.0,
+          "displayPriceUSD": 10620,
+          "availabilitySource": "https://plunge.com/products/the-sauna-mini.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0409/5626/4605/files/Sauna_Mini_562d478a-2a6b-4983-afd0-bc9f7cb37f83.png?v=1763410903",
+          "imageFile": "work/high-ticket-assets/ht-plunge-the-sauna-mini.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://plunge.com/products/the-sauna-mini?variant=46024564310173"
+            }
+          ],
+          "caveats": [
+            "Live advertised discount is $1,870 off $12,490 feed price. Essential power cord is not included; page offers optional cord separately."
+          ]
+        },
+        {
+          "id": "ht-sunhome-portable-cold-plunge-tub",
+          "checked": "2026-10-17",
+          "variantId": "48677668389057",
+          "feedPriceUSD": 3999.0,
+          "displayPriceUSD": 3999.0,
+          "availabilitySource": "https://sunhomesaunas.com/products/portable-cold-plunge-tub.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/24.8.12-SunhomeSuana4478_a7dd8ece-2d31-416d-a627-da56819b4b4a.jpg?v=1773276814",
+          "imageFile": "work/high-ticket-assets/ht-sunhome-portable-cold-plunge-tub.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://sunhomesaunas.com/products/portable-cold-plunge-tub?variant=48677668389057"
+            },
+            {
+              "label": "September 2026 model specification sheet",
+              "url": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-COLD_PLUNGE_HORIZONTAL-SPEC_SHEET-2026-09-14.pdf?v=1789436213"
+            },
+            {
+              "label": "Warranty coverage",
+              "url": "https://sunhomesaunas.com/pages/warranty-information"
+            }
+          ],
+          "caveats": [
+            "Do not set a person-capacity facet: manufacturer sources disagree. Use September 2026 model PDF for dimensions/power over older marketing copy."
+          ]
+        },
+        {
+          "id": "ht-sunhome-sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna",
+          "checked": "2026-10-17",
+          "variantId": "48850305351873",
+          "feedPriceUSD": 6999.0,
+          "displayPriceUSD": 6999.0,
+          "availabilitySource": "https://sunhomesaunas.com/products/sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/Amplify3_Eucalyptus_Front_1_1024x1024_7e5a7095-947d-4a24-afd9-ec08b76228da.png?v=1773276898",
+          "imageFile": "work/high-ticket-assets/ht-sunhome-sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://sunhomesaunas.com/products/sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna?variant=48850305351873"
+            },
+            {
+              "label": "October 2026 model specification sheet",
+              "url": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-EQUINOX_3-SPEC_SHEET-2026-10-06.pdf?v=1791325110"
+            },
+            {
+              "label": "Warranty coverage",
+              "url": "https://sunhomesaunas.com/pages/warranty-information"
+            }
+          ],
+          "caveats": [
+            "October 2026 specification explicitly says GFCI; supersedes older search snippets. Policy has prorated controls terms in years 2–3."
+          ]
+        },
+        {
+          "id": "ht-sunhome-5personoutdoorinfraredsauna",
+          "checked": "2026-10-17",
+          "variantId": "50149635948737",
+          "feedPriceUSD": 13899.0,
+          "displayPriceUSD": 13899.0,
+          "availabilitySource": "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/fix_luminar5_hero.png?v=1780546591",
+          "imageFile": "work/high-ticket-assets/ht-sunhome-5personoutdoorinfraredsauna.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna?variant=50149635948737"
+            },
+            {
+              "label": "September 2026 model specification sheet",
+              "url": "https://cdn.shopify.com/s/files/1/0570/7418/8481/files/SUN_HOME-LUMINAR_5-SPEC_SHEET-2026-09-14.pdf?v=1790034064"
+            },
+            {
+              "label": "Warranty for orders after March 2, 2026",
+              "url": "https://sunhomesaunas.com/pages/warranty-information"
+            }
+          ],
+          "caveats": [
+            "Do not claim optional red-light package is included. Limited lifetime does not cover all components, labor or freight."
+          ]
+        },
+        {
+          "id": "ht-icebarrel-ice-barrel-300-bundle",
+          "checked": "2026-10-17",
+          "variantId": "42387813105731",
+          "feedPriceUSD": 5149.98,
+          "displayPriceUSD": 5149.98,
+          "availabilitySource": "https://icebarrel.com/products/ice-barrel-300-bundle.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0593/8125/2163/files/IceBarrel_LargeImage_Chiller_Mobile_v2.jpg?v=1751031387",
+          "imageFile": "work/high-ticket-assets/ht-icebarrel-ice-barrel-300-bundle.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://icebarrel.com/products/ice-barrel-300-bundle?variant=42387813105731"
+            },
+            {
+              "label": "Barrel and chiller warranty",
+              "url": "https://icebarrel.com/pages/warranty"
+            }
+          ],
+          "caveats": [
+            "Do not display an unrestricted lifetime-warranty badge: policy limits barrel coverage to 3 years. Power facet omitted because circuit requirement is not confirmed."
+          ]
+        },
+        {
+          "id": "ht-inergize-inergize-cold-plunge-tub",
+          "checked": "2026-10-17",
+          "variantId": "47852806111465",
+          "feedPriceUSD": 2990.0,
+          "displayPriceUSD": 2990.0,
+          "availabilitySource": "https://inergizehealth.com/products/inergize-cold-plunge-tub.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0637/4506/5193/files/heroimageelitetub_chiller_tub_2.webp?v=1779632175",
+          "imageFile": "work/high-ticket-assets/ht-inergize-inergize-cold-plunge-tub.webp",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://inergizehealth.com/products/inergize-cold-plunge-tub?variant=47852806111465"
+            }
+          ],
+          "caveats": [
+            "Live HTML and variant both $2,990; cached search result $2,740 is stale. 30 in is interior depth, not a verified exterior height."
+          ]
+        },
+        {
+          "id": "ht-renu-cold-stoic-2-0",
+          "checked": "2026-10-17",
+          "variantId": "39974599786542",
+          "feedPriceUSD": 9499.0,
+          "displayPriceUSD": 9499.0,
+          "availabilitySource": "https://www.renutherapy.com/products/cold-stoic-2-0.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0250/3183/5694/files/product_cold_stoic_2__meterous_black_california_redwood.jpg?v=1779982775",
+          "imageFile": "work/high-ticket-assets/ht-renu-cold-stoic-2-0.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.renutherapy.com/products/cold-stoic-2-0?variant=39974599786542"
+            },
+            {
+              "label": "Residential limited warranty",
+              "url": "https://www.renutherapy.com/pages/renu-therapy-cold-plunge-tank-limited-warranty-home-use-only"
+            },
+            {
+              "label": "Model specification sheet",
+              "url": "https://cdn.shopify.com/s/files/1/0250/3183/5694/files/the_cold_stoic_2_cut_sheet.pdf?v=1781801811"
+            }
+          ],
+          "caveats": [
+            "Available means selected variant is orderable, not immediately shipping. Verify deck/color spelling against exact variant."
+          ]
+        },
+        {
+          "id": "ht-dynamic-dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge",
+          "checked": "2026-10-17",
+          "variantId": "46639140569237",
+          "feedPriceUSD": 7599.0,
+          "displayPriceUSD": 7599.0,
+          "availabilitySource": "https://dynamiccoldtherapy.com/products/dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0636/2598/6197/files/Firefly_RemoveBackground.png?v=1782932722",
+          "imageFile": "work/high-ticket-assets/ht-dynamic-dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://dynamiccoldtherapy.com/products/dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge?variant=46639140569237"
+            },
+            {
+              "label": "Selected 0.8 HP chiller specifications",
+              "url": "https://dynamiccoldtherapy.com/products/cold-plunge-chiller"
+            }
+          ],
+          "caveats": [
+            "Image shows barrel; selected price includes external chiller. Do not reuse generic FAQ 3A/4.5A figures that describe smaller compressors. Old July 4 local-delivery promotion not used."
+          ]
+        },
+        {
+          "id": "ht-almostheaven-salem-2-person-barrel-sauna",
+          "checked": "2026-10-17",
+          "variantId": "46268207300826",
+          "feedPriceUSD": 4485.0,
+          "displayPriceUSD": 4485.0,
+          "availabilitySource": "https://almostheaven.com/products/salem-2-person-barrel-sauna.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Salem_HT_White_BG_2048x2048_e8a5a203-eb46-40ae-a91a-f3be9e1d8655.jpg?v=1767386102",
+          "imageFile": "work/high-ticket-assets/ht-almostheaven-salem-2-person-barrel-sauna.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://almostheaven.com/products/salem-2-person-barrel-sauna?variant=46268207300826"
+            },
+            {
+              "label": "Warranty coverage",
+              "url": "https://almostheaven.com/pages/warranty"
+            },
+            {
+              "label": "Barrel assembly manual",
+              "url": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Barrel_Instruction_Manual_2024.pdf?v=1724266120"
+            }
+          ],
+          "caveats": []
+        },
+        {
+          "id": "ht-almostheaven-grayson-4-person-indoor-sauna",
+          "checked": "2026-10-17",
+          "variantId": "46268217458906",
+          "feedPriceUSD": 7255.0,
+          "displayPriceUSD": 7255.0,
+          "availabilitySource": "https://almostheaven.com/products/grayson-4-person-indoor-sauna.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Hybrid_Grayson_3.jpg?v=1742848403",
+          "imageFile": "work/high-ticket-assets/ht-almostheaven-grayson-4-person-indoor-sauna.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://almostheaven.com/products/grayson-4-person-indoor-sauna?variant=46268217458906"
+            },
+            {
+              "label": "Warranty coverage",
+              "url": "https://almostheaven.com/pages/warranty"
+            },
+            {
+              "label": "Grayson assembly manual",
+              "url": "https://cdn.shopify.com/s/files/1/0555/6355/0889/files/Rainelle_Grayson_Manual.pdf?v=1724343737"
+            }
+          ],
+          "caveats": []
+        },
+        {
+          "id": "ht-redwood-cabin-outdoor-sauna-4-person",
+          "checked": "2026-10-17",
+          "variantId": "53184721944890",
+          "feedPriceUSD": 6549.0,
+          "displayPriceUSD": 6549.0,
+          "availabilitySource": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_Cabin_Outdoor_Sauna_Angle_View.png?v=1765501812",
+          "imageFile": "work/high-ticket-assets/ht-redwood-cabin-outdoor-sauna-4-person.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person?variant=53184721944890"
+            },
+            {
+              "label": "Included default heater",
+              "url": "https://www.redwoodoutdoors.com/products/harvia-kip-wall-mounted-sauna-heater-bundle-6kw"
+            },
+            {
+              "label": "Wooden sauna warranty",
+              "url": "https://www.redwoodoutdoors.com/pages/warranty-saunas"
+            },
+            {
+              "label": "Harvia heater warranty",
+              "url": "https://www.redwoodoutdoors.com/pages/warranty-harvia-electric-heater"
+            }
+          ],
+          "caveats": [
+            "Current builder preselects bundled heater variant 51274508435770 with data-price 0. Heater feed available=true. This is a complete base kit, not a heater-excluded teaser price."
+          ]
+        },
+        {
+          "id": "ht-redwood-6-person-barrel-sauna",
+          "checked": "2026-10-17",
+          "variantId": "51858636996922",
+          "feedPriceUSD": 5549.0,
+          "displayPriceUSD": 5549.0,
+          "availabilitySource": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_6_Person_Barrel_Outdoor_Sauna_Front_Angle_View_1.jpg?v=1784160022",
+          "imageFile": "work/high-ticket-assets/ht-redwood-6-person-barrel-sauna.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna?variant=51858636996922"
+            },
+            {
+              "label": "Included default heater",
+              "url": "https://www.redwoodoutdoors.com/products/harvia-kip-wall-mounted-sauna-heater-bundle-6kw"
+            },
+            {
+              "label": "Wooden sauna warranty",
+              "url": "https://www.redwoodoutdoors.com/pages/warranty-saunas"
+            },
+            {
+              "label": "Harvia heater warranty",
+              "url": "https://www.redwoodoutdoors.com/pages/warranty-harvia-electric-heater"
+            }
+          ],
+          "caveats": [
+            "Default 6 kW bundled heater is included at zero additional cost; selected stock confirmed in live builder and heater feed."
+          ]
+        },
+        {
+          "id": "ht-redwood-alaskan-all-in-one-cold-plunge-kit",
+          "checked": "2026-10-17",
+          "variantId": "54040036639034",
+          "feedPriceUSD": 6999.0,
+          "displayPriceUSD": 6999.0,
+          "availabilitySource": "https://www.redwoodoutdoors.com/products/alaskan-all-in-one-cold-plunge-kit.js",
+          "available": true,
+          "imageSource": "https://cdn.shopify.com/s/files/1/0902/6260/2042/files/RedwoodOutdoors_Alaskan_All-In-One_Cold_Punge_Tub_Angle_View.jpg?v=1768337889",
+          "imageFile": "work/high-ticket-assets/ht-redwood-alaskan-all-in-one-cold-plunge-kit.jpg",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.redwoodoutdoors.com/products/alaskan-all-in-one-cold-plunge-kit?variant=54040036639034"
+            },
+            {
+              "label": "Tub warranty and freeze restrictions",
+              "url": "https://www.redwoodoutdoors.com/pages/warranty-cold-plunge-tubs"
+            },
+            {
+              "label": "Chiller warranty",
+              "url": "https://www.redwoodoutdoors.com/pages/warranty-chiller-systems"
+            }
+          ],
+          "caveats": [
+            "Selected Standard model is $6,999. Wi-Fi model is $1,000 more. Warranty freeze restriction is stricter than ambient minimum shorthand."
+          ]
+        }
+      ],
+      "affiliatePrograms": {
+        "plunge": {
+          "route": "https://plunge.com/pages/partnerships",
+          "status": "Public partnership application route found in official footer. No approved tracking link. Commission/cookie not confirmed."
+        },
+        "sun-home-saunas": {
+          "route": "https://sunhomesaunas.com/pages/become-an-affiliate",
+          "termsSource": "https://sunhomesaunas.com/blogs/help-center/common-questions",
+          "terms": "FAQ publishes 5% on saunas/plunges and 35-day cookie. Application page routes to Impact and requires approval. FAQ still mentions ShareASale; contract terms should control."
+        },
+        "ice-barrel": {
+          "status": "No public affiliate terms verified during this pass. Do not infer affiliation from merchant listing."
+        },
+        "inergize": {
+          "route": "https://inergizehealth.com/pages/affiliate-and-ambassador-program",
+          "application": "https://affiliates.inergizehealth.com/inergizehealth/register",
+          "terms": "Official page advertises 5%; hosted application advertises flat $150 Elite / $350 Spire with conflicting generic headings. Rate/customer discount require confirmation in accepted agreement."
+        },
+        "renu-therapy": {
+          "route": "https://app.impact.com/campaign-campaign-info-v2/Renu-Therapy.brand",
+          "status": "Official footer links to this Impact route. Commission and cookie not confirmed; no application submitted."
+        },
+        "dynamic-cold-therapy": {
+          "status": "No official affiliate route or terms verified during this pass."
+        },
+        "almost-heaven-saunas": {
+          "route": "https://almostheaven.com/pages/referral-program",
+          "status": "Consumer referral program is not verified cash affiliate eligibility. No commercial affiliate terms confirmed."
+        },
+        "redwood-outdoors": {
+          "route": "https://www.redwoodoutdoors.com/pages/affiliate",
+          "terms": "Public page advertises $250 per qualifying sale and $250 customer discount. Approval, eligible models, attribution window and final agreement not confirmed."
+        }
+      }
+    },
+    "gym": {
+      "checked": "2026-10-17",
+      "recordCount": 16,
+      "imageCount": 16,
+      "scope": "16 new gym products. Source/catalog/code untouched. No applications, purchases, communications or publication performed.",
+      "facts": [
+        "Prices are exact listed configurations; manufacturer product JSON used where obtainable. All records affiliate=false; no tracking links, scores or reviews invented.",
+        "All 16 local photographs were visually inspected. Images match the equipment; Rogue rack photo contains excluded barbell/plates, labeled in attributes.",
+        "Titan feed current price is $759.97, rather than stale $719.97 search result. Bells current 210 lb no-upright variant is $1,299.99, rather than stale indexed $1,315.99.",
+        "PowerBlock $977 shown by the indexed page is the 80 lb option. Its embedded exact 100 lb knurled variant is $1,196, includes expansion stages 2–4, available=true.",
+        "SOLE listings are the new 2026 F80/E95 generation; prior generations have different dimensions and specs."
+      ],
+      "inference": [
+        "The assortment creates comparisons across rowers, bikes, racks, cable trainers and adjustable dumbbells without duplicate variants of existing products. Higher prices alone do not establish commission revenue.",
+        "Prioritize Horizon partner qualification: its publicly stated 8% would equal $143.92 on a $1,799 eligible sale before refunds/exclusions. This is arithmetic, not approved or expected revenue."
+      ],
+      "assumptions": [
+        "US retail one-time purchases; no geographic taxes, financing, optional installation, extended warranty or paid software included. Indoor placement conservatively used for home gym equipment."
+      ],
+      "unknowns": [
+        "No user-specific approved affiliate links exist. Actual acceptance, net eligible orders and commission economics remain unknown.",
+        "SOLE F80 2026 exact circuit requirement not confirmed. Current 2026 manual is linked but web retrieval failed; no older-generation electrical requirements substituted.",
+        "REP PÉPIN HTML has an apparently incorrect generic technical table (1,000 lb capacity and 9.85 sq ft) inconsistent with dumbbells. It was excluded; record uses model-specific FAQ/description and leaves width/height unconfirmed.",
+        "REP Arcadia assembly manual is linked; mandatory floor anchoring could not be confirmed. No freestanding/no-anchor assertion made.",
+        "Rogue RML-390F numerical rated load was not confirmed; no capacity inferred from steel gauge. Frame/weld limited-lifetime coverage is stated, but warranty facet omitted because every accessory minimum is not established.",
+        "Concept2 RowErg has manufacturer-tested 500 lb and EN20957-7 300 lb limits; attribute preserves both. userCapacity uses the explicitly manufacturer-tested 500 lb value.",
+        "Bells cable travel lengths conflict between technical table and FAQ, so no cable-travel claim used. Wall-mount selected for no-back-upright configuration; anchors/install excluded.",
+        "PowerBlock and Concept2 direct resized image endpoints failed, but original official image/CDN files succeeded. No synthetic or substitute-product images used."
+      ],
+      "affiliatePrograms": [
+        {
+          "brandId": "horizon-fitness",
+          "url": "https://www.horizonfitness.com/pages/become-an-affiliate",
+          "publishedTerms": "8% commission; 30-day cookie; approval needed.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "titan-fitness",
+          "url": "https://titan.fitness/pages/affiliate-program",
+          "publishedTerms": "5% commission; 30-day cookie; Impact application and acceptance required.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "rogue-fitness",
+          "url": "https://www.roguefitness.com/rogue-affiliate-program",
+          "publishedTerms": "4% qualifying merchandise; exclusions, returns and approval apply. Attribution duration unconfirmed.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "rep-fitness",
+          "url": "https://repfitness.com/pages/affiliate-program-rep-fitness",
+          "publishedTerms": "Up to 5%; 21-day tracking. $100 payout minimum, $1,500 sales per rolling six months. Terms request advance notice of negative reviews and contain non-disparagement/termination language: assess fit with independent scoring before applying.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "bells-of-steel",
+          "url": "https://bellsofsteel.us/pages/affiliate-program",
+          "publishedTerms": "Program exists; percentage unpublished. Marketplace eligibility uncertain under content-creator/affiliate-marketing business restrictions.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "powerblock",
+          "url": "https://powerblock.com/pages/affiliate-registration",
+          "publishedTerms": "Application and approval required; percentage, cookie and payout terms not publicly confirmed.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "ironmaster",
+          "url": "https://ironmaster.com/pages/faq",
+          "publishedTerms": "FAQ references affiliate program; current enrollment route, rate and cookie unconfirmed.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "concept2",
+          "url": null,
+          "publishedTerms": "No direct sales-commission program confirmed from official sources. CrossFit affiliate pricing is gym pricing, not publisher commission.",
+          "activeAffiliation": false
+        },
+        {
+          "brandId": "sole-fitness",
+          "url": null,
+          "publishedTerms": "No current official direct publisher program terms confirmed. Third-party affiliate-directory rates not relied upon.",
+          "activeAffiliation": false
+        }
+      ],
+      "exclusions": [
+        {
+          "brand": "Force USA",
+          "products": [
+            "G6",
+            "G15",
+            "MyRack Folding"
+          ],
+          "reason": "Official feed available=false; pages retail-exclusive or sold out. No direct purchasable manufacturer configuration selected."
+        },
+        {
+          "brand": "Assault Fitness",
+          "products": [
+            "AssaultRunner Classic",
+            "AssaultRunner Pro",
+            "AssaultRunner Elite"
+          ],
+          "reason": "Current official treadmill shop marked sold out; not presented as purchasable inventory."
+        },
+        {
+          "brand": "Bowflex",
+          "products": [
+            "SelectTech 552",
+            "SelectTech 1090"
+          ],
+          "reason": "Excluded as requested; no recall-affected/discontinued models or assumed replacement eligibility used."
+        },
+        {
+          "brand": "REP Fitness",
+          "products": [
+            "PR-4000",
+            "Altitude"
+          ],
+          "reason": "Builder/base prices do not establish an exact complete rack configuration; no teaser price listed."
+        }
+      ],
+      "nextMove": "Merge the 16 records with component-level warranty and delivery exclusions, then pursue approved partner terms for qualified merchants before enabling monetized links.",
+      "killCriteria": "Do not enable commission claims for a merchant until approved terms and user tracking links exist. Refresh any unavailable, changed-price or changed-model listing before promotion.",
+      "records": [
+        {
+          "id": "concept2-rowerg-standard",
+          "price": 990,
+          "variant": "Standard legs / 14-inch seat / PM5",
+          "primarySource": "https://www.concept2.com/ergs/rowerg",
+          "variantSource": "https://www.concept2.com/ergs/rowerg",
+          "priceBasis": "USD $990; lower-48 shipping $55; tax extra. Tall-leg option excluded.",
+          "image": "/products/ht-concept2-rowerg.png",
+          "imageSource": "https://cms.concept2.com/sites/default/files/2024-02/RowERG_Standard_FlyFrontAngle_Gator_1920px.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.concept2.com/ergs/rowerg"
+            },
+            {
+              "label": "Warranty and returns",
+              "url": "https://www.concept2.com/support/indoor-rowers/rowerg/warranty"
+            }
+          ]
+        },
+        {
+          "id": "concept2-bikeerg-standard",
+          "price": 1100,
+          "variant": "Standard seat / PM5",
+          "primarySource": "https://www.concept2.com/ergs/bikeerg",
+          "variantSource": "https://www.concept2.com/ergs/bikeerg",
+          "priceBasis": "USD $1,100; delivery and tax additional as shown at checkout. Low-seat option excluded.",
+          "image": "/products/ht-concept2-bikeerg.png",
+          "imageSource": "https://cms.concept2.com/sites/default/files/2024-02/BIKE_ERG_BLACK_F3Q_1_1920px.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.concept2.com/ergs/bikeerg"
+            },
+            {
+              "label": "Warranty and returns",
+              "url": "https://www.concept2.com/support/bikeerg/warranty"
+            }
+          ]
+        },
+        {
+          "id": "concept2-skierg-wall",
+          "price": 850,
+          "variant": "Wall-mount configuration / PM5 / no floor stand",
+          "primarySource": "https://www.concept2.com/ergs/skierg",
+          "variantSource": "https://www.concept2.com/ergs/skierg",
+          "priceBasis": "USD $850; lower-48 shipping $55; tax and installation extra. Floor stand excluded.",
+          "image": "/products/ht-concept2-skierg.png",
+          "imageSource": "https://cms.concept2.com/sites/default/files/2026-04/SkiErg.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.concept2.com/ergs/skierg"
+            },
+            {
+              "label": "Warranty and returns",
+              "url": "https://www.concept2.com/support/skierg/skierg2/warranty"
+            }
+          ]
+        },
+        {
+          "id": "concept2-strengtherg-pm5",
+          "price": 1500,
+          "variant": "With Performance Monitor / device holder",
+          "primarySource": "https://www.concept2.com/ergs/strengtherg",
+          "variantSource": "https://www.concept2.com/ergs/strengtherg",
+          "priceBasis": "USD $1,500 with PM5. Shipping and tax extra; lower-priced monitor-free configuration excluded.",
+          "image": "/products/ht-concept2-strengtherg.png",
+          "imageSource": "https://cms.concept2.com/sites/default/files/2026-07/StrErg_PM_profile.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.concept2.com/ergs/strengtherg"
+            },
+            {
+              "label": "Warranty and returns",
+              "url": "https://www.concept2.com/support/strengtherg/warranty"
+            }
+          ]
+        },
+        {
+          "id": "rogue-echo-bike-v3",
+          "price": 945,
+          "variant": "V3.0 / standard connected LCD console",
+          "primarySource": "https://www.roguefitness.com/rogue-echo-bike",
+          "variantSource": "https://www.roguefitness.com/rogue-echo-bike",
+          "priceBasis": "USD $945; free shipping advertised; tax extra.",
+          "image": "/products/ht-rogue-echo-bike.jpg",
+          "imageSource": "https://assets.roguefitness.com/f_auto%2Cq_auto%2Cc_fill%2Cg_center%2Cw_768%2Ch_402%2Cb_rgb%3Af8f8f8/v1/catalog/Conditioning/Endurance%20/Bikes/ECHOBIKE/ECHOBIKE-H_t5871p.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.roguefitness.com/rogue-echo-bike"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://www.roguefitness.com/warranty"
+            }
+          ]
+        },
+        {
+          "id": "rogue-echo-rower",
+          "price": 925,
+          "variant": "Standard Echo Rower / LCD console",
+          "primarySource": "https://www.roguefitness.com/rogue-echo-rower",
+          "variantSource": "https://www.roguefitness.com/rogue-echo-rower",
+          "priceBasis": "USD $925; free lower-48 shipping. Tax extra; optional apps/programming may cost more.",
+          "image": "/products/ht-rogue-echo-rower.jpg",
+          "imageSource": "https://assets.roguefitness.com/f_auto%2Cq_auto%2Cc_limit%2Cw_828%2Cb_rgb%3Af8f8f8/catalog/Conditioning/Endurance%20/Echo%20Rower/On%20White%20Images/Rogue-Rower-web40_sdawcb.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.roguefitness.com/rogue-echo-rower"
+            }
+          ],
+          "assetRevision": "Replaced marketing collage with official complete Echo Rower product photo on plain white background; visually inspected 2026-10-17."
+        },
+        {
+          "id": "rogue-rml390f-rack",
+          "price": 935,
+          "variant": "Complete rack / Single Skinny pull-up bar / no barbell, bench or plates",
+          "primarySource": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+          "variantSource": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+          "priceBasis": "USD $935; free shipping advertised; tax extra. Barbell, plates and bench excluded.",
+          "image": "/products/ht-rogue-rml390f.jpg",
+          "imageSource": "https://assets.roguefitness.com/f_auto%2Cq_auto%2Cc_limit%2Cw_1600%2Cb_rgb%3Affffff/catalog/Rigs%20and%20Racks/Power%20Racks%20/Monster%20Lite%20Racks/XX12047/XX12047-h_r4wtbo_uyzuar.png",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://www.roguefitness.com/warranty"
+            },
+            {
+              "label": "Assembly instructions",
+              "url": "https://assets.roguefitness.com/instructions/IS0097/IS0097_CUST_INSTR_V1"
+            }
+          ]
+        },
+        {
+          "id": "titan-x3-flatfoot-82",
+          "price": 759.97,
+          "variant": "82-inch height / no weight plate holders / SKU 401391",
+          "primarySource": "https://titan.fitness/products/x3-series-flat-foot-power-rack",
+          "variantSource": "https://titan.fitness/products/x3-series-flat-foot-power-rack?variant=47796663615765",
+          "priceBasis": "USD $759.97 current manufacturer variant price; free shipping advertised; tax extra.",
+          "image": "/products/ht-titan-x3.jpg",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0802/1508/1237/files/401391_01.jpg?v=1763669490",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://titan.fitness/products/x3-series-flat-foot-power-rack?variant=47796663615765"
+            }
+          ]
+        },
+        {
+          "id": "rep-arcadia-trainer",
+          "price": 2199.99,
+          "variant": "Standard dual 170 lb stacks / no stack upgrade",
+          "primarySource": "https://repfitness.com/products/arcadia-functional-trainer",
+          "variantSource": "https://repfitness.com/products/arcadia-functional-trainer?variant=42771866648734",
+          "priceBasis": "USD $2,199.99; advertised free shipping; tax and optional installation extra.",
+          "image": "/products/ht-rep-arcadia.jpg",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0574/1215/7598/files/FT3500-Studio-product-Thumbnail_jpg.jpg?v=1698271039",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://repfitness.com/products/arcadia-functional-trainer?variant=42771866648734"
+            },
+            {
+              "label": "Assembly manual",
+              "url": "https://repcustomerfiles.blob.core.windows.net/publicfiles/ArcadiaAssembly.pdf"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://repfitness.com/pages/warranty-information"
+            }
+          ]
+        },
+        {
+          "id": "rep-pepin-fast-125",
+          "price": 1499.99,
+          "variant": "125 lb pair / LB version",
+          "primarySource": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell",
+          "variantSource": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell?variant=43428954964126",
+          "priceBasis": "USD $1,499.99 for the 125 lb pair; shipping advertised free; tax extra. Storage stand excluded.",
+          "image": "/products/ht-rep-pepin125.jpg",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0574/1215/7598/files/pepin_-_LB_-_125_-_thumbnail.jpg?v=1772140421",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell?variant=43428954964126"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://repfitness.com/pages/warranty-information"
+            }
+          ]
+        },
+        {
+          "id": "powerblock-pro100-exp",
+          "price": 1196,
+          "variant": "Knurled / 100 LBS / expansion stages 2–4 included",
+          "primarySource": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells",
+          "variantSource": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells?variant=43064448286911",
+          "priceBasis": "USD $1,196 pair, knurled grips; free shipping advertised. Stand and attachments excluded; tax extra.",
+          "image": "/products/ht-powerblock-pro100.jpg",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0634/6774/9567/files/Pro_100_EXP_product_image.jpg?v=1769717450",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells?variant=43064448286911"
+            },
+            {
+              "label": "Component warranty",
+              "url": "https://powerblock.com/pages/warranty"
+            }
+          ]
+        },
+        {
+          "id": "ironmaster-superbench-pro-v2",
+          "price": 449,
+          "variant": "PRO V2 bench / standard pad and incline seat",
+          "primarySource": "https://ironmaster.com/products/super-bench-pro-v2",
+          "variantSource": "https://ironmaster.com/products/super-bench-pro-v2?variant=42986283040845",
+          "priceBasis": "USD $449; continental-US shipping advertised free. Attachments and weights excluded; checkout determines taxes.",
+          "image": "/products/ht-ironmaster-bench.jpg",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0700/6765/0637/files/1001-product-shot-new.jpg?v=1778714871",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://ironmaster.com/products/super-bench-pro-v2?variant=42986283040845"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://ironmaster.com/pages/warranty"
+            }
+          ]
+        },
+        {
+          "id": "bells-cable-tower-210",
+          "price": 1299.99,
+          "variant": "210 lb weight stack / without back upright / 80.75-inch",
+          "primarySource": "https://bellsofsteel.us/products/cable-tower",
+          "variantSource": "https://bellsofsteel.us/products/cable-tower?variant=45552311926981",
+          "priceBasis": "USD $1,299.99 for selected variant; free shipping advertised; tax extra.",
+          "image": "/products/ht-bos-tower210.jpg",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0654/3346/9125/files/stk-pult4-ma-set-revamp-01_d4dc79d5-634c-4a23-b012-ac20403625af.jpg?v=1775609030",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://bellsofsteel.us/products/cable-tower?variant=45552311926981"
+            }
+          ]
+        },
+        {
+          "id": "sole-f80-2026",
+          "price": 1499.99,
+          "variant": "2026 model / standard equipment / curbside delivery extra",
+          "primarySource": "https://www.soletreadmills.com/products/sole-f80-treadmill",
+          "variantSource": "https://www.soletreadmills.com/products/sole-f80-treadmill?variant=58071036363055",
+          "priceBasis": "USD $1,499.99 sale; curbside $49.99, tax extra. Room delivery/assembly upgrades cost more.",
+          "image": "/products/ht-sole-f80.png",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0768/0950/3023/files/SOLE-F80-20260318-15943_a6350b09-2c23-4191-bc95-18e2e82e950f.png?v=1782144249",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.soletreadmills.com/products/sole-f80-treadmill?variant=58071036363055"
+            },
+            {
+              "label": "Current-generation manual",
+              "url": "https://www.soletreadmills.com/cdn/shop/files/2026_F80_OM.pdf?v=5775505894866997471"
+            }
+          ]
+        },
+        {
+          "id": "sole-e95-2026",
+          "price": 2199.99,
+          "variant": "2026 E95 / standard equipment / curbside delivery extra",
+          "primarySource": "https://www.soletreadmills.com/products/sole-e95",
+          "variantSource": "https://www.soletreadmills.com/products/sole-e95?variant=58499635904815",
+          "priceBasis": "USD $2,199.99 sale; curbside $99.99, tax extra. Delivery upgrades and assembly cost more.",
+          "image": "/products/ht-sole-e95.png",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0768/0950/3023/files/e95-2026-01.png?v=1789761854",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.soletreadmills.com/products/sole-e95?variant=58499635904815"
+            }
+          ]
+        },
+        {
+          "id": "horizon-74-at",
+          "price": 1799,
+          "variant": "7.4 AT / SKU HTM1380-01",
+          "primarySource": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill",
+          "variantSource": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill?variant=52456611610899",
+          "priceBasis": "USD $1,799; tax and selected delivery/assembly charges at checkout. Promotional shipping may change.",
+          "image": "/products/ht-horizon74.jpg",
+          "imageSource": "https://cdn.shopify.com/s/files/1/0930/5558/2483/files/7.4at-02_Hero_grey.jpg?v=1761179548",
+          "imageInspected": true,
+          "sources": [
+            {
+              "label": "Official product, configuration and specifications",
+              "url": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill?variant=52456611610899"
+            },
+            {
+              "label": "Specifications, delivery and warranty",
+              "url": "https://help.horizonfitness.com/hc/en-us/articles/53711698018452-Horizon-Fitness-7-4-AT-Treadmill-General-Information"
+            }
+          ]
+        }
+      ]
+    },
+    "tech": {
+      "checked": "2026-10-17",
+      "scope": "14 new products: 6 chairs, 5 light panels, 2 percussion devices and 1 compression pair. Bounded research only; shared catalog/app not edited.",
+      "commercialStatus": "All affiliate flags false. No user-specific approved tracking links are known. Public affiliate programs are application/engagement leads, not proof of present commission eligibility. No account registration, purchase, contact or enrollment performed.",
+      "method": "Official US product pages, public official commerce configuration feeds, manufacturer manuals, warranty/return policies and official affiliate routes. Stripe Directory first layer unavailable in parent; primary-source research fallback. Raw sources preserved under work/high-ticket-pages.",
+      "limitations": "Prices and availability are a checked-date snapshot. No independent testing, certification endorsement, Trust Standards score, customer-review rating, medical outcome claim, or treatment dosage added.",
+      "affiliatePrograms": {
+        "osaki": {
+          "route": "https://af.uppromote.com/osakimassagechair/register",
+          "publishedCommission": "Platform registration page advertises 10% referral commission.",
+          "cookie": "Not confirmed.",
+          "status": "Platform-hosted program located; an official-domain cross-link was not independently confirmed. Treat as a research lead, not an approved relationship."
+        },
+        "ogawa": {
+          "route": "https://www.ogawaworldusa.com/",
+          "publishedCommission": "Not confirmed.",
+          "cookie": "Not confirmed.",
+          "status": "No public affiliate program route confirmed in examined official sources; do not infer that no program exists."
+        },
+        "brookstone": {
+          "route": "https://www.ogawaworldusa.com/",
+          "publishedCommission": "Not confirmed.",
+          "cookie": "Not confirmed.",
+          "status": "Product is sold by Ogawa World USA. Affiliate program for this merchant was not confirmed."
+        },
+        "infinity": {
+          "route": "https://infinitymassagechairs.com/",
+          "publishedCommission": "Not confirmed.",
+          "cookie": "Not confirmed.",
+          "status": "Official manufacturer site and dealer route identified; a dealer relationship is not equivalent to an affiliate program."
+        },
+        "luraco": {
+          "route": "https://www.usmassagechairs.com/",
+          "publishedCommission": "Not confirmed.",
+          "cookie": "Not confirmed.",
+          "status": "Official Luraco shop identified; public affiliate program not confirmed."
+        },
+        "mito-red-light": {
+          "route": "https://mitoredlight.com/pages/partners",
+          "publishedCommission": "Not publicly specified on the examined partner page.",
+          "cookie": "Not publicly specified.",
+          "status": "Official page provides separate creator, press/editorial and publisher routes. Application/acceptance required; no application submitted."
+        },
+        "hooga": {
+          "route": "https://hoogahealth.goaffpro.com/",
+          "officialLinkSource": "https://hoogahealth.com/products/ultra-1500",
+          "publishedCommission": "Program page advertises 8% on qualifying referrals (also describes 8% or more).",
+          "cookie": "Not confirmed.",
+          "status": "Official product/footer links to GoAffPro program. Organic-traffic conditions and coupon-site exclusions apply. No application submitted."
+        },
+        "platinumled": {
+          "route": "https://platinumtherapylights.com/pages/help-center",
+          "publishedCommission": "Help center describes a 5% cash affiliate commission.",
+          "cookie": "Not confirmed.",
+          "status": "Separate from its customer $50 gift-card referral offer; do not confuse gift cards with cash commissions. No application submitted."
+        },
+        "joovv": {
+          "route": "https://joovv.com/pages/learn-about-affiliate-program",
+          "publishedCommission": "Not publicly specified on the examined page.",
+          "cookie": "Not publicly specified.",
+          "status": "Official application route found; no application submitted."
+        },
+        "therabody": {
+          "route": "https://www.therabody.com/pages/affiliates",
+          "publishedCommission": "Not publicly specified on the examined page.",
+          "cookie": "Not publicly specified.",
+          "status": "Official page routes creators through ShopMy and press/professional affiliates through Impact. No application submitted."
+        },
+        "hyperice": {
+          "route": "https://hyperice.com/pages/about-us",
+          "publishedCommission": "Not publicly specified on the examined official page.",
+          "cookie": "Not publicly specified.",
+          "status": "Official About page exposes an affiliate-program Learn More route; no application submitted."
+        }
+      },
+      "products": [
+        {
+          "id": "osaki-op4d-ultima",
+          "name": "OP-4D Ultima",
+          "priceUSD": 4999,
+          "configuration": "Black / free curbside / 5-year coverage option",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://osakimassagechair.com/products/osaki-op-4d-ultima?variant=44731729510708"
+            },
+            {
+              "label": "User manual and specifications",
+              "url": "https://cdn.shopify.com/s/files/1/0086/1297/0558/files/Ultima_User_Manual_warranty_h.pdf?v=1781209605"
+            },
+            {
+              "label": "Returns and fees",
+              "url": "https://osakimassagechair.com/pages/refund-policy"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-osaki-ultima-black.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/0727/1609/1700/files/osaki-op-4d-ultima-black-645639.jpg?v=1787351150",
+            "visuallyInspected": true
+          },
+          "feed": "https://osakimassagechair.com/products/osaki-op-4d-ultima.js",
+          "variantId": 44731729510708,
+          "availability": "Official Shopify variant available=true. Black / Free Curbside / 5-year coverage (3 full + 2 parts).",
+          "notes": [
+            "Official merchant is Titan World/Titan Chair LLC, operator of Osaki shop.",
+            "Product embeds its detailed specifications from https://ota-shawn.github.io/Products/Osaki/Osaki%20OP-4D%20Ultima.html ; manual also checked.",
+            "Height range not confirmed. Return policy is ambiguous about start of 30-day window; record asks buyer to confirm."
+          ]
+        },
+        {
+          "id": "ogawa-masterdrive-ai2",
+          "name": "Master Drive AI 2.0",
+          "priceUSD": 6999.99,
+          "configuration": "Black / new chair",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.ogawaworldusa.com/products/ogawa-master-drive-ai-2-0-massage-chair?variant=40431853699141"
+            },
+            {
+              "label": "Warranty terms",
+              "url": "https://www.ogawaworldusa.com/pages/warranty-information"
+            },
+            {
+              "label": "Returns and delivery fees",
+              "url": "https://www.ogawaworldusa.com/policies/refund-policy"
+            },
+            {
+              "label": "User and installation manuals",
+              "url": "https://www.ogawaworldusa.com/pages/manuals"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-ogawa-ai2-black.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/0553/7307/0405/products/ogawa-master-drive-2-black-black-3q.jpg?v=1668888741",
+            "visuallyInspected": true
+          },
+          "feed": "https://www.ogawaworldusa.com/products/ogawa-master-drive-ai-2-0-massage-chair.js",
+          "variantId": 40431853699141,
+          "availability": "Black available=true; new chair, not certified renewed.",
+          "notes": [
+            "Product and warranty policy agree: 3 years service/parts/labor; 5 years structural frame."
+          ]
+        },
+        {
+          "id": "ogawa-masterdrive-duo",
+          "name": "Master Drive DUO",
+          "priceUSD": 6499.99,
+          "configuration": "Black & Burgundy / new chair",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.ogawaworldusa.com/products/ogawa-master-drive-duo-massage-chair?variant=40847157624901"
+            },
+            {
+              "label": "Warranty policy and coverage discrepancy",
+              "url": "https://www.ogawaworldusa.com/pages/warranty-information"
+            },
+            {
+              "label": "Returns and delivery fees",
+              "url": "https://www.ogawaworldusa.com/policies/refund-policy"
+            },
+            {
+              "label": "User and installation manuals",
+              "url": "https://www.ogawaworldusa.com/pages/manuals"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-ogawa-duo-burgundy.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/0553/7307/0405/files/ogawa-master-drive-duo-black-and-burgundy-3q.jpg?v=1701730064",
+            "visuallyInspected": true
+          },
+          "feed": "https://www.ogawaworldusa.com/products/ogawa-master-drive-duo-massage-chair.js",
+          "variantId": 40847157624901,
+          "availability": "Black & Burgundy available=true; other colors in inspected feed unavailable.",
+          "notes": [
+            "Product table states 1-year in-home / 3-year parts / 5-year frame. General warranty policy states 3-year service/parts/labor for DUO. Display conflict and conservative 1-year warranty facet; do not silently promise three years labor."
+          ]
+        },
+        {
+          "id": "brookstone-mach-ix",
+          "name": "Mach IX (BK-750)",
+          "priceUSD": 2999.99,
+          "configuration": "Blue & Black / clearance",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.ogawaworldusa.com/products/brookstone-mach-ix-massage-chair?variant=40856684658757"
+            },
+            {
+              "label": "Returns and delivery fees",
+              "url": "https://www.ogawaworldusa.com/policies/refund-policy"
+            },
+            {
+              "label": "Official manual",
+              "url": "https://cdn.shopify.com/s/files/1/0553/7307/0405/files/Brookstone-BK-750-Mach-1-Owners-Manual.pdf?v=1774562572"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-brookstone-mach-blue.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/0553/7307/0405/files/brookstone-mach-9-blue-45.jpg?v=1702068164",
+            "visuallyInspected": true
+          },
+          "feed": "https://www.ogawaworldusa.com/products/brookstone-mach-ix-massage-chair.js",
+          "variantId": 40856684658757,
+          "availability": "Blue & Black available=true; clearance product; displayed selling price $2,999.99.",
+          "notes": [
+            "Merchant is Ogawa World USA, clearly named on listing.",
+            "Do not apply an additional 50% off the feed price based on the clearance marketing banner.",
+            "Product table states 3-year in-home/parts. Record instructs buyer to confirm clearance-unit coverage.",
+            "Linked BK-750 manual filename says Mach-1, but is the official manuals-hub link for Mach IX BK-750."
+          ]
+        },
+        {
+          "id": "infinity-genmax-4d",
+          "name": "Gen Max 4D",
+          "priceUSD": 12999,
+          "configuration": "Gray / Black",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://infinitymassagechairs.com/massage-chairs/details/Gen%20Max"
+            },
+            {
+              "label": "User manual",
+              "url": "https://res.cloudinary.com/infinity-massage-chairs/image/upload/v1729518351/manuals/UserManual_GenMax__v2.0_e8un38.pdf"
+            },
+            {
+              "label": "Warranty coverage",
+              "url": "https://infinitymassagechairs.com/warranty-info"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-infinity-genmax-gray.jpg",
+            "url": "https://res.cloudinary.com/infinity-massage-chairs/image/upload/f_auto,q_auto:best/v1632169659/Infinity_Genesis_Max_Gray_Black_Hero_600x600_ufmd28.jpg",
+            "visuallyInspected": true
+          },
+          "availability": "Official page offers Add to Cart at $12,999 and marks Limited Availability.",
+          "notes": [
+            "Official product page lists dimensions 66x35x48 upright / 80x35x36 reclined and fit 300 lb, 64–81 in tall.",
+            "Manual page 29 rendered and visually inspected: 110–120V, 1.55A, 160W, 300 lb max. Manual net/shipping weights appear inverted (323/225); these are not repeated in public record.",
+            "Product page 2-inch rear clearance conflicts with manual 4-inch rear clearance. Record uses manual 4-inch rear / 24-inch front and discloses discrepancy.",
+            "Delivery/assembly inclusions and current return fees not confirmed."
+          ]
+        },
+        {
+          "id": "luraco-i9-max-plus",
+          "name": "i9 Max PLUS",
+          "priceUSD": 13490,
+          "configuration": "Cream / standard edition / no optional features / free curbside",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.usmassagechairs.com/product-page/irobotics-9-max-medical-massage-chair"
+            },
+            {
+              "label": "Current manufacturer manual",
+              "url": "https://luracochairs.com/wp-content/uploads/2026/02/i9-MAX-PLUS-SERIES-USER-MANUAL-ver2.pdf"
+            },
+            {
+              "label": "Warranty and return terms",
+              "url": "https://www.usmassagechairs.com/warranty"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-luraco-i9max-plus.jpg",
+            "url": "https://static.wixstatic.com/media/2cb0cf_97f4461145694127bd50571a7847d1af~mv2.jpg",
+            "visuallyInspected": true
+          },
+          "availability": "Official Wix configuration options [6,25,12] (Cream, no additional features, Free Curbside), variant 6a898199-a381-4aee-bffc-2f916bcfc873, is visible and in_stock. Displayed discounted price $13,490; regular price $15,490.",
+          "notes": [
+            "Use Cream to match the inspected official photo. URL has no reliable per-configuration deeplink; listing tells buyer which options to choose.",
+            "Manufacturer manual dated 2026 supplies fit, dimensions, approximately 200W maximum consumption, coverage and 310lb chair weight.",
+            "Input voltage not confirmed; no 120V power facet added. Upright length and reclined height unknown.",
+            "No medical-efficacy claims copied from product name or marketing."
+          ]
+        },
+        {
+          "id": "mitopro-1500x",
+          "name": "MitoPRO 1500X",
+          "priceUSD": 1299,
+          "configuration": "One MitoPRO 1500X panel",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://mitoredlight.com/products/mitopro-x-series?variant=45796723130536"
+            },
+            {
+              "label": "Warranty terms",
+              "url": "https://mitoredlight.com/pages/warranty"
+            },
+            {
+              "label": "Manuals and assembly",
+              "url": "https://mitoredlight.com/pages/user-manual"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-mitopro1500x.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/0097/2986/7876/files/mitopro-x-red-light-therapy-panel-series-6517276.jpg?v=1776458689",
+            "visuallyInspected": true
+          },
+          "feed": "https://mitoredlight.com/products/mitopro-x-series.js",
+          "variantId": 45796723130536,
+          "availability": "1500X available=true at $1,299.",
+          "notes": [
+            "300 dual-chip packages means 300 LEDs and 600 chips, not 600 LEDs.",
+            "43x10 inches are panel height/width; depth not confirmed. 445W consumption confirmed; input voltage not confirmed.",
+            "Included mounting hardware not fully confirmed; stand excluded."
+          ]
+        },
+        {
+          "id": "hooga-ultra1500",
+          "name": "ULTRA1500",
+          "priceUSD": 1399,
+          "configuration": "One ULTRA1500 panel / stand excluded",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://hoogahealth.com/products/ultra-1500"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://hoogahealth.com/pages/warranty"
+            },
+            {
+              "label": "Returns",
+              "url": "https://hoogahealth.com/policies/refund-policy"
+            },
+            {
+              "label": "ULTRA user manual",
+              "url": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/2025Ultra_Manual_InOrder.pdf?v=1758301012"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-hooga-ultra1500.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/1500.jpg?v=1775589829",
+            "visuallyInspected": true
+          },
+          "feed": "https://hoogahealth.com/products/ultra-1500.js",
+          "variantId": 43984599810295,
+          "availability": "Default panel available=true at $1,399.",
+          "notes": [
+            "Comparison table gives 478.5W power consumption; technical section separately calls 525W output. Record preserves labels rather than treating them as interchangeable.",
+            "Four wavelengths; no irradiance or dosage claims included."
+          ]
+        },
+        {
+          "id": "hooga-ultra4500",
+          "name": "ULTRA4500",
+          "priceUSD": 3999,
+          "configuration": "One ULTRA4500 panel / required stand sold separately",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://hoogahealth.com/products/ultra4500-red-light-therapy"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://hoogahealth.com/pages/warranty"
+            },
+            {
+              "label": "Returns",
+              "url": "https://hoogahealth.com/policies/refund-policy"
+            },
+            {
+              "label": "ULTRA user manual",
+              "url": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/2025Ultra_Manual_InOrder.pdf?v=1758301012"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-hooga-ultra4500.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/ULTRA4500_On_Vertical_Stand_2025.jpg?v=1790522461",
+            "visuallyInspected": true
+          },
+          "feed": "https://hoogahealth.com/products/ultra4500-red-light-therapy.js",
+          "variantId": 49245788307703,
+          "availability": "Default panel available=true at $3,999.",
+          "notes": [
+            "Required compatible stand is sold separately. Official hero visibly includes a stand, so description, badge, Included and Price basis all disclose stand exclusion.",
+            "Comparison table gives 1,095W consumption; technical section calls 1,250W output. Both labels retained.",
+            "Alternative photos are mostly marketing infographics, so keep the inspected clean product hero and explicit stand disclosure."
+          ]
+        },
+        {
+          "id": "platinum-biomax900",
+          "name": "BIOMAX 900",
+          "priceUSD": 1299,
+          "configuration": "BIOMAX 900 / one panel",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://platinumtherapylights.com/products/biomax-rlt?variant=15601444487234"
+            },
+            {
+              "label": "Warranty and returns",
+              "url": "https://platinumtherapylights.com/pages/warranty-refund"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-biomax900.png",
+            "url": "https://platinumtherapylights.com/cdn/shop/files/BIOMAX-900_FRONT-v3_blue-and-red-lights-on_1_87650259-d911-487b-b80e-1b74fcf01874.png?v=1790272777",
+            "visuallyInspected": true
+          },
+          "feed": "https://platinumtherapylights.com/products/biomax-rlt.js",
+          "variantId": 15601444487234,
+          "availability": "BIOMAX 900 available=true at $1,299.",
+          "notes": [
+            "Full wavelength list confirmed in product FAQ: separate 480nm; red630/660; NIR810/830/850/1060. Comparison heading omits850 while claiming7, so FAQ resolves omission.",
+            "380/490W and paired amperage values are unexplained in the specification table; do not pick one as an absolute operating draw.",
+            "Remote type conflicts between comparison/basic and marketing/touchscreen; public record says remote included, confirm version.",
+            "Clean exact-model PNG extracted from official page comparison image. Marketing hero with physician-endorsement text is not used.",
+            "60-day returns incur20% restocking and return shipping; accessory purchases final sale."
+          ]
+        },
+        {
+          "id": "joovv-solo3-boot",
+          "name": "Solo 3.0 + Boot Floor Stand",
+          "priceUSD": 1699,
+          "configuration": "Solo 3.0 / Boot Floor Stand",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://joovv.com/products/joovv-solo-3-0?variant=32072166146166"
+            },
+            {
+              "label": "Warranty",
+              "url": "https://joovv.com/pages/warranty"
+            },
+            {
+              "label": "Returns",
+              "url": "https://joovv.com/pages/returns"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-joovv-solo-boot.jpg",
+            "url": "https://cdn.shopify.com/s/files/1/1155/1380/products/joovv-solo-3-0-setup-boot-001.jpg?v=1625254731",
+            "visuallyInspected": true
+          },
+          "feed": "https://joovv.com/products/joovv-solo-3-0.js",
+          "variantId": 32072166146166,
+          "availability": "Default SKU LIB-MOD-01-BO available=true at $1,699. Embedded Solo/Boot setup object also $1,699.",
+          "notes": [
+            "Selected setup is Boot Floor Stand, not door($1,899) or wall($2,049).",
+            "Panel is150LEDs(76red/74NIR), not a paired panel setup.",
+            "Main product default variant and embedded kit variant differ; selected default SKU explicitly BO, matching Boot image and price."
+          ]
+        },
+        {
+          "id": "theragun-pro-plus",
+          "name": "Theragun PRO Plus",
+          "priceUSD": 649.99,
+          "configuration": "PRO Plus / standard kit",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.therabody.com/products/theragun-pro-plus"
+            },
+            {
+              "label": "Warranty terms",
+              "url": "https://www.therabody.com/pages/warranty-terms"
+            },
+            {
+              "label": "Return policy",
+              "url": "https://www.therabody.com/pages/return-policy"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-theragun-pro-plus.png",
+            "url": "https://cdn.shopify.com/s/files/1/0671/4097/6867/files/Theragun-Pro-Plus-PLP-Thumbnail-1.png?v=1740016183",
+            "visuallyInspected": true
+          },
+          "feed": "https://www.therabody.com/products/theragun-pro-plus.js",
+          "variantId": 44183257972963,
+          "availability": "Default available=true at $649.99.",
+          "notes": [
+            "Current page states1-year warranty; older model assumptions of2years not used.",
+            "Current page displays implausible36x154x65mm dimensions; record marks dimensions unconfirmed rather than correcting spec by guess.",
+            "Cold attachment not included. No clinical outcomes asserted."
+          ]
+        },
+        {
+          "id": "therabody-jetboots-pro-plus",
+          "name": "JetBoots PRO Plus — Regular",
+          "priceUSD": 1149.99,
+          "configuration": "Regular / pair",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://www.therabody.com/products/jetboots-pro-plus-regular"
+            },
+            {
+              "label": "Warranty terms",
+              "url": "https://www.therabody.com/pages/warranty-terms"
+            },
+            {
+              "label": "Return policy",
+              "url": "https://www.therabody.com/pages/return-policy"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-jetboots-pro-plus.png",
+            "url": "https://cdn.shopify.com/s/files/1/0671/4097/6867/files/Jetboots-Pro-Plus-PLP-Thumbnail-1.png?v=1739878412",
+            "visuallyInspected": true
+          },
+          "feed": "https://www.therabody.com/products/jetboots-pro-plus-regular.js",
+          "variantId": 46339349283043,
+          "availability": "Regular pair available=true at $1,149.99.",
+          "notes": [
+            "Fit based on officialRegular chart: outseam34–41, thighunder26, typicalheight5ft7–6ft1. Brand also has intermediate fit exceptions; source chart remains authoritative.",
+            "No heat facet: infrared LEDs do not establish a documented heated feature.",
+            "Current page states1-year limited warranty."
+          ]
+        },
+        {
+          "id": "hyperice-hypervolt3-pro",
+          "name": "Hypervolt 3 Pro",
+          "priceUSD": 349,
+          "configuration": "Matte Black / standard kit",
+          "sources": [
+            {
+              "label": "Official product and selected configuration",
+              "url": "https://hyperice.com/products/hypervolt-3-pro"
+            },
+            {
+              "label": "Official specifications",
+              "url": "https://hyperice.zendesk.com/hc/en-us/articles/47603346454299-Specifications-Hypervolt-3-Pro"
+            }
+          ],
+          "image": {
+            "path": "work/high-ticket-assets/ht-hypervolt3-pro.png",
+            "url": "https://cdn.shopify.com/s/files/1/0786/1852/5910/files/Hypervolt-3-Pro-pdp-1_f7a957aa-6b41-4754-a5c5-7a98f3f09b34.png?v=1780949692",
+            "visuallyInspected": true
+          },
+          "feed": "https://hyperice.com/products/hypervolt-3-pro.js",
+          "variantId": 47750499500246,
+          "availability": "Matte Black available=true at $349.",
+          "notes": [
+            "Hypervolt2Pro URL redirects to3Pro; listing deliberately identifies current3Pro, not old2Pro.",
+            "Official support article supplies6speeds,14mmstroke,charger ratings,heatedhead andcase.",
+            "Stall force70lb is not user/load capacity and is not put in capacity filters.",
+            "Dimensions and current returns not confirmed."
+          ]
+        }
+      ]
+    },
+    "parent": {
+      "checked": "2026-10-17",
+      "activeTrackingLinks": 0,
+      "programs": [
+        {
+          "brand": "MATE the Label",
+          "status": "Public program; user not approved or linked",
+          "rate": "Official page states 10% for approved affiliates",
+          "source": "https://matethelabel.com/pages/affiliate"
+        },
+        {
+          "brand": "Momentous",
+          "status": "Official affiliate/ambassador application route; rate not confirmed",
+          "source": "https://help.livemomentous.com/hc/en-us/articles/26128073798931-Do-you-have-an-affiliate-or-ambassador-program"
+        },
+        {
+          "brand": "Thorne",
+          "status": "Official ambassador application with commission on new customer orders; marketplace eligibility and rate not confirmed",
+          "source": "https://www.thorne.com/ambassador"
+        },
+        {
+          "brand": "Eight Sleep",
+          "status": "Official terms distinguish individual referrals from business affiliates; business terms and rates require approval",
+          "source": "https://www.eightsleep.com/uk/referral-terms-conditions/",
+          "note": "Individual gift-card referrals cannot be assumed eligible for marketplace lead generation. No referral link used."
+        },
+        {
+          "brand": "Transparent Labs",
+          "status": "Affiliate activity visible on official product URLs; no approved user link or rate confirmed",
+          "source": "https://www.transparentlabs.com/products/whey-protein-isolate"
+        },
+        {
+          "brand": "Vuori / Organic Basics / Jungmaven",
+          "status": "No public business-affiliate rate independently confirmed during this batch; direct links only"
+        }
+      ],
+      "decisions": [
+        "Current Eight Sleep model is Pod 6, replacing requested Pod 5. Queen Standard with Enhanced plan verified in manufacturer UI: $2899 hardware + $299 first-year plan = $3198. Delivery displayed Nov 13–27. Preorder is disclosed in description, badge and attributes.",
+        "Eight Sleep's 5-year warranty depends on maintaining an active Enhanced or Elite membership. No unconditional warranty facet assigned.",
+        "Momentous exact Unflavored variant is $69.99 in live official HTML and variant feed; older cached search content shows $59.99 and was not used.",
+        "Transparent Labs exact 4LB Unflavored variant is $109.99, with matching 4LB photo. Price excludes subscription discounts.",
+        "Needed Lime current variant label lists monk fruit and 155 mg magnesium, unlike generic older marketing copy. Sugar and caffeine amounts not assigned to absence filters without a clear numeric/current claim.",
+        "Vuori's 34% polyester content is visible; it does not pass all-natural or no-polyester filters. All garment absence filters describe main fabric only.",
+        "No new evidence scores, customer reviews or affiliate relationships are generated. Existing documented brand assessments remain unchanged."
+      ]
+    }
+  }
+}

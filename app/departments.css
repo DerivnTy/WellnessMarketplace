@@ -115,3 +115,5 @@ html:has(.catalog-motion[data-motion=running]){scroll-behavior:smooth}
 @media(min-width:761px){.catalog-motion .recovery-options,.catalog-motion .gym-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
 .gym-browse-section{border-top:1px solid var(--line);padding-top:4px}
 .breadcrumb-reset{color:inherit;font:inherit;background:none;border:0;padding:0;cursor:pointer}.breadcrumb-reset:hover{text-decoration:underline}
+
+@media(min-width:1100px){.catalog-motion .gym-options{grid-template-columns:repeat(4,minmax(0,1fr))}.catalog-motion .gym-options button{padding:14px;min-height:70px}}
