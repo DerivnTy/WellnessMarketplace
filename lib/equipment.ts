@@ -8,6 +8,7 @@ export const recoverySpecs:SpecRow[]=[
  {id:'warranty',label:'Warranty',keys:['Warranty']},
  {id:'temperature',label:'Temperature range',keys:['Temperature range']},
  {id:'heat',label:'Heat / cooling system',keys:['Heat type']},
+ {id:'chiller',label:'Chiller included',keys:['Chiller included']},
  {id:'load',label:'Weight capacity',keys:['Weight capacity']},
  {id:'user',label:'User capacity / fit',keys:['User capacity','User fit']},
  {id:'resistance',label:'Resistance / weight range',keys:['Resistance','Weight range','Cable ratio']},
@@ -19,6 +20,11 @@ export const recoverySpecs:SpecRow[]=[
  {id:'basis',label:'Price basis / exclusions',keys:['Price basis']},
 ];
 export function specValue(p:Product,row:SpecRow):string|undefined{
+ if(row.id==='chiller'&&!p.attributes['Chiller included']){
+  if(p.facets?.chiller?.includes('included-chiller'))return 'Included in the listed configuration';
+  if(p.facets?.chiller?.includes('optional-chiller'))return 'Optional; not included in the listed configuration';
+  return undefined;
+ }
  const values=row.keys.filter(k=>p.attributes[k]&&!p.attributes[k].startsWith('https://')).map(k=>({key:k,value:p.attributes[k]}));
  if(!values.length)return undefined;
  if(values.length===1&&values[0].key!=='Not included')return values[0].value;
@@ -30,6 +36,7 @@ export function comparisonRows(products:Product[]):SpecRow[]{
   const type=products[0].type;
   const required=new Set(['dimensions','power','warranty','materials','setup','included','ongoing','basis']);
   if(['sauna','cold-plunge'].includes(type))['capacity','temperature','heat'].forEach(k=>required.add(k));
+  if(type==='cold-plunge')required.add('chiller');
   if(products[0].facets?.deviceType?.includes('home-gym'))['load','resistance'].forEach(k=>required.add(k));
   const rows=recoverySpecs.filter(row=>required.has(row.id)||products.some(p=>specValue(p,row)));
   const used=new Set(recoverySpecs.flatMap(row=>row.keys));

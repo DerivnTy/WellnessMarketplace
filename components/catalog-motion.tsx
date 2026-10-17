@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 
 import {useLayoutEffect, useRef, type ReactNode} from 'react';
 import {ArrowDown, ArrowUpRight} from 'lucide-react';
@@ -36,8 +35,8 @@ export function DepartmentHero({category, products}: {category: string; products
       <h1>{copy.title}</h1>
       <p>{copy.description}</p>
       <div className="department-hero-actions">
-        <Link prefetch={false} className="button dark" href="#catalog-results">Browse products <ArrowDown size={15}/></Link>
-        <Link prefetch={false} className="text-link" href="/methodology">Our standards <ArrowUpRight size={14}/></Link>
+        <a className="button dark" href="#catalog-results">Browse products <ArrowDown size={15}/></a>
+        <a className="text-link" href="/methodology">Our standards <ArrowUpRight size={14}/></a>
       </div>
       <div className="department-meta"><span>{products.length} products</span><i/><span>{new Set(products.map(p => p.brandId)).size} brands</span><i/><span>Source-backed details</span></div>
     </div>

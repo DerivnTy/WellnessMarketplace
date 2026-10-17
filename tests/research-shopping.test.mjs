@@ -50,4 +50,14 @@ for(const text of ['Not documented','Brand evidence · Not scored','Dimensions',
 const Tray=compile('components/ComparisonTray.tsx',{'@/lib/catalog':catalog,'@/lib/comparison':comparison}).default;
 const tray=renderToStaticMarkup(React.createElement(Tray,{products:[p,q],onRemove(){},onClear(){},storageUnavailable:false}));
 for(const value of [p.name,q.name,catalog.money(p.price),p.image,'Clear all','Remove '+p.name+' from comparison'])check(tray.includes(value),'persistent tray contains '+value);
+check(equipment.comparisonRows([p,q]).some(r=>r.id==='chiller'),'plunges include an explicit chiller comparison row');
+check(equipment.specValue(p,equipment.recoverySpecs.find(r=>r.id==='chiller'))==='Included in the listed configuration','documented chiller inclusion is exposed');
+check(equipment.specValue({...p,facets:{}},equipment.recoverySpecs.find(r=>r.id==='chiller'))===undefined,'missing chiller data remains unknown');
+for(const value of ['aria-haspopup="dialog"','aria-labelledby="comparison-drawer-title"','View shortlist'])check(tray.includes(value),'mobile shortlist renders '+value);
+const Discovery=compile('components/RecoveryDiscovery.tsx').default;
+const discovery=renderToStaticMarkup(React.createElement(Discovery,{products}));
+for(const [id,count] of [['home-gym',26],['cold-plunge',12],['sauna',11],['massage-chair',8]]){
+ check(discovery.includes('deviceType='+id),'discovery opens the correct equipment filter '+id);
+ check(discovery.includes(count+' products to research'),'homepage counts published equipment '+id);
+}
 console.log(`${checks} research-shopping checks passed.`);

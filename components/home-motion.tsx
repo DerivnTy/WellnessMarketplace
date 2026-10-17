@@ -1,5 +1,4 @@
 'use client';
-import Link from 'next/link';
 
 import {createContext, useContext, useEffect, useRef, useState, type ReactNode} from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
@@ -114,11 +113,11 @@ export function BrandCarousel({products, brandIds = featuredBrands}: {products: 
     <div className="brand-carousel-viewport" ref={viewport}>
       <div className="brand-carousel-track">
         {brands.map((p, index) => <div className="brand-carousel-slide" key={p.brandId} role="group" aria-roledescription="slide" aria-label={`${index + 1} of ${brands.length}`}>
-          <Link prefetch={false} href={'/brands/' + p.brandId} className={'brand-tile brand-style-' + index % 6}>
+          <a href={'/brands/' + p.brandId} className={'brand-tile brand-style-' + index % 6}>
             <span className="brand-tile-category">{categories.find(c => c.id === p.category)?.name}</span>
             <strong>{p.brand}</strong>
             <span className="brand-tile-bottom">Explore the brand <ArrowUpRight size={16}/></span>
-          </Link>
+          </a>
         </div>)}
       </div>
     </div>

@@ -1,6 +1,5 @@
 'use client';
 
-import Link from 'next/link';
 import {Check, Heart, ShoppingCart, Scale} from 'lucide-react';
 import {money, type Product} from '@/lib/catalog';
 import type {TrustSummary} from '@/lib/trust';
@@ -27,7 +26,7 @@ export default function ProductCard({product: p, evidence, saved, compared, cart
       {!p.available && <span className="image-label">Check availability</span>}
     </div>
     <div className="product-info">
-      <Link prefetch={false} className="brand-label" href={'/brands/' + p.brandId}>{p.brand}</Link>
+      <a className="brand-label" href={'/brands/' + p.brandId}>{p.brand}</a>
       <a className="product-name" href={'/product/' + p.id}>{p.name}</a>
       <div className="price">{money(p.price)} <span>{p.qty}</span></div>
       <div className="product-badges">{badges.map(badge => <span className="attribute-tag" key={badge}>{badge}</span>)}</div>
