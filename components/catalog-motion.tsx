@@ -56,7 +56,7 @@ export function DepartmentHero({category, products}: {category: string; products
 // Keep keyed cards mounted so save/cart controls retain their state and focus.
 // Only cards that enter or move animate; filtering itself is immediate.
 export function SmoothProductGrid({products, renderCard}: {products: Product[]; renderCard: (product: Product) => ReactNode}) {
-  const grid = useRef<HTMLDivElement>(null);
+  const grid = useRef<HTMLUListElement>(null);
   const positions = useRef(new Map<string, {x: number; y: number}>());
   const {running} = usePageMotion();
   const signature = products.map(p => p.id).join('|');
@@ -88,7 +88,7 @@ export function SmoothProductGrid({products, renderCard}: {products: Product[]; 
     return () => { animations.forEach(animation => animation.cancel()); observer.disconnect(); };
   }, [signature, running]);
 
-  return <div className="product-grid listing-grid smooth-product-grid" ref={grid}>
-    {products.map(product => <div className="product-motion-item" data-product={product.id} key={product.id}>{renderCard(product)}</div>)}
-  </div>;
+  return <ul className="product-grid listing-grid smooth-product-grid" aria-label="Products" ref={grid}>
+    {products.map(product => <li className="product-motion-item" data-product={product.id} key={product.id}>{renderCard(product)}</li>)}
+  </ul>;
 }
