@@ -7,7 +7,7 @@ const seed=JSON.parse(readFileSync('data/catalog.json','utf8'));
 function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);return module.exports;}
 const {productSchema}=compile('lib/validation.ts');
 const {normalizeProduct}=compile('lib/catalog-data.ts',{'@/data/catalog.json':{default:seed},'./validation':{productSchema}});
-const {parseBrowse,browseUrl,filterProducts,matches}=compile('lib/browse.ts');
+const {parseBrowse,browseUrl,filterProducts,matches,caffeineBand}=compile('lib/browse.ts');
 let checks=0;const check=(value,label)=>{assert.ok(value,label);checks++;};
 for(const p of seed){productSchema.parse(p);check(existsSync('public'+p.image),'local image '+p.id);check(p.affiliate===false,'no implied affiliate');}
 check(seed.length===86,'86 products');check(new Set(seed.map(p=>p.id)).size===86,'unique IDs');check(new Set(seed.map(p=>p.brandId)).size===56,'56 brands');
@@ -29,4 +29,21 @@ const state=parseBrowse('supplements',{goals:'sleep',form:'gummy',brands:'olly,m
 const base=seed[0],legacy={...base,category:'hydration',facets:undefined,filters:{stevia:true}};check(normalizeProduct(legacy).facets.drinkType.includes('hydration'),'legacy taxonomy enrichment');
 const edited={...legacy,name:'Editorial override',price:99,status:'draft',filters:{noSucralose:false}};const n=normalizeProduct(edited);check(n.price===99&&n.status==='draft'&&!n.facets&&n.filters.noSucralose===false,'editor changes preserved');
 const explicit={...legacy,facets:{},filters:{noSucralose:false}};check(Object.keys(normalizeProduct(explicit).facets).length===0&&!normalizeProduct(explicit).filters.noSucralose,'explicit taxonomy and flag override preserved');
+// Boundary checks prevent the old 1–80 mg range from being relabeled as <50 mg.
+for(const [mg,band] of [[0,'caffeine-free'],[0.5,'low'],[49.9,'low'],[50,'moderate'],[80,'moderate'],[150,'moderate'],[150.1,'high']]){
+ check(caffeineBand({...base,category:'drinks',attributes:{Caffeine:`${mg} mg / serving`}})===band,`documented caffeine boundary ${mg}`);
+}
+check(caffeineBand({...base,category:'drinks',attributes:{},facets:{caffeine:['low']},filters:{caffeineFree:true}})===null,'legacy tags and flags cannot invent a caffeine amount');
+check(caffeineBand({...base,category:'drinks',attributes:{Caffeine:'Contains caffeine; amount not specified'}})===null,'unknown caffeine is not none');
+check(caffeineBand({...base,category:'drinks',attributes:{Caffeine:'Caffeine-free, per brand FAQ'}})==='caffeine-free','explicit brand caffeine-free statement qualifies');
+check(caffeineBand({...base,category:'drinks',attributes:{Caffeine:'20 mg / 100 g'}})===null,'unsupported units are not treated as serving amounts');
+check(find('drinks',{caffeine:'low'}).length===0,'no current drinks falsely qualify for under 50 mg');
+check(find('drinks',{caffeine:'moderate'}).map(p=>p.id).sort().join()==='gorgie-peach-tea,olipop-vintage-cola,skratch-caffeinated-lemon-lime','50 mg drinks move into the moderate band');
+check(find('drinks',{caffeine:'caffeine-free'}).length===8,'documented caffeine-free choices');
+check(find('drinks',{filters:'noSucralose,noStevia'}).every(p=>p.filters.noSucralose===true&&p.filters.noStevia===true),'sweetener exclusions combine with AND');
+check(find('drinks',{filters:'noStevia,stevia'}).length===0,'contradictory sweetener requests show an empty result');
+check(find('drinks',{filters:'zeroSugar'}).every(p=>p.filters.zeroSugar===true),'unknown sugar is excluded');
+check(!find('drinks',{filters:'noStevia'}).some(p=>p.id==='hopwtr-classic-six'),'missing stevia review is not an absence claim');
+check(find('',{caffeine:'moderate',filters:'noSucralose,stevia'}).map(p=>p.id).sort().join()==='gorgie-peach-tea,olipop-vintage-cola','shop combines caffeine and preference groups');
+check(find('drinks',{caffeine:'low,moderate'}).length===3,'OR within a caffeine group');
 console.log(`${checks} catalog/filter assertions passed, including all 86 schema/image checks.`);

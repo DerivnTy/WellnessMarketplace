@@ -18,3 +18,31 @@
 }
 
 .origin-collection{display:flex;align-items:center;justify-content:space-between;gap:28px;background:#f2f3ed;border-radius:20px;padding:32px;margin-block:24px}.origin-collection h2,.origin-details h2{font-size:clamp(26px,4vw,38px);margin:10px 0}.origin-collection p{max-width:620px;line-height:1.6}.origin-collection .button{flex-shrink:0}.origin-details{margin:32px 0;padding:28px;border:1px solid #e4e6df;border-radius:18px}.origin-details .attribute-table{width:100%}.origin-details dd{overflow-wrap:anywhere}@media(max-width:760px){.origin-collection{flex-direction:column;align-items:flex-start;padding:24px 20px}.origin-collection .button{width:100%}.origin-details{padding:20px 16px}}
+
+/* A shared card keeps product facts and actions consistent across every grid. */
+.product-card .brand-label{text-transform:uppercase;letter-spacing:1px;font-size:10px}
+.product-badges{display:flex;flex-wrap:wrap;align-content:flex-start;gap:5px;margin:10px 0;min-width:0}
+.product-badges .attribute-tag{display:inline-flex;margin:0;max-width:100%;white-space:normal;overflow-wrap:anywhere;line-height:1.45}
+.product-card .price{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 7px}
+.product-card .price>span{line-height:1.5}
+.preference-filters .filter-heading{display:flex;align-items:center;gap:10px}
+.preference-filters .filter-heading h3{margin-right:auto}
+.preference-filters .preference-reset{font-size:11px;min-height:32px;text-decoration:underline;text-underline-offset:3px}
+.preference-filters .facet-check input:focus-visible{outline:2px solid #354858;outline-offset:3px}
+@media(max-width:760px){
+ .product-card .brand-label{font-size:9px}
+ .product-badges{gap:4px;margin-top:8px}
+ .product-badges .attribute-tag{font-size:9px;padding:4px 6px}
+ .preference-filters .preference-reset{min-height:40px}
+}
+
+.smooth-product-grid{align-items:stretch}
+.product-motion-item{display:flex}
+.product-card{display:flex;flex-direction:column;width:100%}
+.product-card .product-info{display:flex;flex-direction:column;flex:1}
+.product-card .product-shopping-actions{margin-top:auto;padding-top:14px}
+
+.preference-filters .filter-heading{position:sticky;top:0;z-index:2}
+@media(max-width:760px){
+ .preference-filters:not([data-collapsible]){display:block;position:static;width:100%;max-width:none;max-height:none;border:1px solid #e1e7eb;border-radius:10px}
+}

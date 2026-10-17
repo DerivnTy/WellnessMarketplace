@@ -11,6 +11,7 @@ import {HomeMotion, MotionToggle, BrandCarousel} from './home-motion';
 import {useCart} from './use-cart';
 import {MAX_QUANTITY} from '@/lib/cart';
 import CatalogBrowser from './catalog-browser';
+import ProductCard from './ProductCard';
 import BrandDirectory from './brand-directory';
 import BrandProfile,{TrustBadge,ProductEvidence,TrustHub} from './trust-profile';
 import TrustMethodology from './trust-methodology';
@@ -38,10 +39,7 @@ export default function Marketplace({path,initialQuery,products,assessments,trus
   const toggleSave=(id:string)=>{setSaved(s=>s.includes(id)?s.filter(x=>x!==id):[...s,id]);if(!saved.includes(id))event('save',id);};
   const toggleCompare=(p:Product)=>{if(compared.includes(p.id)){setCompared(s=>s.filter(x=>x!==p.id));return;}if(!canCompare(products.filter(x=>compared.includes(x.id)),p)){setNotice(compared.length>=4?'Compare up to 4 products at a time.':'Choose products of the same type for a useful comparison. Clear your current selection to start another.');return;}setCompared(s=>[...s,p.id]);event('compare',p.id);};
   const searchSubmit=(e:FormEvent)=>{e.preventDefault();event('search');const q=new URLSearchParams();if(search.trim())q.set('q',search.trim());if(searchCat)q.set('category',searchCat);setFocused(false);router.push('/shop'+(q.size?'?'+q:''));};
-  const card=(p:Product)=>{return <article className="product-card" key={p.id}>
-    <div className="product-visual"><a href={'/product/'+p.id} aria-label={`View ${p.brand} ${p.name}`}><img src={p.image} alt={`${p.brand} ${p.name}`} loading="lazy"/></a><button className={'save-button '+(saved.includes(p.id)?'selected':'')} aria-label={`${saved.includes(p.id)?'Unsave':'Save'} ${p.name}`} aria-pressed={saved.includes(p.id)} onClick={()=>toggleSave(p.id)}><Heart size={17} fill={saved.includes(p.id)?'currentColor':'none'}/></button>{!p.available&&<span className="image-label">Check availability</span>}</div>
-    <div className="product-info"><Link prefetch={false} className="brand-label" href={'/brands/'+p.brandId}>{p.brand}</Link><a className="product-name" href={'/product/'+p.id}>{p.name}</a><div className="price">{money(p.price)} <span>{p.qty}</span></div><div className="attribute-tag">{p.badges[0]}</div>{isMadeInUSA(p)&&<span className="pill">Made in USA · Brand statement</span>}<TrustBadge brandId={p.brandId} summary={trustSummaries.find(s=>s.brandId===p.brandId)}/><div className="product-shopping-actions"><button className="card-cart-button" aria-label={'Add '+p.name+' to cart'} disabled={!cart.ready||!p.available||(cart.items.find(x=>x.id===p.id)?.quantity||0)>=MAX_QUANTITY} onClick={()=>addToCart(p)}><ShoppingCart size={14}/>Add to cart</button><button className={'compare-action '+(compared.includes(p.id)?'selected':'')} onClick={()=>toggleCompare(p)}><span className="checkbox">{compared.includes(p.id)&&<Check size={11}/>}</span>Compare</button></div></div>
-  </article>;};
+  const card=(p:Product)=><ProductCard key={p.id} product={p} evidence={trustSummaries.find(s=>s.brandId===p.brandId)} saved={saved.includes(p.id)} compared={compared.includes(p.id)} cartDisabled={!cart.ready||(cart.items.find(x=>x.id===p.id)?.quantity||0)>=MAX_QUANTITY} onSave={toggleSave} onCompare={toggleCompare} onAddToCart={addToCart}/>;
   const titleRow=(title:string,sub:string,href?:string)=><div className="section-title"><div><h2>{title}</h2><p>{sub}</p></div>{href&&<Link prefetch={false} className="text-link" href={href}>Explore all <ArrowRight size={17}/></Link>}</div>;
   const form=(type:'brand'|'correction'|'experience')=><Submission type={type} product={String(initialQuery.product||'')}/>;
   let content;
