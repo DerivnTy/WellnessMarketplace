@@ -1,0 +1,18 @@
+import ts from 'typescript';
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const code=ts.transpileModule(readFileSync('lib/cart.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+const module={exports:{}};new Function('module','exports',code)(module,module.exports);
+const {readCart,normalizeCart,cartTotalCents}=module.exports;
+const products=[{id:'a',price:19.99},{id:'b',price:0.1}];
+assert.deepEqual(readCart(null,products),[]);
+assert.deepEqual(readCart('invalid JSON',products),[]);
+assert.deepEqual(readCart('{"a":3}',products),[]);
+assert.deepEqual(normalizeCart([null,{},'a',{id:'a',quantity:'2'},{id:'a',quantity:0},{id:'a',quantity:-1},{id:'a',quantity:1.5},{id:'gone',quantity:1}],products),[]);
+assert.deepEqual(normalizeCart([{id:'a',quantity:2},{id:'a',quantity:3},{id:'b',quantity:1}],products),[{id:'a',quantity:5},{id:'b',quantity:1}]);
+assert.deepEqual(normalizeCart([{id:'a',quantity:120},{id:'a',quantity:3}],products),[{id:'a',quantity:99}]);
+assert.deepEqual(readCart('[{"id":"a","quantity":2}]',products),[{id:'a',quantity:2}]);
+assert.equal(cartTotalCents([{id:'a',quantity:3},{id:'b',quantity:3}],products),6027);
+assert.equal(cartTotalCents([],products),0);
+assert.equal(cartTotalCents([{id:'gone',quantity:3}],products),0);
+console.log('10 cart checks passed: persistence decoding, invalid data, unavailable listings, duplicate entries, quantity limits, and exact-cent totals.');

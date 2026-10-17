@@ -1,0 +1,2664 @@
+[
+  {
+    "brandId": "thorne",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "thorne-creatine-90"
+    ],
+    "summary": "The scoped creatine product has an original NSF record and clear buying terms. Consumer reports raise separate questions about support and subscription handling.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-product"
+        ],
+        "reason": "The disclosed formula is creatine monohydrate."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-product"
+        ],
+        "reason": "The label states 5 g per scoop and 90 servings."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-product"
+        ],
+        "reason": "Ingredient sensitivity and pregnancy guidance are published."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-product",
+          "thorne-nsf"
+        ],
+        "reason": "NSF Certified for Sport is named and independently listed."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-nsf"
+        ],
+        "reason": "NSF hosts the product listing, linked label and named lots, including 412465 and 414574."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-nsf"
+        ],
+        "reason": "The original record names Thorne Creatine, unflavored powder, 453 g and a 5 g scoop, matching the scoped 90-serving product."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-returns"
+        ],
+        "reason": "The direct-purchase policy gives a 60-day request window and discloses a 25% restocking fee. Documented does not mean generous."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-shipping"
+        ],
+        "reason": "Retail ground-shipping fees, Alaska/Hawaii exceptions, processing and a 3\u20137-business-day transit estimate are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-returns"
+        ],
+        "reason": "Customer support phone, email and weekday service hours are published; response quality is assessed separately through consumer reports."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "thorne-nsf"
+        ],
+        "reason": "The certifier publishes specific lot identifiers that a shopper can compare against their package."
+      }
+    ],
+    "sources": [
+      {
+        "id": "thorne-product",
+        "title": "Creatine \u2014 90 Servings: product and label",
+        "url": "https://www.thorne.com/products/dp/creatine",
+        "kind": "brand",
+        "publisher": "Thorne",
+        "checked": "2026-10-16",
+        "note": "Official $44 one-time price, formula, serving count and warnings."
+      },
+      {
+        "id": "thorne-nsf",
+        "title": "Original NSF Sport listing: unflavored Creatine",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1204244",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Names product, package, serving size and seven lots. No customer lot was supplied for comparison."
+      },
+      {
+        "id": "thorne-returns",
+        "title": "Returns and exchanges",
+        "url": "https://www.thorne.com/faqs/returns-and-exchanges",
+        "kind": "brand",
+        "publisher": "Thorne",
+        "checked": "2026-10-16",
+        "note": "Read the direct-purchase 60-day window, restocking fee and separate authorized-reseller guarantee."
+      },
+      {
+        "id": "thorne-shipping",
+        "title": "Shipping FAQ",
+        "url": "https://www.thorne.com/faqs/shipping",
+        "kind": "brand",
+        "publisher": "Thorne",
+        "checked": "2026-10-16",
+        "note": "Specifies processing, delivery estimates, destination exceptions and tracking."
+      },
+      {
+        "id": "thorne-consumers",
+        "title": "Thorne customer-service reviews",
+        "url": "https://www.trustpilot.com/review/www.thorne.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 1.6/5 from 92 reviews. Inspected the first ten complete reviews in the most-recent feed."
+      }
+    ],
+    "limitations": [
+      "Assessment covers unflavored Creatine \u2014 90 Servings only. It does not assess all Thorne formulas.",
+      "A published certified-lot list does not authenticate an unseen purchase or establish clinical benefit.",
+      "The score awards points for disclosed policies and contact channels, not successful fulfillment. Read the consumer-service concerns alongside it."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "thorne-consumers",
+        "rating": 1.6,
+        "count": 92,
+        "summary": "Recent accounts express product appreciation alongside repeated frustration with customer service, missed orders and subscription controls.",
+        "topics": [
+          "Support",
+          "Subscriptions",
+          "Delivery"
+        ],
+        "positives": [
+          "Several reviewers still liked the products or described earlier satisfactory deliveries."
+        ],
+        "concerns": [
+          "Repeated reports of unanswered contact attempts and long phone waits.",
+          "Some described delivery failures or difficulty ending recurring orders."
+        ],
+        "sampling": "First ten complete reviews displayed under Most recent on the linked brand profile; not a random sample.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "limitations": "Self-selected, unprompted brand-level accounts; not limited to creatine. Claims and purchase histories were not independently checked. The full platform rating is not a marketplace rating."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial in-depth review: product-specific original records, buying terms, sampled consumer feedback, and explicit evidence limitations."
+  },
+  {
+    "brandId": "klean-athlete",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "klean-creatine-315"
+    ],
+    "summary": "Klean Creatine has a named-lot NSF record, a concise formula and published ordering policies. Consumer evidence is thinner and includes incentivized retailer reviews.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "klean-product"
+        ],
+        "reason": "The official page identifies creatine monohydrate and states no other ingredients."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "klean-product"
+        ],
+        "reason": "The panel lists 5 g per scoop and approximately 60 servings. The approximation is retained."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "klean-data"
+        ],
+        "reason": "The product sheet advises consulting a health professional for pregnancy, nursing, health conditions or medication use."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "klean-data",
+          "klean-nsf"
+        ],
+        "reason": "The brand names NSF Certified for Sport and NSF publishes this product."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "klean-nsf"
+        ],
+        "reason": "The original certifier record includes a label and a list of specific lots, including 26009-1C1."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "klean-nsf"
+        ],
+        "reason": "NSF names Klean Creatine, unflavored powder, 315 g and a 5 g scoop, matching this catalog variant."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "klean-returns"
+        ],
+        "reason": "The policy states 30 days, preauthorization, a 15% processing fee and shipping costs; authorized returns have a 14-day receipt deadline."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "klean-service"
+        ],
+        "reason": "The professional-order channel discloses shipping cutoff, service and regional fees. These terms do not establish Amazon or other retailer policies."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "klean-service"
+        ],
+        "reason": "A support telephone number and weekday operating hours are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "klean-nsf",
+          "klean-registry"
+        ],
+        "reason": "NSF supplies lot identifiers and a La Crosse facility entry for the scoped product, enabling package comparison."
+      }
+    ],
+    "sources": [
+      {
+        "id": "klean-product",
+        "title": "Klean Creatine product page",
+        "url": "https://www.kleanathlete.com/klean-creatine.html",
+        "kind": "brand",
+        "publisher": "Klean Athlete",
+        "checked": "2026-10-16",
+        "note": "Official retail price $34.50; account login required. Formula and approximately 60 servings are shown."
+      },
+      {
+        "id": "klean-data",
+        "title": "Klean Creatine product data sheet",
+        "url": "https://www.kleanathlete.com/media/pdf_upload/KA57692P.pdf",
+        "kind": "brand",
+        "publisher": "Klean Athlete",
+        "checked": "2026-10-16",
+        "note": "The linked sheet is dated March 2022; consulted for the warning and product-specific certification description."
+      },
+      {
+        "id": "klean-nsf",
+        "title": "Original NSF Sport listing: Klean Creatine",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1121640",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Lists unflavored 315 g powder and 16 named lots. No purchased lot was checked."
+      },
+      {
+        "id": "klean-registry",
+        "title": "NSF official manufacturer and lot listings",
+        "url": "https://info.nsf.org/Certified/BannedSub/Listings.asp?Company=3D700&Standard=306",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Includes Klean Creatine and lot identifiers under the La Crosse, Wisconsin facility."
+      },
+      {
+        "id": "klean-returns",
+        "title": "Return policy",
+        "url": "https://www.kleanathlete.com/return-policy/",
+        "kind": "brand",
+        "publisher": "Klean Athlete",
+        "checked": "2026-10-16",
+        "note": "Preauthorization, time windows, processing fee and shipping costs are explicit."
+      },
+      {
+        "id": "klean-service",
+        "title": "Customer service and shipping",
+        "url": "https://www.kleanathlete.com/customer-service",
+        "kind": "brand",
+        "publisher": "Klean Athlete",
+        "checked": "2026-10-16",
+        "note": "Policies apply to the brand\u2019s professional ordering website; retailer purchases can differ."
+      },
+      {
+        "id": "klean-walmart",
+        "title": "Klean Creatine retailer ratings and reviews",
+        "url": "https://www.walmart.com/ip/693543928?selected=true",
+        "kind": "review-platform",
+        "publisher": "Walmart",
+        "checked": "2026-10-16",
+        "note": "Observed 4.6/5, 45 ratings and 14 written reviews; three displayed reviews were read, two labeled incentivized."
+      },
+      {
+        "id": "klean-reddit",
+        "title": "One consumer account of switching creatine brands",
+        "url": "https://www.reddit.com/r/Creatine/comments/1hs5ofj/switched_from_thorne_to_klean_stomach_is_not/",
+        "kind": "review-platform",
+        "publisher": "Reddit / r/Creatine",
+        "checked": "2026-10-16",
+        "note": "Read the original post dated January 2, 2025; comments were not available in the extracted page."
+      }
+    ],
+    "limitations": [
+      "Scope is Klean Creatine unflavored, 315 g. Retailer availability, pricing and returns can differ from the official professional channel.",
+      "The product sheet is dated 2022; the current NSF listing was separately reviewed. Certification does not prove benefit or verify a shopper\u2019s own tub.",
+      "Consumer coverage is limited. Two of the three displayed retailer reviews were incentivized, and the separate Reddit account is one unverified anecdote."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "klean-walmart",
+        "rating": 4.6,
+        "count": 45,
+        "summary": "The retailer\u2019s aggregate covers 45 ratings, including 14 written reviews. Three visible reviews were favorable about routine use.",
+        "topics": [
+          "Unflavored formula",
+          "Routine use",
+          "Retailer reviews"
+        ],
+        "positives": [
+          "A reviewer liked the lack of flavor; another described perceived energy."
+        ],
+        "concerns": [
+          "No negative written account was visible among the three displayed reviews; the rating distribution includes low ratings."
+        ],
+        "sampling": "Three complete reviews shown under Most relevant on the retailer product page; two explicitly labeled Incentivized Review.",
+        "basis": "review-sample",
+        "sampleSize": 3,
+        "sampleStart": "2025-07-18",
+        "sampleEnd": "2025-09-30",
+        "limitations": "45 is the rating count, not written-review count. Platform-selected, partly incentivized sample for a third-party seller; subjective outcomes are not efficacy evidence.",
+        "countUnit": "ratings"
+      },
+      {
+        "sourceId": "klean-reddit",
+        "summary": "One poster reported stomach discomfort after switching from Thorne to Klean creatine.",
+        "topics": [
+          "Tolerability"
+        ],
+        "positives": [],
+        "concerns": [
+          "The poster described a change in tolerability after changing brands."
+        ],
+        "sampling": "One original post inspected; no accessible comments or purchase verification.",
+        "basis": "review-sample",
+        "sampleSize": 1,
+        "sampleStart": "2025-01-02",
+        "sampleEnd": "2025-01-02",
+        "limitations": "A single self-report cannot establish cause, product contamination or frequency of adverse experiences; no lot or controlled comparison was provided."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial in-depth review: product-specific original records, buying terms, sampled consumer feedback, and explicit evidence limitations."
+  },
+  {
+    "brandId": "nordic-naturals",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "nordic-omega-2x-sport"
+    ],
+    "summary": "The lemon 60-softgel Sport product has a matching original NSF record and readable label. Brand-level consumer feedback is a small, mixed set.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-label"
+        ],
+        "reason": "The original bottle image specifies fish species, capsule components and other ingredients."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-label",
+          "nordic-nsf-label"
+        ],
+        "reason": "Both label sources give 2,150 mg omega-3s, including 1,125 mg EPA and 875 mg DHA, per two softgels."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-warning",
+          "nordic-label"
+        ],
+        "reason": "Fish ingredients and physician-consultation warnings for iodine allergy, medical conditions and medications are visible."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-product",
+          "nordic-nsf"
+        ],
+        "reason": "NSF Certified for Sport is named on the product page and recorded by NSF."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-nsf"
+        ],
+        "reason": "NSF hosts the original certification entry and its linked supplement panel."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-nsf"
+        ],
+        "reason": "The listing names Ultimate Omega 2X Sport, lemon softgels, package size 60 and a two-softgel serving."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-returns"
+        ],
+        "reason": "The policy provides a 30-day authorization window, resale-condition requirements, defective-product route and seller-specific limitations."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-product"
+        ],
+        "reason": "The brand discloses free standard shipping, 1\u20132-business-day processing and a 3\u20137-business-day delivery estimate."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-returns"
+        ],
+        "reason": "Published email and telephone routes explain how to obtain return authorization."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "nordic-nsf",
+          "nordic-label"
+        ],
+        "reason": "The NSF record names lots 240115 and 233105; the label identifies U.S. manufacture using globally sourced ingredients."
+      }
+    ],
+    "sources": [
+      {
+        "id": "nordic-product",
+        "title": "Ultimate Omega 2X Sport product page",
+        "url": "https://www.nordic.com/products/ultimate-omega-2x-sport/?variant=39472184754360",
+        "kind": "brand",
+        "publisher": "Nordic Naturals",
+        "checked": "2026-10-16",
+        "note": "Selected one-time 60-count lemon offer: $55.95. Processing and delivery terms are shown."
+      },
+      {
+        "id": "nordic-label",
+        "title": "Original bottle image: ingredients and amounts",
+        "url": "https://images.nordic.com/RHRLCO36/at/jm7fbnc9vq8jbxv4qbp7qrfr/01807RD1-Ultimate2XSport_60_Bottle_Right.jpg?format=jpg&height=1000&width=1000",
+        "kind": "brand",
+        "publisher": "Nordic Naturals",
+        "checked": "2026-10-16",
+        "note": "Visually inspected readable label: composition, fish species and country-of-manufacture wording."
+      },
+      {
+        "id": "nordic-warning",
+        "title": "Original bottle image: warning and storage",
+        "url": "https://images.nordic.com/RHRLCO36/at/f57qxp73h5926t36qcb5547/01807RD1-Ultimate2XSport_60_Bottle_Left.jpg?format=jpg&height=1000&width=1000",
+        "kind": "brand",
+        "publisher": "Nordic Naturals",
+        "checked": "2026-10-16",
+        "note": "Visually inspected consultation warning, storage instructions and tamper-evidence guidance."
+      },
+      {
+        "id": "nordic-nsf",
+        "title": "Original NSF Sport listing: Ultimate Omega 2X Sport",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1207526",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Exact product, lemon flavor, 60-softgel package and two named lots were located."
+      },
+      {
+        "id": "nordic-nsf-label",
+        "title": "NSF-hosted supplement facts panel",
+        "url": "https://info.nsf.org/Certified/Common/cfs/C0036070/C0435811/Nordic%20Naturals/Ultimate%20Omega%202X%20Sport/1207526/Label_01.PNG",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "The certifier-hosted panel was visually inspected; it distinguishes one-softgel and two-softgel amounts."
+      },
+      {
+        "id": "nordic-returns",
+        "title": "Returns and customer service",
+        "url": "https://www.nordic.com/returns/",
+        "kind": "brand",
+        "publisher": "Nordic Naturals",
+        "checked": "2026-10-16",
+        "note": "Includes direct-purchase conditions, authorization requirements and third-party-seller limitations."
+      },
+      {
+        "id": "nordic-consumers",
+        "title": "Nordic Naturals customer-service reviews",
+        "url": "https://www.trustpilot.com/review/nordic.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 2.4/5 from 11 reviews. The first six complete English-language accounts were inspected."
+      }
+    ],
+    "limitations": [
+      "Only Ultimate Omega 2X Sport, lemon, 60 softgels was assessed; the result is not a score for all Nordic Naturals products.",
+      "NSF names two lots, but no customer package was supplied. A certification and a clear label do not guarantee a clinical outcome.",
+      "External consumer accounts span countries, products and potentially distributors. The eleven-review aggregate is too small for a general customer-satisfaction conclusion."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "nordic-consumers",
+        "rating": 2.4,
+        "count": 11,
+        "summary": "Some sampled reviewers liked the products; others described difficulty reaching support, delivery problems or disputed subscription and return handling.",
+        "topics": [
+          "Support",
+          "Delivery",
+          "Returns",
+          "Subscriptions"
+        ],
+        "positives": [
+          "Several accounts expressed product satisfaction, including within critical service reviews."
+        ],
+        "concerns": [
+          "Support access and follow-through were recurring complaints.",
+          "Individual accounts described late delivery, stuck softgels or refund disputes."
+        ],
+        "sampling": "First six complete English-language reviews visible in the most-recent feed; no random sampling or purchase verification.",
+        "basis": "review-sample",
+        "sampleSize": 6,
+        "sampleStart": "2025-04-26",
+        "sampleEnd": "2026-09-23",
+        "limitations": "Only 11 reviews overall; self-selected and cross-country. One account names another dispatch entity, so direct-brand responsibility is uncertain. Outcomes and allegations remain unverified."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial in-depth review: product-specific original records, buying terms, sampled consumer feedback, and explicit evidence limitations."
+  },
+  {
+    "brandId": "ritual",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "ritual-daily-shake-vanilla"
+    ],
+    "summary": "An original NSF record matches the vanilla shake. Several product-page inconsistencies reduce disclosure points; consumer experience remains a separate signal.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "ritual-product"
+        ],
+        "reason": "Ingredients name rebaudioside-M, but other copy says stevia-free."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "ritual-product"
+        ],
+        "reason": "L-methionine appears as 400 mg and 493 mg in different sections."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "ritual-product",
+          "ritual-notice"
+        ],
+        "reason": "The current page carries a California lead warning. The separately linked private-party notice is an allegation, not a judgment."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ritual-nsf"
+        ],
+        "reason": "NSF independently lists the scoped formula under NSF/ANSI 173."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ritual-nsf"
+        ],
+        "reason": "An original NSF registry entry is accessible. It is contents certification, not the separate Certified for Sport program."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "ritual-nsf"
+        ],
+        "reason": "The registry names Essential Protein Daily Shake Vanilla flavor, powder and a 5-tablespoon/one-third-cup serving."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "ritual-returns"
+        ],
+        "reason": "First-product purchases have a 30-day refund request window measured from purchase; proof of purchase and channel restrictions are stated."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "ritual-terms",
+          "ritual-product"
+        ],
+        "reason": "Regions and shipping charges are disclosed; a general delivery-time estimate was not located in these sources."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "ritual-returns"
+        ],
+        "reason": "The published support email specifies information required for a refund request."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "ritual-product"
+        ],
+        "reason": "Supplier locations are disclosed, but choline locations differ between sections."
+      }
+    ],
+    "sources": [
+      {
+        "id": "ritual-product",
+        "title": "Vanilla Daily Shake: product and traceability",
+        "url": "https://ritual.com/products/essential-protein-daily-shake-18?variant=42291511951454",
+        "kind": "brand",
+        "publisher": "Ritual",
+        "checked": "2026-10-16",
+        "note": "Current page shows ingredient and supplier-location inconsistencies."
+      },
+      {
+        "id": "ritual-nsf",
+        "title": "Original NSF/ANSI 173 registry: Ritual",
+        "url": "https://info.nsf.org/Certified/Dietary/Listings.asp?Company=C0842798&Standard=173",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Original directory lists the vanilla Daily Shake under the Ogden facility. No consumer lot was provided."
+      },
+      {
+        "id": "ritual-returns",
+        "title": "Return and refund policy",
+        "url": "https://ritual.com/pages/return-policy",
+        "kind": "brand",
+        "publisher": "Ritual",
+        "checked": "2026-10-16",
+        "note": "First-product purchase, proof-of-purchase and 30-day conditions; authorized retailer purchases use retailer policy."
+      },
+      {
+        "id": "ritual-terms",
+        "title": "Subscription and sales terms",
+        "url": "https://ritual.com/pages/subscription-and-sales-terms",
+        "kind": "brand",
+        "publisher": "Ritual",
+        "checked": "2026-10-16",
+        "note": "Automatic renewal, cancellation, supported countries and delayed-delivery refund language were reviewed."
+      },
+      {
+        "id": "ritual-notice",
+        "title": "Private-party Proposition 65 notice, February 2026",
+        "url": "https://oag.ca.gov/system/files/prop65/notices/2026-00651.pdf",
+        "kind": "independent",
+        "publisher": "California Attorney General archive / Consumer Protection Group filing",
+        "checked": "2026-10-16",
+        "note": "A private party alleges warning violations for vanilla shake UPC 850031975354. Hosting by the state does not endorse the allegation or establish a violation; no adjudicated outcome was verified."
+      },
+      {
+        "id": "ritual-consumers",
+        "title": "Ritual customer-service reviews",
+        "url": "https://www.trustpilot.com/review/ritual.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 3.2/5 from 186 reviews. Inspected ten complete most-recent accounts; the platform says Ritual invites customers to review."
+      },
+      {
+        "id": "ritual-review-policy",
+        "title": "Brand-hosted review policy",
+        "url": "https://ritual.com/pages/reviews-policy",
+        "kind": "brand",
+        "publisher": "Ritual",
+        "checked": "2026-10-16",
+        "note": "The policy describes moderation, incentive disclosures and handling of adverse-event reports. Brand-site reviews are not an exhaustive account of all experiences."
+      }
+    ],
+    "limitations": [
+      "Assessment covers Daily Shake vanilla only. Read the partial checks before comparing this score with another product.",
+      "The government-hosted notice records private-party allegations. It is not a recall, a court finding, or evidence that this product is unsafe; its ultimate disposition was not verified.",
+      "The NSF entry establishes a product-level contents-certification record, not authentication of a purchased bag or proof of clinical benefit.",
+      "Source inconsistency is unresolved. No formula equivalence was inferred from older Clean Label Project certificates with different UPCs."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "ritual-consumers",
+        "rating": 3.2,
+        "count": 186,
+        "summary": "The sampled recent accounts were mostly favorable about products and convenience, with some delivery, tolerability and duplicate-order concerns.",
+        "topics": [
+          "Routine",
+          "Subscriptions",
+          "Support",
+          "Delivery"
+        ],
+        "positives": [
+          "Reviewers valued subscription convenience and the ability to change delivery timing.",
+          "Several described long-term satisfaction and responsive support."
+        ],
+        "concerns": [
+          "One favorable reviewer still reported slow delivery.",
+          "Other accounts described poor tolerability or duplicate-order/cancellation difficulties."
+        ],
+        "sampling": "Ten complete reviews from the top of the Most recent feed inspected, plus visible company replies. No claims of representative sampling.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "limitations": "Invited and self-selected brand-wide feedback, mostly about vitamins rather than this shake. Recent sampled sentiment differs from the full rating. A reviewer misidentified an ingredient; the brand reply corrected it. Health outcomes were not verified."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial in-depth review: product-specific original records, buying terms, sampled consumer feedback, and explicit evidence limitations."
+  },
+  {
+    "brandId": "kaged",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "kaged-creatine-monohydrate"
+    ],
+    "summary": "The scoped creatine has an original batch registry, while conflicting pack-size and buying-policy details keep several checks partial.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "kaged-label"
+        ],
+        "reason": "The label identifies creatine monohydrate and states that there are no other ingredients."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "kaged-product",
+          "kaged-label"
+        ],
+        "reason": "Dose and approximate serving count are disclosed, but the selected 500 g pack conflicts with the 510 g label artwork."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "kaged-faq"
+        ],
+        "reason": "The FAQ limits intended use to adults and advises professional consultation for pregnancy, nursing, medical conditions or medications."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "kaged-registry"
+        ],
+        "reason": "Informed Sport is the named outside certification program for this product."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "kaged-registry"
+        ],
+        "reason": "The independent program publishes the product entry and dated batch records itself."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "kaged-registry",
+          "kaged-product"
+        ],
+        "reason": "Brand, creatine-monohydrate powder and unflavored variant match. This does not match a particular shopper\u2019s tub."
+      },
+      {
+        "key": "returns",
+        "status": "partial",
+        "sourceIds": [
+          "kaged-returns"
+        ],
+        "reason": "A usable return route and exclusions are provided, but the 30-day heading conflicts with the 60-day body."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "kaged-faq"
+        ],
+        "reason": "Processing and delivery information are available; the FAQ\u2019s $35 free-shipping threshold conflicts with the $60 banner."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "kaged-faq"
+        ],
+        "reason": "A support email and help-center route are published for order or product questions."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "kaged-registry"
+        ],
+        "reason": "Public unflavored batch identifiers, test dates and expiry dates provide a batch lookup route."
+      }
+    ],
+    "sources": [
+      {
+        "id": "kaged-product",
+        "title": "Creatine Monohydrate \u2014 selected US variant",
+        "url": "https://www.kaged.com/products/creatine-monohydrate?variant=40473628180545",
+        "kind": "brand",
+        "publisher": "Kaged",
+        "checked": "2026-10-16",
+        "note": "The one-time 500 Grams / Unflavored option is $29.99; about 100 servings."
+      },
+      {
+        "id": "kaged-label",
+        "title": "Official supplement facts image",
+        "url": "https://www.kaged.com/cdn/shop/files/CreatineMonohydrateAMZ_CreatineMonohydrateSFP.jpg?v=1774384446&width=1600",
+        "kind": "brand",
+        "publisher": "Kaged",
+        "checked": "2026-10-16",
+        "note": "Label image: 5 g active ingredient in a 5.1 g scoop; bottle artwork says 510 g, unlike the 500 g selector."
+      },
+      {
+        "id": "kaged-registry",
+        "title": "Creatine Monohydrate batch registry",
+        "url": "https://sport.wetestyoutrust.com/ja/node/1281518",
+        "kind": "independent",
+        "publisher": "LGC / Informed Sport",
+        "checked": "2026-10-16",
+        "note": "Product certified December 12, 2023. Unflavored lot 2605014: tested July 21, 2026; expiry June 30, 2028."
+      },
+      {
+        "id": "kaged-faq",
+        "title": "Product safety, shipping and support FAQ",
+        "url": "https://www.kaged.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Kaged",
+        "checked": "2026-10-16",
+        "note": "FAQ describes adult-use cautions, shipping and support. The $35 free-shipping statement conflicts with the $60 page banner."
+      },
+      {
+        "id": "kaged-returns",
+        "title": "Domestic refund policy",
+        "url": "https://www.kaged.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Kaged",
+        "checked": "2026-10-16",
+        "note": "Heading says 30 days, body and guarantee say 60. More-than-half-used supplements and third-party purchases are excluded."
+      },
+      {
+        "id": "kaged-reviews",
+        "title": "Kaged customer-service reviews",
+        "url": "https://www.trustpilot.com/review/kaged.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 3.6/5 from 18 reviews. The profile includes merged domains and historic UK experiences."
+      }
+    ],
+    "limitations": [
+      "Scope: the unflavored Creatine Monohydrate powder only; not other Kaged formulas.",
+      "Independent screening here concerns prohibited substances. It does not prove clinical benefit or zero risk, and we did not test a purchased tub.",
+      "Confirm pack weight, refund window and shipping threshold before ordering; the reviewed brand pages disagree."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "kaged-reviews",
+        "rating": 3.6,
+        "count": 18,
+        "summary": "Recent praise sits alongside older fulfillment and support complaints.",
+        "topics": [
+          "Product experience",
+          "Customer service",
+          "Transparency"
+        ],
+        "positives": [
+          "Two recent reviewers praised ingredients, flavor, mixability or delivery."
+        ],
+        "concerns": [
+          "Older sampled posts describe delays, refund communication and flavor changes.",
+          "One reports unwanted health effects while stacking products; causation was not verified."
+        ],
+        "sampling": "Read the first six displayed reviews in the most-recent list, including visible brand replies. Dates below are displayed posting/update dates.",
+        "basis": "review-sample",
+        "sampleSize": 6,
+        "sampleStart": "2024-06-18",
+        "sampleEnd": "2026-10-12",
+        "limitations": "Small, self-selected, merged brand-level sample across countries and products. Kaged replies acknowledge some past service problems and describe changes; we did not independently verify resolution. No recent invitation history is reported. Not a creatine-only result.",
+        "countUnit": "reviews"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial detailed review: matched an original certification record, assessed buying terms, and read a disclosed consumer-review sample."
+  },
+  {
+    "brandId": "now-foods",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "now-foods-creatine-powder"
+    ],
+    "summary": "A full label, clear direct-purchase terms and a matching independent batch registry support the scoped creatine profile.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "now-product"
+        ],
+        "reason": "The product states creatine monohydrate with no other ingredients."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "now-product"
+        ],
+        "reason": "The label gives 5 g per serving and about 45 servings for the 8 oz package."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "now-product"
+        ],
+        "reason": "Adult-use, pregnancy, nursing, medication and kidney-condition cautions appear alongside shared-facility allergen information."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "now-registry"
+        ],
+        "reason": "Informed Sport identifies the scoped powder as a certified product."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "now-registry"
+        ],
+        "reason": "The original certifier hosts dated test and expiry records."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "now-registry",
+          "now-product"
+        ],
+        "reason": "The entry identifies NOW Sports Creatine Monohydrate Powder and a 227 g pack, matching the catalog\u2019s 8 oz option."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "now-terms"
+        ],
+        "reason": "Unopened direct purchases have a 30-day window; return shipping and damaged/wrong-item handling are explained."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "now-terms"
+        ],
+        "reason": "The policy states $6.95 standard shipping below $50, regional restrictions and a 2\u20138 business-day estimate."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "now-contact"
+        ],
+        "reason": "Contact and product-complaint forms are published with product and lot fields."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "now-registry",
+          "now-contact"
+        ],
+        "reason": "A visible lot-number route and an independent batch directory permit lookup; no shopper\u2019s own lot was supplied."
+      }
+    ],
+    "sources": [
+      {
+        "id": "now-product",
+        "title": "NOW Sports Creatine Monohydrate Powder",
+        "url": "https://www.nowfoods.com/products/sports-nutrition/creatine-monohydrate-powder",
+        "kind": "brand",
+        "publisher": "NOW Foods",
+        "checked": "2026-10-16",
+        "note": "8 oz SKU 2030: $11.99 sale price, about 45 servings. Full label and cautions are available."
+      },
+      {
+        "id": "now-registry",
+        "title": "NOW Sports Creatine Monohydrate Powder \u2014 batch registry",
+        "url": "https://sport.wetestyoutrust.com/ja/node/1569",
+        "kind": "independent",
+        "publisher": "LGC / Informed Sport",
+        "checked": "2026-10-16",
+        "note": "Shows 227 g, 600 g and 1 kg packs. Example lot 3465838: tested August 19, 2026; expiry June 30, 2031."
+      },
+      {
+        "id": "now-terms",
+        "title": "Shipping, payment and return policies",
+        "url": "https://www.nowfoods.com/shipping-payment-return-policies",
+        "kind": "brand",
+        "publisher": "NOW Foods",
+        "checked": "2026-10-16",
+        "note": "Direct-site returns are limited to new unopened items within 30 days. Shipping rates, regions and time frames are stated."
+      },
+      {
+        "id": "now-contact",
+        "title": "Customer support and product feedback routes",
+        "url": "https://www.nowfoods.com/about-now/contact-us",
+        "kind": "brand",
+        "publisher": "NOW Foods",
+        "checked": "2026-10-16",
+        "note": "Support form requests product code and lot number; dedicated product-complaint route is provided."
+      },
+      {
+        "id": "now-reviews",
+        "title": "NOW Foods customer-service reviews",
+        "url": "https://www.trustpilot.com/review/nowfoods.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 3.0/5 from 31 reviews. The platform reports no invitation history."
+      }
+    ],
+    "limitations": [
+      "Scope: unflavored NOW Sports Creatine Monohydrate Powder, 8 oz. Other NOW products are outside this assessment.",
+      "A prohibited-substance screening record does not establish clinical effectiveness, comprehensive contaminant testing or the contents of an individual purchased tub.",
+      "Consumer feedback concerns a broad range of products and may differ from the scoped creatine experience."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "now-reviews",
+        "rating": 3.0,
+        "count": 31,
+        "summary": "The sampled brand-level feedback is mixed, particularly about support and perceived product consistency.",
+        "topics": [
+          "Product experience",
+          "Customer service",
+          "Transparency"
+        ],
+        "positives": [
+          "Several writers praise value, long-term use or helpful support."
+        ],
+        "concerns": [
+          "Other writers describe unanswered concerns, packaging differences or difficulty obtaining a refund.",
+          "One sampled review says test reports were not shared; this does not negate the public creatine registry."
+        ],
+        "sampling": "Read the first ten individual reviews in the most-recent list. The date range uses displayed posting/update dates, not purchase dates.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "sampleStart": "2026-01-14",
+        "sampleEnd": "2026-09-15",
+        "limitations": "Self-selected sample spanning oils, vitamins and other supplements, not a creatine cohort. Health-effect and product-quality allegations are unverified experiences, not laboratory findings. The 31-review aggregate is separate from the ten posts read.",
+        "countUnit": "reviews"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial detailed review: matched an original certification record, assessed buying terms, and read a disclosed consumer-review sample."
+  },
+  {
+    "brandId": "sports-research",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "sports-research-creatine"
+    ],
+    "summary": "The scoped creatine has original Informed Sport batch records and an additional narrowly identified NSF listing; consumer reports raise separate service questions.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "sr-label"
+        ],
+        "reason": "The label lists micronized creatine monohydrate as the ingredient."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "sr-label"
+        ],
+        "reason": "It specifies a 5 g scoop, 5 g creatine dose and 60 servings."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "sr-caution"
+        ],
+        "reason": "The label supplies adult-use directions, consultation cautions, storage and seal warnings."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "sr-registry",
+          "sr-nsf"
+        ],
+        "reason": "Informed Sport and NSF both publish named product records."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "sr-registry",
+          "sr-nsf"
+        ],
+        "reason": "The independent bodies host their own records, rather than relying on a retailer logo."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "sr-registry",
+          "sr-label"
+        ],
+        "reason": "The brand, powder format and unflavored formula match. NSF\u2019s listed product IDs provide narrower additional coverage."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "sr-returns"
+        ],
+        "reason": "A 45-day supplement-return deadline, receipt/RMA requirements, return costs and refund processing are stated."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "sr-shipping"
+        ],
+        "reason": "Rates, standard delivery estimates, expedited choices and destination restrictions are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "sr-returns",
+          "sr-label"
+        ],
+        "reason": "A support email and distributor telephone are published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "sr-label",
+          "sr-registry"
+        ],
+        "reason": "The label locates the lot and expiry markings, and an independent registry supplies searchable batch records."
+      }
+    ],
+    "sources": [
+      {
+        "id": "sr-product",
+        "title": "Creatine Monohydrate \u2014 10.58 oz variant",
+        "url": "https://www.sportsresearch.com/products/creatine-monohydrate",
+        "kind": "brand",
+        "publisher": "Sports Research",
+        "checked": "2026-10-16",
+        "note": "Live product page: 60 servings, one-time price $17.95, unflavored 300 g option."
+      },
+      {
+        "id": "sr-label",
+        "title": "Official 300 g supplement facts image",
+        "url": "https://cdn.shopify.com/s/files/1/1813/6377/files/sr_creatine_20monohydrate_unflavored_300g_fg405_side_mainline_20_2_20_1.png?v=1782790911",
+        "kind": "brand",
+        "publisher": "Sports Research",
+        "checked": "2026-10-16",
+        "note": "Label lists one ingredient, a 5 g dose, 60 servings and US packaging. Lot and best-by information are printed on the bottom."
+      },
+      {
+        "id": "sr-caution",
+        "title": "Official 300 g directions and caution label",
+        "url": "https://cdn.shopify.com/s/files/1/1813/6377/files/sr_creatine_20monohydrate_unflavored_300g_fg405_back_mainline_20_1.png?v=1782790911",
+        "kind": "brand",
+        "publisher": "Sports Research",
+        "checked": "2026-10-16",
+        "note": "Adult directions, pregnancy/medication cautions, storage and damaged-seal instructions are readable."
+      },
+      {
+        "id": "sr-registry",
+        "title": "Creatine Monohydrate \u2014 Informed Sport batch registry",
+        "url": "https://sport.wetestyoutrust.com/ja/node/1282877",
+        "kind": "independent",
+        "publisher": "LGC / Informed Sport",
+        "checked": "2026-10-16",
+        "note": "The powder entry lists unflavored batches, including 26223A tested October 15, 2026 with expiry August 31, 2029."
+      },
+      {
+        "id": "sr-nsf",
+        "title": "NSF Certified for Sport \u2014 Sports Research listing",
+        "url": "https://info.nsf.org/Certified/BannedSub/Listings.asp?Company=C0141626&Standard=306",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Lists unflavored creatine powder with product IDs T25G045 and T25G046, plus a separate Creapure product. Coverage must not be generalized to every lot."
+      },
+      {
+        "id": "sr-returns",
+        "title": "Direct-order returns",
+        "url": "https://www.sportsresearch.com/returns",
+        "kind": "brand",
+        "publisher": "Sports Research",
+        "checked": "2026-10-16",
+        "note": "Supplements: initiate within 45 days of shipment; receipt and RMA required. Customer pays return shipping."
+      },
+      {
+        "id": "sr-shipping",
+        "title": "US shipping policy",
+        "url": "https://www.sportsresearch.com/shipping",
+        "kind": "brand",
+        "publisher": "Sports Research",
+        "checked": "2026-10-16",
+        "note": "States $7.50 flat rate, free shipping at $50 and a standard estimate of two processing days plus ten transit business days."
+      },
+      {
+        "id": "sr-transparency",
+        "title": "Transparency overview",
+        "url": "https://www.sportsresearch.com/transparency",
+        "kind": "brand",
+        "publisher": "Sports Research",
+        "checked": "2026-10-16",
+        "note": "Describes global ingredient sourcing and co-manufacturers, without identifying this ingredient\u2019s origin."
+      },
+      {
+        "id": "sr-reviews",
+        "title": "Sports Research customer-service reviews",
+        "url": "https://www.trustpilot.com/review/sportsresearch.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 3.0/5 from 11 reviews. No history of review invitations is reported."
+      }
+    ],
+    "limitations": [
+      "Scope: unflavored Creatine Monohydrate, 300 g. This is not a score for every Sports Research supplement.",
+      "Neither registry proves the contents of a shopper\u2019s own tub. NSF lists particular product IDs; Informed Sport screens for prohibited substances.",
+      "The transparency overview does not identify the ingredient\u2019s country of origin. A batch lookup is available, but this is not a full supply-chain audit."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "sr-reviews",
+        "rating": 3.0,
+        "count": 11,
+        "summary": "The small sample combines favorable product experiences with ordering, support and report-access complaints.",
+        "topics": [
+          "Product experience",
+          "Customer service",
+          "Transparency"
+        ],
+        "positives": [
+          "Positive posts describe satisfaction with vitamins, retailer availability or presentation."
+        ],
+        "concerns": [
+          "Critical posts discuss shipping delays, cancellations, incorrect orders and subscription support.",
+          "A collagen buyer says a requested COA was not provided; that concerns another product."
+        ],
+        "sampling": "Read all eleven individual posts visible on the brand page, across the full displayed date range.",
+        "basis": "review-sample",
+        "sampleSize": 11,
+        "sampleStart": "2024-01-24",
+        "sampleEnd": "2026-09-29",
+        "limitations": "Very small, self-selected brand-level sample across products and sellers. Purchases and medical allegations were not independently verified. Favorable testimonials do not prove benefit; critical testimonials do not establish a defect in the scoped creatine.",
+        "countUnit": "reviews"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial detailed review: matched an original certification record, assessed buying terms, and read a disclosed consumer-review sample."
+  },
+  {
+    "brandId": "ascent",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "ascent-clean-creatine"
+    ],
+    "summary": "Clean Creatine has a matching batch registry and merchant-hosted consumer feedback.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-product"
+        ],
+        "reason": "Creapure creatine monohydrate is the sole listed ingredient."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-product"
+        ],
+        "reason": "The label gives 5 g per scoop and 45 servings."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-product"
+        ],
+        "reason": "The label discloses peanut and tree-nut equipment cross-contact."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-registry"
+        ],
+        "reason": "Informed Sport names Ascent Clean Creatine in its certification directory."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-registry"
+        ],
+        "reason": "The independent program\u2019s own product page and dated batch entries are accessible."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-registry"
+        ],
+        "reason": "The entry identifies Ascent Clean Creatine powder and unflavored batches, matching the reviewed formulation."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-returns"
+        ],
+        "reason": "Opened/sealed contact windows, approval requirements, replacement conditions and final-sale exclusions are disclosed."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-shipping"
+        ],
+        "reason": "The policy states ground rates, free-shipping threshold, delivery estimate and excluded states/territory."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-contact",
+          "ascent-returns"
+        ],
+        "reason": "A linked customer experience form and support email provide a documented contact route."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "ascent-registry"
+        ],
+        "reason": "The public registry shows batch IDs, test dates and expiry dates for unflavored Clean Creatine."
+      }
+    ],
+    "sources": [
+      {
+        "id": "ascent-product",
+        "title": "Clean Creatine \u2014 product, label and live review widget",
+        "url": "https://www.ascentprotein.com/products/creatine?variant=42960292118703",
+        "kind": "brand",
+        "publisher": "Ascent",
+        "checked": "2026-10-16",
+        "note": "45 servings: $24.99. Live Stamped widget: 4.8/39 reviews; pre-rendered count was stale."
+      },
+      {
+        "id": "ascent-registry",
+        "title": "Clean Creatine \u2014 independent batch registry",
+        "url": "https://sport.wetestyoutrust.com/ja/node/1281656",
+        "kind": "independent",
+        "publisher": "LGC / Informed Sport",
+        "checked": "2026-10-16",
+        "note": "Ascent Clean Creatine certified November 15, 2023. Example unflavored lot 26152SL1: tested June 24, 2026; expires April 20, 2028."
+      },
+      {
+        "id": "ascent-returns",
+        "title": "Refund policy",
+        "url": "https://www.ascentprotein.com/pages/refund-policy",
+        "kind": "brand",
+        "publisher": "Ascent",
+        "checked": "2026-10-16",
+        "note": "Contact within 30 days for sealed or 15 days for opened products. Discounted items are final sale."
+      },
+      {
+        "id": "ascent-shipping",
+        "title": "Shipping policy",
+        "url": "https://www.ascentprotein.com/pages/shipping-policy",
+        "kind": "brand",
+        "publisher": "Ascent",
+        "checked": "2026-10-16",
+        "note": "Free ground shipping at $79; otherwise $5. The page states 2\u20135 business days and excluded destinations."
+      },
+      {
+        "id": "ascent-contact",
+        "title": "Customer experience contact form",
+        "url": "https://contact.gorgias.help/en-US/forms/9h7k3fko",
+        "kind": "brand",
+        "publisher": "Ascent customer experience",
+        "checked": "2026-10-16",
+        "note": "Official footer links to this support form; the refund policy also publishes a support email."
+      }
+    ],
+    "limitations": [
+      "Scope: Clean Creatine unflavored, 45-serving tub. Other Ascent products are not covered.",
+      "The current catalog price is discounted; the published refund policy says discounted items are final sale.",
+      "Certification records concern prohibited-substance screening, not a clinical trial or a test of the buyer\u2019s individual tub."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "ascent-product",
+        "rating": 4.8,
+        "count": 39,
+        "summary": "Mixing feedback conflicts within this small sample.",
+        "topics": [
+          "Product experience",
+          "Customer service",
+          "Transparency"
+        ],
+        "positives": [
+          "Posts praise neutral taste and mixing."
+        ],
+        "concerns": [
+          "Posts flag discount-code problems, poor dissolving or unwanted effects."
+        ],
+        "sampling": "Read five default-listed and two two-star posts; one reviewer name repeats.",
+        "basis": "review-sample",
+        "sampleSize": 7,
+        "sampleStart": "2024-08-19",
+        "sampleEnd": "2026-07-07",
+        "limitations": "Brand-hosted widget; moderation and invitations unknown. Purchases and health claims unverified. Not representative.",
+        "countUnit": "reviews"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial detailed review: matched an original certification record, assessed buying terms, and read a disclosed consumer-review sample."
+  },
+  {
+    "brandId": "promix",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "promix-creatine"
+    ],
+    "summary": "Promix Creatine is listed in the Non-GMO Project\u2019s own directory. Its documentation score reflects that narrow certification and published shopping terms; an original creatine laboratory report was still not established.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "promix-product"
+        ],
+        "reason": "The product identifies micronized creatine monohydrate as its formula and states no fillers."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "promix-product"
+        ],
+        "reason": "Scoop directions and serving counts are visible; the exact gram-dose panel was not fully inspected in this review."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "promix-product"
+        ],
+        "reason": "Directions and physician-consultation language appear; a complete product warning panel was not assessed."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "promix-nongmo"
+        ],
+        "reason": "The Non-GMO Project directly lists Promix Nutrition Creatine."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "promix-nongmo"
+        ],
+        "reason": "The certifier\u2019s own product directory was inspected. This is a GMO-avoidance record, not a laboratory contaminant panel."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "promix-nongmo",
+          "promix-product"
+        ],
+        "reason": "The registry lists Creatine under Promix Nutrition, matching this single-ingredient product. It does not identify the shopper\u2019s lot."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "promix-returns"
+        ],
+        "reason": "Eligibility depends on order type; the policy limits the guarantee to one product per order."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "promix-shipping"
+        ],
+        "reason": "The article explains processing, domestic transit estimates and delay support."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "promix-contact"
+        ],
+        "reason": "A dedicated customer-contact form and business address are published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "promix-testing",
+          "promix-testfaq"
+        ],
+        "reason": "A package lot number can be submitted through the published testing lookup."
+      }
+    ],
+    "sources": [
+      {
+        "id": "promix-product",
+        "title": "Micronized Creatine product page",
+        "url": "https://promixnutrition.com/products/creatine",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Single-ingredient formula, directions and testing claim reviewed; dynamic label fields were limited in the page extraction."
+      },
+      {
+        "id": "promix-testing",
+        "title": "Independent lab test lookup",
+        "url": "https://promixnutrition.com/blogs/authenticate-products",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Lookup requires a lot code; its unselected template is not a finished batch result."
+      },
+      {
+        "id": "promix-testfaq",
+        "title": "How to locate third-party results",
+        "url": "https://promix-nutrition.gorgias.help/en-US/do-you-conduct-third-party-testing-on-your-products-413543",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Explains where the package lot number appears and where to retrieve results."
+      },
+      {
+        "id": "promix-returns",
+        "title": "Refund and return policy",
+        "url": "https://promixnutrition.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Reviewed policy distinguishes one-time, subscription, discount and international orders and limits coverage to one product per order."
+      },
+      {
+        "id": "promix-shipping",
+        "title": "Shipping times and windows",
+        "url": "https://promix-nutrition.gorgias.help/en-US/shipping-times-and-windows-us-and-international-413492",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Current help article supplies processing and domestic delivery estimates."
+      },
+      {
+        "id": "promix-contact",
+        "title": "Contact Promix",
+        "url": "https://promixnutrition.com/pages/contact",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Order, subscription and general-support form reviewed."
+      },
+      {
+        "id": "promix-reviews",
+        "title": "Promix customer-service reviews",
+        "url": "https://www.trustpilot.com/review/promixnutrition.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 1.7/5 from 50 reviews."
+      },
+      {
+        "id": "promix-nongmo",
+        "title": "Non-GMO Project \u2014 Promix Creatine listing",
+        "url": "https://www.nongmoproject.org/find-non-gmo/?keyword=Promix",
+        "kind": "independent",
+        "publisher": "Non-GMO Project",
+        "checked": "2026-10-16",
+        "note": "Live product-finder results inspected: Creatine is listed under Promix Nutrition. This certifies GMO-avoidance practices, not banned substances, potency or heavy metals."
+      },
+      {
+        "id": "promix-nsf-search",
+        "title": "NSF Certified for Sport \u2014 Promix search",
+        "url": "https://www.nsfsport.com/certified-products/search-results.php?keyword=Promix",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "This keyword search returned no matching records. That narrow result does not prove the brand never tests products or that all possible trade names were searched."
+      }
+    ],
+    "limitations": [
+      "Only Micronized Creatine is scored. Non-GMO verification does not establish potency, heavy-metal levels, prohibited-substance screening or clinical benefit.",
+      "The certifier warns that unverified lots may remain in circulation; look for its seal on the actual package. No current-bottle laboratory match was established.",
+      "The public NSF keyword search returned no match; that is a search limitation, not proof that no testing occurs. Some brand help articles give different shipping estimates."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "promix-reviews",
+        "rating": 1.7,
+        "count": 50,
+        "summary": "The inspected accounts mix product appreciation with dissatisfaction about fulfillment and purchase terms.",
+        "positives": [
+          "Some reviewers liked protein flavor, texture or their product experience."
+        ],
+        "concerns": [
+          "Repeated complaints concerned refund restrictions, subscription handling and slow support.",
+          "Individual accounts described delivery delays or packaging defects."
+        ],
+        "sampling": "Read the first 10 complete reviews in the displayed most-recent list, published July 14\u2013October 1, 2026. This is a convenience sample, not a random survey or all 50 reviews.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "limitations": "Self-selected, brand-level accounts; purchase claims and allegations were not independently adjudicated. Trustpilot reported no recent invitation history. Most comments concern products other than creatine.",
+        "sampleStart": "2026-07-14",
+        "sampleEnd": "2026-10-01"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Added an exact Non-GMO Project product-directory match, documented the limited certification scope, and inspected ten external customer reviews without blending their rating into the evidence score."
+  },
+  {
+    "brandId": "transparent-labs",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "transparent-labs-ksm-66-ashwagandha"
+    ],
+    "summary": "KSM-66 Ashwagandha has an exact product and batch listing in Informed Choice\u2019s independent registry. The score recognizes that documented evidence while retaining gaps in the inspected ingredient and warning panels.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "transparent-labs-label"
+        ],
+        "reason": "The active ingredient is named, but this inspected label image did not disclose the capsule\u2019s complete other-ingredient list."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-label"
+        ],
+        "reason": "600 mg per capsule, 60 servings and minimum 5% total withanolides are stated."
+      },
+      {
+        "key": "caveats",
+        "status": "not_found",
+        "sourceIds": [
+          "transparent-labs-product",
+          "transparent-labs-label"
+        ],
+        "reason": "A product-specific warning panel was not located in the retrieved product text or inspected label image."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-informed"
+        ],
+        "reason": "LGC\u2019s Informed Choice registry identifies Transparent Labs KSM-66 Ashwagandha capsules."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-informed",
+          "transparent-labs-program"
+        ],
+        "reason": "An original certifier record lists certification and dated batch testing. Its stated focus is banned-substance risk, not an efficacy trial or complete safety assessment."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-informed",
+          "transparent-labs-product"
+        ],
+        "reason": "The registered brand, product and capsule form match. Batch 26030352 is listed, but the shopper\u2019s bottle has not been matched."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-faq"
+        ],
+        "reason": "The FAQ gives a 45-day satisfaction window and explains how to request assistance."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-faq"
+        ],
+        "reason": "Domestic and international delivery estimates and fulfillment timing are stated."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-faq"
+        ],
+        "reason": "Support email, telephone and contact form are available."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-informed",
+          "transparent-labs-faq"
+        ],
+        "reason": "The certifier lists batch identifiers and expiration dates, and the brand explains how to provide a lot number."
+      }
+    ],
+    "sources": [
+      {
+        "id": "transparent-labs-product",
+        "title": "KSM-66 Ashwagandha",
+        "url": "https://www.transparentlabs.com/products/ksm-66-ashwagandha",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Product details and guarantee language reviewed."
+      },
+      {
+        "id": "transparent-labs-label",
+        "title": "KSM-66 supplement facts",
+        "url": "https://cdn.shopify.com/s/files/1/0866/7664/files/94184507-666C-4103-B3D5-9D5B949A147D.png?v=1746464223",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Visually inspected panel specifies 600 mg extract per capsule and standardization; no other-ingredient list in this image."
+      },
+      {
+        "id": "transparent-labs-testing",
+        "title": "Third-party tests search",
+        "url": "https://www.transparentlabs.com/pages/third-party-tests",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Public search route covers purity, ingredient and gluten tests; product-specific results were not rendered in the retrieved page."
+      },
+      {
+        "id": "transparent-labs-faq",
+        "title": "Customer and product FAQ",
+        "url": "https://www.transparentlabs.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Contact, shipping, 45-day satisfaction policy and lot-number reporting instructions reviewed."
+      },
+      {
+        "id": "transparent-labs-reviews",
+        "title": "Transparent Labs customer-service reviews",
+        "url": "https://www.trustpilot.com/review/www.transparentlabs.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 4.6/5 from 567 reviews."
+      },
+      {
+        "id": "transparent-labs-informed",
+        "title": "Informed Choice \u2014 KSM-66 Ashwagandha batch registry",
+        "url": "https://choice.wetestyoutrust.com/ja/node/413499?order=field_test_date&search=&sort=asc&view_type=grid_layout",
+        "kind": "independent",
+        "publisher": "LGC / Informed Choice",
+        "checked": "2026-10-16",
+        "note": "Official capsule record certified July 21, 2023. Listed batch 26030352 was tested August 19, 2026 and expires March 31, 2028; earlier listed lots have separate dates."
+      },
+      {
+        "id": "transparent-labs-program",
+        "title": "Informed Choice \u2014 what the program tests",
+        "url": "https://choice.wetestyoutrust.com/about/sport-vs-choice",
+        "kind": "independent",
+        "publisher": "LGC / Informed Choice",
+        "checked": "2026-10-16",
+        "note": "The program describes retail monitoring and regular banned-substance testing. Unlike Informed Sport, Informed Choice does not guarantee every batch has been tested."
+      }
+    ],
+    "limitations": [
+      "Only KSM-66 Ashwagandha capsules are assessed. Informed Choice uses periodic retail monitoring; it does not claim every production lot is tested.",
+      "A registry entry is not a withanolide-potency report, complete contaminant panel or evidence of clinical benefit. Match the package lot before relying on a batch result.",
+      "The inspected product label did not establish a complete other-ingredient list or product-specific warning panel. Consumer comments below concern the wider brand, mostly other formulas."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "transparent-labs-reviews",
+        "rating": 4.6,
+        "count": 567,
+        "summary": "The inspected reviews mostly praise issue resolution; several also describe concrete product or order problems.",
+        "positives": [
+          "Reviewers described replacement shipments and helpful responses when orders went wrong.",
+          "Some praised protein flavors and their overall shopping experience."
+        ],
+        "concerns": [
+          "Comments included disliked flavor, price concerns and moisture or clumping observations.",
+          "One updated review described an initially missed message before a refund and replacement."
+        ],
+        "sampling": "Read the 20 complete reviews displayed on the first most-recent page on October 16, 2026. Included mixed and critical text within highly rated reviews; did not sample all 567 entries.",
+        "basis": "review-sample",
+        "sampleSize": 20,
+        "limitations": "Convenience sample, not representative polling. The platform says the company invites reviews. Brand-wide product opinions do not validate this ashwagandha formula or establish contamination."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Located the original Informed Choice product and batch registry, clarified its testing scope, and expanded consumer research using twenty displayed reviews with both favorable and critical themes."
+  },
+  {
+    "brandId": "ora-organic",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "ora-organic-probiotics-prebiotics-daily"
+    ],
+    "summary": "Daily Essential\u2019s accessible batch summary names laboratories and report IDs. Original laboratory reports remain unavailable, so the brand stays unscored.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product"
+        ],
+        "reason": "The page identifies six probiotic strains, organic prebiotic inulin, maltodextrin and capsule material."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "ora-organic-product"
+        ],
+        "reason": "A total 16-billion CFU dose is displayed; separate quantities for each strain were not established."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product"
+        ],
+        "reason": "Use, storage, allergen statements and pregnancy/breastfeeding advice are present."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-coa-summary"
+        ],
+        "reason": "The brand-prepared summary names Qalitex, Venture and FSNS and cites report identifiers."
+      },
+      {
+        "key": "originalVerification",
+        "status": "partial",
+        "sourceIds": [
+          "ora-organic-coa-summary"
+        ],
+        "reason": "The accessible document is Ora\u2019s compilation with pass statements and laboratory references. Original laboratory-authored reports were not attached or independently inspected."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "ora-organic-coa-summary",
+          "ora-organic-product"
+        ],
+        "reason": "The brand summary matches Daily Essential capsules and lot T26195003; the original independent test records were not available for a full match."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product",
+          "ora-organic-policies"
+        ],
+        "reason": "A 60-day first-purchase satisfaction guarantee and a return route are published."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-policies"
+        ],
+        "reason": "Processing, destination-specific delivery estimates and shipping charges are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-policies"
+        ],
+        "reason": "Telephone, support hours and an email address are published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product",
+          "ora-organic-testing"
+        ],
+        "reason": "California manufacture and a lot-number certificate lookup are disclosed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "ora-organic-product",
+        "title": "Probiotic + Prebiotic Daily Essential",
+        "url": "https://ora.organic/products/probiotics-prebiotics-daily",
+        "kind": "brand",
+        "publisher": "Ora Organic",
+        "checked": "2026-10-16",
+        "note": "Strain names, total CFU, capsule ingredients, usage and manufacturing statement reviewed."
+      },
+      {
+        "id": "ora-organic-policies",
+        "title": "Shipping and returns",
+        "url": "https://ora.organic/pages/shipping-returns",
+        "kind": "brand",
+        "publisher": "Ora Organic",
+        "checked": "2026-10-16",
+        "note": "Delivery methods, estimates, fees, satisfaction guarantee and support contact reviewed."
+      },
+      {
+        "id": "ora-organic-reviews",
+        "title": "Ora customer-service reviews",
+        "url": "https://www.trustpilot.com/review/ora.organic",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 3.1/5 from 2 reviews."
+      },
+      {
+        "id": "ora-organic-coa-summary",
+        "title": "Daily Essential lot T26195003 \u2014 brand-prepared COA",
+        "url": "https://ora.organic/cdn/shop/files/ora-coa-trust-your-gut-daily-essential-t26195003.pdf?v=8394197258468886749",
+        "kind": "brand",
+        "publisher": "Ora Organic",
+        "checked": "2026-10-16",
+        "note": "Brand summary inspected: lot T26195003, manufactured July 14, 2026, best-by July 13, 2028; reviewed September 2, 2026. Names Qalitex, Venture and FSNS; original reports are absent."
+      },
+      {
+        "id": "ora-organic-testing",
+        "title": "Certificate of Analysis directory",
+        "url": "https://ora.organic/pages/coa",
+        "kind": "brand",
+        "publisher": "Ora Organic",
+        "checked": "2026-10-16",
+        "note": "Directory links Daily Essential lot T26195003; this review successfully downloaded the file. The linked document is a brand-prepared summary, not the underlying laboratory reports."
+      }
+    ],
+    "limitations": [
+      "Daily Essential capsules only; no high-potency or powder match. Lot T26195003 does not cover every bottle sold.",
+      "Laboratory names and report IDs aid follow-up but do not replace original independently attributable results.",
+      "Most outcomes are pass statements, not measurements. Some tests are annual rather than specific to this lot."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "ora-organic-reviews",
+        "rating": 3.1,
+        "count": 2,
+        "summary": "Only two external accounts were available. One combined favorable protein feedback with delivery criticism; the other disputed order authorization and refund handling.",
+        "positives": [
+          "One reviewer liked the plant-protein taste."
+        ],
+        "concerns": [
+          "Delivery-carrier choice and cancellation/refund handling were criticized."
+        ],
+        "sampling": "Read both complete reviews displayed, published December 21, 2025 and August 1, 2026. No broader sentiment estimate was made.",
+        "basis": "review-sample",
+        "sampleSize": 2,
+        "limitations": "Two self-selected reviews are too few for a dependable brand conclusion and neither establishes the Daily Essential probiotic experience. Claims are unverified customer reports.",
+        "sampleStart": "2025-12-21",
+        "sampleEnd": "2026-08-01"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Recovered and inspected the previously inaccessible lot COA, distinguished brand compilation from original laboratory evidence, and read both available external consumer reviews."
+  },
+  {
+    "brandId": "double-wood",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "double-wood-apigenin"
+    ],
+    "summary": "Apigenin now has both a current-lot manufacturer COA and an older independent identity report available to inspect. Their different issuers, methods and lot numbers remain visible; no current-lot independent match is claimed.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-label"
+        ],
+        "reason": "The label identifies apigenin and lists capsule material, cellulose, vegetable stearate and silica."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-label"
+        ],
+        "reason": "50 mg per capsule and 120 servings are specified."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "double-wood-label",
+          "double-wood-product"
+        ],
+        "reason": "Suggested use and dietary claims appear; this review did not establish a comprehensive contraindication panel."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-report"
+        ],
+        "reason": "An identifiable external laboratory report is linked for Apigenin."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-report"
+        ],
+        "reason": "An original external laboratory PDF is accessible, though hosted by the brand and limited to identification."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "double-wood-product",
+          "double-wood-report",
+          "double-wood-current-coa"
+        ],
+        "reason": "The manufacturer COA matches current lot 2617400; the independent Colmaric report still covers lot 2530100. These cannot be treated as the same sample."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-returns"
+        ],
+        "reason": "The first-bottle guarantee and unopened multipack returns have stated conditions."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-shipping"
+        ],
+        "reason": "Processing and 5\u20137-business-day carrier estimates are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-returns"
+        ],
+        "reason": "An identifiable support email is provided."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-product"
+        ],
+        "reason": "The page exposes a lot identifier and manufacturing date; label states U.S. manufacture using globally sourced materials."
+      }
+    ],
+    "sources": [
+      {
+        "id": "double-wood-product",
+        "title": "Apigenin product and on-page COA",
+        "url": "https://doublewoodsupplements.com/products/apigenin",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Page displayed lot 2617400 manufactured August 2026; linked external report covered a different lot."
+      },
+      {
+        "id": "double-wood-label",
+        "title": "Apigenin supplement-facts label",
+        "url": "https://doublewoodsupplements.com/cdn/shop/files/Apigenin_Supplementfacts_1123_x8qoco.jpg?v=1767119570",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Label image visually inspected: dose, capsule and other ingredients."
+      },
+      {
+        "id": "double-wood-report",
+        "title": "Apigenin lot 2530100 laboratory report",
+        "url": "https://cdn.shopify.com/s/files/1/0756/3867/files/2530100_Apigenin.pdf?v=1778695017",
+        "kind": "independent",
+        "publisher": "Colmaric Analyticals \u2014 report hosted by Double Wood",
+        "checked": "2026-10-16",
+        "note": "Report dated May 13, 2026 identifies Apigenin, client Double Wood and client-collected sample. Its scope is identity testing."
+      },
+      {
+        "id": "double-wood-returns",
+        "title": "Refund policy",
+        "url": "https://doublewoodsupplements.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "30-day first-purchase guarantee; multipack and subscription restrictions disclosed."
+      },
+      {
+        "id": "double-wood-shipping",
+        "title": "Shipping policy",
+        "url": "https://doublewoodsupplements.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Processing, carriers, estimated transit and lost-package support are described."
+      },
+      {
+        "id": "double-wood-faq",
+        "title": "Frequently asked questions",
+        "url": "https://doublewoodsupplements.com/pages/frequently-asked-questions",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Support email and testing limitations reviewed."
+      },
+      {
+        "id": "double-wood-reviews",
+        "title": "Double Wood customer-service reviews",
+        "url": "https://www.trustpilot.com/review/doublewoodsupplements.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 3.2/5 from 189 reviews."
+      },
+      {
+        "id": "double-wood-current-coa",
+        "title": "Apigenin lot 2617400 \u2014 manufacturer COA",
+        "url": "https://cdn.shopify.com/s/files/1/0756/3867/files/coa-bc614057-7972-49bf-b8a3-9c7789a5c276-r1.pdf?v=1791882801",
+        "kind": "brand",
+        "publisher": "Brand Nutraceuticals \u2014 hosted by Double Wood",
+        "checked": "2026-10-16",
+        "note": "Manufacturer-issued one-page COA for Double Wood: lot 2617400, manufactured August 2026, expires August 2028. Reports an in-house HPLC apigenin assay plus metal and microbial results. It is not an independent retail-sample report."
+      }
+    ],
+    "limitations": [
+      "The independently authored Colmaric report covers identity only for lot 2530100; it is not a complete contaminant panel or current-bottle verification.",
+      "The current lot 2617400 document is issued by the manufacturer Brand Nutraceuticals and includes an in-house assay. A different company name alone does not establish independent testing.",
+      "Brand-selected or client-collected samples do not establish independent retail sampling. Neither document proves clinical effectiveness."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "double-wood-reviews",
+        "rating": 3.2,
+        "count": 189,
+        "summary": "The inspected accounts describe both helpful resolutions and frustrated order or support experiences.",
+        "positives": [
+          "Several customers praised quick replacement of missing items, follow-up and value."
+        ],
+        "concerns": [
+          "Others described subscription access, return costs, delayed deliveries and difficulty reaching support.",
+          "Some criticized serving-size clarity; those comments concerned other products, not scoped Apigenin."
+        ],
+        "sampling": "Read the first 10 complete reviews in the displayed most-recent list, from April 16 to September 30, 2026, including visible company replies. Replies provide context, not proof that disputes were resolved.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "limitations": "Brand-level, self-selected convenience sample; no recent invitation history was reported. Individual allegations and claimed health effects were not independently verified.",
+        "sampleStart": "2026-04-16",
+        "sampleEnd": "2026-09-30"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Inspected the current-lot manufacturer COA without treating it as independent verification, preserved the mismatched independent-report limitation, and deepened consumer research with ten complete reviews."
+  },
+  {
+    "brandId": "ultima-replenisher",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "ultima-lemonade"
+    ],
+    "summary": "Ultima Lemonade has an exact entry in the Non-GMO Project\u2019s independent directory alongside published label and purchase information. This establishes a narrow certification record, not a laboratory safety clearance.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The Lemonade page publishes a complete ingredient list."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Serving directions and quantitative electrolyte, calorie and sugar information are available."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ discusses shared-facility nut handling and advises consultation for children and underlying health conditions."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ultima-nongmo"
+        ],
+        "reason": "The certifier itself identifies the Lemonade product under Ultima Replenisher."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ultima-nongmo"
+        ],
+        "reason": "The original Non-GMO Project product-finder entry was inspected, establishing the stated GMO-avoidance verification."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "ultima-nongmo",
+          "product"
+        ],
+        "reason": "The product name and brand match Lemonade Daily Electrolyte Drink Mix. The directory does not identify a particular lot or package size."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "The refund policy describes proof-of-purchase requirements, seller-specific handling and expired-product exclusions."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "Written terms describe continental-US free-shipping conditions, carrier pickup and tracking."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "The policy provides a customer-service telephone number and weekday support hours."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "A product-specific manufacturing-origin record or public lot lookup was not located in these reviewed pages."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Ultima Lemonade product, label and merchant reviews",
+        "url": "https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Product disclosure and visible merchant-hosted review comments were read; review collection and purchase verification were not audited."
+      },
+      {
+        "id": "faq",
+        "title": "Ultima FAQ",
+        "url": "https://www.ultimareplenisher.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Brand disclosures about allergens, use and formulation."
+      },
+      {
+        "id": "shipping",
+        "title": "Ultima shipping policy",
+        "url": "https://www.ultimareplenisher.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Published shipping conditions."
+      },
+      {
+        "id": "refund",
+        "title": "Ultima refund policy",
+        "url": "https://www.ultimareplenisher.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Published refund eligibility and support information."
+      },
+      {
+        "id": "ultima-nongmo",
+        "title": "Non-GMO Project \u2014 Ultima Lemonade listing",
+        "url": "https://www.nongmoproject.org/find-non-gmo/?keyword=Ultima",
+        "kind": "independent",
+        "publisher": "Non-GMO Project",
+        "checked": "2026-10-16",
+        "note": "Live certifier directory explicitly lists Ultima Replenisher Lemonade Daily Electrolyte Drink Mix. No lot number or contaminant measurements appear in that product listing."
+      },
+      {
+        "id": "ultima-reviews",
+        "title": "Ultima Replenisher \u2014 external consumer reviews",
+        "url": "https://www.trustpilot.com/review/ultimareplenisher.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Displayed platform score 3.8/5 from 2 reviews; both individual entries were read. Neither was posted in the last 12 months."
+      }
+    ],
+    "limitations": [
+      "The independent record covers GMO avoidance only. It does not establish heavy-metal levels, electrolyte potency, banned-substance testing or clinical benefit.",
+      "The certifier warns that unverified lots may remain in circulation; inspect the actual package seal. A manufacturing-origin or lot-specific report was not established.",
+      "Merchant-hosted comments and external Trustpilot accounts are separate sources. The two external reviews are old, tiny in number and do not specifically establish current Lemonade experience."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "product",
+        "summary": "Visible merchant-hosted comments discuss flavor, sweetness and mixing; favorable taste comments coexist with complaints about sweetness or a formula change.",
+        "topics": [
+          "Flavor",
+          "Sweetness",
+          "Mixing"
+        ],
+        "limitations": "Merchant-hosted sample only. No aggregate rating is imported, and purchase verification or review moderation was not independently audited.",
+        "basis": "brand-selected",
+        "sampling": "Visible merchant-hosted comments were reviewed in the initial assessment; this follow-up does not claim a counted or representative sample.",
+        "positives": [
+          "Some merchant-hosted comments praised flavor and mixing."
+        ],
+        "concerns": [
+          "Other comments criticized sweetness or a formula change."
+        ]
+      },
+      {
+        "sourceId": "ultima-reviews",
+        "rating": 3.8,
+        "count": 2,
+        "summary": "Both visible external reviews were favorable about taste; they provide little evidence about current orders or the Lemonade formula.",
+        "positives": [
+          "The two reviewers liked flavor; one also considered the price reasonable."
+        ],
+        "concerns": [],
+        "sampling": "Read both complete entries, dated March 25, 2021 and October 11, 2023. No current-period sentiment inference or combined retailer average was calculated.",
+        "basis": "review-sample",
+        "sampleSize": 2,
+        "limitations": "Two self-selected, older brand-level reviews, including a different flavor. Trustpilot reports no invitation history. Health-related comments are opinions, not efficacy evidence.",
+        "sampleStart": "2021-03-25",
+        "sampleEnd": "2023-10-11"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Confirmed the exact Lemonade listing in the certifier\u2019s own directory and added a separately labeled two-review external snapshot, with prominent limits on certification scope and sample recency."
+  },
+  {
+    "brandId": "skratch-labs",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "skratch-sport-lemon-lime"
+    ],
+    "summary": "Regular Lemon + Lime Sport Hydration has an exact Non-GMO Project listing. Its documentation score is limited to that product and certification scope; historical public-record context and the lack of current-lot contaminant evidence remain explicit.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product page lists ingredients for regular Lemon + Lime; the caffeinated version is outside the revised score scope."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Serving and nutrition amounts are published for regular Lemon + Lime."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "faq",
+          "product"
+        ],
+        "reason": "The FAQ and product page disclose usage and dietary information; consumers should also read the separate historical-record limitation below."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "skratch-nongmo"
+        ],
+        "reason": "The Non-GMO Project\u2019s registry names Skratch Labs and the regular Lemon and Lime Sport Hydration mix."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "skratch-nongmo"
+        ],
+        "reason": "The original certifier listing was inspected. It covers GMO avoidance, not contamination testing or prohibited substances in sport."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "skratch-nongmo",
+          "product"
+        ],
+        "reason": "The listed regular Lemon and Lime Sport Hydration mix matches the scoped product. No caffeinated-variant or shopper-lot match is claimed."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "guarantee",
+          "faq"
+        ],
+        "reason": "The guarantee describes refund or replacement for products bought from authorized sellers; the FAQ provides the contact process."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "The site provides a weekday same-day cutoff, US free-shipping threshold and international-duty information."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ publishes info@skratchlabs.com for product and order support."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ states US manufacturing/assembly and identifies its Boulder headquarters and warehouse; lot-level provenance was not assessed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Skratch Sport Hydration Drink Mix \u2014 flavor labels",
+        "url": "https://www.skratchlabs.com/products/hydration-sport-drink-mix",
+        "kind": "brand",
+        "publisher": "Skratch Labs",
+        "checked": "2026-10-16",
+        "note": "Regular and caffeinated Lemon + Lime ingredient/nutrition disclosures were inspected."
+      },
+      {
+        "id": "faq",
+        "title": "Skratch frequently asked questions",
+        "url": "https://www.skratchlabs.com/pages/frequently-asked-questions",
+        "kind": "brand",
+        "publisher": "Skratch Labs",
+        "checked": "2026-10-16",
+        "note": "Brand origin, use, support and shipping disclosures."
+      },
+      {
+        "id": "guarantee",
+        "title": "Skratch guarantee",
+        "url": "https://www.skratchlabs.com/pages/skratch-guarantee",
+        "kind": "brand",
+        "publisher": "Skratch Labs",
+        "checked": "2026-10-16",
+        "note": "Refund/replacement promise with authorized-seller condition."
+      },
+      {
+        "id": "skratch-nongmo",
+        "title": "Non-GMO Project \u2014 Skratch Lemon and Lime listing",
+        "url": "https://www.nongmoproject.org/find-non-gmo/?keyword=Skratch",
+        "kind": "independent",
+        "publisher": "Non-GMO Project",
+        "checked": "2026-10-16",
+        "note": "Live certifier directory lists Hydration Sport Drink Mix, Lemons and Limes under Skratch Labs. It does not explicitly name the caffeinated variant; that product is excluded from score scope."
+      },
+      {
+        "id": "skratch-nsf-search",
+        "title": "NSF Certified for Sport \u2014 Skratch search",
+        "url": "https://www.nsfsport.com/certified-products/search-results.php?keyword=Skratch",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "The searched name returned no matching records. This is not an exhaustive audit of every trade name or evidence that no testing occurs."
+      },
+      {
+        "id": "skratch-public-record",
+        "title": "2023 stipulated settlement record \u2014 case 22CV017774",
+        "url": "https://www.oag.ca.gov/system/files/prop65/settlements/2022-00984S2207.pdf",
+        "kind": "independent",
+        "publisher": "California Attorney General \u2014 filed-party document",
+        "checked": "2026-10-16",
+        "note": "The record names Lemon & Lime among Proposition 65 allegations and describes testing/warning terms. Skratch denies the allegations; settlement is expressly not an admission. This historical document contains no current-lot clearance."
+      },
+      {
+        "id": "skratch-reviews",
+        "title": "Skratch Labs \u2014 external consumer reviews",
+        "url": "https://www.trustpilot.com/review/skratchlabs.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Displayed platform score 3.8/5 from 2 reviews. Both complete entries were inspected; the page reported zero reviews in the last 12 months."
+      }
+    ],
+    "limitations": [
+      "Score scope is now regular Lemon + Lime only. Caffeinated Lemon + Lime, Energy Chews and other flavors are not covered by this match.",
+      "Non-GMO verification concerns GMO avoidance; it is not a banned-substance or heavy-metal clearance. Check the package seal, since unverified lots may remain in commerce.",
+      "The linked 2023 stipulated settlement record names Lemon & Lime among Proposition 65 allegations. Skratch denies the allegations and the record disclaims admission of liability. It is historical context, not proof of current contamination or a current-lot test.",
+      "US origin is a brand statement. The two external consumer reviews are old and cannot establish current customer sentiment or safety."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "skratch-reviews",
+        "rating": 3.8,
+        "count": 2,
+        "summary": "Both external accounts were favorable, discussing product experience and support, but are too few and too old to support a broad conclusion.",
+        "positives": [
+          "Reviewers praised product taste, shipping or helpful customer-service responses."
+        ],
+        "concerns": [],
+        "sampling": "Read both complete reviews, published October 25, 2021 and January 12, 2025. No recent-period or product-specific sentiment score was inferred.",
+        "basis": "review-sample",
+        "sampleSize": 2,
+        "limitations": "Unclaimed, self-selected profile with no review-invitation history. Neither review establishes this formula\u2019s quality or confirms claims about race performance.",
+        "sampleStart": "2021-10-25",
+        "sampleEnd": "2025-01-12"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Confirmed regular Lemon + Lime in the Non-GMO Project registry, narrowed score scope to the matched variant, added historical public-record context, and inspected both external consumer reviews."
+  }
+]

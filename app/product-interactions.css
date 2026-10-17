@@ -1,0 +1,20 @@
+/* The product title supplies a native, keyboard-accessible link across the
+   card. Explicit actions remain above it and never open the product. */
+.product-card{position:relative;isolation:isolate;cursor:pointer}
+.product-card .product-info,.product-card .product-name{position:static}
+.product-card .product-name::after{content:"";position:absolute;inset:0;z-index:1;border-radius:10px}
+.product-card .product-name:focus-visible{outline:none}
+.product-card .product-name:focus-visible::after{outline:2px solid #202427;outline-offset:4px}
+.product-card .product-visual>a{position:relative;z-index:2}
+.product-card .save-button{z-index:3}
+.product-card .product-info a:not(.product-name),.product-card .product-shopping-actions button{position:relative;z-index:2}
+.product-card .image-label{pointer-events:none}
+.product-card img{-webkit-user-drag:none;user-select:none}
+.product-card a{touch-action:manipulation}
+/* Give the image link an explicit box when the image container uses aspect-ratio. */
+@media(max-width:760px){
+ .product-card .product-visual>a{position:absolute;inset:0;width:100%;height:100%;display:block}
+ .product-card .product-visual>a img{width:100%;height:100%;object-fit:contain}
+}
+
+.origin-collection{display:flex;align-items:center;justify-content:space-between;gap:28px;background:#f2f3ed;border-radius:20px;padding:32px;margin-block:24px}.origin-collection h2,.origin-details h2{font-size:clamp(26px,4vw,38px);margin:10px 0}.origin-collection p{max-width:620px;line-height:1.6}.origin-collection .button{flex-shrink:0}.origin-details{margin:32px 0;padding:28px;border:1px solid #e4e6df;border-radius:18px}.origin-details .attribute-table{width:100%}.origin-details dd{overflow-wrap:anywhere}@media(max-width:760px){.origin-collection{flex-direction:column;align-items:flex-start;padding:24px 20px}.origin-collection .button{width:100%}.origin-details{padding:20px 16px}}

@@ -1,0 +1,32 @@
+import ts from 'typescript';
+import {readFileSync,existsSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url);
+const seed=JSON.parse(readFileSync('data/catalog.json','utf8'));
+function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);return module.exports;}
+const {productSchema}=compile('lib/validation.ts');
+const {normalizeProduct}=compile('lib/catalog-data.ts',{'@/data/catalog.json':{default:seed},'./validation':{productSchema}});
+const {parseBrowse,browseUrl,filterProducts,matches}=compile('lib/browse.ts');
+let checks=0;const check=(value,label)=>{assert.ok(value,label);checks++;};
+for(const p of seed){productSchema.parse(p);check(existsSync('public'+p.image),'local image '+p.id);check(p.affiliate===false,'no implied affiliate');}
+check(seed.length===86,'86 products');check(new Set(seed.map(p=>p.id)).size===86,'unique IDs');check(new Set(seed.map(p=>p.brandId)).size===56,'56 brands');
+const find=(category,query={})=>filterProducts(seed,parseBrowse(category,query));
+check(find('supplements').length===44,'supplement total');check(find('drinks').length===21,'drink total');check(find('apparel').length===15,'apparel total');
+check(find('supplements',{goals:'sleep',form:'gummy',filters:'noMelatonin'}).map(p=>p.id).sort().join()==='bpn-peak-sleep-berry,maryruths-adult-sleep-gummies','specific combined goal/form/exclusion');
+check(find('supplements',{ingredient:'ashwagandha,magnesium'}).length>find('supplements',{ingredient:'ashwagandha'}).length,'OR within facet');
+check(find('supplements',{goals:'sleep',ingredient:'ashwagandha'}).every(p=>p.facets.goals.includes('sleep')&&p.facets.ingredient.includes('ashwagandha')),'AND across groups');
+check(!find('supplements',{filters:'caffeineFree'}).some(p=>p.id==='transparent-labs-creatine-hmb'),'unknown caffeine excluded');
+check(find('drinks',{drinkType:'hydration',filters:'noStevia'}).some(p=>p.id==='lmnt-raw-unflavored'),'unsweetened hydration findable');
+check(!find('drinks',{caffeine:'caffeine-free'}).some(p=>p.id==='skratch-sport-lemon-lime'),'unknown zero caffeine excluded');
+check(find('drinks',{drinkType:'energy',caffeine:'high'}).length===3,'energy caffeine filter');
+check(find('apparel',{filters:'noElastane'}).every(p=>p.filters.noElastane),'apparel absence filter');
+check(find('apparel',{material:'wool',fit:'womens'}).length===1,'fabric and collection');
+check(find('hydration').length===8,'legacy hydration route retains narrowed selection');
+check(find('',{min:'20',max:'25'}).every(p=>p.price>=20&&p.price<=25),'price bounds');check(find('',{min:'50',max:'10'}).length===0,'inverted bounds empty');
+const sorted=find('supplements',{sort:'price-asc'});check(sorted.every((p,i)=>!i||p.price>=sorted[i-1].price),'price sorting');
+const state=parseBrowse('supplements',{goals:'sleep',form:'gummy',brands:'olly,maryruths',min:'10',max:'30',filters:'noMelatonin',sort:'name',q:'sleep'});const u=new URL(browseUrl(state),'https://example.test');assert.deepEqual(parseBrowse('supplements',Object.fromEntries(u.searchParams)),state);checks++;
+const base=seed[0],legacy={...base,category:'hydration',facets:undefined,filters:{stevia:true}};check(normalizeProduct(legacy).facets.drinkType.includes('hydration'),'legacy taxonomy enrichment');
+const edited={...legacy,name:'Editorial override',price:99,status:'draft',filters:{noSucralose:false}};const n=normalizeProduct(edited);check(n.price===99&&n.status==='draft'&&!n.facets&&n.filters.noSucralose===false,'editor changes preserved');
+const explicit={...legacy,facets:{},filters:{noSucralose:false}};check(Object.keys(normalizeProduct(explicit).facets).length===0&&!normalizeProduct(explicit).filters.noSucralose,'explicit taxonomy and flag override preserved');
+console.log(`${checks} catalog/filter assertions passed, including all 86 schema/image checks.`);

@@ -1,0 +1,1790 @@
+[
+  {
+    "brandId": "legion",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "legion-creatine-unflavored"
+    ],
+    "summary": "A product-matched Labdoor report supports a provisional evidence score. Consumer feedback is more mixed than the brand-hosted testimonials; the external sample covers several products and is not a verdict on this creatine.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The unflavored variant identifies creatine monohydrate as its only ingredient."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The selected variant lists 100 servings, with 5 g creatine per serving."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The FAQ discusses allergy-label checks, pregnancy/breastfeeding, kidney conditions and digestive discomfort."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "product",
+          "labdoor"
+        ],
+        "reason": "The brand names Labdoor; its original listing identifies this creatine."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "labdoor",
+          "report"
+        ],
+        "reason": "Labdoor hosts a report for lot 2517233: sampled September 2025, released March 22, 2026. It reports creatine, metals and microbiology results."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "report",
+          "labdoor"
+        ],
+        "reason": "The report identifies Legion Micronized Creatine Monohydrate and its 5 g serving. This is a product match, not confirmation of the lot now shipping."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "The satisfaction guarantee covers first-time product purchases for 365 days. Multiple-product claims can require returns, with return shipping covered."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "returns",
+          "support"
+        ],
+        "reason": "The policy describes free first U.S. orders and a threshold for repeat orders. A clear destination-specific delivery window was not located in the reviewed text."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "support"
+        ],
+        "reason": "Support publishes contact@legionsupplements.com, a telephone number, weekday hours and a mailing address."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "product",
+          "report"
+        ],
+        "reason": "The brand states U.S. manufacture with global ingredients; the independent report identifies a lot and expiration. Supplier-level sourcing is not established."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Creatine product and selected variant",
+        "url": "https://legionathletics.com/products/supplements/micronized-creatine-monohydrate/?attribute_pa_flavor=unflavored&attribute_pa_creatine-servings=100-servings",
+        "kind": "brand",
+        "publisher": "Legion",
+        "checked": "2026-10-16",
+        "note": "Official variant data supplies the USD price and availability. Product prose covers several sizes and flavors."
+      },
+      {
+        "id": "labdoor",
+        "title": "Legion creatine: original Labdoor listing",
+        "url": "https://labdoor.com/review/legion-micronized-creatine-monohydrate",
+        "kind": "independent",
+        "publisher": "Labdoor",
+        "checked": "2026-10-16",
+        "note": "Product and lot match. Labdoor discloses affiliate links; its score is not our score."
+      },
+      {
+        "id": "report",
+        "title": "Labdoor report for lot 2517233",
+        "url": "https://cdn.labdoor.io/certification/images/7mxbql3dcmrj38yc44xima.pdf",
+        "kind": "independent",
+        "publisher": "Labdoor",
+        "checked": "2026-10-16",
+        "note": "Original two-page report. The listing says tested March 2026; the PDF distinguishes September 2025 sampling from March 2026 release."
+      },
+      {
+        "id": "returns",
+        "title": "Satisfaction guarantee and shipping terms",
+        "url": "https://legionathletics.com/return-policy/",
+        "kind": "brand",
+        "publisher": "Legion",
+        "checked": "2026-10-16",
+        "note": "Current dedicated return policy reviewed; promotional and destination-specific shipping thresholds can differ."
+      },
+      {
+        "id": "support",
+        "title": "Support channels and shipping questions",
+        "url": "https://legionathletics.com/support/",
+        "kind": "brand",
+        "publisher": "Legion",
+        "checked": "2026-10-16",
+        "note": "Contact channels are public. Several FAQ answers were not exposed in the retrieved text."
+      },
+      {
+        "id": "consumer",
+        "title": "Legion Athletics consumer reviews",
+        "url": "https://www.trustpilot.com/review/legionathletics.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 2.8/5 across 20 reviews. Six individually read entries, separate from the total."
+      }
+    ],
+    "limitations": [
+      "The published lab results concern one past lot. We have not bought, sampled or tested the currently shipped product.",
+      "Consumer comments span other Legion supplements. Personal medical or effectiveness assertions were not adopted as evidence.",
+      "The score assesses accessible documentation; no commercial relationship with Legion is implied."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 2.8,
+        "count": 20,
+        "countUnit": "reviews",
+        "summary": "A small external profile contains both favorable product/service experiences and order or disclosure complaints.",
+        "topics": [
+          "delivery",
+          "support",
+          "product",
+          "subscription"
+        ],
+        "positives": [
+          "One reviewer praised a pre-workout experience; another described a replacement for a delayed international parcel."
+        ],
+        "concerns": [
+          "A reviewer described repeated subscription fulfillment problems and eventual refunds. Others questioned labeling or product information."
+        ],
+        "basis": "review-sample",
+        "sampleSize": 6,
+        "sampling": "Read the first six complete entries in the most-recent list. Excluded duplicated preview cards.",
+        "limitations": "Unprompted, self-selected accounts; 20 is the platform total, not the sample. Concerns are allegations, and most entries concern other products. Trustpilot\u2019s 2.8 is its weighted score, not our six-review average."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial specialist-brand research: product disclosures, original verification records, buying terms and explicitly limited consumer samples."
+  },
+  {
+    "brandId": "needed",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "needed-sleep-relaxation"
+    ],
+    "summary": "The exact Sleep & Relaxation product is listed by Clean Label Project. Ingredient quantities are mostly disclosed, with an unresolved L-theanine discrepancy. Consumer coverage combines five featured product reviews with one external review of a different Needed product.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "The label identifies four active ingredients, magnesium forms and the flavoring/sweetener ingredients."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "label",
+          "product"
+        ],
+        "reason": "The label gives 110 mg L-theanine; page text gives 112 mg. Magnesium, glycine and chamomile amounts agree, but the discrepancy remains unresolved."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The FAQ discloses allergens and practitioner-review advice; it does not establish individual pregnancy safety."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "clp"
+        ],
+        "reason": "Clean Label Project names the exact Sleep & Relaxation Support product in its Needed directory."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "clp"
+        ],
+        "reason": "The certifier hosts the listing independently of Needed. It is a certification record, not a public lot-level laboratory report."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "clp"
+        ],
+        "reason": "The certifier\u2019s Sleep & Relaxation Support entry links directly to this product; the catalog uses its one-month variant."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Unopened, sealed products can be returned within 30 days of purchase, less $10 return shipping. Taste-preference refunds and international returns are excluded."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "U.S. standard delivery is described as 5\u20137 business days including fulfillment; international estimates and tracking are also described."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ provides hello@thisisneeded.com and chat for order help and return instructions."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "U.S. manufacture is stated; product-level suppliers and a public batch lookup were not located."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Sleep + Relaxation Support and featured reviews",
+        "url": "https://thisisneeded.com/products/sleep-support?variant=47046057492725",
+        "kind": "brand",
+        "publisher": "Needed",
+        "checked": "2026-10-16",
+        "note": "Official one-month variant verified; featured reviews are merchant-hosted."
+      },
+      {
+        "id": "label",
+        "title": "Sleep + Relaxation Supplement Facts",
+        "url": "https://thisisneeded.com/cdn/shop/files/sleep_relaxation_support_-_mar26.png?v=1777081634&width=830",
+        "kind": "brand",
+        "publisher": "Needed",
+        "checked": "2026-10-16",
+        "note": "Label image visually inspected. It states 110 mg L-theanine, differing from product prose."
+      },
+      {
+        "id": "clp",
+        "title": "Needed certified product directory",
+        "url": "https://cleanlabelproject.org/brand/needed-pbc/",
+        "kind": "independent",
+        "publisher": "Clean Label Project",
+        "checked": "2026-10-16",
+        "note": "Exact Sleep & Relaxation product appears; no batch result or testing date is supplied here."
+      },
+      {
+        "id": "clp-process",
+        "title": "Clean Label Project certification requirements",
+        "url": "https://cleanlabelproject.org/wp-content/uploads/CLP-Code-of-Practice_Certification-v13-03-18-2024.pdf",
+        "kind": "independent",
+        "publisher": "Clean Label Project",
+        "checked": "2026-10-16",
+        "note": "The certification code describes operator-funded testing and ongoing compliance. Listing is not proof of health outcomes."
+      },
+      {
+        "id": "faq",
+        "title": "Needed shipping, returns and support FAQ",
+        "url": "https://thisisneeded.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Needed",
+        "checked": "2026-10-16",
+        "note": "Shipping estimates, return exclusions, charges and contact routes are publicly documented."
+      },
+      {
+        "id": "consumer",
+        "title": "Needed external consumer profile",
+        "url": "https://www.trustpilot.com/review/thisisneeded.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Only one review was visible. Its subject is Prenatal Multivitamin Pro, not the scoped sleep powder."
+      }
+    ],
+    "limitations": [
+      "Clean Label Project\u2019s listing is product-specific, but it supplies no lot report here; its program includes fees paid by participating operators.",
+      "The L-theanine discrepancy and current ingredient sourcing require clarification. We did not contact the brand.",
+      "Featured testimonials are selected by the merchant. One external complaint cannot establish a recurring issue or describe this sleep powder."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "product",
+        "rating": 4.6,
+        "count": 360,
+        "countUnit": "reviews",
+        "summary": "Five featured accounts describe favorable evening-drink experiences.",
+        "topics": [
+          "product",
+          "taste",
+          "routine"
+        ],
+        "positives": [
+          "Reviewers enjoyed the routine and perceived relaxation."
+        ],
+        "basis": "brand-selected",
+        "sampleSize": 5,
+        "sampling": "Read the five Featured entries exposed by the merchant. Relative dates prevent a precise date range.",
+        "limitations": "All five are merchant-selected and favorable. The 360-review total was not read; health outcomes are unverified anecdotes."
+      },
+      {
+        "sourceId": "consumer",
+        "rating": 3.2,
+        "count": 1,
+        "countUnit": "reviews",
+        "summary": "The sole external review concerns Prenatal Multivitamin Pro, a different product.",
+        "topics": [
+          "product",
+          "capsules"
+        ],
+        "concerns": [
+          "The reviewer disliked the capsule count, odor and swallowing experience."
+        ],
+        "basis": "review-sample",
+        "sampleSize": 1,
+        "sampleStart": "2026-04-30",
+        "sampleEnd": "2026-04-30",
+        "sampling": "Read the sole visible review, posted June 15, 2026, reporting an April 30 experience.",
+        "limitations": "One self-selected account cannot establish a pattern. No external sleep-powder review was established here. Trustpilot displays 3.2 despite a one-star review because its score is weighted."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial specialist-brand research: product disclosures, original verification records, buying terms and explicitly limited consumer samples."
+  },
+  {
+    "brandId": "nootropics-depot",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "nootropics-depot-ksm66"
+    ],
+    "summary": "Extensive brand-published batch documents and external consumer feedback are accessible. A laboratory- or certifier-hosted original matching this product was not established, so this profile remains unscored. Label and COA ingredient differences deserve clarification.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "label",
+          "coa"
+        ],
+        "reason": "The label lists rice flour and magnesium stearate; the 90-count July 2026 COA instead lists microcrystalline cellulose and Nu-Flow. Capsule material agrees."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "The label specifies one capsule and 300 mg root extract. It does not quantify withanolides."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "The label explicitly discloses milk use during KSM-66 production; vegetarian does not mean dairy-free."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "labs"
+        ],
+        "reason": "The brand names Omnient as its coordinating laboratory and lists other laboratories. This does not establish which performed every test in the scoped COA."
+      },
+      {
+        "key": "originalVerification",
+        "status": "partial",
+        "sourceIds": [
+          "coa",
+          "labs"
+        ],
+        "reason": "A brand-hosted consolidated COA is accessible. An original record hosted by an independent laboratory or certifier was not established for this product."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "coa"
+        ],
+        "reason": "The brand-hosted document matches KSM-66, 300 mg and 90 capsules, but it does not satisfy the original-independent-record requirement."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "Returns require unopened, sealed products within 30 days of delivery. Customers pay return shipping; opened products and expedited shipping fees are excluded."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "shipping",
+          "free-shipping"
+        ],
+        "reason": "Domestic FedEx 2\u20133 Day methods, weekend/remote-area limits and a $50 free-shipping threshold are documented."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "The return policy supplies support@nootropicsdepot.com and a support contact route."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "coa"
+        ],
+        "reason": "The reviewed COA identifies lot KSMCS1071726, raw-material and capsule batches, July 17, 2026 production/report dates, and July 2029 best-by date."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "KSM-66 capsules and product reviews",
+        "url": "https://nootropicsdepot.com/ksm-66-ashwagandha-extract-300mg-capsules",
+        "kind": "brand",
+        "publisher": "Nootropics Depot",
+        "checked": "2026-10-16",
+        "note": "Official 90-count product data and five individual merchant-hosted review entries were read."
+      },
+      {
+        "id": "label",
+        "title": "KSM-66 Supplement Facts and allergen disclosure",
+        "url": "https://cdn11.bigcommerce.com/s-cebedmpn/images/stencil/2000x2000/products/263/10235/KSM-66-Capsules-90-180-365ct__78193.1792089147.jpg?c=2",
+        "kind": "brand",
+        "publisher": "Nootropics Depot",
+        "checked": "2026-10-16",
+        "note": "Label image visually inspected; its excipient list differs from the linked July COA."
+      },
+      {
+        "id": "coa",
+        "title": "KSM-66 90-count COA: lot KSMCS1071726",
+        "url": "https://cdn11.bigcommerce.com/s-cebedmpn/content/lab-testing/KSMCS1071726_90ct_Signed.pdf",
+        "kind": "brand",
+        "publisher": "Nootropics Depot",
+        "checked": "2026-10-16",
+        "note": "Brand-hosted consolidated report, not reclassified as independent because laboratory work is mentioned."
+      },
+      {
+        "id": "labs",
+        "title": "Named laboratory and manufacturing partners",
+        "url": "https://nootropicsdepot.com/meet-our-third-party-labs/",
+        "kind": "brand",
+        "publisher": "Nootropics Depot",
+        "checked": "2026-10-16",
+        "note": "Explains Omnient\u2019s coordinating role and the brand owner\u2019s role in establishing its manufacturing partner."
+      },
+      {
+        "id": "returns",
+        "title": "Product returns and support policy",
+        "url": "https://support.nootropicsdepot.com/article/28-product-returns-policy",
+        "kind": "brand",
+        "publisher": "Nootropics Depot",
+        "checked": "2026-10-16",
+        "note": "Policy includes separate EU withdrawal terms; U.S. return conditions summarized here."
+      },
+      {
+        "id": "shipping",
+        "title": "Shipping methods and limitations",
+        "url": "https://support.nootropicsdepot.com/article/23-shipping-methods",
+        "kind": "brand",
+        "publisher": "Nootropics Depot",
+        "checked": "2026-10-16",
+        "note": "Shipping service time is distinct from time before dispatch; remote-area exceptions are stated."
+      },
+      {
+        "id": "free-shipping",
+        "title": "Free-shipping threshold",
+        "url": "https://support.nootropicsdepot.com/article/56-how-does-free-shipping-work",
+        "kind": "brand",
+        "publisher": "Nootropics Depot",
+        "checked": "2026-10-16",
+        "note": "Publishes the domestic $50 free FedEx threshold."
+      },
+      {
+        "id": "consumer",
+        "title": "Nootropics Depot external consumer reviews",
+        "url": "https://www.trustpilot.com/review/nootropicsdepot.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 4.7/5 and 2,785 reviews. Fourteen recent entries read separately from the platform\u2019s generated summary."
+      }
+    ],
+    "limitations": [
+      "Not scored means the independent-document gate is unmet, not a finding that this product failed testing.",
+      "The accessible COA is a consolidated brand-hosted document. Laboratory accreditation or manufacturing certification alone is not product certification.",
+      "The site claims 5% withanolides in prose, but the inspected label and COA do not provide a quantified withanolide result. The excipient discrepancy also remains unresolved.",
+      "No current bottle or shipping lot was inspected. Brand-wide service reviews do not validate KSM-66 effectiveness."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 4.7,
+        "count": 2785,
+        "countUnit": "reviews",
+        "summary": "Recent sampled feedback mainly praises ordering and delivery. Two entries raise practical cost or usability concerns.",
+        "topics": [
+          "delivery",
+          "support",
+          "website",
+          "value"
+        ],
+        "positives": [
+          "Several readers described fast delivery, easy ordering and helpful product information."
+        ],
+        "concerns": [
+          "One reviewer disliked shipping cost; the company replied that delivery met its quoted window. Another found powder weighing inconvenient."
+        ],
+        "basis": "review-sample",
+        "sampleSize": 14,
+        "sampleStart": "2026-10-08",
+        "sampleEnd": "2026-10-14",
+        "sampling": "Read the first fourteen complete most-recent entries, Larry through Parker, including company replies. Range uses displayed experience dates; preview cards were excluded.",
+        "limitations": "Invited, self-selected service reviews on a paid claimed profile. The powder-measurement comment concerns another product. The 2,785-review total was not read in full; 4.7 is Trustpilot\u2019s weighted score."
+      },
+      {
+        "sourceId": "product",
+        "count": 77,
+        "countUnit": "reviews",
+        "summary": "A small product-specific sample includes favorable impressions and unmet expectations.",
+        "topics": [
+          "product",
+          "value"
+        ],
+        "positives": [
+          "Some reviewers preferred this extract or described a calmer subjective experience."
+        ],
+        "concerns": [
+          "One reviewer questioned value; another said the hoped-for outcome was not noticeable."
+        ],
+        "basis": "review-sample",
+        "sampleSize": 5,
+        "sampleStart": "2022-08-21",
+        "sampleEnd": "2024-07-06",
+        "sampling": "Read the first five product review records supplied in the merchant page, covering four names because one author appears twice.",
+        "limitations": "Merchant-hosted, older and not representative; five records are not five unique people. Personal health outcomes are unverified anecdotes. No independent purchase verification was performed."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial specialist-brand research: product disclosures, original verification records, buying terms and explicitly limited consumer samples."
+  },
+  {
+    "brandId": "wildwonder",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "wildwonder-raspberry-lychee"
+    ],
+    "summary": "The current product has clear label and buying information. CCOF confirms the operator, but a flavor-specific certification match is still missing, so no numeric score is assigned.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "wild-product"
+        ],
+        "reason": "The current page lists the fruit, botanical, sweetener, fiber and culture ingredients."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "wild-label"
+        ],
+        "reason": "Serving volume and fiber, sugar, added sugar and calorie amounts are stated."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "wild-faq",
+          "wild-product"
+        ],
+        "reason": "Storage advice and individual-health consultation qualifications are published; product claims carry a disease-treatment disclaimer."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "wild-ccof"
+        ],
+        "reason": "CCOF identifies the operator and its USDA NOP certification program."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "wild-ccof"
+        ],
+        "reason": "An original certifier-hosted operator record is accessible."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "wild-ccof",
+          "wild-product"
+        ],
+        "reason": "The operator matches the brand, but the reviewed certificate entry does not name this flavor. A product appendix is needed."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "wild-faq"
+        ],
+        "reason": "Taste-preference refunds are excluded; damaged or incorrect orders have a documented support route."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "wild-faq"
+        ],
+        "reason": "The FAQ specifies US-only shipping, 1\u20133 business days to dispatch and 4\u20137 business days in transit."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "wild-faq"
+        ],
+        "reason": "A customer-service email and instructions for order problems are published."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "wild-ccof"
+        ],
+        "reason": "The certified operator is identifiable, but no lot-to-farm trace or batch results were located."
+      }
+    ],
+    "sources": [
+      {
+        "id": "wild-product",
+        "title": "Raspberry Lychee: current formula and offer",
+        "url": "https://drinkwildwonder.com/products/raspberry-lychee",
+        "kind": "brand",
+        "publisher": "wildwonder",
+        "checked": "2026-10-16",
+        "note": "Official 12-can one-time offer, ingredients, serving information and disclaimer."
+      },
+      {
+        "id": "wild-label",
+        "title": "Raspberry Lychee nutrition panel",
+        "url": "https://cdn.shopify.com/s/files/1/0264/8952/0171/files/nutrition_facts.png?v=1791361664",
+        "kind": "brand",
+        "publisher": "wildwonder",
+        "checked": "2026-10-16",
+        "note": "Official product-page image: 355 mL, 40 calories, 5 g fiber, 6 g sugar including 5 g added sugar."
+      },
+      {
+        "id": "wild-faq",
+        "title": "Product, storage, support and buying FAQs",
+        "url": "https://drinkwildwonder.com/pages/frequently-asked-questions",
+        "kind": "brand",
+        "publisher": "wildwonder",
+        "checked": "2026-10-16",
+        "note": "Refrigeration advice, dietary qualifications, delivery estimates and taste-preference refund exclusion."
+      },
+      {
+        "id": "wild-ccof",
+        "title": "CCOF certified operator: Wildwonder Brands Inc.",
+        "url": "https://www.ccof.org/directory-member/wildwonder-brands-inc/",
+        "kind": "independent",
+        "publisher": "CCOF",
+        "checked": "2026-10-16",
+        "note": "Certified handling/USDA NOP operator pr3182. This public entry does not enumerate Raspberry Lychee."
+      },
+      {
+        "id": "wild-target",
+        "title": "Raspberry Lychee consumer reviews at Target",
+        "url": "https://www.target.com/p/-/A-92213821",
+        "kind": "review-platform",
+        "publisher": "Target",
+        "checked": "2026-10-16",
+        "note": "Product page displayed 4.4/5 and 208 star ratings. Ten visible entries were inspected; the total is not a read count."
+      }
+    ],
+    "limitations": [
+      "Organic operator certification does not establish this product\u2019s efficacy, probiotic survival at consumption, or contaminant results for a purchased batch.",
+      "The CCOF public entry covers the operator rather than an itemized Raspberry Lychee certificate; that gap prevents a numerical score.",
+      "Consumer observations describe a small retailer sample and cannot establish digestive benefit or risk for an individual."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "wild-target",
+        "rating": 4.4,
+        "count": 208,
+        "countUnit": "ratings",
+        "summary": "The inspected entries contain both flavor enthusiasm and taste objections. One describes digestive discomfort; personal health reports are not proof of benefit or causation.",
+        "topics": [
+          "taste",
+          "value",
+          "digestive tolerance"
+        ],
+        "limitations": "A convenience sample from one retailer, not a representative survey. Several entries have retailer purchase labels, which we did not independently audit. No marketplace-review average is created.",
+        "positives": [
+          "Several entries enjoy the flavor; one describes it as a refreshing after-dinner drink."
+        ],
+        "concerns": [
+          "One dislikes the aftertaste, another compares the flavor unfavorably to a wine cooler, and one reports stomach discomfort.",
+          "One low-star entry says the rating interface prevented removing its star; it is not treated as product dissatisfaction."
+        ],
+        "sampling": "Read the first ten displayed entries, dated August 26\u2013October 15, 2026, including a rating-interface comment. The 208 figure is the page total, not the inspected sample.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "sampleStart": "2026-08-26",
+        "sampleEnd": "2026-10-15"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source-linked research for this specialist drink brand, including product-version limits and an explicitly counted consumer sample."
+  },
+  {
+    "brandId": "hopwtr",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "hopwtr-classic-six"
+    ],
+    "summary": "The research identifies a formulation inconsistency and an unmatched certification claim. Consumer feedback is separated by provenance, and a private regulatory allegation is linked without treating it as a proven violation.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "hop-label",
+          "hop-faq"
+        ],
+        "reason": "The displayed label names ashwagandha while the current FAQ names reishi. The shipping formulation is unresolved."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "hop-label"
+        ],
+        "reason": "Vitamin C and nutrition amounts are stated; L-theanine and botanical amounts are not."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "hop-faq"
+        ],
+        "reason": "The FAQ flags insufficient pregnancy/child data and directs medication and suitability questions to a clinician."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "hop-faq"
+        ],
+        "reason": "The brand names Non-GMO Project verification; this is a stated claim until the current item is independently matched."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "hop-finder",
+          "hop-faq"
+        ],
+        "reason": "No accessible certifier item record or original product test report was obtained in this review."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "hop-finder",
+          "hop-label"
+        ],
+        "reason": "A certifier record for the exact current Classic formula has not been matched."
+      },
+      {
+        "key": "returns",
+        "status": "partial",
+        "sourceIds": [
+          "hop-refunds",
+          "hop-faq"
+        ],
+        "reason": "The brand offers a dissatisfaction-contact route, but the reviewed policy does not set a clear request window or processing timetable."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "hop-shipping",
+          "hop-faq"
+        ],
+        "reason": "The policy and FAQ disclose contiguous-US coverage, a typical 2\u20133-day dispatch time and checkout-calculated charges."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "hop-faq"
+        ],
+        "reason": "A published support email accepts order and product questions."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "hop-faq"
+        ],
+        "reason": "Reverse-osmosis treatment of locally sourced water is described, but no named production site or consumer lot lookup was found."
+      }
+    ],
+    "sources": [
+      {
+        "id": "hop-product",
+        "title": "Classic six-pack offer",
+        "url": "https://hopwtr.com/products/classic-6-pack",
+        "kind": "brand",
+        "publisher": "HOPWTR",
+        "checked": "2026-10-16",
+        "note": "Official $14.99 six-pack and product imagery."
+      },
+      {
+        "id": "hop-label",
+        "title": "Classic displayed ingredient and nutrition label",
+        "url": "https://cdn.shopify.com/s/files/1/0409/2634/7419/files/hopwtr-classic-6-pack-7999391.webp?v=1785777129",
+        "kind": "brand",
+        "publisher": "HOPWTR",
+        "checked": "2026-10-16",
+        "note": "The official image lists ashwagandha, L-theanine and 108 mg vitamin C; botanical amounts are absent."
+      },
+      {
+        "id": "hop-faq",
+        "title": "Current ingredient, suitability and delivery FAQs",
+        "url": "https://hopwtr.com/pages/frequently-asked-questions",
+        "kind": "brand",
+        "publisher": "HOPWTR",
+        "checked": "2026-10-16",
+        "note": "FAQ names reishi rather than the displayed label\u2019s ashwagandha. Also discloses caffeine status, consultation advice and support."
+      },
+      {
+        "id": "hop-refunds",
+        "title": "Refund policy",
+        "url": "https://hopwtr.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "HOPWTR",
+        "checked": "2026-10-16",
+        "note": "Provides a photo-and-email route for damaged or unsatisfactory items; detailed time limits and refund timing are absent."
+      },
+      {
+        "id": "hop-shipping",
+        "title": "Shipping policy",
+        "url": "https://hopwtr.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "HOPWTR",
+        "checked": "2026-10-16",
+        "note": "Shipping costs are set at checkout and delivery dates are estimates."
+      },
+      {
+        "id": "hop-finder",
+        "title": "Non-GMO Project product finder",
+        "url": "https://www.nongmoproject.org/find-non-gmo/",
+        "kind": "independent",
+        "publisher": "Non-GMO Project",
+        "checked": "2026-10-16",
+        "note": "The original finder was inspected, but an accessible item-level Classic record was not obtained. A brand claim alone does not satisfy the match gate."
+      },
+      {
+        "id": "hop-target",
+        "title": "Target-hosted feedback syndicated from HOP WTR",
+        "url": "https://www.target.com/p/-/A-90430323",
+        "kind": "brand",
+        "publisher": "Target / HOP WTR syndicated reviews",
+        "checked": "2026-10-16",
+        "note": "All ten sampled entries are explicitly marked originally posted on HOP WTR; the retailer page mixes flavors."
+      },
+      {
+        "id": "hop-reddit",
+        "title": "HOP WTR discussion: value and taste",
+        "url": "https://www.reddit.com/r/Sober/comments/1554sg1",
+        "kind": "review-platform",
+        "publisher": "Reddit / r/Sober",
+        "checked": "2026-10-16",
+        "note": "Five visible experiential replies from July 20\u201321, 2023. Unverified pseudonymous posts, not a review platform rating."
+      },
+      {
+        "id": "hop-notice",
+        "title": "California AG record 2026-01570",
+        "url": "https://www.oag.ca.gov/prop65/60-Day-Notice-2026-01570",
+        "kind": "independent",
+        "publisher": "California Department of Justice",
+        "checked": "2026-10-16",
+        "note": "Lists a private April 7, 2026 notice and June 17, 2026 failure-to-warn complaint, case 26CV194704. Allegations are not adjudicated findings."
+      },
+      {
+        "id": "hop-notice-pdf",
+        "title": "Original private notice, including Classic",
+        "url": "https://oag.ca.gov/system/files/prop65/notices/2026-01570.pdf",
+        "kind": "independent",
+        "publisher": "Environmental Research Center / California AG repository",
+        "checked": "2026-10-16",
+        "note": "The notice alleges PFOA-related warning violations for Classic. No underlying lab measurements are supplied in the public notice."
+      }
+    ],
+    "limitations": [
+      "The current FAQ names reishi while the product label image names ashwagandha; check the purchased package. No botanical-specific catalog filter is asserted.",
+      "No current item-level independent verification record was matched; a numerical score is withheld.",
+      "California AG record 2026-01570 contains a private failure-to-warn notice and complaint. The notice names Classic for alleged PFOA exposure without a warning. This is not a court finding or a conclusion about a purchased can; no settlement or judgment appeared in the reviewed record.",
+      "Non-GMO verification, even if matched, would not establish contaminant absence, safety or calming effectiveness.",
+      "External feedback includes brand-syndicated and older forum material; it cannot establish the experience of today\u2019s formula."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "hop-target",
+        "rating": 4.7,
+        "count": 1366,
+        "countUnit": "ratings",
+        "summary": "The sampled brand-origin reviews mostly discuss refreshment and an alcohol-free drinking ritual, with two unfavorable flavor reports. They cover several flavors, not only Classic.",
+        "topics": [
+          "taste",
+          "nonalcoholic ritual",
+          "flavor preference"
+        ],
+        "limitations": "The Target aggregate includes syndicated feedback. These ten entries originated on HOP WTR, so they are not an independent Target-only purchaser sample. Claimed calming effects are anecdotes.",
+        "positives": [
+          "Several reviewers like the light, refreshing taste and evening-drink alternative."
+        ],
+        "concerns": [
+          "One rejects the flavors tried; another strongly dislikes Double Hopped, which is not the scoped Classic product."
+        ],
+        "sampling": "Read the first ten displayed written entries, April 7\u2013October 10, 2026; each was marked originally posted on HOP WTR. Page total and rating are kept separate from the ten-entry sample.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "sampleStart": "2026-04-07",
+        "sampleEnd": "2026-10-10"
+      },
+      {
+        "sourceId": "hop-reddit",
+        "countUnit": "posts",
+        "summary": "This small discussion combines enjoyment of the drink with repeated objections to price.",
+        "topics": [
+          "taste",
+          "value"
+        ],
+        "limitations": "Older, unverified forum accounts and unspecified formulas. No purchase verification or rating aggregate; personal recovery decisions are not product efficacy evidence.",
+        "positives": [
+          "Several posters say they enjoyed the drink or would occasionally buy it."
+        ],
+        "concerns": [
+          "Multiple replies describe the price as a reason to limit purchases."
+        ],
+        "sampling": "Read five experiential replies visible in the indexed discussion; excluded the opening question. Posts date July 20\u201321, 2023 and may predate current pricing and ingredients.",
+        "basis": "review-sample",
+        "sampleSize": 5,
+        "sampleStart": "2023-07-20",
+        "sampleEnd": "2023-07-21"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source-linked research for this specialist drink brand, including product-version limits and an explicitly counted consumer sample."
+  },
+  {
+    "brandId": "rise-brewing",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "rise-original-black-eleven"
+    ],
+    "summary": "The current 11 oz coffee has a clear caffeine label, but the older certification entry has not been matched to this version. Research also exposes conflicting shipping thresholds and consumer concerns about the change from 7 oz nitro.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "rise-label"
+        ],
+        "reason": "The current can label identifies filtered water and coffee."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "rise-label",
+          "rise-pack"
+        ],
+        "reason": "The reviewed images state can size, pack count, nutrition values and 270 mg caffeine per can."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "rise-label",
+          "rise-faq"
+        ],
+        "reason": "Caffeine quantity and storage guidance are present; a current-format caffeine-suitability warning was not located."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "rise-detox"
+        ],
+        "reason": "The Detox Project names Original Black in its Glyphosate Residue Free directory."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "rise-detox"
+        ],
+        "reason": "The certification body publishes an original product-name entry."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "rise-detox",
+          "rise-product"
+        ],
+        "reason": "The product name aligns, but the directory does not establish coverage of the new 11 oz format. The older 7 oz nitro claim is not transferred."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "rise-returns"
+        ],
+        "reason": "The policy specifies eligibility, timing and costs. Sale items are excluded, relevant to this currently discounted listing."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "rise-shipping"
+        ],
+        "reason": "Dispatch estimates are disclosed, but $40 and $65 free-shipping thresholds conflict on the same page."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "rise-returns",
+          "rise-label"
+        ],
+        "reason": "The brand publishes a support email; the label also provides a distributor phone number."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "rise-label",
+          "rise-faq"
+        ],
+        "reason": "The current distributor is identifiable. The older FAQ names a bean region, but no current lot-to-origin record was found."
+      }
+    ],
+    "sources": [
+      {
+        "id": "rise-product",
+        "title": "Current 11 oz Original Black offer",
+        "url": "https://risebrewingco.com/products/new-11oz-black",
+        "kind": "brand",
+        "publisher": "RISE Brewing Co.",
+        "checked": "2026-10-16",
+        "note": "Official current $29.99 sale price; the page calls this Original Black cold brew. It is not the former 7 oz nitro listing."
+      },
+      {
+        "id": "rise-label",
+        "title": "Current 11 oz label and caffeine disclosure",
+        "url": "https://cdn.shopify.com/s/files/1/3099/0402/files/RISE_Original_Black_Back_Single_Can_-_Amazon.png?v=1776616873",
+        "kind": "brand",
+        "publisher": "RISE Brewing Co.",
+        "checked": "2026-10-16",
+        "note": "Official image lists water and coffee, 270 mg caffeine and zero total/added sugar. Distributed by RISE Beverages LLC, Houston."
+      },
+      {
+        "id": "rise-pack",
+        "title": "Official 12-pack image",
+        "url": "https://cdn.shopify.com/s/files/1/3099/0402/files/RISE_Original_Black_-_Large_12-PACK_Side_2_-_with_Main_Can_-_Amazon.png?v=1776616873",
+        "kind": "brand",
+        "publisher": "RISE Brewing Co.",
+        "checked": "2026-10-16",
+        "note": "Pack illustration confirms twelve 11 fl oz cans. Its generic non-GMO icon is not treated as third-party verification."
+      },
+      {
+        "id": "rise-detox",
+        "title": "Glyphosate Residue Free certifier directory",
+        "url": "https://detoxproject.org/certification/glyphosate-residue-free/certified-products/",
+        "kind": "independent",
+        "publisher": "The Detox Project",
+        "checked": "2026-10-16",
+        "note": "Directory includes RISE Original Black, but does not specify pack size, formulation revision or lot."
+      },
+      {
+        "id": "rise-faq",
+        "title": "RISE FAQ and older nitro information",
+        "url": "https://risebrewingco.com/pages/faq",
+        "kind": "brand",
+        "publisher": "RISE Brewing Co.",
+        "checked": "2026-10-16",
+        "note": "Source-region, storage and support statements remain online alongside older nitro-product descriptions; current-format applicability is qualified."
+      },
+      {
+        "id": "rise-returns",
+        "title": "Direct-purchase refund policy",
+        "url": "https://risebrewingco.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "RISE Brewing Co.",
+        "checked": "2026-10-16",
+        "note": "30-day unused/original-packaging policy, proof of purchase, sale-item exclusion and customer-paid return shipping."
+      },
+      {
+        "id": "rise-shipping",
+        "title": "Shipping policy with conflicting thresholds",
+        "url": "https://risebrewingco.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "RISE Brewing Co.",
+        "checked": "2026-10-16",
+        "note": "Body specifies $65 for free shipping, while the banner/footer say $40. Dispatch and holiday-processing estimates are given."
+      },
+      {
+        "id": "rise-shop",
+        "title": "Shop reviews of current 11 oz Black",
+        "url": "https://shop.app/products/8158445862959/rise-11oz-black-cold-brew-coffee",
+        "kind": "review-platform",
+        "publisher": "Shop",
+        "checked": "2026-10-16",
+        "note": "Indexed product-specific Reviews section shows 2.6/5 from 18 ratings and two written entries; exclude the separate store/header aggregate."
+      }
+    ],
+    "limitations": [
+      "The certifier entry names Original Black without package or revision details. We withhold a score until the current 11 oz version is matched.",
+      "Glyphosate Residue Free is a limited certification scope, not a guarantee against all contaminants or a health endorsement. No customer batch was supplied.",
+      "The current product should not inherit older 7 oz nitro ingredient, organic, caffeine or review claims.",
+      "Shipping thresholds conflict and the refund policy excludes sale items; confirm the applicable terms before purchase.",
+      "The two-review Shop sample is small and indexed; it is not representative and does not establish today\u2019s complete rating."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "rise-shop",
+        "rating": 2.6,
+        "count": 18,
+        "countUnit": "ratings",
+        "summary": "Two visible current-format reviews compare the new 11 oz coffee unfavorably with the discontinued 7 oz nitro version. This is a version-specific concern, not a judgment about all RISE drinks.",
+        "topics": [
+          "formula change",
+          "taste",
+          "portion size"
+        ],
+        "limitations": "Only two written entries were available in the indexed original Shop page. Direct live retrieval was rate-limited; the rating is an indexed snapshot and may lag. Purchase and incentives were not audited.",
+        "positives": [
+          "Both contributors describe previous loyalty to the brand\u2019s older 7 oz coffee; that praise does not validate the current can."
+        ],
+        "concerns": [
+          "Both prefer the older product\u2019s taste; one also finds the new serving too large."
+        ],
+        "sampling": "Inspected the two indexed written reviews by Lynne (July 22) and Richard (August 24), 2026. The 18 figure is the product rating total, not the number read; the unrelated store/header rating is excluded.",
+        "basis": "review-sample",
+        "sampleSize": 2,
+        "sampleStart": "2026-07-22",
+        "sampleEnd": "2026-08-24"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source-linked research for this specialist drink brand, including product-version limits and an explicitly counted consumer sample."
+  },
+  {
+    "brandId": "fair-indigo",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "fair-indigo-relaxed-indigo"
+    ],
+    "summary": "Fair Indigo explains its cotton sourcing and the boundary of its component certifications. No original certifier record was matched to this finished tee; consumer accounts offer useful, mixed observations on comfort and cut.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "fi-product"
+        ],
+        "reason": "The main fabric is identified as organic Pima cotton jersey."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "fi-product"
+        ],
+        "reason": "The main-fabric percentage is stated as 100% cotton."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "fi-product",
+          "fi-certifications"
+        ],
+        "reason": "Certification scope is explained, but thread and label materials are not separately disclosed."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "fi-certifications"
+        ],
+        "reason": "GOTS is named for cotton, yarn, fabric and dyes; this is expressly a component-level claim."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "fi-certifications"
+        ],
+        "reason": "The brand links a supplier certificate, but no original certifier-hosted record for this finished garment was located."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "fi-certifications",
+          "fi-product"
+        ],
+        "reason": "No original independent record naming the reviewed tee was located. Component certification does not establish finished-product coverage."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "fi-returns"
+        ],
+        "reason": "Unworn, unwashed returns are accepted within 60 days. US labels cost $6, waived for a first order or exchange; refund timing is disclosed."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "fi-shipping"
+        ],
+        "reason": "Standard US shipping is free with a 5\u20137-business-day estimate; expedited fees and Canadian terms are stated."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "fi-contact"
+        ],
+        "reason": "A service email and mailing address provide documented contact routes; response quality was not tested."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "fi-product",
+          "fi-origin"
+        ],
+        "reason": "The brand names family partners and a Lima workshop, but this tee is not linked to an independently audited production lot or named legal facility."
+      }
+    ],
+    "sources": [
+      {
+        "id": "fi-product",
+        "title": "Relaxed Crew Neck Tee: composition and selected variant",
+        "url": "https://www.fairindigo.com/products/fair-indigo-womens-fair-trade-organic-all-cotton-crew-neck-tee",
+        "kind": "brand",
+        "publisher": "Fair Indigo",
+        "checked": "2026-10-16",
+        "note": "Official product listing and public variant data: Indigo / M, $36.90, available when checked."
+      },
+      {
+        "id": "fi-certifications",
+        "title": "Certification scope: components versus finished garments",
+        "url": "https://www.fairindigo.com/pages/certifications",
+        "kind": "brand",
+        "publisher": "Fair Indigo",
+        "checked": "2026-10-16",
+        "note": "Names GOTS-certified inputs and explains that certification of all cutting and sewing workshops remains in progress."
+      },
+      {
+        "id": "fi-origin",
+        "title": "Peruvian farms and sewing partners",
+        "url": "https://www.fairindigo.com/pages/ethically-made-clothing",
+        "kind": "brand",
+        "publisher": "Fair Indigo",
+        "checked": "2026-10-16",
+        "note": "Introduces Elsa, Javier, their farms and Lima workshop; a brand account rather than an independent factory audit."
+      },
+      {
+        "id": "fi-shipping",
+        "title": "Shipping charges and delivery estimates",
+        "url": "https://www.fairindigo.com/pages/shipping",
+        "kind": "brand",
+        "publisher": "Fair Indigo",
+        "checked": "2026-10-16",
+        "note": "US and Canadian delivery methods, charges and expedited exclusions."
+      },
+      {
+        "id": "fi-returns",
+        "title": "Return window, condition and label fees",
+        "url": "https://www.fairindigo.com/pages/returns",
+        "kind": "brand",
+        "publisher": "Fair Indigo",
+        "checked": "2026-10-16",
+        "note": "60-day purchase window; $6 US label charge with first-order and exchange exceptions."
+      },
+      {
+        "id": "fi-contact",
+        "title": "Customer support contact",
+        "url": "https://www.fairindigo.com/pages/contact",
+        "kind": "brand",
+        "publisher": "Fair Indigo",
+        "checked": "2026-10-16",
+        "note": "Public service email and Madison mailing address."
+      },
+      {
+        "id": "fi-consumers",
+        "title": "Firsthand discussion of Fair Indigo clothing",
+        "url": "https://www.reddit.com/r/capsulewardrobe/comments/1goa4fn/thoughts_on_fair_indigo_brandshirts/",
+        "kind": "review-platform",
+        "publisher": "Reddit \u00b7 r/capsulewardrobe",
+        "checked": "2026-10-16",
+        "note": "Read eight firsthand comments across different garments, excluding questions and the explicitly disclosed ambassador endorsement."
+      }
+    ],
+    "limitations": [
+      "Research covers the Indigo Relaxed Crew Neck Tee only; other garments can contain stretch fibers.",
+      "Cotton filters describe the main fabric. No claim is made that thread, labels, dyes or every component are plastic-free.",
+      "A missing matched record is an evidence gap, not proof that the brand\u2019s certification statements are false.",
+      "Consumer comments concern several garments and cannot predict the fit or durability of the selected tee."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "fi-consumers",
+        "countUnit": "posts",
+        "summary": "Firsthand commenters repeatedly valued the fabric feel. Preferences about shape, styling and size availability varied.",
+        "topics": [
+          "Comfort",
+          "Fit",
+          "Style",
+          "Value"
+        ],
+        "positives": [
+          "Several described comfortable cotton; one reported regular washing and wear without an obvious decline."
+        ],
+        "concerns": [
+          "Some found cuts unappealing or needed alterations; one reported limited size and color choices."
+        ],
+        "sampling": "Eight firsthand comments visible in the linked discussion. Excluded questions, non-experience replies and the self-declared brand ambassador endorsement. No random selection or purchase verification.",
+        "basis": "review-sample",
+        "sampleSize": 8,
+        "limitations": "One discussion, several products and historical experiences. Commenters are self-selected; identities, relationships and purchases were not independently checked. No platform star rating or overall customer-satisfaction estimate is available."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial apparel research: exact product composition, certification scope, buying terms, and a disclosed sample of original consumer accounts."
+  },
+  {
+    "brandId": "jungmaven",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "jungmaven-baja-black"
+    ],
+    "summary": "Jungmaven discloses a specific hemp\u2013cotton blend, assembly location and purchase terms. Supplier-wide certification claims do not establish an independently matched Baja Tee record. The small consumer sample is sharply mixed.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "jung-product"
+        ],
+        "reason": "Hemp and organic cotton are named as the main fabric fibers."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "jung-product"
+        ],
+        "reason": "The jersey blend is quantified as 55% hemp and 45% organic cotton, with a 7 oz fabric specification."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "jung-product"
+        ],
+        "reason": "Care precautions are stated, but thread, labels and trim have no separate composition disclosure."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "jung-practices"
+        ],
+        "reason": "GOTS, OEKO-TEX and other systems are named collectively for suppliers without a certificate assigned to this tee."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "jung-practices"
+        ],
+        "reason": "No original certifier record identifying the reviewed garment or its specific fabric was located."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "jung-product",
+          "jung-practices"
+        ],
+        "reason": "Supplier-wide statements are not a product-specific match for the Black Baja Tee."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "jung-returns",
+          "jung-faq"
+        ],
+        "reason": "The 30-day return window, $7\u2013$12 refund-label fee without optional protection, final-sale exceptions and separate defect warranty are disclosed."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "jung-shipping"
+        ],
+        "reason": "Free standard domestic shipping and a 6\u201310-business-day estimate are listed, with expedited prices and international limitations."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "jung-returns"
+        ],
+        "reason": "The returns policy publishes a customer-service email. Availability of a channel does not establish service quality."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "jung-faq"
+        ],
+        "reason": "Los Angeles cutting and sewing is identified, while the exact facility and the origin of this tee\u2019s hemp and cotton are not named."
+      }
+    ],
+    "sources": [
+      {
+        "id": "jung-product",
+        "title": "Baja Tee: material blend and variant",
+        "url": "https://jungmaven.com/products/hemp-shirt-baja-short-sleeve",
+        "kind": "brand",
+        "publisher": "Jungmaven",
+        "checked": "2026-10-16",
+        "note": "Official product and variant data: Black / M, $62, available when checked."
+      },
+      {
+        "id": "jung-practices",
+        "title": "Material transparency and supplier certification claims",
+        "url": "https://jungmaven.com/pages/how-we-show-up",
+        "kind": "brand",
+        "publisher": "Jungmaven",
+        "checked": "2026-10-16",
+        "note": "Lists certifications collectively across suppliers; it does not assign a certificate number to the Baja Tee."
+      },
+      {
+        "id": "jung-faq",
+        "title": "Manufacturing origin and warranty FAQ",
+        "url": "https://jungmaven.com/pages/frequently-asked-questions-faqs",
+        "kind": "brand",
+        "publisher": "Jungmaven",
+        "checked": "2026-10-16",
+        "note": "Explains Los Angeles assembly, globally sourced materials and the one-year manufacturing-defect warranty."
+      },
+      {
+        "id": "jung-shipping",
+        "title": "US and international shipping",
+        "url": "https://jungmaven.com/pages/shipping",
+        "kind": "brand",
+        "publisher": "Jungmaven",
+        "checked": "2026-10-16",
+        "note": "Standard and expedited rates, delivery estimates and international duties limitations."
+      },
+      {
+        "id": "jung-returns",
+        "title": "Return methods, fees and final-sale exceptions",
+        "url": "https://jungmaven.com/pages/returns-exchanges",
+        "kind": "brand",
+        "publisher": "Jungmaven",
+        "checked": "2026-10-16",
+        "note": "30-day new-condition window; refund label fees differ from store-credit or exchange options."
+      },
+      {
+        "id": "jung-consumers",
+        "title": "Jungmaven customer-service reviews",
+        "url": "https://www.trustpilot.com/review/jungmaven.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 3.6/5 from seven reviews. All seven complete accounts on the brand profile were read."
+      }
+    ],
+    "limitations": [
+      "The reviewed scope is the Black Baja Tee, not all Jungmaven garments or accessories.",
+      "Main-fabric filters exclude the undocumented composition of sewing thread, labels and trim.",
+      "Collective supplier certification statements do not prove that every listed scheme covers this product.",
+      "Seven external accounts are too few to establish a representative defect or satisfaction rate."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "jung-consumers",
+        "rating": 3.6,
+        "count": 7,
+        "countUnit": "reviews",
+        "summary": "The seven accounts split between praise for fabric or responsive problem-solving and complaints about durability, opacity or returns.",
+        "topics": [
+          "Fabric",
+          "Durability",
+          "Support",
+          "Returns"
+        ],
+        "positives": [
+          "Several praised quality and fit; two described a replacement or shipping problem being resolved."
+        ],
+        "concerns": [
+          "Other reviewers reported shedding or holes; one disliked legging transparency and the review-submission experience."
+        ],
+        "sampling": "All seven complete reviews displayed on the unfiltered brand profile, covering posts from November 2024 through April 2026.",
+        "basis": "review-sample",
+        "sampleSize": 7,
+        "sampleStart": "2024-11-13",
+        "sampleEnd": "2026-04-15",
+        "limitations": "Very small, self-selected, brand-level sample including underwear and leggings, not just this tee. Reports were not independently substantiated. The platform score is separate from the marketplace evidence assessment."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial apparel research: exact product composition, certification scope, buying terms, and a disclosed sample of original consumer accounts."
+  },
+  {
+    "brandId": "pact",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "pact-softspun-crew-black"
+    ],
+    "summary": "Pact provides a clear cotton composition and buying policy. Fair Trade USA independently lists the brand, but the source located does not match this specific tee. Recent external accounts raise distinct fulfillment, fit and returns concerns.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "pact-product"
+        ],
+        "reason": "Cotton is the named main fabric, with a ribbed neckline and printed interior label described."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "pact-product"
+        ],
+        "reason": "The listed main fabric is 100% organic cotton."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "pact-product"
+        ],
+        "reason": "Care instructions are provided; the material of sewing thread and the rib trim are not independently itemized."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "pact-product",
+          "pact-fairtrade"
+        ],
+        "reason": "GOTS and Fair Trade factory certification are named; Fair Trade USA also lists Pact as a participating brand."
+      },
+      {
+        "key": "originalVerification",
+        "status": "partial",
+        "sourceIds": [
+          "pact-fairtrade"
+        ],
+        "reason": "An original certifier publication is accessible, but its featured Pact product is a different sweater."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "pact-fairtrade",
+          "pact-product"
+        ],
+        "reason": "The independent publication does not identify the Softspun Essential Crewneck Tee; brand participation alone does not satisfy the product-match gate."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "pact-terms"
+        ],
+        "reason": "US returns require unworn, unwashed goods in original packaging within 30 days. Return bars are free; mailed labels have a $3 processing fee. Clearance exclusions are stated."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "pact-terms"
+        ],
+        "reason": "Two-business-day processing and US standard charges of $5 below $99 or free at $99+ are disclosed; international costs depend on destination."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "pact-contact"
+        ],
+        "reason": "Support email, phone/text and help options are published. These are contact routes, not proof of successful resolution."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "pact-product"
+        ],
+        "reason": "The product panel identifies India, but no exact factory name, mill or production batch is supplied."
+      }
+    ],
+    "sources": [
+      {
+        "id": "pact-product",
+        "title": "Softspun Essential Crewneck Tee: Black",
+        "url": "https://wearpact.com/men/apparel/all%20tops/softspun%20essential%20crewneck%20tee/wb1-mcn-blk",
+        "kind": "brand",
+        "publisher": "Pact",
+        "checked": "2026-10-16",
+        "note": "Current public product data supplied to the page: Black / M, $24, in stock, main fabric and India factory panel."
+      },
+      {
+        "id": "pact-fairtrade",
+        "title": "Original Fair Trade USA product and brand directory",
+        "url": "https://www.fairtradecertified.org/our-community/shop-fair-trade/",
+        "kind": "independent",
+        "publisher": "Fair Trade USA",
+        "checked": "2026-10-16",
+        "note": "Lists Pact and features a different sweater. It supports brand participation, not an exact Softspun tee certification match."
+      },
+      {
+        "id": "pact-terms",
+        "title": "Shipping and returns policy",
+        "url": "https://wearpact.com/shipping-returns",
+        "kind": "brand",
+        "publisher": "Pact",
+        "checked": "2026-10-16",
+        "note": "Read US processing, delivery charges and return conditions, plus distinct international terms."
+      },
+      {
+        "id": "pact-contact",
+        "title": "Customer service help center",
+        "url": "https://wearpact.com/help-center",
+        "kind": "brand",
+        "publisher": "Pact",
+        "checked": "2026-10-16",
+        "note": "Published support email, phone/text and help routes; no test inquiry was sent."
+      },
+      {
+        "id": "pact-consumers",
+        "title": "Pact customer-service reviews",
+        "url": "https://www.trustpilot.com/review/www.wearpact.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Snapshot: 2.4/5 from 1,671 reviews. Read the first ten complete accounts under Most recent."
+      }
+    ],
+    "limitations": [
+      "This profile covers one Black Softspun Essential Crewneck Tee. The certifier\u2019s different featured garment is not substituted as evidence for it.",
+      "Cotton filters apply to the main fabric. Undisclosed sewing components prevent a whole-garment plastic-free claim.",
+      "US buying terms are assessed separately from international terms, which have different return windows and charges.",
+      "External complaints cover different products and countries. They do not establish that the selected tee is defective or that any alleged event has been proven."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "pact-consumers",
+        "rating": 2.4,
+        "count": 1671,
+        "countUnit": "reviews",
+        "summary": "The ten recent accounts were predominantly critical, concentrating on order resolution, sizing, garment condition and international returns.",
+        "topics": [
+          "Support",
+          "Delivery",
+          "Fit",
+          "Returns",
+          "Quality"
+        ],
+        "positives": [
+          "A few still described comfortable clothing or an attractive dress while criticizing another aspect of the purchase."
+        ],
+        "concerns": [
+          "Several reported missing or incorrect items, refund difficulties or unhelpful follow-up.",
+          "Other accounts described sizing mismatches, seam failures or an unpleasant garment odor; causes were not verified."
+        ],
+        "sampling": "First ten complete reviews under Most recent on the unfiltered brand profile. Publication dates run October 3\u201315, 2026; this recent window is not a random sample of 1,671 reviews.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "sampleStart": "2026-10-03",
+        "sampleEnd": "2026-10-15",
+        "limitations": "Brand-level, self-selected accounts across countries and garments. Purchase histories and allegations were not independently checked. Platform rating is a dated aggregate, not an average of the ten sampled reviews or a marketplace rating."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial apparel research: exact product composition, certification scope, buying terms, and a disclosed sample of original consumer accounts."
+  }
+]

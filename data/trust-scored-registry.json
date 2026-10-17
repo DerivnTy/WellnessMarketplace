@@ -1,0 +1,1814 @@
+[
+  {
+    "brandId": "gnarly-nutrition",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "gnarly-collagen-pro-bag"
+    ],
+    "summary": "The 455 g Collagen Pro bag has a matched NSF record and documented buying terms. Conflicting quantity disclosures reduce this evidence score.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-label"
+        ],
+        "reason": "The bag identifies bovine collagen, three micronutrients and their forms, with no other ingredients listed."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "gnarly-label",
+          "gnarly-product",
+          "gnarly-nsf-label"
+        ],
+        "reason": "Current bag: 15 g collagen and 14 g protein per 15 g serving. Page prose says 20 g collagen; the discrepancy is unresolved."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-label"
+        ],
+        "reason": "The bag states it is not recommended for under-18s or pregnancy/nursing and identifies its bovine source."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-label",
+          "gnarly-nsf"
+        ],
+        "reason": "NSF Certified for Sport is named on the pack and in the certifier directory."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-nsf"
+        ],
+        "reason": "NSF independently hosts an accessible Collagen Pro certification entry; this is not only a brand badge."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-nsf",
+          "gnarly-nsf-label",
+          "gnarly-label"
+        ],
+        "reason": "Brand, unflavored powder and 455 g pack match. Both label panels list 15 g collagen, 14 g protein, 90 mg vitamin C, 15 mg zinc and 1 mg copper."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-returns"
+        ],
+        "reason": "Online orders qualify within 30 days of purchase with less than half used. Customers cover return postage; damaged items have a separate replacement route."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-shipping"
+        ],
+        "reason": "Policy describes 24\u201348-hour processing, standard 3\u20135-business-day delivery and free standard shipping above $75; direct international shipping is unavailable."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-contact",
+          "gnarly-shipping"
+        ],
+        "reason": "A public support form and a shipping-policy phone number provide documented contact routes; service performance was not tested."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "gnarly-product",
+          "gnarly-nsf"
+        ],
+        "reason": "The brand states US cattle sourcing; NSF lists lots 23260 and 23541. Farm custody remains unaudited."
+      }
+    ],
+    "sources": [
+      {
+        "id": "gnarly-product",
+        "title": "Collagen Pro product page and merchant reviews",
+        "url": "https://gognarly.com/products/gnarly-collagen-pro",
+        "kind": "brand",
+        "publisher": "Gnarly Nutrition",
+        "checked": "2026-10-16",
+        "note": "Product, price, origin statement and merchant-hosted Okendo reviews; snapshot can change."
+      },
+      {
+        "id": "gnarly-label",
+        "title": "Current 455 g bag ingredient and warning label",
+        "url": "https://cdn.shopify.com/s/files/1/0531/8233/3094/files/GN-COTB-UN_D3-WEB.webp?v=1777398424",
+        "kind": "brand",
+        "publisher": "Gnarly Nutrition",
+        "checked": "2026-10-16",
+        "note": "Official back-of-bag image, visually inspected against the selected variant."
+      },
+      {
+        "id": "gnarly-nsf",
+        "title": "NSF Certified for Sport: Collagen Pro 455 g",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1330416",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Original certifier record; listed lots do not identify the next bag shipped."
+      },
+      {
+        "id": "gnarly-nsf-label",
+        "title": "Label attached to the NSF product record",
+        "url": "https://info.nsf.org/Certified/Common/cfs/C0506065/C0506066/Gnarly%20Nutrition/Collagen%20Pro/1330416/Label_01.PNG",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Archived label hosted by the certifier; active amounts match the current bag."
+      },
+      {
+        "id": "gnarly-returns",
+        "title": "Return and refund policy",
+        "url": "https://gognarly.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Gnarly Nutrition",
+        "checked": "2026-10-16",
+        "note": "Active policy page states a December 2020 last-modified date."
+      },
+      {
+        "id": "gnarly-shipping",
+        "title": "Shipping policy",
+        "url": "https://gognarly.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Gnarly Nutrition",
+        "checked": "2026-10-16",
+        "note": "Direct-order delivery, processing and shipping-cost terms."
+      },
+      {
+        "id": "gnarly-contact",
+        "title": "Customer contact form",
+        "url": "https://gognarly.com/pages/contact-us",
+        "kind": "brand",
+        "publisher": "Gnarly Nutrition",
+        "checked": "2026-10-16",
+        "note": "A public contact form was accessible; responsiveness was not tested."
+      },
+      {
+        "id": "gnarly-reddit",
+        "title": "ClimbHarder discussion: Gnarly-like collagen supplement",
+        "url": "https://www.reddit.com/r/climbharder/comments/oabf1a/gnarlylike_collagen_supplement/",
+        "kind": "review-platform",
+        "publisher": "Reddit",
+        "checked": "2026-10-16",
+        "note": "Historical public discussion; pseudonymous accounts, not verified purchases."
+      },
+      {
+        "id": "gnarly-feed",
+        "title": "The Feed: Collagen Pro customer rating",
+        "url": "https://thefeed.com/products/gnarly-collagen-pro",
+        "kind": "review-platform",
+        "publisher": "The Feed",
+        "checked": "2026-10-16",
+        "note": "Retailer aggregate only; individual review text was not exposed in the inspected view."
+      }
+    ],
+    "limitations": [
+      "Scope is the unflavored 455 g bag, not stick packs or the whole Gnarly range. No physical product or currently shipping lot was tested.",
+      "The NSF table says 2 scoops (10 oz); its attached label describes two level scoops and prepared volume. The current bag uses 2.5 tablespoons (15 g). Serving-measure differences remain unresolved; matching relies on pack, flavor and active quantities.",
+      "This is provisional AI-assisted documentation research, not a safety, effectiveness or suitability endorsement. Certification does not establish clinical benefit.",
+      "Consumer snapshots are kept separate from the evidence score. Relative review ages are not converted into invented calendar dates."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "gnarly-product",
+        "rating": 4.8,
+        "count": 151,
+        "countUnit": "reviews",
+        "basis": "review-sample",
+        "sampleSize": 5,
+        "summary": "Feedback covers mixing, taste and price.",
+        "positives": [
+          "Some describe convenient mixing."
+        ],
+        "concerns": [
+          "Taste and cost drew criticism."
+        ],
+        "sampling": "First five displayed cards; relative ages span minutes to three months. Exact dates unavailable.",
+        "limitations": "Merchant-hosted convenience sample. Reported health outcomes are unverified.",
+        "topics": [
+          "mixing",
+          "taste",
+          "value"
+        ]
+      },
+      {
+        "sourceId": "gnarly-reddit",
+        "countUnit": "posts",
+        "basis": "review-sample",
+        "sampleSize": 3,
+        "summary": "Three historical discussion items cover repeat use, flavor and purchasing friction.",
+        "positives": [
+          "The original poster described incorporating it into an established routine."
+        ],
+        "concerns": [
+          "The poster reported stock interruptions and reliance on a discount; a respondent disliked the flavor."
+        ],
+        "sampling": "Inspected the opening post, the flavor response and the original poster\u2019s price follow-up. These are three items from two accounts, not three independent customers. The thread is from June 2021; exact dates of each comment were not exposed.",
+        "limitations": "June 2021 discussion predates the reviewed packaging. Stock conditions may have changed; a discount was disclosed. No purchase or health outcome was verified.",
+        "topics": [
+          "taste",
+          "availability",
+          "value"
+        ]
+      },
+      {
+        "sourceId": "gnarly-feed",
+        "rating": 4.4,
+        "count": 26,
+        "countUnit": "reviews",
+        "basis": "platform-overview",
+        "summary": "Retailer displays a separate 4.4/5 aggregate across 26 reviews.",
+        "sampling": "Inspected the aggregate shown on the retailer product page; no individual review bodies were accessible.",
+        "limitations": "This is an aggregate snapshot, not 26 reviews inspected. The retailer\u2019s separate Feed Score was not imported or treated as independent certification.",
+        "topics": [
+          "retailer rating"
+        ]
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Added a scoped 455 g Collagen Pro assessment with original NSF listing and label comparison, a quantity conflict, nine linked sources, and separately identified merchant, historical forum and retailer feedback."
+  },
+  {
+    "brandId": "bare-performance-nutrition",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "bpn-peak-sleep-berry"
+    ],
+    "summary": "Peak Sleep Berry meets all ten documentation checks for this exact product scope. Consumer experience remains mixed and is evaluated separately.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-nsf-label"
+        ],
+        "reason": "The linked label names all five actives plus sweeteners, gelling agents, flavors, acid and color ingredients."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-nsf-label",
+          "bpn-nsf"
+        ],
+        "reason": "Amounts are disclosed per four gummies: magnesium 150 mg, PEA 350 mg, 5-HTP 250 mg, GABA 200 mg and L-theanine 150 mg; added sugar is 6 g."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-product",
+          "bpn-nsf-label"
+        ],
+        "reason": "The product page displays a California Proposition 65 lead warning; the label discloses added sugar."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-product",
+          "bpn-nsf"
+        ],
+        "reason": "The brand names NSF Certified for Sport, corroborated by the original product entry."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-nsf"
+        ],
+        "reason": "The original NSF directory entry is accessible independently of the brand website."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-nsf",
+          "bpn-nsf-label"
+        ],
+        "reason": "The entry matches Bare Performance Nutrition, Berry gummies, US sale, 120 count, four-gummy serving, 40 calories and 6 g sugar."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-returns"
+        ],
+        "reason": "Requests are permitted within 30 days of fulfillment; opened supplements receive store credit only. Exchanges depend on stock."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-shipping"
+        ],
+        "reason": "Published terms give 1\u20133 business days for processing and 2\u20135 for delivery. Free shipping above $99 has geographic exclusions; the policy includes military addresses."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-contact"
+        ],
+        "reason": "The brand\u2019s help center provides a public support form with subject, message and attachment fields."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "bpn-origin",
+          "bpn-nsf"
+        ],
+        "reason": "The brand states US manufacturing/bottling with global ingredients; NSF lists product lots including P260123 and P250704. Specific ingredient suppliers were not disclosed in reviewed sources."
+      }
+    ],
+    "sources": [
+      {
+        "id": "bpn-product",
+        "title": "Peak Sleep Berry product page and consumer reviews",
+        "url": "https://www.bareperformancenutrition.com/products/peak-sleep-sleep-support-recovery?variant=44085737619628",
+        "kind": "brand",
+        "publisher": "Bare Performance Nutrition",
+        "checked": "2026-10-16",
+        "note": "US price, availability, warnings and merchant-hosted Okendo review snapshot."
+      },
+      {
+        "id": "bpn-nsf",
+        "title": "NSF Certified for Sport: Peak Sleep Gummy (Berry)",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1660451",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Original listing identifies United States, Berry, 120 count and specific lots."
+      },
+      {
+        "id": "bpn-nsf-label",
+        "title": "Peak Sleep supplement facts in NSF record",
+        "url": "https://info.nsf.org/Certified/Common/cfs/C0817836/C0826384/Bare%20Performance%20Nutrition/Peak%20Sleep/1660451/Label_01.PNG",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Certifier-hosted product label was visually inspected, including other ingredients."
+      },
+      {
+        "id": "bpn-returns",
+        "title": "Return policy",
+        "url": "https://www.bareperformancenutrition.com/pages/return-policy",
+        "kind": "brand",
+        "publisher": "Bare Performance Nutrition",
+        "checked": "2026-10-16",
+        "note": "Refund, exchange and opened-product distinctions are documented."
+      },
+      {
+        "id": "bpn-shipping",
+        "title": "Shipping policy",
+        "url": "https://www.bareperformancenutrition.com/pages/shipping",
+        "kind": "brand",
+        "publisher": "Bare Performance Nutrition",
+        "checked": "2026-10-16",
+        "note": "Published timing and US destination terms; actual delivery was not tested."
+      },
+      {
+        "id": "bpn-contact",
+        "title": "Customer support contact form",
+        "url": "https://bare-performance-nutrition.gorgias.help/en-US/contact",
+        "kind": "brand",
+        "publisher": "Bare Performance Nutrition",
+        "checked": "2026-10-16",
+        "note": "Brand help center exposes a customer contact form."
+      },
+      {
+        "id": "bpn-origin",
+        "title": "Where supplements are made",
+        "url": "https://bare-performance-nutrition.gorgias.help/en-US/where-are-your-supplements-made-118434",
+        "kind": "brand",
+        "publisher": "Bare Performance Nutrition",
+        "checked": "2026-10-16",
+        "note": "Brand-level US manufacturing and bottling statement with globally sourced ingredients."
+      },
+      {
+        "id": "bpn-trustpilot",
+        "title": "Bare Performance Nutrition Trustpilot profile",
+        "url": "https://www.trustpilot.com/review/bareperformancenutrition.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "All three visible reviews inspected; aggregate is the platform\u2019s own score."
+      }
+    ],
+    "limitations": [
+      "A full documentation score does not mean perfect service, universal suitability, absence of contaminants or proven sleep benefit. The displayed lead warning remains relevant.",
+      "Scope is Berry, 120 gummies, US-market label. NSF lot listings do not prove which lot a future order will receive or certify every BPN product.",
+      "No supplier-level audit, physical-product testing or purchase verification was performed. US manufacturing is a brand statement, not an independently audited origin guarantee.",
+      "Provisional AI-assisted desk research. Merchant reviews and the three-review external sample are separate from the Trust Standards calculation."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "bpn-product",
+        "rating": 4.5,
+        "count": 148,
+        "countUnit": "reviews",
+        "basis": "review-sample",
+        "sampleSize": 12,
+        "summary": "Feedback covers convenience, taste, texture and morning grogginess.",
+        "positives": [
+          "Some prefer the gummy format."
+        ],
+        "concerns": [
+          "Reports mention grit, sugar and morning fog."
+        ],
+        "sampling": "Twelve complete cards: eight featured, four newer; relative ages two days to one year.",
+        "limitations": "Brand-hosted, nonrandom sample; dates unavailable. Health anecdotes are not efficacy evidence or dosing advice.",
+        "topics": [
+          "taste",
+          "format",
+          "texture",
+          "sugar",
+          "grogginess"
+        ]
+      },
+      {
+        "sourceId": "bpn-trustpilot",
+        "rating": 3.4,
+        "count": 3,
+        "countUnit": "reviews",
+        "basis": "review-sample",
+        "sampleSize": 3,
+        "sampleStart": "2024-07-09",
+        "sampleEnd": "2026-08-29",
+        "summary": "Three brand-level reviews show two positive experiences and one delivery complaint.",
+        "positives": [
+          "A customer reported a fast cap-color correction; another offered brief general praise."
+        ],
+        "concerns": [
+          "An APO-address customer reported two failed subscription deliveries but said the company refunded them."
+        ],
+        "sampling": "Read all three visible reviews. The range uses experience dates, not the later publication date on the 2024 review.",
+        "limitations": "Only three self-selected reviewers; none establishes Peak Sleep performance. The platform\u2019s 3.4 score is not a simple average or a marketplace rating.",
+        "topics": [
+          "support",
+          "delivery",
+          "refunds"
+        ]
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Added Peak Sleep Berry with original product-matched NSF evidence, label quantities and sugar disclosure, buying policies, an explicit lead warning, and 15 individually inspected merchant and external consumer reviews."
+  },
+  {
+    "brandId": "bubs-naturals",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "bubs-collagen-peptides-tub"
+    ],
+    "summary": "The current Collagen Peptides tub has an exact NSF record and public batch links. Ambiguous return conditions reduce the documentation score; external feedback raises service questions.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-product"
+        ],
+        "reason": "The current label identifies a single bovine collagen ingredient without added excipients."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-product",
+          "bubs-nsf"
+        ],
+        "reason": "Current label and newer NSF record agree on a 20 g serving, 18 g protein and 70 calories."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-product"
+        ],
+        "reason": "Animal origin is explicit. The page identifies incomplete protein, with zero tryptophan in its amino-acid panel."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-product",
+          "bubs-nsf"
+        ],
+        "reason": "NSF Certified for Sport is named and corroborated by the certifier."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-nsf"
+        ],
+        "reason": "NSF hosts an original current-formula product entry; the brand\u2019s linked reports are supplementary evidence."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-nsf"
+        ],
+        "reason": "The record lists US sale, unflavored powder, 283 g/567 g packs, one 20 g scoop, 18 g protein and 70 calories; the reviewed 567 g tub matches."
+      },
+      {
+        "key": "returns",
+        "status": "partial",
+        "sourceIds": [
+          "bubs-returns"
+        ],
+        "reason": "A first-order guarantee accompanies unused/original-packaging conditions, but no clear request deadline. Refund processing is described as within two weeks of receipt."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-shipping"
+        ],
+        "reason": "Policy states processing within two business days, standard delivery in 3\u20135, checkout-calculated costs and US/Canada coverage. Carrier-loss/damage responsibilities are also described."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-shipping",
+          "bubs-returns"
+        ],
+        "reason": "Published email and phone support routes include service hours and a return address; response quality was not tested."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "bubs-product",
+          "bubs-nsf"
+        ],
+        "reason": "Brand reports link to lots 060226501 and 031026501, both listed by NSF. Regional bovine sourcing is disclosed; custody was not audited."
+      }
+    ],
+    "sources": [
+      {
+        "id": "bubs-product",
+        "title": "Collagen Peptides product, label and batch links",
+        "url": "https://www.bubsnaturals.com/products/collagen-peptides?variant=42011520532564",
+        "kind": "brand",
+        "publisher": "BUBS Naturals",
+        "checked": "2026-10-16",
+        "note": "Current 20 oz variant, ingredients and brand-hosted lot-report links."
+      },
+      {
+        "id": "bubs-nsf",
+        "title": "NSF Certified for Sport: current Collagen Peptides tub",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1802301",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Newer original record matches the current 18 g-protein label."
+      },
+      {
+        "id": "bubs-returns",
+        "title": "Return policy",
+        "url": "https://www.bubsnaturals.com/pages/return-policy",
+        "kind": "brand",
+        "publisher": "BUBS Naturals",
+        "checked": "2026-10-16",
+        "note": "Guarantee and unused-item conditions leave the request window unclear."
+      },
+      {
+        "id": "bubs-shipping",
+        "title": "Shipping policy",
+        "url": "https://www.bubsnaturals.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "BUBS Naturals",
+        "checked": "2026-10-16",
+        "note": "Processing, delivery options, geographic coverage and support email."
+      },
+      {
+        "id": "bubs-trustpilot",
+        "title": "BUBS Naturals Trustpilot profile",
+        "url": "https://www.trustpilot.com/review/bubsnaturals.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "All six visible reviews inspected; reported score belongs to Trustpilot."
+      }
+    ],
+    "limitations": [
+      "Scope is the current unflavored 567 g tub. An older NSF listing reports 20 g protein; this assessment uses the newer entry matching 18 g. Travel packets are outside scope.",
+      "Certification and documentation do not prove clinical benefit or guarantee fulfillment. A future shipped lot was not inspected.",
+      "The traceability check credits matched lot identifiers; sourcing claims are not independent farm or supply-chain verification.",
+      "Provisional AI-assisted desk research. Six external reviews are a small snapshot and do not represent every customer or establish a complaint rate."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "bubs-trustpilot",
+        "rating": 2.9,
+        "count": 6,
+        "countUnit": "reviews",
+        "basis": "review-sample",
+        "sampleSize": 6,
+        "sampleStart": "2025-10-10",
+        "sampleEnd": "2026-07-29",
+        "summary": "Two positive and four negative reviews cover mixing, packaging, fulfillment and support.",
+        "positives": [
+          "Positive reviewers describe neutral coffee mixing or texture and helpful service."
+        ],
+        "concerns": [
+          "Complaints include shifting delivery dates, missing items, a loose seal and unresolved refund or support issues."
+        ],
+        "sampling": "Read all six visible reviews. The range uses experience dates; one February complaint was updated in March. No favorable or unfavorable entry was excluded.",
+        "limitations": "Very small, self-selected brand sample spanning other products and potentially older packaging. One positive reviewer mentions free extras. Allegations and health outcomes were not independently verified; 2.9 is Trustpilot\u2019s score, not our rating.",
+        "topics": [
+          "mixing",
+          "delivery",
+          "packaging",
+          "support",
+          "refunds"
+        ]
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Added the current 567 g collagen tub with the newer, nutrition-matched NSF record, matching batch identifiers, incomplete-protein disclosure, a return-policy gap and all six visible external consumer reviews."
+  },
+  {
+    "brandId": "precision-fuel-hydration",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "precision-ph1500-packets"
+    ],
+    "summary": "A named powder certification, public batch entries and published buying terms support this provisional documentation score. The research separates the PH 1500 drink mix from similarly named tablets.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "ph-product"
+        ],
+        "reason": "The ingredient list is publicly disclosed."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "ph-product"
+        ],
+        "reason": "Nutrition and sodium concentration are quantified."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "ph-product"
+        ],
+        "reason": "Shared-facility allergen qualifications are disclosed."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ph-cert"
+        ],
+        "reason": "Informed Sport identifies the certification program."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "ph-cert"
+        ],
+        "reason": "The original certifier record includes test and expiry dates."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "ph-cert"
+        ],
+        "reason": "PH 1500 Drink Mix, powder and North American availability match this catalog scope; tablets have a separate listing."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "ph-refund",
+          "ph-help"
+        ],
+        "reason": "Direct orders have a 30-day return window; the help page limits this to unused/unopened items. Buyer pays return costs except errors or defects."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "ph-help"
+        ],
+        "reason": "US-warehouse dispatch and an estimated 2\u20135-day delivery window are stated; tracking and missing-order instructions are available."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "ph-refund"
+        ],
+        "reason": "A support email and order-identification process are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "ph-cert",
+          "ph-help"
+        ],
+        "reason": "Public batch lookup supports lot checking, while the brand identifies UK production for its drink mixes."
+      }
+    ],
+    "sources": [
+      {
+        "id": "ph-product",
+        "title": "PH 1500 US packets, ingredients and consumer entries",
+        "url": "https://www.precisionhydration.com/us/en/products/ph-1500-electrolyte-drink-mix/",
+        "kind": "brand",
+        "publisher": "Precision Fuel & Hydration",
+        "checked": "2026-10-16",
+        "note": "Official current US offer and product-detail data; ten displayed reviews inspected."
+      },
+      {
+        "id": "ph-cert",
+        "title": "Informed Sport: PH 1500 Drink Mix",
+        "url": "https://sport.wetestyoutrust.com/ja/node/14496?order=field_test_date&search=&sort=asc&view_type=grid_layout",
+        "kind": "independent",
+        "publisher": "Informed Sport / LGC",
+        "checked": "2026-10-16",
+        "note": "Original record: powder, North America. K412 tested September 14, 2026; expires August 31, 2028. The current record was inspected directly; indexed snapshots differ."
+      },
+      {
+        "id": "ph-help",
+        "title": "Product, allergen, shipping and returns FAQs",
+        "url": "https://www.precisionhydration.com/help-center/",
+        "kind": "brand",
+        "publisher": "Precision Fuel & Hydration",
+        "checked": "2026-10-16",
+        "note": "Origin and direct-purchase guidance. The current returns subsection specifies unopened/unused products."
+      },
+      {
+        "id": "ph-refund",
+        "title": "Direct-purchase refund policy",
+        "url": "https://www.precisionhydration.com/refund-policy/",
+        "kind": "brand",
+        "publisher": "Precision Fuel & Hydration",
+        "checked": "2026-10-16",
+        "note": "30-day contact deadline, return costs and up-to-30-day refund processing; report delivery damage within three days."
+      },
+      {
+        "id": "ph-trustpilot",
+        "title": "Brand-level consumer experiences on Trustpilot",
+        "url": "https://www.trustpilot.com/review/precisionhydration.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "All three displayed reviews read. Platform showed 3.9/5; one contributor expresses interest in a future brand relationship."
+      }
+    ],
+    "limitations": [
+      "This score concerns evidence availability for PH 1500 powder. It does not extend certification to every brand product.",
+      "The certifier categorizes the powder as Unflavoured; the brand describes a light citrus taste. This matches the named PH 1500 powder family, not a separately flavored or tablet product.",
+      "Batch K412 is an example visible in the certifier record. We have not inspected a purchased package or matched the lot currently being shipped.",
+      "Banned-substance certification is limited in scope. It does not establish clinical effectiveness, universal suitability or absence of every contaminant.",
+      "The dietary panel distinguishes brand statements from independent certification and warns of shared production. Read the current package if avoiding allergens.",
+      "Consumer research combines brand-hosted entries and a very small independent-platform sample. Its anecdotal performance claims do not demonstrate efficacy."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "ph-product",
+        "count": 2334,
+        "countUnit": "reviews",
+        "summary": "Feedback favors planning and support; products are often discussed together.",
+        "positives": [
+          "Support and ease of use recur."
+        ],
+        "concerns": [
+          "One reviewer needed to adjust to the sachet taste."
+        ],
+        "topics": [
+          "support",
+          "taste",
+          "planning"
+        ],
+        "limitations": "Brand-hosted, mixed-product feedback; unrepresentative of all buyers. No effectiveness inference.",
+        "sampling": "First ten displayed entries, September 11\u201320, 2026; repeated carousel entries excluded.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "sampleStart": "2026-09-11",
+        "sampleEnd": "2026-09-20"
+      },
+      {
+        "sourceId": "ph-trustpilot",
+        "rating": 3.9,
+        "count": 3,
+        "countUnit": "reviews",
+        "summary": "Two accounts praise the advice and planning process; a third likes the chews but objects to a price increase.",
+        "positives": [
+          "Individual reports describe helpful staff, useful planning and tolerable chews."
+        ],
+        "concerns": [
+          "The critical account limits purchases because of the claimed price increase; it concerns chews rather than PH 1500."
+        ],
+        "topics": [
+          "service",
+          "value",
+          "planning"
+        ],
+        "limitations": "Only three unprompted, self-selected accounts. One writer seeks a future brand relationship. Neither purchase history nor health claims was independently audited.",
+        "sampling": "Read all three entries displayed: experiences dated May 17, 2025, April 1 and June 3, 2026. The platform score is separate from our documentary score.",
+        "basis": "review-sample",
+        "sampleSize": 3,
+        "sampleStart": "2025-05-17",
+        "sampleEnd": "2026-06-03"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial scored registry profile with an original PH 1500 powder certification match, batch lookup, US terms and 13 individually inspected consumer entries."
+  },
+  {
+    "brandId": "maurten",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "maurten-drink-mix-160"
+    ],
+    "summary": "Drink Mix 160 has a matching original certification and an accessible US nutrition panel. Conflicting carbohydrate figures and refund terms receive partial credit in this provisional documentation score.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "m-product"
+        ],
+        "reason": "The six-component formula is listed."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "m-label",
+          "m-product"
+        ],
+        "reason": "The US panel gives 41 g total carbohydrate per sachet while product copy promotes 40 g. No explicit explanation reconciles the figures; panel values are retained in the catalog."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "m-faq"
+        ],
+        "reason": "Preparation limits include water calcium concentration and a recommendation to test individual tolerance before racing."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "m-cert"
+        ],
+        "reason": "Informed Sport names Drink Mix 160 in its program."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "m-cert"
+        ],
+        "reason": "The certifier hosts a product record with batch test and expiration dates."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "m-cert"
+        ],
+        "reason": "The record names the unflavoured Drink Mix 160 powder and covers North America."
+      },
+      {
+        "key": "returns",
+        "status": "partial",
+        "sourceIds": [
+          "m-returns",
+          "m-terms"
+        ],
+        "reason": "Unopened-return timing and costs are clear, but the FAQ excludes original shipping refunds while US terms allow standard shipping refunds for whole-order returns."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "m-shipping"
+        ],
+        "reason": "US processing, standard/express transit estimates, geographic exceptions and shipping tiers are published."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "m-terms"
+        ],
+        "reason": "US terms provide a support email and written-return procedure."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "m-cert"
+        ],
+        "reason": "Batch identifiers are publicly searchable; example 119942 was tested July 17, 2026 and expires June 27, 2029."
+      }
+    ],
+    "sources": [
+      {
+        "id": "m-product",
+        "title": "Drink Mix 160: official US offer and ingredients",
+        "url": "https://www.maurten.com/products/us/drink-mix-160-box-us",
+        "kind": "brand",
+        "publisher": "Maurten",
+        "checked": "2026-10-16",
+        "note": "US storefront shows $45 for 18 sachets and an add-to-cart offer. Promotional Additions are outside the reviewed product scope."
+      },
+      {
+        "id": "m-label",
+        "title": "Drink Mix 160 US Nutrition Facts",
+        "url": "https://maurten.imgix.net/branding/DrinkMix160US.png?auto=compress%2Cformat&fit=max&q=80&w=1000&s=5c8d05827759346d80e4c8d81ad06c5d",
+        "kind": "brand",
+        "publisher": "Maurten",
+        "checked": "2026-10-16",
+        "note": "Official panel visually inspected: 42 g serving, 41 g total carbohydrate, 2 g fiber, 15 g added sugar and 210 mg sodium."
+      },
+      {
+        "id": "m-faq",
+        "title": "Drink Mix preparation and product FAQ",
+        "url": "https://www.maurten.com/faq/general-product",
+        "kind": "brand",
+        "publisher": "Maurten",
+        "checked": "2026-10-16",
+        "note": "Mixing, tolerance and formula information; recommendations remain brand guidance."
+      },
+      {
+        "id": "m-cert",
+        "title": "Informed Sport: Drink Mix 160",
+        "url": "https://sport.wetestyoutrust.com/ja/node/482882?order=field_flavour&page=1&search=&sort=asc&view_type=grid_layout",
+        "kind": "independent",
+        "publisher": "Informed Sport / LGC",
+        "checked": "2026-10-16",
+        "note": "Original powder record covers North America and includes unflavoured batches. A purchased lot has not been checked."
+      },
+      {
+        "id": "m-returns",
+        "title": "Returns and refunds FAQ",
+        "url": "https://www.maurten.com/faq/returns-and-refunds",
+        "kind": "brand",
+        "publisher": "Maurten",
+        "checked": "2026-10-16",
+        "note": "States unused/unopened eligibility, a 14-day window and buyer-paid return postage; its original-shipping clause differs from US terms."
+      },
+      {
+        "id": "m-terms",
+        "title": "US customer terms, section 6",
+        "url": "https://www.maurten.com/terms-and-conditions/us-customers",
+        "kind": "brand",
+        "publisher": "Maurten",
+        "checked": "2026-10-16",
+        "note": "Formal US terms promise standard outbound shipping refund when the whole order is returned; contact help@maurten.com."
+      },
+      {
+        "id": "m-shipping",
+        "title": "Delivery, tracking and US shipping prices",
+        "url": "https://www.maurten.com/faq/delivery-and-tracking",
+        "kind": "brand",
+        "publisher": "Maurten",
+        "checked": "2026-10-16",
+        "note": "1\u20132 business days processing; US standard 3\u20137 business days, with geographic exceptions and order-value shipping tiers."
+      },
+      {
+        "id": "m-trustpilot",
+        "title": "Maurten consumer experiences on Trustpilot",
+        "url": "https://www.trustpilot.com/review/www.maurten.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Opened page showed 4.6/5 from 5,382 reviews. First ten recent-list entries read, excluding the AI summary and featured repeats."
+      }
+    ],
+    "limitations": [
+      "Certification applies to the scoped Drink Mix 160 powder. Free promotional Additions, gels, Bicarb and other products are not covered by this profile.",
+      "The original record supports product and batch traceability, but no purchased lot was supplied. Certification is not a clinical or all-contaminant guarantee.",
+      "The US panel lists 41 g total carbohydrate, whereas front-page copy promotes 40 g carbohydrate. We preserve the panel values rather than silently replacing them.",
+      "Outbound-shipping refund eligibility conflicts between the FAQ and formal US terms. Confirm the applicable terms with support before a return.",
+      "Consumer comments cover several products and countries; they do not isolate US Drink Mix 160 performance."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "m-trustpilot",
+        "rating": 4.6,
+        "count": 5382,
+        "countUnit": "reviews",
+        "summary": "The inspected entries mix repeat-use and fulfillment praise with missing-package reports and taste concerns. Most discuss gels or the brand broadly.",
+        "positives": [
+          "Several report continued use and satisfactory orders; one explicitly likes both gels and drinks."
+        ],
+        "concerns": [
+          "Two report non-delivery; one dislikes gel taste and texture; another says more product was needed than expected."
+        ],
+        "topics": [
+          "delivery",
+          "taste",
+          "repeat purchase"
+        ],
+        "limitations": "Brand-level international sample with platform Verified labels, not independently audited purchases. Maurten invites reviews and has a paid Trustpilot subscription. Product outcomes remain anecdotes.",
+        "sampling": "Read the first ten entries in the opened Most recent list, excluding featured repeats and the AI overview. Their stated experience dates span March 19\u2013September 29, 2026; no claim that these are ten Drink Mix 160 buyers.",
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "sampleStart": "2026-03-19",
+        "sampleEnd": "2026-09-29"
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial scored registry profile with original Drink Mix 160 certification, US panel, conflicting carbohydrate figures and refund clauses, and ten inspected external consumer entries."
+  },
+  {
+    "brandId": "neversecond",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "neversecond-c30-unflavored"
+    ],
+    "summary": "The unflavored C30 powder matches an original Informed Sport batch entry. Research also identifies a sugar-disclosure question, restrictive consumable returns and mixed-flavor consumer feedback.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "n-product"
+        ],
+        "reason": "A four-component ingredient list is disclosed."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "n-product"
+        ],
+        "reason": "Serving, carbohydrate and sodium are quantified, but 12 g total versus 1 g added sugar is not explained for the fructose-containing formula."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "n-product"
+        ],
+        "reason": "A shared-facility allergen notice is present."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "n-cert"
+        ],
+        "reason": "Informed Sport is the named original certification program."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "n-cert"
+        ],
+        "reason": "The certifier publishes an accessible C30 Sport Drink record and batch table."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "n-cert"
+        ],
+        "reason": "The C30 powder record includes North America and Unflavoured batch F00062, matching this named variant."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "n-returns"
+        ],
+        "reason": "The policy excludes consumable powder returns and lists restocking charges, authorization requirements and refund processing time."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "n-shipping"
+        ],
+        "reason": "US warehouse origin, 1\u20132-day processing and continental-US 2\u20135-working-day ground transit are published, with regional exceptions."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "n-returns"
+        ],
+        "reason": "A customer-service email and order-number process are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "n-cert"
+        ],
+        "reason": "An original batch identifier with test and expiry dates enables a purchaser to check their package lot."
+      }
+    ],
+    "sources": [
+      {
+        "id": "n-product",
+        "title": "C30 Unflavored 640 g: official US offer",
+        "url": "https://never2.com/products/c30-unflavored-sports-drink",
+        "kind": "brand",
+        "publisher": "Neversecond",
+        "checked": "2026-10-16",
+        "note": "Current US $34 offer, available variant, ingredient table and facility notice."
+      },
+      {
+        "id": "n-cert",
+        "title": "Informed Sport: C30 Sport Drink",
+        "url": "https://sport.wetestyoutrust.com/ja/node/578753?order=field_expiration&page=0&search=&sort=desc&view_type=grid_layout",
+        "kind": "independent",
+        "publisher": "Informed Sport / LGC",
+        "checked": "2026-10-16",
+        "note": "Unflavoured batch F00062 tested April 14, 2026; expires January 31, 2028. Product record includes North America."
+      },
+      {
+        "id": "n-returns",
+        "title": "Returns and consumable exclusions",
+        "url": "https://never2.com/pages/returns",
+        "kind": "brand",
+        "publisher": "Neversecond",
+        "checked": "2026-10-16",
+        "note": "Consumable products excluded. Other eligible items have a seven-day request window; authorized refunds can carry $10/order plus $5/item and outbound-shipping charges."
+      },
+      {
+        "id": "n-shipping",
+        "title": "US shipping and free-delivery conditions",
+        "url": "https://never2.com/pages/shipping",
+        "kind": "brand",
+        "publisher": "Neversecond",
+        "checked": "2026-10-16",
+        "note": "Iowa fulfillment; transit estimates vary by region. Free delivery over $100 excludes use of other discount/promotional codes."
+      },
+      {
+        "id": "n-reviews",
+        "title": "Brand-operated C30 review pool, indexed French storefront",
+        "url": "https://never2.fr/products/c30-boisson-sportive-sans-arome",
+        "kind": "brand",
+        "publisher": "Neversecond EU",
+        "checked": "2026-10-16",
+        "note": "Indexed original shows 4.88/5 from 173 pooled reviews across C30 flavors. Eight visible accounts read; one disclosed ambassador excluded from thematic sample."
+      }
+    ],
+    "limitations": [
+      "The independent record matches Unflavoured C30 powder; it does not establish which lot will ship. Match the purchased package against the certifier lookup.",
+      "Informed Sport concerns banned-substance screening within its program. It does not prove digestive tolerance, performance or absence of all contaminants.",
+      "The sugar split needs clarification. The product name says Unflavored while its online ingredients include natural flavor; no flavor-free claim is assigned.",
+      "Consumable powder returns are excluded. Published returns can involve restocking and shipping deductions; this score measures disclosure rather than generosity.",
+      "The accessible review pool is brand-operated, spans multiple flavors and markets, and includes a disclosed ambassador. It is not an independent US purchaser sample."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "n-reviews",
+        "rating": 4.88,
+        "count": 173,
+        "countUnit": "reviews",
+        "summary": "Most sampled accounts favor taste or tolerance. One reports a failing resealable closure and messy scooping; another says unflavored was an unexpected purchase.",
+        "positives": [
+          "Several like mild flavor and report using the mix on longer efforts."
+        ],
+        "concerns": [
+          "Packaging and powder handling draw a detailed complaint; variant selection confused one buyer."
+        ],
+        "topics": [
+          "taste",
+          "packaging",
+          "variant clarity"
+        ],
+        "limitations": "Brand-hosted pooled feedback, largely US-labeled accounts on an EU storefront. Eight entries were visible; one self-identified ambassador is excluded. Indexed snapshot only; direct retrieval did not expose the review widget.",
+        "sampling": "Read eight displayed accounts and summarized seven after excluding the ambassador. Included Citrus, Forest Berry and Unflavored entries. Displayed dates were relative, from ten days to three months; absolute dates are not inferred. The aggregate remains the storefront\u2019s figure and may include affiliated contributors.",
+        "basis": "review-sample",
+        "sampleSize": 7
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial scored registry profile with an original unflavored C30 batch match, US buying terms, a sugar-disclosure gap and seven non-ambassador consumer accounts."
+  },
+  {
+    "brandId": "wholesome-story",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "wholesome-story-inositol-120"
+    ],
+    "summary": "Original NSF and Clean Label Project entries support a provisional score for the standard inositol capsules. Shipping timing and supplier-level traceability remain incomplete; consumer experiences are mixed and older.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The original capsule formula identifies both inositol forms, rice flour and the hypromellose shell."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Four capsules provide 2,000 mg myo-inositol and 50 mg D-chiro; the selected bottle contains 30 servings."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Adult-use guidance discusses pregnancy, medications and possible low blood sugar; the page advises practitioner review."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "nsf",
+          "clp"
+        ],
+        "reason": "NSF and Clean Label Project independently identify the original inositol capsule product."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "nsf",
+          "clp"
+        ],
+        "reason": "The certifiers host accessible original listings. These establish listed certification, not a public analytical report for a purchased bottle."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "nsf",
+          "clp"
+        ],
+        "reason": "NSF names the U.S. capsule formula separately from Canada and folate/vitamin D versions. Its eight-capsule daily amount corresponds to the brand\u2019s allowance of two four-capsule servings."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "U.S. purchases qualify for refunds within 90 days, up to three full or empty bottles; additional bottles receive store credit. International returns are excluded."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "U.S.-only shipping and free delivery above $40 are documented. Costs and estimated arrival dates otherwise appear at checkout; no fixed public delivery window was located."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "contact"
+        ],
+        "reason": "Support publishes hello@wholesomestory.com, a contact form and a Las Vegas mailing address."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "nsf"
+        ],
+        "reason": "Corn sourcing and U.S. blending with domestic/international ingredients are stated. NSF identifies a U.S. facility but not its identity; no current lot lookup was found."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Original inositol capsule formula and U.S. variant",
+        "url": "https://wholesomestory.com/products/myo-d-chiro-inositol?variant=35171000254626",
+        "kind": "brand",
+        "publisher": "Wholesome Story",
+        "checked": "2026-10-16",
+        "note": "120-capsule variant and current label text reviewed; price excludes subscription discounts."
+      },
+      {
+        "id": "nsf",
+        "title": "NSF/ANSI 173: Wholesome Story finished products",
+        "url": "https://info.nsf.org/Certified/Dietary/Listings.asp?Company=C0896504&Standard=173",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Current October 16 listing distinguishes U.S. capsules, Canada capsules and folate/vitamin D variants."
+      },
+      {
+        "id": "clp",
+        "title": "Clean Label Project: original product directory",
+        "url": "https://cleanlabelproject.org/brand/wholesome-story/",
+        "kind": "independent",
+        "publisher": "Clean Label Project",
+        "checked": "2026-10-16",
+        "note": "Myo & D-Chiro Inositol Capsules links to the exact original formula. No lot-level result is published here."
+      },
+      {
+        "id": "returns",
+        "title": "Return and refund policy",
+        "url": "https://wholesomestory.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Wholesome Story",
+        "checked": "2026-10-16",
+        "note": "90-day U.S. policy covers up to three bottles; instructions require contacting support before return."
+      },
+      {
+        "id": "shipping",
+        "title": "Shipping policy, updated October 8, 2026",
+        "url": "https://wholesomestory.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Wholesome Story",
+        "checked": "2026-10-16",
+        "note": "Shipping region, threshold, tracking and package-resolution steps reviewed; delivery estimates depend on checkout."
+      },
+      {
+        "id": "contact",
+        "title": "Public contact information",
+        "url": "https://wholesomestory.com/policies/contact-information",
+        "kind": "brand",
+        "publisher": "Wholesome Story",
+        "checked": "2026-10-16",
+        "note": "Email, contact form and mailing address are published; mailing address is not a return destination."
+      },
+      {
+        "id": "consumer",
+        "title": "Firsthand discussion of Wholesome Story inositol",
+        "url": "https://www.reddit.com/r/PCOS/comments/sf7994/has_anyone_tried_the_brand_wholesome_story_for/",
+        "kind": "review-platform",
+        "publisher": "Reddit r/PCOS",
+        "checked": "2026-10-16",
+        "note": "Seven distinct firsthand account comments inspected in an older thread; questions, duplicate follow-ups and other-brand accounts excluded."
+      }
+    ],
+    "limitations": [
+      "The U.S. original capsule formula is the reviewed scope; powder, Canadian and folate/vitamin D formulas have separate entries.",
+      "The brand\u2019s large combined Amazon/site rating total is not an independently inspected marketplace review count. Our consumer sample is reported separately.",
+      "Certification does not establish hormone outcomes, fertility outcomes or suitability for an individual. No current bottle was purchased or tested."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "summary": "Older firsthand accounts report varied experiences with the capsule formula, including favorable personal impressions and tolerance complaints.",
+        "topics": [
+          "product",
+          "tolerance",
+          "capsule burden"
+        ],
+        "positives": [
+          "Some participants described perceived benefits; one reported years of use. These experiences do not establish clinical effectiveness."
+        ],
+        "concerns": [
+          "Several users associated use with skin irritation or breakouts. One switched to powder because a higher prescribed intake required too many capsules."
+        ],
+        "basis": "review-sample",
+        "sampleSize": 7,
+        "sampling": "Read seven distinct firsthand account comments in the thread\u2019s displayed Best order. Excluded repeated replies, questions and experiences with other brands.",
+        "limitations": "Self-selected, unverified accounts from an older thread, not the current batch or a representative survey. Medical causation is not established. Some commenters changed diet, dosage or other treatments; advice about \u201cdetox\u201d was not adopted."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial registry research: independently hosted product match, exact U.S. variant and label, buying terms, source limitations and individually inspected consumer feedback. Score calculated under the unchanged evidence-v2 rubric."
+  },
+  {
+    "brandId": "designs-for-sport",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "designs-for-sport-magnesium-120"
+    ],
+    "summary": "An original NSF record matches the U.S. 120-capsule magnesium product. The label makes its buffered composition visible. Published shipping timing is incomplete, and consumer coverage is limited to six favorable merchant-hosted reviews.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "The label identifies buffered magnesium bisglycinate, magnesium oxide, cellulose capsule and vegetable stearate."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "Two capsules supply 300 mg elemental magnesium; the 120-capsule bottle contains 60 servings."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The FAQ describes possible digestive upset, loose stools and drowsiness, alongside practitioner-directed use."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "nsf"
+        ],
+        "reason": "NSF directly lists Magnesium Bisglycinate under Designs for Sport."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "nsf"
+        ],
+        "reason": "The accessible certifier-hosted record identifies the product and specific lots independently of the brand website."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "nsf",
+          "label"
+        ],
+        "reason": "The original record matches the U.S. capsule product, 120-count package and two-capsule serving. A current shipping-lot match is not established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "terms"
+        ],
+        "reason": "Eligible U.S. consumers may request replacement or refund within 45 days, with proof and prior authorization. Shipping is excluded; damage/missing-item claims require notice within 72 hours."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "terms"
+        ],
+        "reason": "Shipping charges appear before purchase and delivery dates are estimates. No clear public standard delivery window was located; the storefront\u2019s Orders & Shipping link leads to account login."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "contact",
+          "terms"
+        ],
+        "reason": "The storefront provides a contact form; linked retail terms also publish phone support, support@designsforhealth.com and service hours."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "nsf"
+        ],
+        "reason": "NSF names lots 24366 (bulk) and 35896. This gives independently published lot identifiers, while raw-material suppliers and today\u2019s shipping lot remain unconfirmed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Magnesium Bisglycinate and six merchant-hosted reviews",
+        "url": "https://designsforsport.com/products/magnesium-bisglycinate?variant=43754009362676",
+        "kind": "brand",
+        "publisher": "Designs for Sport",
+        "checked": "2026-10-16",
+        "note": "Current 120-capsule variant verified in official product data. Six unique reviews read after removing repeated display copies."
+      },
+      {
+        "id": "label",
+        "title": "Magnesium Supplement Facts image",
+        "url": "https://cdn.shopify.com/s/files/1/0441/9416/9000/files/MGC120-DS-12A_product-sf.jpg?v=1777293500",
+        "kind": "brand",
+        "publisher": "Designs for Sport",
+        "checked": "2026-10-16",
+        "note": "Label visually inspected: buffered TRAACS chelate includes magnesium oxide."
+      },
+      {
+        "id": "nsf",
+        "title": "NSF Certified for Sport: U.S. Magnesium Bisglycinate",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1479832",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Original record identifies U.S., 120 capsules, two-capsule serving and lots 24366 (bulk) and 35896."
+      },
+      {
+        "id": "terms",
+        "title": "Retail terms linked by Designs for Sport",
+        "url": "https://www.designsforhealth.com/terms-of-sale-retail",
+        "kind": "brand",
+        "publisher": "Designs for Health",
+        "checked": "2026-10-16",
+        "note": "July 2026 terms apply to sites linking to them. Includes return exclusions, support and shipping conditions."
+      },
+      {
+        "id": "contact",
+        "title": "Designs for Sport contact form",
+        "url": "https://designsforsport.com/pages/contact",
+        "kind": "brand",
+        "publisher": "Designs for Sport",
+        "checked": "2026-10-16",
+        "note": "Public contact form is available without a purchase; no message was sent."
+      }
+    ],
+    "limitations": [
+      "This is a specialist line of Designs for Health, not a claim of independent ownership. The profile covers one product.",
+      "The formula includes magnesium oxide as a buffer; the product name alone does not describe the entire magnesium composition.",
+      "NSF lot listings do not identify the bottle currently dispatched. Review anecdotes do not establish effectiveness or individual safety."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "product",
+        "rating": 5,
+        "count": 6,
+        "countUnit": "reviews",
+        "summary": "All six merchant-hosted entries were favorable, mostly brief product praise or personal sleep-related impressions.",
+        "topics": [
+          "product",
+          "sleep experience"
+        ],
+        "positives": [
+          "Several described satisfaction; two mentioned their own sleep experience."
+        ],
+        "concerns": [
+          "No critical entry appeared among these six. The sample is too small to establish the absence of complaints."
+        ],
+        "basis": "review-sample",
+        "sampleSize": 6,
+        "sampling": "Read all six unique displayed reviews, excluding duplicated carousel/list copies. Dates were not exposed.",
+        "limitations": "Brand-hosted feedback, without an independent consumer-platform sample. Personal health outcomes are unverified; incentives and moderation history could not be established."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial registry research: independently hosted product match, exact U.S. variant and label, buying terms, source limitations and individually inspected consumer feedback. Score calculated under the unchanged evidence-v2 rubric."
+  },
+  {
+    "brandId": "naked-nutrition",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "naked-nutrition-whey-unflavored"
+    ],
+    "summary": "Informed Choice provides a product- and flavor-matched record. The separate NSF Contents claim remains unconfirmed in the reviewed register. The evidence score measures documentation; external feedback includes substantive service complaints.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "The unflavored label identifies whey protein concentrate as the only ingredient and declares milk."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "A 30 g serving provides 25 g protein, 120 calories and 2 g total sugar with none added; 76 servings are listed."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "The nutrition label prominently declares the milk allergen. This is dairy-based whey concentrate."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "informed",
+          "nsf-search"
+        ],
+        "reason": "Informed Choice is confirmed. The separate NSF Contents claim on the product page and label was not matched in the reviewed NSF/ANSI 173 register."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "informed",
+          "program"
+        ],
+        "reason": "LGC hosts the original product and batch record. Its program covers banned-substance risk and monthly retail sampling; it does not establish a heavy-metals concentration."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "informed"
+        ],
+        "reason": "Naked Whey powder is listed for North America, including Unflavored batch A233640525, tested September 12, 2025, expiring June 30, 2027. This matches product/flavor, not current shipping lot."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "Unopened, unused items can be returned within 14 days, less shipping, using an arranged label. \u201cAs is\u201d items and Alaska/Hawaii orders are excluded."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "Standard delivery is estimated at 1\u20133 business days and expedited at 1\u20132. Lower 48 shipping is $9 below $99; Alaska/Hawaii is $19 below $129, free above those thresholds."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "contact"
+        ],
+        "reason": "The brand publishes a support phone, weekday 9\u20135 Eastern hours, an email link and a contact form."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "informed"
+        ],
+        "reason": "Two unflavored batch identifiers and test/expiration dates appear in the original record. This is batch traceability within a limited testing program, not a supplier map."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Naked Whey unflavored U.S. 5 lb variant",
+        "url": "https://nakednutrition.com/products/grass-fed-whey-protein-powder?variant=842157059",
+        "kind": "brand",
+        "publisher": "Naked Nutrition",
+        "checked": "2026-10-16",
+        "note": "One-time USD price verified. The page also makes an NSF Contents claim that was not matched in the reviewed NSF register."
+      },
+      {
+        "id": "label",
+        "title": "Naked Whey Nutrition Facts and ingredients",
+        "url": "https://cdn.shopify.com/s/files/1/0645/6465/files/unflavored-whey-protein-powder-nutrition-facts-5LB_fc4a60fc-7b41-44d4-8973-ac7ac3b9e37a.jpg?v=1788445404",
+        "kind": "brand",
+        "publisher": "Naked Nutrition",
+        "checked": "2026-10-16",
+        "note": "Official image visually inspected; identifies whey concentrate, milk allergen and 76 servings."
+      },
+      {
+        "id": "variant",
+        "title": "Official 5 lb product data",
+        "url": "https://nakednutrition.com/products/grass-fed-whey-protein-powder.json",
+        "kind": "brand",
+        "publisher": "Naked Nutrition",
+        "checked": "2026-10-16",
+        "note": "Variant 842157059: USD139.99, 5 lb, positive stock. Used to resolve mixed Add to Cart/Sold Out text in the page extraction."
+      },
+      {
+        "id": "informed",
+        "title": "Naked Whey: original Informed Choice batch record",
+        "url": "https://choice.wetestyoutrust.com/ja/node/46262?order=field_expiration&search=&sort=desc&view_type=grid_layout",
+        "kind": "independent",
+        "publisher": "LGC Informed Choice",
+        "checked": "2026-10-16",
+        "note": "Accessible original node identifies North America and Unflavored batches; English friendly URL returned an access error."
+      },
+      {
+        "id": "program",
+        "title": "What Informed Choice testing covers",
+        "url": "https://choice.wetestyoutrust.com/about",
+        "kind": "independent",
+        "publisher": "LGC Informed Choice",
+        "checked": "2026-10-16",
+        "note": "Program describes banned-substance testing and blind retail sampling at least monthly. This is not a public heavy-metals result."
+      },
+      {
+        "id": "nsf-search",
+        "title": "NSF/ANSI 173 listings for Naked Whey, Inc.",
+        "url": "https://info.nsf.org/certified/dietary/Listings.asp?CompanyName=Naked",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "October16 register showed six Naked Energy variants and Naked Creatine. Naked Whey powder was not among the seven returned products."
+      },
+      {
+        "id": "returns",
+        "title": "Returns and exchanges",
+        "url": "https://nakednutrition.com/pages/returns-exchanges",
+        "kind": "brand",
+        "publisher": "Naked Nutrition",
+        "checked": "2026-10-16",
+        "note": "Unopened/unused conditions, 14-day window and Alaska/Hawaii exclusion reviewed."
+      },
+      {
+        "id": "shipping",
+        "title": "Shipping fees and delivery estimates",
+        "url": "https://nakednutrition.com/pages/shipping-information",
+        "kind": "brand",
+        "publisher": "Naked Nutrition",
+        "checked": "2026-10-16",
+        "note": "U.S. standard/expedited estimates and regional fees disclosed; they are published terms, not independently measured fulfillment performance."
+      },
+      {
+        "id": "contact",
+        "title": "Customer support channels",
+        "url": "https://nakednutrition.com/pages/contact-us",
+        "kind": "brand",
+        "publisher": "Naked Nutrition",
+        "checked": "2026-10-16",
+        "note": "Phone hours, email link and contact form are public."
+      },
+      {
+        "id": "consumer",
+        "title": "Naked Nutrition customer reviews",
+        "url": "https://www.trustpilot.com/review/nakednutrition.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "3.6/5 across183 reviews; ten most-recent full entries inspected separately from platform totals and generated summaries."
+      }
+    ],
+    "limitations": [
+      "Informed Choice is a banned-substance program with monthly sampling, not proof that every current lot was tested or that heavy metals are absent.",
+      "The NSF register returned seven other finished products for Naked Whey, Inc.; absence of this whey listing is an unresolved claim-verification gap, not proof of contamination.",
+      "The score covers unflavored U.S. whey concentrate. Findings about flavored products or Naked Vegan Mass must not be transferred to this formula."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 3.6,
+        "count": 183,
+        "countUnit": "reviews",
+        "summary": "The recent sample mixes favorable product and delivery experiences with stock, subscription, support and refund complaints.",
+        "topics": [
+          "delivery",
+          "support",
+          "subscription",
+          "product",
+          "returns"
+        ],
+        "positives": [
+          "Reviewers praised taste, easy mixing, packaging and punctual delivery."
+        ],
+        "concerns": [
+          "Several described delays or stock gaps. Others disputed duplicate subscription shipments, return charges or membership refunds; one questioned vanilla flavor-label consistency."
+        ],
+        "basis": "review-sample",
+        "sampleSize": 10,
+        "sampleStart": "2026-08-06",
+        "sampleEnd": "2026-10-12",
+        "sampling": "Read the first ten complete entries under Most recent. Dates represent reported experiences; excluded preview duplicates and the platform\u2019s AI summary.",
+        "limitations": "Self-selected accounts across countries and multiple products, including flavored whey, pea protein and collagen. Allegations were not independently verified. The 183 total and weighted 3.6 Trustpilot score are not the ten-review sample average."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial registry research: independently hosted product match, exact U.S. variant and label, buying terms, source limitations and individually inspected consumer feedback. Score calculated under the unchanged evidence-v2 rubric."
+  }
+]

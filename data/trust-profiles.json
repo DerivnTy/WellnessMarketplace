@@ -1,0 +1,4701 @@
+[
+  {
+    "brandId": "puori",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "puori-unflavored"
+    ],
+    "summary": "PW1 Unflavored has a readable label, a named outside testing program, and a product-specific batch directory on the certifier\u2019s own site.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "puori-product"
+        ],
+        "reason": "The complete one-ingredient formula is stated: whey protein concentrate."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "puori-product"
+        ],
+        "reason": "The page provides a serving size and 24 g of protein per serving."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "puori-product",
+          "puori-faq"
+        ],
+        "reason": "Milk/lactose is explicit; the FAQ also describes gluten cross-contact limitations."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "puori-product",
+          "puori-registry"
+        ],
+        "reason": "Clean Label Project is named for the scoped PW1 product."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "puori-registry"
+        ],
+        "reason": "The independent certifier hosts a PW1 entry with a batch-results directory."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "puori-registry"
+        ],
+        "reason": "The certifier explicitly includes PW1 Unflavored. This is a product-level match, not verification of a customer\u2019s bag."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "puori-returns"
+        ],
+        "reason": "The policy describes the 30-day unopened-return window, purchase-channel restrictions and refund method."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "puori-shipping"
+        ],
+        "reason": "Processing, carrier and delivery expectations are stated."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "puori-faq"
+        ],
+        "reason": "A customer support email and response-time expectation are published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "puori-product",
+          "puori-registry"
+        ],
+        "reason": "New Zealand whey sourcing and a product-batch lookup route are disclosed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "puori-product",
+        "title": "PW1 Unflavored product details",
+        "url": "https://puori.com/products/pw1-grass-fed-whey-protein-unflavored",
+        "kind": "brand",
+        "publisher": "Puori",
+        "checked": "2026-10-16",
+        "note": "Ingredient, protein amount, milk/lactose disclosure and New Zealand sourcing were reviewed."
+      },
+      {
+        "id": "puori-registry",
+        "title": "PW1 batch-results directory",
+        "url": "https://cleanlabelproject.org/transparency-project-puori/pw1-whey-protein/",
+        "kind": "independent",
+        "publisher": "Clean Label Project",
+        "checked": "2026-10-16",
+        "note": "The certifier identifies PW1 Unflavored and lists downloadable batch results; a shopper\u2019s own batch was not supplied."
+      },
+      {
+        "id": "puori-faq",
+        "title": "Product and order FAQ",
+        "url": "https://puori.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Puori",
+        "checked": "2026-10-16",
+        "note": "Explains batch lookup and support; notes products are not certified gluten-free."
+      },
+      {
+        "id": "puori-returns",
+        "title": "Return and refund policy",
+        "url": "https://puori.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Puori",
+        "checked": "2026-10-16",
+        "note": "Unopened products or unused merchandise: 30 days from purchase. Retailer purchases are handled by that retailer."
+      },
+      {
+        "id": "puori-shipping",
+        "title": "Shipping policy",
+        "url": "https://puori.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Puori",
+        "checked": "2026-10-16",
+        "note": "Processing, delivery estimates, tracking and support contact are disclosed."
+      },
+      {
+        "id": "puori-reviews",
+        "title": "Puori customer-service reviews",
+        "url": "https://www.trustpilot.com/review/puori.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 2.3/5 from 7 reviews; a dated external snapshot."
+      }
+    ],
+    "limitations": [
+      "Scope is PW1 Unflavored only; other Puori products were not assessed.",
+      "No physical product or customer lot was tested. Certification does not establish clinical benefit or universal safety."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "puori-reviews",
+        "rating": 2.3,
+        "count": 7,
+        "summary": "A very small external sample discusses ordering, refunds, taste and mixability.",
+        "topics": [
+          "Ordering",
+          "Returns",
+          "Taste"
+        ],
+        "limitations": "Brand-level, self-selected reviews; Trustpilot reports no invitation history. Seven reviews cannot represent all customers. Not a product safety or efficacy measure."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "momentous",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "momentous-ashwagandha"
+    ],
+    "summary": "Ashwagandha has a matching NSF Certified for Sport registry entry, with label details and customer-service terms available to inspect.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-product"
+        ],
+        "reason": "The label lists ashwagandha extract plus rice flour, capsule material, calcium laurate and silica."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-product"
+        ],
+        "reason": "The label specifies 300 mg per capsule, 60 servings and extract standardization."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-product"
+        ],
+        "reason": "Pregnancy, nursing, thyroid conditions and medication use are addressed in the product FAQ."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-product",
+          "momentous-registry"
+        ],
+        "reason": "The scoped supplement is tied to NSF Certified for Sport."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-registry"
+        ],
+        "reason": "NSF\u2019s own searchable listing is accessible."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-registry"
+        ],
+        "reason": "Brand, product, capsule format and package size match; NSF lists all lots. No individual bottle was inspected."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-returns"
+        ],
+        "reason": "Delivered consumable returns, refund assistance and retailer-purchase exclusions are explained."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-shipping"
+        ],
+        "reason": "Domestic methods and estimated time frames are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "momentous-contact"
+        ],
+        "reason": "A support telephone number, operating hours and message form are published."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "momentous-origin"
+        ],
+        "reason": "U.S. manufacturing is disclosed; ingredient-level provenance and a customer-facing ashwagandha batch report were not established."
+      }
+    ],
+    "sources": [
+      {
+        "id": "momentous-product",
+        "title": "Ashwagandha product and label",
+        "url": "https://www.livemomentous.com/products/ashwagandha",
+        "kind": "brand",
+        "publisher": "Momentous",
+        "checked": "2026-10-16",
+        "note": "NooGandha dose, other ingredients, warnings and certification claim were reviewed."
+      },
+      {
+        "id": "momentous-registry",
+        "title": "Ashwagandha \u2014 NSF Certified for Sport",
+        "url": "https://www.nsfsport.com/certified-products/listing-detail.php?id=1604971",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Registry identifies Momentous, Ashwagandha, 60 capsules, one-capsule serving and lot coverage \u201cAll\u201d."
+      },
+      {
+        "id": "momentous-returns",
+        "title": "Returns and withdrawals",
+        "url": "https://help.livemomentous.com/hc/en-us/articles/19223439045395-What-is-your-policy-on-returns-and-withdrawals",
+        "kind": "brand",
+        "publisher": "Momentous",
+        "checked": "2026-10-16",
+        "note": "Generally does not accept delivered consumable returns; explains refund assistance and statutory rights separately."
+      },
+      {
+        "id": "momentous-shipping",
+        "title": "Domestic shipping options",
+        "url": "https://help.livemomentous.com/hc/en-us/articles/33708722627731-Which-domestic-shipping-options-do-you-offer",
+        "kind": "brand",
+        "publisher": "Momentous",
+        "checked": "2026-10-16",
+        "note": "Describes standard and expedited options and domestic delivery estimates."
+      },
+      {
+        "id": "momentous-contact",
+        "title": "Customer support",
+        "url": "https://help.livemomentous.com/hc/en-us",
+        "kind": "brand",
+        "publisher": "Momentous",
+        "checked": "2026-10-16",
+        "note": "Phone, hours, chat and email form are identifiable."
+      },
+      {
+        "id": "momentous-origin",
+        "title": "Manufacturing location",
+        "url": "https://help.livemomentous.com/hc/en-us/articles/27457781138451-Where-does-Momentous-manufacture-its-products",
+        "kind": "brand",
+        "publisher": "Momentous",
+        "checked": "2026-10-16",
+        "note": "Brand states U.S. manufacturing; facility-audit claims were not independently re-audited."
+      },
+      {
+        "id": "momentous-reviews",
+        "title": "Momentous customer-service reviews",
+        "url": "https://www.trustpilot.com/review/livemomentous.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 3.2/5 from 36 reviews."
+      }
+    ],
+    "limitations": [
+      "Scope is the 60-capsule Ashwagandha product only.",
+      "NSF listing is certification evidence, not a clinical-effectiveness rating. Registry status can change."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "momentous-reviews",
+        "rating": 3.2,
+        "count": 36,
+        "summary": "The external sample contains both positive experiences and concerns about price, delivery and product formats.",
+        "topics": [
+          "Value",
+          "Delivery",
+          "Product experience"
+        ],
+        "limitations": "Small, self-selected brand-level sample; Trustpilot reports no invitation history. Health-effect testimonials were not treated as clinical evidence."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "promix",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "promix-creatine"
+    ],
+    "summary": "Promix publishes a creatine product page and batch-lookup route. The reviewed lookup did not establish a named laboratory or a matched original creatine report.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "promix-product"
+        ],
+        "reason": "The product identifies micronized creatine monohydrate as its formula and states no fillers."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "promix-product"
+        ],
+        "reason": "Scoop directions and serving counts are visible; the exact gram-dose panel was not fully inspected in this review."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "promix-product"
+        ],
+        "reason": "Directions and physician-consultation language appear; a complete product warning panel was not assessed."
+      },
+      {
+        "key": "namedVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "promix-product",
+          "promix-testing"
+        ],
+        "reason": "The reviewed pages claim independent testing without establishing a named laboratory for this creatine product."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_reviewed",
+        "sourceIds": [
+          "promix-testing"
+        ],
+        "reason": "No actual creatine batch report was retrieved; the empty lookup template is not evidence of a test result."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_reviewed",
+        "sourceIds": [
+          "promix-testing"
+        ],
+        "reason": "No bottle lot was supplied or independent creatine report matched."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "promix-returns"
+        ],
+        "reason": "Eligibility depends on order type; the policy limits the guarantee to one product per order."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "promix-shipping"
+        ],
+        "reason": "The article explains processing, domestic transit estimates and delay support."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "promix-contact"
+        ],
+        "reason": "A dedicated customer-contact form and business address are published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "promix-testing",
+          "promix-testfaq"
+        ],
+        "reason": "A package lot number can be submitted through the published testing lookup."
+      }
+    ],
+    "sources": [
+      {
+        "id": "promix-product",
+        "title": "Micronized Creatine product page",
+        "url": "https://promixnutrition.com/products/creatine",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Single-ingredient formula, directions and testing claim reviewed; dynamic label fields were limited in the page extraction."
+      },
+      {
+        "id": "promix-testing",
+        "title": "Independent lab test lookup",
+        "url": "https://promixnutrition.com/blogs/authenticate-products",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Lookup requires a lot code; its unselected template is not a finished batch result."
+      },
+      {
+        "id": "promix-testfaq",
+        "title": "How to locate third-party results",
+        "url": "https://promix-nutrition.gorgias.help/en-US/do-you-conduct-third-party-testing-on-your-products-413543",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Explains where the package lot number appears and where to retrieve results."
+      },
+      {
+        "id": "promix-returns",
+        "title": "Refund and return policy",
+        "url": "https://promixnutrition.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Reviewed policy distinguishes one-time, subscription, discount and international orders and limits coverage to one product per order."
+      },
+      {
+        "id": "promix-shipping",
+        "title": "Shipping times and windows",
+        "url": "https://promix-nutrition.gorgias.help/en-US/shipping-times-and-windows-us-and-international-413492",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Current help article supplies processing and domestic delivery estimates."
+      },
+      {
+        "id": "promix-contact",
+        "title": "Contact Promix",
+        "url": "https://promixnutrition.com/pages/contact",
+        "kind": "brand",
+        "publisher": "Promix",
+        "checked": "2026-10-16",
+        "note": "Order, subscription and general-support form reviewed."
+      },
+      {
+        "id": "promix-reviews",
+        "title": "Promix customer-service reviews",
+        "url": "https://www.trustpilot.com/review/promixnutrition.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 1.7/5 from 50 reviews."
+      }
+    ],
+    "limitations": [
+      "Only Micronized Creatine was assessed. The existence of a lookup is not confirmation that a specific batch passed.",
+      "Some help articles contain different shipping estimates; confirm the estimate at checkout."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "promix-reviews",
+        "rating": 1.7,
+        "count": 50,
+        "summary": "The reviewed external accounts repeatedly discuss return eligibility, support and taste; these are customer reports, not adjudicated findings.",
+        "topics": [
+          "Returns",
+          "Customer support",
+          "Taste"
+        ],
+        "limitations": "Self-selected brand-level sample with no recent invitation history. Product complaints do not establish contamination or laboratory failure."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "double-wood",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "double-wood-apigenin"
+    ],
+    "summary": "Apigenin has a readable label and a linked original laboratory report. The linked report and current on-page COA show different lots.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-label"
+        ],
+        "reason": "The label identifies apigenin and lists capsule material, cellulose, vegetable stearate and silica."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-label"
+        ],
+        "reason": "50 mg per capsule and 120 servings are specified."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "double-wood-label",
+          "double-wood-product"
+        ],
+        "reason": "Suggested use and dietary claims appear; this review did not establish a comprehensive contraindication panel."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-report"
+        ],
+        "reason": "An identifiable external laboratory report is linked for Apigenin."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-report"
+        ],
+        "reason": "An original external laboratory PDF is accessible, though hosted by the brand and limited to identification."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "double-wood-product",
+          "double-wood-report"
+        ],
+        "reason": "The report names Apigenin lot 2530100; the page\u2019s current COA names lot 2617400. Current-lot equivalence is not established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-returns"
+        ],
+        "reason": "The first-bottle guarantee and unopened multipack returns have stated conditions."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-shipping"
+        ],
+        "reason": "Processing and 5\u20137-business-day carrier estimates are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-returns"
+        ],
+        "reason": "An identifiable support email is provided."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "double-wood-product"
+        ],
+        "reason": "The page exposes a lot identifier and manufacturing date; label states U.S. manufacture using globally sourced materials."
+      }
+    ],
+    "sources": [
+      {
+        "id": "double-wood-product",
+        "title": "Apigenin product and on-page COA",
+        "url": "https://doublewoodsupplements.com/products/apigenin",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Page displayed lot 2617400 manufactured August 2026; linked external report covered a different lot."
+      },
+      {
+        "id": "double-wood-label",
+        "title": "Apigenin supplement-facts label",
+        "url": "https://doublewoodsupplements.com/cdn/shop/files/Apigenin_Supplementfacts_1123_x8qoco.jpg?v=1767119570",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Label image visually inspected: dose, capsule and other ingredients."
+      },
+      {
+        "id": "double-wood-report",
+        "title": "Apigenin lot 2530100 laboratory report",
+        "url": "https://cdn.shopify.com/s/files/1/0756/3867/files/2530100_Apigenin.pdf?v=1778695017",
+        "kind": "independent",
+        "publisher": "Colmaric Analyticals \u2014 report hosted by Double Wood",
+        "checked": "2026-10-16",
+        "note": "Report dated May 13, 2026 identifies Apigenin, client Double Wood and client-collected sample. Its scope is identity testing."
+      },
+      {
+        "id": "double-wood-returns",
+        "title": "Refund policy",
+        "url": "https://doublewoodsupplements.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "30-day first-purchase guarantee; multipack and subscription restrictions disclosed."
+      },
+      {
+        "id": "double-wood-shipping",
+        "title": "Shipping policy",
+        "url": "https://doublewoodsupplements.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Processing, carriers, estimated transit and lost-package support are described."
+      },
+      {
+        "id": "double-wood-faq",
+        "title": "Frequently asked questions",
+        "url": "https://doublewoodsupplements.com/pages/frequently-asked-questions",
+        "kind": "brand",
+        "publisher": "Double Wood",
+        "checked": "2026-10-16",
+        "note": "Support email and testing limitations reviewed."
+      },
+      {
+        "id": "double-wood-reviews",
+        "title": "Double Wood customer-service reviews",
+        "url": "https://www.trustpilot.com/review/doublewoodsupplements.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 3.2/5 from 189 reviews."
+      }
+    ],
+    "limitations": [
+      "The accessible external report covers identity only, not a complete contaminant panel.",
+      "The brand-selected, client-collected sample is not independent retail sampling. The report does not establish the current on-page lot or a shopper\u2019s bottle."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "double-wood-reviews",
+        "rating": 3.2,
+        "count": 189,
+        "summary": "External feedback is mixed, including praise for issue resolution and concerns about subscriptions, delivery and returns.",
+        "topics": [
+          "Customer support",
+          "Subscriptions",
+          "Delivery"
+        ],
+        "limitations": "Brand-level self-selected sample; no recent invitation history reported. Allegations in individual reviews are not independently verified facts."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "gaia-herbs",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "gaia-herbs-vitex-berry"
+    ],
+    "summary": "Vitex Berry discloses dose, ingredients, warnings and harvest origin. FairWild confirms brand participation, but the reviewed independent entry is not a product or batch certificate.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-product",
+          "gaia-herbs-label"
+        ],
+        "reason": "Vitex extract and capsule excipients are listed."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-label"
+        ],
+        "reason": "The label declares extract and agnuside amounts for a two-capsule serving."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-product"
+        ],
+        "reason": "Pregnancy/lactation restriction, medication advice, storage and allergen statements are explicit."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-product"
+        ],
+        "reason": "The Vitex ingredient is explicitly linked to FairWild certification in brand copy."
+      },
+      {
+        "key": "originalVerification",
+        "status": "partial",
+        "sourceIds": [
+          "gaia-herbs-registry"
+        ],
+        "reason": "FairWild\u2019s own entry confirms brand participation, but no product-specific certificate was reviewed."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "gaia-herbs-registry",
+          "gaia-herbs-product"
+        ],
+        "reason": "Product linkage comes from Gaia; the independent entry only identifies the brand."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-faq"
+        ],
+        "reason": "The FAQ describes refund requests up to 45 days from shipment for direct purchases."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-shipping"
+        ],
+        "reason": "A dedicated policy describes order shipping information."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-contact"
+        ],
+        "reason": "A dedicated support channel is published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "gaia-herbs-product",
+          "gaia-herbs-trace"
+        ],
+        "reason": "The product describes Albanian wild-harvest sourcing; Gaia explains its ingredient-tracing process."
+      }
+    ],
+    "sources": [
+      {
+        "id": "gaia-herbs-product",
+        "title": "Vitex Berry product information",
+        "url": "https://www.gaiaherbs.com/products/vitex-berry",
+        "kind": "brand",
+        "publisher": "Gaia Herbs",
+        "checked": "2026-10-16",
+        "note": "Ingredient and warning text, Albania harvest claim, FairWild claim and on-site reviews were read."
+      },
+      {
+        "id": "gaia-herbs-label",
+        "title": "Vitex Berry supplement facts",
+        "url": "https://cdn.shopify.com/s/files/1/0058/0252/4783/files/Gaia-Herbs-Vitex-Berry_LAE14060_202_SupplementFacts_medium_2ccb045f-cc97-4fb6-bdc0-3766fe5c6646.png?v=1755538846",
+        "kind": "brand",
+        "publisher": "Gaia Herbs",
+        "checked": "2026-10-16",
+        "note": "Label visually inspected: 1,000 mg extract and 3 mg agnuside per two capsules."
+      },
+      {
+        "id": "gaia-herbs-registry",
+        "title": "Gaia Herbs participant entry",
+        "url": "https://www.fairwild.org/all-fairwild-participants/gaia-herbs",
+        "kind": "independent",
+        "publisher": "FairWild Foundation",
+        "checked": "2026-10-16",
+        "note": "Confirms Gaia as a registered brand since 2022; this entry does not identify a Vitex bottle or lot."
+      },
+      {
+        "id": "gaia-herbs-trace",
+        "title": "Know Your Gaia Herbs",
+        "url": "https://www.gaiaherbs.com/pages/know-your-gaia-herbs",
+        "kind": "brand",
+        "publisher": "Gaia Herbs",
+        "checked": "2026-10-16",
+        "note": "Describes sourcing disclosure and in-house laboratory process."
+      },
+      {
+        "id": "gaia-herbs-faq",
+        "title": "Gaia Herbs FAQ",
+        "url": "https://www.gaiaherbs.com/pages/faqs",
+        "kind": "brand",
+        "publisher": "Gaia Herbs",
+        "checked": "2026-10-16",
+        "note": "Includes a 45-day-from-shipment satisfaction/refund policy."
+      },
+      {
+        "id": "gaia-herbs-shipping",
+        "title": "Shipping information",
+        "url": "https://www.gaiaherbs.com/pages/shipping-information",
+        "kind": "brand",
+        "publisher": "Gaia Herbs",
+        "checked": "2026-10-16",
+        "note": "Brand shipping-policy page reviewed."
+      },
+      {
+        "id": "gaia-herbs-contact",
+        "title": "Contact and support",
+        "url": "https://www.gaiaherbs.com/pages/contact-support",
+        "kind": "brand",
+        "publisher": "Gaia Herbs",
+        "checked": "2026-10-16",
+        "note": "Dedicated support page reviewed."
+      }
+    ],
+    "limitations": [
+      "Only Vitex Berry was assessed. FairWild addresses sourcing, not supplement potency or clinical effectiveness.",
+      "In-house laboratory statements are not independent laboratory verification."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "gaia-herbs-product",
+        "rating": 4.9,
+        "count": 405,
+        "summary": "The manufacturer hosts product reviews for Vitex Berry.",
+        "topics": [
+          "Product experience"
+        ],
+        "limitations": "Brand-hosted reviews, not an independent brand-wide sample. Gaia states it has not verified testimonial accuracy; reported health effects are not clinical evidence."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "olly",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "olly-sleep"
+    ],
+    "summary": "Sleep gummies have a complete label, visible drowsiness guidance and a matching product listing in NSF\u2019s dietary-supplement registry.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "olly-label"
+        ],
+        "reason": "Active ingredients and the full other-ingredient list are visible."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "olly-label"
+        ],
+        "reason": "The two-gummy serving specifies 3 mg melatonin, 50 mg L-theanine, botanical doses and sugar."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "olly-product"
+        ],
+        "reason": "Adult directions and warnings about driving, machinery and drowsiness are explicit."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "olly-product",
+          "olly-registry"
+        ],
+        "reason": "NSF certification is named and corroborated by the certifier."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "olly-registry"
+        ],
+        "reason": "NSF\u2019s own dietary-supplement listing is accessible."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "olly-registry"
+        ],
+        "reason": "The SLEEP gummy entry matches product name and serving format. It does not identify a shopper\u2019s bottle."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "olly-product"
+        ],
+        "reason": "The page states a 30-day return window for dissatisfaction."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "olly-product"
+        ],
+        "reason": "Shipping timing and price are shown, but the page has conflicting free-shipping thresholds ($59 banner versus $49 footer)."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "olly-product"
+        ],
+        "reason": "The page publishes hello@olly.com for support."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "olly-registry"
+        ],
+        "reason": "NSF lists manufacturing facilities; a consumer-facing lot lookup or ingredient origin was not established in the reviewed pages."
+      }
+    ],
+    "sources": [
+      {
+        "id": "olly-product",
+        "title": "Sleep Blackberry Zen product page",
+        "url": "https://www.olly.com/products/sleep",
+        "kind": "brand",
+        "publisher": "OLLY",
+        "checked": "2026-10-16",
+        "note": "Ingredients, adult use, drowsiness warning, NSF claim and customer-service information reviewed."
+      },
+      {
+        "id": "olly-label",
+        "title": "Sleep Blackberry Zen supplement facts",
+        "url": "https://www.olly.com/cdn/shop/files/a3cc22de80a850222b611c70893c40fbe5c52c64_1200x.jpg?v=1748128612",
+        "kind": "brand",
+        "publisher": "OLLY",
+        "checked": "2026-10-16",
+        "note": "Label visually inspected; declares melatonin, L-theanine, botanicals, sugar and excipients."
+      },
+      {
+        "id": "olly-registry",
+        "title": "OLLY NSF/ANSI 173 listings",
+        "url": "https://info.nsf.org/Certified/Dietary/Listings.asp?CompanyName=olly",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Registry lists SLEEP gummies with two-gummy serving under OLLY; this is NSF/ANSI 173, not Certified for Sport."
+      },
+      {
+        "id": "olly-reviews",
+        "title": "OLLY customer-service reviews",
+        "url": "https://www.trustpilot.com/review/olly.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 2.6/5 from 15 reviews."
+      }
+    ],
+    "limitations": [
+      "Scope is Sleep Blackberry Zen gummies, not all OLLY products or all sleep formats.",
+      "NSF/ANSI 173 certification is distinct from NSF Certified for Sport and does not prove treatment benefit."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "olly-reviews",
+        "rating": 2.6,
+        "count": 15,
+        "summary": "A small external brand-level sample discusses ordering, taste and customer support.",
+        "topics": [
+          "Ordering",
+          "Taste",
+          "Customer support"
+        ],
+        "limitations": "Trustpilot reports no invitation history. Fifteen self-selected reviews are not representative; they cover more than the scoped product."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "maryruths",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "maryruths-magnesium-calm-gummies"
+    ],
+    "summary": "Magnesium Calm Gummies have a readable label and a matching Clean Label Project listing. The happiness policy offers exchange or store credit, not a general cash-refund promise.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-label"
+        ],
+        "reason": "Magnesium citrate and all other ingredients, including sweeteners and agar, are listed."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-label"
+        ],
+        "reason": "The label specifies 50 mg magnesium per gummy, serving count and nutrition amounts."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-product"
+        ],
+        "reason": "Adult use, choking/overdose precautions and pregnancy, medication and diagnosis advice are stated."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-product",
+          "maryruths-registry"
+        ],
+        "reason": "Clean Label Project is tied to the scoped gummies."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-registry"
+        ],
+        "reason": "The certifier\u2019s public directory can be inspected directly."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-registry"
+        ],
+        "reason": "The directory explicitly names Magnesium Calm Gummies \u2014 Hibiscus; it is not a lot-specific test result."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-returns"
+        ],
+        "reason": "The 30-day direct-purchase policy offers exchange or store credit, with channel restrictions."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-shipping"
+        ],
+        "reason": "U.S. shipping options, fees and free-shipping thresholds are published."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "maryruths-contact"
+        ],
+        "reason": "Telephone, text, email and chat support routes and operating hours are published."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "maryruths-product",
+          "maryruths-registry"
+        ],
+        "reason": "No batch lookup or ingredient-origin disclosure for these gummies was established in the reviewed sources."
+      }
+    ],
+    "sources": [
+      {
+        "id": "maryruths-product",
+        "title": "Magnesium Calm Gummies",
+        "url": "https://www.maryruthorganics.com/products/magnesium-calm-gummies",
+        "kind": "brand",
+        "publisher": "MaryRuth\u2019s",
+        "checked": "2026-10-16",
+        "note": "Adult use, warnings, sweeteners and certification badge reviewed."
+      },
+      {
+        "id": "maryruths-label",
+        "title": "Magnesium Calm Gummies supplement facts",
+        "url": "https://cdn.shopify.com/s/files/1/0883/6750/files/magnesium-calm-gummies-hibiscus-60ct-supplement-facts-maryruths.jpg?v=1782547600",
+        "kind": "brand",
+        "publisher": "MaryRuth\u2019s",
+        "checked": "2026-10-16",
+        "note": "Label visually inspected: 50 mg magnesium per gummy and full other-ingredient list."
+      },
+      {
+        "id": "maryruths-registry",
+        "title": "MaryRuth\u2019s certified-product directory",
+        "url": "https://cleanlabelproject.org/brand/mro-maryruths-organics/",
+        "kind": "independent",
+        "publisher": "Clean Label Project",
+        "checked": "2026-10-16",
+        "note": "Certifier\u2019s own brand directory includes Magnesium Calm Gummies \u2014 Hibiscus."
+      },
+      {
+        "id": "maryruths-returns",
+        "title": "Happiness guarantee",
+        "url": "https://www.maryruthorganics.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "MaryRuth\u2019s",
+        "checked": "2026-10-16",
+        "note": "Direct purchases can receive exchange or store credit within 30 days; retailer purchases follow retailer policy."
+      },
+      {
+        "id": "maryruths-shipping",
+        "title": "Shipping policy",
+        "url": "https://www.maryruthorganics.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "MaryRuth\u2019s",
+        "checked": "2026-10-16",
+        "note": "U.S. shipping service levels and charges are listed."
+      },
+      {
+        "id": "maryruths-contact",
+        "title": "Contact customer care",
+        "url": "https://www.maryruthorganics.com/pages/contact-us",
+        "kind": "brand",
+        "publisher": "MaryRuth\u2019s",
+        "checked": "2026-10-16",
+        "note": "Contact page identifies telephone, text, email and chat options and support hours."
+      },
+      {
+        "id": "maryruths-reviews",
+        "title": "MaryRuth\u2019s customer-service reviews",
+        "url": "https://www.trustpilot.com/review/maryruthorganics.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 2.4/5 from 27 reviews."
+      }
+    ],
+    "limitations": [
+      "Only adult Hibiscus Magnesium Calm Gummies were assessed; children\u2019s products and other formats were not.",
+      "Certification directory inclusion does not provide a shopper-specific laboratory result or establish benefit."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "maryruths-reviews",
+        "rating": 2.4,
+        "count": 27,
+        "summary": "The external sample includes positive product experiences alongside concerns about delivery, cancellations and support.",
+        "topics": [
+          "Delivery",
+          "Cancellations",
+          "Customer support"
+        ],
+        "limitations": "Small, self-selected brand-level sample with no recent invitation history. Many accounts concern liquid vitamins rather than the scoped gummies."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "ora-organic",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "ora-organic-probiotics-prebiotics-daily"
+    ],
+    "summary": "Ora provides strain-level ingredients, a California manufacturing statement and a batch-certificate directory. The linked batch file could not be assessed in this review.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product"
+        ],
+        "reason": "The page identifies six probiotic strains, organic prebiotic inulin, maltodextrin and capsule material."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "ora-organic-product"
+        ],
+        "reason": "A total 16-billion CFU dose is displayed; separate quantities for each strain were not established."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product"
+        ],
+        "reason": "Use, storage, allergen statements and pregnancy/breastfeeding advice are present."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "ora-organic-product",
+          "ora-organic-testing"
+        ],
+        "reason": "Accredited outside testing is claimed, but a named lab for the scoped batch was not established."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_reviewed",
+        "sourceIds": [
+          "ora-organic-testing"
+        ],
+        "reason": "The batch directory is accessible, but the linked certificate did not render; its contents were not verified."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_reviewed",
+        "sourceIds": [
+          "ora-organic-testing"
+        ],
+        "reason": "The directory names the formula, but an original laboratory report was not inspected and matched."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product",
+          "ora-organic-policies"
+        ],
+        "reason": "A 60-day first-purchase satisfaction guarantee and a return route are published."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-policies"
+        ],
+        "reason": "Processing, destination-specific delivery estimates and shipping charges are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-policies"
+        ],
+        "reason": "Telephone, support hours and an email address are published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "ora-organic-product",
+          "ora-organic-testing"
+        ],
+        "reason": "California manufacture and a lot-number certificate lookup are disclosed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "ora-organic-product",
+        "title": "Probiotic + Prebiotic Daily Essential",
+        "url": "https://ora.organic/products/probiotics-prebiotics-daily",
+        "kind": "brand",
+        "publisher": "Ora Organic",
+        "checked": "2026-10-16",
+        "note": "Strain names, total CFU, capsule ingredients, usage and manufacturing statement reviewed."
+      },
+      {
+        "id": "ora-organic-testing",
+        "title": "Certificate of Analysis directory",
+        "url": "https://ora.organic/pages/coa",
+        "kind": "brand",
+        "publisher": "Ora Organic",
+        "checked": "2026-10-16",
+        "note": "Directory lists Daily Essential capsule lots including T26195003; the linked file did not render for inspection."
+      },
+      {
+        "id": "ora-organic-policies",
+        "title": "Shipping and returns",
+        "url": "https://ora.organic/pages/shipping-returns",
+        "kind": "brand",
+        "publisher": "Ora Organic",
+        "checked": "2026-10-16",
+        "note": "Delivery methods, estimates, fees, satisfaction guarantee and support contact reviewed."
+      },
+      {
+        "id": "ora-organic-reviews",
+        "title": "Ora customer-service reviews",
+        "url": "https://www.trustpilot.com/review/ora.organic",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 3.1/5 from 2 reviews."
+      }
+    ],
+    "limitations": [
+      "Scope is Daily Essential capsules only, not high-potency or powder versions.",
+      "A downloadable link alone is not proof of report contents, laboratory independence or current-batch results."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "ora-organic-reviews",
+        "rating": 3.1,
+        "count": 2,
+        "summary": "Only two external accounts were available, discussing order handling and delivery.",
+        "topics": [
+          "Order handling",
+          "Delivery"
+        ],
+        "limitations": "Two self-selected brand-level reviews are too few for a reliable sentiment conclusion. Trustpilot reports no invitation history."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "naturelo",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "naturelo-vegan-vitamin-d3-2500"
+    ],
+    "summary": "The 2,500 IU vitamin D3 label discloses dose, excipients and precautions. A product-matched independent laboratory or certification record was not established.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "naturelo-label"
+        ],
+        "reason": "D3 source and all listed excipients are visible."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "naturelo-label"
+        ],
+        "reason": "The label specifies 62.5 mcg / 2,500 IU per capsule and 120 servings."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "naturelo-warning"
+        ],
+        "reason": "Adult use, pregnancy/nursing/medication consultation, storage and seal warnings are present."
+      },
+      {
+        "key": "namedVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "naturelo-product",
+          "naturelo-label"
+        ],
+        "reason": "The scoped product materials did not identify a named external lab or certifier; a GMP graphic alone is insufficient."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "naturelo-product"
+        ],
+        "reason": "No original external laboratory report or matching certifier registry was found in the scoped sources reviewed."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "naturelo-product"
+        ],
+        "reason": "No independent record was established for this D3 formula or lot in this review."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "naturelo-policies",
+          "naturelo-contact"
+        ],
+        "reason": "The policy gives a 30-day request window; the contact page states unused/original-packaging conditions."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "naturelo-policies"
+        ],
+        "reason": "Shipping charges, free-shipping threshold and checkout estimates are explained."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "naturelo-contact"
+        ],
+        "reason": "A support email and contact page are available."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "naturelo-label"
+        ],
+        "reason": "Lichen is identified as the D3 source, but geographic origin and customer-facing batch lookup were not established."
+      }
+    ],
+    "sources": [
+      {
+        "id": "naturelo-product",
+        "title": "Vegan Vitamin D3 \u2014 2,500 IU",
+        "url": "https://naturelo.com/products/vegan-vitamin-d3-2500",
+        "kind": "brand",
+        "publisher": "NATURELO",
+        "checked": "2026-10-16",
+        "note": "120-capsule product page and product-label assets reviewed."
+      },
+      {
+        "id": "naturelo-label",
+        "title": "Vitamin D3 supplement facts",
+        "url": "https://cdn.shopify.com/s/files/1/0397/0567/3895/files/NAT-D3-2500-120_SF.jpg?v=1702403353",
+        "kind": "brand",
+        "publisher": "NATURELO",
+        "checked": "2026-10-16",
+        "note": "Visually inspected label lists 62.5 mcg D3, lichen source and other ingredients."
+      },
+      {
+        "id": "naturelo-warning",
+        "title": "Vitamin D3 directions and caution label",
+        "url": "https://cdn.shopify.com/s/files/1/0397/0567/3895/files/NAT-D3-2500-120_Left_A.png?v=1702403452",
+        "kind": "brand",
+        "publisher": "NATURELO",
+        "checked": "2026-10-16",
+        "note": "Visually inspected adult directions, pregnancy/medication caution, storage and seal warnings."
+      },
+      {
+        "id": "naturelo-policies",
+        "title": "Shipping and returns",
+        "url": "https://naturelo.com/pages/shipping-returns",
+        "kind": "brand",
+        "publisher": "NATURELO",
+        "checked": "2026-10-16",
+        "note": "30-day return request window and shipping information are disclosed."
+      },
+      {
+        "id": "naturelo-contact",
+        "title": "Contact and support FAQ",
+        "url": "https://naturelo.com/pages/contact-us",
+        "kind": "brand",
+        "publisher": "NATURELO",
+        "checked": "2026-10-16",
+        "note": "Support email and unused/original-packaging return conditions reviewed."
+      }
+    ],
+    "limitations": [
+      "Only the 120-capsule 2,500 IU formula was assessed.",
+      "Not found describes this limited source review, not proof that testing or certification does not exist.",
+      "No sufficiently inspected independent consumer-review source was available for this profile."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "transparent-labs",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "transparent-labs-ksm-66-ashwagandha"
+    ],
+    "summary": "The scoped ashwagandha product discloses its active dose and has a public testing-search route. A matched original report was not established in this review.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "transparent-labs-label"
+        ],
+        "reason": "The active ingredient is named, but this inspected label image did not disclose the capsule\u2019s complete other-ingredient list."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-label"
+        ],
+        "reason": "600 mg per capsule, 60 servings and minimum 5% total withanolides are stated."
+      },
+      {
+        "key": "caveats",
+        "status": "not_found",
+        "sourceIds": [
+          "transparent-labs-product",
+          "transparent-labs-label"
+        ],
+        "reason": "A product-specific warning panel was not located in the retrieved product text or inspected label image."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "transparent-labs-testing"
+        ],
+        "reason": "Third-party testing is described, but a named laboratory tied to this product was not established."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_reviewed",
+        "sourceIds": [
+          "transparent-labs-testing"
+        ],
+        "reason": "The search page was accessible, but no original ashwagandha report was inspected."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_reviewed",
+        "sourceIds": [
+          "transparent-labs-testing"
+        ],
+        "reason": "No independent report was matched to the scoped formula or a customer lot."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-faq"
+        ],
+        "reason": "The FAQ gives a 45-day satisfaction window and explains how to request assistance."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-faq"
+        ],
+        "reason": "Domestic and international delivery estimates and fulfillment timing are stated."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "transparent-labs-faq"
+        ],
+        "reason": "Support email, telephone and contact form are available."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "transparent-labs-faq",
+          "transparent-labs-testing"
+        ],
+        "reason": "Lot-number reporting and a test-search route exist; no scoped batch result was inspected."
+      }
+    ],
+    "sources": [
+      {
+        "id": "transparent-labs-product",
+        "title": "KSM-66 Ashwagandha",
+        "url": "https://www.transparentlabs.com/products/ksm-66-ashwagandha",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Product details and guarantee language reviewed."
+      },
+      {
+        "id": "transparent-labs-label",
+        "title": "KSM-66 supplement facts",
+        "url": "https://cdn.shopify.com/s/files/1/0866/7664/files/94184507-666C-4103-B3D5-9D5B949A147D.png?v=1746464223",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Visually inspected panel specifies 600 mg extract per capsule and standardization; no other-ingredient list in this image."
+      },
+      {
+        "id": "transparent-labs-testing",
+        "title": "Third-party tests search",
+        "url": "https://www.transparentlabs.com/pages/third-party-tests",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Public search route covers purity, ingredient and gluten tests; product-specific results were not rendered in the retrieved page."
+      },
+      {
+        "id": "transparent-labs-faq",
+        "title": "Customer and product FAQ",
+        "url": "https://www.transparentlabs.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Transparent Labs",
+        "checked": "2026-10-16",
+        "note": "Contact, shipping, 45-day satisfaction policy and lot-number reporting instructions reviewed."
+      },
+      {
+        "id": "transparent-labs-reviews",
+        "title": "Transparent Labs customer-service reviews",
+        "url": "https://www.trustpilot.com/review/www.transparentlabs.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed page displayed 4.6/5 from 567 reviews."
+      }
+    ],
+    "limitations": [
+      "Only KSM-66 Ashwagandha was assessed, not the brand\u2019s other products.",
+      "A public testing search is useful disclosure but does not establish the contents or applicability of an uninspected report."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "transparent-labs-reviews",
+        "rating": 4.6,
+        "count": 567,
+        "summary": "External brand-level feedback covers customer service, orders and product experience.",
+        "topics": [
+          "Customer service",
+          "Orders",
+          "Product experience"
+        ],
+        "limitations": "Snapshot of one external platform, not a marketplace-verified purchase pool. Rating does not establish clinical benefit or laboratory quality."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "cure",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "cure-tropical-punch"
+    ],
+    "summary": "The Tropical Punch label, purchase policies and a public laboratory report can be inspected. The laboratory evidence covers a named lot, not every product or purchased batch.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product page publishes the complete Tropical Punch ingredient list."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Nutrition facts state a 7.6 g packet, calories, sugars and electrolyte quantities."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The page identifies coconut and lists allergens kept in the shared facility."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "coa"
+        ],
+        "reason": "The linked certificate identifies AEMTEK and the Tropical Punch sample."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "coa"
+        ],
+        "reason": "The public laboratory certificate includes methods and results for microbial, metal and allergen testing."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "coa",
+          "product"
+        ],
+        "reason": "The certificate names Tropical Punch, lot 262594; this supports only that sampled product and lot."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Written terms describe 30-day refund or replacement eligibility for specified one-time website purchases; physical returns are not accepted."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ describes shipping charges, free-shipping conditions and a standard US delivery estimate."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ provides the customer-support email hi@curehydration.com."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "coa",
+          "faq"
+        ],
+        "reason": "The report gives a lot number and manufacture/best-before dates; the FAQ explains where expiry appears."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Tropical Punch product, ingredients and nutrition",
+        "url": "https://www.curehydration.com/products/tropical-punch",
+        "kind": "brand",
+        "publisher": "Cure",
+        "checked": "2026-10-16",
+        "note": "Product disclosure and link to the laboratory certificate were inspected."
+      },
+      {
+        "id": "faq",
+        "title": "Cure FAQ and purchase terms",
+        "url": "https://www.curehydration.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Cure",
+        "checked": "2026-10-16",
+        "note": "First-party shipping, refund, contact and storage information."
+      },
+      {
+        "id": "coa",
+        "title": "Tropical Punch certificate of analysis \u2014 lot 262594",
+        "url": "https://cdn.shopify.com/s/files/1/0073/2371/3602/files/Tropical_Punch_COA_August2026.pdf?v=1786026294",
+        "kind": "independent",
+        "publisher": "AEMTEK; copy hosted by Cure",
+        "checked": "2026-10-16",
+        "note": "Laboratory-branded report was read and visually inspected. Manufactured May 18, 2026; best before November 18, 2027. The hosted copy was not authenticated directly with the laboratory."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "The report is a brand-hosted copy for one lot; no marketplace retail sampling or current customer batch verification occurred.",
+      "Other flavors, certifications and clinical marketing claims were not validated.",
+      "No sufficiently attributable independent consumer-review sample is included. Merchant reviews and loyalty rewards should not be treated as independent verification."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "nectar",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "nectar-essential"
+    ],
+    "summary": "Nectar publishes ingredients and purchase terms, but the reviewed material did not establish a product-matched independent test record. External reviews provide company-level shopping feedback.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "An Essential Daily Hydration ingredient list is published, but flavor-by-flavor completeness of the variety pack was not established."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The page describes packet use and zero sugar/calories; a complete flavor-specific mineral panel was not assessed."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "faq",
+          "product"
+        ],
+        "reason": "General health disclaimers are present; complete product-specific allergen and precaution coverage was not established."
+      },
+      {
+        "key": "namedVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No named external laboratory or certifier tied to this hydration product was located in these reviewed pages."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No original laboratory report or certifier registry record was located through the reviewed pages."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "Without an original independent record, a product or lot match could not be established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "The policy limits the first-order guarantee to one unopened 30-stick pouch within 30 days, excluding shipping; refills are excluded."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "Processing and subscription shipping charges are stated; a complete destination-specific delivery commitment was not established."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "terms"
+        ],
+        "reason": "The terms provide support@drinknectar.com and company contact details."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "A public lot lookup or product-specific supply-chain record was not located in the pages reviewed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Essential Daily Hydration product details",
+        "url": "https://drinknectar.com/products/essential-daily-hydration-1",
+        "kind": "brand",
+        "publisher": "Nectar",
+        "checked": "2026-10-16",
+        "note": "First-party formula and serving-use information; not independent testing."
+      },
+      {
+        "id": "faq",
+        "title": "Nectar FAQ",
+        "url": "https://drinknectar.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Nectar",
+        "checked": "2026-10-16",
+        "note": "First-party general product and shopping guidance."
+      },
+      {
+        "id": "refund",
+        "title": "Nectar refund policy",
+        "url": "https://drinknectar.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Nectar",
+        "checked": "2026-10-16",
+        "note": "Eligibility and exclusions matter more than the broad money-back headline."
+      },
+      {
+        "id": "terms",
+        "title": "Nectar terms of service",
+        "url": "https://drinknectar.com/policies/terms-of-service",
+        "kind": "brand",
+        "publisher": "Nectar",
+        "checked": "2026-10-16",
+        "note": "Published support and company information."
+      },
+      {
+        "id": "reviews",
+        "title": "Nectar on Trustpilot",
+        "url": "https://www.trustpilot.com/review/drinknectar.co",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly inspected: TrustScore 3.8/5, 563 reviews. Claimed profile with a paid Trustpilot subscription; metrics are a dated platform snapshot."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "A missing record here means it was not located within reviewed sources, not that the company never tests.",
+      "The external review page includes multiple Nectar product lines and is not specific to the hydration variety pack."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "reviews",
+        "rating": 3.8,
+        "count": 563,
+        "summary": "Reviewed comments include praise for flavor and helpful support, alongside complaints about subscription charges, cancellation and refunds.",
+        "topics": [
+          "Flavor",
+          "Customer service",
+          "Subscriptions"
+        ],
+        "limitations": "Company-level Trustpilot snapshot, not marketplace-verified purchases or clinical evidence. The paid profile and self-selected review sample do not establish representativeness."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "goodonya",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "goodonya-hydration"
+    ],
+    "summary": "GOODONYA discloses its formulation and shopping policies and names a verification program. An original product-matched testing or certification record was not established in this review.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product disclosure lists ingredients and identifies coconut."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The published panel specifies an 8 g serving, calories, sugar and electrolyte quantities."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "Coconut is disclosed; a complete set of product-specific precaution statements was not established."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "product",
+          "approach"
+        ],
+        "reason": "The brand names BioChecked Glyphosate Free and presents organic certification claims for its hydration product."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "approach"
+        ],
+        "reason": "No original laboratory report or directly inspected certifier registry record was located in these reviewed materials."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "approach"
+        ],
+        "reason": "The brand claim is product-related, but an original independent product or lot match was not established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ describes a first-purchase 30-day guarantee, household limits and nonrefundable shipping."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ states processing times, US/Canada destinations and responsibility for Canadian duties."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Customer support is published as hi@goodonyaorganic.com."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "approach",
+          "faq"
+        ],
+        "reason": "California production and a Southern California warehouse are described; a public lot lookup was not found."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "GOODONYA organic hydration product disclosure",
+        "url": "https://goodonyaorganic.com/products/goodonya-organic-hydration",
+        "kind": "brand",
+        "publisher": "GOODONYA",
+        "checked": "2026-10-16",
+        "note": "Ingredients and nutrition were read from the public page data, including its embedded product tabs."
+      },
+      {
+        "id": "faq",
+        "title": "GOODONYA FAQ",
+        "url": "https://goodonyaorganic.com/pages/faq",
+        "kind": "brand",
+        "publisher": "GOODONYA",
+        "checked": "2026-10-16",
+        "note": "Public embedded FAQ content supplies purchase and support terms."
+      },
+      {
+        "id": "approach",
+        "title": "GOODONYA approach and testing statements",
+        "url": "https://goodonyaorganic.com/pages/our-approach",
+        "kind": "brand",
+        "publisher": "GOODONYA",
+        "checked": "2026-10-16",
+        "note": "Brand statements about origin, certifications and testing; not original independent results."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "Named certification and batch-testing claims remain first-party statements in this evidence set.",
+      "No independent consumer-review sample was assessed. Absence from this profile is not proof that none exists."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "lmnt",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "lmnt-citrus-salt"
+    ],
+    "summary": "LMNT publishes a Citrus Salt ingredient list, quantitative electrolyte amounts and a laboratory report for a named 2025 lot. The report is useful evidence with a clear age and sampling limit.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "ingredients"
+        ],
+        "reason": "Citrus Salt has a complete ingredient list, including the named flavor components and sweetener."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product page states per-serving sodium, potassium and magnesium quantities and zero sugar."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "ingredients",
+          "product"
+        ],
+        "reason": "Ingredient and dietary disclosures are available; a comprehensive product-specific precaution review was not established here."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "coa",
+          "testing"
+        ],
+        "reason": "The published testing page links a report identifying Dyad Labs / M\u00e9rieux NutriSciences."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "coa"
+        ],
+        "reason": "The laboratory report includes sample identifiers, methods and electrolyte, microbial, metal and gluten results."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "coa",
+          "ingredients"
+        ],
+        "reason": "The report explicitly identifies Citrus Salt, lot 2142501M-4. It does not establish the status of a current purchased batch."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "The help page explains refund or replacement eligibility for direct purchases and the official Amazon storefront."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "US standard shipping and Canadian fee thresholds are disclosed; a delivery-time commitment was not assessed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "The refund article links contact, email and live-chat support and states chat hours."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "coa",
+          "testing",
+          "refund"
+        ],
+        "reason": "The report contains lot/sample identifiers; the brand accepts specific-lot requests and asks customers for lot codes."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "LMNT electrolyte drink mix product",
+        "url": "https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink?variant=16358367199266",
+        "kind": "brand",
+        "publisher": "LMNT",
+        "checked": "2026-10-16",
+        "note": "Quantitative product disclosure; the review scope is Citrus Salt only."
+      },
+      {
+        "id": "ingredients",
+        "title": "LMNT ingredients by flavor",
+        "url": "https://drinklmnt.com/pages/ingredients",
+        "kind": "brand",
+        "publisher": "LMNT",
+        "checked": "2026-10-16",
+        "note": "Citrus Salt ingredient list was assessed."
+      },
+      {
+        "id": "testing",
+        "title": "LMNT quality-testing disclosure",
+        "url": "https://science.drinklmnt.com/quality-testing",
+        "kind": "brand",
+        "publisher": "LMNT",
+        "checked": "2026-10-16",
+        "note": "Explains the brand testing process and links a Citrus Salt report; claims about all lots were not independently audited."
+      },
+      {
+        "id": "coa",
+        "title": "Citrus Salt laboratory report \u2014 lot 2142501M-4",
+        "url": "https://cdn.builder.io/o/assets%2F9c03b50b10da46b088d2dd4aedb8cd93%2F94b9200ab15f4943bebf0cef7d788ae9?alt=media&apiKey=9c03b50b10da46b088d2dd4aedb8cd93&token=1a915b80-5128-442f-adf3-c1408f31c6fa",
+        "kind": "independent",
+        "publisher": "Dyad Labs / M\u00e9rieux NutriSciences; copy hosted by LMNT",
+        "checked": "2026-10-16",
+        "note": "Report dated October 17, 2025, certificate 1388685-2; client-submitted sample S-20251010-2468. Public brand-hosted copy, not direct laboratory authentication."
+      },
+      {
+        "id": "refund",
+        "title": "LMNT refund policy",
+        "url": "https://help.drinklmnt.com/en-US/what-is-lmnts-refund-policy-297489",
+        "kind": "brand",
+        "publisher": "LMNT",
+        "checked": "2026-10-16",
+        "note": "Directly inspected help-center policy and support options."
+      },
+      {
+        "id": "shipping",
+        "title": "LMNT shipping charges",
+        "url": "https://help.drinklmnt.com/en-US/how-much-does-shipping-cost-300619",
+        "kind": "brand",
+        "publisher": "LMNT",
+        "checked": "2026-10-16",
+        "note": "US and Canadian shipping-charge terms."
+      },
+      {
+        "id": "reviews",
+        "title": "LMNT on Trustpilot",
+        "url": "https://www.trustpilot.com/review/drinklmnt.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly inspected: TrustScore 3.7/5, 16 reviews. Unclaimed profile and no recent invitation history at review time."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "The public report concerns a 2025 client-submitted lot, not independently purchased marketplace samples or every current batch.",
+      "Raw Unflavored and Sparkling products are outside this product-evidence scope.",
+      "A laboratory result or ingredient disclosure does not establish suitability for an individual or clinical benefit."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "reviews",
+        "rating": 3.7,
+        "count": 16,
+        "summary": "Reviewed comments include praise for flavor and helpful service, plus delivery, support and packaging complaints.",
+        "topics": [
+          "Flavor",
+          "Customer service",
+          "Delivery"
+        ],
+        "limitations": "Only 16 company-level reviews, including different products. Self-selected platform feedback; not marketplace-verified purchases or a representative satisfaction study."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "ultima-replenisher",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "ultima-lemonade"
+    ],
+    "summary": "Ultima provides a detailed Lemonade label and shopping policies. Named verification claims are visible, but an original product-matched independent record was not established.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The Lemonade page publishes a complete ingredient list."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Serving directions and quantitative electrolyte, calorie and sugar information are available."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ discusses shared-facility nut handling and advises consultation for children and underlying health conditions."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product page names Non-GMO Project verification; the claim was observed on the brand page."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No original certifier registry entry or laboratory report was located in the reviewed materials."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "An independent record explicitly matching this Lemonade product or lot was not established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "The refund policy describes proof-of-purchase requirements, seller-specific handling and expired-product exclusions."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "Written terms describe continental-US free-shipping conditions, carrier pickup and tracking."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "refund"
+        ],
+        "reason": "The policy provides a customer-service telephone number and weekday support hours."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "A product-specific manufacturing-origin record or public lot lookup was not located in these reviewed pages."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Ultima Lemonade product, label and merchant reviews",
+        "url": "https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Product disclosure and visible merchant-hosted review comments were read; review collection and purchase verification were not audited."
+      },
+      {
+        "id": "faq",
+        "title": "Ultima FAQ",
+        "url": "https://www.ultimareplenisher.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Brand disclosures about allergens, use and formulation."
+      },
+      {
+        "id": "shipping",
+        "title": "Ultima shipping policy",
+        "url": "https://www.ultimareplenisher.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Published shipping conditions."
+      },
+      {
+        "id": "refund",
+        "title": "Ultima refund policy",
+        "url": "https://www.ultimareplenisher.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Ultima Replenisher",
+        "checked": "2026-10-16",
+        "note": "Published refund eligibility and support information."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "The named Non-GMO claim was not independently confirmed through the certifier in this review.",
+      "The consumer comments below are collected and displayed by the merchant, not an independent review-platform sample."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "product",
+        "summary": "Visible merchant-hosted comments discuss flavor, sweetness and mixing; favorable taste comments coexist with complaints about sweetness or a formula change.",
+        "topics": [
+          "Flavor",
+          "Sweetness",
+          "Mixing"
+        ],
+        "limitations": "Merchant-hosted sample only. No aggregate rating is imported, and purchase verification or review moderation was not independently audited."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "skratch-labs",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "skratch-sport-lemon-lime",
+      "skratch-caffeinated-lemon-lime"
+    ],
+    "summary": "Skratch publishes flavor-specific ingredient and nutrition information, including caffeine, plus support and purchase terms. Independent product-testing documentation was not established in the reviewed pages.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product page lists separate ingredients for Lemon + Lime and its caffeinated version."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Nutrition and serving amounts are published; the caffeinated Lemon + Lime version identifies 50 mg caffeine."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "faq",
+          "product"
+        ],
+        "reason": "Caffeine is disclosed and the FAQ advises that children avoid caffeinated flavors."
+      },
+      {
+        "key": "namedVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "Dietary and kosher claims appear, but a named external verifier for these products was not located."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No original laboratory report or certification-registry record was located in these reviewed pages."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "An independently issued product or lot match was not established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "guarantee",
+          "faq"
+        ],
+        "reason": "The guarantee describes refund or replacement for products bought from authorized sellers; the FAQ provides the contact process."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "The site provides a weekday same-day cutoff, US free-shipping threshold and international-duty information."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ publishes info@skratchlabs.com for product and order support."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ states US manufacturing/assembly and identifies its Boulder headquarters and warehouse; lot-level provenance was not assessed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Skratch Sport Hydration Drink Mix \u2014 flavor labels",
+        "url": "https://www.skratchlabs.com/products/hydration-sport-drink-mix",
+        "kind": "brand",
+        "publisher": "Skratch Labs",
+        "checked": "2026-10-16",
+        "note": "Regular and caffeinated Lemon + Lime ingredient/nutrition disclosures were inspected."
+      },
+      {
+        "id": "faq",
+        "title": "Skratch frequently asked questions",
+        "url": "https://www.skratchlabs.com/pages/frequently-asked-questions",
+        "kind": "brand",
+        "publisher": "Skratch Labs",
+        "checked": "2026-10-16",
+        "note": "Brand origin, use, support and shipping disclosures."
+      },
+      {
+        "id": "guarantee",
+        "title": "Skratch guarantee",
+        "url": "https://www.skratchlabs.com/pages/skratch-guarantee",
+        "kind": "brand",
+        "publisher": "Skratch Labs",
+        "checked": "2026-10-16",
+        "note": "Refund/replacement promise with authorized-seller condition."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "US origin is a brand statement, not an independent supply-chain audit.",
+      "Energy Chews and other flavors are outside this evidence scope. No independent consumer-review sample was assessed."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "gorgie",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "gorgie-peach-tea"
+    ],
+    "summary": "GORGIE has an independently accessible NSF listing that explicitly names Sparkling Peach Tea. Label and policy information is available, with an unresolved inconsistency in shipping wording.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product page publishes a complete ingredient list for Sparkling Peach Tea."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "label"
+        ],
+        "reason": "A nutrition label and 150 mg caffeine amount are available; the product page does not quantify L-theanine."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ addresses caffeine and recommends professional advice during pregnancy or breastfeeding."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "faq",
+          "nsf"
+        ],
+        "reason": "GORGIE names NSF; the certifier itself lists the energy drink."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "nsf"
+        ],
+        "reason": "NSF publishes an independently accessible Certification Guideline 229 Functional Foods listing."
+      },
+      {
+        "key": "productMatch",
+        "status": "documented",
+        "sourceIds": [
+          "nsf",
+          "product"
+        ],
+        "reason": "The NSF registry explicitly lists GORGIE Sparkling Peach Tea Energy Drink, matching the scoped flavor."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "The policy states first-time flavor store-credit eligibility, one-case limits and a 30-day contact window."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "The page combines an all-orders free-shipping banner with a $50 continental-US threshold in the body; checkout should resolve the applicable charge."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Customer support is published as care@getgorgie.com."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "nsf"
+        ],
+        "reason": "The NSF listing identifies Electric Youth Inc (DBA GORGIE) and a Waverly, New York facility; no customer-lot lookup was assessed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "GORGIE Sparkling Peach Tea product",
+        "url": "https://getgorgie.com/products/energy-drink-sparkling-peach-tea",
+        "kind": "brand",
+        "publisher": "GORGIE",
+        "checked": "2026-10-16",
+        "note": "Ingredients and caffeine disclosure; merchant review widgets can include other flavors."
+      },
+      {
+        "id": "label",
+        "title": "GORGIE nutrition label image",
+        "url": "https://cdn.shopify.com/s/files/1/0677/1920/1055/files/nutrition-label.jpg?v=1672340529",
+        "kind": "brand",
+        "publisher": "GORGIE",
+        "checked": "2026-10-16",
+        "note": "Label linked from the product page was visually inspected; 12 fl oz serving and vitamin quantities are shown."
+      },
+      {
+        "id": "faq",
+        "title": "GORGIE FAQ",
+        "url": "https://getgorgie.com/pages/faqs",
+        "kind": "brand",
+        "publisher": "GORGIE",
+        "checked": "2026-10-16",
+        "note": "Product, caffeine, certification-claim and support information."
+      },
+      {
+        "id": "policy",
+        "title": "GORGIE shipping and returns",
+        "url": "https://getgorgie.com/pages/shipping-returns",
+        "kind": "brand",
+        "publisher": "GORGIE",
+        "checked": "2026-10-16",
+        "note": "Store-credit terms and conflicting free-shipping wording were inspected."
+      },
+      {
+        "id": "nsf",
+        "title": "NSF Functional Foods listing \u2014 GORGIE",
+        "url": "https://info.nsf.org/Certified/FuncFoodBev/Listings.asp?Company=C0791928&Standard=229",
+        "kind": "independent",
+        "publisher": "NSF",
+        "checked": "2026-10-16",
+        "note": "Direct certifier registry names Sparkling Peach Tea under Guideline 229; displayed listing date October 9, 2026. This is not an NSF Certified for Sport finding."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "The NSF listing confirms the stated certification scope; it is not clinical efficacy evidence or a report for the customer\u2019s specific can.",
+      "No representative independent consumer-review sample was assessed. The merchant product widget mixes flavor reviews."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "moment",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "moment-blackberry-lavender"
+    ],
+    "summary": "Moment publishes a Blackberry Lavender label and explicit use precautions. Functional ingredient quantities and original independent verification were not established.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "The linked label lists the complete ingredients, including erythritol, L-theanine and ashwagandha."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "label"
+        ],
+        "reason": "Nutrition and a 340 ml can serving are listed, but L-theanine and ashwagandha quantities are not stated on the inspected label."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ gives adult-use guidance and discusses pregnancy, nursing, medications and certain health conditions."
+      },
+      {
+        "key": "namedVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No named outside laboratory or certifier tied to this drink was located in the reviewed pages."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No original independent laboratory report or certifier registry entry was located."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "An independently issued record matching Blackberry Lavender or a lot was not established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "The written policy says no returns or refunds and directs damaged or incorrect-order issues to support."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "The policy states processing and an estimated four-to-seven-day delivery window."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "Email and text-message support channels are published."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "A manufacturing-origin record or public lot lookup was not located in these reviewed pages."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Moment Blackberry Lavender product",
+        "url": "https://drinkmoment.com/products/blackberry-lavender-adaptogen-drink-12-pack",
+        "kind": "brand",
+        "publisher": "Moment",
+        "checked": "2026-10-16",
+        "note": "Product description and linked nutrition gallery."
+      },
+      {
+        "id": "label",
+        "title": "Blackberry Lavender nutrition and ingredient label",
+        "url": "https://drinkmoment.com/cdn/shop/files/02_blackberry_lavender_Page_2_nutrition.png?v=1784047950",
+        "kind": "brand",
+        "publisher": "Moment",
+        "checked": "2026-10-16",
+        "note": "Linked label visually inspected; full ingredients and nutrition, but no functional-ingredient doses."
+      },
+      {
+        "id": "faq",
+        "title": "Moment FAQ and health/use precautions",
+        "url": "https://drinkmoment.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Moment",
+        "checked": "2026-10-16",
+        "note": "Brand-published precautions; not an independent medical review."
+      },
+      {
+        "id": "policy",
+        "title": "Moment shipping and return policy",
+        "url": "https://drinkmoment.com/pages/returns/",
+        "kind": "brand",
+        "publisher": "Moment",
+        "checked": "2026-10-16",
+        "note": "No-refund policy, delivery estimates and support channels."
+      },
+      {
+        "id": "reviews",
+        "title": "Moment on Trustpilot",
+        "url": "https://www.trustpilot.com/review/drinkmoment.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly inspected: TrustScore 3.2/5, only two reviews. A very small, company-level snapshot."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "Cherry Hibiscus and other flavors are outside this evidence scope.",
+      "The two external reviews cannot support a general conclusion about customer satisfaction or product performance."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "reviews",
+        "rating": 3.2,
+        "count": 2,
+        "summary": "The two visible reviews describe an order/support complaint and a bundle-flavor mismatch complaint.",
+        "topics": [
+          "Customer service",
+          "Delivery",
+          "Order accuracy"
+        ],
+        "limitations": "Only two self-selected company-level reviews from different years. Purchases and allegations were not independently verified; this is not representative or evidence of health effects."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "olipop",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "olipop-strawberry-vanilla"
+    ],
+    "summary": "OLIPOP discloses the Strawberry Vanilla formulation and substantial shopping/use guidance. The reviewed evidence did not establish an original independent product-testing record.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The Strawberry Vanilla page publishes the ingredient list, including the components of its fiber blend."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The reviewed refrigerated formula identifies a 355 ml serving, 45 calories, 9 g fiber and 5 g sugar."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ discusses shared-facility nut exposure, pregnancy/nursing consultation and refrigerated versus shelf-stable storage."
+      },
+      {
+        "key": "namedVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "A named external product verifier was not located; the FAQ distinguishes claims from certifications it does not hold."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No original laboratory report or certifier registry record was located in these reviewed pages."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No independent record explicitly matching this formula or a lot was established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ describes a limited 45-day first-flavor refund policy and excludes specified limited/exclusive releases."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "US destination, free-shipping eligibility and a five-to-seven-business-day estimate are disclosed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ publishes hello@drinkolipop.com for support."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Damage claims request the lot code printed on the can; no public lot-results lookup was located."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "OLIPOP Strawberry Vanilla product and nutrition",
+        "url": "https://drinkolipop.com/products/strawberry-vanilla",
+        "kind": "brand",
+        "publisher": "OLIPOP",
+        "checked": "2026-10-16",
+        "note": "Refrigerated 9 g fiber formula inspected; do not transfer this panel to the shelf-stable line."
+      },
+      {
+        "id": "faq",
+        "title": "OLIPOP FAQ",
+        "url": "https://drinkolipop.com/pages/faq",
+        "kind": "brand",
+        "publisher": "OLIPOP",
+        "checked": "2026-10-16",
+        "note": "Use, allergen, storage, refund, shipping and lot-code guidance."
+      },
+      {
+        "id": "reviews",
+        "title": "OLIPOP on Trustpilot",
+        "url": "https://www.trustpilot.com/review/drinkolipop.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly inspected: TrustScore 3.7/5, six reviews; unclaimed company profile. Snapshot includes older feedback."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "Vintage Cola and shelf-stable variants are outside this product-evidence scope.",
+      "Independent verification not found means not located in reviewed sources, not a finding that the brand never tests."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "reviews",
+        "rating": 3.7,
+        "count": 6,
+        "summary": "Visible comments express differing views on taste, service, delivery and price.",
+        "topics": [
+          "Flavor",
+          "Customer service",
+          "Delivery",
+          "Value"
+        ],
+        "limitations": "Six self-selected company-level reviews, several older, spanning different products. Marketplace purchase verification and representativeness were not established; health anecdotes are not causal evidence."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "clean-cause",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "clean-cause-blackberry"
+    ],
+    "summary": "CLEAN Cause publishes caffeine, serving-size and shopping information. This initial review did not establish a complete inspected label or a product-matched independent verification record.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "The pages identify yerba mate and sweeteners, but a complete Blackberry ingredient panel was not inspected."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The page states 160 mg caffeine, 70 calories and a 16 fl oz can; a full nutrition panel was not assessed."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "Caffeine and gluten-ingredient claims are disclosed; complete product-specific warning and allergen coverage was not established."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "An organic seal is visible, but the responsible certifier and product-specific verification record were not established."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No original laboratory report or directly inspected certification-registry record was located."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "An original independent record matching the Blackberry drink or a lot was not established."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "The policy describes a 30-day first/new-product guarantee and separate unused-return conditions, with shipping and seller exclusions."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "policy",
+          "faq"
+        ],
+        "reason": "Processing is described as three business days in the policy and one-to-two in the FAQ; final delivery timing was not established."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ publishes hello@cleancause.com and weekday support hours."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "A product-specific manufacturing-origin record or public lot lookup was not located in the reviewed pages."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "CLEAN Cause Blackberry Organic Sparkling Yerba Mate",
+        "url": "https://cleancause.com/products/sparkling-blackberry",
+        "kind": "brand",
+        "publisher": "CLEAN Cause",
+        "checked": "2026-10-16",
+        "note": "Product description and front-of-can image inspected; no complete back label was reviewed."
+      },
+      {
+        "id": "faq",
+        "title": "CLEAN Cause FAQ",
+        "url": "https://cleancause.com/pages/faqs",
+        "kind": "brand",
+        "publisher": "CLEAN Cause",
+        "checked": "2026-10-16",
+        "note": "Brand formulation, shipping and support information."
+      },
+      {
+        "id": "policy",
+        "title": "CLEAN Cause shipping and returns",
+        "url": "https://cleancause.com/pages/shipping-information",
+        "kind": "brand",
+        "publisher": "CLEAN Cause",
+        "checked": "2026-10-16",
+        "note": "Return eligibility and processing terms; compared against the FAQ."
+      }
+    ],
+    "limitations": [
+      "Initial AI-assisted desk research. Evidence coverage is not a safety, efficacy or purchase recommendation.",
+      "The partial label review is a research limitation, not evidence that information is absent from the packaging or website.",
+      "Lemonade Tea and other product lines are outside scope. No independent consumer-review sample was assessed."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "wama",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "wama-boxer"
+    ],
+    "summary": "The boxer brief page separates main fabric from waistband materials and provides shopping terms. Certification claims remain incompletely verified.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Main fabric and the rubber/nylon waistband are separately identified."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Main fabric percentages total 100%; waistband percentages are not supplied."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Synthetic content and waistband rubber are disclosed alongside washing instructions."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "about"
+        ],
+        "reason": "OEKO-TEX is named for dyes/facility, without a certificate number identifying this garment."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "about"
+        ],
+        "reason": "No original certificate or certifier registry record was located in the reviewed sources."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "about"
+        ],
+        "reason": "No independently issued record matching these boxer briefs was reviewed."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "A 90-day first-pair guarantee describes refund or replacement without return."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "US delivery estimate, shipping threshold and domestic/international charges are displayed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Customer support email and live chat are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "about"
+        ],
+        "reason": "China is identified for fabric sourcing and manufacturing; individual factories are not named."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Hemp Boxer Briefs: materials, care and policies",
+        "url": "https://wamaunderwear.com/products/hemp-boxer-briefs",
+        "kind": "brand",
+        "publisher": "WAMA",
+        "checked": "2026-10-16",
+        "note": "Manufacturer page; certification and product claims are self-reported."
+      },
+      {
+        "id": "about",
+        "title": "About WAMA: factories and sourcing",
+        "url": "https://wamaunderwear.com/pages/about-us",
+        "kind": "brand",
+        "publisher": "WAMA",
+        "checked": "2026-10-16",
+        "note": "Describes China-based manufacturing and factory standards."
+      },
+      {
+        "id": "faq",
+        "title": "WAMA FAQ",
+        "url": "https://wamaunderwear.com/pages/faq",
+        "kind": "brand",
+        "publisher": "WAMA",
+        "checked": "2026-10-16",
+        "note": "Page accessed; limited FAQ body was available to the research reader."
+      }
+    ],
+    "limitations": [
+      "Only the listed boxer brief was assessed; findings do not cover every WAMA product.",
+      "Fabric claims do not establish whole-garment certification or health benefits.",
+      "An independent review-platform page was not successfully reviewed; brand-hosted testimonials are not used as an independent consumer rating."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "subset",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "subset-boxer"
+    ],
+    "summary": "Subset gives unusually specific component percentages for the assessed underwear. Independent certification documentation still needs confirmation.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Main fabric, waistband and label materials are separately listed."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Percentages are supplied for all three disclosed components, including polyester and elastane."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Care instructions and synthetic components are disclosed; organic cotton is not a whole-garment cotton claim."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "GOTS fabric and Fair Trade factory claims are stated, but an issuer/certificate matching this item was not located."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "Reviewed pages did not provide an original certificate or registry record."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "An independently issued record identifying the scoped boxer brief was not reviewed."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "30-day terms explain first-pair eligibility, duplicate-pair restrictions and the $8 refund shipping deduction."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "US free-shipping threshold and flat rates are displayed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Email, chat hours and expected response timing are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Underwear cotton is attributed to Ahmedabad, Gujarat, India; no lot-to-factory record was reviewed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Organic Cotton Men's Boxer Brief: composition and policies",
+        "url": "https://wearsubset.com/products/mens-boxer-brief",
+        "kind": "brand",
+        "publisher": "Subset",
+        "checked": "2026-10-16",
+        "note": "Primary manufacturer specifications and a separate brand-hosted review widget."
+      },
+      {
+        "id": "faq",
+        "title": "Subset FAQs",
+        "url": "https://wearsubset.com/pages/faqs",
+        "kind": "brand",
+        "publisher": "Subset",
+        "checked": "2026-10-16",
+        "note": "Product, sourcing, support and return-policy information."
+      },
+      {
+        "id": "consumer",
+        "title": "Subset customer reviews on Trustpilot",
+        "url": "https://www.trustpilot.com/review/wearsubset.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed company profile; only one review was displayed."
+      }
+    ],
+    "limitations": [
+      "Assessment scope is one product; the consumer source concerns the company overall.",
+      "A single self-selected review cannot establish typical customer experience or verify a factual allegation."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 3.3,
+        "count": 1,
+        "summary": "The sole visible reviewer describes a shipping delay and lack of tracking progress.",
+        "topics": [
+          "Delivery"
+        ],
+        "limitations": "Trustpilot's displayed TrustScore, not a marketplace score or product average. One review; no representative sample and no independent order verification by us."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "mate-the-label",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "mate-tee"
+    ],
+    "summary": "The Pima tee has clear fabric, origin and certification identifiers. B Lab independently lists the company, but that does not certify this tee.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Main fabric is identified as regenerative organic Pima cotton."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The page states 100% cotton and 145 GSM fabric weight."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Care is provided; separate sewing-thread and label composition is not disclosed."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The product names Control Union and GOTS certificate number 1245496."
+      },
+      {
+        "key": "originalVerification",
+        "status": "partial",
+        "sourceIds": [
+          "b-lab",
+          "product"
+        ],
+        "reason": "B Lab independently lists MATE; a product-specific GOTS/ROC original record was not reviewed."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "b-lab",
+          "product"
+        ],
+        "reason": "The independent record covers the company, not this Pima tee or a production lot."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "The FAQ explains the 30-day window, condition rules, final-sale exclusions and $9 cash-refund return fee."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Processing, US delivery estimates, rates and international shipping terms are published."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Customer care email is provided for order and return support."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Peru is named as the manufacturing country; the specific factory and lot are not identified."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Organic Pima Classic Tee: fabric and certifications",
+        "url": "https://matethelabel.com/products/organic-pima-classic-tee-true-white",
+        "kind": "brand",
+        "publisher": "MATE the Label",
+        "checked": "2026-10-16",
+        "note": "Product-level manufacturer disclosures."
+      },
+      {
+        "id": "faq",
+        "title": "MATE shipping, returns and sourcing FAQ",
+        "url": "https://matethelabel.com/pages/faq",
+        "kind": "brand",
+        "publisher": "MATE the Label",
+        "checked": "2026-10-16",
+        "note": "Current shopping terms; some international terms differ from US terms."
+      },
+      {
+        "id": "b-lab",
+        "title": "MATE the Label in the B Lab directory",
+        "url": "https://www.bcorporation.net/en-us/find-a-b-corp/company/mate-the-label/",
+        "kind": "independent",
+        "publisher": "B Lab",
+        "checked": "2026-10-16",
+        "note": "Company-level B Corp listing; not a textile safety test or product certificate."
+      },
+      {
+        "id": "consumer",
+        "title": "MATE the Label customer reviews on Trustpilot",
+        "url": "https://www.trustpilot.com/review/matethelabel.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed company profile with both positive and critical experiences."
+      }
+    ],
+    "limitations": [
+      "This assessment covers the listed Pima tee only.",
+      "B Corp status does not verify fabric chemistry, every product, or customer satisfaction.",
+      "Public customer complaints are allegations from reviewers, not independently adjudicated findings."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 2.2,
+        "count": 28,
+        "summary": "Visible reviews include praise for fit and fabric, alongside complaints about communication, delivery, returns and durability.",
+        "topics": [
+          "Fit",
+          "Customer service",
+          "Delivery",
+          "Returns",
+          "Durability"
+        ],
+        "limitations": "Small, self-selected company-level sample. Trustpilot reports no history of customer invitations. The TrustScore is platform-specific and is not a rating of the assessed tee."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "woolly",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "woolly-crew"
+    ],
+    "summary": "The men's merino tee discloses fabric measurements and a named certification number. Original certification verification and component-level detail remain gaps.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The main fabric is identified as Australian merino wool."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The page specifies 100% merino, 175 GSM and 17.5-micron fibers."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Detailed care and pilling guidance are supplied, but thread/trim composition is not."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Responsible Wool Standard is named with Control Union certificate number 1313848."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "An original certificate or certifier-hosted matching record was not located in reviewed material."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The brand's supply-chain claim was not matched to an independent record for this tee."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "30-day unworn returns, $8 refund shipping fee, closeout exclusions and warranty procedures are explained."
+      },
+      {
+        "key": "shipping",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Two-day standard shipping is advertised; a full destination/rate schedule was not reviewed."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "Support email and return/warranty portals are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Australian wool origin is stated; the garment's manufacturing location is not given on the reviewed page."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Everyday Crew Tee: fabric, care and RWS claim",
+        "url": "https://www.woolly.clothing/products/190-ss-crew",
+        "kind": "brand",
+        "publisher": "Woolly",
+        "checked": "2026-10-16",
+        "note": "Men's product only; women's tee has a different blend."
+      },
+      {
+        "id": "returns",
+        "title": "Woolly returns, exchanges and warranty",
+        "url": "https://www.woolly.clothing/pages/return-faq",
+        "kind": "brand",
+        "publisher": "Woolly",
+        "checked": "2026-10-16",
+        "note": "Written policy, not an assurance of each customer's outcome."
+      },
+      {
+        "id": "consumer",
+        "title": "Woolly customer reviews on Trustpilot",
+        "url": "https://www.trustpilot.com/review/woolly.clothing",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly opened profile showed two reviews, differing from an older search preview."
+      }
+    ],
+    "limitations": [
+      "The assessed men's tee does not represent the different composition of the women's tee.",
+      "Two public company reviews are too few to establish a pattern."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 3.4,
+        "count": 2,
+        "summary": "One reviewer praises longevity and service; another reports a sizing problem and disappointment with the return outcome.",
+        "topics": [
+          "Sizing",
+          "Returns",
+          "Durability",
+          "Customer service"
+        ],
+        "limitations": "Two self-selected company reviews, one from 2023. Displayed TrustScore is not an arithmetic product average and is not a marketplace endorsement."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "harvest-mill",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "harvest-jogger"
+    ],
+    "summary": "Harvest & Mill describes its domestic supply chain in detail. The assessed jogger's main fabric is clear, but waistband composition and original certification evidence remain incomplete.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Main fabric is identified as organic cotton jersey; a stretch waistband is acknowledged."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "100% organic cotton and 5.4-ounce jersey are stated for the main fabric."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Care is disclosed; elastic and sewing-thread composition are not specified."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "USDA organic cotton and Green Story carbon-accounting claims are named, without a product-matching certificate."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "supply"
+        ],
+        "reason": "No original organic certificate or external test report for the jogger was reviewed."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "supply"
+        ],
+        "reason": "Independent product- or lot-level verification was not located in the reviewed sources."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "30-day unworn/unwashed return terms disclose shipping costs and undergarment exclusions."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "Carrier, domestic threshold, processing cutoff and international duties are described."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "policy"
+        ],
+        "reason": "Support email, business hours and a return portal are published."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "product",
+          "supply"
+        ],
+        "reason": "US growing regions, spinning/knitting states and Bay Area sewing locations are described; this is brand-provided traceability."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Men's Organic Jogger Pants in Natural",
+        "url": "https://harvestandmill.com/products/pants-natural",
+        "kind": "brand",
+        "publisher": "Harvest & Mill",
+        "checked": "2026-10-16",
+        "note": "Main fabric, construction, care and origin statements."
+      },
+      {
+        "id": "policy",
+        "title": "Harvest & Mill delivery and returns",
+        "url": "https://harvestandmill.com/pages/delivery-and-returns",
+        "kind": "brand",
+        "publisher": "Harvest & Mill",
+        "checked": "2026-10-16",
+        "note": "Policy distinguishes refunds, exchanges and non-returnable undergarments."
+      },
+      {
+        "id": "supply",
+        "title": "Traceable USA organic cotton supply chain",
+        "url": "https://harvestandmill.com/pages/usa-organic-cotton-supply-chain",
+        "kind": "brand",
+        "publisher": "Harvest & Mill",
+        "checked": "2026-10-16",
+        "note": "Manufacturer account of the supply chain; not an independent audit."
+      }
+    ],
+    "limitations": [
+      "Only the jogger was assessed; main fabric composition does not establish the waistband's fibers.",
+      "An independent review-platform page was not located and directly reviewed in this pass.",
+      "Published origin statements have not been confirmed through a factory audit."
+    ],
+    "consumerSources": [],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "cottonique",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "cottonique-shorts"
+    ],
+    "summary": "The shorts have detailed component disclosures and a downloadable certifier-issued scope certificate. That certificate explicitly does not establish certification of individual delivered goods.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Fabric, drawstring, sewing thread and label materials are separately disclosed."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Cotton percentages and 150 GSM fabric weight are stated."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Care, component materials and a possible drawstring-version difference are described."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "certifications",
+          "certificate"
+        ],
+        "reason": "GOTS certification identifies IDFL, license GOTS-28166 and scope certificate SC-032281-0."
+      },
+      {
+        "key": "originalVerification",
+        "status": "documented",
+        "sourceIds": [
+          "certificate",
+          "b-lab"
+        ],
+        "reason": "The full IDFL-issued certificate is accessible as a brand-hosted PDF; B Lab separately lists Essential Layer. Registry authentication remains outstanding."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "certificate",
+          "product"
+        ],
+        "reason": "Certificate covers apparel categories, not this SKU or shipment. Its text requires a transaction certificate to prove delivered goods are certified."
+      },
+      {
+        "key": "returns",
+        "status": "partial",
+        "sourceIds": [
+          "returns",
+          "faq"
+        ],
+        "reason": "Eligibility and packaging restrictions are published, but FAQ and policy give different refund-processing times."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "US/international delivery estimates, carrier options and checkout charges are described."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq",
+          "returns"
+        ],
+        "reason": "Customer-service email and a return portal are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "faq",
+          "certificate"
+        ],
+        "reason": "Cotton sourcing country and the Carmona, Philippines manufacturing facility are identified."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Women's Drawstring Lounge Shorts: garment ingredients",
+        "url": "https://cottonique.com/products/womens-drawstring-lounge-shorts",
+        "kind": "brand",
+        "publisher": "Cottonique",
+        "checked": "2026-10-16",
+        "note": "Detailed component and care disclosure for the scoped shorts."
+      },
+      {
+        "id": "certifications",
+        "title": "Cottonique certifications and testing",
+        "url": "https://cottonique.com/pages/certifications",
+        "kind": "brand",
+        "publisher": "Cottonique",
+        "checked": "2026-10-16",
+        "note": "Links the certificate and identifies scope; other certification claims concern selected products."
+      },
+      {
+        "id": "certificate",
+        "title": "IDFL GOTS Scope Certificate SC-032281-0",
+        "url": "https://cdn.shopify.com/s/files/1/0012/8072/files/IDFL_26-1052052_GOTS_Certificate_essential-layer-inc_2026-11-05_v0.pdf?v=1790746186",
+        "kind": "independent",
+        "publisher": "IDFL Laboratory and Institute Inc. (brand-hosted copy)",
+        "checked": "2026-10-16",
+        "note": "Seven-page certifier-issued document, issued 2026-09-28 and valid to 2027-11-04. Brand-hosted copy; issuer registry was not accessible. Scope is not a transaction certificate."
+      },
+      {
+        "id": "b-lab",
+        "title": "Essential Layer Inc in B Lab's directory",
+        "url": "https://www.bcorporation.net/en-us/find-a-b-corp/company/essential-layer-inc/",
+        "kind": "independent",
+        "publisher": "B Lab",
+        "checked": "2026-10-16",
+        "note": "Independently identifies Cottonique's owner and company certification; not a medical/product test."
+      },
+      {
+        "id": "returns",
+        "title": "Cottonique return and exchange policy",
+        "url": "https://cottonique.com/pages/return-policy",
+        "kind": "brand",
+        "publisher": "Cottonique",
+        "checked": "2026-10-16",
+        "note": "Read packaging and refund restrictions before ordering."
+      },
+      {
+        "id": "faq",
+        "title": "Cottonique frequently asked questions",
+        "url": "https://cottonique.com/pages/frequently-asked-questions",
+        "kind": "brand",
+        "publisher": "Cottonique",
+        "checked": "2026-10-16",
+        "note": "Shipping, sourcing and support information; some refund timing differs from the policy page."
+      },
+      {
+        "id": "consumer",
+        "title": "Cottonique customer reviews on Trustpilot",
+        "url": "https://www.trustpilot.com/review/www.cottonique.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly reviewed company-level experiences; small sample."
+      }
+    ],
+    "limitations": [
+      "Scope is the drawstring shorts. Other Cottonique garments can contain different components.",
+      "No transaction certificate linking the assessed SKU or a shipment was obtained.",
+      "Certification and ingredient disclosure do not guarantee tolerance for a particular person's allergies."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 2.2,
+        "count": 24,
+        "summary": "Visible feedback includes comfort praise and complaints about sizing, shrinkage, fabric quality and return restrictions.",
+        "topics": [
+          "Comfort",
+          "Sizing",
+          "Durability",
+          "Returns"
+        ],
+        "limitations": "Small self-selected company sample, not a shorts-specific rating. Customer skin experiences and complaints are not independently verified medical or product findings."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "organic-basics",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "organicbasics-crew-socks"
+    ],
+    "summary": "The crew socks disclose their blend and a named manufacturing facility. GOTS is claimed on the product page, while independent product certification evidence remains unconfirmed.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The cotton, recycled polyamide, polyamide and elastane blend is stated."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The 71/19/7/3 percent blend totals 100%."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Care and synthetic content are disclosed; separate component fibers are not listed."
+      },
+      {
+        "key": "namedVerification",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "GOTS is named for the socks and factory, but a certificate number or issuing body is not provided here."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "No original product certificate or certifier registry match was located in reviewed pages."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "An independent document matching these crew socks or a shipment was not reviewed."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "30-day returns, condition rules, final-sale exclusions and refund shipping deductions are explained."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Processing times, tracking guidance and order-support procedures are published."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "faq"
+        ],
+        "reason": "Email, phone, chat and service hours are available."
+      },
+      {
+        "key": "traceability",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "China and Zhujishi Walter Socks Co., Ltd. are named for manufacture."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Core Crew Socks 2-pack: materials and manufacturer",
+        "url": "https://us.organicbasics.com/products/core-crew-socks-2-pack-black",
+        "kind": "brand",
+        "publisher": "Organic Basics",
+        "checked": "2026-10-16",
+        "note": "US product page, black crew socks; other sock styles use different blends."
+      },
+      {
+        "id": "faq",
+        "title": "Organic Basics US FAQ",
+        "url": "https://us.organicbasics.com/pages/faq",
+        "kind": "brand",
+        "publisher": "Organic Basics",
+        "checked": "2026-10-16",
+        "note": "Policy page states it was reviewed in September 2026."
+      },
+      {
+        "id": "consumer",
+        "title": "Organic Basics customer reviews on Trustpilot",
+        "url": "https://www.trustpilot.com/review/organicbasics.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly opened international company profile; not restricted to US sock purchasers."
+      }
+    ],
+    "limitations": [
+      "This is a review of the crew sock listing, not every Organic Basics item.",
+      "The company-level consumer source combines products and countries; it does not establish the quality of these socks."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 4.3,
+        "count": 1798,
+        "summary": "Visible experiences frequently praise support and comfort; critical reviews also discuss fit, durability and refund or return issues.",
+        "topics": [
+          "Customer service",
+          "Comfort",
+          "Fit",
+          "Returns",
+          "Durability"
+        ],
+        "limitations": "Trustpilot score is a dated platform snapshot, not a marketplace average. Reviews are self-selected and the business invites customers to review; reviewer claims were not independently checked."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "hooga",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "hooga-hg300"
+    ],
+    "summary": "Hooga publishes detailed HG300 specifications, a user manual and shopping terms. Independent model-specific test documentation was not located in the reviewed sources.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Wavelengths, LED configuration, controls and included components are identified."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "LED count, dimensions, 80 W consumption and irradiance with a measurement distance are stated."
+      },
+      {
+        "key": "caveats",
+        "status": "documented",
+        "sourceIds": [
+          "manual"
+        ],
+        "reason": "The manual contains electrical precautions, light-sensitivity and pregnancy cautions, and a medical disclaimer."
+      },
+      {
+        "key": "namedVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "manual"
+        ],
+        "reason": "A named independent testing lab tied to HG300 measurements was not located in these sources."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "manual"
+        ],
+        "reason": "No original independent laboratory report for this model was reviewed."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "manual"
+        ],
+        "reason": "No independent model- or unit-specific verification record was located."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "The 60-day window, original-packaging condition and return-shipping deduction are explained."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "US and international transit estimates, address rules and charges are published."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "shipping",
+          "manual"
+        ],
+        "reason": "Support email and the corporate address are provided."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "manual"
+        ],
+        "reason": "Manufacturer origin, factory identity or a unit-to-production record was not located; a US office is not manufacturing provenance."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Hooga HG300 specifications",
+        "url": "https://hoogahealth.com/products/hooga-300w-red-and-near-infrared-light-therapy-panel",
+        "kind": "brand",
+        "publisher": "Hooga",
+        "checked": "2026-10-16",
+        "note": "Manufacturer-reported engineering specifications; no efficacy conclusion drawn."
+      },
+      {
+        "id": "manual",
+        "title": "Hooga HG Series user manual, 2025",
+        "url": "https://cdn.shopify.com/s/files/1/0075/2923/4522/files/Hooga_HG_Series_User_Manual-2025.5.9.pdf?v=1787856770",
+        "kind": "brand",
+        "publisher": "Hooga",
+        "checked": "2026-10-16",
+        "note": "Eight-page manufacturer manual; warnings reviewed on page 8."
+      },
+      {
+        "id": "returns",
+        "title": "Hooga returns and refunds",
+        "url": "https://hoogahealth.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Hooga",
+        "checked": "2026-10-16",
+        "note": "Returns are not free; restrictions and deductions apply."
+      },
+      {
+        "id": "shipping",
+        "title": "Hooga shipping and delivery",
+        "url": "https://hoogahealth.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Hooga",
+        "checked": "2026-10-16",
+        "note": "Shipping terms and support contact."
+      },
+      {
+        "id": "consumer",
+        "title": "Hooga customer reviews on Trustpilot",
+        "url": "https://www.trustpilot.com/review/hoogahealth.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Company-level profile covers multiple device models."
+      }
+    ],
+    "limitations": [
+      "Engineering specifications and user testimonials do not establish clinical effectiveness or safety for an individual.",
+      "This assessment covers HG300 documentation only; no physical testing was performed."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 4.5,
+        "count": 82,
+        "summary": "Visible reviewers discuss build quality, delivery and responsive support; critical feedback includes device faults and a disputed service interaction.",
+        "topics": [
+          "Build quality",
+          "Delivery",
+          "Customer service",
+          "Faults"
+        ],
+        "limitations": "Company-level self-selected sample, including invited reviews and other models. Medical outcome claims in reviews are not treated as clinical evidence."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "mito-red-light",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "mito-min"
+    ],
+    "summary": "Mito names its testing laboratory and publishes model-specific measurements. Original lab reports were not directly accessible, so the published tables remain manufacturer-reported evidence.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The MitoMIN 2.0 page identifies wavelengths, LED configuration and hardware features."
+      },
+      {
+        "key": "amounts",
+        "status": "documented",
+        "sourceIds": [
+          "product",
+          "testing"
+        ],
+        "reason": "LED count, wattage, dimensions and lab-versus-consumer meter figures are disclosed; some dimensions and power figures differ between pages."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product",
+          "faq"
+        ],
+        "reason": "Usage guidance and a manual link are provided; full model-specific contraindications were not assessed in this pass."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "testing"
+        ],
+        "reason": "LightLab International Allentown is named with a May 2023 test date for MitoMIN 2.0."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "testing"
+        ],
+        "reason": "The page offers original PDFs by email request; no original lab report was directly accessed."
+      },
+      {
+        "key": "productMatch",
+        "status": "partial",
+        "sourceIds": [
+          "testing"
+        ],
+        "reason": "The brand's table explicitly names MitoMIN 2.0, but original model/unit matching was not independently confirmed."
+      },
+      {
+        "key": "returns",
+        "status": "documented",
+        "sourceIds": [
+          "returns"
+        ],
+        "reason": "60-day trial terms explain packaging requirements, exclusions and possible return-shipping costs."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "US rates, transit guidance, signature threshold and international restrictions are published."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "testing"
+        ],
+        "reason": "Support email is provided for requesting test documents."
+      },
+      {
+        "key": "traceability",
+        "status": "partial",
+        "sourceIds": [
+          "testing",
+          "shipping"
+        ],
+        "reason": "A model and test date are identified; public serial/lot tracing or a manufacturing-factory identity was not reviewed."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "MitoMIN 2.0 specifications",
+        "url": "https://mitoredlight.com/products/mitomin",
+        "kind": "brand",
+        "publisher": "Mito Red Light",
+        "checked": "2026-10-16",
+        "note": "Manufacturer specifications and certification claims."
+      },
+      {
+        "id": "testing",
+        "title": "Mito independent test-data page",
+        "url": "https://mitoredlight.com/pages/independent-test-data",
+        "kind": "brand",
+        "publisher": "Mito Red Light",
+        "checked": "2026-10-16",
+        "note": "Brand-published LightLab results; original reports require a request and were not obtained."
+      },
+      {
+        "id": "faq",
+        "title": "Mito red light therapy FAQ",
+        "url": "https://mitoredlight.com/pages/faq1",
+        "kind": "brand",
+        "publisher": "Mito Red Light",
+        "checked": "2026-10-16",
+        "note": "General usage guidance and links to model manuals."
+      },
+      {
+        "id": "returns",
+        "title": "Mito refund policy",
+        "url": "https://mitoredlight.com/policies/refund-policy",
+        "kind": "brand",
+        "publisher": "Mito Red Light",
+        "checked": "2026-10-16",
+        "note": "Policy dated September 14, 2026."
+      },
+      {
+        "id": "shipping",
+        "title": "Mito shipping policy",
+        "url": "https://mitoredlight.com/policies/shipping-policy",
+        "kind": "brand",
+        "publisher": "Mito Red Light",
+        "checked": "2026-10-16",
+        "note": "Policy dated June 19, 2026; country and purchase conditions vary."
+      },
+      {
+        "id": "consumer",
+        "title": "Mito Red Light USA customer reviews on Trustpilot",
+        "url": "https://www.trustpilot.com/review/www.mitoredlight.com",
+        "kind": "review-platform",
+        "publisher": "Trustpilot",
+        "checked": "2026-10-16",
+        "note": "Directly opened company profile; review count differs from older indexed previews."
+      }
+    ],
+    "limitations": [
+      "Optical measurements do not establish clinical benefit. FDA registration language is not treated as efficacy approval.",
+      "Model size and wattage differences between the product page and testing table need clarification before comparing those numbers directly.",
+      "No report, physical unit or production lot was independently tested by the marketplace."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "rating": 4.4,
+        "count": 1143,
+        "summary": "The reviewed profile contains experiences about device usability, build quality, shipping and support across multiple Mito products.",
+        "topics": [
+          "Usability",
+          "Build quality",
+          "Delivery",
+          "Customer service"
+        ],
+        "limitations": "Platform-specific TrustScore and company-wide sample, including invited reviews. Health outcomes described by reviewers are anecdotes, not clinical verification."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  },
+  {
+    "brandId": "b-t-r-nation",
+    "reviewed": "2026-10-16",
+    "scopeProductIds": [
+      "btr-cinnamon"
+    ],
+    "summary": "The cinnamon bar has useful nutrition and GFCO disclosures. Complete label review and independent certification matching remain unfinished, and the brand's refund pages conflict.",
+    "checks": [
+      {
+        "key": "ingredients",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Key ingredients are described, but a complete current ingredient label was not fully transcribed and verified."
+      },
+      {
+        "key": "amounts",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "Protein, fiber and sugar quantities are disclosed; the full nutrition panel was not assessed."
+      },
+      {
+        "key": "caveats",
+        "status": "partial",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The page names cashews and gives pregnancy/breastfeeding guidance; complete allergen-label review remains outstanding."
+      },
+      {
+        "key": "namedVerification",
+        "status": "documented",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The PROTEIN+ FAQ names GFCO as its gluten-free certifier."
+      },
+      {
+        "key": "originalVerification",
+        "status": "not_found",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "A GFCO registry record or original certificate matching this bar was not reviewed."
+      },
+      {
+        "key": "productMatch",
+        "status": "not_found",
+        "sourceIds": [
+          "product"
+        ],
+        "reason": "The manufacturer claim was not matched to an independent product or batch record."
+      },
+      {
+        "key": "returns",
+        "status": "partial",
+        "sourceIds": [
+          "shipping",
+          "terms"
+        ],
+        "reason": "Shipping FAQ permits review of refund requests within 30 days; terms say sales are final and refunds are not permitted."
+      },
+      {
+        "key": "shipping",
+        "status": "documented",
+        "sourceIds": [
+          "shipping"
+        ],
+        "reason": "Processing/transit estimates, US-only shipping and heat-related limitations are published."
+      },
+      {
+        "key": "contact",
+        "status": "documented",
+        "sourceIds": [
+          "shipping",
+          "terms"
+        ],
+        "reason": "A customer-support email is provided for concerns and refund requests."
+      },
+      {
+        "key": "traceability",
+        "status": "not_found",
+        "sourceIds": [
+          "product",
+          "terms"
+        ],
+        "reason": "The reviewed pages did not identify a production factory, manufacturing origin or public batch lookup."
+      }
+    ],
+    "sources": [
+      {
+        "id": "product",
+        "title": "Cinnamon Cashew Crunch PROTEIN+ 12-count",
+        "url": "https://www.btrnation.com/products/high-protein-cinnamon-cashew-crunch-protein-bar-12-count",
+        "kind": "brand",
+        "publisher": "B.T.R. NATION",
+        "checked": "2026-10-16",
+        "note": "Product nutrition highlights and GFCO claim; complete label verification remains outstanding."
+      },
+      {
+        "id": "shipping",
+        "title": "B.T.R. NATION shipping FAQs",
+        "url": "https://www.btrnation.com/pages/shipping-faqs",
+        "kind": "brand",
+        "publisher": "B.T.R. NATION",
+        "checked": "2026-10-16",
+        "note": "Includes delivery estimates and a 30-day refund-request review statement."
+      },
+      {
+        "id": "terms",
+        "title": "B.T.R. NATION terms and conditions",
+        "url": "https://www.btrnation.com/pages/terms-conditions",
+        "kind": "brand",
+        "publisher": "B.T.R. NATION",
+        "checked": "2026-10-16",
+        "note": "Contains an all-sales-final statement that conflicts with the shipping FAQ."
+      },
+      {
+        "id": "consumer",
+        "title": "Target reviews: Cinnamon Cashew Crunch 5-count",
+        "url": "https://www.target.com/p/-/A-94908517",
+        "kind": "review-platform",
+        "publisher": "Target / Bazaarvoice",
+        "checked": "2026-10-16",
+        "note": "Retailer review page for a different pack size; visible entries include syndicated B.T.R. NATION reviews and promotion disclosures."
+      }
+    ],
+    "limitations": [
+      "Scope is one flavor; other bars can have different ingredients and nutrition.",
+      "Refund entitlement should be confirmed with the merchant because its reviewed policy pages conflict.",
+      "Target review syndication may combine variants or packs; it is not a second independent set of reviews."
+    ],
+    "consumerSources": [
+      {
+        "sourceId": "consumer",
+        "summary": "Visible entries discuss taste, texture, portion size and value, with both favorable and critical experiences.",
+        "topics": [
+          "Taste",
+          "Texture",
+          "Value",
+          "Portion size"
+        ],
+        "limitations": "Different pack size from our listing. Several entries were originally posted on the brand site and some were collected through promotions; no aggregate rating or count is imported."
+      }
+    ],
+    "version": "evidence-v2",
+    "reviewer": "AI-assisted desk research",
+    "status": "published",
+    "changeNote": "Initial source review: documented product scope, evidence checks, consumer sources, and remaining limitations."
+  }
+]

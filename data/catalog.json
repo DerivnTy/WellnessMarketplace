@@ -1,0 +1,4626 @@
+[
+  {
+    "id": "cure-tropical-punch",
+    "slug": "cure-tropical-punch",
+    "brand": "Cure",
+    "brandId": "cure",
+    "image": "/products/cure-tropical-punch.jpg",
+    "source": "https://www.curehydration.com/products/tropical-punch",
+    "url": "https://www.curehydration.com/products/tropical-punch?variant=44910306820345",
+    "checked": "2026-10-16",
+    "price": 23.99,
+    "variant": "14 Pack",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Tropical Punch Hydration",
+    "category": "drinks",
+    "type": "hydration-mix",
+    "description": "A coconut-water-based electrolyte drink mix in single-serving packets. Compare the ingredient list, sugar content, and cost per serving.",
+    "badges": [
+      "0g added sugar",
+      "Electrolyte mix"
+    ],
+    "qty": "14 packets",
+    "servings": 14,
+    "attributes": {
+      "Added sugar": "0 g / serving",
+      "Total sugar": "4 g / serving",
+      "Sodium": "240 mg / serving",
+      "Serving size": "7.6 g",
+      "Sweeteners": "Stevia, monk fruit"
+    },
+    "ingredients": "Coconut Water Powder, Citric Acid, Organic Natural Flavor, Pink Himalayan Salt, Vegetable Juice (For Color), Sodium Citrate, Lemon Juice Powder, Organic Stevia Extract, Monk Fruit Extract.",
+    "filters": {
+      "noAddedSugar": true,
+      "zeroSugar": false,
+      "stevia": true,
+      "noSucralose": true,
+      "noStevia": false
+    },
+    "variantIndex": 0,
+    "facets": {
+      "drinkType": [
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "stevia",
+        "monk-fruit"
+      ]
+    }
+  },
+  {
+    "id": "nectar-essential",
+    "slug": "nectar-essential",
+    "brand": "Nectar",
+    "brandId": "nectar",
+    "image": "/products/nectar-essential.png",
+    "source": "https://drinknectar.com/products/essential-daily-hydration-1",
+    "url": "https://drinknectar.com/products/essential-daily-hydration-1?variant=41859576463419",
+    "checked": "2026-10-16",
+    "price": 43.95,
+    "variant": "Classic Variety Pack",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Essential Daily Hydration",
+    "category": "drinks",
+    "type": "hydration-mix",
+    "description": "A variety of flavored electrolyte mixes. The brand lists mineral salts, fruit flavor and stevia in its daily hydration formula.",
+    "badges": [
+      "Sugar-free claim",
+      "Daily hydration"
+    ],
+    "qty": "30 packets",
+    "attributes": {
+      "Formula": "Electrolyte drink mix",
+      "Sweetener": "Organic stevia leaf extract",
+      "Flavor": "Classic variety pack",
+      "Total sugar": "0 g / serving",
+      "Sodium": "100 mg / serving",
+      "Potassium": "250 mg / serving",
+      "Magnesium": "50 mg / serving"
+    },
+    "filters": {
+      "stevia": true,
+      "zeroSugar": true,
+      "noSucralose": true,
+      "noStevia": false
+    },
+    "ingredients": "Organic Fruit Flavor, Pink Himalayan Sea Salt, Potassium Citrate, Magnesium Citrate, Calcium Citrate, Non-GMO Citric & Malic Acid, Organic Stevia Leaf Extract.",
+    "variantIndex": 0,
+    "servings": 30,
+    "facets": {
+      "drinkType": [
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "stevia"
+      ]
+    }
+  },
+  {
+    "id": "goodonya-hydration",
+    "slug": "goodonya-hydration",
+    "brand": "GOODONYA",
+    "brandId": "goodonya",
+    "image": "/products/goodonya-hydration.jpg",
+    "source": "https://goodonyaorganic.com/products/goodonya-organic-hydration",
+    "url": "https://goodonyaorganic.com/products/goodonya-organic-hydration?variant=51816287699316",
+    "checked": "2026-10-16",
+    "price": 49,
+    "variant": "42 Servings",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Organic Hydration",
+    "category": "drinks",
+    "type": "hydration-mix",
+    "description": "A lemon-flavored electrolyte mix with coconut water powder, mineral salts and stevia. Available in several package sizes.",
+    "badges": [
+      "Lemon flavor",
+      "42 servings"
+    ],
+    "qty": "42-serving bag",
+    "servings": 42,
+    "attributes": {
+      "Total sugar": "1 g / serving",
+      "Flavor": "Lemon",
+      "Sweetener": "Stevia",
+      "Package": "42 servings",
+      "Added sugar": "0 g / serving",
+      "Sodium": "25 mg / serving"
+    },
+    "ingredients": "Organic Lemon Juice Powder, Magnesium, Organic Coconut Water Powder, Organic Stevia Leaf Extract, Pink Himalayan Salt, Ascorbic Acid (Vitamin C).",
+    "filters": {
+      "stevia": true,
+      "noAddedSugar": true,
+      "noSucralose": true,
+      "noStevia": false
+    },
+    "variantIndex": 0,
+    "facets": {
+      "drinkType": [
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "stevia"
+      ]
+    }
+  },
+  {
+    "id": "btr-cinnamon",
+    "slug": "btr-cinnamon",
+    "brand": "B.T.R. NATION",
+    "brandId": "b-t-r-nation",
+    "image": "/products/btr-cinnamon.png",
+    "source": "https://www.btrnation.com/products/high-protein-cinnamon-cashew-crunch-protein-bar-12-count",
+    "url": "https://www.btrnation.com/products/high-protein-cinnamon-cashew-crunch-protein-bar-12-count?variant=46266511327480",
+    "checked": "2026-10-16",
+    "price": 39.99,
+    "variant": "Default Title",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Cinnamon Cashew Crunch",
+    "category": "nutrition",
+    "type": "protein-bar",
+    "description": "A crunchy plant-protein bar with cashews, cinnamon and quinoa crisps. Sold in a box of twelve.",
+    "badges": [
+      "15g protein",
+      "0g added sugar"
+    ],
+    "qty": "12 bars",
+    "servings": 12,
+    "attributes": {
+      "Protein": "15 g / bar",
+      "Added sugar": "0 g / bar",
+      "Total sugar": "2 g / bar",
+      "Fiber": "10 g / bar",
+      "Contains": "Nuts"
+    },
+    "filters": {
+      "noAddedSugar": true,
+      "zeroSugar": false
+    },
+    "ingredients": "Full current ingredient list not yet transcribed. See the manufacturer label.",
+    "facets": {
+      "foodType": [
+        "protein-bar"
+      ]
+    }
+  },
+  {
+    "id": "btr-coffee",
+    "slug": "btr-coffee",
+    "brand": "B.T.R. NATION",
+    "brandId": "b-t-r-nation",
+    "image": "/products/btr-coffee.png",
+    "source": "https://www.btrnation.com/products/high-protein-coffee-protein-bar-12-count",
+    "url": "https://www.btrnation.com/products/high-protein-coffee-protein-bar-12-count?variant=46266527580408",
+    "checked": "2026-10-16",
+    "price": 39.99,
+    "variant": "Default Title",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Coffee Cashew Crunch",
+    "category": "nutrition",
+    "type": "protein-bar",
+    "description": "A plant-protein bar with real coffee, cashews and quinoa crisps. The brand lists 25mg of caffeine per bar.",
+    "badges": [
+      "15g protein",
+      "25mg caffeine"
+    ],
+    "qty": "12 bars",
+    "servings": 12,
+    "attributes": {
+      "Protein": "15 g / bar",
+      "Added sugar": "0 g / bar",
+      "Total sugar": "2 g / bar",
+      "Caffeine": "25 mg / bar",
+      "Contains": "Nuts"
+    },
+    "filters": {
+      "noAddedSugar": true,
+      "zeroSugar": false
+    },
+    "ingredients": "Full current ingredient list not yet transcribed. See the manufacturer label.",
+    "facets": {
+      "foodType": [
+        "protein-bar"
+      ]
+    }
+  },
+  {
+    "id": "skratch-chews",
+    "slug": "skratch-chews",
+    "brand": "Skratch Labs",
+    "brandId": "skratch-labs",
+    "image": "/products/skratch-chews.jpg",
+    "source": "https://www.skratchlabs.com/products/energy-chews-sport-fuel",
+    "url": "https://www.skratchlabs.com/products/energy-chews-sport-fuel?variant=41509663211591",
+    "checked": "2026-10-16",
+    "price": 2.75,
+    "variant": "Grape / Single Pouch",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Energy Chews Sport Fuel",
+    "category": "nutrition",
+    "type": "energy-chew",
+    "description": "Fruit-flavored carbohydrate chews for sports fueling. Ingredients and caffeine vary by flavor; this listing starts with the grape pouch.",
+    "badges": [
+      "Carbohydrate fuel",
+      "Grape"
+    ],
+    "qty": "Grape / single pouch",
+    "attributes": {
+      "Format": "Energy chews",
+      "Flavor": "Grape",
+      "Ingredients": "Sugar, glucose syrup, water, pectin, grape juice, citric acid, lactic acid"
+    },
+    "ingredients": "Sugar, glucose syrup, water, pectin, grape juice, citric acid, lactic acid.",
+    "filters": {
+      "noAddedSugar": false,
+      "zeroSugar": false
+    },
+    "facets": {
+      "foodType": [
+        "energy-chew"
+      ]
+    }
+  },
+  {
+    "id": "wama-boxer",
+    "slug": "wama-boxer",
+    "brand": "WAMA",
+    "brandId": "wama",
+    "image": "/products/wama-boxer.png",
+    "source": "https://wamaunderwear.com/products/hemp-boxer-briefs",
+    "url": "https://wamaunderwear.com/products/hemp-boxer-briefs?variant=40417179861090",
+    "checked": "2026-10-16",
+    "price": 32,
+    "variant": "S / Black",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Hemp Boxer Briefs",
+    "category": "apparel",
+    "type": "underwear",
+    "description": "Six-inch boxer briefs with a hemp and organic cotton main fabric. The waistband has its own composition, documented separately.",
+    "badges": [
+      "Hemp & cotton",
+      "6-inch inseam"
+    ],
+    "qty": "1 pair",
+    "attributes": {
+      "Main fabric": "53% hemp, 44% organic cotton, 3% spandex",
+      "Waistband": "Natural rubber and nylon",
+      "Inseam": "6 inches",
+      "Scope": "Main fabric and waistband separately disclosed"
+    },
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": false,
+      "allNaturalMain": false
+    },
+    "variantIndex": 0,
+    "ingredients": "mainFabric: 53% organic hemp, 44% organic cotton, 3% spandex; waistband: Natural rubber and nylon; percentages not supplied.",
+    "facets": {
+      "garment": [
+        "underwear"
+      ],
+      "material": [
+        "cotton",
+        "hemp"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "subset-boxer",
+    "slug": "subset-boxer",
+    "brand": "Subset",
+    "brandId": "subset",
+    "image": "/products/subset-boxer.jpg",
+    "source": "https://wearsubset.com/products/mens-boxer-brief",
+    "url": "https://wearsubset.com/products/mens-boxer-brief?variant=43837996400832",
+    "checked": "2026-10-16",
+    "price": 30,
+    "variant": "Default Title",
+    "available": false,
+    "status": "published",
+    "affiliate": false,
+    "name": "Organic Cotton Boxer Briefs",
+    "category": "apparel",
+    "type": "underwear",
+    "description": "Cotton boxer briefs from Subset. Compare the current fabric specification, size guide and return terms at the source.",
+    "badges": [
+      "Cotton underwear",
+      "Everyday essentials"
+    ],
+    "qty": "1 pair",
+    "attributes": {
+      "Main fabric": "95% organic cotton, 5% elastane",
+      "Waistband": "70% recycled polyester, 30% spandex",
+      "Label": "100% polyester",
+      "Inseam": "4 in"
+    },
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": false,
+      "allNaturalMain": false
+    },
+    "ingredients": "mainFabric: 95% certified organic cotton, 5% elastane; waistband: 70% recycled polyester, 30% spandex; label: 100% polyester satin jacquard.",
+    "facets": {
+      "garment": [
+        "underwear"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "mate-tee",
+    "slug": "mate-tee",
+    "brand": "MATE the Label",
+    "brandId": "mate-the-label",
+    "image": "/products/mate-tee.jpg",
+    "source": "https://matethelabel.com/products/organic-pima-classic-tee-true-white",
+    "url": "https://matethelabel.com/products/organic-pima-classic-tee-true-white?variant=47699784827058",
+    "checked": "2026-10-16",
+    "price": 68,
+    "variant": "TRUE WHITE / XS",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Organic Pima Classic Tee",
+    "category": "apparel",
+    "type": "tee",
+    "description": "A lightweight everyday tee with a manufacturer-listed 100% organic Pima cotton fabric. This listing is for True White.",
+    "badges": [
+      "100% Pima cotton",
+      "145 GSM"
+    ],
+    "qty": "True White / 1 tee",
+    "attributes": {
+      "Fabric": "100% organic Pima cotton",
+      "Fabric weight": "145 GSM",
+      "Made in": "Peru",
+      "Color": "True White"
+    },
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "ingredients": "mainFabric: 100% Regenerative Organic Certified Pima Cotton, as described by the brand.",
+    "facets": {
+      "garment": [
+        "tee"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "puori-unflavored",
+    "slug": "puori-unflavored",
+    "brand": "Puori",
+    "brandId": "puori",
+    "image": "/products/puori-unflavored.png",
+    "source": "https://puori.com/products/pw1-grass-fed-whey-protein-unflavored",
+    "url": "https://puori.com/products/pw1-grass-fed-whey-protein-unflavored?variant=44510126964829",
+    "checked": "2026-10-16",
+    "price": 79,
+    "variant": "Light",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "PW1 Whey Protein",
+    "category": "supplements",
+    "type": "protein-powder",
+    "description": "An unflavored whey protein with a single listed ingredient. The brand provides a batch-results lookup, which can be inspected separately from consumer feedback. Listed price is for the brand\u2019s Light option; confirm package and purchase terms on the merchant\u2019s site.",
+    "badges": [
+      "Unflavored",
+      "Single ingredient"
+    ],
+    "qty": "Light option",
+    "attributes": {
+      "Protein": "24 g / serving (brand label)",
+      "Ingredients": "Whey protein concentrate",
+      "Flavor": "Unflavored",
+      "Testing": "Brand-linked batch results available; not independently reviewed here"
+    },
+    "ingredients": "Whey protein concentrate.",
+    "filters": {
+      "testing": true,
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "whey"
+      ],
+      "form": [
+        "powder"
+      ]
+    }
+  },
+  {
+    "id": "puori-vanilla",
+    "slug": "puori-vanilla",
+    "brand": "Puori",
+    "brandId": "puori",
+    "image": "/products/puori-vanilla.png",
+    "source": "https://puori.com/products/pw1-whey-protein-bourbon-vanilla",
+    "url": "https://puori.com/products/pw1-whey-protein-bourbon-vanilla?variant=43020536643677",
+    "checked": "2026-10-16",
+    "price": 79,
+    "variant": "Light",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "PW1 Bourbon Vanilla",
+    "category": "supplements",
+    "type": "protein-powder",
+    "description": "A vanilla whey protein with coconut palm sugar and vanilla ingredients. Check the selected batch documentation on the manufacturer website. Listed price is for the brand\u2019s Light option; confirm package and purchase terms on the merchant\u2019s site.",
+    "badges": [
+      "Bourbon vanilla",
+      "Whey concentrate"
+    ],
+    "qty": "Light option",
+    "attributes": {
+      "Protein": "21 g / serving (brand label)",
+      "Flavor": "Bourbon vanilla",
+      "Testing": "Brand-linked batch results available; not independently reviewed here"
+    },
+    "ingredients": "Whey protein concentrate, coconut palm sugar, bourbon vanilla seeds, vanilla powder, natural flavor from fermented stevia (brand ingredient list).",
+    "filters": {
+      "testing": true,
+      "noAddedSugar": false,
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "whey"
+      ],
+      "form": [
+        "powder"
+      ]
+    }
+  },
+  {
+    "id": "promix-creatine",
+    "slug": "promix-creatine",
+    "brand": "Promix",
+    "brandId": "promix",
+    "image": "/products/promix-creatine.png",
+    "source": "https://promixnutrition.com/products/creatine",
+    "url": "https://promixnutrition.com/products/creatine?variant=32255776489561",
+    "checked": "2026-10-16",
+    "price": 59,
+    "variant": "180 Servings",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Micronized Creatine",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "Unflavored micronized creatine monohydrate in a resealable bag. Compare the selected package and manufacturer testing information.",
+    "badges": [
+      "Creatine monohydrate",
+      "Unflavored"
+    ],
+    "qty": "180 servings",
+    "servings": 180,
+    "attributes": {
+      "Ingredient": "Micronized creatine monohydrate",
+      "Flavor": "Unflavored",
+      "Package": "180 servings",
+      "Testing": "Manufacturer testing claim; report review pending"
+    },
+    "ingredients": "Micronized Creatine Monohydrate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "variantIndex": 0,
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ]
+    }
+  },
+  {
+    "id": "promix-whey",
+    "slug": "promix-whey",
+    "brand": "Promix",
+    "brandId": "promix",
+    "image": "/products/promix-whey.png",
+    "source": "https://promixnutrition.com/products/unflavored-whey-protein-powder",
+    "url": "https://promixnutrition.com/products/unflavored-whey-protein-powder?variant=39950073954393",
+    "checked": "2026-10-16",
+    "price": 64,
+    "variant": "1 Bag",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Unflavored Whey Protein",
+    "category": "supplements",
+    "type": "protein-powder",
+    "description": "Unflavored whey protein powder made from milk. Review the exact ingredient and supplement-facts panel for the selected bag.",
+    "badges": [
+      "25g protein",
+      "Unflavored"
+    ],
+    "qty": "1 bag",
+    "attributes": {
+      "Protein": "25 g / serving (brand label)",
+      "Flavor": "Unflavored",
+      "Contains": "Milk"
+    },
+    "filters": {},
+    "ingredients": "Full current ingredient list not yet transcribed. See the manufacturer label.",
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "whey"
+      ],
+      "form": [
+        "powder"
+      ]
+    }
+  },
+  {
+    "id": "hooga-hg300",
+    "slug": "hooga-hg300",
+    "brand": "Hooga",
+    "brandId": "hooga",
+    "image": "/products/hooga-hg300.jpg",
+    "source": "https://hoogahealth.com/products/hooga-300w-red-and-near-infrared-light-therapy-panel",
+    "url": "https://hoogahealth.com/products/hooga-300w-red-and-near-infrared-light-therapy-panel?variant=17572861640794",
+    "checked": "2026-10-16",
+    "price": 199,
+    "variant": "Default Title",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "HG300 Red Light Panel",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A compact red and near-infrared light panel with a tabletop stand. Listed specifications are manufacturer-reported, not evidence of health outcomes.",
+    "badges": [
+      "660 / 850nm",
+      "Tabletop panel"
+    ],
+    "qty": "1 device",
+    "attributes": {
+      "Wavelengths": "660 nm / 850 nm",
+      "LEDs": "60",
+      "Power consumption": "80 W",
+      "Warranty": "3 years (manufacturer terms)",
+      "Irradiance": "73 mW/cm\u00b2 at 6 in (manufacturer reported)"
+    },
+    "filters": {},
+    "ingredients": "Full current ingredient list not yet transcribed. See the manufacturer label.",
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "ledCount": [
+        "60"
+      ]
+    }
+  },
+  {
+    "id": "mito-min",
+    "slug": "mito-min",
+    "brand": "Mito Red Light",
+    "brandId": "mito-red-light",
+    "image": "/products/mito-min.jpg",
+    "source": "https://mitoredlight.com/products/mitomin",
+    "url": "https://mitoredlight.com/products/mitomin?variant=50498487550120",
+    "checked": "2026-10-16",
+    "price": 249,
+    "variant": "Default Title",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "MitoMIN 2.0",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A tabletop red and near-infrared panel with adjustable timer. Review model-specific measurements and their testing conditions.",
+    "badges": [
+      "60 LEDs",
+      "Tabletop panel"
+    ],
+    "qty": "1 device",
+    "attributes": {
+      "Wavelengths": "660 nm / 850 nm",
+      "LEDs": "60",
+      "Power consumption": "85 W",
+      "Warranty": "2 years (manufacturer terms)"
+    },
+    "filters": {},
+    "ingredients": "Full current ingredient list not yet transcribed. See the manufacturer label.",
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "ledCount": [
+        "60"
+      ]
+    }
+  },
+  {
+    "id": "mito-mid",
+    "slug": "mito-mid",
+    "brand": "Mito Red Light",
+    "brandId": "mito-red-light",
+    "image": "/products/mito-mid.jpg",
+    "source": "https://mitoredlight.com/products/mitomid",
+    "url": "https://mitoredlight.com/products/mitomid?variant=28278145810532",
+    "checked": "2026-10-16",
+    "price": 449,
+    "variant": "Default Title",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "MitoMID 2.0",
+    "category": "recovery",
+    "type": "red-light-panel",
+    "description": "A larger red and near-infrared panel in the Mito Original series. Compare dimensions, output measurement conditions and warranty.",
+    "badges": [
+      "100 LEDs",
+      "Mid-size panel"
+    ],
+    "qty": "1 device",
+    "attributes": {
+      "Wavelengths": "660 nm / 850 nm",
+      "LEDs": "100",
+      "Power consumption": "150 W",
+      "Warranty": "2 years (manufacturer terms)"
+    },
+    "filters": {},
+    "ingredients": "Full current ingredient list not yet transcribed. See the manufacturer label.",
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "ledCount": [
+        "100"
+      ]
+    }
+  },
+  {
+    "id": "momentous-ashwagandha",
+    "slug": "momentous-ashwagandha",
+    "brand": "Momentous",
+    "brandId": "momentous",
+    "image": "/products/momentous-ashwagandha.webp",
+    "source": "https://www.livemomentous.com/products/ashwagandha",
+    "url": "https://www.livemomentous.com/products/ashwagandha?variant=42867668091063",
+    "checked": "2026-10-16",
+    "price": 24.99,
+    "variant": "60 capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Ashwagandha \u2014 NooGandha",
+    "category": "supplements",
+    "type": "ashwagandha-supplement",
+    "description": "A capsule formula with a root-and-leaf ashwagandha extract. The label identifies the extract standardization, making it easier to compare with root-only formulas.",
+    "badges": [
+      "300 mg ashwagandha",
+      "60 servings"
+    ],
+    "qty": "60 capsules",
+    "servings": 60,
+    "attributes": {
+      "Amount per serving": "300 mg NooGandha ashwagandha extract",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "60",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan (manufacturer-listed)",
+      "Extract standardization": "4% withanolides; root and leaf",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Liposomal NooGandha ashwagandha extract (Withania somnifera root and leaf, standardized to 4% withanolides). Other ingredients: rice flour, hypromellose capsule, calcium laurate, silica.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true
+    },
+    "facets": {
+      "goals": [
+        "calm",
+        "brain"
+      ],
+      "ingredient": [
+        "ashwagandha"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan"
+      ]
+    }
+  },
+  {
+    "id": "momentous-magnesium-threonate",
+    "slug": "momentous-magnesium-threonate",
+    "brand": "Momentous",
+    "brandId": "momentous",
+    "image": "/products/momentous-magnesium-threonate.webp",
+    "source": "https://www.livemomentous.com/products/magnesium-threonate",
+    "url": "https://www.livemomentous.com/products/magnesium-threonate?variant=41127755251895",
+    "checked": "2026-10-16",
+    "price": 49.99,
+    "variant": "90 capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Magnesium L-Threonate",
+    "category": "supplements",
+    "type": "magnesium-supplement",
+    "description": "A Magtein magnesium L-threonate formula in capsules. The facts panel separates elemental magnesium from the larger weight of the magnesium compound.",
+    "badges": [
+      "145 mg magnesium",
+      "Magtein"
+    ],
+    "qty": "90 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "145 mg elemental magnesium from 2 g Magtein",
+      "Serving size": "3 capsules",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Magnesium from Magtein magnesium L-threonate. Other ingredients: rice flour, hypromellose capsule, magnesium stearate, silica.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "brain",
+        "calm"
+      ],
+      "ingredient": [
+        "magnesium"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "momentous-l-theanine",
+    "slug": "momentous-l-theanine",
+    "brand": "Momentous",
+    "brandId": "momentous",
+    "image": "/products/momentous-l-theanine.webp",
+    "source": "https://www.livemomentous.com/products/l-theanine",
+    "url": "https://www.livemomentous.com/products/l-theanine?variant=41127756791991",
+    "checked": "2026-10-16",
+    "price": 39.99,
+    "variant": "60 capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "L-Theanine",
+    "category": "supplements",
+    "type": "l-theanine-supplement",
+    "description": "A single-active-ingredient L-theanine supplement. Compare the 200 mg serving and capsule format with gummies and multi-ingredient blends.",
+    "badges": [
+      "200 mg L-theanine",
+      "60 servings"
+    ],
+    "qty": "60 capsules",
+    "servings": 60,
+    "attributes": {
+      "Amount per serving": "200 mg L-theanine",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "60",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "L-theanine. Other ingredients: rice flour, hypromellose capsule, magnesium stearate, silica.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "calm",
+        "brain",
+        "sleep"
+      ],
+      "ingredient": [
+        "l-theanine"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "momentous-creatine-monohydrate",
+    "slug": "momentous-creatine-monohydrate",
+    "brand": "Momentous",
+    "brandId": "momentous",
+    "image": "/products/momentous-creatine-monohydrate.webp",
+    "source": "https://www.livemomentous.com/products/creatine-monohydrate",
+    "url": "https://www.livemomentous.com/products/creatine-monohydrate?variant=48936197783735",
+    "checked": "2026-10-16",
+    "price": 42.99,
+    "variant": "Unflavored",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Signature Spec Creatine \u2014 Unflavored",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "Unflavored creatine monohydrate with no other ingredients listed. This listing is for the 90-serving jar and its one-time purchase price.",
+    "badges": [
+      "5 g creatine",
+      "90 servings"
+    ],
+    "qty": "90-serving jar",
+    "servings": 90,
+    "attributes": {
+      "Amount per serving": "5 g creatine monohydrate",
+      "Serving size": "1 scoop (5 g)",
+      "Form": "Powder",
+      "Servings per container": "90",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Creatine monohydrate. Other ingredients: none.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance",
+        "brain"
+      ],
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "double-wood-lions-mane-mushroom",
+    "slug": "double-wood-lions-mane-mushroom",
+    "brand": "Double Wood",
+    "brandId": "double-wood",
+    "image": "/products/double-wood-lions-mane-mushroom.webp",
+    "source": "https://doublewoodsupplements.com/products/lions-mane-mushroom",
+    "url": "https://doublewoodsupplements.com/products/lions-mane-mushroom?variant=44436006273218",
+    "checked": "2026-10-16",
+    "price": 22.95,
+    "variant": "One Bottle",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Lion\u2019s Mane Mushroom",
+    "category": "supplements",
+    "type": "mushroom-supplement",
+    "description": "A lion\u2019s mane capsule that explicitly lists fruiting body, mycelium, and extracellular compounds. The listing documents the mushroom material without implying a proven neurological outcome.",
+    "badges": [
+      "1,000 mg per serving",
+      "120 capsules"
+    ],
+    "qty": "120 capsules",
+    "servings": 60,
+    "attributes": {
+      "Amount per serving": "1,000 mg organic lion\u2019s mane mushroom material",
+      "Serving size": "2 capsules",
+      "Form": "Capsule",
+      "Servings per container": "60",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Mushroom material": "Fruiting body, mycelium and extracellular compounds; not fruiting-body-only",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Organic lion\u2019s mane (Hericium erinaceus), entire fruiting body, mycelium and extracellular compounds. Other ingredients: hypromellose capsule, microcrystalline cellulose, vegetable stearate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "brain"
+      ],
+      "ingredient": [
+        "lions-mane"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": []
+    }
+  },
+  {
+    "id": "double-wood-apigenin",
+    "slug": "double-wood-apigenin",
+    "brand": "Double Wood",
+    "brandId": "double-wood",
+    "image": "/products/double-wood-apigenin.webp",
+    "source": "https://doublewoodsupplements.com/products/apigenin",
+    "url": "https://doublewoodsupplements.com/products/apigenin?variant=44436008992962",
+    "checked": "2026-10-16",
+    "price": 24.95,
+    "variant": "One Bottle",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Apigenin 50 mg",
+    "category": "supplements",
+    "type": "apigenin-supplement",
+    "description": "A single-active-ingredient apigenin capsule marketed for an evening routine. Each bottle contains 120 servings at the label\u2019s one-capsule serving size.",
+    "badges": [
+      "50 mg apigenin",
+      "120 servings"
+    ],
+    "qty": "120 capsules",
+    "servings": 120,
+    "attributes": {
+      "Amount per serving": "50 mg apigenin",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "120",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Apigenin. Other ingredients: hypromellose capsule, microcrystalline cellulose, vegetable stearate, silica.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "calm",
+        "sleep"
+      ],
+      "ingredient": [
+        "apigenin"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "double-wood-liposomal-coq10-supplement",
+    "slug": "double-wood-liposomal-coq10-supplement",
+    "brand": "Double Wood",
+    "brandId": "double-wood",
+    "image": "/products/double-wood-liposomal-coq10-supplement.webp",
+    "source": "https://doublewoodsupplements.com/products/liposomal-coq10-supplement",
+    "url": "https://doublewoodsupplements.com/products/liposomal-coq10-supplement?variant=46236391932098",
+    "checked": "2026-10-16",
+    "price": 19.95,
+    "variant": "One Bottle",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Liposomal CoQ10",
+    "category": "supplements",
+    "type": "coq10-supplement",
+    "description": "A CoQ10 and lipid blend in capsule form. Its facts panel lists 100 mg of the combined blend, so the blend weight should not be read as 100 mg of pure CoQ10.",
+    "badges": [
+      "CoQ10 + lipid blend",
+      "60 servings"
+    ],
+    "qty": "60 capsules",
+    "servings": 60,
+    "attributes": {
+      "Amount per serving": "100 mg CELLg8 blend (70% CoQ10, 30% lipids)",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "60",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Label detail": "100 mg is the blend weight; the blend is labeled 70% CoQ10",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "CELLg8 (70% CoQ10, 30% lipids). Other ingredients: microcrystalline cellulose, bamboo extract.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "heart"
+      ],
+      "ingredient": [
+        "coq10"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "gaia-herbs-vitex-berry",
+    "slug": "gaia-herbs-vitex-berry",
+    "brand": "Gaia Herbs",
+    "brandId": "gaia-herbs",
+    "image": "/products/gaia-herbs-vitex-berry.webp",
+    "source": "https://www.gaiaherbs.com/products/vitex-berry",
+    "url": "https://www.gaiaherbs.com/products/vitex-berry?variant=20669342449775",
+    "checked": "2026-10-16",
+    "price": 19.79,
+    "variant": "60 ct",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Vitex Berry",
+    "category": "supplements",
+    "type": "vitex-supplement",
+    "description": "A vitex berry extract listed in the brand\u2019s menstrual-cycle support range. The label supplies both extract weight and the agnuside amount.",
+    "badges": [
+      "Vitex berry extract",
+      "30 servings"
+    ],
+    "qty": "60 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "1,000 mg chaste tree berry extract; 3 mg agnuside",
+      "Serving size": "2 capsules",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Brand caution": "Not for use during pregnancy or lactation; consult the current product label",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Organic chaste tree (Vitex agnus-castus) berry extract. Other ingredients: vegetable glycerin, water, vegan hypromellose capsule.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "hormonal"
+      ],
+      "ingredient": [
+        "vitex"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "gaia-herbs-sleepthru",
+    "slug": "gaia-herbs-sleepthru",
+    "brand": "Gaia Herbs",
+    "brandId": "gaia-herbs",
+    "image": "/products/gaia-herbs-sleepthru.webp",
+    "source": "https://www.gaiaherbs.com/products/sleepthru",
+    "url": "https://www.gaiaherbs.com/products/sleepthru?variant=20669302210671",
+    "checked": "2026-10-16",
+    "price": 32.39,
+    "variant": "60 ct",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "SleepThru",
+    "category": "supplements",
+    "type": "sleep-supplement",
+    "description": "A four-botanical capsule blend marketed for an evening routine. The label discloses the combined blend weight but does not break out each botanical\u2019s amount.",
+    "badges": [
+      "4-botanical blend",
+      "No melatonin listed"
+    ],
+    "qty": "60 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "940 mg herbal extract blend; individual amounts undisclosed",
+      "Serving size": "2 capsules",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Blend disclosure": "Individual botanical amounts not documented",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Herbal extract blend: organic ashwagandha root, magnolia bark, organic passionflower flowering vine, organic jujube fruit and seed. Other ingredients: vegetable glycerin, water, vegan hypromellose capsule.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "ashwagandha",
+        "magnolia",
+        "passionflower",
+        "jujube"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "olly-goodbye-stress",
+    "slug": "olly-goodbye-stress",
+    "brand": "OLLY",
+    "brandId": "olly",
+    "image": "/products/olly-goodbye-stress.webp",
+    "source": "https://www.olly.com/products/goodbye-stress",
+    "url": "https://www.olly.com/products/goodbye-stress?variant=18073195249728",
+    "checked": "2026-10-16",
+    "price": 13.99,
+    "variant": "21 Servings",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Goodbye Stress Gummies",
+    "category": "supplements",
+    "type": "calm-supplement",
+    "description": "Berry Verbena gummies combining GABA, L-theanine, and lemon balm. This 42-gummy bottle contains gelatin and 2 g of added sugar per two-gummy serving.",
+    "badges": [
+      "GABA + L-theanine",
+      "21 servings"
+    ],
+    "qty": "42 gummies",
+    "servings": 21,
+    "attributes": {
+      "Amount per serving": "100 mg GABA; 50 mg L-theanine; 75 mg lemon balm extract",
+      "Serving size": "2 gummies",
+      "Form": "Gummy",
+      "Servings per container": "21",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Added sugar": "2 g / serving",
+      "Total sugar": "2 g / serving",
+      "Contains": "Gelatin",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "GABA, L-theanine, lemon balm extract (aerial parts). Other ingredients: glucose syrup, sugar, water, gelatin, natural flavor, citric acid, fruit and vegetable juice color, pectin, vegetable oil (coconut, canola), carnauba wax.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "noAddedSugar": false,
+      "zeroSugar": false,
+      "vegan": false
+    },
+    "facets": {
+      "goals": [
+        "calm"
+      ],
+      "ingredient": [
+        "gaba",
+        "l-theanine",
+        "lemon-balm"
+      ],
+      "form": [
+        "gummy"
+      ],
+      "dietary": []
+    }
+  },
+  {
+    "id": "olly-sleep",
+    "slug": "olly-sleep",
+    "brand": "OLLY",
+    "brandId": "olly",
+    "image": "/products/olly-sleep.webp",
+    "source": "https://www.olly.com/products/sleep",
+    "url": "https://www.olly.com/products/sleep?variant=22891355537472",
+    "checked": "2026-10-16",
+    "price": 13.99,
+    "variant": "25 Servings",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Sleep Blackberry Zen Gummies",
+    "category": "supplements",
+    "type": "sleep-supplement",
+    "description": "Blackberry-flavored sleep gummies with 3 mg melatonin per serving and a botanical blend. Compare the melatonin amount and added sugar with melatonin-free alternatives.",
+    "badges": [
+      "3 mg melatonin",
+      "25 servings"
+    ],
+    "qty": "50 gummies",
+    "servings": 25,
+    "attributes": {
+      "Amount per serving": "3 mg melatonin; 50 mg L-theanine; chamomile 17 mg; passionflower 17 mg; lemon balm 16 mg",
+      "Serving size": "2 gummies",
+      "Form": "Gummy",
+      "Servings per container": "25",
+      "Melatonin": "3 mg / serving",
+      "Caffeine": "No caffeine listed",
+      "Added sugar": "2 g / serving",
+      "Total sugar": "2 g / serving",
+      "Contains": "Gelatin",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Melatonin, L-theanine, chamomile extract (flower), passionflower extract (aerial parts), lemon balm extract (aerial parts). Other ingredients: glucose syrup, sugar, water, gelatin, pectin, citric acid, coloring from carrot and blueberry juices, natural flavors, sodium citrate, vegetable oil (coconut), carnauba wax.",
+    "filters": {
+      "noMelatonin": false,
+      "caffeineFree": true,
+      "noAddedSugar": false,
+      "zeroSugar": false,
+      "vegan": false
+    },
+    "facets": {
+      "goals": [
+        "sleep"
+      ],
+      "ingredient": [
+        "melatonin",
+        "l-theanine",
+        "chamomile",
+        "passionflower",
+        "lemon-balm"
+      ],
+      "form": [
+        "gummy"
+      ],
+      "dietary": []
+    }
+  },
+  {
+    "id": "maryruths-magnesium-calm-gummies",
+    "slug": "maryruths-magnesium-calm-gummies",
+    "brand": "MaryRuth\u2019s",
+    "brandId": "maryruths",
+    "image": "/products/maryruths-magnesium-calm-gummies.webp",
+    "source": "https://www.maryruthorganics.com/products/magnesium-calm-gummies",
+    "url": "https://www.maryruthorganics.com/products/magnesium-calm-gummies?variant=40033592049761",
+    "checked": "2026-10-16",
+    "price": 24.95,
+    "variant": "60 gummies",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Magnesium Calm Gummies",
+    "category": "supplements",
+    "type": "magnesium-supplement",
+    "description": "Hibiscus-flavored magnesium citrate gummies with a one-gummy serving. The facts panel lists 50 mg magnesium and 0 g total sugar per gummy.",
+    "badges": [
+      "50 mg magnesium",
+      "0 g sugar"
+    ],
+    "qty": "60 gummies",
+    "servings": 60,
+    "attributes": {
+      "Amount per serving": "50 mg magnesium as magnesium citrate",
+      "Serving size": "1 gummy",
+      "Form": "Gummy",
+      "Servings per container": "60",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Total sugar": "0 g / serving",
+      "Added sugar": "0 g / serving",
+      "Sweeteners": "Erythritol, organic rebaudioside A",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Magnesium as magnesium citrate. Other ingredients: soluble tapioca fiber, organic isomalto-oligosaccharides, purified water, organic erythritol, agar-agar; less than 2% natural flavors, citric acid, locust bean gum, organic rebaudioside A, vegetable juice color.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true,
+      "zeroSugar": true,
+      "noAddedSugar": true,
+      "stevia": true
+    },
+    "facets": {
+      "goals": [
+        "calm"
+      ],
+      "ingredient": [
+        "magnesium"
+      ],
+      "form": [
+        "gummy"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "maryruths-adult-sleep-gummies",
+    "slug": "maryruths-adult-sleep-gummies",
+    "brand": "MaryRuth\u2019s",
+    "brandId": "maryruths",
+    "image": "/products/maryruths-adult-sleep-gummies.webp",
+    "source": "https://www.maryruthorganics.com/products/adult-sleep-gummies",
+    "url": "https://www.maryruthorganics.com/products/adult-sleep-gummies?variant=40039689748577",
+    "checked": "2026-10-16",
+    "price": 24.95,
+    "variant": "60 gummies",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Melatonin Free Sleep Gummies",
+    "category": "supplements",
+    "type": "sleep-supplement",
+    "description": "Strawberry gummies explicitly formulated without melatonin. The label lists L-theanine, two botanical extracts, vitamin B6, and 3 g of sugar alcohols per serving.",
+    "badges": [
+      "Melatonin-free",
+      "200 mg L-theanine"
+    ],
+    "qty": "60 gummies",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "200 mg L-theanine; 80 mg chamomile; 20 mg lemon balm; 20 mg vitamin B6",
+      "Serving size": "2 gummies",
+      "Form": "Gummy",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Sugar alcohols": "3 g / serving",
+      "Sweeteners": "Maltitol, erythritol, xylitol, organic rebaudioside A",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Vitamin B6 as pyridoxine hydrochloride, L-theanine, chamomile flower extract (10:1), lemon balm leaf extract (10:1). Other ingredients: maltitol, purified water, organic erythritol, xylitol, pectin; less than 2% citric acid, natural flavors, sodium citrate, fruit juice color, organic rebaudioside A.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true,
+      "zeroSugar": true,
+      "stevia": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "l-theanine",
+        "chamomile",
+        "lemon-balm",
+        "vitamin-b6"
+      ],
+      "form": [
+        "gummy"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "ora-organic-probiotics-prebiotics-daily",
+    "slug": "ora-organic-probiotics-prebiotics-daily",
+    "brand": "Ora Organic",
+    "brandId": "ora-organic",
+    "image": "/products/ora-organic-probiotics-prebiotics-daily.webp",
+    "source": "https://ora.organic/products/probiotics-prebiotics-daily",
+    "url": "https://ora.organic/products/probiotics-prebiotics-daily?variant=39196992519",
+    "checked": "2026-10-16",
+    "price": 39.99,
+    "variant": "60 capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Probiotic + Prebiotic Daily",
+    "category": "supplements",
+    "type": "probiotic-supplement",
+    "description": "A six-strain probiotic paired with Jerusalem artichoke inulin. The label identifies strain codes, CFU, and prebiotic amount for a more useful comparison than a single bacteria count.",
+    "badges": [
+      "16 billion CFU",
+      "6 identified strains"
+    ],
+    "qty": "60 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "16 billion CFU; 750 mg Jerusalem artichoke inulin",
+      "Serving size": "2 capsules",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Strain count": "6",
+      "Prebiotic": "750 mg organic Jerusalem artichoke inulin",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Organic Jerusalem artichoke inulin; OraFlora probiotic blend: Lactobacillus acidophilus La14, Bifidobacterium lactis UABla12, Bifidobacterium breve UABbr11, Lactobacillus reuteri UALre16, Bifidobacterium bifidum UABb10, Bifidobacterium longum UABl14. Other ingredients: organic maltodextrin, pullulan capsule.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "gut",
+        "immune"
+      ],
+      "ingredient": [
+        "probiotic",
+        "prebiotic"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "ora-organic-break-it-down-digestive-enzymes-capsules",
+    "slug": "ora-organic-break-it-down-digestive-enzymes-capsules",
+    "brand": "Ora Organic",
+    "brandId": "ora-organic",
+    "image": "/products/ora-organic-break-it-down-digestive-enzymes-capsules.webp",
+    "source": "https://ora.organic/products/break-it-down-digestive-enzymes-capsules",
+    "url": "https://ora.organic/products/break-it-down-digestive-enzymes-capsules?variant=40607280496838",
+    "checked": "2026-10-16",
+    "price": 35.99,
+    "variant": "30 capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Digestive Enzymes Capsules",
+    "category": "supplements",
+    "type": "enzyme-supplement",
+    "description": "A digestive enzyme blend that also contains Bacillus subtilis. The manufacturer label lists individual enzyme activity units, which matter more than comparing blend weight alone.",
+    "badges": [
+      "Enzyme + probiotic blend",
+      "30 servings"
+    ],
+    "qty": "30 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "300 mg enzyme blend; Bacillus subtilis listed at 1 billion CFU",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Enzyme activity": "Examples: protease 48,100 HUT; lipase 2,960 FIP; lactase 275 ALU. Full panel at source.",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Ora enzyme blend: bacterial protease, lipase, aspergillopepsin, glucoamylase, phytase, fungal amylase, cellulase, lactase, papain, pectinase, peptidase, hemicellulase, xylanase, bromelain, beta glucanase, Bacillus subtilis. Other ingredients: vegan capsule, organic pineapple juice powder.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "gut"
+      ],
+      "ingredient": [
+        "digestive-enzymes",
+        "probiotic"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "ora-organic-plant-based-dha-omega-3",
+    "slug": "ora-organic-plant-based-dha-omega-3",
+    "brand": "Ora Organic",
+    "brandId": "ora-organic",
+    "image": "/products/ora-organic-plant-based-dha-omega-3.webp",
+    "source": "https://ora.organic/products/plant-based-dha-omega-3",
+    "url": "https://ora.organic/products/plant-based-dha-omega-3?variant=41353684287686",
+    "checked": "2026-10-16",
+    "price": 49.99,
+    "variant": "60 capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Plant-Based DHA Omega-3",
+    "category": "supplements",
+    "type": "omega-3-supplement",
+    "description": "An algae-derived DHA supplement in capsules. This formula lists DHA specifically, allowing shoppers to distinguish it from products that report a combined EPA-and-DHA total.",
+    "badges": [
+      "500 mg DHA",
+      "Algae-derived"
+    ],
+    "qty": "60 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "500 mg DHA from AvailOm high-DHA algae powder",
+      "Serving size": "2 capsules",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Omega-3 source": "Algae",
+      "EPA": "Not documented on the facts panel",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Docosahexaenoic acid (DHA) from AvailOm 50 high-DHA algae powder. Other ingredients: vegan capsules.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "heart",
+        "brain"
+      ],
+      "ingredient": [
+        "omega-3",
+        "dha"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "naturelo-vitamin-c-acerola-cherry-citrus-bioflavonoids",
+    "slug": "naturelo-vitamin-c-acerola-cherry-citrus-bioflavonoids",
+    "brand": "NATURELO",
+    "brandId": "naturelo",
+    "image": "/products/naturelo-vitamin-c-acerola-cherry-citrus-bioflavonoids.webp",
+    "source": "https://naturelo.com/products/vitamin-c-acerola-cherry-citrus-bioflavonoids",
+    "url": "https://naturelo.com/products/vitamin-c-acerola-cherry-citrus-bioflavonoids?variant=43489404256423",
+    "checked": "2026-10-16",
+    "price": 24.95,
+    "variant": "90 Capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Vitamin C with Acerola & Citrus",
+    "category": "supplements",
+    "type": "vitamin-c-supplement",
+    "description": "A vitamin C capsule that also lists citrus bioflavonoids. This entry uses the 90-capsule bottle, with one capsule per labeled serving.",
+    "badges": [
+      "500 mg vitamin C",
+      "90 servings"
+    ],
+    "qty": "90 capsules",
+    "servings": 90,
+    "attributes": {
+      "Amount per serving": "500 mg vitamin C; 45 mg citrus bioflavonoids",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "90",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Vitamin C from L-ascorbate and organic acerola cherry fruit extract; citrus bioflavonoids extract from Citrus aurantium bitter orange fruit. Other ingredients: organic acacia gum, hypromellose vegetarian capsule, organic rice flour.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "immune"
+      ],
+      "ingredient": [
+        "vitamin-c"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "naturelo-vegan-vitamin-d3-2500",
+    "slug": "naturelo-vegan-vitamin-d3-2500",
+    "brand": "NATURELO",
+    "brandId": "naturelo",
+    "image": "/products/naturelo-vegan-vitamin-d3-2500.webp",
+    "source": "https://naturelo.com/products/vegan-vitamin-d3-2500",
+    "url": "https://naturelo.com/products/vegan-vitamin-d3-2500?variant=43667225313447",
+    "checked": "2026-10-16",
+    "price": 21.95,
+    "variant": "120 Capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Vegan Vitamin D3 \u2014 2,500 IU",
+    "category": "supplements",
+    "type": "vitamin-d-supplement",
+    "description": "A lichen-derived vitamin D3 supplement in vegetarian capsules. The label states the amount in both micrograms and international units.",
+    "badges": [
+      "2,500 IU vitamin D3",
+      "Lichen-derived"
+    ],
+    "qty": "120 capsules",
+    "servings": 120,
+    "attributes": {
+      "Amount per serving": "62.5 mcg vitamin D3 (2,500 IU)",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "120",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Vitamin D3 as plant-based cholecalciferol from wild-harvested lichen. Other ingredients: rice bran extract, hypromellose vegetarian capsule, rice fiber, tapioca dextrin, silica.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true
+    },
+    "facets": {
+      "goals": [
+        "immune"
+      ],
+      "ingredient": [
+        "vitamin-d"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan"
+      ]
+    }
+  },
+  {
+    "id": "naturelo-vegan-zinc",
+    "slug": "naturelo-vegan-zinc",
+    "brand": "NATURELO",
+    "brandId": "naturelo",
+    "image": "/products/naturelo-vegan-zinc.webp",
+    "source": "https://naturelo.com/products/vegan-zinc",
+    "url": "https://naturelo.com/products/vegan-zinc?variant=43489403109543",
+    "checked": "2026-10-16",
+    "price": 21.95,
+    "variant": "120 capsules",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Vegan Zinc Complex",
+    "category": "supplements",
+    "type": "zinc-supplement",
+    "description": "A zinc-and-vitamin-C capsule formula with small amounts of vegetable powders. The 120-capsule bottle contains 60 servings at the label\u2019s two-capsule serving size.",
+    "badges": [
+      "35 mg zinc",
+      "60 servings"
+    ],
+    "qty": "120 capsules",
+    "servings": 60,
+    "attributes": {
+      "Amount per serving": "35 mg zinc; 90 mg vitamin C",
+      "Serving size": "2 capsules",
+      "Form": "Capsule",
+      "Servings per container": "60",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Vitamin C from acerola cherry fruit extract; zinc as zinc citrate; organic asparagus aerial-parts powder, beet root powder, broccoli stem and flower powder, green peas seed powder, spinach leaf and stalk powder. Other ingredients: rice bran, plant-based maltodextrin, hypromellose vegetarian capsule, silica.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "immune"
+      ],
+      "ingredient": [
+        "zinc",
+        "vitamin-c"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "transparent-labs-ksm-66-ashwagandha",
+    "slug": "transparent-labs-ksm-66-ashwagandha",
+    "brand": "Transparent Labs",
+    "brandId": "transparent-labs",
+    "image": "/products/transparent-labs-ksm-66-ashwagandha.webp",
+    "source": "https://www.transparentlabs.com/products/ksm-66-ashwagandha",
+    "url": "https://www.transparentlabs.com/products/ksm-66-ashwagandha?variant=39946068721757",
+    "checked": "2026-10-16",
+    "price": 19.99,
+    "variant": "60 Servings",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "KSM-66 Ashwagandha",
+    "category": "supplements",
+    "type": "ashwagandha-supplement",
+    "description": "A root-only KSM-66 ashwagandha extract in capsules. Compare its 600 mg serving and 5% withanolide standardization with other ashwagandha extracts.",
+    "badges": [
+      "600 mg KSM-66",
+      "Root-only extract"
+    ],
+    "qty": "60 capsules",
+    "servings": 60,
+    "attributes": {
+      "Amount per serving": "600 mg KSM-66 ashwagandha root extract",
+      "Serving size": "1 capsule",
+      "Form": "Capsule",
+      "Servings per container": "60",
+      "Dietary labels": "Vegan (manufacturer-listed)",
+      "Extract standardization": "Minimum 5% total withanolides; root only",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Active ingredient: KSM-66 ashwagandha (Withania somnifera) root extract, minimum 5% total withanolides. Other ingredients: not documented in the source facts image.",
+    "filters": {
+      "vegan": true
+    },
+    "facets": {
+      "goals": [
+        "calm"
+      ],
+      "ingredient": [
+        "ashwagandha"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan"
+      ]
+    }
+  },
+  {
+    "id": "transparent-labs-creatine-hmb",
+    "slug": "transparent-labs-creatine-hmb",
+    "brand": "Transparent Labs",
+    "brandId": "transparent-labs",
+    "image": "/products/transparent-labs-creatine-hmb.webp",
+    "source": "https://www.transparentlabs.com/products/creatine-hmb",
+    "url": "https://www.transparentlabs.com/products/creatine-hmb?variant=39785037103197",
+    "checked": "2026-10-16",
+    "price": 49.99,
+    "variant": "30sv / Unflavored",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Creatine HMB \u2014 Unflavored",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "An unflavored creatine-and-HMB blend. This listing is the 30-serving tub; the manufacturer also offers larger tubs and flavored versions with different ingredient details.",
+    "badges": [
+      "5 g creatine + HMB",
+      "30 servings"
+    ],
+    "qty": "30-serving tub",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "5 g creatine monohydrate; 1.5 g HMB; 5 mg BioPerine",
+      "Serving size": "1 scoop; scoop weight not documented",
+      "Form": "Powder",
+      "Servings per container": "30",
+      "Dietary labels": "Vegan (manufacturer-listed)",
+      "Flavor": "Unflavored",
+      "Full ingredient panel": "Not documented for the selected unflavored variant",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Disclosed active ingredients: creatine monohydrate, HMB, vitamin D3, BioPerine black pepper extract. Full current unflavored ingredient panel: not documented in the source images reviewed.",
+    "filters": {
+      "vegan": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "creatine",
+        "hmb",
+        "vitamin-d"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "vegan"
+      ]
+    }
+  },
+  {
+    "id": "transparent-labs-melatonin-free-sleep-aid",
+    "slug": "transparent-labs-melatonin-free-sleep-aid",
+    "brand": "Transparent Labs",
+    "brandId": "transparent-labs",
+    "image": "/products/transparent-labs-melatonin-free-sleep-aid.webp",
+    "source": "https://www.transparentlabs.com/products/melatonin-free-sleep-aid",
+    "url": "https://www.transparentlabs.com/products/melatonin-free-sleep-aid?variant=42362341064797",
+    "checked": "2026-10-16",
+    "price": 29.99,
+    "variant": "30 Servings",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Sleep & Recover \u2014 Melatonin Free",
+    "category": "supplements",
+    "type": "sleep-supplement",
+    "description": "A melatonin-free capsule blend with glycine, tart cherry, L-theanine, and minerals. Four capsules make one labeled serving, an important difference when comparing bottle sizes.",
+    "badges": [
+      "Melatonin-free",
+      "4 capsules per serving"
+    ],
+    "qty": "120 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "1,000 mg glycine; 500 mg tart cherry; 200 mg L-theanine; 105 mg magnesium",
+      "Serving size": "4 capsules",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Other labeled actives": "Vitamin B6 10 mg; zinc 15 mg; rutaecarpine 100 mg",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Disclosed active ingredients: vitamin B6 as pyridoxal-5-phosphate, magnesium citrate, zinc citrate, L-glycine, VitaCherry Sport tart cherry fruit, L-theanine, rutaecarpine. Other ingredients: not documented in the source facts image.",
+    "filters": {
+      "noMelatonin": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "glycine",
+        "l-theanine",
+        "magnesium",
+        "tart-cherry",
+        "zinc",
+        "vitamin-b6"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": []
+    }
+  },
+  {
+    "id": "double-wood-inositol",
+    "slug": "double-wood-inositol",
+    "brand": "Double Wood",
+    "brandId": "double-wood",
+    "image": "/products/double-wood-inositol.webp",
+    "source": "https://doublewoodsupplements.com/products/inositol",
+    "url": "https://doublewoodsupplements.com/products/inositol?variant=44434703614146",
+    "checked": "2026-10-16",
+    "price": 14.95,
+    "variant": "One Bottle",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Myo-Inositol",
+    "category": "supplements",
+    "type": "inositol-supplement",
+    "description": "A myo-inositol capsule formula listed in the brand\u2019s hormone-support range. Its facts panel identifies myo-inositol rather than a combined myo-and-D-chiro blend.",
+    "badges": [
+      "1,000 mg myo-inositol",
+      "30 servings"
+    ],
+    "qty": "60 capsules",
+    "servings": 30,
+    "attributes": {
+      "Amount per serving": "1,000 mg myo-inositol",
+      "Serving size": "2 capsules",
+      "Form": "Capsule",
+      "Servings per container": "30",
+      "Melatonin": "No melatonin listed",
+      "Caffeine": "No caffeine listed",
+      "Dietary labels": "Vegan, Gluten-free (manufacturer-listed)",
+      "Purchase option": "One-time purchase; selected pack"
+    },
+    "ingredients": "Myo-inositol. Other ingredients: hypromellose vegetable capsule, ascorbyl palmitate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "vegan": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "hormonal"
+      ],
+      "ingredient": [
+        "inositol"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "lmnt-citrus-salt",
+    "slug": "lmnt-citrus-salt",
+    "brand": "LMNT",
+    "brandId": "lmnt",
+    "image": "/products/lmnt-citrus-salt.webp",
+    "source": "https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink",
+    "url": "https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink?variant=16358367199266",
+    "checked": "2026-10-16",
+    "price": 45,
+    "variant": "Citrus Salt / 30-count",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Citrus Salt Electrolytes",
+    "category": "drinks",
+    "type": "hydration-mix",
+    "description": "A lemon-lime electrolyte powder with 1,000 mg sodium per stick. Sweetened with stevia and packaged as thirty individual servings.",
+    "badges": [
+      "0g sugar",
+      "1,000mg sodium"
+    ],
+    "qty": "30 stick packs",
+    "servings": 30,
+    "attributes": {
+      "Caffeine": "0 mg / serving",
+      "Total sugar": "0 g / serving",
+      "Sodium": "1,000 mg / serving",
+      "Potassium": "200 mg / serving",
+      "Magnesium": "60 mg / serving",
+      "Serving size": "1 stick pack (6 g)",
+      "Pack": "30 stick packs"
+    },
+    "ingredients": "Salt (Sodium Chloride), Citric Acid, Magnesium Malate, Potassium Chloride, Natural Lemon & Lime Flavors, Stevia Leaf Extract.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": true,
+      "caffeineFree": true,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "stevia"
+      ],
+      "goals": [
+        "hydration"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    }
+  },
+  {
+    "id": "lmnt-raw-unflavored",
+    "slug": "lmnt-raw-unflavored",
+    "brand": "LMNT",
+    "brandId": "lmnt",
+    "image": "/products/lmnt-raw-unflavored.webp",
+    "source": "https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink",
+    "url": "https://drinklmnt.com/products/lmnt-recharge-electrolyte-drink?variant=16358367232034",
+    "checked": "2026-10-16",
+    "price": 45,
+    "variant": "Raw Unflavored / 30-count",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Raw Unflavored Electrolytes",
+    "category": "drinks",
+    "type": "hydration-mix",
+    "description": "An unflavored electrolyte powder with three listed mineral ingredients. Contains no listed sweeteners and 1,000 mg sodium per serving.",
+    "badges": [
+      "No sweeteners",
+      "Unflavored"
+    ],
+    "qty": "30 stick packs",
+    "servings": 30,
+    "attributes": {
+      "Caffeine": "0 mg / serving",
+      "Total sugar": "0 g / serving",
+      "Sodium": "1,000 mg / serving",
+      "Potassium": "200 mg / serving",
+      "Magnesium": "60 mg / serving",
+      "Serving size": "1 stick pack (3.5 g)",
+      "Pack": "30 stick packs"
+    },
+    "ingredients": "Salt (Sodium Chloride), Magnesium Malate, Potassium Chloride.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": true,
+      "stevia": false,
+      "zeroSugar": true,
+      "caffeineFree": true,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "unsweetened"
+      ],
+      "goals": [
+        "hydration"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    }
+  },
+  {
+    "id": "ultima-lemonade",
+    "slug": "ultima-lemonade",
+    "brand": "Ultima Replenisher",
+    "brandId": "ultima-replenisher",
+    "image": "/products/ultima-lemonade.jpg",
+    "source": "https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink",
+    "url": "https://www.ultimareplenisher.com/products/lemonade-electrolyte-powder-drink?variant=39611980873831",
+    "checked": "2026-10-16",
+    "price": 20.99,
+    "variant": "20-serving stickpacks",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Lemonade Electrolyte Drink Mix",
+    "category": "drinks",
+    "type": "hydration-mix",
+    "description": "A lemonade-flavored electrolyte powder with stevia and zero labeled sugar. Each packet supplies magnesium, potassium, and other minerals.",
+    "badges": [
+      "0g sugar",
+      "20 servings"
+    ],
+    "qty": "20 stick packs",
+    "servings": 20,
+    "attributes": {
+      "Caffeine": "0 mg / serving",
+      "Total sugar": "0 g / serving",
+      "Added sugar": "0 g / serving",
+      "Sodium": "55 mg / serving",
+      "Potassium": "250 mg / serving",
+      "Magnesium": "100 mg / serving",
+      "Serving size": "1 stick pack",
+      "Pack": "20 stick packs"
+    },
+    "ingredients": "Citric Acid, Magnesium Citrate, Potassium Phosphate, Natural Lemon Flavor (with other Natural Flavors), Potassium Aspartate, Salt (Sodium Chloride), Calcium Ascorbate, Calcium Citrate, Rebaudioside A (Organic Stevia Leaf Extract), Calcium Lactate, Zinc Citrate and Manganese Citrate.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": true,
+      "noAddedSugar": true,
+      "caffeineFree": true,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "stevia"
+      ],
+      "goals": [
+        "hydration"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    }
+  },
+  {
+    "id": "skratch-sport-lemon-lime",
+    "slug": "skratch-sport-lemon-lime",
+    "brand": "Skratch Labs",
+    "brandId": "skratch-labs",
+    "image": "/products/skratch-sport-lemon-lime.jpg",
+    "source": "https://www.skratchlabs.com/products/hydration-sport-drink-mix",
+    "url": "https://www.skratchlabs.com/products/hydration-sport-drink-mix?variant=32766105157703",
+    "checked": "2026-10-16",
+    "price": 23.95,
+    "variant": "Lemon + Lime / Resealable Bag - 20 serving",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Lemon + Lime Sport Hydration",
+    "category": "drinks",
+    "type": "sports-drink",
+    "description": "A carbohydrate-and-electrolyte drink powder for sports use. The lemon-and-lime formula combines sugar with 400 mg sodium per scoop.",
+    "badges": [
+      "400mg sodium",
+      "Sports drink mix"
+    ],
+    "qty": "20-serving bag",
+    "servings": 20,
+    "attributes": {
+      "Total sugar": "19 g / serving",
+      "Added sugar": "19 g / serving",
+      "Sodium": "400 mg / serving",
+      "Serving size": "1 scoop (22 g)",
+      "Pack": "20-serving bag"
+    },
+    "ingredients": "Cane Sugar, Dextrose, Sodium Citrate, Citric Acid, Magnesium Lactate, Calcium Citrate, Potassium Citrate, Lemon Oil, Lime Oil, Lemon Juice, Lime Juice, Ascorbic Acid (Vitamin C).",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": true,
+      "stevia": false,
+      "zeroSugar": false,
+      "noAddedSugar": false
+    },
+    "facets": {
+      "drinkType": [
+        "sport",
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "sugar"
+      ],
+      "goals": [
+        "hydration",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "skratch-caffeinated-lemon-lime",
+    "slug": "skratch-caffeinated-lemon-lime",
+    "brand": "Skratch Labs",
+    "brandId": "skratch-labs",
+    "image": "/products/skratch-caffeinated-lemon-lime.jpg",
+    "source": "https://www.skratchlabs.com/products/hydration-sport-drink-mix",
+    "url": "https://www.skratchlabs.com/products/hydration-sport-drink-mix?variant=42558061117511",
+    "checked": "2026-10-16",
+    "price": 23.95,
+    "variant": "Caffeinated Lemon + Lime / Resealable Bag - 20 serving",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Caffeinated Lemon + Lime Sport Hydration",
+    "category": "drinks",
+    "type": "sports-drink",
+    "description": "A caffeinated sports drink powder with carbohydrate, electrolytes, and green coffee bean extract. The listed caffeine amount is 50 mg per scoop.",
+    "badges": [
+      "50mg caffeine",
+      "Sports drink mix"
+    ],
+    "qty": "20-serving bag",
+    "servings": 20,
+    "attributes": {
+      "Caffeine": "50 mg / serving",
+      "Total sugar": "19 g / serving",
+      "Added sugar": "17 g / serving",
+      "Sodium": "400 mg / serving",
+      "Serving size": "1 scoop (22 g)",
+      "Pack": "20-serving bag"
+    },
+    "ingredients": "Cane Sugar, Sodium Citrate, Dextrose, Citric Acid, Calcium Citrate, Magnesium Carbonate, Potassium Citrate, Lemon Oil, Green Coffee Bean Extract, Lime Oil, Lemon Juice, Lime Juice, Ascorbic Acid.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": true,
+      "stevia": false,
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "caffeineFree": false,
+      "lowCaffeine": true
+    },
+    "facets": {
+      "drinkType": [
+        "sport",
+        "hydration"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "sugar"
+      ],
+      "goals": [
+        "hydration",
+        "performance"
+      ],
+      "caffeine": [
+        "low"
+      ]
+    }
+  },
+  {
+    "id": "gorgie-peach-tea",
+    "slug": "gorgie-peach-tea",
+    "brand": "GORGIE",
+    "brandId": "gorgie",
+    "image": "/products/gorgie-peach-tea.png",
+    "source": "https://getgorgie.com/products/energy-drink-sparkling-peachy-keen",
+    "url": "https://getgorgie.com/products/energy-drink-sparkling-peachy-keen?variant=52897200406815",
+    "checked": "2026-10-16",
+    "price": 31.99,
+    "variant": "Case / 12 cans",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Sparkling Peach Tea Energy Drink",
+    "category": "drinks",
+    "type": "energy-drink",
+    "description": "A sparkling peach tea energy drink with green-tea caffeine, L-theanine, and B vitamins. The label lists 150 mg caffeine and zero sugar per can.",
+    "badges": [
+      "150mg caffeine",
+      "0g sugar"
+    ],
+    "qty": "12 cans",
+    "servings": 12,
+    "attributes": {
+      "Caffeine": "150 mg / serving",
+      "Total sugar": "0 g / serving",
+      "Added sugar": "0 g / serving",
+      "Sodium": "0 mg / serving",
+      "L-theanine": "75 mg / serving",
+      "Serving size": "1 can (12 fl oz)",
+      "Pack": "12 cans"
+    },
+    "ingredients": "Filtered Carbonated Water, Natural Peach Flavor With Other Natural Flavors, Citric Acid, Potassium Citrate, White Tea, Caffeine from Green Tea, Steviol Glycosides (Reb M), L-Theanine, Vegetable Juice for Color, Beta Carotene for Color, Niacinamide (Vitamin B3), Pyridoxine Hydrochloride (Vitamin B6), Ginger Root Extract, Biotin, Cyanocobalamin (Vitamin B12).",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": true,
+      "noAddedSugar": true,
+      "caffeineFree": false,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "energy"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "stevia"
+      ],
+      "goals": [
+        "focus"
+      ],
+      "caffeine": [
+        "moderate"
+      ]
+    }
+  },
+  {
+    "id": "moment-cherry-hibiscus",
+    "slug": "moment-cherry-hibiscus",
+    "brand": "Moment",
+    "brandId": "moment",
+    "image": "/products/moment-cherry-hibiscus.png",
+    "source": "https://drinkmoment.com/products/cherry-hibiscus-sparkling-variant-40622566539425",
+    "url": "https://drinkmoment.com/products/cherry-hibiscus-sparkling-variant-40622566539425?variant=40622566539425",
+    "checked": "2026-10-16",
+    "price": 44,
+    "variant": "12 Pack",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Cherry Hibiscus Botanical Drink",
+    "category": "drinks",
+    "type": "calming-drink",
+    "description": "A caffeine-free sparkling botanical drink with cherry, hibiscus, L-theanine, and ashwagandha. Its label lists 2 g total sugar and no added sugar per can.",
+    "badges": [
+      "Caffeine-free",
+      "Botanical drink"
+    ],
+    "qty": "12 cans",
+    "servings": 12,
+    "attributes": {
+      "Caffeine": "0 mg / serving",
+      "Total sugar": "2 g / serving",
+      "Added sugar": "0 g / serving",
+      "Sodium": "0 mg / serving",
+      "Sugar alcohol": "1 g erythritol / serving",
+      "Serving size": "1 can (340 mL)",
+      "Pack": "12 cans"
+    },
+    "ingredients": "Sparkling filtered water, cherry juice concentrate, red dragon fruit puree, organic apple cider vinegar, hibiscus flower extract, erythritol, natural flavors (organic hibiscus, tart cherry, pomegranate) with other natural flavors, L-theanine, ashwagandha extract, malic acid, natural cinnamon extract, monk fruit extract, stevia leaf extract.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": false,
+      "noAddedSugar": true,
+      "caffeineFree": true,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "calm"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "erythritol",
+        "monk-fruit",
+        "stevia"
+      ],
+      "goals": [
+        "calm"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    }
+  },
+  {
+    "id": "moment-blackberry-lavender",
+    "slug": "moment-blackberry-lavender",
+    "brand": "Moment",
+    "brandId": "moment",
+    "image": "/products/moment-blackberry-lavender.png",
+    "source": "https://drinkmoment.com/products/blackberry-lavender-adaptogen-drink-12-pack",
+    "url": "https://drinkmoment.com/products/blackberry-lavender-adaptogen-drink-12-pack?variant=45160421687552",
+    "checked": "2026-10-16",
+    "price": 40,
+    "variant": "12 Pack",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Blackberry Lavender Botanical Soda",
+    "category": "drinks",
+    "type": "calming-drink",
+    "description": "A blackberry-and-lavender sparkling drink containing L-theanine and ashwagandha. This caffeine-free formula is sold as a twelve-can pack.",
+    "badges": [
+      "Caffeine-free",
+      "0g added sugar"
+    ],
+    "qty": "12 cans",
+    "servings": 12,
+    "attributes": {
+      "Caffeine": "0 mg / serving",
+      "Total sugar": "2 g / serving",
+      "Added sugar": "0 g / serving",
+      "Sodium": "0 mg / serving",
+      "Sugar alcohol": "6 g erythritol / serving",
+      "Serving size": "1 can (340 mL)",
+      "Pack": "12 cans"
+    },
+    "ingredients": "Sparkling filtered water, blackberry juice from concentrate, erythritol, organic apple cider vinegar, malic acid, natural flavors (blackberry and lavender), L-theanine, ashwagandha, carrot and blueberry concentrate, stevia leaf extract, monk fruit extract.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": false,
+      "noAddedSugar": true,
+      "caffeineFree": true,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "calm"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "erythritol",
+        "monk-fruit",
+        "stevia"
+      ],
+      "goals": [
+        "calm"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    }
+  },
+  {
+    "id": "olipop-strawberry-vanilla",
+    "slug": "olipop-strawberry-vanilla",
+    "brand": "OLIPOP",
+    "brandId": "olipop",
+    "image": "/products/olipop-strawberry-vanilla.png",
+    "source": "https://drinkolipop.com/products/strawberry-vanilla",
+    "url": "https://drinkolipop.com/products/strawberry-vanilla?variant=30315220959302",
+    "checked": "2026-10-16",
+    "price": 35.99,
+    "variant": "12 Pack / 9g fiber refrigerated formula",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Strawberry Vanilla Prebiotic Soda",
+    "category": "drinks",
+    "type": "prebiotic-drink",
+    "description": "A strawberry-and-vanilla soda with 9 g fiber per can. This listing is the original refrigerated formula; the shelf-stable version has a different label.",
+    "badges": [
+      "9g fiber",
+      "Keep refrigerated"
+    ],
+    "qty": "12 cans",
+    "servings": 12,
+    "attributes": {
+      "Total sugar": "5 g / serving",
+      "Added sugar": "1 g / serving",
+      "Sodium": "30 mg / serving",
+      "Fiber": "9 g / serving",
+      "Serving size": "1 can (355 mL)",
+      "Storage": "Keep refrigerated",
+      "Pack": "12 cans"
+    },
+    "ingredients": "Carbonated Water, OLISMART (Cassava Root Fiber, Chicory Root Inulin, Jerusalem Artichoke Inulin, Nopal Cactus Extract, Marshmallow Root Extract, Calendula Flower Extract, Kudzu Root Extract), Strawberry Juice Concentrate, Cassava Root Syrup, Apple Juice Concentrate, Lemon Juice Concentrate, Stevia Leaf Extract, Himalayan Pink Salt, Natural Flavors.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": false,
+      "noAddedSugar": false
+    },
+    "facets": {
+      "drinkType": [
+        "gut"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "stevia",
+        "cassava-syrup"
+      ],
+      "goals": [
+        "gut"
+      ]
+    }
+  },
+  {
+    "id": "olipop-vintage-cola",
+    "slug": "olipop-vintage-cola",
+    "brand": "OLIPOP",
+    "brandId": "olipop",
+    "image": "/products/olipop-vintage-cola.png",
+    "source": "https://drinkolipop.com/products/vintage-cola",
+    "url": "https://drinkolipop.com/products/vintage-cola?variant=30315238260806",
+    "checked": "2026-10-16",
+    "price": 35.99,
+    "variant": "12 Pack / 9g fiber refrigerated formula",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Vintage Cola Prebiotic Soda",
+    "category": "drinks",
+    "type": "prebiotic-drink",
+    "description": "A cola-style soda with 9 g fiber and 50 mg green-tea caffeine per can. This is the refrigerated formula, with its own ingredient and nutrition label.",
+    "badges": [
+      "9g fiber",
+      "50mg caffeine"
+    ],
+    "qty": "12 cans",
+    "servings": 12,
+    "attributes": {
+      "Caffeine": "50 mg / serving",
+      "Total sugar": "5 g / serving",
+      "Added sugar": "2 g / serving",
+      "Sodium": "30 mg / serving",
+      "Fiber": "9 g / serving",
+      "Serving size": "1 can (355 mL)",
+      "Storage": "Keep refrigerated",
+      "Pack": "12 cans"
+    },
+    "ingredients": "Carbonated Water, OLISMART (Cassava Root Fiber, Chicory Root Inulin, Jerusalem Artichoke Inulin, Nopal Cactus Extract, Marshmallow Root Extract, Calendula Flower Extract, Kudzu Root Extract), Cassava Root Syrup, Apple Juice Concentrate, Natural Flavors, Lime Juice Concentrate, Stevia Leaf Extract, Alpinia Galanga Root Extract, Green Tea Caffeine Extract, Himalayan Pink Salt, Mushroom Extract.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "caffeineFree": false,
+      "lowCaffeine": true
+    },
+    "facets": {
+      "drinkType": [
+        "gut"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "stevia",
+        "cassava-syrup"
+      ],
+      "goals": [
+        "gut"
+      ],
+      "caffeine": [
+        "low"
+      ]
+    }
+  },
+  {
+    "id": "clean-cause-blackberry",
+    "slug": "clean-cause-blackberry",
+    "brand": "CLEAN Cause",
+    "brandId": "clean-cause",
+    "image": "/products/clean-cause-blackberry.jpg",
+    "source": "https://cleancause.com/products/sparkling-blackberry",
+    "url": "https://cleancause.com/products/sparkling-blackberry?variant=29406441144418",
+    "checked": "2026-10-16",
+    "price": 36.95,
+    "variant": "12-Pack",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Blackberry Sparkling Yerba Mate",
+    "category": "drinks",
+    "type": "energy-drink",
+    "description": "A sparkling blackberry-flavored yerba mate drink with 160 mg caffeine per can. Sweetened with cane sugar, erythritol, and stevia.",
+    "badges": [
+      "160mg caffeine",
+      "Sparkling yerba mate"
+    ],
+    "qty": "12 cans",
+    "servings": 12,
+    "attributes": {
+      "Caffeine": "160 mg / serving",
+      "Total sugar": "15 g / serving",
+      "Added sugar": "15 g / serving",
+      "Sodium": "5 mg / serving",
+      "Serving size": "1 can (16 fl oz / 473 mL)",
+      "Pack": "12 cans"
+    },
+    "ingredients": "Purified sparkling water, organic brewed yerba mate (purified water and organic yerba mate), organic cane sugar, organic erythritol, organic hibiscus extract, organic blackberry flavor, citric acid, organic wild berry flavor, organic green tea extract (caffeine), organic lemon extract, organic stevia.",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": false,
+      "stevia": true,
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "caffeineFree": false,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "energy"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "sugar",
+        "erythritol",
+        "stevia"
+      ],
+      "goals": [
+        "focus"
+      ],
+      "caffeine": [
+        "high"
+      ]
+    }
+  },
+  {
+    "id": "clean-cause-lemonade-tea",
+    "slug": "clean-cause-lemonade-tea",
+    "brand": "CLEAN Cause",
+    "brandId": "clean-cause",
+    "image": "/products/clean-cause-lemonade-tea.jpg",
+    "source": "https://cleancause.com/products/lemonade-tea-organic-yerba-mate",
+    "url": "https://cleancause.com/products/lemonade-tea-organic-yerba-mate?variant=40347757084770",
+    "checked": "2026-10-16",
+    "price": 36.95,
+    "variant": "12-Pack",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Lemonade & Tea Yerba Mate",
+    "category": "drinks",
+    "type": "energy-drink",
+    "description": "A non-carbonated lemonade-and-tea yerba mate drink. It contains 160 mg caffeine and 21 g total sugar per 15.5 fl oz can.",
+    "badges": [
+      "160mg caffeine",
+      "Non-carbonated"
+    ],
+    "qty": "12 cans",
+    "servings": 12,
+    "attributes": {
+      "Caffeine": "160 mg / serving",
+      "Total sugar": "21 g / serving",
+      "Added sugar": "20 g / serving",
+      "Sodium": "0 mg / serving",
+      "Serving size": "1 can (15.5 fl oz / 458 mL)",
+      "Pack": "12 cans"
+    },
+    "ingredients": "Purified water, organic brewed yerba mate (purified water and organic yerba mate), organic cane sugar, organic natural flavor, citric acid, organic lemon extract, organic green tea extract (caffeine).",
+    "filters": {
+      "noSucralose": true,
+      "noStevia": true,
+      "stevia": false,
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "caffeineFree": false,
+      "lowCaffeine": false
+    },
+    "facets": {
+      "drinkType": [
+        "energy"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "sugar"
+      ],
+      "goals": [
+        "focus"
+      ],
+      "caffeine": [
+        "high"
+      ]
+    }
+  },
+  {
+    "id": "woolly-crew",
+    "slug": "woolly-crew",
+    "brand": "Woolly",
+    "brandId": "woolly",
+    "image": "/products/woolly-crew.jpg",
+    "source": "https://www.woolly.clothing/products/190-ss-crew",
+    "url": "https://www.woolly.clothing/products/190-ss-crew?variant=16891875905",
+    "checked": "2026-10-16",
+    "price": 84.0,
+    "variant": "Small / Black",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Men\u2019s Everyday Merino Crew Tee",
+    "category": "apparel",
+    "type": "tee",
+    "description": "A men\u2019s crew-neck T-shirt made from merino wool. The brand lists a 175 GSM fabric weight and a fitted silhouette.",
+    "badges": [
+      "100% merino main fabric",
+      "175 GSM"
+    ],
+    "qty": "1 garment",
+    "attributes": {
+      "Main fabric": "100% Australian merino wool",
+      "Fabric weight": "175 GSM",
+      "Fit": "Men\u2019s; slim/athletic fit",
+      "Trims and stitching": "Fiber composition not documented",
+      "Care": "Machine wash cold; tumble dry low or hang dry"
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "tee"
+      ],
+      "material": [
+        "wool"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "harvest-jogger",
+    "slug": "harvest-jogger",
+    "brand": "Harvest & Mill",
+    "brandId": "harvest-mill",
+    "image": "/products/harvest-jogger.jpg",
+    "source": "https://harvestandmill.com/products/pants-natural",
+    "url": "https://harvestandmill.com/products/pants-natural?variant=39547856289866",
+    "checked": "2026-10-16",
+    "price": 76.0,
+    "variant": "small / Natural",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Men\u2019s Organic Cotton Joggers",
+    "category": "apparel",
+    "type": "lounge-pants",
+    "description": "Natural-colored cotton jersey joggers with cuffed legs and two side pockets. The main fabric is organic cotton; the stretch waistband composition is not specified.",
+    "badges": [
+      "100% cotton main fabric",
+      "Side pockets"
+    ],
+    "qty": "1 garment",
+    "attributes": {
+      "Main fabric": "100% organic cotton jersey",
+      "Fabric weight": "5.4 oz jersey",
+      "Waistband": "Stretch waistband; elastic fiber composition not documented",
+      "Trims and stitching": "Other component fiber composition not documented",
+      "Fit": "Men\u2019s; standard sizing",
+      "Color": "Natural; undyed and unbleached (brand description)",
+      "Care": "Wash cold; tumble dry low or hang dry"
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "lounge-pants"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "harvest-tee",
+    "slug": "harvest-tee",
+    "brand": "Harvest & Mill",
+    "brandId": "harvest-mill",
+    "image": "/products/harvest-tee.jpg",
+    "source": "https://harvestandmill.com/products/womens-crew",
+    "url": "https://harvestandmill.com/products/womens-crew?variant=39547860648010",
+    "checked": "2026-10-16",
+    "price": 54.0,
+    "variant": "x-small / Natural",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Women\u2019s Organic Cotton Crew Tee",
+    "category": "apparel",
+    "type": "tee",
+    "description": "A women\u2019s crew-neck tee in natural-colored organic cotton jersey. Its listed 4.3-ounce fabric is lighter than the brand\u2019s jogger fabric.",
+    "badges": [
+      "100% cotton main fabric",
+      "Natural color"
+    ],
+    "qty": "1 garment",
+    "attributes": {
+      "Main fabric": "100% organic cotton jersey",
+      "Fabric weight": "4.3 oz jersey",
+      "Trims and stitching": "Fiber composition not documented",
+      "Fit": "Women\u2019s; standard sizing",
+      "Color": "Natural; undyed and unbleached (brand description)",
+      "Care": "Wash cold; tumble dry low or hang dry"
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "tee"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "cottonique-shorts",
+    "slug": "cottonique-shorts",
+    "brand": "Cottonique",
+    "brandId": "cottonique",
+    "image": "/products/cottonique-shorts.jpg",
+    "source": "https://cottonique.com/products/womens-drawstring-lounge-shorts",
+    "url": "https://cottonique.com/products/womens-drawstring-lounge-shorts?variant=47972290494706",
+    "checked": "2026-10-16",
+    "price": 24.8,
+    "variant": "4/5 / Melange Black",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Women\u2019s Drawstring Lounge Shorts",
+    "category": "apparel",
+    "type": "shorts",
+    "description": "Lightweight lounge shorts with a cotton drawstring and a non-elastic waist. The brand specifies cotton fabric, thread, drawstring and label.",
+    "badges": [
+      "Cotton drawstring waist",
+      "150 GSM"
+    ],
+    "qty": "1 garment",
+    "attributes": {
+      "Main fabric": "100% organic cotton single jersey",
+      "Fabric weight": "150 GSM",
+      "Waistband": "Non-elastic cotton waist; 100% organic cotton braided drawstring",
+      "Trims and stitching": "100% cotton sewing thread and woven cotton label (brand specification)",
+      "Fit": "Women\u2019s; loose leg opening",
+      "Care": "Gentle machine wash; tumble dry low; do not bleach",
+      "Certification claim": "GOTS-certified garment; OEKO-TEX thread claim. Not independently verified here."
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "shorts"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "cottonique-leggings",
+    "slug": "cottonique-leggings",
+    "brand": "Cottonique",
+    "brandId": "cottonique",
+    "image": "/products/cottonique-leggings.jpg",
+    "source": "https://cottonique.com/products/womens-cropped-leggings-black",
+    "url": "https://cottonique.com/products/womens-cropped-leggings-black?variant=43166795399410",
+    "checked": "2026-10-16",
+    "price": 44.0,
+    "variant": "4 / Black",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Women\u2019s Cropped Cotton Leggings",
+    "category": "apparel",
+    "type": "leggings",
+    "description": "High-rise cropped leggings with side pockets and cotton main fabric. The construction includes a covered elastic waistband and cotton-wrapped polyester-core sewing thread.",
+    "badges": [
+      "100% cotton main fabric",
+      "Side pockets"
+    ],
+    "qty": "1 garment",
+    "attributes": {
+      "Main fabric": "100% organic cotton slub single jersey",
+      "Fabric weight": "250 GSM",
+      "Waistband": "Covered elastic described as latex-free and spandex-free; full composition not specified",
+      "Trims and stitching": "Cotton-wrapped polyester-core thread; woven cotton label",
+      "Fit": "Women\u2019s; high-rise cropped length",
+      "Care": "Gentle machine wash; tumble dry low; do not bleach",
+      "Certification claim": "GOTS-certified claim. Not independently verified here."
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "leggings"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "organicbasics-crew-socks",
+    "slug": "organicbasics-crew-socks",
+    "brand": "Organic Basics",
+    "brandId": "organic-basics",
+    "image": "/products/organicbasics-crew-socks.jpg",
+    "source": "https://us.organicbasics.com/products/core-crew-socks-2-pack-black",
+    "url": "https://us.organicbasics.com/products/core-crew-socks-2-pack-black?variant=49324992430407",
+    "checked": "2026-10-16",
+    "price": 18.0,
+    "variant": "Black / 35-38",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Core Crew Socks \u00b7 2-Pack",
+    "category": "apparel",
+    "type": "socks",
+    "description": "Two pairs of crew-length socks with an organic cotton and polyamide blend. The current product specification lists 71% cotton with elastane for stretch.",
+    "badges": [
+      "71% organic cotton",
+      "2 pairs"
+    ],
+    "qty": "2 pairs",
+    "attributes": {
+      "Main fabric": "71% organic cotton, 19% recycled polyamide, 7% polyamide, 3% elastane",
+      "Fit": "Unisex; EU shoe sizing",
+      "Construction": "Crew length; reinforced heel and toe",
+      "Trims and stitching": "Separate component composition not documented",
+      "Care": "Machine wash cold; tumble dry low; do not iron",
+      "Certification claim": "GOTS-certified claim. Not independently verified here."
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": false,
+      "allNaturalMain": false
+    },
+    "facets": {
+      "garment": [
+        "socks"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "unisex"
+      ]
+    }
+  },
+  {
+    "id": "organicbasics-ankle-socks",
+    "slug": "organicbasics-ankle-socks",
+    "brand": "Organic Basics",
+    "brandId": "organic-basics",
+    "image": "/products/organicbasics-ankle-socks.jpg",
+    "source": "https://us.organicbasics.com/products/core-ankle-socks-2-pack-black",
+    "url": "https://us.organicbasics.com/products/core-ankle-socks-2-pack-black?variant=49324989710663",
+    "checked": "2026-10-16",
+    "price": 15.4,
+    "variant": "Black / 35-38",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Core Ankle Socks \u00b7 2-Pack",
+    "category": "apparel",
+    "type": "socks",
+    "description": "Two pairs of ankle-length socks made from organic cotton, recycled nylon and elastane. Compare the complete blend when choosing materials you want to include or avoid.",
+    "badges": [
+      "75% organic cotton",
+      "2 pairs"
+    ],
+    "qty": "2 pairs",
+    "attributes": {
+      "Main fabric": "75% organic cotton, 23% recycled nylon, 2% elastane",
+      "Fit": "Unisex; EU shoe sizing",
+      "Construction": "Ankle length; reinforced heel and toe",
+      "Trims and stitching": "Separate component composition not documented",
+      "Care": "Machine wash; maximum 40\u00b0C (brand recommends 30\u00b0C)",
+      "Certification claim": "GOTS-certified claim. Not independently verified here."
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": false,
+      "allNaturalMain": false
+    },
+    "facets": {
+      "garment": [
+        "socks"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "unisex"
+      ]
+    }
+  },
+  {
+    "id": "woolly-womens-crew",
+    "slug": "woolly-womens-crew",
+    "brand": "Woolly",
+    "brandId": "woolly",
+    "image": "/products/woolly-womens-crew.jpg",
+    "source": "https://www.woolly.clothing/products/w-ul-ss-c",
+    "url": "https://www.woolly.clothing/products/w-ul-ss-c?variant=31156745699426",
+    "checked": "2026-10-16",
+    "price": 84.0,
+    "variant": "X-Small / Black",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Women\u2019s Merino Crew Neck Tee",
+    "category": "apparel",
+    "type": "tee",
+    "description": "A women\u2019s short-sleeve tee with merino wool and elastane. The brand describes a modern fit and recommends checking its size guide.",
+    "badges": [
+      "95% merino wool",
+      "5% elastane"
+    ],
+    "qty": "1 garment",
+    "attributes": {
+      "Main fabric": "95% Australian merino wool, 5% elastane",
+      "Fabric weight": "175 GSM",
+      "Fit": "Women\u2019s; modern/slim fit",
+      "Trims and stitching": "Fiber composition not documented",
+      "Care": "Machine wash cold; tumble dry low or hang dry"
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "noPolyester": true,
+      "noElastane": false,
+      "allNaturalMain": false
+    },
+    "facets": {
+      "garment": [
+        "tee"
+      ],
+      "material": [
+        "wool"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "harvest-boxers",
+    "slug": "harvest-boxers",
+    "brand": "Harvest & Mill",
+    "brandId": "harvest-mill",
+    "image": "/products/harvest-boxers.png",
+    "source": "https://harvestandmill.com/products/mens-organic-cotton-boxers-in-natural",
+    "url": "https://harvestandmill.com/products/mens-organic-cotton-boxers-in-natural?variant=42215294238794",
+    "checked": "2026-10-16",
+    "price": 38.0,
+    "variant": "small / Natural",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "name": "Men\u2019s Organic Cotton Boxers",
+    "category": "apparel",
+    "type": "underwear",
+    "description": "Relaxed cotton jersey boxers with a functional button fly. The brand documents natural nut buttons and a stretch waistband, whose elastic composition is not listed.",
+    "badges": [
+      "100% cotton main fabric",
+      "Button fly"
+    ],
+    "qty": "1 garment",
+    "attributes": {
+      "Main fabric": "100% organic cotton jersey",
+      "Waistband": "Stretch waistband; elastic fiber composition not documented",
+      "Trims and stitching": "Nut buttons; sewing thread composition not documented",
+      "Fit": "Men\u2019s; classic boxer",
+      "Color": "Natural; undyed and unbleached (brand description)",
+      "Care": "Wash cold; tumble dry low",
+      "Returns": "Brand states underwear sales are final"
+    },
+    "ingredients": "See the main fabric, waistband and trims specifications above. Material filters apply to the main fabric only.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "underwear"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "thorne-creatine-90",
+    "slug": "thorne-creatine-90",
+    "brand": "Thorne",
+    "brandId": "thorne",
+    "name": "Creatine \u2014 90 Servings",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "Single-ingredient creatine monohydrate powder. The linked NSF record identifies the unflavored product and specific certified lots.",
+    "image": "/products/thorne-creatine.webp",
+    "price": 44,
+    "qty": "90 servings",
+    "variant": "Unflavored \u00b7 90 servings",
+    "servings": 90,
+    "source": "https://www.thorne.com/products/dp/creatine",
+    "url": "https://www.thorne.com/products/dp/creatine",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5 g creatine",
+      "NSF product record"
+    ],
+    "attributes": {
+      "Creatine": "5 g / scoop",
+      "Serving size": "1 scoop",
+      "Warnings": "Ingredient hypersensitivity; consult a practitioner if pregnant. See original label.",
+      "Product scope": "Unflavored powder, 90 servings"
+    },
+    "ingredients": "Creatine monohydrate.",
+    "filters": {},
+    "facets": {
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "goals": [
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "klean-creatine-315",
+    "slug": "klean-creatine-315",
+    "brand": "Klean Athlete",
+    "brandId": "klean-athlete",
+    "name": "Klean Creatine",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "Unflavored creatine powder with a product-specific NSF Sport listing. The official brand site lists a retail price and requires account login to purchase.",
+    "image": "/products/klean-creatine-large.png",
+    "price": 34.5,
+    "qty": "315 g \u00b7 approximately 60 servings",
+    "variant": "Unflavored \u00b7 315 g",
+    "servings": 60,
+    "source": "https://www.kleanathlete.com/klean-creatine.html",
+    "url": "https://www.kleanathlete.com/klean-creatine.html",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5 g creatine",
+      "NSF product record"
+    ],
+    "attributes": {
+      "Creatine": "5 g / scoop",
+      "Serving size": "Approximately 5 g",
+      "Servings": "Approximately 60 (manufacturer label)",
+      "Buying channel": "Brand site requires login; retailer terms differ."
+    },
+    "ingredients": "Creatine monohydrate. Other ingredients: none.",
+    "filters": {},
+    "facets": {
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "goals": [
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "nordic-omega-2x-sport",
+    "slug": "nordic-omega-2x-sport",
+    "brand": "Nordic Naturals",
+    "brandId": "nordic-naturals",
+    "name": "Ultimate Omega 2X Sport",
+    "category": "supplements",
+    "type": "omega-3-supplement",
+    "description": "Lemon-flavored fish-oil softgels with 2,150 mg total omega-3s per two-softgel serving and an original NSF Sport product record.",
+    "image": "/products/nordic-omega-sport.jpg",
+    "price": 55.95,
+    "qty": "60 softgels",
+    "variant": "Lemon \u00b7 60 softgels",
+    "servings": 30,
+    "source": "https://www.nordic.com/products/ultimate-omega-2x-sport/?variant=39472184754360",
+    "url": "https://www.nordic.com/products/ultimate-omega-2x-sport/?variant=39472184754360",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "2,150 mg omega-3s",
+      "NSF product record"
+    ],
+    "attributes": {
+      "Total omega-3s": "2,150 mg / 2 softgels",
+      "EPA": "1,125 mg / serving",
+      "DHA": "875 mg / serving",
+      "Allergen": "Fish",
+      "Warnings": "Ask a physician about iodine allergy, blood thinners or medical conditions; see label."
+    },
+    "ingredients": "Purified deep sea fish oil (anchovies, sardines, mackerel, herring), soft gel capsule (gelatin, glycerin, water, natural flavor), natural flavor, RRR-alpha tocopherol (antioxidant), rosemary extract (natural preservative).",
+    "filters": {},
+    "facets": {
+      "ingredient": [
+        "omega-3"
+      ],
+      "form": [
+        "softgel"
+      ],
+      "goals": [
+        "heart",
+        "brain"
+      ]
+    }
+  },
+  {
+    "id": "ritual-daily-shake-vanilla",
+    "slug": "ritual-daily-shake-vanilla",
+    "brand": "Ritual",
+    "brandId": "ritual",
+    "name": "Essential Protein Daily Shake",
+    "category": "supplements",
+    "type": "protein-powder",
+    "description": "Pea-protein blend with choline. One-time pricing differs from subscription promotions; inspect the evidence notes for disclosure inconsistencies.",
+    "image": "/products/ritual-daily-shake.jpg",
+    "price": 50,
+    "qty": "15 servings",
+    "variant": "Vanilla \u00b7 one-time purchase",
+    "servings": 15,
+    "source": "https://ritual.com/products/essential-protein-daily-shake-18?variant=42291511951454",
+    "url": "https://ritual.com/products/essential-protein-daily-shake-18?variant=42291511951454",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "20 g protein",
+      "NSF product record"
+    ],
+    "attributes": {
+      "Protein": "20 g / serving",
+      "Serving size": "About 31 g",
+      "Choline": "150 mg / serving",
+      "One-time shipping": "$10.99 listed",
+      "L-methionine": "Conflicting page amounts; see evidence"
+    },
+    "ingredients": "Organic pea protein, natural flavor, xanthan gum, coconut MCT oil, salt, sunflower lecithin, rebaudioside-M, mixed tocopherols, monk fruit extract; choline bitartrate and L-methionine.",
+    "filters": {},
+    "facets": {
+      "ingredient": [
+        "pea-protein",
+        "choline"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "stevia",
+        "monk-fruit"
+      ],
+      "goals": [
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "kaged-creatine-monohydrate",
+    "slug": "kaged-creatine-monohydrate",
+    "brand": "Kaged",
+    "brandId": "kaged",
+    "name": "Creatine Monohydrate",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "A single-ingredient micronized creatine powder. The listed pack size differs from the label image; see the evidence profile.",
+    "image": "/products/kaged-creatine.png",
+    "price": 29.99,
+    "qty": "About 100 servings",
+    "variant": "500 Grams / Unflavored",
+    "servings": 100,
+    "source": "https://www.kaged.com/products/creatine-monohydrate",
+    "url": "https://www.kaged.com/products/creatine-monohydrate?variant=40473628180545",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5 g creatine",
+      "Unflavored"
+    ],
+    "attributes": {
+      "Creatine": "5 g / serving",
+      "Serving size": "1 scoop (5.1 g on label image)",
+      "Pack size": "500 g option; label image says 510 g",
+      "Format": "Unflavored powder"
+    },
+    "ingredients": "Creatine monohydrate. Other ingredients: none.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "now-foods-creatine-powder",
+    "slug": "now-foods-creatine-powder",
+    "brand": "NOW Foods",
+    "brandId": "now-foods",
+    "name": "NOW Sports Creatine Monohydrate",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "An unflavored creatine powder with a single listed ingredient and an accessible Informed Sport batch registry.",
+    "image": "/products/now-creatine.png",
+    "price": 11.99,
+    "qty": "8 oz / about 45 servings",
+    "variant": "8 oz / Unflavored",
+    "servings": 45,
+    "source": "https://www.nowfoods.com/products/sports-nutrition/creatine-monohydrate-powder",
+    "url": "https://www.nowfoods.com/products/sports-nutrition/creatine-monohydrate-powder",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5 g creatine",
+      "Unflavored"
+    ],
+    "attributes": {
+      "Creatine": "5 g / serving",
+      "Serving size": "1\u00bd level teaspoons (approx. 5 g)",
+      "Other ingredients": "None",
+      "Pack size": "8 oz / 227 g"
+    },
+    "ingredients": "Creatine monohydrate. Other ingredients: none.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "sports-research-creatine",
+    "slug": "sports-research-creatine",
+    "brand": "Sports Research",
+    "brandId": "sports-research",
+    "name": "Creatine Monohydrate",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "A 60-serving unflavored creatine powder. Independent records provide batch-specific screening details.",
+    "image": "/products/sports-research-creatine.png",
+    "price": 17.95,
+    "qty": "300 g / 60 servings",
+    "variant": "Unflavored / 10.58 oz",
+    "servings": 60,
+    "source": "https://www.sportsresearch.com/products/creatine-monohydrate",
+    "url": "https://www.sportsresearch.com/products/creatine-monohydrate",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5 g creatine",
+      "Unflavored"
+    ],
+    "attributes": {
+      "Creatine": "5 g / serving",
+      "Serving size": "1 scoop (5 g)",
+      "Pack size": "10.58 oz / 300 g",
+      "Origin disclosure": "Packaged in the USA"
+    },
+    "ingredients": "Micronized creatine monohydrate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "ascent-clean-creatine",
+    "slug": "ascent-clean-creatine",
+    "brand": "Ascent",
+    "brandId": "ascent",
+    "name": "Clean Creatine",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "A one-ingredient creatine powder with a matching Informed Sport batch registry.",
+    "image": "/products/ascent-creatine.png",
+    "price": 24.99,
+    "qty": "225 g / 45 servings",
+    "variant": "Unflavored / 45 Serving Tub",
+    "servings": 45,
+    "source": "https://www.ascentprotein.com/products/creatine",
+    "url": "https://www.ascentprotein.com/products/creatine?variant=42960292118703",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5 g creatine",
+      "Unflavored"
+    ],
+    "attributes": {
+      "Creatine": "5 g / serving",
+      "Serving size": "1 scoop (5 g)",
+      "Ingredient source": "Creapure\u00ae",
+      "Allergen note": "Equipment also processes peanuts and tree nuts"
+    },
+    "ingredients": "Creapure\u00ae creatine monohydrate. Other ingredients: none.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "legion-creatine-unflavored",
+    "slug": "legion-creatine-unflavored",
+    "name": "Micronized Creatine Monohydrate",
+    "brand": "Legion",
+    "brandId": "legion",
+    "category": "supplements",
+    "type": "creatine",
+    "description": "Unflavored, single-ingredient creatine powder in the 100-serving option. A separately published Labdoor report covers one identified lot.",
+    "image": "/products/legion-creatine-100.png",
+    "price": 39.99,
+    "qty": "100 servings",
+    "variant": "Unflavored \u00b7 100 servings \u00b7 one-time purchase",
+    "servings": 100,
+    "source": "https://legionathletics.com/products/supplements/micronized-creatine-monohydrate/?attribute_pa_flavor=unflavored&attribute_pa_creatine-servings=100-servings",
+    "url": "https://legionathletics.com/products/supplements/micronized-creatine-monohydrate/?attribute_pa_flavor=unflavored&attribute_pa_creatine-servings=100-servings",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5 g creatine",
+      "Labdoor product record"
+    ],
+    "attributes": {
+      "Creatine": "5 g / serving",
+      "Formula": "Single ingredient",
+      "Format": "Unflavored powder"
+    },
+    "ingredients": "Micronized creatine monohydrate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "creatine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ],
+      "sweetener": [
+        "unsweetened"
+      ]
+    }
+  },
+  {
+    "id": "needed-sleep-relaxation",
+    "slug": "needed-sleep-relaxation",
+    "name": "Sleep + Relaxation Support",
+    "brand": "Needed",
+    "brandId": "needed",
+    "category": "supplements",
+    "type": "sleep-support",
+    "description": "Chamomile-flavored magnesium powder. The label and page disagree on L-theanine quantity; inspect the linked evidence.",
+    "image": "/products/needed-sleep-relaxation.png",
+    "price": 49.99,
+    "qty": "About 30 servings",
+    "variant": "Chamomile \u00b7 1 month \u00b7 one-time purchase",
+    "servings": 30,
+    "source": "https://thisisneeded.com/products/sleep-support?variant=47046057492725",
+    "url": "https://thisisneeded.com/products/sleep-support?variant=47046057492725",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Melatonin-free",
+      "Clean Label Project listing"
+    ],
+    "attributes": {
+      "Serving size": "1 scoop (7.6 g)",
+      "Magnesium": "320 mg / serving",
+      "Glycine": "3 g / serving",
+      "L-theanine": "110 mg on label; 112 mg in page text",
+      "Chamomile extract": "250 mg / serving"
+    },
+    "ingredients": "Magnesium gluconate, citrate and taurinate; L-glycine; chamomile flower extract; L-theanine. Other ingredients: citric acid, natural chamomile flavor, monk fruit extract.",
+    "filters": {
+      "noMelatonin": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "magnesium",
+        "glycine",
+        "l-theanine"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "monk-fruit"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "nootropics-depot-ksm66",
+    "slug": "nootropics-depot-ksm66",
+    "name": "KSM-66 Ashwagandha Root Capsules",
+    "brand": "Nootropics Depot",
+    "brandId": "nootropics-depot",
+    "category": "supplements",
+    "type": "ashwagandha",
+    "description": "A 300 mg root-extract capsule with a public batch-document library. The label and a recent COA differ on excipients; milk is used in production.",
+    "image": "/products/nd-ksm-66.jpg",
+    "price": 19.99,
+    "qty": "90 capsules",
+    "variant": "90 count",
+    "servings": 90,
+    "source": "https://nootropicsdepot.com/ksm-66-ashwagandha-extract-300mg-capsules",
+    "url": "https://nootropicsdepot.com/ksm-66-ashwagandha-extract-300mg-capsules",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "300 mg extract",
+      "Batch documents linked"
+    ],
+    "attributes": {
+      "Extract": "300 mg / capsule",
+      "Allergen disclosure": "Milk used in production",
+      "Other ingredients": "Label and batch COA differ; inspect evidence"
+    },
+    "ingredients": "KSM-66 ashwagandha root extract (Withania somnifera). Label lists rice flour, magnesium stearate and vegetable cellulose; July 2026 COA instead lists microcrystalline cellulose and Nu-Flow with a vegetable-cellulose capsule.",
+    "filters": {
+      "testing": true
+    },
+    "facets": {
+      "goals": [
+        "calm"
+      ],
+      "ingredient": [
+        "ashwagandha"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegetarian"
+      ]
+    }
+  },
+  {
+    "id": "wildwonder-raspberry-lychee",
+    "slug": "wildwonder-raspberry-lychee",
+    "name": "Raspberry Lychee Sparkling Drink",
+    "brand": "wildwonder",
+    "brandId": "wildwonder",
+    "category": "drinks",
+    "type": "prebiotic-drink",
+    "description": "A fruit-and-honeysuckle sparkling drink with fiber and live cultures. Refrigerate after delivery; its label lists 6 g sugar per can.",
+    "image": "/products/wildwonder-raspberry-lychee.jpg",
+    "price": 42,
+    "qty": "12 \u00d7 12 fl oz cans",
+    "variant": "Raspberry Lychee / 12 cans / one-time purchase",
+    "servings": 12,
+    "source": "https://drinkwildwonder.com/products/raspberry-lychee",
+    "url": "https://drinkwildwonder.com/products/raspberry-lychee",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "5g fiber",
+      "Caffeine-free"
+    ],
+    "attributes": {
+      "Serving size": "1 can (355 mL)",
+      "Fiber": "5 g / can",
+      "Total sugar": "6 g / can",
+      "Added sugar": "5 g / can",
+      "Calories": "40 / can",
+      "Caffeine": "Caffeine-free, per brand FAQ",
+      "Storage": "Refrigerate promptly after delivery",
+      "Sweeteners": "Agave nectar and monk fruit"
+    },
+    "ingredients": "Brand-listed formula: honeysuckle infusion in carbonated water; raspberry puree; agave nectar; fiber blend of Jerusalem artichoke and chicory root; lychee and lemon juices; raspberry and lychee flavors; monk fruit extract; Bacillus subtilis DE111 cultures. The brand marks the botanical, fruit, agave, flavor and monk-fruit ingredients organic.",
+    "filters": {
+      "caffeineFree": true,
+      "lowCaffeine": false,
+      "noStevia": true,
+      "noSucralose": true,
+      "stevia": false,
+      "zeroSugar": false,
+      "noAddedSugar": false
+    },
+    "facets": {
+      "drinkType": [
+        "gut"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "monk-fruit",
+        "agave"
+      ],
+      "goals": [
+        "gut"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    }
+  },
+  {
+    "id": "hopwtr-classic-six",
+    "slug": "hopwtr-classic-six",
+    "name": "Classic Sparkling Hop Water",
+    "brand": "HOPWTR",
+    "brandId": "hopwtr",
+    "category": "drinks",
+    "type": "calming-drink",
+    "description": "Nonalcoholic hop-flavored sparkling water. Formula information conflicts between the current FAQ and the displayed label; check the can before choosing.",
+    "image": "/products/hopwtr-classic.webp",
+    "price": 14.99,
+    "qty": "6 \u00d7 12 fl oz cans",
+    "variant": "Classic / 6-pack / one-time purchase",
+    "servings": 6,
+    "source": "https://hopwtr.com/products/classic-6-pack",
+    "url": "https://hopwtr.com/products/classic-6-pack",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Nonalcoholic",
+      "Check formula"
+    ],
+    "attributes": {
+      "Serving size": "1 can (12 fl oz / 355 mL)",
+      "Calories": "0 / displayed label",
+      "Total sugar": "0 g / displayed label",
+      "Added sugar": "0 g / displayed label",
+      "Vitamin C": "108 mg / displayed label",
+      "Caffeine": "Caffeine-free, per brand FAQ",
+      "Formula note": "Displayed label lists ashwagandha; current FAQ lists reishi. Confirm package ingredients."
+    },
+    "ingredients": "Displayed Classic label: carbonated water; vitamin C (ascorbic acid); hops and natural flavors; L-theanine; ashwagandha. The current FAQ instead names reishi extract. We have not resolved which botanical formula ships; no ashwagandha or reishi filter is assigned.",
+    "filters": {
+      "caffeineFree": true,
+      "lowCaffeine": false,
+      "zeroSugar": true,
+      "noAddedSugar": true
+    },
+    "facets": {
+      "drinkType": [
+        "calm"
+      ],
+      "form": [
+        "can"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    }
+  },
+  {
+    "id": "rise-original-black-eleven",
+    "slug": "rise-original-black-eleven",
+    "name": "Original Black Cold Brew Coffee",
+    "brand": "RISE Brewing Co.",
+    "brandId": "rise-brewing",
+    "category": "drinks",
+    "type": "coffee-drink",
+    "description": "Unsweetened cold brew in the current 11 fl oz can. The label discloses 270 mg caffeine; this is a different format from earlier 7 oz nitro cans.",
+    "image": "/products/rise-black.png",
+    "price": 29.99,
+    "qty": "12 \u00d7 11 fl oz cans",
+    "variant": "Original Black / 11 fl oz / 12-pack / current sale price",
+    "servings": 12,
+    "source": "https://risebrewingco.com/products/new-11oz-black",
+    "url": "https://risebrewingco.com/products/new-11oz-black",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "270mg caffeine",
+      "Unsweetened"
+    ],
+    "attributes": {
+      "Serving size": "1 can (325 mL)",
+      "Caffeine": "270 mg / can",
+      "Calories": "20 / can",
+      "Total sugar": "0 g / can",
+      "Added sugar": "0 g / can",
+      "Sodium": "0 mg / can",
+      "Pack": "12 cans, as shown in official product imagery",
+      "Format": "11 fl oz cold brew; not represented here as the former 7 oz nitro product"
+    },
+    "ingredients": "Filtered water and coffee, as listed on the current 11 fl oz label.",
+    "filters": {
+      "caffeineFree": false,
+      "lowCaffeine": false,
+      "zeroSugar": true,
+      "noAddedSugar": true,
+      "noStevia": true,
+      "noSucralose": true,
+      "stevia": false
+    },
+    "facets": {
+      "drinkType": [
+        "energy"
+      ],
+      "form": [
+        "can"
+      ],
+      "sweetener": [
+        "unsweetened"
+      ],
+      "caffeine": [
+        "high"
+      ]
+    }
+  },
+  {
+    "id": "fair-indigo-relaxed-indigo",
+    "slug": "fair-indigo-relaxed-indigo",
+    "name": "Relaxed Crew Neck Tee",
+    "brand": "Fair Indigo",
+    "brandId": "fair-indigo",
+    "category": "apparel",
+    "type": "tee",
+    "description": "A relaxed women\u2019s tee in the brand\u2019s Pima cotton jersey. The listed composition covers the main fabric; sewing thread and labels are not separately specified.",
+    "image": "/products/smaller-fair-indigo-relaxed-indigo.jpg",
+    "price": 36.9,
+    "qty": "1 tee",
+    "variant": "Indigo / M",
+    "source": "https://www.fairindigo.com/products/fair-indigo-womens-fair-trade-organic-all-cotton-crew-neck-tee",
+    "url": "https://www.fairindigo.com/products/fair-indigo-womens-fair-trade-organic-all-cotton-crew-neck-tee?variant=63245486915953",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Pima cotton fabric",
+      "Relaxed fit"
+    ],
+    "attributes": {
+      "Main fabric": "100% organic Pima cotton jersey",
+      "Fit": "Relaxed; women\u2019s sizing",
+      "Origin": "Lima, Peru, according to the brand",
+      "Component scope": "Thread and label materials not separately listed"
+    },
+    "ingredients": "Main fabric: 100% organic Pima cotton, as listed by the brand. Thread and label composition not separately disclosed.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "tee"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "womens"
+      ]
+    }
+  },
+  {
+    "id": "jungmaven-baja-black",
+    "slug": "jungmaven-baja-black",
+    "name": "Baja Tee",
+    "brand": "Jungmaven",
+    "brandId": "jungmaven",
+    "category": "apparel",
+    "type": "tee",
+    "description": "A classic crewneck in a midweight hemp and cotton jersey. The disclosed blend is the main fabric; trim and sewing thread are not separately quantified.",
+    "image": "/products/smaller-jungmaven-baja-black.jpg",
+    "price": 62,
+    "qty": "1 tee",
+    "variant": "Black / M",
+    "source": "https://jungmaven.com/products/hemp-shirt-baja-short-sleeve",
+    "url": "https://jungmaven.com/products/hemp-shirt-baja-short-sleeve?variant=17719481985",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Hemp & cotton",
+      "7 oz fabric"
+    ],
+    "attributes": {
+      "Main fabric": "55% hemp, 45% organic cotton",
+      "Fabric weight": "7 oz, brand specification",
+      "Fit": "Classic fit; men\u2019s sizing",
+      "Assembly": "Los Angeles, California, per brand FAQ"
+    },
+    "ingredients": "Main fabric: 55% hemp, 45% organic cotton. Thread, labels and trim are not separately quantified.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "tee"
+      ],
+      "material": [
+        "hemp",
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "pact-softspun-crew-black",
+    "slug": "pact-softspun-crew-black",
+    "name": "Softspun Essential Crewneck Tee",
+    "brand": "Pact",
+    "brandId": "pact",
+    "category": "apparel",
+    "type": "tee",
+    "description": "An everyday cotton crewneck with ribbed neck trim and a printed interior label. Check the evidence profile for the limits of the certification match.",
+    "image": "/products/smaller-pact-softspun-black.jpg",
+    "price": 24,
+    "qty": "1 tee",
+    "variant": "Black / M",
+    "source": "https://wearpact.com/men/apparel/all%20tops/softspun%20essential%20crewneck%20tee/wb1-mcn-blk",
+    "url": "https://wearpact.com/men/apparel/all%20tops/softspun%20essential%20crewneck%20tee/wb1-mcn-blk",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "Cotton main fabric",
+      "Classic fit"
+    ],
+    "attributes": {
+      "Main fabric": "100% organic cotton, brand-listed",
+      "Fit": "Classic; men\u2019s sizing",
+      "Made in": "India, per product\u2019s factory panel",
+      "Component scope": "Rib trim named; thread composition not separately listed"
+    },
+    "ingredients": "Main fabric: 100% organic cotton. Ribbed neck trim and interior pad stamp are named; sewing thread and trim composition are not separately quantified.",
+    "filters": {
+      "cotton": true,
+      "organicCotton": true,
+      "noPolyester": true,
+      "noElastane": true,
+      "allNaturalMain": true
+    },
+    "facets": {
+      "garment": [
+        "tee"
+      ],
+      "material": [
+        "cotton"
+      ],
+      "fit": [
+        "mens"
+      ]
+    }
+  },
+  {
+    "id": "gnarly-collagen-pro-bag",
+    "slug": "gnarly-collagen-pro-bag",
+    "name": "Collagen Pro",
+    "brand": "Gnarly Nutrition",
+    "brandId": "gnarly-nutrition",
+    "category": "supplements",
+    "type": "collagen",
+    "description": "Bovine collagen with micronutrients. Published collagen quantities conflict; inspect the evidence.",
+    "image": "/products/registry-gnarly-collagen.webp",
+    "price": 49.95,
+    "qty": "455 g bag \u00b7 about 30 servings",
+    "variant": "Unflavored \u00b7 455 g bag \u00b7 one-time purchase",
+    "servings": 30,
+    "source": "https://gognarly.com/products/gnarly-collagen-pro?variant=41914511458470",
+    "url": "https://gognarly.com/products/gnarly-collagen-pro?variant=41914511458470",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "NSF product record",
+      "Quantity discrepancy noted"
+    ],
+    "attributes": {
+      "Serving size": "2.5 tbsp (15 g), current bag label",
+      "Collagen": "15 g / serving on label; page prose says 20 g",
+      "Protein": "14 g / serving",
+      "Vitamin C": "90 mg / serving",
+      "Zinc / copper": "15 mg zinc \u00b7 1 mg copper / serving",
+      "Sodium / calories": "75 mg sodium \u00b7 50 calories / serving",
+      "Suitability": "Label excludes under-18s and pregnancy/nursing"
+    },
+    "ingredients": "Hydrolyzed bovine collagen; vitamin C (ascorbic acid); zinc amino acid chelate; copper glycinate. Label lists no other ingredients.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "collagen",
+        "vitamin-c",
+        "zinc"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "gluten-free"
+      ],
+      "sweetener": [
+        "unsweetened"
+      ]
+    }
+  },
+  {
+    "id": "bpn-peak-sleep-berry",
+    "slug": "bpn-peak-sleep-berry",
+    "name": "Peak Sleep",
+    "brand": "Bare Performance Nutrition",
+    "brandId": "bare-performance-nutrition",
+    "category": "supplements",
+    "type": "sleep-support",
+    "description": "Berry sleep-support gummies with added sugar and no listed melatonin.",
+    "image": "/products/registry-bpn-peak-sleep.jpg",
+    "price": 49.99,
+    "qty": "120 gummies \u00b7 30 servings",
+    "variant": "Berry \u00b7 120 gummies \u00b7 one-time purchase",
+    "servings": 30,
+    "source": "https://www.bareperformancenutrition.com/products/peak-sleep-sleep-support-recovery?variant=44085737619628",
+    "url": "https://www.bareperformancenutrition.com/products/peak-sleep-sleep-support-recovery?variant=44085737619628",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "NSF product record",
+      "No melatonin listed"
+    ],
+    "attributes": {
+      "Serving size": "4 gummies",
+      "Magnesium": "150 mg / serving, as citrate",
+      "PEA / 5-HTP": "350 mg Levagen+ PEA \u00b7 250 mg 5-HTP / serving",
+      "GABA / L-theanine": "200 mg GABA \u00b7 150 mg L-theanine / serving",
+      "Sugar": "6 g total, including 6 g added / serving",
+      "Carbohydrate / calories": "9 g carbohydrate \u00b7 40 calories / serving",
+      "Product warning": "Brand publishes a California Proposition 65 lead warning"
+    },
+    "ingredients": "Magnesium citrate; palmitoylethanolamide (Levagen+); 5-HTP from Griffonia simplicifolia seed extract; GABA; L-theanine. Other ingredients: tapioca syrup, sugar, agar, locust bean gum, natural flavors, citric acid, vegetable juice (color), rebaudioside M.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "magnesium",
+        "5-htp",
+        "gaba",
+        "l-theanine"
+      ],
+      "form": [
+        "gummy"
+      ],
+      "dietary": [
+        "gluten-free"
+      ],
+      "sweetener": [
+        "sugar"
+      ]
+    }
+  },
+  {
+    "id": "bubs-collagen-peptides-tub",
+    "slug": "bubs-collagen-peptides-tub",
+    "name": "Collagen Peptides",
+    "brand": "BUBS Naturals",
+    "brandId": "bubs-naturals",
+    "category": "supplements",
+    "type": "collagen",
+    "description": "Single-ingredient bovine collagen powder. The reviewed 20 oz tub matches the newer NSF record with 18 g protein per serving.",
+    "image": "/products/registry-bubs-collagen.webp",
+    "price": 47,
+    "qty": "20 oz / 567 g \u00b7 28 servings",
+    "variant": "Unflavored \u00b7 20 oz tub \u00b7 one-time purchase",
+    "servings": 28,
+    "source": "https://www.bubsnaturals.com/products/collagen-peptides?variant=42011520532564",
+    "url": "https://www.bubsnaturals.com/products/collagen-peptides?variant=42011520532564",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "NSF product record",
+      "Batch results linked"
+    ],
+    "attributes": {
+      "Serving size": "1 scoop (20 g)",
+      "Collagen / protein": "20 g bovine collagen \u00b7 18 g protein / serving",
+      "Sodium / calories": "80 mg sodium \u00b7 70 calories / serving",
+      "Protein limitation": "Incomplete protein; label lists no tryptophan"
+    },
+    "ingredients": "Hydrolyzed bovine collagen peptides (types I and III). No other ingredients listed.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "testing": true,
+      "glutenFree": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "collagen"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "gluten-free"
+      ],
+      "sweetener": [
+        "unsweetened"
+      ]
+    }
+  },
+  {
+    "id": "precision-ph1500-packets",
+    "slug": "precision-ph1500-packets",
+    "name": "PH 1500 Electrolyte Drink Mix",
+    "brand": "Precision Fuel & Hydration",
+    "brandId": "precision-fuel-hydration",
+    "category": "drinks",
+    "type": "electrolyte-powder",
+    "description": "A sugar-containing electrolyte powder for mixing with water. Its 1500 name denotes sodium per litre, not per packet.",
+    "image": "/products/registry-precision-ph1500.png",
+    "price": 13.99,
+    "qty": "8 \u00d7 20 g packets",
+    "variant": "8 \u00d7 20 g packets / US / one-time purchase",
+    "servings": 8,
+    "source": "https://www.precisionhydration.com/us/en/products/ph-1500-electrolyte-drink-mix/",
+    "url": "https://www.precisionhydration.com/us/en/products/ph-1500-electrolyte-drink-mix/",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "15 g sugar / packet",
+      "1,500 mg sodium / litre"
+    ],
+    "attributes": {
+      "Serving": "20 g packet",
+      "Carbohydrate": "15 g / packet",
+      "Total sugar": "15 g / packet",
+      "Energy": "61 kcal / packet",
+      "Sodium concentration": "1,500 mg / litre as directed",
+      "Allergens": "Shared facility: brand details mention milk, wheat/gluten, soy and seafood handling"
+    },
+    "ingredients": "Sugar, sodium citrate, citric acid, vitamin C, natural flavouring, potassium chloride, calcium lactate, magnesium carbonate.",
+    "facets": {
+      "drinkType": [
+        "sport"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "sugar"
+      ]
+    },
+    "filters": {
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "noStevia": true,
+      "noSucralose": true,
+      "stevia": false
+    }
+  },
+  {
+    "id": "maurten-drink-mix-160",
+    "slug": "maurten-drink-mix-160",
+    "name": "Drink Mix 160",
+    "brand": "Maurten",
+    "brandId": "maurten",
+    "category": "drinks",
+    "type": "electrolyte-powder",
+    "description": "An unflavored carbohydrate drink mix for endurance use. Mix each sachet with 500 mL water; the US nutrition panel is linked in the research.",
+    "image": "/products/registry-maurten-160.png",
+    "price": 45,
+    "qty": "18 \u00d7 42 g sachets",
+    "variant": "18 \u00d7 42 g sachets / US / one-time purchase",
+    "servings": 18,
+    "source": "https://www.maurten.com/products/us/drink-mix-160-box-us",
+    "url": "https://www.maurten.com/products/us/drink-mix-160-box-us",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "41 g carbohydrate",
+      "Informed Sport record"
+    ],
+    "attributes": {
+      "Serving": "1 sachet (42 g)",
+      "Calories": "160 / sachet",
+      "Total carbohydrate": "41 g on US Nutrition Facts",
+      "Fiber": "2 g / sachet",
+      "Total sugar": "15 g / sachet",
+      "Added sugar": "15 g / sachet",
+      "Sodium": "210 mg / sachet",
+      "Mixing": "500 mL water; calcium at most 80 mg/L"
+    },
+    "ingredients": "Maltodextrin, fructose, sodium alginate, pectin, salt, sodium bicarbonate.",
+    "facets": {
+      "drinkType": [
+        "sport"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "sugar"
+      ]
+    },
+    "filters": {
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "noStevia": true,
+      "noSucralose": true,
+      "stevia": false
+    }
+  },
+  {
+    "id": "neversecond-c30-unflavored",
+    "slug": "neversecond-c30-unflavored",
+    "name": "C30 Unflavored Sports Drink",
+    "brand": "Neversecond",
+    "brandId": "neversecond",
+    "category": "drinks",
+    "type": "electrolyte-powder",
+    "description": "A carbohydrate-and-sodium powder with 30 g carbohydrate per scoop. Check the package: the online sugar breakdown needs clarification.",
+    "image": "/products/registry-neversecond-c30.jpg",
+    "price": 34,
+    "qty": "640 g pouch / 20 scoops",
+    "variant": "640 g pouch / 20 scoops / US / one-time purchase",
+    "servings": 20,
+    "source": "https://never2.com/products/c30-unflavored-sports-drink",
+    "url": "https://never2.com/products/c30-unflavored-sports-drink",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "30 g carbohydrate",
+      "0 mg caffeine"
+    ],
+    "attributes": {
+      "Serving": "32 g scoop",
+      "Calories": "120 / scoop",
+      "Carbohydrate": "30 g / scoop",
+      "Sodium": "200 mg / scoop",
+      "Caffeine": "0 mg / scoop",
+      "Total sugar": "12 g / online table",
+      "Added sugar": "1 g / online table; unresolved against fructose formula",
+      "Allergens": "Facility also processes milk, soy, eggs and coconut"
+    },
+    "ingredients": "Maltodextrin, fructose, trisodium citrate and natural flavor, as listed by the US store even for the Unflavored product.",
+    "facets": {
+      "drinkType": [
+        "sport"
+      ],
+      "form": [
+        "powder"
+      ],
+      "sweetener": [
+        "sugar"
+      ],
+      "caffeine": [
+        "caffeine-free"
+      ]
+    },
+    "filters": {
+      "caffeineFree": true,
+      "lowCaffeine": false,
+      "zeroSugar": false,
+      "noAddedSugar": false,
+      "noStevia": true,
+      "noSucralose": true,
+      "stevia": false
+    }
+  },
+  {
+    "id": "wholesome-story-inositol-120",
+    "slug": "wholesome-story-inositol-120",
+    "name": "Myo-Inositol & D-Chiro Inositol",
+    "brand": "Wholesome Story",
+    "brandId": "wholesome-story",
+    "category": "supplements",
+    "type": "inositol",
+    "description": "A 40:1 inositol blend in the original capsule formula, without added folate or vitamin D.",
+    "image": "/products/ws-product.png",
+    "price": 27.95,
+    "qty": "120 capsules",
+    "variant": "U.S. formula \u00b7 120 capsules \u00b7 one-time purchase",
+    "servings": 30,
+    "source": "https://wholesomestory.com/products/myo-d-chiro-inositol?variant=35171000254626",
+    "url": "https://wholesomestory.com/products/myo-d-chiro-inositol?variant=35171000254626",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "40:1 inositol ratio",
+      "Product certification linked"
+    ],
+    "attributes": {
+      "Serving": "4 capsules",
+      "Myo-inositol": "2,000 mg / serving",
+      "D-chiro inositol": "50 mg / serving"
+    },
+    "ingredients": "Myo-inositol, D-chiro inositol, rice flour and hypromellose capsule.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "hormonal"
+      ],
+      "ingredient": [
+        "inositol"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegetarian",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "designs-for-sport-magnesium-120",
+    "slug": "designs-for-sport-magnesium-120",
+    "name": "Magnesium Bisglycinate",
+    "brand": "Designs for Sport",
+    "brandId": "designs-for-sport",
+    "category": "supplements",
+    "type": "magnesium",
+    "description": "Buffered magnesium capsules. The label includes magnesium oxide alongside magnesium bisglycinate.",
+    "image": "/products/dfs-product.jpg",
+    "price": 36.25,
+    "qty": "120 capsules",
+    "variant": "U.S. formula \u00b7 120 capsules \u00b7 one-time purchase",
+    "servings": 60,
+    "source": "https://designsforsport.com/products/magnesium-bisglycinate?variant=43754009362676",
+    "url": "https://designsforsport.com/products/magnesium-bisglycinate?variant=43754009362676",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "300 mg magnesium",
+      "NSF product record"
+    ],
+    "attributes": {
+      "Serving": "2 capsules",
+      "Magnesium": "300 mg / serving",
+      "Composition": "Bisglycinate chelate buffered with oxide"
+    },
+    "ingredients": "Magnesium as TRAACS magnesium bisglycinate chelate buffered from magnesium bisglycinate chelate and magnesium oxide. Other ingredients: cellulose capsule, vegetable stearate.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true
+    },
+    "facets": {
+      "goals": [
+        "sleep",
+        "calm"
+      ],
+      "ingredient": [
+        "magnesium"
+      ],
+      "form": [
+        "capsule"
+      ],
+      "dietary": [
+        "vegan",
+        "gluten-free"
+      ]
+    }
+  },
+  {
+    "id": "naked-nutrition-whey-unflavored",
+    "slug": "naked-nutrition-whey-unflavored",
+    "name": "Naked Whey",
+    "brand": "Naked Nutrition",
+    "brandId": "naked-nutrition",
+    "category": "supplements",
+    "type": "whey-protein",
+    "description": "Unflavored whey concentrate with one listed ingredient. An Informed Choice record matches the product and flavor.",
+    "image": "/products/naked-product.jpg",
+    "price": 139.99,
+    "qty": "5 lb \u00b7 76 servings",
+    "variant": "Unflavored \u00b7 5 lb \u00b7 one-time purchase",
+    "servings": 76,
+    "source": "https://nakednutrition.com/products/grass-fed-whey-protein-powder?variant=842157059",
+    "url": "https://nakednutrition.com/products/grass-fed-whey-protein-powder?variant=842157059",
+    "checked": "2026-10-16",
+    "available": true,
+    "status": "published",
+    "affiliate": false,
+    "badges": [
+      "25 g protein",
+      "Informed Choice record"
+    ],
+    "attributes": {
+      "Serving": "30 g (about 2 scoops)",
+      "Protein": "25 g / serving",
+      "Calories": "120 / serving",
+      "Allergen": "Milk",
+      "Sugar": "2 g total; 0 g added / serving"
+    },
+    "ingredients": "Whey protein concentrate. Contains milk.",
+    "filters": {
+      "noMelatonin": true,
+      "caffeineFree": true,
+      "noAddedSugar": true
+    },
+    "facets": {
+      "goals": [
+        "performance"
+      ],
+      "ingredient": [
+        "whey"
+      ],
+      "form": [
+        "powder"
+      ],
+      "dietary": [
+        "gluten-free"
+      ],
+      "sweetener": [
+        "unsweetened"
+      ]
+    }
+  }
+]

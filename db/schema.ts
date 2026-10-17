@@ -1,0 +1,11 @@
+import { sqliteTable, text, integer, uniqueIndex } from 'drizzle-orm/sqlite-core';
+export const products = sqliteTable('products', { id: text('id').primaryKey(), data: text('data').notNull(), status: text('status').notNull().default('published'), updated: text('updated').notNull() });
+export const assessments = sqliteTable('assessments', { id: text('id').primaryKey(), entity: text('entity').notNull(), scope: text('scope').notNull(), data: text('data').notNull(), status: text('status').notNull().default('draft'), updated: text('updated').notNull() });
+export const submissions = sqliteTable('submissions', { id: text('id').primaryKey(), type: text('type').notNull(), data: text('data').notNull(), status: text('status').notNull().default('new'), created: text('created').notNull() });
+export const settings = sqliteTable('settings', { key: text('key').primaryKey(), value: text('value').notNull() });
+export const audit = sqliteTable('audit', { id: text('id').primaryKey(), entity: text('entity').notNull(), action: text('action').notNull(), actor: text('actor').notNull(), data: text('data').notNull(), created: text('created').notNull() });
+export const events = sqliteTable('events', { id: text('id').primaryKey(), name: text('name').notNull(), product: text('product'), created: text('created').notNull() });
+
+export const trustProfiles = sqliteTable('trust_profiles', {brandId:text('brand_id').primaryKey(),data:text('data').notNull(),status:text('status').notNull().default('draft'),updated:text('updated').notNull()});
+export const trustVersions = sqliteTable('trust_versions', {id:text('id').primaryKey(),brandId:text('brand_id').notNull(),data:text('data').notNull(),actor:text('actor').notNull(),created:text('created').notNull()});
+export const consumerReviews = sqliteTable('consumer_reviews', {id:text('id').primaryKey(),userId:text('user_id').notNull(),brandId:text('brand_id').notNull(),productId:text('product_id'),scope:text('scope').notNull(),data:text('data').notNull(),status:text('status').notNull().default('pending'),created:text('created').notNull(),updated:text('updated').notNull(),publishedAt:text('published_at'),revision:integer('revision').notNull().default(1),moderationNote:text('moderation_note').notNull().default('')},table=>[uniqueIndex('review_author_scope').on(table.userId,table.brandId,table.scope)]);
