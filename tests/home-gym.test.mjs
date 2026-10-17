@@ -3,7 +3,7 @@ import {readFileSync,existsSync} from 'node:fs';
 import {createRequire} from 'node:module';
 import assert from 'node:assert/strict';
 const require=createRequire(import.meta.url);
-function compile(file){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(require,module,module.exports);return module.exports;}
+function compile(file){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const compiled={exports:{}};new Function('require','module','exports',code)(require,compiled,compiled.exports);return compiled.exports;}
 const fullCatalog=JSON.parse(readFileSync('data/catalog.json','utf8'));
 const laterIds=new Set(JSON.parse(readFileSync('research/high-ticket-expansion-2026-10-17.json','utf8')).products.map(p=>p.productId));
 const products=fullCatalog.filter(p=>!laterIds.has(p.id));

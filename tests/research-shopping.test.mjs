@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import React from 'react';
 import {renderToStaticMarkup} from 'react-dom/server';
 const require=createRequire(import.meta.url);
-function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);return module.exports;}
+function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;const compiled={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),compiled,compiled.exports);return compiled.exports;}
 const products=JSON.parse(readFileSync('data/catalog.json','utf8'));
 const catalog=compile('lib/catalog.ts'),browse=compile('lib/browse.ts'),comparison=compile('lib/comparison.ts'),equipment=compile('lib/equipment.ts'),badge=compile('components/BrandEvidenceBadge.tsx');
 let checks=0;function check(ok,label){assert.ok(ok,label);checks++;}

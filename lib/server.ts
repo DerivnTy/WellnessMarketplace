@@ -1,4 +1,4 @@
-import { getDb } from '@/db';
+import { getDb, vercelWithoutD1 } from '@/db';
 import { products, assessments, settings, audit } from '@/db/schema';
 import seed from '@/data/catalog.json';
 import { eq } from 'drizzle-orm';
@@ -7,6 +7,7 @@ import type { Product, Assessment } from './catalog';
 import { normalizeProduct } from './catalog-data';
 
 export async function catalog(includeDrafts=false): Promise<Product[]> {
+  if(process.env.VERCEL==='1'){try{getDb();}catch(error){if(!vercelWithoutD1(error))throw error;return seed.filter(p=>includeDrafts||p.status==='published').map(p=>normalizeProduct(p as unknown as Product));}}
   const db=getDb();
   // Seed data independently of schema migrations; existing editorial records are never overwritten.
   if(!await setting('catalog-high-ticket-expansion-2026-10-17')) {
@@ -21,6 +22,7 @@ export async function catalog(includeDrafts=false): Promise<Product[]> {
   return rows.filter(r=>includeDrafts||r.status==='published').map(r=>normalizeProduct({...JSON.parse(r.data),status:r.status}));
 }
 export async function research(): Promise<Assessment[]> {
+  if(process.env.VERCEL==='1'){try{getDb();}catch(error){if(!vercelWithoutD1(error))throw error;return [];}}
   return (await getDb().select().from(assessments).where(eq(assessments.status,'published'))).map(r=>({...JSON.parse(r.data),id:r.id,entity:r.entity,scope:r.scope,status:r.status}));
 }
 export async function setting(key: string) { return (await getDb().select().from(settings).where(eq(settings.key,key)))[0]?.value; }

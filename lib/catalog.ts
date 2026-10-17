@@ -22,6 +22,7 @@ export const categories = [
   { id:'recovery', name:'Recovery & devices', caption:'Make space to recharge', image:'hooga-hg300' },
 ];
 export const money = (n: number) => new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:2}).format(n);
+export const merchantLinkNote = (affiliate: boolean) => affiliate ? 'We may earn a commission if you buy from the brand.' : 'Direct merchant link.';
 export const filterLabels: Record<string,string> = {noAddedSugar:'0g added sugar',zeroSugar:'0g total sugar',stevia:'Contains stevia',cotton:'Cotton in main fabric',testing:'Brand links to batch results'};
 export function matchingProducts(products: Product[], query: string, category: string, filters: string[], sort: string, brand = '') {
   const terms=query.toLowerCase().trim().split(/\s+/).filter(Boolean);

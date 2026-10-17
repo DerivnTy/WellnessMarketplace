@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 import {createRequire} from 'node:module';
 import assert from 'node:assert/strict';
 const require=createRequire(import.meta.url);
-function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);return module.exports;}
+function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const compiled={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),compiled,compiled.exports);return compiled.exports;}
 const trust=compile('lib/trust.ts'),validation=compile('lib/validation.ts');
 const {trustSchema,reviewSchema}=compile('lib/trust-validation.ts',{'./trust':trust,'./validation':validation});
 const baseline=JSON.parse(readFileSync('data/trust-profiles.json','utf8')),updates=JSON.parse(readFileSync('data/trust-research-update.json','utf8')),expansion=JSON.parse(readFileSync('data/trust-specialist-expansion.json','utf8'));

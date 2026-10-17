@@ -1,4 +1,4 @@
-import {getDb} from '@/db';
+import {getDb,vercelWithoutD1} from '@/db';
 import {trustProfiles,trustVersions,consumerReviews} from '@/db/schema';
 import seed from '@/data/trust-profiles.json';
 import updates from '@/data/trust-research-update.json';
@@ -10,7 +10,13 @@ import {trustSchema} from './trust-validation';
 import {trustScore,type TrustProfile,type TrustHistory,type StoredReview} from './trust';
 import {setting} from './server';
 import {settings} from '@/db/schema';
+function previewTrustProfiles(includeDrafts=false):TrustProfile[]{
+ const byId=new Map<string,TrustProfile>();
+ for(const raw of [...seed,...updates,...expansion,...registry]){const p=trustSchema.parse(raw);byId.set(p.brandId,p);}
+ return [...byId.values()].filter(p=>includeDrafts||p.status==='published');
+}
 export async function trustProfilesList(includeDrafts=false):Promise<TrustProfile[]> {
+ if(process.env.VERCEL==='1'){try{getDb();}catch(error){if(!vercelWithoutD1(error))throw error;return previewTrustProfiles(includeDrafts);}}
  const db=getDb();
  if(seed.length&&!await setting('trust-profiles-v2-initial')){
   const profiles=seed.map(p=>trustSchema.parse(p));
@@ -41,9 +47,15 @@ export async function trustProfilesList(includeDrafts=false):Promise<TrustProfil
  return (await db.select().from(trustProfiles)).filter(r=>includeDrafts||r.status==='published').map(r=>({...JSON.parse(r.data),status:r.status}));
 }
 export async function trustHistory(brandId:string):Promise<TrustHistory[]> {
+ if(process.env.VERCEL==='1'){try{getDb();}catch(error){if(!vercelWithoutD1(error))throw error;const p=previewTrustProfiles(false).find(profile=>profile.brandId===brandId);return p?[{id:'seed-'+p.brandId,brandId,created:p.reviewed+'T12:00:00Z',note:p.changeNote,score:trustScore(p,p.reviewed).score,version:p.version,reviewer:p.reviewer}]:[];}}
  return (await getDb().select().from(trustVersions).where(eq(trustVersions.brandId,brandId)).orderBy(desc(trustVersions.created))).flatMap(r=>{const p=JSON.parse(r.data) as TrustProfile;return p.status==='published'?[{id:r.id,brandId:r.brandId,created:r.created,note:p.changeNote,score:trustScore(p,p.reviewed).score,version:p.version,reviewer:p.reviewer}]:[];}).slice(0,20);
 }
-export async function brandReviewRows(brandId:string):Promise<StoredReview[]> {return getDb().select().from(consumerReviews).where(eq(consumerReviews.brandId,brandId)).orderBy(desc(consumerReviews.updated));}
+export async function brandReviewRows(brandId:string):Promise<StoredReview[]> {
+ if(process.env.VERCEL==='1'){try{getDb();}catch(error){if(!vercelWithoutD1(error))throw error;return [];}}
+ return getDb().select().from(consumerReviews).where(eq(consumerReviews.brandId,brandId)).orderBy(desc(consumerReviews.updated));
+}
 export async function reviewId(userId:string,brandId:string,productId:string|null){const bytes=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify([userId,brandId,productId])));return Array.from(new Uint8Array(bytes)).map(b=>b.toString(16).padStart(2,'0')).join('');}
 
-export async function publishedTrustVersion(brandId:string,id:string):Promise<TrustProfile|null>{const row=(await getDb().select().from(trustVersions).where(and(eq(trustVersions.brandId,brandId),eq(trustVersions.id,id))))[0];if(!row)return null;const p=JSON.parse(row.data) as TrustProfile;return p.status==='published'?p:null;}
+export async function publishedTrustVersion(brandId:string,id:string):Promise<TrustProfile|null>{
+ if(process.env.VERCEL==='1'){try{getDb();}catch(error){if(!vercelWithoutD1(error))throw error;return null;}}
+ const row=(await getDb().select().from(trustVersions).where(and(eq(trustVersions.brandId,brandId),eq(trustVersions.id,id))))[0];if(!row)return null;const p=JSON.parse(row.data) as TrustProfile;return p.status==='published'?p:null;}

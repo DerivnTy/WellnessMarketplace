@@ -2,6 +2,10 @@ import { env } from "cloudflare:workers";
 import { drizzle } from "drizzle-orm/d1";
 import * as schema from "./schema";
 
+export function vercelWithoutD1(error: unknown) {
+  return process.env.VERCEL === "1" && error instanceof Error && error.message.includes("Cloudflare D1 binding `DB` is unavailable");
+}
+
 export function getDb() {
   if (!env.DB) {
     throw new Error(

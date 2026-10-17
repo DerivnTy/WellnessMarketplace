@@ -8,9 +8,9 @@ import {renderToStaticMarkup} from 'react-dom/server';
 const require=createRequire(import.meta.url);
 function compile(file,imports={}){
  const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;
- const module={exports:{}};
- new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);
- return module.exports;
+ const compiled={exports:{}};
+ new Function('require','module','exports',code)(name=>imports[name]||require(name),compiled,compiled.exports);
+ return compiled.exports;
 }
 const catalog=compile('lib/catalog.ts'),browse=compile('lib/browse.ts');
 const badge=compile('components/BrandEvidenceBadge.tsx');

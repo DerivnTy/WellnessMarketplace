@@ -34,10 +34,10 @@ export function comparisonRows(products:Product[]):SpecRow[]{
  if(!products.length)return [];
  if(products.every(p=>p.category==='recovery')){
   const type=products[0].type;
-  const required=new Set(['dimensions','power','warranty','materials','setup','included','ongoing','basis']);
+  const required=new Set(['dimensions','footprint','power','warranty','materials','setup','included','ongoing','delivery','basis']);
   if(['sauna','cold-plunge'].includes(type))['capacity','temperature','heat'].forEach(k=>required.add(k));
   if(type==='cold-plunge')required.add('chiller');
-  if(products[0].facets?.deviceType?.includes('home-gym'))['load','resistance'].forEach(k=>required.add(k));
+  if(products[0].facets?.deviceType?.includes('home-gym'))['load','user','resistance'].forEach(k=>required.add(k));
   const rows=recoverySpecs.filter(row=>required.has(row.id)||products.some(p=>specValue(p,row)));
   const used=new Set(recoverySpecs.flatMap(row=>row.keys));
   return [...rows,...Array.from(new Set(products.flatMap(p=>Object.keys(p.attributes).filter(k=>!used.has(k)&&!p.attributes[k].startsWith('https://'))))).map(key=>({id:key,label:key,keys:[key]}))];
@@ -49,7 +49,8 @@ export const decisionFacts=(p:Product)=>[
  {label:'Space',value:p.attributes['Dimensions']||'Dimensions not documented. Confirm the installed size and access route.'},
  {label:'Power',value:p.attributes['Power requirements']||'Electrical supply not documented. Confirm the exact model requirements.'},
  {label:'Installation',value:p.attributes['Setup type']||'Setup requirements not documented.'},
- {label:'Ongoing cost',value:p.attributes['Ongoing cost']||p.attributes['Ongoing costs']||p.attributes['Subscription']||'Running costs not documented. Check consumables, energy use and any recurring fees.'},
+ {label:'Delivery',value:p.attributes['Delivery']||'Not listed by brand'},
+ {label:'Maintenance',value:p.attributes['Ongoing cost']||p.attributes['Ongoing costs']||p.attributes['Subscription']||'Not listed by brand'},
  {label:'Warranty',value:p.attributes['Warranty']||'Coverage not documented. Confirm parts, labor and service terms.'},
 ];
 export function ownershipNotes(p:Product){

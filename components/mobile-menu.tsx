@@ -7,7 +7,8 @@ import {categoryHref} from '@/lib/browse';
 type Props={open:boolean;onClose:()=>void;path:string;saved:number;cart:number;trigger:RefObject<HTMLButtonElement|null>};
 export default function MobileMenu({open,onClose,path,saved,cart,trigger}:Props){
  const dialog=useRef<HTMLDialogElement>(null),close=useRef<HTMLButtonElement>(null);
- const dismiss=useRef(onClose);dismiss.current=onClose;
+ const dismiss=useRef(onClose);
+ useEffect(()=>{dismiss.current=onClose;},[onClose]);
  useEffect(()=>{
   if(!open)return;
   const node=dialog.current;if(!node)return;

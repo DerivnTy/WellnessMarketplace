@@ -14,6 +14,14 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
   ]),
   {
+    rules: {
+      // In-app navigation uses plain anchors, including merchant redirects at /api/out.
+      "@next/next/no-html-link-for-pages": "off",
+      // Mount effects hydrate browser storage and fetch reviews after the first render.
+      "react-hooks/set-state-in-effect": "off",
+    },
+  },
+  {
     files: ["components/ui/**/*.{ts,tsx}", "hooks/use-mobile.ts"],
     rules: {
       // These files are vendored verbatim from shadcn@4.17.0. Keep the
