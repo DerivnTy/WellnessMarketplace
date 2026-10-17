@@ -1,0 +1,1813 @@
+{
+  "checked": "2026-10-17",
+  "scope": "Read-only audit of existing catalog attributes and facets. No web research, new products or site edits.",
+  "productCount": 70,
+  "coldPlungeCount": 12,
+  "recommendation": {
+    "chiller": {
+      "key": "chiller",
+      "options": {
+        "included-chiller": "Chiller included",
+        "optional-chiller": "Chiller sold separately",
+        "ice-only": "Ice-only setup"
+      },
+      "currentEvidence": "All 12 current cold plunges include a chiller. No current record supports optional-chiller or ice-only. Render only populated values; a one-option control should not take prominent filter space.",
+      "unknownRule": "Missing positive inclusion evidence stays unclassified, never automatically tub-only or ice-only.",
+      "configurationRule": "Continue using setup=integrated/inflatable/portable-rigid to explain the equipment arrangement."
+    },
+    "power": {
+      "key": "powerGroup",
+      "options": {
+        "110-120v": "110\u2013120V",
+        "220-240v": "220\u2013240V",
+        "battery-or-no-ac": "Battery / no AC supply"
+      },
+      "rule": "Add a derived UI group; preserve existing power leaf values and full Power requirements. Primary US setup determines group. Universal-input compatibility can be shown separately.",
+      "warning": "Battery/no-AC group contains rechargeable devices needing chargers and self-powered/battery-console equipment; do not label every member no electricity required."
+    },
+    "capacity": "Use people capacity only where explicitly documented. Gym user weight, stack resistance and structural load stay separate. Most gym/panel capacity omissions are not errors.",
+    "footprint": "Calculated equipment area excludes operating space. All separate-chiller plunge calculations must say tub only. Missing stand/cradle dimensions or conflicting dimensions remain unknown.",
+    "warranty": "Use a clearly named minimum included equipment coverage field; do not promote longest frame coverage, optional extensions or membership-linked coverage as a whole-product minimum."
+  },
+  "attributeAliases": {
+    "power": {
+      "keys": [
+        "Power requirements"
+      ],
+      "exclude": [
+        "Power consumption"
+      ],
+      "rule": "Use the full requirement text. Wattage alone cannot establish voltage, plug type or circuit."
+    },
+    "chillerIncluded": {
+      "keys": [
+        "Price basis",
+        "Included",
+        "Setup type"
+      ],
+      "rule": "Positive inclusion in the selected priced configuration is required. Integrated chiller counts as included. An optional accessory elsewhere on a page is not inclusion."
+    },
+    "capacity": {
+      "keys": [
+        "Capacity"
+      ],
+      "rule": "Occupancy only for the people-capacity facet. Do not convert gallons, user height or weight limits into an occupancy count."
+    },
+    "userWeight": {
+      "keys": [
+        "User capacity",
+        "Capacity",
+        "User fit"
+      ],
+      "rule": "Only display a body-weight limit explicitly labeled for the user; retain height and fit qualifications."
+    },
+    "loadCapacity": {
+      "keys": [
+        "Weight capacity"
+      ],
+      "rule": "Keep equipment load limits distinct from user weight and included weight-stack resistance."
+    },
+    "weightRange": {
+      "keys": [
+        "Weight range"
+      ],
+      "rule": "Retain per-item/pair/set context."
+    },
+    "dimensions": {
+      "keys": [
+        "Dimensions"
+      ],
+      "rule": "Keep axis order and upright/reclined context. Do not mix internal depth with external height."
+    },
+    "footprint": {
+      "keys": [
+        "Equipment footprint",
+        "Footprint basis"
+      ],
+      "rule": "Prefer existing qualified calculation. Fall back to Dimensions only for a defensible horizontal bounding rectangle; label partial-equipment footprint."
+    },
+    "storage": {
+      "keys": [
+        "Storage dimensions",
+        "Folded dimensions",
+        "Storage"
+      ],
+      "rule": "Storage size is separate from operating footprint."
+    },
+    "clearance": {
+      "keys": [
+        "Clearance",
+        "Fit check",
+        "User fit"
+      ],
+      "rule": "Display explicit setup/door/wall conflicts; do not silently choose the smaller figure."
+    },
+    "warranty": {
+      "keys": [
+        "Warranty"
+      ],
+      "rule": "Base included coverage only; preserve parts/labor/consumable differences. Paid or membership-conditional extensions do not raise the base facet."
+    },
+    "placement": {
+      "keys": [
+        "Placement"
+      ],
+      "rule": "Retain covered-outdoor, dry-area and freeze restrictions."
+    },
+    "setup": {
+      "keys": [
+        "Setup type"
+      ],
+      "rule": "Keep installation, circuit and assembly requirements visible."
+    },
+    "temperature": {
+      "keys": [
+        "Temperature range"
+      ],
+      "rule": "Minimum-cooling facet applies to cold plunges only. A sauna maximum is not a cooling minimum."
+    },
+    "heatType": {
+      "keys": [
+        "Heat type"
+      ],
+      "rule": "Keep cooling-only versus heating-capable configurations distinct."
+    },
+    "included": {
+      "keys": [
+        "Included",
+        "Not included",
+        "Image shows"
+      ],
+      "rule": "Show exclusions alongside inclusions, especially pictured stands, cords and accessories."
+    },
+    "priceBasis": {
+      "keys": [
+        "Price basis",
+        "Merchant selection"
+      ],
+      "rule": "Preserve exact model/variant and mandatory extras."
+    },
+    "ongoingCosts": {
+      "keys": [
+        "Ongoing costs",
+        "Ongoing cost",
+        "Subscription"
+      ],
+      "rule": "Support both singular and plural keys; disclose required subscription price and renewal separately."
+    },
+    "availability": {
+      "keys": [
+        "Availability",
+        "Delivery"
+      ],
+      "rule": "Orderable does not mean in stock; preserve preorder and lead-time text."
+    },
+    "returns": {
+      "keys": [
+        "Returns"
+      ],
+      "rule": "Keep restocking and freight deductions, not just the window."
+    },
+    "battery": {
+      "keys": [
+        "Battery life",
+        "Battery"
+      ],
+      "rule": "Retain estimated runtime and source conflicts."
+    },
+    "ledCount": {
+      "keys": [
+        "LED count",
+        "LEDs"
+      ],
+      "rule": "Do not conflate LED packages and chips."
+    },
+    "equipmentWeight": {
+      "keys": [
+        "Product weight",
+        "Weight"
+      ],
+      "rule": "Equipment weight is not a load capacity."
+    }
+  },
+  "coverageSummary": {
+    "power": {
+      "currentPopulated": 50,
+      "missing": 20
+    },
+    "capacity": {
+      "currentPopulated": 24,
+      "missing": 46
+    },
+    "footprint": {
+      "currentPopulated": 38,
+      "missing": 32
+    },
+    "warranty": {
+      "currentPopulated": 61,
+      "missing": 9
+    }
+  },
+  "marketingScan": {
+    "scope": "All catalog descriptions and badges",
+    "catalogCount": 174,
+    "matches": []
+  },
+  "products": [
+    {
+      "id": "hooga-hg300",
+      "type": "red-light-panel",
+      "suggestedFacets": {
+        "warranty": [
+          "3-year"
+        ]
+      },
+      "evidence": {
+        "warranty": "3 years (manufacturer terms)"
+      },
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "No input voltage or power requirement in current catalog; wattage alone is insufficient."
+        },
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Dimensions absent."
+        }
+      ],
+      "corrections": [],
+      "source": "https://hoogahealth.com/products/hooga-300w-red-and-near-infrared-light-therapy-panel"
+    },
+    {
+      "id": "mito-min",
+      "type": "red-light-panel",
+      "suggestedFacets": {
+        "warranty": [
+          "2-year"
+        ]
+      },
+      "evidence": {
+        "warranty": "2 years (manufacturer terms)"
+      },
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "No input voltage or power requirement in current catalog; wattage alone is insufficient."
+        },
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Dimensions absent."
+        }
+      ],
+      "corrections": [],
+      "source": "https://mitoredlight.com/products/mitomin"
+    },
+    {
+      "id": "mito-mid",
+      "type": "red-light-panel",
+      "suggestedFacets": {
+        "warranty": [
+          "2-year"
+        ]
+      },
+      "evidence": {
+        "warranty": "2 years (manufacturer terms)"
+      },
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "No input voltage or power requirement in current catalog; wattage alone is insufficient."
+        },
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Dimensions absent."
+        }
+      ],
+      "corrections": [],
+      "source": "https://mitoredlight.com/products/mitomid"
+    },
+    {
+      "id": "pod-icepod-pro-standard-chiller",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "IcePod Pro plus Standard Chiller, variant 44455811317926. Taxes and any destination fees extra.",
+          "Setup type": "Inflatable tub with support legs; external chiller connected by hoses."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "Water volume not confirmed: the product page lists both 106 and 110 gallons. Occupancy limit not confirmed."
+        }
+      ],
+      "corrections": [],
+      "source": "https://podcompany.com/products/the-ice-pod",
+      "chillerConfiguration": "external",
+      "powerDetail": "Regular 110V US plug; Standard Chiller rated 280W.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "icebarrel-500-chiller-bundle",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "Includes one Ice Barrel 500 and one Ice Barrel Chiller. Taxes and freight extra.",
+          "Setup type": "Rigid barrel with separate chiller; drain-spout assembly and hose connection required."
+        },
+        "powerGroup": "Chiller: approximately 115V, 60Hz; 15A maximum overcurrent protection. Dedicated-circuit requirement not confirmed."
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "94 gallons; manufacturer lists fit for users up to 6 ft 9 in. Occupancy limit not confirmed."
+        }
+      ],
+      "corrections": [
+        "Voltage documented; dedicated-circuit status remains unknown. Do not add the 120v-standard leaf."
+      ],
+      "source": "https://icebarrel.com/products/ice-barrel-500-bundle",
+      "chillerConfiguration": "external",
+      "powerDetail": "Chiller: approximately 115V, 60Hz; 15A maximum overcurrent protection. Dedicated-circuit requirement not confirmed.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "plunge-all-in-gen2-cold",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "Current $7,990 advertised sale after automatic $2,000 discount. Cold Only; integrated chiller included. Taxes and delivery-zone fees extra.",
+          "Setup type": "Integrated chiller; fill with water and connect to required power."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "105 gallons; manufacturer lists fit for users up to 6 ft 9 in. Occupancy limit not confirmed."
+        }
+      ],
+      "corrections": [],
+      "source": "https://plunge.com/products/plunge-all-in",
+      "chillerConfiguration": "integrated",
+      "powerDetail": "Dedicated 120V, 15A circuit; supplied cord has GFCI protection.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "sunhome-cold-plunge-pro",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "Standard Cold Plunge Pro with integrated chiller. Taxes and optional delivery upgrades extra.",
+          "Setup type": "Integrated, fully assembled cabinet; uncrate, position, fill and plug in. At least two people for setup."
+        }
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://sunhomesaunas.com/products/sun-home-cold-plunge-tub",
+      "chillerConfiguration": "integrated",
+      "powerDetail": "Dedicated 120V, 15A GFCI circuit; NEMA 5-15 receptacle; 1,200W rated power.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "sun-home-equinox-2",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://sunhomesaunas.com/products/sun-home-equinox-2-person-full-spectrum-infrared-sauna",
+      "powerDetail": "Dedicated 120V / 20A GFCI circuit; NEMA 5-20R. Rated 1,880W.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "sun-home-luminar-2",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [
+        "Catalog policy consistency flag: Luminar 2 says limited lifetime is defined as 7 years, while Luminar 5 citing the same warranty URL omits this definition. Verify the Luminar-specific policy before retaining the 7-year assertion; do not auto-change from this audit."
+      ],
+      "source": "https://sunhomesaunas.com/products/2-person-outdoor-infrared-sauna",
+      "powerDetail": "Dedicated 240V / 20A GFCI circuit; NEMA L6-20R. Rated 4,800W; electrician required.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "plunge-sauna-standard",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://plunge.com/products/sauna",
+      "powerDetail": "Dedicated 240V / 30A circuit; NEMA L14-30 outlet; electrician required",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "human-touch-novo-flex-gray",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.humantouch.com/products/novo-flex-massage-chair?variant=44911119335601",
+      "powerDetail": "Grounded 120 V outlet; manual specifies AC 110\u2013120 V and 1.0 A.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "human-touch-super-novo-2-espresso",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.humantouch.com/products/super-novo-2-0-massage-chair?variant=44727078617265",
+      "powerDetail": "Grounded 120 V outlet; manual specifies AC 110\u2013120 V, 60 Hz and 0.87 A.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "hyperice-normatec-elite-standard",
+      "type": "compression-boots",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Size-specific Standard dimensions not confirmed. Product page lists 15.5 \u00d7 50.4 in without a size qualification."
+        }
+      ],
+      "corrections": [],
+      "source": "https://hyperice.com/products/normatec-elite?variant=47703733797078",
+      "powerDetail": "Rechargeable batteries; included charger outputs 12 V DC, 4 A and supports 100\u2013240 V input."
+    },
+    {
+      "id": "powerblock-elite-usa-90",
+      "type": "adjustable-dumbbells",
+      "suggestedFacets": {
+        "power": [
+          "no-power"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "No electrical power required."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://powerblock.com/products/elite-usa-90-adjustable-dumbbells",
+      "powerDetail": "No electrical power required."
+    },
+    {
+      "id": "ironmaster-quick-lock-75",
+      "type": "adjustable-dumbbells",
+      "suggestedFacets": {
+        "power": [
+          "no-power"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "No electrical power required."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://ironmaster.com/products/quick-lock-adjustable-dumbbells-75-original",
+      "powerDetail": "No electrical power required."
+    },
+    {
+      "id": "smrtft-nuobell-80",
+      "type": "adjustable-dumbbells",
+      "suggestedFacets": {
+        "power": [
+          "no-power"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "No electrical power required."
+      },
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Each dumbbell: 17 \u00d7 7.5 \u00d7 7.5 in (L \u00d7 W \u00d7 H). Cradle footprint not separately confirmed."
+        }
+      ],
+      "corrections": [],
+      "source": "https://smrtft.com/products/nuobell-80lb",
+      "powerDetail": "No electrical power required."
+    },
+    {
+      "id": "rogue-sml2-squat-stand",
+      "type": "power-rack",
+      "suggestedFacets": {},
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "No input voltage or power requirement in current catalog; wattage alone is insufficient."
+        },
+        {
+          "facet": "warranty",
+          "status": "coverage-scope-review",
+          "reason": "Limited lifetime: frame and structural welds; original user; misuse exclusions apply."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.roguefitness.com/sml-2-rogue-90-monster-lite-squat-stand",
+      "warrantyDecision": {
+        "frameOnlyFacetIfAvailable": "lifetime-limited",
+        "wholeProductMinimum": "unknown",
+        "reason": "Catalog documents frame/weld coverage; minimum accessory coverage is not established."
+      }
+    },
+    {
+      "id": "rep-pr4100-folding-rack-41",
+      "type": "power-rack",
+      "suggestedFacets": {},
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "No input voltage or power requirement in current catalog; wattage alone is insufficient."
+        },
+        {
+          "facet": "warranty",
+          "status": "coverage-scope-review",
+          "reason": "Lifetime rack-frame and structural-weld coverage for original purchaser; wear/misuse excluded. REP policy excludes products leaving lower 48 states."
+        }
+      ],
+      "corrections": [],
+      "source": "https://repfitness.com/products/pr-4100-folding-wall-mount-squat-power-rack?variant=41067585732766",
+      "warrantyDecision": {
+        "frameOnlyFacetIfAvailable": "lifetime-limited",
+        "wholeProductMinimum": "unknown",
+        "reason": "Catalog documents frame/weld coverage; minimum accessory coverage is not established."
+      }
+    },
+    {
+      "id": "bells-of-steel-all-in-one-stack",
+      "type": "functional-trainer",
+      "suggestedFacets": {},
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "No input voltage or power requirement in current catalog; wattage alone is insufficient."
+        },
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Not assigned a size filter: manufacturer dimensions conflict. Confirm the current v2 floorplan and operating clearance before purchase."
+        }
+      ],
+      "corrections": [],
+      "source": "https://bellsofsteel.us/products/all-in-one-trainer?variant=50655811240133"
+    },
+    {
+      "id": "rep-fb5000-flat-bench",
+      "type": "bench",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://repfitness.com/products/fb-5000-competition-flat-bench?variant=41499496382622",
+      "powerDetail": "Existing no-power facet; detailed textual requirement not recorded."
+    },
+    {
+      "id": "rep-blackwing-adjustable-bench",
+      "type": "bench",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://repfitness.com/products/blackwing-adjustable-bench?variant=42458934804638",
+      "powerDetail": "Existing no-power facet; detailed textual requirement not recorded."
+    },
+    {
+      "id": "rep-colorado-20kg-barbell",
+      "type": "barbell",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "86.6 in overall length; 28.5 mm shaft; 50 mm sleeves"
+        }
+      ],
+      "corrections": [],
+      "source": "https://repfitness.com/products/colorado-bar-20kg?variant=42538384064670",
+      "powerDetail": "Existing no-power facet; detailed textual requirement not recorded."
+    },
+    {
+      "id": "rep-black-bumper-260lb-set",
+      "type": "weight-plates",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Fits 2-inch Olympic sleeves. 10 lb plates are 1 in thick; remaining dimensions not confirmed in readable current specs."
+        }
+      ],
+      "corrections": [],
+      "source": "https://repfitness.com/products/black-bumper-plate-pairs",
+      "powerDetail": "Existing no-power facet; detailed textual requirement not recorded."
+    },
+    {
+      "id": "ht-plunge-plunge-air",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; selected Cold Only system. Shipping, tax and heating upgrade may cost extra.",
+          "Included": "Tub, external chiller, insulated cover, pump, ground cover, repair kit and backpack.",
+          "Setup type": "Inflate tub, attach chiller hoses, fill and connect power."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "105 gallons; individual fit should be checked against tub dimensions."
+        }
+      ],
+      "corrections": [
+        "Retain dedicated-circuit recommendation visibly; do not change recommended to required or hide it under voltage grouping."
+      ],
+      "source": "https://plunge.com/products/plunge-air",
+      "chillerConfiguration": "external",
+      "powerDetail": "110V outlet; manufacturer recommends a dedicated 15A circuit.",
+      "circuitStatus": "dedicated-recommended",
+      "calculatedFootprint": {
+        "squareFeet": 13.6,
+        "basis": "Tub only; external chiller and access space extra.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "ht-plunge-plunge",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; current advertised $6,790 automatic sale price, reduced from the $8,490 feed price. Shipping and tax extra.",
+          "Included": "Original tub, Pro Chiller and insulated lid; optional heat upgrade excluded.",
+          "Setup type": "Rigid tub plus external chiller; connect hoses, fill and power."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "105 gallons; manufacturer describes fit up to 6 ft 8 in."
+        }
+      ],
+      "corrections": [],
+      "source": "https://plunge.com/products/plunge",
+      "chillerConfiguration": "external",
+      "powerDetail": "Dedicated 120V, 15A circuit.",
+      "circuitStatus": "dedicated-required",
+      "calculatedFootprint": {
+        "squareFeet": 14.6,
+        "basis": "Tub only; external chiller and access space extra.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "ht-plunge-the-infrared-sauna",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://plunge.com/products/the-infrared-sauna",
+      "powerDetail": "Dedicated 120V, 20A circuit; NEMA 5-20 outlet.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "ht-plunge-the-sauna-mini",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://plunge.com/products/the-sauna-mini",
+      "powerDetail": "Dedicated 220\u2013240V, 20A circuit; NEMA L14-20 outlet. Power cord sold separately.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "ht-sunhome-portable-cold-plunge-tub",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; selected Horizontal system with chiller. Optional accessories and tax extra.",
+          "Included": "Horizontal tub and 1 HP smart chiller.",
+          "Setup type": "Inflate, connect external chiller, fill and power."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "128 gallons. Occupancy is unconfirmed: variant title says 2-person; current specification panel says 1 person."
+        }
+      ],
+      "corrections": [
+        "Keep occupancy unset: selected-variant 2-person title conflicts with current 1-person specification panel. Gallons remain usable as detail."
+      ],
+      "source": "https://sunhomesaunas.com/products/portable-cold-plunge-tub",
+      "chillerConfiguration": "external",
+      "powerDetail": "120V, rated 11A; dedicated 15A GFCI circuit, NEMA 5-15.",
+      "circuitStatus": "dedicated-required",
+      "calculatedFootprint": {
+        "squareFeet": 14.8,
+        "basis": "Tub only; external chiller plus required 3 ft fan clearance excluded.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "ht-sunhome-sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://sunhomesaunas.com/products/sun-home-equinox-3-person-full-spectrum-bestinfrared-sauna",
+      "powerDetail": "120V, 2,020W, 16.83A; dedicated 20A GFCI circuit and NEMA 5-20.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "ht-sunhome-5personoutdoorinfraredsauna",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://sunhomesaunas.com/products/5personoutdoorinfraredsauna",
+      "powerDetail": "240V, 7,200W; dedicated 30A GFCI circuit, NEMA L6-30.",
+      "circuitStatus": "dedicated-required"
+    },
+    {
+      "id": "ht-icebarrel-ice-barrel-300-bundle",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "under-10-sq-ft"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; complete 300 + chiller bundle. Tax and delivery charges may apply.",
+          "Included": "Ice Barrel 300 and Ice Barrel Chiller.",
+          "Setup type": "Rigid barrel plus separate chiller; connect plumbing, fill and power."
+        },
+        "powerGroup": "115V, 60Hz; maximum overcurrent protection 15A. Dedicated-circuit requirement not confirmed."
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "77 gallons; manufacturer describes fit for most users up to 6 ft tall."
+        }
+      ],
+      "corrections": [
+        "Voltage documented; dedicated-circuit status remains unknown. Do not add the 120v-standard leaf."
+      ],
+      "source": "https://icebarrel.com/products/ice-barrel-300-bundle",
+      "chillerConfiguration": "external",
+      "powerDetail": "115V, 60Hz; maximum overcurrent protection 15A. Dedicated-circuit requirement not confirmed.",
+      "circuitStatus": "see-stored-power-requirements",
+      "calculatedFootprint": {
+        "squareFeet": 8.8,
+        "basis": "Barrel bounding rectangle only; external chiller and access space extra.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "ht-inergize-inergize-cold-plunge-tub",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; current live Elite system price. Optional warranty extensions excluded.",
+          "Included": "Tub, chiller, locking lid, hoses, 2 filters, hand pump and backpack.",
+          "Setup type": "Inflate tub, connect hoses, fill and power."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "Manufacturer fit limit: up to 6 ft 5 in and 300 lb. Water volume not confirmed."
+        }
+      ],
+      "corrections": [
+        "Retain dedicated-circuit recommendation visibly; do not change recommended to required or hide it under voltage grouping."
+      ],
+      "source": "https://inergizehealth.com/products/inergize-cold-plunge-tub",
+      "chillerConfiguration": "external",
+      "powerDetail": "120V, 60Hz grounded 15A outlet; 890W. Dedicated circuit recommended.",
+      "circuitStatus": "dedicated-recommended",
+      "calculatedFootprint": {
+        "squareFeet": 10.9,
+        "basis": "Tub only. Manufacturer separately lists 89 \u00d7 41.5 in setup area; do not present tub size as required installation space.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "ht-renu-cold-stoic-2-0",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; exact selected color/deck/no-light configuration. Tax and delivery extra.",
+          "Included": "Cold Stoic 2.0 with integrated chiller and selected redwood deck; light excluded.",
+          "Setup type": "Integrated chiller; place on suitable base, fill and connect power."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "95-gallon normal fill; 134-gallon maximum volume."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.renutherapy.com/products/cold-stoic-2-0",
+      "chillerConfiguration": "integrated",
+      "powerDetail": "Standard 120V, 15A outlet; 450W.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "ht-dynamic-dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; complete selected 0.8 HP system, not the lower-priced tub-only option. Tax/delivery may be extra.",
+          "Included": "304 stainless barrel, cedar step, cover and 0.8 HP chiller.",
+          "Setup type": "Rigid barrel plus external chiller; connect hoses, fill and power."
+        }
+      },
+      "gaps": [
+        {
+          "facet": "capacity",
+          "status": "unknown-do-not-fill",
+          "reason": "Occupancy and tub volume not confirmed. Chiller\u2019s 135-gallon compatibility rating is not tub capacity."
+        },
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Barrel: 42 in wide \u00d7 39.5 in high. Chiller: 14 L \u00d7 19 W \u00d7 22 H in."
+        }
+      ],
+      "corrections": [
+        "42 in wide \u00d7 39.5 in high does not establish front-to-back depth; no footprint can be calculated. Chiller rating 135 gallons is not barrel volume."
+      ],
+      "source": "https://dynamiccoldtherapy.com/products/dynamic-cold-therapy-barrel-304-stainless-steel-cold-plunge",
+      "chillerConfiguration": "external",
+      "powerDetail": "Standard 120V outlet with GFCI protection. Required circuit amperage not confirmed for 0.8 HP.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "ht-almostheaven-salem-2-person-barrel-sauna",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://almostheaven.com/products/salem-2-person-barrel-sauna",
+      "powerDetail": "Heater: hardwired 240V, 30A. Lighting: 110V, 15A plug-in service.",
+      "circuitStatus": "dedicated-required",
+      "auxiliaryPower": "Separate 110\u2013120V lighting supply documented; primary heater remains 220\u2013240V group."
+    },
+    {
+      "id": "ht-almostheaven-grayson-4-person-indoor-sauna",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://almostheaven.com/products/grayson-4-person-indoor-sauna",
+      "powerDetail": "Heater: hardwired 240V, 40A. Lighting: 110V, 15A plug-in service.",
+      "circuitStatus": "dedicated-required",
+      "auxiliaryPower": "Separate 110\u2013120V lighting supply documented; primary heater remains 220\u2013240V group."
+    },
+    {
+      "id": "ht-redwood-cabin-outdoor-sauna-4-person",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.redwoodoutdoors.com/products/cabin-outdoor-sauna-4-person",
+      "powerDetail": "Heater: 240V, 30A circuit. Separate 120V supply for lighting; professional wiring required.",
+      "circuitStatus": "dedicated-required",
+      "auxiliaryPower": "Separate 110\u2013120V lighting supply documented; primary heater remains 220\u2013240V group."
+    },
+    {
+      "id": "ht-redwood-6-person-barrel-sauna",
+      "type": "sauna",
+      "suggestedFacets": {
+        "powerGroup": [
+          "220-240v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.redwoodoutdoors.com/products/6-person-barrel-sauna",
+      "powerDetail": "Heater: 240V, 30A circuit. Separate 120V lighting supply; professional wiring required.",
+      "circuitStatus": "dedicated-required",
+      "auxiliaryPower": "Separate 110\u2013120V lighting supply documented; primary heater remains 220\u2013240V group."
+    },
+    {
+      "id": "ht-redwood-alaskan-all-in-one-cold-plunge-kit",
+      "type": "cold-plunge",
+      "suggestedFacets": {
+        "chiller": [
+          "included-chiller"
+        ],
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {
+        "chiller": {
+          "Price basis": "USD; Standard controller configuration. Optional Wi-Fi upgrade costs extra; tax/freight extra.",
+          "Included": "Acrylic-lined Thermowood tub, integrated chiller, steps, lid and UV sanitation.",
+          "Setup type": "Integrated unit; prepare base, fill and connect power."
+        }
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.redwoodoutdoors.com/products/alaskan-all-in-one-cold-plunge-kit",
+      "chillerConfiguration": "integrated",
+      "powerDetail": "120V, 60Hz; maximum 12A; GFCI-protected outlet.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "concept2-rowerg-standard",
+      "type": "rowing-machine",
+      "suggestedFacets": {
+        "power": [
+          "battery-powered"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "PM5 uses two D-cell batteries, assisted by the flywheel during use; no AC outlet."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.concept2.com/ergs/rowerg",
+      "powerDetail": "PM5 uses two D-cell batteries, assisted by the flywheel during use; no AC outlet."
+    },
+    {
+      "id": "concept2-bikeerg-standard",
+      "type": "exercise-bike",
+      "suggestedFacets": {
+        "power": [
+          "battery-powered"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "PM5 uses two D-cell batteries with flywheel assistance; no AC outlet."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.concept2.com/ergs/bikeerg",
+      "powerDetail": "PM5 uses two D-cell batteries with flywheel assistance; no AC outlet."
+    },
+    {
+      "id": "concept2-skierg-wall",
+      "type": "ski-trainer",
+      "suggestedFacets": {
+        "power": [
+          "battery-powered"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ],
+        "footprint": [
+          "under-10-sq-ft"
+        ]
+      },
+      "evidence": {
+        "power": "Two D-cell batteries; flywheel assists PM5 power during use. No AC outlet."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.concept2.com/ergs/skierg",
+      "powerDetail": "Two D-cell batteries; flywheel assists PM5 power during use. No AC outlet.",
+      "calculatedFootprint": {
+        "squareFeet": 2.3,
+        "basis": "Wall-mounted equipment bounding rectangle; exercise space is additional.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "concept2-strengtherg-pm5",
+      "type": "strength-machine",
+      "suggestedFacets": {
+        "power": [
+          "battery-powered"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "D-cell batteries; no AC connection specified."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.concept2.com/ergs/strengtherg",
+      "powerDetail": "D-cell batteries; no AC connection specified."
+    },
+    {
+      "id": "rogue-echo-bike-v3",
+      "type": "exercise-bike",
+      "suggestedFacets": {
+        "power": [
+          "battery-powered"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "Battery-powered standard LCD; batteries included. No AC outlet required."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.roguefitness.com/rogue-echo-bike",
+      "powerDetail": "Battery-powered standard LCD; batteries included. No AC outlet required."
+    },
+    {
+      "id": "rogue-echo-rower",
+      "type": "rowing-machine",
+      "suggestedFacets": {
+        "power": [
+          "battery-powered"
+        ],
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {
+        "power": "Self-generating console with two D-cell backup batteries included; no AC outlet."
+      },
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.roguefitness.com/rogue-echo-rower",
+      "powerDetail": "Self-generating console with two D-cell backup batteries included; no AC outlet."
+    },
+    {
+      "id": "rogue-rml390f-rack",
+      "type": "power-rack",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "warranty",
+          "status": "coverage-scope-review",
+          "reason": "Frame and structural welds: limited lifetime. Accessory/component coverage varies; wear and misuse excluded."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.roguefitness.com/rml-390f-flat-foot-monster-lite-rack",
+      "powerDetail": "None.",
+      "warrantyDecision": {
+        "frameOnlyFacetIfAvailable": "lifetime-limited",
+        "wholeProductMinimum": "unknown",
+        "reason": "Catalog documents frame/weld coverage; minimum accessory coverage is not established."
+      }
+    },
+    {
+      "id": "titan-x3-flatfoot-82",
+      "type": "power-rack",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://titan.fitness/products/x3-series-flat-foot-power-rack",
+      "powerDetail": "None."
+    },
+    {
+      "id": "rep-arcadia-trainer",
+      "type": "functional-trainer",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://repfitness.com/products/arcadia-functional-trainer",
+      "powerDetail": "None."
+    },
+    {
+      "id": "rep-pepin-fast-125",
+      "type": "adjustable-dumbbells",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "18.3 in maximum dumbbell length. Width, height and cradle footprint not reliably confirmed."
+        }
+      ],
+      "corrections": [],
+      "source": "https://repfitness.com/products/rep-x-pepin-fast-series-adjustable-dumbbell",
+      "powerDetail": "None."
+    },
+    {
+      "id": "powerblock-pro100-exp",
+      "type": "adjustable-dumbbells",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Each dumbbell at full size: 19.21 L \u00d7 7.63 W \u00d7 7.72 H in."
+        }
+      ],
+      "corrections": [],
+      "source": "https://powerblock.com/products/pro-100-exp-adjustable-dumbbells",
+      "powerDetail": "None."
+    },
+    {
+      "id": "ironmaster-superbench-pro-v2",
+      "type": "bench",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://ironmaster.com/products/super-bench-pro-v2",
+      "powerDetail": "None."
+    },
+    {
+      "id": "bells-cable-tower-210",
+      "type": "functional-trainer",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://bellsofsteel.us/products/cable-tower",
+      "powerDetail": "None."
+    },
+    {
+      "id": "sole-f80-2026",
+      "type": "treadmill",
+      "suggestedFacets": {},
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "AC connection required; exact circuit specification for 2026 model not confirmed. Follow current model manual."
+        },
+        {
+          "facet": "warranty",
+          "status": "coverage-scope-review",
+          "reason": "Lifetime frame/motor; deck, electronics and parts 3 years; labor 1 year; cosmetic coverage 90 days."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.soletreadmills.com/products/sole-f80-treadmill",
+      "warrantyDecision": {
+        "suggestedFacetIfScopeExcludesCosmetics": "1-year",
+        "strictAllCoverageMinimum": "90-day",
+        "reason": "Stored warranty separates 1-year labor from 90-day cosmetic coverage. Define facet scope consistently before assigning."
+      }
+    },
+    {
+      "id": "sole-e95-2026",
+      "type": "elliptical",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "warranty",
+          "status": "coverage-scope-review",
+          "reason": "Frame/flywheel lifetime; magnetic brake, electronics and parts 3 years; labor 1 year; cosmetics 90 days."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.soletreadmills.com/products/sole-e95",
+      "powerDetail": "AC 120V / 60Hz.",
+      "circuitStatus": "see-stored-power-requirements",
+      "warrantyDecision": {
+        "suggestedFacetIfScopeExcludesCosmetics": "1-year",
+        "strictAllCoverageMinimum": "90-day",
+        "reason": "Stored warranty separates 1-year labor from 90-day cosmetic coverage. Define facet scope consistently before assigning."
+      }
+    },
+    {
+      "id": "horizon-74-at",
+      "type": "treadmill",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.horizonfitness.com/products/horizon-7-4-at-treadmill",
+      "powerDetail": "120V / 60Hz. Manufacturer states incompatibility with GFCI outlets; confirm room circuit suitability.",
+      "circuitStatus": "see-stored-power-requirements"
+    },
+    {
+      "id": "osaki-op4d-ultima",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://osakimassagechair.com/products/osaki-op-4d-ultima?variant=44731729510708",
+      "powerDetail": "110\u2013120 VAC, 60 Hz, 1.6 A; grounded outlet",
+      "circuitStatus": "see-stored-power-requirements",
+      "calculatedFootprint": {
+        "squareFeet": 14.5,
+        "basis": "Reclined chair only; operating/access clearance additional.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "ogawa-masterdrive-ai2",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.ogawaworldusa.com/products/ogawa-master-drive-ai-2-0-massage-chair?variant=40431853699141",
+      "powerDetail": "110\u2013120 VAC, 60 Hz; 150 W",
+      "circuitStatus": "see-stored-power-requirements",
+      "calculatedFootprint": {
+        "squareFeet": 17.7,
+        "basis": "Reclined chair only; 4 in rear clearance and access space additional.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "ogawa-masterdrive-duo",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.ogawaworldusa.com/products/ogawa-master-drive-duo-massage-chair?variant=40847157624901",
+      "powerDetail": "110\u2013120 VAC, 60 Hz; product page lists 150 W and 2.1 A.",
+      "circuitStatus": "see-stored-power-requirements",
+      "calculatedFootprint": {
+        "squareFeet": 16.3,
+        "basis": "Reclined chair only; wall and access clearance additional.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "brookstone-mach-ix",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://www.ogawaworldusa.com/products/brookstone-mach-ix-massage-chair?variant=40856684658757",
+      "powerDetail": "110\u2013120 VAC, 60 Hz; 180 W",
+      "circuitStatus": "see-stored-power-requirements",
+      "calculatedFootprint": {
+        "squareFeet": 15.7,
+        "basis": "Reclined chair only; wall and access clearance additional.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "infinity-genmax-4d",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ],
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {},
+      "gaps": [],
+      "corrections": [],
+      "source": "https://infinitymassagechairs.com/massage-chairs/details/Gen%20Max",
+      "powerDetail": "110\u2013120 VAC; 1.55 A; 160 W",
+      "circuitStatus": "see-stored-power-requirements",
+      "calculatedFootprint": {
+        "squareFeet": 19.4,
+        "basis": "Reclined chair only; use manual 4 in rear and 24 in front clearance, not product-page 2 in rear.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "luraco-i9-max-plus",
+      "type": "massage-chair",
+      "suggestedFacets": {
+        "footprint": [
+          "10-25-sq-ft"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "Approximately 200 W maximum. Required input voltage/circuit: not confirmed in current readable specifications."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.usmassagechairs.com/product-page/irobotics-9-max-medical-massage-chair",
+      "calculatedFootprint": {
+        "squareFeet": 23.0,
+        "basis": "Uses listed maximum width and reclined length; external bounding area, not delivery or installation clearance.",
+        "sourceAttribute": "Dimensions",
+        "equipmentOnly": true
+      }
+    },
+    {
+      "id": "mitopro-1500x",
+      "type": "red-light-panel",
+      "suggestedFacets": {},
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "powerGroup",
+          "status": "unknown-do-not-fill",
+          "reason": "Listed consumption: 445 W. Input voltage and circuit requirements: not confirmed."
+        },
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Panel: 43 H \u00d7 10 W in; depth not confirmed. Weight: 25 lb."
+        }
+      ],
+      "corrections": [],
+      "source": "https://mitoredlight.com/products/mitopro-x-series?variant=45796723130536"
+    },
+    {
+      "id": "hooga-ultra1500",
+      "type": "red-light-panel",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "39.5 \u00d7 8.6 \u00d7 2.5 in; 28 lb"
+        }
+      ],
+      "corrections": [
+        "Input specification also covers 220\u2013240V. Recommend keeping primary US setup group 110\u2013120V; display universal/dual voltage in details. Do not imply supplied plug works in every region."
+      ],
+      "source": "https://hoogahealth.com/products/ultra-1500",
+      "powerDetail": "85\u2013265 VAC; comparison table lists 478.5 W consumption. The technical section separately labels 525 W as output.",
+      "circuitStatus": "see-stored-power-requirements",
+      "documentedVoltageCompatibility": [
+        "110-120v",
+        "220-240v"
+      ]
+    },
+    {
+      "id": "hooga-ultra4500",
+      "type": "red-light-panel",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "61 \u00d7 16 \u00d7 2.6 in; 63 lb"
+        }
+      ],
+      "corrections": [
+        "Input specification also covers 220\u2013240V. Recommend keeping primary US setup group 110\u2013120V; display universal/dual voltage in details. Do not imply supplied plug works in every region."
+      ],
+      "source": "https://hoogahealth.com/products/ultra4500-red-light-therapy",
+      "powerDetail": "85\u2013265 VAC; comparison table lists 1,095 W consumption. Technical section separately labels 1,250 W as output.",
+      "circuitStatus": "see-stored-power-requirements",
+      "documentedVoltageCompatibility": [
+        "110-120v",
+        "220-240v"
+      ]
+    },
+    {
+      "id": "platinum-biomax900",
+      "type": "red-light-panel",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "35.83 \u00d7 11.81 \u00d7 2.76 in; 33 lb"
+        }
+      ],
+      "corrections": [
+        "Input specification also covers 220\u2013240V. Recommend keeping primary US setup group 110\u2013120V; display universal/dual voltage in details. Do not imply supplied plug works in every region."
+      ],
+      "source": "https://platinumtherapylights.com/products/biomax-rlt?variant=15601444487234",
+      "powerDetail": "Manufacturer lists 380/490 W; 3.45/4.4 A at 110 V or 1.73/2.2 A at 220 V. Mode basis for paired values is not explained.",
+      "circuitStatus": "see-stored-power-requirements",
+      "documentedVoltageCompatibility": [
+        "110-120v",
+        "220-240v"
+      ]
+    },
+    {
+      "id": "joovv-solo3-boot",
+      "type": "red-light-panel",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Panel: 36 \u00d7 8.75 \u00d7 2.34 in; 14 lb. Stand footprint: not confirmed."
+        }
+      ],
+      "corrections": [
+        "Input specification also covers 220\u2013240V. Recommend keeping primary US setup group 110\u2013120V; display universal/dual voltage in details. Do not imply supplied plug works in every region."
+      ],
+      "source": "https://joovv.com/products/joovv-solo-3-0?variant=32072166146166",
+      "powerDetail": "100\u2013240 VAC, 50/60 Hz, 250 VA",
+      "circuitStatus": "see-stored-power-requirements",
+      "documentedVoltageCompatibility": [
+        "110-120v",
+        "220-240v"
+      ]
+    },
+    {
+      "id": "theragun-pro-plus",
+      "type": "percussion-massager",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Not confirmed; current product-page dimensions appear inconsistent. Device weight: 1.65 kg without attachments."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.therabody.com/products/theragun-pro-plus",
+      "powerDetail": "Rechargeable battery; USB-C charging. Charger input/output rating not confirmed."
+    },
+    {
+      "id": "therabody-jetboots-pro-plus",
+      "type": "compression-boots",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Boot exterior dimensions: not confirmed. Pair weighs 12.4 lb; use manufacturer sizing chart."
+        }
+      ],
+      "corrections": [],
+      "source": "https://www.therabody.com/products/jetboots-pro-plus-regular",
+      "powerDetail": "Rechargeable battery; supplied adapter. Input voltage and charging wattage not confirmed."
+    },
+    {
+      "id": "hyperice-hypervolt3-pro",
+      "type": "percussion-massager",
+      "suggestedFacets": {
+        "powerGroup": [
+          "battery-or-no-ac"
+        ]
+      },
+      "evidence": {},
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Not confirmed in current official specifications. Weight: 2.5 lb / 1.1 kg."
+        }
+      ],
+      "corrections": [],
+      "source": "https://hyperice.com/products/hypervolt-3-pro",
+      "powerDetail": "Rechargeable battery; supplied charger takes 100\u2013240 VAC, 50/60 Hz, 0.7 A and outputs 18 V, 1 A (18 W)."
+    },
+    {
+      "id": "ht-eight-sleep-pod6-queen",
+      "type": "sleep-system",
+      "suggestedFacets": {
+        "powerGroup": [
+          "110-120v"
+        ],
+        "warranty": [
+          "2-year"
+        ]
+      },
+      "evidence": {
+        "warranty": "2-year limited standard warranty; up to 5 years while Enhanced/Elite membership remains active. Direct original purchases only; exclusions apply"
+      },
+      "gaps": [
+        {
+          "facet": "footprint",
+          "status": "not-assigned",
+          "reason": "Queen cover fits 60 \u00d7 80 in mattress; cover approx. 1 in thick. Hub: 16.54 L \u00d7 6.50 W \u00d7 7.87 H in"
+        }
+      ],
+      "corrections": [
+        "Input specification also covers 220\u2013240V. Recommend keeping primary US setup group 110\u2013120V; display universal/dual voltage in details. Do not imply supplied plug works in every region."
+      ],
+      "source": "https://www.eightsleep.com/product/pod-cover/",
+      "powerDetail": "Hub input 120/240V AC; manufacturer lists output 550W, 12V DC",
+      "circuitStatus": "see-stored-power-requirements",
+      "documentedVoltageCompatibility": [
+        "110-120v",
+        "220-240v"
+      ]
+    }
+  ]
+}

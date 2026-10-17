@@ -39,7 +39,7 @@ check(find({temperature:'below-40f'}).length===0,'gym equipment never inherits r
 check(find({equipmentType:'barbell',weightRange:'5–90 lb each'}).length===0,'weight range does not match unspecified values');
 check(find({equipmentType:'adjustable-dumbbells',warranty:'5-year'}).every(p=>p.id!=='powerblock-elite-usa-90'),'shorter pin warranty is not presented as five-year minimum');
 const sample=added[0];
-for(const [price,band] of [[249.99,'under-250'],[250,'250-499'],[499.99,'250-499'],[500,'500-999'],[1000,'1000-2499'],[2499.99,'1000-2499'],[2500,'2500-plus']])check(facetValues({...sample,price},'priceBand')[0]===band,'price boundary '+price);
+for(const [price,band] of [[249.99,'under-250'],[250,'250-499'],[499.99,'250-499'],[500,'500-999'],[1000,'1000-2499'],[2499.99,'1000-2499'],[2500,'2500-4999'],[5000,'5000-9999'],[10000,'10000-plus']])check(facetValues({...sample,price},'priceBand')[0]===band,'price boundary '+price);
 check(facetValues({...sample,price:NaN},'priceBand').length===0,'unknown price never qualifies');
 check(facetValues({...sample,category:'supplements'},'priceBand').length===0,'equipment budget bands stay in recovery');
 const state=parseBrowse('recovery',{deviceType:'home-gym',equipmentType:'adjustable-dumbbells',weightRange:'5–90 lb each',construction:'steel-plates',adjustment:'magnetic-pin',priceBand:'500-999',placement:'indoor',sort:'price-desc'});

@@ -651,6 +651,9 @@
       ],
       "ledCount": [
         "60"
+      ],
+      "warranty": [
+        "3-year"
       ]
     }
   },
@@ -691,6 +694,9 @@
       ],
       "ledCount": [
         "60"
+      ],
+      "warranty": [
+        "2-year"
       ]
     }
   },
@@ -731,6 +737,9 @@
       ],
       "ledCount": [
         "100"
+      ],
+      "warranty": [
+        "2-year"
       ]
     }
   },
@@ -4689,6 +4698,12 @@
       ],
       "footprint": [
         "under-10-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -4759,6 +4774,12 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -4828,6 +4849,12 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -4902,6 +4929,12 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -4977,6 +5010,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -5054,6 +5090,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -5132,6 +5171,9 @@
       ],
       "footprint": [
         "over-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -5205,6 +5247,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -5280,6 +5325,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -5346,6 +5394,9 @@
       ],
       "power": [
         "battery-powered"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6132,6 +6183,9 @@
       ],
       "footprint": [
         "under-10-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6201,6 +6255,9 @@
       ],
       "footprint": [
         "under-10-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6267,6 +6324,9 @@
       ],
       "warranty": [
         "2-year"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6575,6 +6635,9 @@
       ],
       "footprint": [
         "under-10-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6667,6 +6730,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6741,6 +6807,9 @@
       ],
       "weightRange": [
         "20-kg-bar"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6814,6 +6883,9 @@
       ],
       "warranty": [
         "6-month"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -6876,6 +6948,12 @@
       ],
       "warranty": [
         "90-day"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -6938,6 +7016,12 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -7007,6 +7091,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -7074,6 +7161,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -7138,6 +7228,12 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -7208,6 +7304,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -7277,6 +7376,9 @@
       ],
       "footprint": [
         "over-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -7337,6 +7439,12 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -7399,6 +7507,12 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -7468,6 +7582,12 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -7531,6 +7651,12 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -7600,6 +7726,9 @@
       ],
       "footprint": [
         "over-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -7671,6 +7800,9 @@
       ],
       "footprint": [
         "over-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -7741,6 +7873,9 @@
       ],
       "footprint": [
         "over-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -7812,6 +7947,9 @@
       ],
       "footprint": [
         "over-25-sq-ft"
+      ],
+      "powerGroup": [
+        "220-240v"
       ]
     }
   },
@@ -7880,6 +8018,12 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "chiller": [
+        "included-chiller"
       ]
     }
   },
@@ -7954,6 +8098,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8025,6 +8172,9 @@
       ],
       "footprint": [
         "under-10-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8088,6 +8238,9 @@
       ],
       "warranty": [
         "2-year"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8160,6 +8313,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8233,6 +8389,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8304,6 +8463,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8376,6 +8538,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8452,6 +8617,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8527,6 +8695,9 @@
       ],
       "weightRange": [
         "170-lb-per-stack"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8598,6 +8769,9 @@
       "gymFeature": [
         "quick-adjust",
         "space-saving"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8669,6 +8843,9 @@
       "gymFeature": [
         "quick-adjust",
         "space-saving"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8751,6 +8928,9 @@
       "loadCapacity": [
         "1000-lb-flat-rating",
         "600-lb-incline-rating"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8826,6 +9006,9 @@
       ],
       "warranty": [
         "90-day"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -8974,6 +9157,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -9050,6 +9236,9 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -9117,6 +9306,12 @@
       ],
       "warranty": [
         "3-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
       ]
     }
   },
@@ -9185,6 +9380,12 @@
       ],
       "warranty": [
         "3-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
       ]
     }
   },
@@ -9253,6 +9454,12 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
       ]
     }
   },
@@ -9321,6 +9528,12 @@
       ],
       "warranty": [
         "3-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
       ]
     }
   },
@@ -9388,6 +9601,12 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "110-120v"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
       ]
     }
   },
@@ -9451,6 +9670,9 @@
       ],
       "warranty": [
         "3-year"
+      ],
+      "footprint": [
+        "10-25-sq-ft"
       ]
     }
   },
@@ -9569,6 +9791,9 @@
       ],
       "warranty": [
         "3-year"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -9630,6 +9855,9 @@
       ],
       "warranty": [
         "3-year"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -9689,6 +9917,9 @@
       ],
       "warranty": [
         "3-year"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -9749,6 +9980,9 @@
       ],
       "warranty": [
         "2-year"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   },
@@ -9809,6 +10043,9 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -9873,6 +10110,9 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -9933,6 +10173,9 @@
       ],
       "warranty": [
         "1-year"
+      ],
+      "powerGroup": [
+        "battery-or-no-ac"
       ]
     }
   },
@@ -10476,6 +10719,9 @@
       ],
       "heatType": [
         "water-temperature-control"
+      ],
+      "powerGroup": [
+        "110-120v"
       ]
     }
   }

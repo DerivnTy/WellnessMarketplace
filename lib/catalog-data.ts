@@ -8,8 +8,9 @@ export function normalizeProduct(product:Product):Product {
   // Backfill taxonomy only when the editor's source and label still match.
   // Explicit editorial facets and filter decisions always take precedence.
   const sameSource=original && original.source===product.source && original.ingredients===product.ingredients && original.name===product.name && original.category===category;
+  const sameFacts=sameSource&&JSON.stringify(original.attributes)===JSON.stringify(product.attributes);
   return {...product,category,
-    facets:product.facets??(sameSource?original.facets:undefined),
+    facets:category==='recovery'&&sameFacts&&product.facets&&Object.keys(product.facets).length>0?{...original.facets,...product.facets}:product.facets??(sameSource?original.facets:undefined),
     filters:sameSource?{...original.filters,...product.filters}:product.filters,
   };
 }
