@@ -1,72 +1,24 @@
 'use client';
-
-import {Check, Heart, ShoppingCart, Scale} from 'lucide-react';
-import {listedPrice, type Product} from '@/lib/catalog';
+import {Check} from 'lucide-react';
+import {listedPrice,type Product} from '@/lib/catalog';
 import type {TrustSummary} from '@/lib/trust';
-import {isMadeInUSA} from '@/lib/browse';
 import {cardFacts} from '@/lib/card-facts';
 import BrandEvidenceBadge from './BrandEvidenceBadge';
 import ProductImage from './ProductImage';
 
-function PriceText({price}: {price: number | undefined}) {
-  const text = listedPrice(price);
-  return text === 'Not documented' ? <span className="unknown">{text}</span> : <>{text}</>;
-}
-
-type Props = {
-  product: Product;
-  evidence?: TrustSummary;
-  saved: boolean;
-  compared: boolean;
-  cartDisabled: boolean;
-  onSave: (id: string) => void;
-  onCompare: (product: Product) => void;
-  onAddToCart: (product: Product) => void;
-  variant?: 'listing';
-};
-
-export default function ProductCard({product: p, evidence, saved, compared, cartDisabled, onSave, onCompare, onAddToCart, variant}: Props) {
-  if (variant === 'listing') return <ListingCard product={p} evidence={evidence} compared={compared} onCompare={onCompare}/>;
-  const badges = Array.from(new Set([...(isMadeInUSA(p) ? ['Made in USA · Brand statement'] : []), ...p.badges])).slice(0, 3);
-  return <article className={"product-card "+(p.category==='recovery'?'equipment-card':'')}>
-    <div className="product-visual">
-      <a href={'/product/' + p.id} aria-label={`View ${p.brand} ${p.name}`}><ProductImage src={p.image} alt={`${p.name}, ${p.brand}`}/></a>
-      <button type="button" className={'save-button ' + (saved ? 'selected' : '')} aria-label={`${saved ? 'Unsave' : 'Save'} ${p.name}`} aria-pressed={saved} onClick={() => onSave(p.id)}><Heart size={17} fill={saved ? 'currentColor' : 'none'}/></button>
-      {!p.available && <span className="image-label">Check availability</span>}
-    </div>
-    <div className="product-info">
-      <a className="brand-label" href={'/brands/' + p.brandId}>{p.brand}</a>
-      <a className="product-name" href={'/product/' + p.id}>{p.name}</a>
-      <div className="price"><PriceText price={p.price}/> <span>{p.qty}</span></div>
-      <div className="product-badges">{badges.map(badge => <span className="attribute-tag" key={badge}>{badge}</span>)}</div>
-      <BrandEvidenceBadge brandId={p.brandId} summary={evidence}/>
-      <div className="product-shopping-actions">
-        <button type="button" className="card-cart-button" aria-label={'Add ' + p.name + ' to cart'} disabled={cartDisabled || !p.available} onClick={() => onAddToCart(p)}><ShoppingCart size={14}/>Add to cart</button>
-        <button type="button" className={'compare-action ' + (compared ? 'selected' : '')} aria-label={'Compare ' + p.name} aria-pressed={compared} onClick={() => onCompare(p)}>{p.category==='recovery'?(compared?<Check size={16}/>:<Scale size={16}/>):<span className="checkbox">{compared && <Check size={11}/>}</span>}{compared?'In comparison':'Compare'}</button>
-      </div>
-    </div>
-  </article>;
-}
-
-function ListingCard({product: p, evidence, compared, onCompare}: {product: Product; evidence?: TrustSummary; compared: boolean; onCompare: (product: Product) => void}) {
-  const facts = cardFacts(p);
-  return <article className={'product-card listing-card' + (p.category === 'recovery' ? ' equipment-card' : '')}>
-    <div className="product-visual">
-      <a href={'/product/' + p.id} aria-label={`View ${p.brand} ${p.name}`}><ProductImage src={p.image} alt={`${p.name}, ${p.brand}`} sizes="(max-width: 599px) 90vw, (max-width: 1099px) 44vw, 420px"/></a>
-      {!p.available && <span className="image-label">Check availability</span>}
-    </div>
-    <div className="product-info">
-      <a className="brand-label" href={'/brands/' + p.brandId}>{p.brand}</a>
-      <h3 className="product-name"><a href={'/product/' + p.id}>{p.name}</a></h3>
-      <div className="price"><PriceText price={p.price}/> <span>{p.qty}</span></div>
-      <dl className="card-facts">
-        {facts.slice(0, 2).map(fact => <div key={fact.label}><dt>{fact.label}</dt><dd className={fact.value === 'Not documented' ? 'unknown' : undefined}>{fact.value}</dd></div>)}
-      </dl>
-      <BrandEvidenceBadge brandId={p.brandId} summary={evidence}/>
-      <div className="product-shopping-actions">
-        <a className="card-view" href={'/product/' + p.id}>View product</a>
-        <button type="button" className={'compare-action' + (compared ? ' selected' : '')} aria-label={'Compare ' + p.name} aria-pressed={compared} onClick={() => onCompare(p)}>{compared ? <Check size={16}/> : <Scale size={16}/>} {compared ? 'In comparison' : 'Compare'}</button>
-      </div>
-    </div>
-  </article>;
+type Props={product:Product;evidence?:TrustSummary;saved:boolean;compared:boolean;cartDisabled:boolean;onSave:(id:string)=>void;onCompare:(product:Product)=>void;onAddToCart:(product:Product)=>void;variant?:'listing'};
+export default function ProductCard({product:p,evidence,compared,onCompare}:Props){
+ const fact=cardFacts(p)[0];
+ return <article className="product-card research-product-card">
+  <a className="research-card-image" href={'/product/'+p.id} aria-label={'View '+p.brand+' '+p.name}><ProductImage src={p.image} alt={p.name+', '+p.brand} sizes="(max-width: 599px) 90vw, (max-width: 1099px) 44vw, 420px"/></a>
+  <div className="research-card-body">
+   <a className="research-card-brand" href={'/brands/'+p.brandId}>{p.brand}</a>
+   <h3><a href={'/product/'+p.id}>{p.name}</a></h3>
+   <div className="research-card-price">{listedPrice(p.price)}<span>{p.qty}</span></div>
+   <p className="research-card-date">Price checked: <time dateTime={p.checked}>{p.checked||'Not documented'}</time></p>
+   <p className="research-card-spec"><span>{fact?.label||'Specification'}</span> {fact?.value||'Not documented'}</p>
+   <BrandEvidenceBadge brandId={p.brandId} summary={evidence}/>
+   <button type="button" className={'research-card-compare '+(compared?'selected':'')} aria-label={'Compare '+p.name} aria-pressed={compared} onClick={()=>onCompare(p)}>{compared&&<Check size={16} aria-hidden="true"/>}{compared?'In comparison':'Compare'}</button>
+  </div>
+ </article>;
 }

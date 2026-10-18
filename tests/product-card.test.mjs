@@ -29,9 +29,11 @@ for(const summary of [undefined,{}, {score:null},{score:NaN},{score:Infinity},{s
 check(renderBadge({score:77,provisional:true})==='Brand evidence 77/100','exact card wording for a provisional score');
 const product={...seed[0],badges:['Badge one','Badge two','Badge three','Badge four']};
 const html=renderToStaticMarkup(React.createElement(card,{product,saved:false,compared:false,cartDisabled:false,onSave(){},onCompare(){},onAddToCart(){}}));
-check((html.match(/class="attribute-tag"/g)||[]).length===3&&!html.includes('Badge four'),'cards show at most three badges');
+check(!html.includes('attribute-tag')&&!html.includes('Badge one'),'research cards do not repeat catalog badges');
 check(html.includes('Brand evidence · Not scored'),'card passes missing evidence through without a fallback score');
-check(html.includes('Add to cart')&&html.includes('Compare'),'both shopping actions are present');
+check(!html.includes('Add to cart')&&html.includes('Compare'),'research card has a Compare control');
+check((html.match(/Brand evidence/g)||[]).length===1,'evidence appears once');
+check((html.match(/class="research-card-spec"/g)||[]).length===1&&html.includes(product.checked),'one key spec and source date are present');
 check(html.includes(product.name)&&html.includes(product.qty),'product name and pack information are present');
 const filters=renderToStaticMarkup(React.createElement(preference,{groups:[{id:'sweeteners',label:'Sweeteners',options:[{id:'without',label:'No stevia'},{id:'zero',label:'Unavailable',count:0}]}],activeFilters:{sweeteners:['without']},onChange(){}}));
 check(filters.includes('Details that matter')&&filters.includes('Reset'),'reusable sidebar heading and reset');

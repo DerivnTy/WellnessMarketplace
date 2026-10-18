@@ -1,6 +1,6 @@
 'use client';
 
-import {useEffect, useState, type ReactNode, type Ref} from 'react';
+import {useEffect, useState, useRef, type ReactNode, type Ref} from 'react';
 import {ChevronDown, Minus, Plus, X} from 'lucide-react';
 
 export type PreferenceFilterGroup = {
@@ -39,6 +39,8 @@ export function FilterSection({label, children, className = '', defaultOpen = tr
 }
 
 export default function PreferenceFilters({groups, activeFilters, onChange, onReset, beforeGroups, afterGroups, footer, mobileOpen = false, onClose, panelRef}: Props) {
+  const dialog=useRef<HTMLDialogElement>(null);
+  useEffect(()=>{if(!mobileOpen||!dialog.current)return;const node=dialog.current;node.showModal();node.querySelector<HTMLButtonElement>('.mobile-filter-close')?.focus();return()=>node.close();},[mobileOpen]);
   const toggle = (group: string, option: string) => {
     const selected = activeFilters[group] || [];
     onChange({...activeFilters, [group]: selected.includes(option)
@@ -46,10 +48,7 @@ export default function PreferenceFilters({groups, activeFilters, onChange, onRe
   };
   const reset = () => onReset ? onReset() : onChange({});
 
-  return <aside id="catalog-filters" ref={panelRef}
-    className={'filters contextual-filters preference-filters ' + (mobileOpen ? 'open' : '')}
-    data-collapsible={onClose ? true : undefined}
-    role={mobileOpen ? 'dialog' : undefined} aria-modal={mobileOpen || undefined} aria-label="Filter products">
+  const contents=<>
     <div className="filter-heading">
       <h3>Details that matter</h3>
       <button type="button" className="preference-reset" onClick={reset}>Reset</button>
@@ -61,7 +60,9 @@ export default function PreferenceFilters({groups, activeFilters, onChange, onRe
       {afterGroups}
     </div>
     {footer && <div className="mobile-filter-footer">{footer}</div>}
-  </aside>;
+  </>;
+  if(mobileOpen)return <dialog id="catalog-filters" ref={node=>{dialog.current=node;if(typeof panelRef==='function')panelRef(node);else if(panelRef)panelRef.current=node;}} className="filters contextual-filters preference-filters open" aria-label="Filter products" onCancel={event=>{event.preventDefault();onClose?.();}} onClick={event=>{if(event.target===event.currentTarget){const box=event.currentTarget.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)onClose?.();}}}>{contents}</dialog>;
+  return <aside id="catalog-filters" ref={panelRef} className="filters contextual-filters preference-filters" data-collapsible={onClose?true:undefined} aria-label="Filter products">{contents}</aside>;
 }
 
 function FilterGroup({group, selected, onToggle}: {group: PreferenceFilterGroup; selected: string[]; onToggle: (id: string) => void}) {

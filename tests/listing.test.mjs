@@ -63,7 +63,7 @@ const renderCard = (product, summary) => renderToStaticMarkup(React.createElemen
 const unscored = renderCard(drink);
 check(unscored.includes('Brand evidence · Not scored'), 'listing card says Brand evidence · Not scored');
 check(!unscored.includes('Add to cart'), 'listing card has one primary action');
-check(unscored.includes('View product') && unscored.includes('Compare'), 'primary link and Compare are both present');
+check(unscored.includes('href="/product/'+drink.id+'"') && unscored.includes('Compare'), 'product links and Compare are both present');
 check(unscored.includes('Not documented'), 'listing card renders Not documented');
 check(unscored.includes(`href="/product/${drink.id}"`) && unscored.includes(`alt="${drink.name}, ${drink.brand}"`), 'product link and alt text are present');
 const entry = manifest[drink.image];

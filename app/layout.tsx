@@ -10,6 +10,7 @@ import "./product-interactions.css";
 import "./research-shopping.css";
 import "./listing.css";
 import "./research-refinement.css";
+import "./research-hub.css";
 
 export const viewport: Viewport = {width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#ffffff"};
 
@@ -19,17 +20,17 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Wellness Marketplace",
     title: "Wellness Marketplace",
-    description: "Better choices, all in one place. Discover brands, compare products, and shop with clarity.",
+    description: "Discover recovery and home gym equipment. Compare specifications, ownership details and documented sources.",
     images: [{url: "/wellness-marketplace-share.png", width: 1200, height: 630, type: "image/png", alt: "Wellness Marketplace logo"}],
   },
   twitter: {
     card: "summary_large_image",
     title: "Wellness Marketplace",
-    description: "Better choices, all in one place.",
+    description: "Recovery and home gym research.",
     images: ["/wellness-marketplace-share.png"],
   },
   title: "Wellness Marketplace",
-  description: "Better choices, all in one place. Discover wellness products with a clearer view of ingredients, materials and community research.",
+  description: "Discover recovery and home gym equipment. Compare specifications, ownership details and documented sources.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
