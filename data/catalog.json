@@ -698,6 +698,14 @@
       "warranty": [
         "2-year"
       ]
+    },
+    "terms": {
+      "returnWindow": "60 days from receipt",
+      "restockingFee": "None. The policy states that restocking fees are not charged.",
+      "returnShipping": "Customer pays return shipping unless an optional Free Returns add-on was purchased.",
+      "unverified": [
+        "delivery"
+      ]
     }
   },
   {
@@ -740,6 +748,14 @@
       ],
       "warranty": [
         "2-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "60 days from receipt",
+      "restockingFee": "None. The policy states that restocking fees are not charged.",
+      "returnShipping": "Customer pays return shipping unless an optional Free Returns add-on was purchased.",
+      "unverified": [
+        "delivery"
       ]
     }
   },
@@ -6399,6 +6415,20 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days from delivery",
+      "restockingFee": "None stated on the policy page",
+      "returnShipping": "Customer pays return shipping in the contiguous 48 states. Oversize and freight items incur return freight.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.8/5 on 154 reviews"
       ]
     }
   },
@@ -6472,6 +6502,17 @@
       ],
       "footprint": [
         "10-25-sq-ft"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days of receipt. Return authorization is required.",
+      "restockingFee": "15% if the item is used or not in original packaging. Clearance is final sale.",
+      "unverified": [
+        "returnShipping",
+        "delivery"
       ]
     }
   },
@@ -6955,6 +6996,17 @@
       "chiller": [
         "included-chiller"
       ]
+    },
+    "terms": {
+      "returnWindow": "30 days",
+      "restockingFee": "25% restocking fee on shipped orders. 5% cancellation fee before shipment.",
+      "returnShipping": "The 25% restocking fee on shipped orders covers return shipping.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Mixed/weak reputation: Trustpilot 3.6/5 on 608 reviews"
+      ]
     }
   },
   {
@@ -7022,6 +7074,17 @@
       ],
       "chiller": [
         "included-chiller"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days",
+      "restockingFee": "25% restocking fee on shipped orders. 5% cancellation fee before shipment.",
+      "returnShipping": "The 25% restocking fee on shipped orders covers return shipping.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Mixed/weak reputation: Trustpilot 3.6/5 on 608 reviews"
       ]
     }
   },
@@ -7095,6 +7158,17 @@
       "powerGroup": [
         "110-120v"
       ]
+    },
+    "terms": {
+      "returnWindow": "30 days. No returns on saunas once uncrated.",
+      "restockingFee": "25% restocking fee on shipped orders. 5% cancellation fee before shipment.",
+      "returnShipping": "The 25% restocking fee on shipped orders covers return shipping.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Mixed/weak reputation: Trustpilot 3.6/5 on 608 reviews"
+      ]
     }
   },
   {
@@ -7164,6 +7238,17 @@
       ],
       "powerGroup": [
         "220-240v"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days. No returns on saunas once uncrated.",
+      "restockingFee": "25% restocking fee on shipped orders. 5% cancellation fee before shipment.",
+      "returnShipping": "The 25% restocking fee on shipped orders covers return shipping.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Mixed/weak reputation: Trustpilot 3.6/5 on 608 reviews"
       ]
     }
   },
@@ -8393,6 +8478,17 @@
       "powerGroup": [
         "battery-or-no-ac"
       ]
+    },
+    "terms": {
+      "returnWindow": "30 days from delivery",
+      "restockingFee": "None stated on the policy page",
+      "returnShipping": "Customer pays return shipping in the contiguous 48 states. Oversize and freight items incur return freight.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.8/5 on 154 reviews"
+      ]
     }
   },
   {
@@ -8466,6 +8562,17 @@
       ],
       "powerGroup": [
         "battery-or-no-ac"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days from delivery",
+      "restockingFee": "None stated on the policy page",
+      "returnShipping": "Customer pays return shipping in the contiguous 48 states. Oversize and freight items incur return freight.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.8/5 on 154 reviews"
       ]
     }
   },
@@ -8541,6 +8648,20 @@
       ],
       "powerGroup": [
         "battery-or-no-ac"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days from delivery",
+      "restockingFee": "None stated on the policy page",
+      "returnShipping": "Customer pays return shipping in the contiguous 48 states. Oversize and freight items incur return freight.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.8/5 on 154 reviews"
       ]
     }
   },
@@ -8699,6 +8820,14 @@
       "powerGroup": [
         "battery-or-no-ac"
       ]
+    },
+    "terms": {
+      "returnWindow": "30 days of receipt. Return authorization is required.",
+      "restockingFee": "15% if the item is used or not in original packaging. Clearance is final sale.",
+      "unverified": [
+        "returnShipping",
+        "delivery"
+      ]
     }
   },
   {
@@ -8772,6 +8901,14 @@
       ],
       "powerGroup": [
         "battery-or-no-ac"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days of receipt. Return authorization is required.",
+      "restockingFee": "15% if the item is used or not in original packaging. Clearance is final sale.",
+      "unverified": [
+        "returnShipping",
+        "delivery"
       ]
     }
   },
@@ -9731,6 +9868,11 @@
       "warranty": [
         "3-year"
       ]
+    },
+    "terms": {
+      "unverified": [
+        "delivery"
+      ]
     }
   },
   {
@@ -9984,6 +10126,14 @@
       "powerGroup": [
         "110-120v"
       ]
+    },
+    "terms": {
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.6/5 on 74 reviews"
+      ]
     }
   },
   {
@@ -10046,6 +10196,15 @@
       ],
       "powerGroup": [
         "battery-or-no-ac"
+      ]
+    },
+    "terms": {
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.9/5 (theragun.com) and 1.5/5 (therabody.com) on 1,743 and 63 reviews",
+        "Weak reputation: Trustpilot 1.5-1.9/5 and BBB warranty/durability complaints"
       ]
     }
   },
@@ -10114,6 +10273,15 @@
       "powerGroup": [
         "battery-or-no-ac"
       ]
+    },
+    "terms": {
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.9/5 (theragun.com) and 1.5/5 (therabody.com) on 1,743 and 63 reviews",
+        "Weak reputation: Trustpilot 1.5-1.9/5 and BBB warranty/durability complaints"
+      ]
     }
   },
   {
@@ -10176,6 +10344,14 @@
       ],
       "powerGroup": [
         "battery-or-no-ac"
+      ]
+    },
+    "terms": {
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Mixed/weak reputation: Trustpilot 3.2/5 on 542 reviews"
       ]
     }
   },
@@ -10724,5 +10900,1067 @@
         "110-120v"
       ]
     }
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "rogue-sml-2c-squat-stand",
+    "brand": "Rogue Fitness",
+    "brandId": "rogue-fitness",
+    "type": "power-rack",
+    "name": "Rogue SML-2C Monster Lite Squat Stand",
+    "description": "Configurable Monster Lite squat stand. Add-ons are not included, and a single base SKU price was not confirmed.",
+    "url": "https://www.roguefitness.com/rogue-sml-2c-squat-stand",
+    "variant": "Configurable / base SKU not confirmed",
+    "available": false,
+    "badges": [
+      "Configurable stand",
+      "Price not listed",
+      "30-day returns"
+    ],
+    "attributes": {
+      "Warranty": "Structural welds and frames: limited lifetime, per the brand warranty page checked 2026-10-17. Other component terms vary.",
+      "Price basis": "No confirmed base SKU price is listed for this configurable product.",
+      "Source: Product listing": "https://www.roguefitness.com/rogue-sml-2c-squat-stand",
+      "Source: Return policy": "https://www.roguefitness.com/return-policies",
+      "Source: Warranty": "https://www.roguefitness.com/warranty"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "power-rack"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days from delivery",
+      "restockingFee": "None stated on the policy page",
+      "returnShipping": "Customer pays return shipping in the contiguous 48 states. Oversize and freight items incur return freight.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.8/5 on 154 reviews"
+      ]
+    },
+    "image": "/products/rogue-sml-2c-squat-stand.jpg",
+    "slug": "rogue-sml-2c-squat-stand",
+    "source": "https://www.roguefitness.com/rogue-sml-2c-squat-stand"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "rep-pr5000-power-rack",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "type": "power-rack",
+    "name": "PR-5000 Power Rack (Pre-Selected)",
+    "description": "Pre-selected REP PR-5000 power rack. The listed price is the checked pre-selected configuration.",
+    "url": "https://repfitness.com/products/pr-5000-power-rack-pre-selected",
+    "price": 919.99,
+    "variant": "Pre-selected configuration",
+    "available": true,
+    "badges": [
+      "Pre-selected rack",
+      "30-day returns",
+      "Limited lifetime frame"
+    ],
+    "attributes": {
+      "Warranty": "Rack frames and structural welds: limited lifetime for the original purchaser. The policy excludes products that leave the lower 48 states.",
+      "Price basis": "USD $919.99 for the pre-selected configuration. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://repfitness.com/products/pr-5000-power-rack-pre-selected",
+      "Source: Return policy": "https://repfitness.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "power-rack"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days of receipt. Return authorization is required.",
+      "restockingFee": "15% if the item is used or not in original packaging. Clearance is final sale.",
+      "unverified": [
+        "returnShipping",
+        "delivery"
+      ]
+    },
+    "image": "/products/rep-pr5000-power-rack.jpg",
+    "slug": "rep-pr5000-power-rack",
+    "source": "https://repfitness.com/products/pr-5000-power-rack-pre-selected"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "rep-athena-side-mount",
+    "brand": "REP Fitness",
+    "brandId": "rep-fitness",
+    "type": "functional-trainer",
+    "name": "Athena Selectorized Side-Mount Trainer",
+    "description": "Selectorized side-mount functional trainer. A single configuration price is not listed.",
+    "url": "https://repfitness.com/products/selectorized-side-mount-functional-trainer",
+    "variant": "Variant range / single price not listed",
+    "available": true,
+    "badges": [
+      "Side-mount trainer",
+      "Price not listed",
+      "30-day returns"
+    ],
+    "attributes": {
+      "Warranty": "Cables, pulleys, and bearings: 1 year. Rack-frame lifetime wording is also published; confirm which parts of this trainer it covers.",
+      "Price basis": "No single USD configuration price is listed.",
+      "Source: Product listing": "https://repfitness.com/products/selectorized-side-mount-functional-trainer",
+      "Source: Return policy": "https://repfitness.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "functional-trainer"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days of receipt. Return authorization is required.",
+      "restockingFee": "15% if the item is used or not in original packaging. Clearance is final sale.",
+      "unverified": [
+        "returnShipping",
+        "delivery"
+      ]
+    },
+    "image": "/products/rep-athena-side-mount.jpg",
+    "slug": "rep-athena-side-mount",
+    "source": "https://repfitness.com/products/selectorized-side-mount-functional-trainer"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "joovv-duo-3",
+    "brand": "Joovv",
+    "brandId": "joovv",
+    "type": "red-light-panel",
+    "name": "Joovv Duo 3.0",
+    "description": "Joovv Duo 3.0 modular red and near-infrared light. The listed price is the checked device price, not a compare-at price.",
+    "url": "https://joovv.com/products/joovv-duo-3-0",
+    "price": 3699,
+    "variant": "Duo 3.0",
+    "available": true,
+    "badges": [
+      "Gen 3.0",
+      "60-day returns",
+      "2-year warranty"
+    ],
+    "attributes": {
+      "Warranty": "2-year limited warranty.",
+      "Price basis": "USD $3,699. Checked 2026-10-17. A compare-at price was also shown and is not the listed price.",
+      "Source: Product listing": "https://joovv.com/products/joovv-duo-3-0",
+      "Source: Return policy": "https://joovv.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "warranty": [
+        "2-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "60 days for Gen 3.0 modular devices",
+      "restockingFee": "None stated for modular devices",
+      "returnShipping": "Customer pays return shipping",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.6/5 on 74 reviews"
+      ]
+    },
+    "image": "/products/joovv-duo-3.jpg",
+    "slug": "joovv-duo-3",
+    "source": "https://joovv.com/products/joovv-duo-3-0"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "joovv-elite-3",
+    "brand": "Joovv",
+    "brandId": "joovv",
+    "type": "red-light-panel",
+    "name": "Joovv Elite 3.0",
+    "description": "Joovv Elite 3.0 modular red and near-infrared light. The listed price is the checked device price, not a compare-at price.",
+    "url": "https://joovv.com/products/joovv-elite-3-0",
+    "price": 11099,
+    "variant": "Elite 3.0",
+    "available": true,
+    "badges": [
+      "Gen 3.0",
+      "60-day returns",
+      "2-year warranty"
+    ],
+    "attributes": {
+      "Warranty": "2-year limited warranty.",
+      "Price basis": "USD $11,099. Checked 2026-10-17. A compare-at price was also shown and is not the listed price.",
+      "Source: Product listing": "https://joovv.com/products/joovv-elite-3-0",
+      "Source: Return policy": "https://joovv.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ],
+      "warranty": [
+        "2-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "60 days for Gen 3.0 modular devices",
+      "restockingFee": "None stated for modular devices",
+      "returnShipping": "Customer pays return shipping",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Weak reputation: Trustpilot 1.6/5 on 74 reviews"
+      ]
+    },
+    "image": "/products/joovv-elite-3.jpg",
+    "slug": "joovv-elite-3",
+    "source": "https://joovv.com/products/joovv-elite-3-0"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "hyperice-normatec-3-full-body",
+    "brand": "Hyperice",
+    "brandId": "hyperice",
+    "type": "compression-boots",
+    "name": "Normatec 3 Full Body",
+    "description": "Normatec 3 compression system in the Full Body configuration.",
+    "url": "https://hyperice.com/products/normatec-3-full-body",
+    "price": 1549,
+    "variant": "Full Body",
+    "available": true,
+    "badges": [
+      "Compression system",
+      "30-day returns",
+      "$15 return deduction"
+    ],
+    "attributes": {
+      "Warranty": "1-year U.S. limited manufacturing-defect coverage.",
+      "Price basis": "USD $1,549. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://hyperice.com/products/normatec-3-full-body",
+      "Source: Return policy": "https://hyperice.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "compression-boots"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 calendar days from delivery",
+      "restockingFee": "$15 deducted for shipping, handling, and restocking",
+      "returnShipping": "Customer pays return shipping. Only items bought on Hyperice.com qualify.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Mixed/weak reputation: Trustpilot 3.2/5 on 542 reviews"
+      ]
+    },
+    "image": "/products/hyperice-normatec-3-full-body.png",
+    "slug": "hyperice-normatec-3-full-body",
+    "source": "https://hyperice.com/products/normatec-3-full-body"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "hyperice-normatec-3-legs",
+    "brand": "Hyperice",
+    "brandId": "hyperice",
+    "type": "compression-boots",
+    "name": "Normatec 3 Legs",
+    "description": "Normatec 3 compression system in the Legs configuration.",
+    "url": "https://hyperice.com/products/normatec-3-legs",
+    "price": 899,
+    "variant": "Legs",
+    "available": true,
+    "badges": [
+      "Compression system",
+      "30-day returns",
+      "$15 return deduction"
+    ],
+    "attributes": {
+      "Warranty": "1-year U.S. limited manufacturing-defect coverage.",
+      "Price basis": "USD $899. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://hyperice.com/products/normatec-3-legs",
+      "Source: Return policy": "https://hyperice.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "compression-boots"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 calendar days from delivery",
+      "restockingFee": "$15 deducted for shipping, handling, and restocking",
+      "returnShipping": "Customer pays return shipping. Only items bought on Hyperice.com qualify.",
+      "unverified": [
+        "delivery"
+      ],
+      "notes": [
+        "Mixed/weak reputation: Trustpilot 3.2/5 on 542 reviews"
+      ]
+    },
+    "image": "/products/hyperice-normatec-3-legs.png",
+    "slug": "hyperice-normatec-3-legs",
+    "source": "https://hyperice.com/products/normatec-3-legs"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "mitoadapt-4",
+    "brand": "Mito Red Light",
+    "brandId": "mito-red-light",
+    "type": "red-light-panel",
+    "name": "MitoADAPT 4.0",
+    "description": "MitoADAPT 4.0 red light panel series. A single configuration price is not listed.",
+    "url": "https://mitoredlight.com/products/mitoadapt-series",
+    "variant": "Series / single price not listed",
+    "available": true,
+    "badges": [
+      "Red light panel",
+      "Price not listed",
+      "60-day returns"
+    ],
+    "attributes": {
+      "Price basis": "No single USD configuration price is listed.",
+      "Source: Product listing": "https://mitoredlight.com/products/mitoadapt-series",
+      "Source: Return policy": "https://mitoredlight.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ]
+    },
+    "terms": {
+      "returnWindow": "60 days from receipt",
+      "restockingFee": "None. The policy states that restocking fees are not charged.",
+      "returnShipping": "Customer pays return shipping unless an optional Free Returns add-on was purchased.",
+      "unverified": [
+        "delivery"
+      ]
+    },
+    "image": "/products/mitoadapt-4.jpg",
+    "slug": "mitoadapt-4",
+    "source": "https://mitoredlight.com/products/mitoadapt-series"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "mitopro-plus-v2",
+    "brand": "Mito Red Light",
+    "brandId": "mito-red-light",
+    "type": "red-light-panel",
+    "name": "MitoPRO+ Series v2",
+    "description": "MitoPRO+ red light panel series, version 2. A single configuration price is not listed.",
+    "url": "https://mitoredlight.com/products/mitopro-series",
+    "variant": "Series v2 / single price not listed",
+    "available": true,
+    "badges": [
+      "Red light panel",
+      "Price not listed",
+      "60-day returns"
+    ],
+    "attributes": {
+      "Price basis": "No single USD configuration price is listed.",
+      "Source: Product listing": "https://mitoredlight.com/products/mitopro-series",
+      "Source: Return policy": "https://mitoredlight.com/policies/refund-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "red-light-panel"
+      ]
+    },
+    "terms": {
+      "returnWindow": "60 days from receipt",
+      "restockingFee": "None. The policy states that restocking fees are not charged.",
+      "returnShipping": "Customer pays return shipping unless an optional Free Returns add-on was purchased.",
+      "unverified": [
+        "delivery"
+      ]
+    },
+    "image": "/products/mitopro-plus-v2.png",
+    "slug": "mitopro-plus-v2",
+    "source": "https://mitoredlight.com/products/mitopro-series"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "clearlight-sanctuary-2",
+    "brand": "Clearlight Saunas",
+    "brandId": "clearlight-saunas",
+    "type": "sauna",
+    "name": "Clearlight Sanctuary 2 Infrared Sauna",
+    "description": "Two-person infrared sauna in the Basswood configuration, at the checked promotional price.",
+    "url": "https://infraredsauna.com/product/sanctuary-two-person/",
+    "price": 7299,
+    "variant": "Basswood / promotional price",
+    "available": false,
+    "badges": [
+      "Two-person sauna",
+      "Promotional price",
+      "25% restocking fee"
+    ],
+    "attributes": {
+      "Warranty": "Limited lifetime warranty is advertised for Sanctuary and Premier saunas. Term details are not documented.",
+      "Price basis": "USD $7,299 for Basswood at the checked promotional price. Mahogany promotional price: $7,699. List prices: $7,899 Basswood and $8,299 Mahogany. The list states a Nov 30 end date.",
+      "Source: Product listing": "https://infraredsauna.com/product/sanctuary-two-person/",
+      "Source: Price list": "https://infraredsauna.com/pricelist/",
+      "Source: Return policy": "https://infraredsauna.com/sauna-shipping-return-policy/"
+    },
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 business days from receipt. An RMA is required.",
+      "restockingFee": "25% restocking charge",
+      "returnShipping": "Customer pays return shipping. Freight from a free or discounted shipping promotion is deducted.",
+      "unverified": [
+        "delivery"
+      ]
+    },
+    "image": "/products/placeholder-product.png",
+    "slug": "clearlight-sanctuary-2",
+    "source": "https://infraredsauna.com/product/sanctuary-two-person/"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "clearlight-premier-2",
+    "brand": "Clearlight Saunas",
+    "brandId": "clearlight-saunas",
+    "type": "sauna",
+    "name": "Clearlight Premier 2 Infrared Sauna",
+    "description": "Two-person infrared sauna in the Basswood configuration, at the checked promotional price.",
+    "url": "https://infraredsauna.com/product/premier-two-person/",
+    "price": 5799,
+    "variant": "Basswood / promotional price",
+    "available": false,
+    "badges": [
+      "Two-person sauna",
+      "Promotional price",
+      "25% restocking fee"
+    ],
+    "attributes": {
+      "Warranty": "Limited lifetime warranty is advertised for Sanctuary and Premier saunas. Term details are not documented.",
+      "Price basis": "USD $5,799 for Basswood at the checked promotional price. Mahogany promotional price: $6,599. List prices: $6,399 Basswood and $7,199 Mahogany.",
+      "Source: Product listing": "https://infraredsauna.com/product/premier-two-person/",
+      "Source: Price list": "https://infraredsauna.com/pricelist/",
+      "Source: Return policy": "https://infraredsauna.com/sauna-shipping-return-policy/"
+    },
+    "facets": {
+      "deviceType": [
+        "sauna"
+      ],
+      "warranty": [
+        "lifetime-limited"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 business days from receipt. An RMA is required.",
+      "restockingFee": "25% restocking charge",
+      "returnShipping": "Customer pays return shipping. Freight from a free or discounted shipping promotion is deducted.",
+      "unverified": [
+        "delivery"
+      ]
+    },
+    "image": "/products/placeholder-product.png",
+    "slug": "clearlight-premier-2",
+    "source": "https://infraredsauna.com/product/premier-two-person/"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "clearlight-plunge",
+    "brand": "Clearlight Saunas",
+    "brandId": "clearlight-saunas",
+    "type": "cold-plunge",
+    "name": "Clearlight Plunge",
+    "description": "Cold plunge listed at the plunge-only promotional price. A lower price is published when it is bought with a sauna.",
+    "url": "https://infraredsauna.com/product/clearlight-plunge/",
+    "price": 9799,
+    "variant": "Plunge only / promotional price",
+    "available": false,
+    "badges": [
+      "Cold plunge",
+      "Promotional price",
+      "25% restocking fee"
+    ],
+    "attributes": {
+      "Price basis": "USD $9,799 plunge-only promotional price. List price: $10,399. Price when bought with a sauna: $7,799.",
+      "Source: Product listing": "https://infraredsauna.com/product/clearlight-plunge/",
+      "Source: Price list": "https://infraredsauna.com/pricelist/",
+      "Source: Return policy": "https://infraredsauna.com/sauna-shipping-return-policy/"
+    },
+    "facets": {
+      "deviceType": [
+        "cold-plunge"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 business days from receipt. An RMA is required.",
+      "restockingFee": "25% restocking charge",
+      "returnShipping": "Customer pays return shipping. Freight from a free or discounted shipping promotion is deducted.",
+      "unverified": [
+        "delivery"
+      ]
+    },
+    "image": "/products/placeholder-product.png",
+    "slug": "clearlight-plunge",
+    "source": "https://infraredsauna.com/product/clearlight-plunge/"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "force-usa-c20",
+    "brand": "Force USA",
+    "brandId": "force-usa",
+    "type": "functional-trainer",
+    "name": "Force USA C20 All-In-One Trainer",
+    "description": "All-in-one trainer. Home-use warranty terms are recorded on this listing. Stock was not confirmed on the checked page.",
+    "url": "https://www.forceusa.com/products/c20",
+    "price": 6499,
+    "variant": "C20",
+    "available": false,
+    "badges": [
+      "All-in-one trainer",
+      "15% restocking fee",
+      "Curbside freight over 150 lb"
+    ],
+    "attributes": {
+      "Warranty": "Home use: lifetime frame, 10 years on moving parts, 1 year on upholstery and attachments. Commercial use voids the home warranty.",
+      "Price basis": "USD $6,499. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://www.forceusa.com/products/c20",
+      "Source: Return policy": "https://www.forceusa.com/pages/guarantee-returns",
+      "Source: Warranty": "https://www.forceusa.com/pages/warranty",
+      "Source: Shipping": "https://www.forceusa.com/pages/shipping"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "functional-trainer"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days",
+      "restockingFee": "15% restocking fee",
+      "returnShipping": "If a delivery is refused, the customer pays shipping both ways.",
+      "delivery": "Free shipping on every order. Under 150 lb ships as a parcel. Over 150 lb ships by LTL freight, curbside.",
+      "notes": [
+        "Thin review base (<20 Trustpilot reviews)"
+      ]
+    },
+    "image": "/products/force-usa-c20.jpg",
+    "slug": "force-usa-c20",
+    "source": "https://www.forceusa.com/products/c20"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "force-usa-g20-pro",
+    "brand": "Force USA",
+    "brandId": "force-usa",
+    "type": "functional-trainer",
+    "name": "Force USA G20 Pro All-In-One Trainer",
+    "description": "All-in-one trainer. Home-use warranty terms are recorded on this listing. Stock was not confirmed on the checked page.",
+    "url": "https://www.forceusa.com/products/g20",
+    "price": 5999,
+    "variant": "G20 Pro",
+    "available": false,
+    "badges": [
+      "All-in-one trainer",
+      "15% restocking fee",
+      "Curbside freight over 150 lb"
+    ],
+    "attributes": {
+      "Warranty": "Home use: lifetime frame, 10 years on moving parts, 1 year on upholstery and attachments. Commercial use voids the home warranty.",
+      "Price basis": "USD $5,999. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://www.forceusa.com/products/g20",
+      "Source: Return policy": "https://www.forceusa.com/pages/guarantee-returns",
+      "Source: Warranty": "https://www.forceusa.com/pages/warranty",
+      "Source: Shipping": "https://www.forceusa.com/pages/shipping"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "functional-trainer"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days",
+      "restockingFee": "15% restocking fee",
+      "returnShipping": "If a delivery is refused, the customer pays shipping both ways.",
+      "delivery": "Free shipping on every order. Under 150 lb ships as a parcel. Over 150 lb ships by LTL freight, curbside.",
+      "notes": [
+        "Thin review base (<20 Trustpilot reviews)"
+      ]
+    },
+    "image": "/products/force-usa-g20-pro.jpg",
+    "slug": "force-usa-g20-pro",
+    "source": "https://www.forceusa.com/products/g20"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "force-usa-g15",
+    "brand": "Force USA",
+    "brandId": "force-usa",
+    "type": "functional-trainer",
+    "name": "Force USA G15 Compact All-In-One Trainer",
+    "description": "Compact all-in-one trainer. Home-use warranty terms are recorded on this listing. Stock was not confirmed on the checked page.",
+    "url": "https://www.forceusa.com/products/g15-c",
+    "price": 5499,
+    "variant": "G15",
+    "available": false,
+    "badges": [
+      "All-in-one trainer",
+      "15% restocking fee",
+      "Curbside freight over 150 lb"
+    ],
+    "attributes": {
+      "Warranty": "Home use: lifetime frame, 10 years on moving parts, 1 year on upholstery and attachments. Commercial use voids the home warranty.",
+      "Price basis": "USD $5,499. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://www.forceusa.com/products/g15-c",
+      "Source: Return policy": "https://www.forceusa.com/pages/guarantee-returns",
+      "Source: Warranty": "https://www.forceusa.com/pages/warranty",
+      "Source: Shipping": "https://www.forceusa.com/pages/shipping"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "functional-trainer"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days",
+      "restockingFee": "15% restocking fee",
+      "returnShipping": "If a delivery is refused, the customer pays shipping both ways.",
+      "delivery": "Free shipping on every order. Under 150 lb ships as a parcel. Over 150 lb ships by LTL freight, curbside.",
+      "notes": [
+        "Thin review base (<20 Trustpilot reviews)"
+      ]
+    },
+    "image": "/products/force-usa-g15.jpg",
+    "slug": "force-usa-g15",
+    "source": "https://www.forceusa.com/products/g15-c"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "speediance-gym-monster-ultra",
+    "brand": "Speediance",
+    "brandId": "speediance",
+    "type": "strength-machine",
+    "name": "Speediance Gym Monster Ultra",
+    "description": "Speediance Gym Monster Ultra. Return window, restocking fee, and warranty length are not documented.",
+    "url": "https://www.speediance.com/products/speediance-gym-monster-ultra",
+    "price": 6999,
+    "variant": "Gym Monster Ultra",
+    "available": false,
+    "badges": [
+      "Smart gym",
+      "Return window not documented"
+    ],
+    "attributes": {
+      "Price basis": "USD $6,999. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://www.speediance.com/products/speediance-gym-monster-ultra",
+      "Source: Return policy": "https://www.speediance.com/policies/refund-policy",
+      "Source: Warranty": "https://www.speediance.com/pages/warranty",
+      "Source: Shipping": "https://www.speediance.com/policies/shipping-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "strength-machine"
+      ]
+    },
+    "terms": {
+      "unverified": [
+        "returnWindow",
+        "restockingFee",
+        "returnShipping"
+      ],
+      "delivery": "Free standard shipping is threshold delivery only. Inside delivery and white-glove placement are optional and paid. Remote surcharges may apply. The threshold amount is not documented."
+    },
+    "image": "/products/speediance-gym-monster-ultra.jpg",
+    "slug": "speediance-gym-monster-ultra",
+    "source": "https://www.speediance.com/products/speediance-gym-monster-ultra"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "speediance-gym-monster-3s",
+    "brand": "Speediance",
+    "brandId": "speediance",
+    "type": "strength-machine",
+    "name": "Speediance Gym Monster 3S Station",
+    "description": "Speediance Gym Monster 3S Station. Return window, restocking fee, and warranty length are not documented.",
+    "url": "https://www.speediance.com/products/speediance-gym-monster-3s-station",
+    "price": 5299,
+    "variant": "Gym Monster 3S Station",
+    "available": false,
+    "badges": [
+      "Smart gym",
+      "Return window not documented"
+    ],
+    "attributes": {
+      "Price basis": "USD $5,299. Checked 2026-10-17. Shipping and tax are extra.",
+      "Source: Product listing": "https://www.speediance.com/products/speediance-gym-monster-3s-station",
+      "Source: Return policy": "https://www.speediance.com/policies/refund-policy",
+      "Source: Warranty": "https://www.speediance.com/pages/warranty",
+      "Source: Shipping": "https://www.speediance.com/policies/shipping-policy"
+    },
+    "facets": {
+      "deviceType": [
+        "home-gym"
+      ],
+      "equipmentType": [
+        "strength-machine"
+      ]
+    },
+    "terms": {
+      "unverified": [
+        "returnWindow",
+        "restockingFee",
+        "returnShipping"
+      ],
+      "delivery": "Free standard shipping is threshold delivery only. Inside delivery and white-glove placement are optional and paid. Remote surcharges may apply. The threshold amount is not documented."
+    },
+    "image": "/products/speediance-gym-monster-3s.png",
+    "slug": "speediance-gym-monster-3s",
+    "source": "https://www.speediance.com/products/speediance-gym-monster-3s-station"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "perfectly-snug-smart-topper",
+    "brand": "Perfectly Snug",
+    "brandId": "perfectly-snug",
+    "type": "sleep-system",
+    "name": "Perfectly Snug Smart Topper",
+    "description": "Smart Topper cooling mattress topper. A single configuration price is not listed. The checked warranty is 1 year.",
+    "url": "https://perfectlysnug.com/products/the-smart-topper",
+    "variant": "Variant range / single price not listed",
+    "available": true,
+    "badges": [
+      "Sleep topper",
+      "Price not listed",
+      "30-night trial",
+      "1-year warranty"
+    ],
+    "attributes": {
+      "Warranty": "1-year limited warranty, including electronics. An optional extension to 3 years is sold separately. In years 2-5, a repair program covers labor only; the customer pays parts, shipping, and packaging.",
+      "Price basis": "No single USD configuration price is listed.",
+      "Source: Product listing": "https://perfectlysnug.com/products/the-smart-topper",
+      "Source: Warranty and returns": "https://perfectlysnug.com/pages/warranty"
+    },
+    "facets": {
+      "deviceType": [
+        "sleep-system"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 days from receipt, described as a 30-night trial. A return more than 6 weeks after the trial starts is not refundable.",
+      "restockingFee": "None stated",
+      "unverified": [
+        "returnShipping"
+      ],
+      "delivery": "Hand-built in British Columbia, Canada. Ships in 1-2 business days and arrives in about 2-5 days. Free shipping to the US and Canada. The brand states that no duties or tariffs apply."
+    },
+    "image": "/products/perfectly-snug-smart-topper.png",
+    "slug": "perfectly-snug-smart-topper",
+    "source": "https://perfectlysnug.com/products/the-smart-topper"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "sleepme-chilipad-2",
+    "brand": "Sleepme",
+    "brandId": "sleepme",
+    "type": "sleep-system",
+    "name": "Chilipad 2.0",
+    "description": "Chilipad 2.0 sleep system. A single configuration price is not listed. The checked warranty is 2 years.",
+    "url": "https://sleep.me/products/chilipad-2-0",
+    "variant": "Variant range / single price not listed",
+    "available": true,
+    "badges": [
+      "Sleep system",
+      "Price not listed",
+      "30-night trial",
+      "2-year warranty"
+    ],
+    "attributes": {
+      "Warranty": "2-year limited warranty. An extension up to 3 years is available. Commercial use is excluded.",
+      "Price basis": "No single USD configuration price is listed.",
+      "Source: Product listing": "https://sleep.me/products/chilipad-2-0",
+      "Source: Shipping and returns": "https://sleep.me/shipping-and-returns",
+      "Source: Warranty": "https://sleep.me/warranty"
+    },
+    "facets": {
+      "deviceType": [
+        "sleep-system"
+      ],
+      "warranty": [
+        "2-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 nights from delivery",
+      "restockingFee": "None stated",
+      "unverified": [
+        "returnShipping"
+      ],
+      "delivery": "Ships from North Carolina by FedEx, UPS, or USPS. Free standard shipping in the contiguous US takes 3-7 business days. Alaska and Hawaii take 10-14 business days. Shipping is US only."
+    },
+    "image": "/products/sleepme-chilipad-2.webp",
+    "slug": "sleepme-chilipad-2",
+    "source": "https://sleep.me/products/chilipad-2-0"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "sleepme-chilipad-cube",
+    "brand": "Sleepme",
+    "brandId": "sleepme",
+    "type": "sleep-system",
+    "name": "Chilipad Cube",
+    "description": "Chilipad Cube sleep system. A single configuration price is not listed. The checked control-unit warranty is 1 year.",
+    "url": "https://sleep.me/products/chilipad-cube",
+    "variant": "Variant range / single price not listed",
+    "available": true,
+    "badges": [
+      "Sleep system",
+      "Price not listed",
+      "30-night trial",
+      "1-year warranty"
+    ],
+    "attributes": {
+      "Warranty": "Dock Pro, Cube, and OOLER control units: 1-year limited warranty. Commercial use is excluded.",
+      "Price basis": "No single USD configuration price is listed.",
+      "Source: Product listing": "https://sleep.me/products/chilipad-cube",
+      "Source: Shipping and returns": "https://sleep.me/shipping-and-returns",
+      "Source: Warranty": "https://sleep.me/warranty"
+    },
+    "facets": {
+      "deviceType": [
+        "sleep-system"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 nights from delivery",
+      "restockingFee": "None stated",
+      "unverified": [
+        "returnShipping"
+      ],
+      "delivery": "Ships from North Carolina by FedEx, UPS, or USPS. Free standard shipping in the contiguous US takes 3-7 business days. Alaska and Hawaii take 10-14 business days. Shipping is US only."
+    },
+    "image": "/products/sleepme-chilipad-cube.webp",
+    "slug": "sleepme-chilipad-cube",
+    "source": "https://sleep.me/products/chilipad-cube"
+  },
+  {
+    "category": "recovery",
+    "qty": "1 unit",
+    "checked": "2026-10-17",
+    "status": "published",
+    "affiliate": false,
+    "ingredients": "Not applicable. This listing is equipment, not a consumable.",
+    "filters": {},
+    "id": "sleepme-chilipad-1",
+    "brand": "Sleepme",
+    "brandId": "sleepme",
+    "type": "sleep-system",
+    "name": "Chilipad 1.0",
+    "description": "Chilipad 1.0, listed on the Dock Pro product page. A single configuration price is not listed. The checked control-unit warranty is 1 year.",
+    "url": "https://sleep.me/products/dock-pro-sleep-system",
+    "variant": "Dock Pro page / single price not listed",
+    "available": true,
+    "badges": [
+      "Sleep system",
+      "Price not listed",
+      "30-night trial",
+      "1-year warranty"
+    ],
+    "attributes": {
+      "Warranty": "Dock Pro, Cube, and OOLER control units: 1-year limited warranty. Commercial use is excluded.",
+      "Price basis": "No single USD configuration price is listed.",
+      "Source: Product listing": "https://sleep.me/products/dock-pro-sleep-system",
+      "Source: Shipping and returns": "https://sleep.me/shipping-and-returns",
+      "Source: Warranty": "https://sleep.me/warranty"
+    },
+    "facets": {
+      "deviceType": [
+        "sleep-system"
+      ],
+      "warranty": [
+        "1-year"
+      ]
+    },
+    "terms": {
+      "returnWindow": "30 nights from delivery",
+      "restockingFee": "None stated",
+      "unverified": [
+        "returnShipping"
+      ],
+      "delivery": "Ships from North Carolina by FedEx, UPS, or USPS. Free standard shipping in the contiguous US takes 3-7 business days. Alaska and Hawaii take 10-14 business days. Shipping is US only."
+    },
+    "image": "/products/sleepme-chilipad-1.webp",
+    "slug": "sleepme-chilipad-1",
+    "source": "https://sleep.me/products/dock-pro-sleep-system"
   }
 ]

@@ -9,4 +9,4 @@ export function normalizeCart(value:unknown,products:Product[]):CartItem[]{
  return Array.from(result,([id,quantity])=>({id,quantity}));
 }
 export function readCart(value:string|null,products:Product[]):CartItem[]{try{return normalizeCart(JSON.parse(value||'[]'),products);}catch{return [];}}
-export function cartTotalCents(items:CartItem[],products:Product[]){return items.reduce((sum,item)=>{const p=products.find(p=>p.id===item.id);return sum+(p?Math.round(p.price*100)*item.quantity:0);},0);}
+export function cartTotalCents(items:CartItem[],products:Product[]){return items.reduce((sum,item)=>{const p=products.find(p=>p.id===item.id);if(!p||typeof p.price!=='number'||!Number.isFinite(p.price))return sum;return sum+Math.round(p.price*100)*item.quantity;},0);}

@@ -57,7 +57,7 @@ check(equipment.specValue({...p,facets:{}},equipment.recoverySpecs.find(r=>r.id=
 for(const value of ['aria-haspopup="dialog"','aria-labelledby="comparison-drawer-title"','View shortlist'])check(tray.includes(value),'mobile shortlist renders '+value);
 const Discovery=compile('components/RecoveryDiscovery.tsx',{'./ProductImage':image}).default;
 const discovery=renderToStaticMarkup(React.createElement(Discovery,{products}));
-for(const [id,count] of [['home-gym',26],['cold-plunge',12],['sauna',11],['massage-chair',8]]){
+for(const [id,count] of [['home-gym',34],['cold-plunge',13],['sauna',13],['massage-chair',8]]){
  check(discovery.includes('deviceType='+id),'discovery opens the correct equipment filter '+id);
  check(discovery.includes(count+' products to research'),'homepage counts published equipment '+id);
 }

@@ -1,0 +1,69 @@
+{
+  "checked": "2026-10-17",
+  "note": "Tier 1 catalog additions. Existing products are enriched in place and are not listed here.",
+  "products": [
+    {
+      "productId": "rogue-sml-2c-squat-stand"
+    },
+    {
+      "productId": "rep-pr5000-power-rack"
+    },
+    {
+      "productId": "rep-athena-side-mount"
+    },
+    {
+      "productId": "joovv-duo-3"
+    },
+    {
+      "productId": "joovv-elite-3"
+    },
+    {
+      "productId": "hyperice-normatec-3-full-body"
+    },
+    {
+      "productId": "hyperice-normatec-3-legs"
+    },
+    {
+      "productId": "mitoadapt-4"
+    },
+    {
+      "productId": "mitopro-plus-v2"
+    },
+    {
+      "productId": "clearlight-sanctuary-2"
+    },
+    {
+      "productId": "clearlight-premier-2"
+    },
+    {
+      "productId": "clearlight-plunge"
+    },
+    {
+      "productId": "force-usa-c20"
+    },
+    {
+      "productId": "force-usa-g20-pro"
+    },
+    {
+      "productId": "force-usa-g15"
+    },
+    {
+      "productId": "speediance-gym-monster-ultra"
+    },
+    {
+      "productId": "speediance-gym-monster-3s"
+    },
+    {
+      "productId": "perfectly-snug-smart-topper"
+    },
+    {
+      "productId": "sleepme-chilipad-2"
+    },
+    {
+      "productId": "sleepme-chilipad-cube"
+    },
+    {
+      "productId": "sleepme-chilipad-1"
+    }
+  ]
+}

@@ -1731,5 +1731,195 @@
       640,
       939
     ]
+  },
+  "/products/rogue-sml-2c-squat-stand.jpg": {
+    "width": 1600,
+    "height": 901,
+    "base": "/products/opt/rogue-sml-2c-squat-stand",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/rep-pr5000-power-rack.jpg": {
+    "width": 1920,
+    "height": 1920,
+    "base": "/products/opt/rep-pr5000-power-rack",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/rep-athena-side-mount.jpg": {
+    "width": 1201,
+    "height": 1200,
+    "base": "/products/opt/rep-athena-side-mount",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/joovv-duo-3.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "base": "/products/opt/joovv-duo-3",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/joovv-elite-3.jpg": {
+    "width": 2000,
+    "height": 2000,
+    "base": "/products/opt/joovv-elite-3",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/hyperice-normatec-3-full-body.png": {
+    "width": 2100,
+    "height": 2280,
+    "base": "/products/opt/hyperice-normatec-3-full-body",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/hyperice-normatec-3-legs.png": {
+    "width": 2100,
+    "height": 2280,
+    "base": "/products/opt/hyperice-normatec-3-legs",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/mitoadapt-4.jpg": {
+    "width": 1800,
+    "height": 1800,
+    "base": "/products/opt/mitoadapt-4",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/mitopro-plus-v2.png": {
+    "width": 2000,
+    "height": 2000,
+    "base": "/products/opt/mitopro-plus-v2",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/placeholder-product.png": {
+    "width": 960,
+    "height": 960,
+    "base": "/products/opt/placeholder-product",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/force-usa-c20.jpg": {
+    "width": 1080,
+    "height": 1440,
+    "base": "/products/opt/force-usa-c20",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/force-usa-g20-pro.jpg": {
+    "width": 1080,
+    "height": 1440,
+    "base": "/products/opt/force-usa-g20-pro",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/force-usa-g15.jpg": {
+    "width": 1080,
+    "height": 1440,
+    "base": "/products/opt/force-usa-g15",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/speediance-gym-monster-ultra.jpg": {
+    "width": 1000,
+    "height": 1000,
+    "base": "/products/opt/speediance-gym-monster-ultra",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/speediance-gym-monster-3s.png": {
+    "width": 3000,
+    "height": 3000,
+    "base": "/products/opt/speediance-gym-monster-3s",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/perfectly-snug-smart-topper.png": {
+    "width": 1536,
+    "height": 1538,
+    "base": "/products/opt/perfectly-snug-smart-topper",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/sleepme-chilipad-1.webp": {
+    "width": 2700,
+    "height": 2160,
+    "base": "/products/opt/sleepme-chilipad-1",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/sleepme-chilipad-2.webp": {
+    "width": 2700,
+    "height": 2160,
+    "base": "/products/opt/sleepme-chilipad-2",
+    "widths": [
+      320,
+      640,
+      960
+    ]
+  },
+  "/products/sleepme-chilipad-cube.webp": {
+    "width": 2700,
+    "height": 2160,
+    "base": "/products/opt/sleepme-chilipad-cube",
+    "widths": [
+      320,
+      640,
+      960
+    ]
   }
 }

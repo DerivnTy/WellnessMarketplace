@@ -4,9 +4,17 @@ export const productSchema=z.object({
   id:z.string().regex(/^[a-z0-9-]{2,80}$/),slug:z.string().max(80),name:z.string().min(2).max(150),brand:z.string().min(1).max(100),brandId:z.string().regex(/^[a-z0-9-]+$/),
   category:z.enum(['drinks','hydration','nutrition','apparel','supplements','recovery']),type:z.string().min(2).max(60),description:z.string().min(10).max(1500),
   image:z.string().refine(v=>/^\/products\/[a-zA-Z0-9_.-]+\.(png|jpe?g|webp)$/.test(v),'Use a local product asset.'),
-  price:z.number().nonnegative().max(100000),qty:z.string().max(100),variant:z.string().max(150),servings:z.number().positive().optional(),
+  price:z.number().nonnegative().max(100000).optional(),qty:z.string().max(100),variant:z.string().max(150),servings:z.number().positive().optional(),
   source:httpsUrl,url:httpsUrl,checked:z.string().regex(/^\d{4}-\d{2}-\d{2}$/),available:z.boolean(),status:z.enum(['published','draft']),affiliate:z.literal(false),
-  badges:z.array(z.string().max(80)).max(5),attributes:z.record(z.string().max(300)),ingredients:z.string().max(3000),filters:z.record(z.boolean()),facets:z.record(z.array(z.string().max(80)).max(30)).optional()
+  badges:z.array(z.string().max(80)).max(5),attributes:z.record(z.string().max(300)),ingredients:z.string().max(3000),filters:z.record(z.boolean()),facets:z.record(z.array(z.string().max(80)).max(30)).optional(),
+  terms:z.object({
+    returnWindow:z.string().min(1).max(300).optional(),
+    restockingFee:z.string().min(1).max(300).optional(),
+    returnShipping:z.string().min(1).max(300).optional(),
+    delivery:z.string().min(1).max(300).optional(),
+    unverified:z.array(z.enum(['returnWindow','restockingFee','returnShipping','delivery'])).max(4).optional(),
+    notes:z.array(z.string().min(1).max(300)).max(4).optional(),
+  }).optional()
 });
 export const assessmentSchema=z.object({
   id:z.string().regex(/^[a-z0-9-]{2,80}$/),entity:z.string().min(1).max(80),scope:z.enum(['product','brand','merchant']),

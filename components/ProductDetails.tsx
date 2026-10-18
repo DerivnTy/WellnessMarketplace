@@ -1,7 +1,7 @@
 'use client';
 import type {ReactNode} from 'react';
 import {ArrowUpRight,ArrowRight,ChevronRight,ExternalLink,FileText,Heart,Scale,ShoppingCart,Plus} from 'lucide-react';
-import {Product,categories,money} from '@/lib/catalog';
+import {Product,categories,listedPrice,money} from '@/lib/catalog';
 import {categoryHref} from '@/lib/browse';
 import {comparisonRows,specValue,decisionFacts,ownershipNotes,sourceLinks} from '@/lib/equipment';
 import type {TrustProfile,TrustSummary} from '@/lib/trust';
@@ -19,7 +19,7 @@ export default function ProductDetails({product:p,products,profile,summary,saved
  <div className="breadcrumbs"><a href="/shop">Marketplace</a><ChevronRight size={12}/><a href={categoryHref(p.category)}>{categories.find(c=>c.id===p.category)?.name}</a><ChevronRight size={12}/><span>{p.name}</span></div>
  <div className="detail-grid"><div className="detail-image"><ProductImage src={p.image} alt={`${p.name}, ${p.brand}`} priority sizes="(max-width: 760px) 100vw, 640px"/><span>Brand-provided product image</span></div><div className="detail-info"><a className="brand-label" href={'/brands/'+p.brandId}>{p.brand}<ArrowUpRight size={14}/></a><h1>{p.name}</h1><p className="detail-description">{p.description}</p><BrandEvidenceBadge brandId={p.brandId} summary={summary}/>
  {equipment&&<dl className="decision-preview">{decisionFacts(p).filter(f=>['Space','Power'].includes(f.label)).map(f=><div key={f.label}><dt>{f.label}</dt><dd>{f.value}</dd></div>)}</dl>}
- <div className="detail-price">{money(p.price)}<span>{p.qty}</span></div><p className="variant">Listed option: {p.variant}{p.servings&&` · ${money(p.price/p.servings)} per serving`}</p><div className="pill-row">{p.badges.map(b=><span className="pill" key={b}>{b}</span>)}</div>
+ <div className="detail-price">{listedPrice(p.price)==='Not documented'?<span className="unknown">Not documented</span>:listedPrice(p.price)}<span>{p.qty}</span></div><p className="variant">Listed option: {p.variant}{p.servings&&typeof p.price==='number'&&` · ${money(p.price/p.servings)} per serving`}</p><div className="pill-row">{p.badges.map(b=><span className="pill" key={b}>{b}</span>)}</div>
  {!p.available&&<p className="availability">This listing was unavailable when checked. Confirm current options with the merchant.</p>}
  <a className="button dark merchant-button" href={'/api/out?id='+p.id} target="_blank" rel={p.affiliate?'sponsored noreferrer':'noreferrer'}>{p.available?'Shop with brand':'Check availability'}{p.affiliate?' — affiliate link':''}<ArrowUpRight size={19}/></a>
  <p className="merchant-note">{p.affiliate?'Affiliate link. We may earn a commission.':'Direct merchant link.'} Checkout, delivery and returns are handled by the merchant.</p>{p.attributes['Merchant']&&<p className="merchant-note">Seller: {p.attributes['Merchant']}</p>}{p.attributes['Discount']&&<p className="merchant-note">Recorded offer: {p.attributes['Discount']} · Confirm current terms with the merchant.</p>}

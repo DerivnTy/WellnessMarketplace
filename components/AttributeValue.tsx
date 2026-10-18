@@ -6,5 +6,6 @@ export default function AttributeValue({value}:{value:string}) {
     const url=new URL(value);
     if(url.protocol==='https:') return <a className="attribute-source" href={value} target="_blank" rel="noreferrer">View source <ExternalLink size={12}/><span className="sr-only"> at {url.hostname}</span></a>;
   } catch {}
-  return <>{value}</>;
+  const lines=value.split('\n');
+  return <>{lines.map((line,index)=><span key={index}>{index>0?'\n':''}{line.endsWith('Not documented')?<span className="unknown">{line}</span>:line}</span>)}</>;
 }
