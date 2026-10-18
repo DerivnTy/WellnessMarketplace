@@ -52,20 +52,20 @@ function ListingCard({product: p, evidence, compared, onCompare}: {product: Prod
   const facts = cardFacts(p);
   return <article className={'product-card listing-card' + (p.category === 'recovery' ? ' equipment-card' : '')}>
     <div className="product-visual">
-      <a href={'/product/' + p.id} aria-label={`View ${p.brand} ${p.name}`}><ProductImage src={p.image} alt={`${p.name}, ${p.brand}`} sizes="(max-width: 759px) 45vw, (max-width: 1099px) 40vw, (max-width: 1449px) 25vw, 320px"/></a>
+      <a href={'/product/' + p.id} aria-label={`View ${p.brand} ${p.name}`}><ProductImage src={p.image} alt={`${p.name}, ${p.brand}`} sizes="(max-width: 599px) 90vw, (max-width: 1099px) 44vw, 420px"/></a>
       {!p.available && <span className="image-label">Check availability</span>}
     </div>
     <div className="product-info">
       <a className="brand-label" href={'/brands/' + p.brandId}>{p.brand}</a>
       <h3 className="product-name"><a href={'/product/' + p.id}>{p.name}</a></h3>
       <div className="price"><PriceText price={p.price}/> <span>{p.qty}</span></div>
-      <p className="card-facts" title={facts.map(fact => `${fact.label}: ${fact.value}`).join(' · ')}>
-        {facts.map((fact, index) => <span key={fact.label}>{index > 0 && ' · '}{fact.label}: {fact.value === 'Not documented' ? <span className="unknown">Not documented</span> : fact.value}</span>)}
-      </p>
+      <dl className="card-facts">
+        {facts.slice(0, 2).map(fact => <div key={fact.label}><dt>{fact.label}</dt><dd className={fact.value === 'Not documented' ? 'unknown' : undefined}>{fact.value}</dd></div>)}
+      </dl>
       <BrandEvidenceBadge brandId={p.brandId} summary={evidence}/>
       <div className="product-shopping-actions">
         <a className="card-view" href={'/product/' + p.id}>View product</a>
-        <button type="button" className={'compare-action' + (compared ? ' selected' : '')} aria-label={'Compare ' + p.name} aria-pressed={compared} onClick={() => onCompare(p)}>{compared ? 'In comparison' : 'Compare'}</button>
+        <button type="button" className={'compare-action' + (compared ? ' selected' : '')} aria-label={'Compare ' + p.name} aria-pressed={compared} onClick={() => onCompare(p)}>{compared ? <Check size={16}/> : <Scale size={16}/>} {compared ? 'In comparison' : 'Compare'}</button>
       </div>
     </div>
   </article>;

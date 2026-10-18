@@ -1,4 +1,5 @@
 import type {Product, TermField} from './catalog';
+import {specText} from './documented';
 export type SpecRow={id:string;label:string;keys:string[]};
 export const recoverySpecs:SpecRow[]=[
  {id:'capacity',label:'Capacity / occupancy',keys:['Capacity']},
@@ -75,9 +76,27 @@ export const decisionFacts=(p:Product)=>[
 export function ownershipNotes(p:Product){
  const sources=sourceLinks(p);const source=(pattern:RegExp)=>sources.find(s=>pattern.test(s.label))||sources[0];
  return [
- {title:'Delivery & access',fact:p.attributes['Delivery']||p.attributes['Returns'],check:'Confirm delivery to your address, curbside versus room placement, return freight and the route through doorways or stairs.',source:source(p.attributes['Delivery']?/delivery|shipping/i:/return/i)},
- {title:'Installation & space',fact:p.attributes['Clearance']||p.attributes['Equipment footprint']||p.attributes['Footprint basis'],check:'Allow operating clearance beyond the product footprint. Confirm assembly, floor support and any electrical or plumbing work using the exact model manual.',source:source(/manual|installation|specification/i)},
+ {title:'Delivery & access',fact:p.attributes['Delivery']||p.terms?.delivery||p.attributes['Returns'],check:'Confirm delivery to your address, curbside versus room placement, return freight and the route through doorways or stairs.',source:source(p.attributes['Delivery']?/delivery|shipping/i:/return/i)},
+ {title:'Installation',fact:p.attributes['Setup type'],check:'Allow operating clearance beyond the product footprint. Confirm assembly, floor support and any electrical or plumbing work using the exact model manual.',source:source(/manual|installation|specification/i)},
  {title:'Upkeep & running costs',fact:p.attributes['Ongoing cost']||p.attributes['Ongoing costs']||p.attributes['Subscription'],check:p.type==='cold-plunge'?'Check water care, filter replacements, cleaning intervals, electricity use and freeze-protection instructions.':p.type==='sauna'?'Check ventilation, cleaning, timber care, heater maintenance and electricity use.':'Check maintenance, replacement parts, energy use and any required membership or consumables.',source:source(/care|manual|setup/i)},
- {title:'Service & reliability',fact:p.attributes['Warranty'],check:'Check coverage for parts, labor and shipping, the service process and local support. Warranty length alone does not establish long-term reliability.',source:source(/warrant|guarantee|after.sales|repair policy/i)},
+ {title:'Warranty & service',fact:p.attributes['Warranty'],check:'Check coverage for parts, labor and shipping, the service process and local support. Warranty length alone does not establish long-term reliability.',source:source(/warrant|guarantee|after.sales|repair policy/i)},
+ {title:'Space & clearance',fact:p.attributes['Dimensions'],check:p.attributes['Clearance']||p.attributes['Equipment footprint']||'Measure the installed footprint and allow room for normal use, maintenance and the delivery route.',source:source(/manual|installation|specification/i)},
+ {title:'Power requirements',fact:p.attributes['Power requirements'],check:'Confirm the voltage, outlet and circuit for the exact configuration. A listed wattage alone does not establish electrical compatibility.',source:source(/manual|electrical|specification/i)},
  ];
+}
+
+export function comparisonValue(p:Product,row:SpecRow):string { return specText(specValue(p,row)); }
+export function visibleComparisonRows(rows:SpecRow[],products:Product[],differences:boolean):SpecRow[] {
+ if(!differences||products.length<2)return rows;
+ // Unknown facts remain visible even when all compared records lack the value.
+ return rows.filter(row=>{const values=products.map(p=>comparisonValue(p,row));return values.includes('Not documented')||new Set(values).size>1;});
+}
+export function comparisonSections(rows:SpecRow[]) {
+ const fit=new Set(['capacity','dimensions','footprint','power','temperature','heat','chiller','load','user','resistance','materials']);
+ const ownership=new Set(['warranty','setup','included','ongoing','delivery','return-terms','basis']);
+ return [
+  {id:'fit',label:'Fit & performance',rows:rows.filter(row=>fit.has(row.id))},
+  {id:'ownership',label:'Setup & ownership',rows:rows.filter(row=>ownership.has(row.id))},
+  {id:'additional',label:'Other recorded details',rows:rows.filter(row=>!fit.has(row.id)&&!ownership.has(row.id))},
+ ].filter(section=>section.rows.length>0);
 }

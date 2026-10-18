@@ -1,6 +1,6 @@
 'use client';
 
-import {useState, type ReactNode, type Ref} from 'react';
+import {useEffect, useState, type ReactNode, type Ref} from 'react';
 import {ChevronDown, Minus, Plus, X} from 'lucide-react';
 
 export type PreferenceFilterGroup = {
@@ -8,6 +8,7 @@ export type PreferenceFilterGroup = {
   label: string;
   options: {id: string; label: string; count?: number}[];
   hint?: string;
+  defaultOpen?: boolean;
 };
 
 type Props = {
@@ -23,8 +24,9 @@ type Props = {
   panelRef?: Ref<HTMLElement>;
 };
 
-export function FilterSection({label, children, className = '', defaultOpen = true}: {label: ReactNode; children: ReactNode; className?: string; defaultOpen?: boolean}) {
-  const [open, setOpen] = useState(defaultOpen);
+export function FilterSection({label, children, className = '', defaultOpen = true, forceOpen = false}: {label: ReactNode; children: ReactNode; className?: string; defaultOpen?: boolean; forceOpen?: boolean}) {
+  const [open, setOpen] = useState(defaultOpen || forceOpen);
+  useEffect(() => {if (forceOpen) setOpen(true);}, [forceOpen]);
   return <fieldset className={'facet-block ' + className}>
     <legend>
       <button type="button" className="facet-toggle" aria-expanded={open} onClick={() => setOpen(value => !value)}>
@@ -67,7 +69,7 @@ function FilterGroup({group, selected, onToggle}: {group: PreferenceFilterGroup;
   // Keep selected options visible even when a long group is collapsed.
   const visible = expanded ? group.options : group.options.filter((option, index) => index < 7 || selected.includes(option.id));
   const hidden = group.options.length - visible.length;
-  return <FilterSection label={group.label}>
+  return <FilterSection label={<>{group.label}{selected.length > 0 && <span className="filter-selection-count">{selected.length} selected</span>}</>} defaultOpen={group.defaultOpen ?? true} forceOpen={selected.length > 0}>
     {visible.map(option => {
       const checked = selected.includes(option.id);
       const unavailable = option.count === 0 && !checked;

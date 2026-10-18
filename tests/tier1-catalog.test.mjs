@@ -113,7 +113,7 @@ const page = text(renderToStaticMarkup(React.createElement(details, {
 check(page.includes('Return and delivery terms'), 'product page shows the return and delivery row');
 check(page.includes('Return window: Not documented') && page.includes('Restocking fee: Not documented') && page.includes('Return shipping: Not documented'), 'product page renders unverified terms as Not documented');
 check(page.includes('Warranty') && page.includes('Not documented'), 'missing warranty renders Not documented');
-check(page.includes('Brand evidence Not scored'), 'unscored brand stays Not scored');
+check(page.includes('Brand evidence · Not scored'), 'unscored brand stays Not scored');
 check(page.includes('$6,999'), 'verified Speediance price is shown');
 check(!/high-ticket|premium tier/i.test(page), 'product page copy stays factual');
 
@@ -127,7 +127,7 @@ const cardHtml = text(renderToStaticMarkup(React.createElement(card, {
   variant: 'listing', product: get('perfectly-snug-smart-topper'), saved: false, compared: false, cartDisabled: false,
   onSave() {}, onCompare() {}, onAddToCart() {},
 })));
-check(cardHtml.includes('Not documented') && cardHtml.includes('Brand evidence Not scored'), 'listing card shows an unknown price and an unscored brand');
+check(cardHtml.includes('Not documented') && cardHtml.includes('Brand evidence · Not scored'), 'listing card shows an unknown price and an unscored brand');
 check(!cardHtml.includes('$1,595') && !cardHtml.includes('$2,495'), 'variant range is not shown as a price');
 
 const plunge = get('ht-plunge-plunge');

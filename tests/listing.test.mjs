@@ -61,7 +61,7 @@ check(teeFacts.some(fact => fact.value === 'Not documented'), 'a missing apparel
 
 const renderCard = (product, summary) => renderToStaticMarkup(React.createElement(card, {variant: 'listing', product, evidence: summary, saved: false, compared: false, cartDisabled: false, onSave() {}, onCompare() {}, onAddToCart() {}}));
 const unscored = renderCard(drink);
-check(unscored.includes('Brand evidence Not scored'), 'listing card says Brand evidence Not scored');
+check(unscored.includes('Brand evidence · Not scored'), 'listing card says Brand evidence · Not scored');
 check(!unscored.includes('Add to cart'), 'listing card has one primary action');
 check(unscored.includes('View product') && unscored.includes('Compare'), 'primary link and Compare are both present');
 check(unscored.includes('Not documented'), 'listing card renders Not documented');

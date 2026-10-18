@@ -7,7 +7,7 @@ import {renderToStaticMarkup} from 'react-dom/server';
 const require=createRequire(import.meta.url);
 function compile(file,imports={}){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.ReactJSX}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(name=>imports[name]||require(name),module,module.exports);return module.exports;}
 const products=JSON.parse(readFileSync('data/catalog.json','utf8'));
-const catalog=compile('lib/catalog.ts'),browse=compile('lib/browse.ts'),comparison=compile('lib/comparison.ts'),equipment=compile('lib/equipment.ts'),badge=compile('components/BrandEvidenceBadge.tsx');
+const catalog=compile('lib/catalog.ts'),browse=compile('lib/browse.ts'),comparison=compile('lib/comparison.ts'),equipment=compile('lib/equipment.ts',{'./documented':compile('lib/documented.ts')}),badge=compile('components/BrandEvidenceBadge.tsx');
 let checks=0;function check(ok,label){assert.ok(ok,label);checks++;}
 const get=id=>products.find(p=>p.id===id),p=get('plunge-all-in-gen2-cold'),q=get('ht-renu-cold-stoic-2-0'),sauna=get('sun-home-luminar-2');
 for(const bad of [null,{},'bad','{}',1])check(comparison.comparisonIds(bad,products).length===0,'malformed storage stays safe');
@@ -47,7 +47,7 @@ check(normalize({...old,facets:{...old.facets,chiller:[]}}).facets.chiller.lengt
 const image={default:(props)=>React.createElement('img',{src:props.src,alt:props.alt||''})};
 const Page=compile('components/ComparisonPage.tsx',{'@/lib/catalog':catalog,'@/lib/equipment':equipment,'@/lib/comparison':comparison,'./BrandEvidenceBadge':badge,'./ProductImage':image}).default;
 const html=renderToStaticMarkup(React.createElement(Page,{selected:[p,q],products,onChange(){},summaries:[],ready:true}));
-for(const text of ['Not documented','Brand evidence Not scored','Dimensions','Power requirements','Warranty','Temperature range','Clear comparison','Show differences only','Remove '+p.name])check(html.includes(text),'comparison renders '+text);
+for(const text of ['Not documented','Brand evidence · Not scored','Dimensions','Power requirements','Warranty','Temperature range','Clear comparison','Show differences only','Remove '+p.name])check(html.includes(text),'comparison renders '+text);
 const Tray=compile('components/ComparisonTray.tsx',{'@/lib/catalog':catalog,'@/lib/comparison':comparison,'./ProductImage':image}).default;
 const tray=renderToStaticMarkup(React.createElement(Tray,{products:[p,q],onRemove(){},onClear(){},storageUnavailable:false}));
 for(const value of [p.name,q.name,catalog.money(p.price),p.image,'Clear all','Remove '+p.name+' from comparison'])check(tray.includes(value),'persistent tray contains '+value);
@@ -62,3 +62,19 @@ for(const [id,count] of [['home-gym',34],['cold-plunge',13],['sauna',13],['massa
  check(discovery.includes(count+' products to research'),'homepage counts published equipment '+id);
 }
 console.log(`${checks} research-shopping checks passed.`);
+// Differences must not disguise missing data as an established match.
+const missing={...p,attributes:{},facets:{},terms:undefined};
+const known={...p,attributes:{Dimensions:'60 × 30 × 28 in',Warranty:'1 year'},facets:{},terms:undefined};
+const decisionRows=equipment.recoverySpecs.filter(row=>['dimensions','power','warranty'].includes(row.id));
+assert.deepEqual(equipment.visibleComparisonRows(decisionRows,[known,{...known}],true).map(row=>row.id),['power']);
+assert.deepEqual(equipment.visibleComparisonRows(decisionRows,[missing,{...missing}],true).map(row=>row.id),decisionRows.map(row=>row.id));
+assert.deepEqual(equipment.visibleComparisonRows(decisionRows,[known,missing],true).map(row=>row.id),decisionRows.map(row=>row.id));
+assert.equal(equipment.visibleComparisonRows(decisionRows,[known],true).length,3);
+const grouped=equipment.comparisonSections(equipment.comparisonRows([p,q]));
+assert.deepEqual(grouped.flatMap(group=>group.rows).map(row=>row.id).sort(),equipment.comparisonRows([p,q]).map(row=>row.id).sort());
+assert.equal(equipment.ownershipNotes(missing).length,6);
+assert.ok(equipment.ownershipNotes(missing).every(note=>!note.fact));
+assert.ok(html.includes('Fit &amp; performance')&&html.includes('Setup &amp; ownership'));
+assert.ok(html.includes('Next comparison column'));
+assert.ok(!tray.includes('Hide items'),'shortlist items always remain visible on desktop');
+console.log('Comparison unknown-value, grouping, ownership and persistent tray regressions passed.');
