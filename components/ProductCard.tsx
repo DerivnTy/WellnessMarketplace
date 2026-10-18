@@ -1,12 +1,17 @@
 'use client';
 
 import {Check, Heart, ShoppingCart, Scale} from 'lucide-react';
-import {money, type Product} from '@/lib/catalog';
+import {listedPrice, type Product} from '@/lib/catalog';
 import type {TrustSummary} from '@/lib/trust';
 import {isMadeInUSA} from '@/lib/browse';
 import {cardFacts} from '@/lib/card-facts';
 import BrandEvidenceBadge from './BrandEvidenceBadge';
 import ProductImage from './ProductImage';
+
+function PriceText({price}: {price: number | undefined}) {
+  const text = listedPrice(price);
+  return text === 'Not documented' ? <span className="unknown">{text}</span> : <>{text}</>;
+}
 
 type Props = {
   product: Product;
@@ -32,7 +37,7 @@ export default function ProductCard({product: p, evidence, saved, compared, cart
     <div className="product-info">
       <a className="brand-label" href={'/brands/' + p.brandId}>{p.brand}</a>
       <a className="product-name" href={'/product/' + p.id}>{p.name}</a>
-      <div className="price">{money(p.price)} <span>{p.qty}</span></div>
+      <div className="price"><PriceText price={p.price}/> <span>{p.qty}</span></div>
       <div className="product-badges">{badges.map(badge => <span className="attribute-tag" key={badge}>{badge}</span>)}</div>
       <BrandEvidenceBadge brandId={p.brandId} summary={evidence}/>
       <div className="product-shopping-actions">
@@ -53,7 +58,7 @@ function ListingCard({product: p, evidence, compared, onCompare}: {product: Prod
     <div className="product-info">
       <a className="brand-label" href={'/brands/' + p.brandId}>{p.brand}</a>
       <h3 className="product-name"><a href={'/product/' + p.id}>{p.name}</a></h3>
-      <div className="price">{money(p.price)} <span>{p.qty}</span></div>
+      <div className="price"><PriceText price={p.price}/> <span>{p.qty}</span></div>
       <p className="card-facts" title={facts.map(fact => `${fact.label}: ${fact.value}`).join(' · ')}>
         {facts.map((fact, index) => <span key={fact.label}>{index > 0 && ' · '}{fact.label}: {fact.value === 'Not documented' ? <span className="unknown">Not documented</span> : fact.value}</span>)}
       </p>

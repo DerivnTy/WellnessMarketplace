@@ -1,4 +1,12 @@
 import type {Product} from './catalog';
+function comparePrice(a: Product, b: Product, direction: 'asc' | 'desc') {
+  const known = (p: Product) => typeof p.price === 'number' && Number.isFinite(p.price);
+  if (!known(a) && !known(b)) return 0;
+  if (!known(a)) return 1;
+  if (!known(b)) return -1;
+  const delta = (a.price as number) - (b.price as number);
+  return direction === 'asc' ? delta : -delta;
+}
 export type BrowseState={category:string;q:string;selected:Record<string,string[]>;filters:string[];brands:string[];min:string;max:string;sort:string};
 export const goalOptions=[['calm','Calm & stress'],['sleep','Sleep support'],['brain','Brain & focus'],['hormonal','Hormonal support'],['gut','Gut & digestion'],['heart','Heart support'],['immune','Immune support'],['performance','Performance']];
 export const drinkOptions=[['hydration','Daily hydration'],['sport','Sport & electrolytes'],['energy','Energy & focus'],['calm','Calm & unwind'],['gut','Prebiotic & gut']];
@@ -41,13 +49,16 @@ export function browseUrl(s:BrowseState){const p=new URLSearchParams();if(s.q)p.
 export function matches(p:Product,s:BrowseState,ignore?:string){
  if(p.status!=='published'||s.category&&p.category!==s.category)return false;
  if(ignore!=='brands'&&s.brands.length&&!s.brands.includes(p.brandId))return false;
- if(s.min&&p.price<Number(s.min)||s.max&&p.price>Number(s.max))return false;
- const text=[p.name,p.brand,p.description,p.ingredients,p.category,...p.badges,...Object.values(p.attributes),...Object.values(p.facets||{}).flat()].join(' ').toLowerCase().replace(/[^a-z0-9]+/g,' ');
+ const price=typeof p.price==='number'&&Number.isFinite(p.price)?p.price:undefined;
+ if((s.min||s.max)&&price===undefined)return false;
+ if(price!==undefined&&(s.min&&price<Number(s.min)||s.max&&price>Number(s.max)))return false;
+ const termBits=Object.values(p.terms||{}).flatMap(value=>Array.isArray(value)?value:typeof value==='string'?[value]:[]);
+ const text=[p.name,p.brand,p.description,p.ingredients,p.category,...p.badges,...Object.values(p.attributes),...termBits,...Object.values(p.facets||{}).flat()].join(' ').toLowerCase().replace(/[^a-z0-9]+/g,' ');
  const terms=s.q.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(Boolean);if(!terms.every(t=>text.includes(t)))return false;
  if(!s.filters.filter(k=>k!==ignore).every(k=>(k==='madeInUSA'?isMadeInUSA(p):p.filters[k]===true)))return false;
- return Object.entries(s.selected).every(([key,v])=>key===ignore||!v.length||v.some(value=>key==='priceBand'&&value==='2500-plus'?p.category==='recovery'&&p.price>=2500:facetValues(p,key).includes(value)));
+ return Object.entries(s.selected).every(([key,v])=>key===ignore||!v.length||v.some(value=>key==='priceBand'&&value==='2500-plus'?p.category==='recovery'&&price!==undefined&&price>=2500:facetValues(p,key).includes(value)));
 }
-export function filterProducts(products:Product[],s:BrowseState){const result=products.filter(p=>matches(p,s));if(s.sort==='price-asc')result.sort((a,b)=>a.price-b.price);if(s.sort==='price-desc')result.sort((a,b)=>b.price-a.price);if(s.sort==='name')result.sort((a,b)=>a.name.localeCompare(b.name));return result;}
+export function filterProducts(products:Product[],s:BrowseState){const result=products.filter(p=>matches(p,s));if(s.sort==='price-asc')result.sort((a,b)=>comparePrice(a,b,'asc'));if(s.sort==='price-desc')result.sort((a,b)=>comparePrice(a,b,'desc'));if(s.sort==='name')result.sort((a,b)=>a.name.localeCompare(b.name));return result;}
 export function optionsFor(products:Product[],category:string,group:FacetGroup){if(group.key==='caffeine')return group.options||[];if(group.key==='warranty'&&group.options)return group.options.filter(([id])=>products.some(p=>facetValues(p,'warranty').includes(id)));const actual=new Set(products.filter(p=>!category||p.category===category).flatMap(p=>facetValues(p,group.key)));const predefined=group.options||[];return [...predefined.filter(([id])=>actual.has(id)),...Array.from(actual).filter(id=>!predefined.some(([v])=>v===id)).sort().map(id=>[id,labelFor(id)])];}
 
 // Only an explicit product-origin statement with a source qualifies.
@@ -63,7 +74,7 @@ export function caffeineBand(p:Product):string|null {
  return null;
 }
 export function facetValues(p:Product,key:string):string[]{
- if(key==='priceBand'){if(p.category!=='recovery'||!Number.isFinite(p.price)||p.price<0)return [];return [p.price<250?'under-250':p.price<500?'250-499':p.price<1000?'500-999':p.price<2500?'1000-2499':p.price<5000?'2500-4999':p.price<10000?'5000-9999':'10000-plus'];}
+ if(key==='priceBand'){const amount=typeof p.price==='number'&&Number.isFinite(p.price)?p.price:undefined;if(p.category!=='recovery'||amount===undefined||amount<0)return [];return [amount<250?'under-250':amount<500?'250-499':amount<1000?'500-999':amount<2500?'1000-2499':amount<5000?'2500-4999':amount<10000?'5000-9999':'10000-plus'];}
  if(key==='warranty'){const recorded=p.facets?.warranty||[];const years=recorded.map(v=>v.match(/^(\d+)-year$/)?.[1]).filter(Boolean).map(Number);const minimum=years.length?Math.min(...years):null;return [...recorded,...(minimum!==null?[1,2,3,5].filter(n=>n<=minimum).map(n=>'min-'+n+'-year'):[]),...(recorded.some(v=>/^\d+-(day|month)$/.test(v))?['under-1-year']:[])];}
  if(key==='caffeine'){const band=caffeineBand(p);return band?[band]:[];}
  return p.facets?.[key]||[];

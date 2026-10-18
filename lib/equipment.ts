@@ -1,4 +1,4 @@
-import type {Product} from './catalog';
+import type {Product, TermField} from './catalog';
 export type SpecRow={id:string;label:string;keys:string[]};
 export const recoverySpecs:SpecRow[]=[
  {id:'capacity',label:'Capacity / occupancy',keys:['Capacity']},
@@ -17,9 +17,29 @@ export const recoverySpecs:SpecRow[]=[
  {id:'included',label:'What is included',keys:['Included','Not included','Safety accessories']},
  {id:'ongoing',label:'Ongoing costs',keys:['Ongoing cost','Ongoing costs','Subscription']},
  {id:'delivery',label:'Delivery & returns',keys:['Delivery','Returns']},
+ {id:'return-terms',label:'Return and delivery terms',keys:[]},
  {id:'basis',label:'Price basis / exclusions',keys:['Price basis']},
 ];
+const termLabels: [TermField, string][] = [
+ ['returnWindow', 'Return window'],
+ ['restockingFee', 'Restocking fee'],
+ ['returnShipping', 'Return shipping'],
+ ['delivery', 'Delivery'],
+];
+export function returnDeliveryText(p: Product): string | undefined {
+ const terms = p.terms;
+ if (!terms) return undefined;
+ const lines = termLabels.flatMap(([key, label]) => {
+  const value = terms[key];
+  if (value) return [`${label}: ${value}`];
+  if (terms.unverified?.includes(key)) return [`${label}: Not documented`];
+  return [];
+ });
+ for (const note of terms.notes || []) lines.push(`Recorded note: ${note}`);
+ return lines.length ? lines.join('\n') : undefined;
+}
 export function specValue(p:Product,row:SpecRow):string|undefined{
+ if(row.id==='return-terms') return returnDeliveryText(p);
  if(row.id==='chiller'&&!p.attributes['Chiller included']){
   if(p.facets?.chiller?.includes('included-chiller'))return 'Included in the listed configuration';
   if(p.facets?.chiller?.includes('optional-chiller'))return 'Optional; not included in the listed configuration';

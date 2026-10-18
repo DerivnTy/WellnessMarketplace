@@ -4,7 +4,8 @@ import {createRequire} from 'node:module';
 import assert from 'node:assert/strict';
 const require=createRequire(import.meta.url);
 function compile(file){const code=ts.transpileModule(readFileSync(file,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;const module={exports:{}};new Function('require','module','exports',code)(require,module,module.exports);return module.exports;}
-const products=JSON.parse(readFileSync('data/catalog.json','utf8'));
+const tier1Ids=new Set(JSON.parse(readFileSync('research/tier1-catalog-2026-10-17.json','utf8')).products.map(p=>p.productId));
+const products=JSON.parse(readFileSync('data/catalog.json','utf8')).filter(p=>!tier1Ids.has(p.id));
 const record=JSON.parse(readFileSync('research/high-ticket-expansion-2026-10-17.json','utf8'));
 const ids=new Set(record.products.map(p=>p.productId)),added=products.filter(p=>ids.has(p.id));
 const {productSchema}=compile('lib/validation.ts');

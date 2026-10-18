@@ -1,7 +1,7 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
 import {ArrowRight,ChevronDown,ChevronUp,X} from 'lucide-react';
-import {Product,money} from '@/lib/catalog';
+import {Product,listedPrice} from '@/lib/catalog';
 import {comparisonHref,relatedBrowseHref} from '@/lib/comparison';
 import ProductImage from './ProductImage';
 
@@ -19,7 +19,7 @@ export default function ComparisonTray({products,onRemove,onClear,storageUnavail
   return()=>{desktop.removeEventListener('change',resize);node.close();Object.assign(body.style,previous);window.scrollTo({top:y,behavior:'instant'});if(trigger.current?.isConnected)trigger.current.focus({preventScroll:true});};
  },[drawerOpen]);
  const compareLabel=products.length>1?`Compare ${products.length} products`:'Review shortlist';
- const list=(drawer=false)=><ul id={drawer?'comparison-drawer-products':'comparison-tray-products'} className="comparison-tray-products">{products.map(p=><li key={p.id}><a href={'/product/'+p.id}><ProductImage src={p.image} alt="" sizes="56px"/><span><small>{p.brand}</small><strong>{p.name}</strong><b>{money(p.price)}</b></span></a><button type="button" aria-label={'Remove '+p.name+' from comparison'} onClick={()=>{onRemove(p.id);if(drawer)close.current?.focus({preventScroll:true});}}><X size={16}/></button></li>)}</ul>;
+ const list=(drawer=false)=><ul id={drawer?'comparison-drawer-products':'comparison-tray-products'} className="comparison-tray-products">{products.map(p=><li key={p.id}><a href={'/product/'+p.id}><ProductImage src={p.image} alt="" sizes="56px"/><span><small>{p.brand}</small><strong>{p.name}</strong><b>{listedPrice(p.price)}</b></span></a><button type="button" aria-label={'Remove '+p.name+' from comparison'} onClick={()=>{onRemove(p.id);if(drawer)close.current?.focus({preventScroll:true});}}><X size={16}/></button></li>)}</ul>;
  const actions=<div className="comparison-tray-actions"><a className="text-link" href={relatedBrowseHref(products[0])}>Add {products.length===1?'a similar product':'another product'}</a><a className="button dark" href={comparisonHref(products.map(p=>p.id))}>{compareLabel}<ArrowRight size={16}/></a></div>;
  return <>
   <aside ref={ref} className="research-compare-tray" aria-label="Comparison shortlist">
