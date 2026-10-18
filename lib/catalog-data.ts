@@ -10,6 +10,9 @@ export function normalizeProduct(product:Product):Product {
   const sameSource=original && original.source===product.source && original.ingredients===product.ingredients && original.name===product.name && original.category===category;
   const sameFacts=sameSource&&JSON.stringify(original.attributes)===JSON.stringify(product.attributes);
   return {...product,category,
+    // Add source-backed commerce terms to matching older database records.
+    // An explicit editorial value (including a cleared field) always wins.
+    terms:Object.prototype.hasOwnProperty.call(product,'terms')?product.terms:(sameFacts?original.terms:undefined),
     facets:category==='recovery'&&sameFacts&&product.facets&&Object.keys(product.facets).length>0?{...original.facets,...product.facets}:product.facets??(sameSource?original.facets:undefined),
     filters:sameSource?{...original.filters,...product.filters}:product.filters,
   };
