@@ -8,10 +8,13 @@ export default function ResearchHome({products,renderCard}:{products:Product[];r
  const count=(type:string)=>published.filter(p=>inSection(p,type)).length;
  return <div className="research-home">
   <section className="home-intro research-home-section" aria-labelledby="home-title">
-   <p className="eyebrow">WELLNESS MARKETPLACE</p>
+   <div className="home-intro-content">
+   <p className="eyebrow">INDEPENDENT EQUIPMENT RESEARCH</p>
    <h1 id="home-title">Discover equipment.<br/>Understand your options.</h1>
-   <p className="home-intro-copy">Explore recovery devices and home gym equipment you may not know, with practical details to help you choose.</p>
+   <p className="home-intro-copy">Find recovery devices and home gym equipment you may not know, and understand what matters before buying.</p>
    <div className="home-intro-actions"><a className="button dark" href="/category/recovery">Explore recovery equipment</a><a className="button light" href={recoveryHref('home-gym')}>Browse home gym equipment</a></div>
+   </div>
+   <aside className="home-catalog-anchor" aria-label="Recovery and home gym catalog"><div className="home-catalog-anchor-heading"><span>THE EQUIPMENT INDEX</span><span>Recovery &amp; home gym</span></div><div className="home-catalog-anchor-count"><strong>{published.filter(p=>p.category==='recovery').length}</strong><span>products to explore</span></div><p>Count reflects current published listings.</p></aside>
   </section>
   <section className="research-home-section home-equipment" aria-labelledby="home-equipment-title">
    <div className="home-section-heading"><h2 id="home-equipment-title">Explore recovery</h2><a href="/category/recovery">All recovery equipment</a></div>
