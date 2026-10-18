@@ -7,6 +7,7 @@ import Admin from './workspace';
 import MobileMenu from './mobile-menu';
 import CartPage from './cart-page';
 import ResearchHome from './ResearchHome';
+import EquipmentGuide from './EquipmentGuide';
 import {DiscoverPage,GuidesPage} from './DiscoveryPages';
 import {recoveryMenu,recoveryHref} from './recovery-sections';
 import {useCart} from './use-cart';
@@ -69,6 +70,7 @@ export default function Marketplace({path,initialQuery,products,assessments,trus
   let content;
   if(path==='')content=<ResearchHome products={products} renderCard={card}/>;
   else if(path==='discover')content=<DiscoverPage products={products} renderCard={card}/>;
+  else if(path.startsWith('guides/'))content=<EquipmentGuide slug={path.split('/')[1]} products={products}/>;
   else if(path==='guides')content=<GuidesPage/>;
   else if(path==='shop'||path==='search'||path.startsWith('category/')||path==='supplements'||path==='drinks'){
     content=<CatalogBrowser key={initialCategory+JSON.stringify(initialQuery)} products={products} category={initialCategory} query={initialQuery} renderCard={listingCard} onCategoryChange={setCategory}/>;

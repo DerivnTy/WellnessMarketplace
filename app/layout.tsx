@@ -11,6 +11,7 @@ import "./research-shopping.css";
 import "./listing.css";
 import "./research-refinement.css";
 import "./research-hub.css";
+import "./product-research.css";
 
 export const viewport: Viewport = {width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#ffffff"};
 

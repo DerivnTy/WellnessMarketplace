@@ -26,7 +26,11 @@ const badge = compile('components/BrandEvidenceBadge.tsx');
 const attribute = compile('components/AttributeValue.tsx');
 const image = compile('components/ProductImage.tsx', {'@/data/image-manifest.json': {default: manifest}});
 const card = compile('components/ProductCard.tsx', {'@/lib/catalog': catalogLib, '@/lib/browse': browse, '@/lib/card-facts': compile('lib/card-facts.ts', {'./documented': documented}), './BrandEvidenceBadge': badge, './ProductImage': image}).default;
+const research=compile('lib/product-research.ts',{'./catalog':catalogLib});
+const fact=compile('components/ResearchFact.tsx',{'@/lib/product-research':research});
+const researchPage=compile('components/EquipmentResearchPage.tsx',{'@/lib/product-research':research,'@/lib/browse':browse,'./ProductImage':image,'./BrandEvidenceBadge':badge,'./ResearchFact':fact});
 const details = compile('components/ProductDetails.tsx', {
+  './EquipmentResearchPage': researchPage,
   '@/lib/catalog': catalogLib,
   '@/lib/browse': browse,
   '@/lib/equipment': equipment,
@@ -110,8 +114,8 @@ const page = text(renderToStaticMarkup(React.createElement(details, {
   product: speed, products: catalog, saved: false, compared: false, cartDisabled: false,
   onSave() {}, onCompare() {}, onAddToCart() {}, renderCard: () => null,
 })));
-check(page.includes('Return and delivery terms'), 'product page shows the return and delivery row');
-check(page.includes('Return window: Not documented') && page.includes('Restocking fee: Not documented') && page.includes('Return shipping: Not documented'), 'product page renders unverified terms as Not documented');
+check(page.includes('Returns and policies'), 'product page shows the return and delivery row');
+check(page.includes('Return window Not documented') && page.includes('Restocking fee Not documented') && page.includes('Return shipping Not documented'), 'product page renders unverified terms as Not documented');
 check(page.includes('Warranty') && page.includes('Not documented'), 'missing warranty renders Not documented');
 check(page.includes('Brand evidence · Not scored'), 'unscored brand stays Not scored');
 check(page.includes('$6,999'), 'verified Speediance price is shown');

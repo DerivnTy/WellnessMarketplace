@@ -8,11 +8,13 @@ import type {TrustProfile,TrustSummary} from '@/lib/trust';
 import BrandEvidenceBadge from './BrandEvidenceBadge';
 import {ProductEvidence} from './trust-profile';
 import ReviewBoard from './review-board';
+import EquipmentResearchPage from './EquipmentResearchPage';
 import AttributeValue from './AttributeValue';
 import ProductImage from './ProductImage';
 import {ingredientRows,specText} from '@/lib/documented';
 type Props={product:Product;products:Product[];profile?:TrustProfile;summary?:TrustSummary;saved:boolean;compared:boolean;cartDisabled:boolean;onSave:()=>void;onCompare:()=>void;onAddToCart:()=>void;renderCard:(p:Product)=>ReactNode};
 export default function ProductDetails({product:p,products,profile,summary,saved,compared,cartDisabled,onSave,onCompare,onAddToCart,renderCard}:Props){
+ if(p.category==='recovery')return <EquipmentResearchPage product={p} summary={summary} compared={compared} onCompare={onCompare}/>;
  const equipment=p.category==='recovery',similar=products.filter(x=>x.type===p.type&&x.id!==p.id),sources=sourceLinks(p),ingredients=ingredientRows(p.ingredients);
  const rows=equipment?comparisonRows([p]):Object.keys(p.attributes).filter(k=>!p.attributes[k].startsWith('https://')).map(k=>({id:k,label:k,keys:[k]}));
  return <div className={'section product-detail-page '+(equipment?'equipment-detail':'')}>

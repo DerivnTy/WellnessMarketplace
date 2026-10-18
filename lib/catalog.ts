@@ -7,7 +7,9 @@ export type CommerceTerms = {
   unverified?: TermField[];
   notes?: string[];
 };
+export type ResearchField = {value?:string;status?:'documented'|'not-documented'|'not-applicable';sourceUrl?:string;checked?:string};
 export type Product = {
+  research?: {specs?: Record<string,ResearchField>;inStock?:boolean;stockSourceUrl?:string;stockChecked?:string};
   id: string; slug: string; name: string; brand: string; brandId: string;
   category: string; type: string; description: string; image: string;
   price?: number; qty: string; variant: string; servings?: number;

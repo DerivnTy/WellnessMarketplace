@@ -1,9 +1,10 @@
 'use client';
 
-import {useEffect, useState, useRef, type ReactNode, type Ref} from 'react';
+import {Fragment, useEffect, useState, useRef, type ReactNode, type Ref} from 'react';
 import {ChevronDown, Minus, Plus, X} from 'lucide-react';
 
 export type PreferenceFilterGroup = {
+  section?: string;
   id: string;
   label: string;
   options: {id: string; label: string; count?: number}[];
@@ -56,7 +57,7 @@ export default function PreferenceFilters({groups, activeFilters, onChange, onRe
     </div>
     <div className="filter-inner">
       {beforeGroups}
-      {groups.map(group => <FilterGroup key={group.id} group={group} selected={activeFilters[group.id] || []} onToggle={id => toggle(group.id, id)}/>)}
+      {groups.map((group,index) => <Fragment key={group.id}>{group.section&&group.section!==groups[index-1]?.section&&<h4 className="filter-section-label">{group.section}</h4>}<FilterGroup group={group} selected={activeFilters[group.id] || []} onToggle={id => toggle(group.id, id)}/></Fragment>)}
       {afterGroups}
     </div>
     {footer && <div className="mobile-filter-footer">{footer}</div>}

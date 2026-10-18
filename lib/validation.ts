@@ -7,6 +7,7 @@ export const productSchema=z.object({
   price:z.number().nonnegative().max(100000).optional(),qty:z.string().max(100),variant:z.string().max(150),servings:z.number().positive().optional(),
   source:httpsUrl,url:httpsUrl,checked:z.string().regex(/^\d{4}-\d{2}-\d{2}$/),available:z.boolean(),status:z.enum(['published','draft']),affiliate:z.literal(false),
   badges:z.array(z.string().max(80)).max(5),attributes:z.record(z.string().max(300)),ingredients:z.string().max(3000),filters:z.record(z.boolean()),facets:z.record(z.array(z.string().max(80)).max(30)).optional(),
+  research:z.object({specs:z.record(z.object({value:z.string().max(2000).optional(),status:z.enum(['documented','not-documented','not-applicable']).optional(),sourceUrl:httpsUrl.optional(),checked:z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional()})).optional(),inStock:z.boolean().optional(),stockSourceUrl:httpsUrl.optional(),stockChecked:z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional()}).optional(),
   terms:z.object({
     returnWindow:z.string().min(1).max(300).optional(),
     restockingFee:z.string().min(1).max(300).optional(),

@@ -1,3 +1,4 @@
+import {guideDefinitions} from './EquipmentGuide';
 import type {ReactNode} from 'react';
 import type {Product} from '@/lib/catalog';
 import {recoverySections,recoveryHref,inSection} from './recovery-sections';
@@ -20,5 +21,5 @@ export function DiscoverPage({products,renderCard}:{products:Product[];renderCar
  })}</div>;
 }
 export function GuidesPage(){
- return <div className="section guides-page"><header className="hub-page-heading"><p className="eyebrow">RESEARCH & EDUCATION</p><h1>Guides</h1><p>Practical reading to support your equipment research.</p></header><section className="guide-index" aria-labelledby="available-guides"><h2 id="available-guides">Research resources</h2><a href="/methodology"><h3>How Brand evidence works</h3><p>Read the scoring methodology, source requirements and limitations.</p></a><a href="/research"><h3>Evidence and consumer reviews</h3><p>Explore the existing brand research and its supporting sources.</p></a></section><div className="guides-status"><h2>Equipment guides</h2><p>No equipment guides have been published yet. Available articles will appear here.</p></div></div>;
+ return <div className="section guides-page"><header className="hub-page-heading"><p className="eyebrow">RESEARCH & EDUCATION</p><h1>Guides</h1><p>Practical reading to support your equipment research.</p></header><section className="guide-index" aria-labelledby="equipment-guides"><h2 id="equipment-guides">Equipment guides</h2>{guideDefinitions.map(guide=><a key={guide.slug} href={'/guides/'+guide.slug}><h3>{guide.title}</h3><p>Recorded specifications, ownership details and source links from the existing catalog.</p></a>)}</section><section className="guide-index" aria-labelledby="available-guides"><h2 id="available-guides">Research resources</h2><a href="/methodology"><h3>How Brand evidence works</h3><p>Read the scoring methodology, source requirements and limitations.</p></a><a href="/research"><h3>Evidence and consumer reviews</h3><p>Explore the existing brand research and its supporting sources.</p></a></section></div>;
 }

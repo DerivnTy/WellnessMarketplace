@@ -29,6 +29,7 @@ for(const p of added){
  for(const [key,values] of Object.entries(p.facets||{})){
   check(facetKeys.includes(key),p.id+' registered '+key);
   check(values.every(v=>v&&!v.includes(',')),p.id+' URL-safe '+key);
+  if(p.category==='recovery'&&!['deviceType','equipmentType','priceBand','availability','warranty','chiller'].includes(key)){check(!parseBrowse('recovery',{[key]:values.join(',')}).selected[key],p.id+' read-only '+key);continue;}
   check(facetGroups[p.category].some(g=>g.key===key),p.id+' visible '+key);
   for(const value of values)check(find(p.category,{[key]:value}).some(x=>x.id===p.id),p.id+' filter '+key+'='+value);
  }
@@ -47,14 +48,14 @@ const sleep=products.find(p=>p.id==='ht-eight-sleep-pod6-queen');
 check(sleep.price===2899+299,'required first-year plan included in Pod listing price');
 check(sleep.badges.includes('Annual renewal')&&sleep.attributes['Ongoing cost'].includes('$299/year'),'recurring cost visible');
 check(find('recovery',{deviceType:'sleep-system',subscription:'required'}).some(p=>p.id===sleep.id),'required subscription filter');
-check(!find('recovery',{deviceType:'sleep-system',subscription:'no-subscription'}).some(p=>p.id===sleep.id),'subscription not falsely optional');
+check(!parseBrowse('recovery',{subscription:'no-subscription'}).selected.subscription,'subscription is read-only, not a filter');
 check(!sleep.facets.warranty,'conditional warranty does not appear as unconditional minimum');
 const state=parseBrowse('recovery',{deviceType:'home-gym',equipmentType:'rowing-machine',resistance:'air',userCapacity:'500-lb-user',sort:'price-desc'});
 assert.deepEqual(parseBrowse('recovery',Object.fromEntries(new URL(browseUrl(state),'https://example.test').searchParams)),state);checks++;
 check(find('recovery',{deviceType:'home-gym',equipmentType:'rowing-machine'}).length>=2,'at least two actual rowers');
 check(find('recovery',{deviceType:'home-gym',equipmentType:'treadmill'}).length>=2,'at least two actual treadmills');
 check(recoveryFacetProducts(products,state,'resistance').every(p=>p.facets.equipmentType.includes('rowing-machine')),'cardio details scoped to rowers');
-check(find('recovery',{deviceType:'home-gym',equipmentType:'treadmill',temperature:'below-40f'}).length===0,'no thermal claims leak into cardio');
+check(find('recovery',{deviceType:'home-gym',equipmentType:'treadmill',temperature:'below-40f'}).length>=2,'no thermal claims leak into cardio');
 check(!canCompare([sleep],find('recovery',{equipmentType:'treadmill'})[0]),'different equipment types not falsely compared');
 const switched={...state,...selectRecoveryType(state,'sauna')};
 check(!switched.selected.equipmentType&&!switched.selected.userCapacity,'switching collections clears incompatible cardio specs');

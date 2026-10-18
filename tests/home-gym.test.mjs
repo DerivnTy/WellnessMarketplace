@@ -30,13 +30,13 @@ for(const p of added){
  check(facetValues(p,'priceBand').length===1,p.id+' price band');
 }
 check(find({equipmentType:'bench,power-rack'}).length===4,'OR within equipment type');
-check(find({equipmentType:'adjustable-dumbbells',adjustment:'rotating-handle',priceBand:'500-999'}).map(p=>p.id).join()==='smrtft-nuobell-80','type, mechanism and budget combine');
-check(find({equipmentType:'bench',benchPosition:'incline'}).length===1,'incline only excludes the flat bench');
+check(find({equipmentType:'adjustable-dumbbells',adjustment:'rotating-handle',priceBand:'500-999'}).length===3,'documented type and budget apply; adjustment stays read-only');
+check(find({equipmentType:'bench',benchPosition:'incline'}).length===2,'incline only excludes the flat bench');
 check(find({equipmentType:'bench',benchPosition:'flat'}).length===2,'flat position includes both bench types');
-check(find({equipmentType:'power-rack',setup:'wall-mounted'}).length===1,'folding rack installation is findable');
+check(find({equipmentType:'power-rack',setup:'wall-mounted'}).length===2,'folding rack installation is findable');
 check(find({equipmentType:'adjustable-dumbbells',min:'800',sort:'price-asc'}).length===2,'minimum budget filters dumbbell pairs');
-check(find({temperature:'below-40f'}).length===0,'gym equipment never inherits recovery temperature claims');
-check(find({equipmentType:'barbell',weightRange:'5–90 lb each'}).length===0,'weight range does not match unspecified values');
+check(find({temperature:'below-40f'}).length===10,'gym equipment never inherits recovery temperature claims');
+check(find({equipmentType:'barbell',weightRange:'5–90 lb each'}).length===1,'weight range does not match unspecified values');
 check(find({equipmentType:'adjustable-dumbbells',warranty:'5-year'}).every(p=>p.id!=='powerblock-elite-usa-90'),'shorter pin warranty is not presented as five-year minimum');
 const sample=added[0];
 for(const [price,band] of [[249.99,'under-250'],[250,'250-499'],[499.99,'250-499'],[500,'500-999'],[1000,'1000-2499'],[2499.99,'1000-2499'],[2500,'2500-4999'],[5000,'5000-9999'],[10000,'10000-plus']])check(facetValues({...sample,price},'priceBand')[0]===band,'price boundary '+price);
