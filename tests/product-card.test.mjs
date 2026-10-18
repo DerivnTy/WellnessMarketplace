@@ -13,9 +13,10 @@ function compile(file,imports={}){
  return module.exports;
 }
 const catalog=compile('lib/catalog.ts'),browse=compile('lib/browse.ts');
+const facts=compile('lib/card-facts.ts',{'./documented':compile('lib/documented.ts')});
 const badge=compile('components/BrandEvidenceBadge.tsx');
 const image={default:(props)=>React.createElement('img',{src:props.src,alt:props.alt||''})};
-const card=compile('components/ProductCard.tsx',{'@/lib/catalog':catalog,'@/lib/browse':browse,'./BrandEvidenceBadge':badge,'./ProductImage':image}).default;
+const card=compile('components/ProductCard.tsx',{'@/lib/catalog':catalog,'@/lib/browse':browse,'@/lib/card-facts':facts,'./BrandEvidenceBadge':badge,'./ProductImage':image}).default;
 const preference=compile('components/PreferenceFilters.tsx').default;
 const seed=JSON.parse(readFileSync('data/catalog.json','utf8'));
 let checks=0;

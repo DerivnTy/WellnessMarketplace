@@ -1,7 +1,7 @@
 'use client';
 
 import {useState, type ReactNode, type Ref} from 'react';
-import {Minus, Plus, X} from 'lucide-react';
+import {ChevronDown, Minus, Plus, X} from 'lucide-react';
 
 export type PreferenceFilterGroup = {
   id: string;
@@ -22,6 +22,19 @@ type Props = {
   onClose?: () => void;
   panelRef?: Ref<HTMLElement>;
 };
+
+export function FilterSection({label, children, className = '', defaultOpen = true}: {label: ReactNode; children: ReactNode; className?: string; defaultOpen?: boolean}) {
+  const [open, setOpen] = useState(defaultOpen);
+  return <fieldset className={'facet-block ' + className}>
+    <legend>
+      <button type="button" className="facet-toggle" aria-expanded={open} onClick={() => setOpen(value => !value)}>
+        <span className="facet-toggle-label">{label}</span>
+        <ChevronDown size={16} aria-hidden="true"/>
+      </button>
+    </legend>
+    <div className="facet-panel" hidden={!open}>{children}</div>
+  </fieldset>;
+}
 
 export default function PreferenceFilters({groups, activeFilters, onChange, onReset, beforeGroups, afterGroups, footer, mobileOpen = false, onClose, panelRef}: Props) {
   const toggle = (group: string, option: string) => {
@@ -54,8 +67,7 @@ function FilterGroup({group, selected, onToggle}: {group: PreferenceFilterGroup;
   // Keep selected options visible even when a long group is collapsed.
   const visible = expanded ? group.options : group.options.filter((option, index) => index < 7 || selected.includes(option.id));
   const hidden = group.options.length - visible.length;
-  return <fieldset className="facet-block">
-    <legend>{group.label}</legend>
+  return <FilterSection label={group.label}>
     {visible.map(option => {
       const checked = selected.includes(option.id);
       const unavailable = option.count === 0 && !checked;
@@ -69,5 +81,5 @@ function FilterGroup({group, selected, onToggle}: {group: PreferenceFilterGroup;
       {expanded ? 'Show less' : `Show ${hidden} more`}{expanded ? <Minus size={12}/> : <Plus size={12}/>}
     </button>}
     {group.hint && <p className="facet-hint">{group.hint}</p>}
-  </fieldset>;
+  </FilterSection>;
 }
