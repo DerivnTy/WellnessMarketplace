@@ -19,7 +19,7 @@ check(added.length===10&&products.length===118,'10 new products, 118 total');
 for(const [type,count] of Object.entries({'adjustable-dumbbells':3,'power-rack':2,bench:2,barbell:1,'weight-plates':1,'functional-trainer':1}))check(find({equipmentType:type}).length===count,type+' coverage');
 for(const p of added){
  check(productSchema.safeParse(p).success,p.id+' schema');
- check(existsSync('public'+p.image),p.id+' real local product image');
+ check(existsSync('assets/product-sources/'+p.image.split('/').pop()),p.id+' real local product image');
  check(p.price>0&&p.checked==='2026-10-17'&&p.source.startsWith('https://'),p.id+' dated price source');
  check(p.affiliate===false&&!('score' in p)&&!('trustScore' in p),p.id+' no invented tracking or evidence');
  check(p.filters.indoor===true&&p.facets.placement.includes('indoor'),p.id+' indoor use');

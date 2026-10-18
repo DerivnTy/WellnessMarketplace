@@ -5,6 +5,7 @@ import {money, type Product} from '@/lib/catalog';
 import type {TrustSummary} from '@/lib/trust';
 import {isMadeInUSA} from '@/lib/browse';
 import BrandEvidenceBadge from './BrandEvidenceBadge';
+import ProductImage from './ProductImage';
 
 type Props = {
   product: Product;
@@ -21,7 +22,7 @@ export default function ProductCard({product: p, evidence, saved, compared, cart
   const badges = Array.from(new Set([...(isMadeInUSA(p) ? ['Made in USA · Brand statement'] : []), ...p.badges])).slice(0, 3);
   return <article className={"product-card "+(p.category==='recovery'?'equipment-card':'')}>
     <div className="product-visual">
-      <a href={'/product/' + p.id} aria-label={`View ${p.brand} ${p.name}`}><img src={p.image} alt={`${p.brand} ${p.name}`} loading="lazy"/></a>
+      <a href={'/product/' + p.id} aria-label={`View ${p.brand} ${p.name}`}><ProductImage src={p.image} alt={`${p.name}, ${p.brand}`}/></a>
       <button type="button" className={'save-button ' + (saved ? 'selected' : '')} aria-label={`${saved ? 'Unsave' : 'Save'} ${p.name}`} aria-pressed={saved} onClick={() => onSave(p.id)}><Heart size={17} fill={saved ? 'currentColor' : 'none'}/></button>
       {!p.available && <span className="image-label">Check availability</span>}
     </div>

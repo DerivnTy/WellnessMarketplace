@@ -11,7 +11,7 @@ const {productSchema}=compile('lib/validation.ts');
 const {normalizeProduct}=compile('lib/catalog-data.ts',{'@/data/catalog.json':{default:seed},'./validation':{productSchema}});
 const {parseBrowse,browseUrl,filterProducts,matches,caffeineBand}=compile('lib/browse.ts');
 let checks=0;const check=(value,label)=>{assert.ok(value,label);checks++;};
-for(const p of seed){productSchema.parse(p);check(existsSync('public'+p.image),'local image '+p.id);check(p.affiliate===false,'no implied affiliate');}
+for(const p of seed){productSchema.parse(p);check(existsSync('assets/product-sources/'+p.image.split('/').pop()),'local image '+p.id);check(p.affiliate===false,'no implied affiliate');}
 check(seed.length===86,'86 products');check(new Set(seed.map(p=>p.id)).size===86,'unique IDs');check(new Set(seed.map(p=>p.brandId)).size===56,'56 brands');
 const find=(category,query={})=>filterProducts(seed,parseBrowse(category,query));
 check(find('supplements').length===44,'supplement total');check(find('drinks').length===21,'drink total');check(find('apparel').length===15,'apparel total');

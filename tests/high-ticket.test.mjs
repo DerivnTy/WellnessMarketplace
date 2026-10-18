@@ -18,7 +18,7 @@ check(new Set(products.map(p=>p.id)).size===products.length,'all catalog IDs uni
 check(record.affiliateTrackingLinksInstalled===0,'no approved affiliate links represented as installed');
 for(const p of added){
  check(productSchema.safeParse(p).success,p.id+' schema');
- check(existsSync('public'+p.image),p.id+' real image');
+ check(existsSync('assets/product-sources/'+p.image.split('/').pop()),p.id+' real image');
  check(p.price>0&&Number.isFinite(p.price)&&p.checked==='2026-10-17',p.id+' dated real price');
  check(p.affiliate===false&&!('score'in p)&&!('trustScore'in p),p.id+' no invented commission or score');
  check(p.badges.length>=2&&p.badges.length<=4,p.id+' useful badges');

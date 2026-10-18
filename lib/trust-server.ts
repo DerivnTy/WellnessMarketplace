@@ -10,8 +10,22 @@ import {trustSchema} from './trust-validation';
 import {trustScore,type TrustProfile,type TrustHistory,type StoredReview} from './trust';
 import {setting} from './server';
 import {settings} from '@/db/schema';
+function profilesFromFiles(includeDrafts:boolean):TrustProfile[]{
+ const byId=new Map<string,TrustProfile>();
+ for(const raw of seed){const profile=trustSchema.parse(raw);byId.set(profile.brandId,profile);}
+ for(const wave of [updates,expansion,registry]){
+  for(const raw of wave){
+   const next=trustSchema.parse(raw),current=byId.get(next.brandId),baseline=seed.find(item=>item.brandId===next.brandId);
+   const state=researchUpdateState(current?{data:JSON.stringify(current),status:current.status}:undefined,baseline?trustSchema.parse(baseline):undefined,next);
+   if(state==='insert'||state==='update')byId.set(next.brandId,next);
+  }
+ }
+ return [...byId.values()].filter(profile=>includeDrafts||profile.status==='published');
+}
+function database(){try{return getDb();}catch(error){if(error instanceof Error&&error.message.includes('D1 binding'))return null;throw error;}}
 export async function trustProfilesList(includeDrafts=false):Promise<TrustProfile[]> {
- const db=getDb();
+ const db=database();
+ if(!db)return profilesFromFiles(includeDrafts);
  if(seed.length&&!await setting('trust-profiles-v2-initial')){
   const profiles=seed.map(p=>trustSchema.parse(p));
   for(let i=0;i<profiles.length;i+=10){
@@ -41,7 +55,9 @@ export async function trustProfilesList(includeDrafts=false):Promise<TrustProfil
  return (await db.select().from(trustProfiles)).filter(r=>includeDrafts||r.status==='published').map(r=>({...JSON.parse(r.data),status:r.status}));
 }
 export async function trustHistory(brandId:string):Promise<TrustHistory[]> {
- return (await getDb().select().from(trustVersions).where(eq(trustVersions.brandId,brandId)).orderBy(desc(trustVersions.created))).flatMap(r=>{const p=JSON.parse(r.data) as TrustProfile;return p.status==='published'?[{id:r.id,brandId:r.brandId,created:r.created,note:p.changeNote,score:trustScore(p,p.reviewed).score,version:p.version,reviewer:p.reviewer}]:[];}).slice(0,20);
+ const db=database();
+ if(!db)return [];
+ return (await db.select().from(trustVersions).where(eq(trustVersions.brandId,brandId)).orderBy(desc(trustVersions.created))).flatMap(r=>{const p=JSON.parse(r.data) as TrustProfile;return p.status==='published'?[{id:r.id,brandId:r.brandId,created:r.created,note:p.changeNote,score:trustScore(p,p.reviewed).score,version:p.version,reviewer:p.reviewer}]:[];}).slice(0,20);
 }
 export async function brandReviewRows(brandId:string):Promise<StoredReview[]> {return getDb().select().from(consumerReviews).where(eq(consumerReviews.brandId,brandId)).orderBy(desc(consumerReviews.updated));}
 export async function reviewId(userId:string,brandId:string,productId:string|null){const bytes=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(JSON.stringify([userId,brandId,productId])));return Array.from(new Uint8Array(bytes)).map(b=>b.toString(16).padStart(2,'0')).join('');}

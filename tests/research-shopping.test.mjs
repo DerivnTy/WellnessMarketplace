@@ -44,17 +44,18 @@ check(normalize(old).facets.chiller[0]==='included-chiller','existing database l
 check(!normalize({...old,attributes:{...old.attributes,'Power requirements':'Editorial correction pending'}}).facets.powerGroup,'edited facts do not receive stale taxonomy');
 check(Object.keys(normalize({...old,facets:{}}).facets).length===0,'explicitly cleared recovery taxonomy is preserved');
 check(normalize({...old,facets:{...old.facets,chiller:[]}}).facets.chiller.length===0,'explicit editorial exclusion is preserved');
-const Page=compile('components/ComparisonPage.tsx',{'@/lib/catalog':catalog,'@/lib/equipment':equipment,'@/lib/comparison':comparison,'./BrandEvidenceBadge':badge}).default;
+const image={default:(props)=>React.createElement('img',{src:props.src,alt:props.alt||''})};
+const Page=compile('components/ComparisonPage.tsx',{'@/lib/catalog':catalog,'@/lib/equipment':equipment,'@/lib/comparison':comparison,'./BrandEvidenceBadge':badge,'./ProductImage':image}).default;
 const html=renderToStaticMarkup(React.createElement(Page,{selected:[p,q],products,onChange(){},summaries:[],ready:true}));
-for(const text of ['Not documented','Brand evidence · Not scored','Dimensions','Power requirements','Warranty','Temperature range','Clear comparison','Show differences only','Remove '+p.name])check(html.includes(text),'comparison renders '+text);
-const Tray=compile('components/ComparisonTray.tsx',{'@/lib/catalog':catalog,'@/lib/comparison':comparison}).default;
+for(const text of ['Not documented','Brand evidence Not scored','Dimensions','Power requirements','Warranty','Temperature range','Clear comparison','Show differences only','Remove '+p.name])check(html.includes(text),'comparison renders '+text);
+const Tray=compile('components/ComparisonTray.tsx',{'@/lib/catalog':catalog,'@/lib/comparison':comparison,'./ProductImage':image}).default;
 const tray=renderToStaticMarkup(React.createElement(Tray,{products:[p,q],onRemove(){},onClear(){},storageUnavailable:false}));
 for(const value of [p.name,q.name,catalog.money(p.price),p.image,'Clear all','Remove '+p.name+' from comparison'])check(tray.includes(value),'persistent tray contains '+value);
 check(equipment.comparisonRows([p,q]).some(r=>r.id==='chiller'),'plunges include an explicit chiller comparison row');
 check(equipment.specValue(p,equipment.recoverySpecs.find(r=>r.id==='chiller'))==='Included in the listed configuration','documented chiller inclusion is exposed');
 check(equipment.specValue({...p,facets:{}},equipment.recoverySpecs.find(r=>r.id==='chiller'))===undefined,'missing chiller data remains unknown');
 for(const value of ['aria-haspopup="dialog"','aria-labelledby="comparison-drawer-title"','View shortlist'])check(tray.includes(value),'mobile shortlist renders '+value);
-const Discovery=compile('components/RecoveryDiscovery.tsx').default;
+const Discovery=compile('components/RecoveryDiscovery.tsx',{'./ProductImage':image}).default;
 const discovery=renderToStaticMarkup(React.createElement(Discovery,{products}));
 for(const [id,count] of [['home-gym',26],['cold-plunge',12],['sauna',11],['massage-chair',8]]){
  check(discovery.includes('deviceType='+id),'discovery opens the correct equipment filter '+id);

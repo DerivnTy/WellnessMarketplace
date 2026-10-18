@@ -4,6 +4,7 @@ import {useLayoutEffect, useRef, type ReactNode} from 'react';
 import {ArrowDown, ArrowUpRight} from 'lucide-react';
 import type {Product} from '@/lib/catalog';
 import {MotionToggle, usePageMotion} from './home-motion';
+import ProductImage from './ProductImage';
 
 const departmentCopy: Record<string, {eyebrow: string; title: string; description: string; images: string[]; detail: string}> = {
   supplements: {
@@ -45,7 +46,7 @@ export function DepartmentHero({category, products}: {category: string; products
       <div className="department-plinth"/>
       <div className="department-images">{copy.images.flatMap(id => {
         const product = products.find(p => p.id === id);
-        return product ? [<img src={product.image} alt="" key={id}/>] : [];
+        return product ? [<ProductImage src={product.image} alt={`${product.name}, ${product.brand}`} key={id} sizes="(max-width: 760px) 40vw, 180px"/>] : [];
       })}</div>
       <span className="department-stage-caption">{copy.detail}</span>
     </div>

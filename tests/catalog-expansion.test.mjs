@@ -19,7 +19,7 @@ check(products.length>=108&&new Set(products.map(p=>p.id)).size===products.lengt
 for(const [category,count] of Object.entries({recovery:10,apparel:4,supplements:4,drinks:3,nutrition:1}))check(added.filter(p=>p.category===category).length===count,category+' expansion count');
 for(const p of added){
  check(productSchema.safeParse(p).success,p.id+' valid schema');
- check(existsSync('public'+p.image),p.id+' local image');
+ check(existsSync('assets/product-sources/'+p.image.split('/').pop()),p.id+' local image');
  check(p.price>0&&p.checked==='2026-10-17',p.id+' dated nonzero price');
  check(p.affiliate===false,p.id+' no invented affiliate relationship');
  check(!('score'in p)&&!('trustScore'in p),p.id+' no invented score');
